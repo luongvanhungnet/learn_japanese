@@ -69,10 +69,8 @@
 .answer-value { justify-content: space-between; gap: 10px; overflow-wrap: anywhere; font-size: calc(13px * var(--scale)); line-height: 1.4; }
 .answer-correct { border: 1px solid #7ab796; background: #f0f9f1; color: #256e52; font-weight: 700; }
 .answer-correct span { color: #43a275; }
-.answer-revealed { border: 1px solid #e6c698; background: #fff8ed; color: #8e6132; }
-.mini-link { border: 0; padding: 2px; background: none; color: #a65d3f; font-size: 10px; font-weight: 700; white-space: nowrap; text-decoration: underline; }
 .cell-unavailable { display: block; padding-left: 12px; color: #ccd1cc; }
-.practice-form { padding: 5px; border: 1px solid #d89c83; border-radius: 7px; background: #fffaf7; box-shadow: 0 3px 12px rgba(80,47,35,.08); }
+.practice-form { position: relative; padding: 5px; border: 1px solid #d89c83; border-radius: 7px; background: #fffaf7; box-shadow: 0 3px 12px rgba(80,47,35,.08); }
 .practice-form.input-error { border-color: #d4675b; }
 .input-line { display: flex; gap: 3px; }
 .input-line input { width: 100%; min-width: 0; border: 0; padding: 7px 5px; outline: 0; color: #293739; background: transparent; font-size: calc(13px * var(--scale)); }
@@ -80,7 +78,9 @@
 .check-button { min-width: 27px; border: 0; border-radius: 5px; background: #d76d52; color: white; font-weight: 800; }
 .cell-tools { display: flex; gap: 8px; margin-top: 5px; }
 .cell-tools button { border: 0; padding: 1px 0; background: transparent; color: #a26950; font-size: 10px; font-weight: 700; }
+.cell-tools kbd { margin-left: 2px; color: #a59588; font-family: inherit; font-size: 9px; font-weight: 500; }
 .cell-tools button:last-child { margin-left: auto; color: #9aa1a0; }
+.answer-preview { position: absolute; inset: 0; z-index: 1; display: flex; align-items: center; padding: 8px 12px; border: 1px solid #d7af75; border-radius: 7px; background: #fff4dd; color: #78522c; font-size: calc(13px * var(--scale)); font-weight: 700; line-height: 1.35; overflow-wrap: anywhere; pointer-events: none; }
 .hint-line, .error-line { display: block; margin-top: 5px; font-size: 10px; }
 .hint-line { color: #9a7759; }
 .error-line { color: #c35449; }

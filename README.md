@@ -22,8 +22,8 @@ npm run preview
 ## Cách học
 
 - Chọn N3 hoặc N2. Hai cột số thứ tự và từ vựng luôn hiện khi cuộn ngang.
-- Mở một ô ở ba cột còn lại, nhập rồi nhấn Enter hoặc nút ↵. Đúng sẽ có viền xanh.
-- **Hint+** hiện dần đáp án từ trái sang phải. **Đáp án** cho xem mà không tính là làm đúng.
+- Mở một ô ở ba cột còn lại, nhập rồi nhấn Enter hoặc nút ↵. Đúng sẽ có viền xanh và con trỏ chuyển xuống ô chưa làm tiếp theo cùng cột. Sai sẽ xóa nội dung vừa nhập, báo lỗi và giữ con trỏ ở ô đó.
+- **Hint+** (Alt+A) hiện dần đáp án từ trái sang phải. **Đáp án** (Alt+S) hiện ngay trên ô đang nhập trong 1 giây rồi tự ẩn; con trỏ vẫn ở ô đó và việc xem không tính là làm đúng.
 - Chỉ khi gửi câu sai, ô mới vào **Khắc phục lỗi**. Phải nhập đúng ô đó ở chế độ này để xóa lỗi.
 - Thanh **Thu phóng** đổi kích thước bảng. **Tổng quan** hiển thị toàn bộ từ trên một bản đồ vừa màn hình; chọn một ô để quay lại hàng đó.
 - **Tập trung** chỉ hiện từ vựng và một cột luyện tập. Chọn **Cách đọc**, **Hán Việt** hoặc **Ngữ nghĩa** ở thanh nhỏ phía trên; chiều rộng cột từ vựng tự thay đổi theo từng từ. Dùng **Danh sách đầy đủ** để quay lại bảng.

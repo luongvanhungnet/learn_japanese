@@ -1,11 +1,8 @@
-import { memo, useCallback, useEffect, useMemo, useState } from 'react'
+import { memo, useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import type { FormEvent } from 'react'
 import n2Data from './data/n2.json'
 import n3Data from './data/n3.json'
-import {
-  clearReveal, hintPrefix, isCorrect, nextHint,
-  parseProgress, revealAnswer, submitAnswer,
-} from './learning'
+import { hintPrefix, isCorrect, nextHint, parseProgress, submitAnswer } from './learning'
 import type { CellProgress, Field, Mode, Progress } from './learning'
 import './App.css'
 
@@ -51,38 +48,37 @@ type CellProps = {
   focus?: boolean
   onSubmit: (key: string, input: string, correct: boolean) => void
   onHint: (key: string, answer: string) => void
-  onReveal: (key: string) => void
-  onRetry: (key: string) => void
 }
 
 const PracticeCell = memo(function PracticeCell({
-  entry, field, status, mode, focus = false, onSubmit, onHint, onReveal, onRetry,
+  entry, field, status, mode, focus = false, onSubmit, onHint,
 }: CellProps) {
   const [editing, setEditing] = useState(false)
   const [draft, setDraft] = useState('')
   const [error, setError] = useState(false)
+  const [preview, setPreview] = useState(false)
+  const inputRef = useRef<HTMLInputElement>(null)
+  const previewTimer = useRef<number | null>(null)
+  useEffect(() => () => { if (previewTimer.current !== null) window.clearTimeout(previewTimer.current) }, [])
   const key = `${entry.id}:${field}`
   const answer = getAnswer(entry, field)
   const unavailable = !answer
   const hiddenInReview = mode === 'review' && !status?.unresolved
   const solved = Boolean(status?.solved && !(mode === 'review' && status.unresolved))
-  const revealed = Boolean(status?.revealed && mode === 'study')
   const hint = hintPrefix(answer, status?.hints ?? 0)
   const targetLabel = focus ? entry.headword : `từ số ${entry.order}`
+  const showAnswer = () => {
+    if (previewTimer.current !== null) window.clearTimeout(previewTimer.current)
+    setPreview(true)
+    previewTimer.current = window.setTimeout(() => { setPreview(false); previewTimer.current = null }, 1000)
+    inputRef.current?.focus({ preventScroll: true })
+  }
 
   if (unavailable || hiddenInReview) {
     return <span className="cell-unavailable" aria-label={unavailable ? 'Không có âm Hán Việt' : 'Không có lỗi cần ôn'}>—</span>
   }
   if (solved) {
     return <div className="answer-value answer-correct" title={getAccepted(entry, field).join(' · ')}>{status?.answer || answer}<span aria-hidden="true">✓</span></div>
-  }
-  if (revealed && !editing) {
-    return (
-      <div className="answer-value answer-revealed">
-        <span>{field === 'meaning' ? entry.meanings.join(', ') : answer}</span>
-        <button type="button" className="mini-link" onClick={() => { onRetry(key); setEditing(true) }}>Thử lại</button>
-      </div>
-    )
   }
   if (!editing) {
     return (
@@ -99,27 +95,38 @@ const PracticeCell = memo(function PracticeCell({
     if (correct) {
       setEditing(false)
       setDraft('')
+    } else {
+      setDraft('')
+      inputRef.current?.focus({ preventScroll: true })
     }
   }
   return (
     <form className={`practice-form ${error ? 'input-error' : ''}`} onSubmit={handleSubmit}>
       <div className="input-line">
         <input
+          ref={inputRef}
           autoFocus
           aria-label={`${labels[field]} cho ${targetLabel}`}
           value={draft}
           onChange={(event) => { setDraft(event.target.value); setError(false) }}
+          onKeyDown={(event) => {
+            if (!event.altKey || event.ctrlKey || event.metaKey) return
+            const shortcut = event.key.toLowerCase()
+            if (shortcut === 'a') { event.preventDefault(); onHint(key, answer) }
+            if (shortcut === 's') { event.preventDefault(); showAnswer() }
+          }}
           placeholder={field === 'reading' ? 'Nhập kana…' : field === 'hanViet' ? 'Nhập âm Hán Việt…' : 'Nhập một nghĩa…'}
         />
         <button type="submit" className="check-button" aria-label="Kiểm tra đáp án">↵</button>
       </div>
       <div className="cell-tools">
-        <button type="button" onClick={() => onHint(key, answer)}>Hint+</button>
-        <button type="button" onClick={() => { onReveal(key); setEditing(false) }}>Đáp án</button>
+        <button type="button" onMouseDown={(event) => event.preventDefault()} onClick={() => { onHint(key, answer); inputRef.current?.focus({ preventScroll: true }) }}>Hint+ <kbd>Alt+A</kbd></button>
+        <button type="button" onMouseDown={(event) => event.preventDefault()} onClick={showAnswer}>Đáp án <kbd>Alt+S</kbd></button>
         <button type="button" onClick={() => { setEditing(false); setError(false) }}>Đóng</button>
       </div>
       {hint && <span className="hint-line">Gợi ý: {hint}</span>}
-      {error && <span className="error-line" role="alert">Chưa đúng. Ô này đã vào danh sách cần ôn.</span>}
+      {error && <span className="error-line" role="alert">Chưa đúng. Hãy thử lại; ô này đã vào danh sách cần ôn.</span>}
+      {preview && <div className="answer-preview" role="status">{field === 'meaning' ? entry.meanings.join(', ') : answer}</div>}
     </form>
   )
 })
@@ -132,12 +139,10 @@ type RowProps = {
   meaning?: CellProgress
   onSubmit: CellProps['onSubmit']
   onHint: CellProps['onHint']
-  onReveal: CellProps['onReveal']
-  onRetry: CellProps['onRetry']
 }
 
 const VocabularyRow = memo(function VocabularyRow({
-  entry, mode, reading, hanViet, meaning, onSubmit, onHint, onReveal, onRetry,
+  entry, mode, reading, hanViet, meaning, onSubmit, onHint,
 }: RowProps) {
   const statuses = { reading, hanViet, meaning }
   return (
@@ -145,8 +150,8 @@ const VocabularyRow = memo(function VocabularyRow({
       <th scope="row" className="number-cell">{String(entry.order).padStart(3, '0')}</th>
       <td className="word-cell"><span lang="ja">{entry.headword}</span></td>
       {fields.map((field) => (
-        <td key={field} className={`practice-cell practice-${field}`}>
-          <PracticeCell entry={entry} field={field} status={statuses[field]} mode={mode} onSubmit={onSubmit} onHint={onHint} onReveal={onReveal} onRetry={onRetry} />
+        <td key={field} id={`practice-${entry.id}:${field}`} className={`practice-cell practice-${field}`}>
+          <PracticeCell entry={entry} field={field} status={statuses[field]} mode={mode} onSubmit={onSubmit} onHint={onHint} />
         </td>
       ))}
     </tr>
@@ -197,6 +202,7 @@ function App() {
   const [zoom, setZoom] = useState(100)
   const [overview, setOverview] = useState(false)
   const [jumpTarget, setJumpTarget] = useState<number | null>(null)
+  const advanceFromRef = useRef<string | null>(null)
   const [progress, setProgress] = useState<Progress>(() => {
     try { return parseProgress(window.localStorage.getItem(storageKey)) } catch { return {} }
   })
@@ -216,13 +222,32 @@ function App() {
   const entries = collections[level]
   const unresolved = useMemo(() => Object.entries(progress).filter(([key, value]) => key.startsWith(level.toLowerCase() + ':') && value.unresolved).length, [progress, level])
   const visible = useMemo(() => mode === 'study' ? entries : entries.filter((entry) => fields.some((field) => progress[`${entry.id}:${field}`]?.unresolved)), [entries, mode, progress])
+  useEffect(() => {
+    const advanceFrom = advanceFromRef.current
+    if (!advanceFrom) return
+    advanceFromRef.current = null
+    const separator = advanceFrom.lastIndexOf(':')
+    const source = entries.find((entry) => entry.id === advanceFrom.slice(0, separator))
+    const field = advanceFrom.slice(separator + 1)
+    if (source) {
+      for (const entry of entries) {
+        if (entry.order <= source.order) continue
+        const cell = document.getElementById(`practice-${entry.id}:${field}`)
+        const input = cell?.querySelector<HTMLInputElement>('input')
+        const button = cell?.querySelector<HTMLButtonElement>('button.concealed-cell')
+        if (input) { input.focus(); break }
+        if (button) { button.click(); break }
+      }
+    }
+  }, [entries, visible, focused, focusField, progress])
   const totalCells = useMemo(() => entries.reduce((sum, entry) => sum + fields.filter((field) => getAnswer(entry, field)).length, 0), [entries])
   const solvedCells = useMemo(() => entries.reduce((sum, entry) => sum + fields.filter((field) => getAnswer(entry, field) && progress[`${entry.id}:${field}`]?.solved).length, 0), [entries, progress])
   const completedPercent = Math.round((solvedCells / totalCells) * 100)
-  const onSubmit = useCallback((key: string, input: string, correct: boolean) => setProgress((old) => submitAnswer(old, key, correct, mode, input)), [mode])
+  const onSubmit = useCallback((key: string, input: string, correct: boolean) => {
+    setProgress((old) => submitAnswer(old, key, correct, mode, input))
+    if (correct) advanceFromRef.current = key
+  }, [mode])
   const onHint = useCallback((key: string, answer: string) => setProgress((old) => nextHint(old, key, answer)), [])
-  const onReveal = useCallback((key: string) => setProgress((old) => revealAnswer(old, key)), [])
-  const onRetry = useCallback((key: string) => setProgress((old) => clearReveal(old, key)), [])
   const jump = (order: number) => { setMode('study'); setOverview(false); setJumpTarget(order) }
 
   if (focused) {
@@ -241,8 +266,8 @@ function App() {
           {entries.map((entry) => (
             <div className="focus-row" key={entry.id} role="group" aria-label={`Từ ${entry.headword}`}>
               <span className="focus-word" lang="ja">{entry.headword}</span>
-              <div className="focus-practice">
-                <PracticeCell entry={entry} field={focusField} status={progress[`${entry.id}:${focusField}`]} mode="study" focus onSubmit={onSubmit} onHint={onHint} onReveal={onReveal} onRetry={onRetry} />
+              <div className="focus-practice" id={`practice-${entry.id}:${focusField}`}>
+                <PracticeCell entry={entry} field={focusField} status={progress[`${entry.id}:${focusField}`]} mode="study" focus onSubmit={onSubmit} onHint={onHint} />
               </div>
             </div>
           ))}
@@ -283,7 +308,7 @@ function App() {
             <div className="empty-state"><span>✓</span><h2>Không còn lỗi cần ôn</h2><p>Những ô bạn nhập sai sẽ xuất hiện ở đây cho đến khi làm đúng lại.</p><button type="button" onClick={() => setMode('study')}>Quay lại danh sách</button></div>
           ) : (
             <div key={`${level}-${mode}`} className="table-viewport" style={{ '--scale': zoom / 100 } as React.CSSProperties}>
-              <table className="vocab-table"><thead><tr><th scope="col" className="number-cell">STT</th><th scope="col" className="word-cell">Từ vựng</th><th scope="col">Cách đọc <small>ひらがな / カタカナ</small></th><th scope="col">Hán Việt</th><th scope="col">Ngữ nghĩa</th></tr></thead><tbody>{visible.map((entry) => <VocabularyRow key={entry.id} entry={entry} mode={mode} reading={progress[`${entry.id}:reading`]} hanViet={progress[`${entry.id}:hanViet`]} meaning={progress[`${entry.id}:meaning`]} onSubmit={onSubmit} onHint={onHint} onReveal={onReveal} onRetry={onRetry} />)}</tbody></table>
+              <table className="vocab-table"><thead><tr><th scope="col" className="number-cell">STT</th><th scope="col" className="word-cell">Từ vựng</th><th scope="col">Cách đọc <small>ひらがな / カタカナ</small></th><th scope="col">Hán Việt</th><th scope="col">Ngữ nghĩa</th></tr></thead><tbody>{visible.map((entry) => <VocabularyRow key={entry.id} entry={entry} mode={mode} reading={progress[`${entry.id}:reading`]} hanViet={progress[`${entry.id}:hanViet`]} meaning={progress[`${entry.id}:meaning`]} onSubmit={onSubmit} onHint={onHint} />)}</tbody></table>
             </div>
           )}
         </section>
