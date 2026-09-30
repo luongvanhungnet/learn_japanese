@@ -48,6 +48,7 @@ type CellProps = {
   field: Field
   status?: CellProgress
   mode: Mode
+  focus?: boolean
   onSubmit: (key: string, input: string, correct: boolean) => void
   onHint: (key: string, answer: string) => void
   onReveal: (key: string) => void
@@ -55,7 +56,7 @@ type CellProps = {
 }
 
 const PracticeCell = memo(function PracticeCell({
-  entry, field, status, mode, onSubmit, onHint, onReveal, onRetry,
+  entry, field, status, mode, focus = false, onSubmit, onHint, onReveal, onRetry,
 }: CellProps) {
   const [editing, setEditing] = useState(false)
   const [draft, setDraft] = useState('')
@@ -67,6 +68,7 @@ const PracticeCell = memo(function PracticeCell({
   const solved = Boolean(status?.solved && !(mode === 'review' && status.unresolved))
   const revealed = Boolean(status?.revealed && mode === 'study')
   const hint = hintPrefix(answer, status?.hints ?? 0)
+  const targetLabel = focus ? entry.headword : `từ số ${entry.order}`
 
   if (unavailable || hiddenInReview) {
     return <span className="cell-unavailable" aria-label={unavailable ? 'Không có âm Hán Việt' : 'Không có lỗi cần ôn'}>—</span>
@@ -84,7 +86,7 @@ const PracticeCell = memo(function PracticeCell({
   }
   if (!editing) {
     return (
-      <button type="button" className={`concealed-cell ${status?.unresolved ? 'has-mistake' : ''}`} onClick={() => setEditing(true)} aria-label={`Nhập ${labels[field]} cho từ số ${entry.order}`}>
+      <button type="button" className={`concealed-cell ${status?.unresolved ? 'has-mistake' : ''}`} onClick={() => setEditing(true)} aria-label={`Nhập ${labels[field]} cho ${targetLabel}`}>
         {hint ? <span className="hint-text">{hint}<span className="hint-cursor">···</span></span> : <span className="concealed-label">Nhấn để điền <span aria-hidden="true">↗</span></span>}
       </button>
     )
@@ -104,7 +106,7 @@ const PracticeCell = memo(function PracticeCell({
       <div className="input-line">
         <input
           autoFocus
-          aria-label={`${labels[field]} cho từ số ${entry.order}`}
+          aria-label={`${labels[field]} cho ${targetLabel}`}
           value={draft}
           onChange={(event) => { setDraft(event.target.value); setError(false) }}
           placeholder={field === 'reading' ? 'Nhập kana…' : field === 'hanViet' ? 'Nhập âm Hán Việt…' : 'Nhập một nghĩa…'}
@@ -190,6 +192,8 @@ function Overview({ entries, level, progress, onClose, onJump }: OverviewProps) 
 function App() {
   const [level, setLevel] = useState<Level>('N3')
   const [mode, setMode] = useState<Mode>('study')
+  const [focused, setFocused] = useState(false)
+  const [focusField, setFocusField] = useState<Field>('meaning')
   const [zoom, setZoom] = useState(100)
   const [overview, setOverview] = useState(false)
   const [jumpTarget, setJumpTarget] = useState<number | null>(null)
@@ -221,6 +225,32 @@ function App() {
   const onRetry = useCallback((key: string) => setProgress((old) => clearReveal(old, key)), [])
   const jump = (order: number) => { setMode('study'); setOverview(false); setJumpTarget(order) }
 
+  if (focused) {
+    return (
+      <main className="focus-shell" style={{ '--scale': 1 } as React.CSSProperties} aria-label="Chế độ tập trung">
+        <div className="focus-controls">
+          <button type="button" className="focus-exit" onClick={() => setFocused(false)}>← Danh sách đầy đủ</button>
+          <div className="focus-options" role="group" aria-label="Chọn bộ từ">
+            {(['N3', 'N2'] as Level[]).map((item) => <button key={item} type="button" aria-pressed={level === item} onClick={() => setLevel(item)}>{item}</button>)}
+          </div>
+          <div className="focus-options" role="group" aria-label="Chọn cột tập trung">
+            {fields.map((field) => <button key={field} type="button" aria-pressed={focusField === field} onClick={() => setFocusField(field)}>{labels[field]}</button>)}
+          </div>
+        </div>
+        <div className="focus-list" key={`${level}-${focusField}`}>
+          {entries.map((entry) => (
+            <div className="focus-row" key={entry.id} role="group" aria-label={`Từ ${entry.headword}`}>
+              <span className="focus-word" lang="ja">{entry.headword}</span>
+              <div className="focus-practice">
+                <PracticeCell entry={entry} field={focusField} status={progress[`${entry.id}:${focusField}`]} mode="study" focus onSubmit={onSubmit} onHint={onHint} onReveal={onReveal} onRetry={onRetry} />
+              </div>
+            </div>
+          ))}
+        </div>
+      </main>
+    )
+  }
+
   return (
     <div className="app-shell">
       <header className="site-header">
@@ -245,7 +275,7 @@ function App() {
             <div className="progress-summary"><div><strong>{solvedCells.toLocaleString('vi-VN')}</strong><span> / {totalCells.toLocaleString('vi-VN')} ô đã đúng</span><b>{completedPercent}%</b></div><div className="progress-track"><span style={{ width: `${completedPercent}%` }} /></div></div>
           </div>
           <div className="toolbar">
-            <div className="mode-group" role="group" aria-label="Chế độ học"><button type="button" className={mode === 'study' ? 'active' : ''} onClick={() => setMode('study')}>Danh sách từ</button><button type="button" className={mode === 'review' ? 'active' : ''} onClick={() => setMode('review')}>Khắc phục lỗi <span>{unresolved}</span></button></div>
+            <div className="mode-group" role="group" aria-label="Chế độ học"><button type="button" className={mode === 'study' ? 'active' : ''} onClick={() => setMode('study')}>Danh sách từ</button><button type="button" className={mode === 'review' ? 'active' : ''} onClick={() => setMode('review')}>Khắc phục lỗi <span>{unresolved}</span></button><button type="button" onClick={() => { setMode('study'); setOverview(false); setFocused(true); window.scrollTo({ top: 0 }) }}>Tập trung</button></div>
             <div className="zoom-controls"><span>Thu phóng</span><button type="button" aria-label="Thu nhỏ" onClick={() => setZoom((value) => Math.max(70, value - 10))}>−</button><input type="range" min="70" max="140" step="10" value={zoom} onChange={(event) => setZoom(Number(event.target.value))} aria-label="Mức phóng to danh sách" /><button type="button" aria-label="Phóng to" onClick={() => setZoom((value) => Math.min(140, value + 10))}>+</button><output>{zoom}%</output><button type="button" className="overview-button" onClick={() => setOverview(true)}>▦ Tổng quan</button></div>
           </div>
           <div className="table-caption"><span>{mode === 'study' ? `Đang xem toàn bộ ${entries.length.toLocaleString('vi-VN')} từ ${level}` : `${visible.length.toLocaleString('vi-VN')} từ có lỗi cần khắc phục`}</span><span>Hint+ gợi ý từng chữ · Đáp án chỉ để xem</span></div>

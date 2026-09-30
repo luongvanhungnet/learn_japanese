@@ -106,6 +106,21 @@
 .legend-dot { width: 9px; height: 9px; border: 1px solid #c9d0cc; border-radius: 2px; background: #e9ece8; }
 .legend-dot.done { background: #b9dfc5; border-color: #a7d1b7; }
 .legend-dot.mistake { background: #f2c9b8; border-color: #edb6a6; }
+.focus-shell { min-height: 100vh; background: #f8f9f6; color: #243538; }
+.focus-controls { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 8px 20px; padding: 11px 18px; border-bottom: 1px solid #e3e9e3; background: rgba(250, 252, 249, .96); backdrop-filter: blur(10px); }
+.focus-controls button { border: 1px solid transparent; border-radius: 7px; padding: 8px 11px; background: transparent; color: #536663; font-size: 13px; font-weight: 700; }
+.focus-controls button:hover, .focus-controls button:focus-visible { background: #edf4ed; }
+.focus-controls .focus-exit { margin-right: auto; border-color: #dce5dc; background: #fff; }
+.focus-options { display: flex; gap: 3px; padding: 3px; border-radius: 9px; background: #edf1ec; }
+.focus-options button[aria-pressed="true"] { background: #274c43; color: #fff; box-shadow: 0 2px 6px #1f4a3c22; }
+.focus-list { width: min(900px, calc(100% - 28px)); margin: 20px auto 48px; background: #fff; border: 1px solid #e4eae3; border-radius: 11px; overflow: hidden; }
+.focus-row { display: grid; grid-template-columns: fit-content(45%) minmax(0, 1fr); align-items: center; gap: 22px; min-height: 63px; padding: 8px 16px; border-bottom: 1px solid #edf0eb; }
+.focus-row:last-child { border-bottom: 0; }
+.focus-row:nth-child(even) { background: #fbfcfa; }
+.focus-word { font-family: "Yu Gothic", "Meiryo", sans-serif; font-size: 19px; font-weight: 700; line-height: 1.35; overflow-wrap: anywhere; }
+.focus-practice { min-width: 0; }
+.focus-practice .concealed-cell, .focus-practice .answer-value { min-height: 41px; }
+.focus-practice .practice-form { width: 100%; }
 @media (max-width: 900px) {
   .main-content { width: calc(100% - 28px); }
   .site-header { padding: 0 16px; }
@@ -116,6 +131,13 @@
   .table-viewport { --num-width: 56px; --word-width: 182px; }
 }
 @media (max-width: 600px) {
+  .focus-controls { justify-content: flex-start; gap: 7px; padding: 8px; }
+  .focus-controls .focus-exit { margin-right: 0; }
+  .focus-controls button { padding: 7px 8px; font-size: 11px; }
+  .focus-options { gap: 1px; }
+  .focus-list { width: 100%; margin: 0; border-left: 0; border-right: 0; border-radius: 0; }
+  .focus-row { grid-template-columns: fit-content(43%) minmax(0, 1fr); gap: 10px; padding: 7px 9px; }
+  .focus-word { font-size: 16px; }
   .site-header { height: 60px; }
   .brand { font-size: 12px; letter-spacing: .1em; }
   .brand-mark { width: 29px; height: 29px; }

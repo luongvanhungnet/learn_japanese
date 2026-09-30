@@ -26,9 +26,10 @@ npm run preview
 - **Hint+** hiện dần đáp án từ trái sang phải. **Đáp án** cho xem mà không tính là làm đúng.
 - Chỉ khi gửi câu sai, ô mới vào **Khắc phục lỗi**. Phải nhập đúng ô đó ở chế độ này để xóa lỗi.
 - Thanh **Thu phóng** đổi kích thước bảng. **Tổng quan** hiển thị toàn bộ từ trên một bản đồ vừa màn hình; chọn một ô để quay lại hàng đó.
+- **Tập trung** chỉ hiện từ vựng và một cột luyện tập. Chọn **Cách đọc**, **Hán Việt** hoặc **Ngữ nghĩa** ở thanh nhỏ phía trên; chiều rộng cột từ vựng tự thay đổi theo từng từ. Dùng **Danh sách đầy đủ** để quay lại bảng.
 - Tiến độ được lưu bằng `localStorage` trong trình duyệt đang dùng. Xóa dữ liệu trang web của trình duyệt sẽ xóa tiến độ.
 
-Ô cách đọc nhận hiragana hoặc katakana tương đương. Hán Việt và nghĩa giữ dấu tiếng Việt, bỏ qua hoa thường, khoảng trắng và dấu câu. Một trong các nghĩa tách từ nguồn được chấp nhận. Từ không có kanji hiện “—” ở ô Hán Việt.
+Ô cách đọc nhận hiragana hoặc katakana tương đương. Hán Việt và nghĩa nhận cả tiếng Việt có dấu hoặc không dấu, bỏ qua hoa thường, khoảng trắng và dấu câu. Một trong các nghĩa tách từ nguồn được chấp nhận. Từ không có kanji hiện “—” ở ô Hán Việt.
 
 ## Dữ liệu
 
