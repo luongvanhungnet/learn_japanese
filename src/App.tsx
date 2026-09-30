@@ -1,4 +1,4 @@
-import { memo, useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { memo, useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import type { FormEvent } from 'react'
 import n2Data from './data/n2.json'
 import n3Data from './data/n3.json'
@@ -23,9 +23,9 @@ const collections: Record<Level, VocabularyEntry[]> = {
 }
 const fields: Field[] = ['reading', 'hanViet', 'meaning']
 const labels: Record<Field, string> = {
-  reading: 'Cách đọc',
+  reading: 'Reading',
   hanViet: 'Hán Việt',
-  meaning: 'Ngữ nghĩa',
+  meaning: 'Meaning',
 }
 const storageKey = 'mimikara-progress-v1'
 
@@ -59,28 +59,33 @@ const PracticeCell = memo(function PracticeCell({
   const [draft, setDraft] = useState('')
   const [error, setError] = useState(false)
   const inputRef = useRef<HTMLInputElement>(null)
+  useLayoutEffect(() => {
+    if (editing) inputRef.current?.focus({ preventScroll: true })
+  }, [editing])
   const key = `${entry.id}:${field}`
   const answer = getAnswer(entry, field)
   const unavailable = !answer
   const hiddenInReview = mode === 'review' && !status?.unresolved
   const solved = Boolean(status?.solved && !(mode === 'review' && status.unresolved))
   const hint = hintPrefix(answer, status?.hints ?? 0)
-  const targetLabel = focus ? entry.headword : `từ số ${entry.order}`
+  const targetLabel = focus ? entry.headword : `word ${entry.order}`
   const showAnswer = () => {
     onPreview(key)
     inputRef.current?.focus({ preventScroll: true })
   }
 
   if (unavailable || hiddenInReview) {
-    return <span className="cell-unavailable" aria-label={unavailable ? 'Không có âm Hán Việt' : 'Không có lỗi cần ôn'}>—</span>
+    return <span className="cell-unavailable" aria-label={unavailable ? 'No Sino-Vietnamese reading' : 'No mistakes to review'}>—</span>
   }
   if (solved) {
-    return <div className="answer-value answer-correct" title={getAccepted(entry, field).join(' · ')}>{status?.answer || answer}<span aria-hidden="true">✓</span></div>
+    const savedAnswer = status?.answer
+    const displayAnswer = savedAnswer && (field !== 'meaning' || isCorrect(field, savedAnswer, entry.meanings)) ? savedAnswer : answer
+    return <div className="answer-value answer-correct" title={getAccepted(entry, field).join(' · ')}>{displayAnswer}<span aria-hidden="true">✓</span></div>
   }
   if (!editing) {
     return (
-      <button type="button" className={`concealed-cell ${status?.unresolved ? 'has-mistake' : ''}`} onClick={() => setEditing(true)} aria-label={`Nhập ${labels[field]} cho ${targetLabel}`}>
-        {hint ? <span className="hint-text">{hint}<span className="hint-cursor">···</span></span> : <span className="concealed-label">Nhấn để điền <span aria-hidden="true">↗</span></span>}
+      <button type="button" className={`concealed-cell ${status?.unresolved ? 'has-mistake' : ''}`} onClick={() => setEditing(true)} aria-label={`Enter ${labels[field]} for ${targetLabel}`}>
+        {hint ? <span className="hint-text">{hint}<span className="hint-cursor">···</span></span> : <span className="concealed-label">Click to answer <span aria-hidden="true">↗</span></span>}
       </button>
     )
   }
@@ -102,21 +107,20 @@ const PracticeCell = memo(function PracticeCell({
       <div className="input-line">
         <input
           ref={inputRef}
-          autoFocus
-          aria-label={`${labels[field]} cho ${targetLabel}`}
+          aria-label={`${labels[field]} for ${targetLabel}`}
           value={draft}
           onChange={(event) => { setDraft(event.target.value); setError(false) }}
-          placeholder={field === 'reading' ? 'Nhập kana…' : field === 'hanViet' ? 'Nhập âm Hán Việt…' : 'Nhập một nghĩa…'}
+          placeholder={field === 'reading' ? 'Enter kana…' : field === 'hanViet' ? 'Enter Sino-Vietnamese reading…' : 'Enter an English meaning…'}
         />
-        <button type="submit" className="check-button" aria-label="Kiểm tra đáp án">↵</button>
+        <button type="submit" className="check-button" aria-label="Check answer">↵</button>
       </div>
       <div className="cell-tools">
         <button type="button" onMouseDown={(event) => event.preventDefault()} onClick={() => { onHint(key, answer); inputRef.current?.focus({ preventScroll: true }) }}>Hint+ <kbd>Alt+A</kbd></button>
-        <button type="button" onMouseDown={(event) => event.preventDefault()} onClick={showAnswer}>Đáp án <kbd>Alt+S</kbd></button>
-        <button type="button" onClick={() => { setEditing(false); setError(false) }}>Đóng</button>
+        <button type="button" onMouseDown={(event) => event.preventDefault()} onClick={showAnswer}>Answer <kbd>Alt+S</kbd></button>
+        <button type="button" onClick={() => { setEditing(false); setError(false) }}>Close</button>
       </div>
-      {hint && <span className="hint-line">Gợi ý: {hint}</span>}
-      {error && <span className="error-line" role="alert">Chưa đúng. Hãy thử lại; ô này đã vào danh sách cần ôn.</span>}
+      {hint && <span className="hint-line">Hint: {hint}</span>}
+      {error && <span className="error-line" role="alert">Incorrect. Try again; this cell has been added to your review list.</span>}
       {preview && <div className="answer-preview" role="status">{field === 'meaning' ? entry.meanings.join(', ') : answer}</div>}
     </form>
   )
@@ -169,20 +173,20 @@ function Overview({ entries, level, progress, onClose, onJump }: OverviewProps) 
   const rows = Math.max(20, Math.floor((height - 120) / 11))
   const columns = Math.ceil(entries.length / rows)
   return (
-    <div className="overview-overlay" role="dialog" aria-modal="true" aria-label={`Tổng quan ${level}`}>
+    <div className="overview-overlay" role="dialog" aria-modal="true" aria-label={`${level} overview`}>
       <div className="overview-head">
-        <div><span className="eyebrow">BẢN ĐỒ TỪ VỰNG</span><h2>{level} <small>· {entries.length.toLocaleString('vi-VN')} từ</small></h2></div>
-        <div className="overview-head-right"><span>Chọn một từ để quay lại danh sách</span><button type="button" className="close-overview" onClick={onClose} aria-label="Đóng tổng quan">✕</button></div>
+        <div><span className="eyebrow">VOCABULARY MAP</span><h2>{level} <small>· {entries.length.toLocaleString('en-US')} words</small></h2></div>
+        <div className="overview-head-right"><span>Select a word to return to the list</span><button type="button" className="close-overview" onClick={onClose} aria-label="Close overview">✕</button></div>
       </div>
       <div className="overview-grid" style={{ gridTemplateRows: `repeat(${rows}, minmax(0, 1fr))`, gridTemplateColumns: `repeat(${columns}, minmax(0, 1fr))` }}>
         {entries.map((entry) => {
           const statuses = fields.filter((field) => getAnswer(entry, field)).map((field) => progress[`${entry.id}:${field}`])
           const hasMistake = statuses.some((status) => status?.unresolved)
           const complete = statuses.length > 0 && statuses.every((status) => status?.solved)
-          return <button key={entry.id} type="button" className={`overview-tile ${hasMistake ? 'tile-mistake' : complete ? 'tile-done' : ''}`} title={`${entry.order}. ${entry.headword}`} onClick={() => onJump(entry.order)} aria-label={`Đến từ số ${entry.order}: ${entry.headword}`}><span>{entry.headword}</span></button>
+          return <button key={entry.id} type="button" className={`overview-tile ${hasMistake ? 'tile-mistake' : complete ? 'tile-done' : ''}`} title={`${entry.order}. ${entry.headword}`} onClick={() => onJump(entry.order)} aria-label={`Go to word ${entry.order}: ${entry.headword}`}><span>{entry.headword}</span></button>
         })}
       </div>
-      <div className="overview-legend"><span><i className="legend-dot" /> Chưa học</span><span><i className="legend-dot done" /> Đã đúng</span><span><i className="legend-dot mistake" /> Cần ôn</span></div>
+      <div className="overview-legend"><span><i className="legend-dot" /> Not studied</span><span><i className="legend-dot done" /> Correct</span><span><i className="legend-dot mistake" /> Needs review</span></div>
     </div>
   )
 }
@@ -196,7 +200,7 @@ function App() {
   const [overview, setOverview] = useState(false)
   const [jumpTarget, setJumpTarget] = useState<number | null>(null)
   const [previewKey, setPreviewKey] = useState<string | null>(null)
-  const advanceFromRef = useRef<string | null>(null)
+  const advanceFromRef = useRef<{ key: string; top: number } | null>(null)
   const selectedKeyRef = useRef<string | null>(null)
   const previewTimerRef = useRef<number | null>(null)
   const [progress, setProgress] = useState<Progress>(() => {
@@ -222,17 +226,28 @@ function App() {
     const advanceFrom = advanceFromRef.current
     if (!advanceFrom) return
     advanceFromRef.current = null
-    const separator = advanceFrom.lastIndexOf(':')
-    const source = entries.find((entry) => entry.id === advanceFrom.slice(0, separator))
-    const field = advanceFrom.slice(separator + 1)
+    const separator = advanceFrom.key.lastIndexOf(':')
+    const source = entries.find((entry) => entry.id === advanceFrom.key.slice(0, separator))
+    const field = advanceFrom.key.slice(separator + 1)
     if (source) {
       for (const entry of entries) {
         if (entry.order <= source.order) continue
         const cell = document.getElementById(`practice-${entry.id}:${field}`)
         const input = cell?.querySelector<HTMLInputElement>('input')
         const button = cell?.querySelector<HTMLButtonElement>('button.concealed-cell')
-        if (input) { input.focus(); break }
-        if (button) { button.click(); break }
+        if (!input && !button) continue
+        if (input) input.focus({ preventScroll: true })
+        else button?.click()
+        const frame = requestAnimationFrame(() => {
+          const nextInput = cell?.querySelector<HTMLInputElement>('input')
+          if (!nextInput) return
+          const distance = nextInput.getBoundingClientRect().top - advanceFrom.top
+          if (Math.abs(distance) < 1) return
+          const viewport = cell?.closest<HTMLElement>('.table-viewport')
+          if (viewport) viewport.scrollBy({ top: distance, behavior: 'smooth' })
+          else window.scrollBy({ top: distance, behavior: 'smooth' })
+        })
+        return () => cancelAnimationFrame(frame)
       }
     }
   }, [entries, visible, focused, focusField, progress])
@@ -240,8 +255,11 @@ function App() {
   const solvedCells = useMemo(() => entries.reduce((sum, entry) => sum + fields.filter((field) => getAnswer(entry, field) && progress[`${entry.id}:${field}`]?.solved).length, 0), [entries, progress])
   const completedPercent = Math.round((solvedCells / totalCells) * 100)
   const onSubmit = useCallback((key: string, input: string, correct: boolean) => {
+    if (correct) {
+      const sourceInput = document.getElementById(`practice-${key}`)?.querySelector('input')
+      if (sourceInput) advanceFromRef.current = { key, top: sourceInput.getBoundingClientRect().top }
+    }
     setProgress((old) => submitAnswer(old, key, correct, mode, input))
-    if (correct) advanceFromRef.current = key
   }, [mode])
   const onHint = useCallback((key: string, answer: string) => setProgress((old) => nextHint(old, key, answer)), [])
   const onPreview = useCallback((key: string) => {
@@ -291,19 +309,19 @@ function App() {
 
   if (focused) {
     return (
-      <main className="focus-shell" style={{ '--scale': 1 } as React.CSSProperties} aria-label="Chế độ tập trung">
+      <main className="focus-shell" style={{ '--scale': 1 } as React.CSSProperties} aria-label="Focus mode">
         <div className="focus-controls">
-          <button type="button" className="focus-exit" onClick={() => setFocused(false)}>← Danh sách đầy đủ</button>
-          <div className="focus-options" role="group" aria-label="Chọn bộ từ">
+          <button type="button" className="focus-exit" onClick={() => setFocused(false)}>← Full list</button>
+          <div className="focus-options" role="group" aria-label="Select vocabulary set">
             {(['N3', 'N2'] as Level[]).map((item) => <button key={item} type="button" aria-pressed={level === item} onClick={() => setLevel(item)}>{item}</button>)}
           </div>
-          <div className="focus-options" role="group" aria-label="Chọn cột tập trung">
+          <div className="focus-options" role="group" aria-label="Select focus column">
             {fields.map((field) => <button key={field} type="button" aria-pressed={focusField === field} onClick={() => setFocusField(field)}>{labels[field]}</button>)}
           </div>
         </div>
         <div className="focus-list" key={`${level}-${focusField}`}>
           {entries.map((entry) => (
-            <div className="focus-row" key={entry.id} role="group" aria-label={`Từ ${entry.headword}`}>
+            <div className="focus-row" key={entry.id} role="group" aria-label={`Word ${entry.headword}`}>
               <span className="focus-word" lang="ja">{entry.headword}</span>
               <div className="focus-practice" id={`practice-${entry.id}:${focusField}`} data-practice-key={`${entry.id}:${focusField}`}>
                 <PracticeCell entry={entry} field={focusField} status={progress[`${entry.id}:${focusField}`]} mode="study" focus preview={previewKey === `${entry.id}:${focusField}`} onSubmit={onSubmit} onHint={onHint} onPreview={onPreview} />
@@ -319,39 +337,39 @@ function App() {
     <div className="app-shell">
       <header className="site-header">
         <div className="brand"><span className="brand-mark">み</span><span>MIMIKARA <strong>STUDY</strong></span></div>
-        <div className="header-right"><span className="header-note">Từ vựng tiếng Nhật · học theo nhịp của bạn</span><span className="local-badge"><i /> Lưu trên máy này</span></div>
+        <div className="header-right"><span className="header-note">Japanese vocabulary · learn at your own pace</span><span className="local-badge"><i /> Saved on this device</span></div>
       </header>
       <main className="main-content">
         <section className="intro">
           <div>
-            <span className="eyebrow">LUYỆN TỪ VỰNG MỖI NGÀY</span>
-            <h1>Nhìn từ. Nhớ nghĩa.<br /><em>Tiến bộ từng ô.</em></h1>
-            <p>Chọn một ô trống, nhập đáp án rồi nhấn Enter. Sai ở đâu, ôn lại đúng chỗ đó.</p>
+            <span className="eyebrow">DAILY VOCABULARY PRACTICE</span>
+            <h1>See the word. Recall the meaning.<br /><em>Progress with every answer.</em></h1>
+            <p>Select an empty cell, type your answer, and press Enter. Review the words you miss.</p>
           </div>
           <div className="intro-decoration" aria-hidden="true"><span>語</span><small>一語ずつ</small></div>
         </section>
 
-        <section className="workspace" aria-label="Bảng học từ vựng">
+        <section className="workspace" aria-label="Vocabulary practice table">
           <div className="workspace-top">
-            <div className="level-group" role="group" aria-label="Chọn cấp độ">
-              {(['N3', 'N2'] as Level[]).map((item) => <button type="button" key={item} className={level === item ? 'selected' : ''} onClick={() => { setLevel(item); setMode('study'); setOverview(false) }}>{item}<small>{collections[item].length.toLocaleString('vi-VN')} từ</small></button>)}
+            <div className="level-group" role="group" aria-label="Select level">
+              {(['N3', 'N2'] as Level[]).map((item) => <button type="button" key={item} className={level === item ? 'selected' : ''} onClick={() => { setLevel(item); setMode('study'); setOverview(false) }}>{item}<small>{collections[item].length.toLocaleString('en-US')} words</small></button>)}
             </div>
-            <div className="progress-summary"><div><strong>{solvedCells.toLocaleString('vi-VN')}</strong><span> / {totalCells.toLocaleString('vi-VN')} ô đã đúng</span><b>{completedPercent}%</b></div><div className="progress-track"><span style={{ width: `${completedPercent}%` }} /></div></div>
+            <div className="progress-summary"><div><strong>{solvedCells.toLocaleString('en-US')}</strong><span> / {totalCells.toLocaleString('en-US')} cells correct</span><b>{completedPercent}%</b></div><div className="progress-track"><span style={{ width: `${completedPercent}%` }} /></div></div>
           </div>
           <div className="toolbar">
-            <div className="mode-group" role="group" aria-label="Chế độ học"><button type="button" className={mode === 'study' ? 'active' : ''} onClick={() => setMode('study')}>Danh sách từ</button><button type="button" className={mode === 'review' ? 'active' : ''} onClick={() => setMode('review')}>Khắc phục lỗi <span>{unresolved}</span></button><button type="button" onClick={() => { setMode('study'); setOverview(false); setFocused(true); window.scrollTo({ top: 0 }) }}>Tập trung</button></div>
-            <div className="zoom-controls"><span>Thu phóng</span><button type="button" aria-label="Thu nhỏ" onClick={() => setZoom((value) => Math.max(70, value - 10))}>−</button><input type="range" min="70" max="140" step="10" value={zoom} onChange={(event) => setZoom(Number(event.target.value))} aria-label="Mức phóng to danh sách" /><button type="button" aria-label="Phóng to" onClick={() => setZoom((value) => Math.min(140, value + 10))}>+</button><output>{zoom}%</output><button type="button" className="overview-button" onClick={() => setOverview(true)}>▦ Tổng quan</button></div>
+            <div className="mode-group" role="group" aria-label="Study mode"><button type="button" className={mode === 'study' ? 'active' : ''} onClick={() => setMode('study')}>Word list</button><button type="button" className={mode === 'review' ? 'active' : ''} onClick={() => setMode('review')}>Review mistakes <span>{unresolved}</span></button><button type="button" onClick={() => { setMode('study'); setOverview(false); setFocused(true); window.scrollTo({ top: 0 }) }}>Focus</button></div>
+            <div className="zoom-controls"><span>Zoom</span><button type="button" aria-label="Zoom out" onClick={() => setZoom((value) => Math.max(70, value - 10))}>−</button><input type="range" min="70" max="140" step="10" value={zoom} onChange={(event) => setZoom(Number(event.target.value))} aria-label="List zoom level" /><button type="button" aria-label="Zoom in" onClick={() => setZoom((value) => Math.min(140, value + 10))}>+</button><output>{zoom}%</output><button type="button" className="overview-button" onClick={() => setOverview(true)}>▦ Overview</button></div>
           </div>
-          <div className="table-caption"><span>{mode === 'study' ? `Đang xem toàn bộ ${entries.length.toLocaleString('vi-VN')} từ ${level}` : `${visible.length.toLocaleString('vi-VN')} từ có lỗi cần khắc phục`}</span><span>Hint+ gợi ý từng chữ · Đáp án chỉ để xem</span></div>
+          <div className="table-caption"><span>{mode === 'study' ? `Showing all ${entries.length.toLocaleString('en-US')} ${level} words` : `${visible.length.toLocaleString('en-US')} words with mistakes to review`}</span><span>Hint+ reveals one letter at a time · Answer shows a preview</span></div>
           {mode === 'review' && visible.length === 0 ? (
-            <div className="empty-state"><span>✓</span><h2>Không còn lỗi cần ôn</h2><p>Những ô bạn nhập sai sẽ xuất hiện ở đây cho đến khi làm đúng lại.</p><button type="button" onClick={() => setMode('study')}>Quay lại danh sách</button></div>
+            <div className="empty-state"><span>✓</span><h2>No mistakes left to review</h2><p>Cells you answer incorrectly will appear here until you answer them correctly in review mode.</p><button type="button" onClick={() => setMode('study')}>Back to word list</button></div>
           ) : (
             <div key={`${level}-${mode}`} className="table-viewport" style={{ '--scale': zoom / 100 } as React.CSSProperties}>
-              <table className="vocab-table"><thead><tr><th scope="col" className="number-cell">STT</th><th scope="col" className="word-cell">Từ vựng</th><th scope="col">Cách đọc <small>ひらがな / カタカナ</small></th><th scope="col">Hán Việt</th><th scope="col">Ngữ nghĩa</th></tr></thead><tbody>{visible.map((entry) => <VocabularyRow key={entry.id} entry={entry} mode={mode} reading={progress[`${entry.id}:reading`]} hanViet={progress[`${entry.id}:hanViet`]} meaning={progress[`${entry.id}:meaning`]} previewKey={previewKey} onSubmit={onSubmit} onHint={onHint} onPreview={onPreview} />)}</tbody></table>
+              <table className="vocab-table"><thead><tr><th scope="col" className="number-cell">No.</th><th scope="col" className="word-cell">Vocabulary</th><th scope="col">Reading <small>ひらがな / カタカナ</small></th><th scope="col">Hán Việt</th><th scope="col">Meaning</th></tr></thead><tbody>{visible.map((entry) => <VocabularyRow key={entry.id} entry={entry} mode={mode} reading={progress[`${entry.id}:reading`]} hanViet={progress[`${entry.id}:hanViet`]} meaning={progress[`${entry.id}:meaning`]} previewKey={previewKey} onSubmit={onSubmit} onHint={onHint} onPreview={onPreview} />)}</tbody></table>
             </div>
           )}
         </section>
-        <footer className="page-footer"><span>Mimikara Study · N3 / N2</span><span>Tiến độ được lưu tự động trong trình duyệt này.</span></footer>
+        <footer className="page-footer"><span>Mimikara Study · N3 / N2 · English meanings: <a href="https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project">JMdict</a> (<a href="/JMdict-LICENSE.txt">CC BY-SA 4.0</a>)</span><span>Your progress is saved automatically in this browser.</span></footer>
       </main>
       {overview && <Overview entries={entries} level={level} progress={progress} onClose={() => setOverview(false)} onJump={jump} />}
     </div>

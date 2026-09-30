@@ -2,6 +2,16 @@ import { describe, expect, it } from 'vitest'
 import n2 from './data/n2.json'
 import n3 from './data/n3.json'
 
+it('uses English meanings while preserving Sino-Vietnamese readings', () => {
+  expect(n3[0].meanings).toContain('man')
+  expect(n3[0].hanViet).toBe('NAM TÍNH')
+  expect(n2[0].meanings).toContain('life')
+  expect(n2[0].hanViet).toBe('NHÂN SANH')
+  for (const entry of [...n3, ...n2]) {
+    expect(entry.meanings.join(' ')).not.toMatch(/[àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđ]/i)
+  }
+})
+
 for (const [level, entries, count] of [
   ['N3', n3, 880],
   ['N2', n2, 1160],

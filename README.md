@@ -29,7 +29,7 @@ npm run preview
 - **Tập trung** chỉ hiện từ vựng và một cột luyện tập. Chọn **Cách đọc**, **Hán Việt** hoặc **Ngữ nghĩa** ở thanh nhỏ phía trên; chiều rộng cột từ vựng tự thay đổi theo từng từ. Dùng **Danh sách đầy đủ** để quay lại bảng.
 - Tiến độ được lưu bằng `localStorage` trong trình duyệt đang dùng. Xóa dữ liệu trang web của trình duyệt sẽ xóa tiến độ.
 
-Ô cách đọc nhận hiragana hoặc katakana tương đương. Hán Việt và nghĩa nhận cả tiếng Việt có dấu hoặc không dấu, bỏ qua hoa thường, khoảng trắng và dấu câu. Một trong các nghĩa tách từ nguồn được chấp nhận. Từ không có kanji hiện “—” ở ô Hán Việt.
+Giao diện và phần nghĩa dùng tiếng Anh; cột Hán Việt giữ nguyên. Ô cách đọc nhận hiragana hoặc katakana tương đương. Ô nghĩa nhận một trong các nghĩa tiếng Anh của từ, bỏ qua hoa thường, khoảng trắng và dấu câu. Hán Việt nhận cả có dấu hoặc không dấu. Từ không có kanji hiện “—” ở ô Hán Việt. Tiến độ cũ vẫn được giữ; đáp án nghĩa tiếng Việt đã lưu được hiển thị bằng nghĩa tiếng Anh tương ứng.
 
 ## Dữ liệu
 
@@ -40,3 +40,5 @@ Hai tập dữ liệu đã được đóng gói vào `src/data/n3.json` và `src
 - `scripts/validate_data.py` kiểm tra đủ số thứ tự, không trùng, và dữ liệu cần thiết ở mỗi mục. Bài kiểm thử Vitest chạy lại các kiểm tra này.
 
 Các script trong `scripts/` dùng để tái tạo dữ liệu từ tài liệu nguồn. Chúng cần Python cùng `openpyxl`, `Pillow`, `lxml`, Poppler, Tesseract.js và kết nối mạng để tải dữ liệu tham chiếu; việc học và chạy ứng dụng không cần các bước này.
+
+Sau khi nhập lại dữ liệu từ nguồn tiếng Việt, chạy `python scripts/import_english_meanings.py path/to/JMdict_e.xml` để áp dụng nghĩa tiếng Anh. Các nghĩa đã rà soát nằm trong `scripts/english_meanings_overrides.json`. Nguồn JMdict và giấy phép được ghi trong [ATTRIBUTION.md](ATTRIBUTION.md).
