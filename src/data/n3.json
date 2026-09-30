@@ -1,0 +1,9855 @@
+[
+  {
+    "id": "n3:1",
+    "level": "N3",
+    "order": 1,
+    "headword": "男性",
+    "reading": "だんせい",
+    "hanViet": "NAM TÍNH",
+    "meanings": [
+      "đàn ông"
+    ]
+  },
+  {
+    "id": "n3:2",
+    "level": "N3",
+    "order": 2,
+    "headword": "女性",
+    "reading": "じょせい",
+    "hanViet": "NỮ TÍNH",
+    "meanings": [
+      "phụ nữ"
+    ]
+  },
+  {
+    "id": "n3:3",
+    "level": "N3",
+    "order": 3,
+    "headword": "高齢",
+    "reading": "こうれい",
+    "hanViet": "CAO LINH",
+    "meanings": [
+      "cao tuổi"
+    ]
+  },
+  {
+    "id": "n3:4",
+    "level": "N3",
+    "order": 4,
+    "headword": "年上",
+    "reading": "としうえ",
+    "hanViet": "NIÊN THƯỢNG",
+    "meanings": [
+      "hơn tuổi"
+    ]
+  },
+  {
+    "id": "n3:5",
+    "level": "N3",
+    "order": 5,
+    "headword": "目上",
+    "reading": "めうえ",
+    "hanViet": "MỤC THƯỢNG",
+    "meanings": [
+      "bề trên"
+    ]
+  },
+  {
+    "id": "n3:6",
+    "level": "N3",
+    "order": 6,
+    "headword": "先輩",
+    "reading": "せんぱい",
+    "hanViet": "TIÊN BỐI",
+    "meanings": [
+      "tiền bối"
+    ]
+  },
+  {
+    "id": "n3:7",
+    "level": "N3",
+    "order": 7,
+    "headword": "後輩",
+    "reading": "こうはい",
+    "hanViet": "HẬU BỐI",
+    "meanings": [
+      "hậu bối"
+    ]
+  },
+  {
+    "id": "n3:8",
+    "level": "N3",
+    "order": 8,
+    "headword": "上司",
+    "reading": "じょうし",
+    "hanViet": "THƯỢNG TY",
+    "meanings": [
+      "cấp trên"
+    ]
+  },
+  {
+    "id": "n3:9",
+    "level": "N3",
+    "order": 9,
+    "headword": "相手",
+    "reading": "あいて",
+    "hanViet": "TƯƠNG THỦ",
+    "meanings": [
+      "người đối diện"
+    ]
+  },
+  {
+    "id": "n3:10",
+    "level": "N3",
+    "order": 10,
+    "headword": "知り合い",
+    "reading": "しりあい",
+    "hanViet": "TRI HỢP",
+    "meanings": [
+      "người quen"
+    ]
+  },
+  {
+    "id": "n3:11",
+    "level": "N3",
+    "order": 11,
+    "headword": "友人",
+    "reading": "ゆうじん",
+    "hanViet": "HỮU NHÂN",
+    "meanings": [
+      "bạn bè"
+    ]
+  },
+  {
+    "id": "n3:12",
+    "level": "N3",
+    "order": 12,
+    "headword": "仲",
+    "reading": "なか",
+    "hanViet": "TRỌNG",
+    "meanings": [
+      "mối quan hệ"
+    ]
+  },
+  {
+    "id": "n3:13",
+    "level": "N3",
+    "order": 13,
+    "headword": "生年月日",
+    "reading": "せいねんがっぴ",
+    "hanViet": "SINH NIÊN NGUYỆT NHẬT",
+    "meanings": [
+      "ngày tháng năm sinh"
+    ]
+  },
+  {
+    "id": "n3:14",
+    "level": "N3",
+    "order": 14,
+    "headword": "誕生",
+    "reading": "たんじょう",
+    "hanViet": "ĐẢN SINH",
+    "meanings": [
+      "ra đời"
+    ]
+  },
+  {
+    "id": "n3:15",
+    "level": "N3",
+    "order": 15,
+    "headword": "年",
+    "reading": "とし",
+    "hanViet": "NIÊN",
+    "meanings": [
+      "năm"
+    ]
+  },
+  {
+    "id": "n3:16",
+    "level": "N3",
+    "order": 16,
+    "headword": "出身",
+    "reading": "しゅっしん",
+    "hanViet": "XUẤT THÂN",
+    "meanings": [
+      "quê quán"
+    ]
+  },
+  {
+    "id": "n3:17",
+    "level": "N3",
+    "order": 17,
+    "headword": "故郷",
+    "reading": "こきょう",
+    "hanViet": "CỐ HƯƠNG",
+    "meanings": [
+      "cố hương"
+    ]
+  },
+  {
+    "id": "n3:18",
+    "level": "N3",
+    "order": 18,
+    "headword": "成長",
+    "reading": "せいちょう",
+    "hanViet": "THÀNH TRƯỞNG",
+    "meanings": [
+      "trưởng thành"
+    ]
+  },
+  {
+    "id": "n3:19",
+    "level": "N3",
+    "order": 19,
+    "headword": "成人",
+    "reading": "せいじん",
+    "hanViet": "THÀNH NHÂN",
+    "meanings": [
+      "người trưởng thành"
+    ]
+  },
+  {
+    "id": "n3:20",
+    "level": "N3",
+    "order": 20,
+    "headword": "合格",
+    "reading": "ごうかく",
+    "hanViet": "HỢP CÁCH",
+    "meanings": [
+      "đỗ đại học"
+    ]
+  },
+  {
+    "id": "n3:21",
+    "level": "N3",
+    "order": 21,
+    "headword": "進学",
+    "reading": "しんがく",
+    "hanViet": "TIẾN HỌC",
+    "meanings": [
+      "vào đại học"
+    ]
+  },
+  {
+    "id": "n3:22",
+    "level": "N3",
+    "order": 22,
+    "headword": "退学",
+    "reading": "たいがく",
+    "hanViet": "THOÁI HỌC",
+    "meanings": [
+      "bỏ học"
+    ]
+  },
+  {
+    "id": "n3:23",
+    "level": "N3",
+    "order": 23,
+    "headword": "就職",
+    "reading": "しゅうしょく",
+    "hanViet": "TỰU CHỨC",
+    "meanings": [
+      "có việc làm"
+    ]
+  },
+  {
+    "id": "n3:24",
+    "level": "N3",
+    "order": 24,
+    "headword": "退職",
+    "reading": "たいしょく",
+    "hanViet": "THOÁI CHỨC",
+    "meanings": [
+      "nghỉ việc"
+    ]
+  },
+  {
+    "id": "n3:25",
+    "level": "N3",
+    "order": 25,
+    "headword": "失業",
+    "reading": "しつぎょう",
+    "hanViet": "THẤT NGHIỆP",
+    "meanings": [
+      "thất nghiệp"
+    ]
+  },
+  {
+    "id": "n3:26",
+    "level": "N3",
+    "order": 26,
+    "headword": "残業",
+    "reading": "ざんぎょう",
+    "hanViet": "TÀN NGHIỆP",
+    "meanings": [
+      "làm thêm"
+    ]
+  },
+  {
+    "id": "n3:27",
+    "level": "N3",
+    "order": 27,
+    "headword": "生活",
+    "reading": "せいかつ",
+    "hanViet": "SINH HOẠT",
+    "meanings": [
+      "cuộc sống"
+    ]
+  },
+  {
+    "id": "n3:28",
+    "level": "N3",
+    "order": 28,
+    "headword": "通勤",
+    "reading": "つうきん",
+    "hanViet": "THÔNG CẦN",
+    "meanings": [
+      "đi làm"
+    ]
+  },
+  {
+    "id": "n3:29",
+    "level": "N3",
+    "order": 29,
+    "headword": "学歴",
+    "reading": "がくれき",
+    "hanViet": "HỌC LỊCH",
+    "meanings": [
+      "bằng cấp"
+    ]
+  },
+  {
+    "id": "n3:30",
+    "level": "N3",
+    "order": 30,
+    "headword": "給料",
+    "reading": "きゅうりょう",
+    "hanViet": "CẤP LIỆU",
+    "meanings": [
+      "tiền lương"
+    ]
+  },
+  {
+    "id": "n3:31",
+    "level": "N3",
+    "order": 31,
+    "headword": "面接",
+    "reading": "めんせつ",
+    "hanViet": "DIỆN TIẾP",
+    "meanings": [
+      "phỏng vấn"
+    ]
+  },
+  {
+    "id": "n3:32",
+    "level": "N3",
+    "order": 32,
+    "headword": "休憩",
+    "reading": "きゅうけい",
+    "hanViet": "HƯU KHẾ",
+    "meanings": [
+      "nghỉ ngơi"
+    ]
+  },
+  {
+    "id": "n3:33",
+    "level": "N3",
+    "order": 33,
+    "headword": "観光",
+    "reading": "かんこう",
+    "hanViet": "QUAN QUANG",
+    "meanings": [
+      "tham quan"
+    ]
+  },
+  {
+    "id": "n3:34",
+    "level": "N3",
+    "order": 34,
+    "headword": "帰国",
+    "reading": "きこく",
+    "hanViet": "QUY QUỐC",
+    "meanings": [
+      "về nước"
+    ]
+  },
+  {
+    "id": "n3:35",
+    "level": "N3",
+    "order": 35,
+    "headword": "帰省",
+    "reading": "きせい",
+    "hanViet": "QUY TỈNH",
+    "meanings": [
+      "về quê"
+    ]
+  },
+  {
+    "id": "n3:36",
+    "level": "N3",
+    "order": 36,
+    "headword": "帰宅",
+    "reading": "きたく",
+    "hanViet": "QUY TRẠCH",
+    "meanings": [
+      "về nhà"
+    ]
+  },
+  {
+    "id": "n3:37",
+    "level": "N3",
+    "order": 37,
+    "headword": "参加",
+    "reading": "さんか",
+    "hanViet": "THAM GIA",
+    "meanings": [
+      "tham gia"
+    ]
+  },
+  {
+    "id": "n3:38",
+    "level": "N3",
+    "order": 38,
+    "headword": "出席",
+    "reading": "しゅっせき",
+    "hanViet": "XUẤT TỊCH",
+    "meanings": [
+      "có mặt"
+    ]
+  },
+  {
+    "id": "n3:39",
+    "level": "N3",
+    "order": 39,
+    "headword": "欠席",
+    "reading": "けっせき",
+    "hanViet": "KHIẾM TỊCH",
+    "meanings": [
+      "vắng mặt"
+    ]
+  },
+  {
+    "id": "n3:40",
+    "level": "N3",
+    "order": 40,
+    "headword": "遅刻",
+    "reading": "ちこく",
+    "hanViet": "TRÌ KHẮC",
+    "meanings": [
+      "đến muộn"
+    ]
+  },
+  {
+    "id": "n3:41",
+    "level": "N3",
+    "order": 41,
+    "headword": "化粧",
+    "reading": "けしょう",
+    "hanViet": "HOÁ TRANG",
+    "meanings": [
+      "trang điểm"
+    ]
+  },
+  {
+    "id": "n3:42",
+    "level": "N3",
+    "order": 42,
+    "headword": "計算",
+    "reading": "けいさん",
+    "hanViet": "KẾ TOÁN",
+    "meanings": [
+      "tính toán"
+    ]
+  },
+  {
+    "id": "n3:43",
+    "level": "N3",
+    "order": 43,
+    "headword": "計画",
+    "reading": "けいかく",
+    "hanViet": "KẾ HOẠ",
+    "meanings": [
+      "kế hoạch"
+    ]
+  },
+  {
+    "id": "n3:44",
+    "level": "N3",
+    "order": 44,
+    "headword": "成功",
+    "reading": "せいこう",
+    "hanViet": "THÀNH CÔNG",
+    "meanings": [
+      "thành công"
+    ]
+  },
+  {
+    "id": "n3:45",
+    "level": "N3",
+    "order": 45,
+    "headword": "失敗",
+    "reading": "しっぱい",
+    "hanViet": "THẤT BẠI",
+    "meanings": [
+      "thất bại"
+    ]
+  },
+  {
+    "id": "n3:46",
+    "level": "N3",
+    "order": 46,
+    "headword": "準備",
+    "reading": "じゅんび",
+    "hanViet": "CHUẨN BỊ",
+    "meanings": [
+      "chuẩn bị"
+    ]
+  },
+  {
+    "id": "n3:47",
+    "level": "N3",
+    "order": 47,
+    "headword": "整理",
+    "reading": "せいり",
+    "hanViet": "CHỈNH LÝ",
+    "meanings": [
+      "chỉnh sửa"
+    ]
+  },
+  {
+    "id": "n3:48",
+    "level": "N3",
+    "order": 48,
+    "headword": "注文",
+    "reading": "ちゅうもん",
+    "hanViet": "CHÚ VĂN",
+    "meanings": [
+      "đặt hàng"
+    ]
+  },
+  {
+    "id": "n3:49",
+    "level": "N3",
+    "order": 49,
+    "headword": "貯金",
+    "reading": "ちょきん",
+    "hanViet": "TRỮ KIM",
+    "meanings": [
+      "tiết kiệm"
+    ]
+  },
+  {
+    "id": "n3:50",
+    "level": "N3",
+    "order": 50,
+    "headword": "徹夜",
+    "reading": "てつや",
+    "hanViet": "TRIỆT DẠ",
+    "meanings": [
+      "thức xuyên đêm"
+    ]
+  },
+  {
+    "id": "n3:51",
+    "level": "N3",
+    "order": 51,
+    "headword": "引っ越し",
+    "reading": "ひっこし",
+    "hanViet": "DẪN VIỆT",
+    "meanings": [
+      "chuyển nhà"
+    ]
+  },
+  {
+    "id": "n3:52",
+    "level": "N3",
+    "order": 52,
+    "headword": "身長",
+    "reading": "しんちょう",
+    "hanViet": "THÂN TRƯỜNG",
+    "meanings": [
+      "chiều cao"
+    ]
+  },
+  {
+    "id": "n3:53",
+    "level": "N3",
+    "order": 53,
+    "headword": "体重",
+    "reading": "たいじゅう",
+    "hanViet": "THỂ TRỌNG",
+    "meanings": [
+      "cân nặng"
+    ]
+  },
+  {
+    "id": "n3:54",
+    "level": "N3",
+    "order": 54,
+    "headword": "けが",
+    "reading": "けが",
+    "hanViet": null,
+    "meanings": [
+      "vết thương"
+    ]
+  },
+  {
+    "id": "n3:55",
+    "level": "N3",
+    "order": 55,
+    "headword": "会",
+    "reading": "かい",
+    "hanViet": "HỘI",
+    "meanings": [
+      "hội",
+      "tiệc"
+    ]
+  },
+  {
+    "id": "n3:56",
+    "level": "N3",
+    "order": 56,
+    "headword": "趣味",
+    "reading": "しゅみ",
+    "hanViet": "THÚ VỊ",
+    "meanings": [
+      "sở thích"
+    ]
+  },
+  {
+    "id": "n3:57",
+    "level": "N3",
+    "order": 57,
+    "headword": "興味",
+    "reading": "きょうみ",
+    "hanViet": "HƯNG VỊ",
+    "meanings": [
+      "hứng thú"
+    ]
+  },
+  {
+    "id": "n3:58",
+    "level": "N3",
+    "order": 58,
+    "headword": "思い出",
+    "reading": "おもいで",
+    "hanViet": "TƯ XUẤT",
+    "meanings": [
+      "nhớ lại"
+    ]
+  },
+  {
+    "id": "n3:59",
+    "level": "N3",
+    "order": 59,
+    "headword": "冗談",
+    "reading": "じょうだん",
+    "hanViet": "NHŨNG ĐÀM",
+    "meanings": [
+      "đùa cợt"
+    ]
+  },
+  {
+    "id": "n3:60",
+    "level": "N3",
+    "order": 60,
+    "headword": "目的",
+    "reading": "もくてき",
+    "hanViet": "MỤC ĐÍCH",
+    "meanings": [
+      "mục đích"
+    ]
+  },
+  {
+    "id": "n3:61",
+    "level": "N3",
+    "order": 61,
+    "headword": "約束",
+    "reading": "やくそく",
+    "hanViet": "ƯỚC THÚC",
+    "meanings": [
+      "lời hứa"
+    ]
+  },
+  {
+    "id": "n3:62",
+    "level": "N3",
+    "order": 62,
+    "headword": "おしゃべり",
+    "reading": "おしゃべり",
+    "hanViet": null,
+    "meanings": [
+      "nói chuyện riêng"
+    ]
+  },
+  {
+    "id": "n3:63",
+    "level": "N3",
+    "order": 63,
+    "headword": "遠慮",
+    "reading": "えんりょ",
+    "hanViet": "VIỄN LỰ",
+    "meanings": [
+      "ngại ngần"
+    ]
+  },
+  {
+    "id": "n3:64",
+    "level": "N3",
+    "order": 64,
+    "headword": "我慢",
+    "reading": "がまん",
+    "hanViet": "NGÃ MẠN",
+    "meanings": [
+      "chịu đựng"
+    ]
+  },
+  {
+    "id": "n3:65",
+    "level": "N3",
+    "order": 65,
+    "headword": "迷惑",
+    "reading": "めわく",
+    "hanViet": "MÊ HOẶC",
+    "meanings": [
+      "làm phiền"
+    ]
+  },
+  {
+    "id": "n3:66",
+    "level": "N3",
+    "order": 66,
+    "headword": "希望",
+    "reading": "きぼう",
+    "hanViet": "HY VỌNG",
+    "meanings": [
+      "hi vọng"
+    ]
+  },
+  {
+    "id": "n3:67",
+    "level": "N3",
+    "order": 67,
+    "headword": "夢",
+    "reading": "ゆめ",
+    "hanViet": "MỘNG",
+    "meanings": [
+      "giấc mơ"
+    ]
+  },
+  {
+    "id": "n3:68",
+    "level": "N3",
+    "order": 68,
+    "headword": "賛成",
+    "reading": "さんせい",
+    "hanViet": "TÁN THÀNH",
+    "meanings": [
+      "đồng ý"
+    ]
+  },
+  {
+    "id": "n3:69",
+    "level": "N3",
+    "order": 69,
+    "headword": "反対",
+    "reading": "はんたい",
+    "hanViet": "PHẢN ĐỐI",
+    "meanings": [
+      "đối lập"
+    ]
+  },
+  {
+    "id": "n3:70",
+    "level": "N3",
+    "order": 70,
+    "headword": "想像",
+    "reading": "そうぞう",
+    "hanViet": "TƯỞNG TƯỢNG",
+    "meanings": [
+      "tưởng tượng"
+    ]
+  },
+  {
+    "id": "n3:71",
+    "level": "N3",
+    "order": 71,
+    "headword": "努力",
+    "reading": "どりょく",
+    "hanViet": "NỖ LỰC",
+    "meanings": [
+      "nỗ lực"
+    ]
+  },
+  {
+    "id": "n3:72",
+    "level": "N3",
+    "order": 72,
+    "headword": "太陽",
+    "reading": "たいよう",
+    "hanViet": "THÁI DƯƠNG",
+    "meanings": [
+      "mặt trời"
+    ]
+  },
+  {
+    "id": "n3:73",
+    "level": "N3",
+    "order": 73,
+    "headword": "地球",
+    "reading": "ちきゅう",
+    "hanViet": "ĐỊA CẦU",
+    "meanings": [
+      "trái đất"
+    ]
+  },
+  {
+    "id": "n3:74",
+    "level": "N3",
+    "order": 74,
+    "headword": "温度",
+    "reading": "おんど",
+    "hanViet": "ÔN ĐỘ",
+    "meanings": [
+      "nhiệt độ"
+    ]
+  },
+  {
+    "id": "n3:75",
+    "level": "N3",
+    "order": 75,
+    "headword": "湿度",
+    "reading": "しつど",
+    "hanViet": "THẤP ĐỘ",
+    "meanings": [
+      "độ ẩm"
+    ]
+  },
+  {
+    "id": "n3:76",
+    "level": "N3",
+    "order": 76,
+    "headword": "湿気",
+    "reading": "しっけ",
+    "hanViet": "THẤP KHÍ",
+    "meanings": [
+      "hơi ẩm"
+    ]
+  },
+  {
+    "id": "n3:77",
+    "level": "N3",
+    "order": 77,
+    "headword": "梅雨",
+    "reading": "つゆ",
+    "hanViet": "MAI VŨ",
+    "meanings": [
+      "mùa mưa"
+    ]
+  },
+  {
+    "id": "n3:78",
+    "level": "N3",
+    "order": 78,
+    "headword": "かび",
+    "reading": "かび",
+    "hanViet": null,
+    "meanings": [
+      "nấm mốc"
+    ]
+  },
+  {
+    "id": "n3:79",
+    "level": "N3",
+    "order": 79,
+    "headword": "暖房",
+    "reading": "だんぼう",
+    "hanViet": "NOÃN PHÒNG",
+    "meanings": [
+      "điều hòa ấm"
+    ]
+  },
+  {
+    "id": "n3:80",
+    "level": "N3",
+    "order": 80,
+    "headword": "皮",
+    "reading": "かわ",
+    "hanViet": "BÌ",
+    "meanings": [
+      "da"
+    ]
+  },
+  {
+    "id": "n3:81",
+    "level": "N3",
+    "order": 81,
+    "headword": "缶",
+    "reading": "かん",
+    "hanViet": "PHŨ",
+    "meanings": [
+      "đồ hộp"
+    ]
+  },
+  {
+    "id": "n3:82",
+    "level": "N3",
+    "order": 82,
+    "headword": "画面",
+    "reading": "がめん",
+    "hanViet": "HOẠ DIỆN",
+    "meanings": [
+      "màn hình"
+    ]
+  },
+  {
+    "id": "n3:83",
+    "level": "N3",
+    "order": 83,
+    "headword": "番組",
+    "reading": "ばんぐみ",
+    "hanViet": "PHIÊN TỔ",
+    "meanings": [
+      "chương trình"
+    ]
+  },
+  {
+    "id": "n3:84",
+    "level": "N3",
+    "order": 84,
+    "headword": "記事",
+    "reading": "きじ",
+    "hanViet": "KÝ SỰ",
+    "meanings": [
+      "ký sự"
+    ]
+  },
+  {
+    "id": "n3:85",
+    "level": "N3",
+    "order": 85,
+    "headword": "近所",
+    "reading": "きんじょ",
+    "hanViet": "CẬN SỞ",
+    "meanings": [
+      "xung quanh"
+    ]
+  },
+  {
+    "id": "n3:86",
+    "level": "N3",
+    "order": 86,
+    "headword": "警察",
+    "reading": "けいさつ",
+    "hanViet": "CẢNH SÁT",
+    "meanings": [
+      "cảnh sát"
+    ]
+  },
+  {
+    "id": "n3:87",
+    "level": "N3",
+    "order": 87,
+    "headword": "犯人",
+    "reading": "はんにん",
+    "hanViet": "PHẠM NHÂN",
+    "meanings": [
+      "tội phạm"
+    ]
+  },
+  {
+    "id": "n3:88",
+    "level": "N3",
+    "order": 88,
+    "headword": "小銭",
+    "reading": "こぜに",
+    "hanViet": "TIỂU TIỀN",
+    "meanings": [
+      "tiền lẻ"
+    ]
+  },
+  {
+    "id": "n3:89",
+    "level": "N3",
+    "order": 89,
+    "headword": "ごちそう",
+    "reading": "ごちそう",
+    "hanViet": null,
+    "meanings": [
+      "chiêu đãi"
+    ]
+  },
+  {
+    "id": "n3:90",
+    "level": "N3",
+    "order": 90,
+    "headword": "作者",
+    "reading": "さくしゃ",
+    "hanViet": "TÁC GIẢ",
+    "meanings": [
+      "tác giả"
+    ]
+  },
+  {
+    "id": "n3:91",
+    "level": "N3",
+    "order": 91,
+    "headword": "作品",
+    "reading": "さくひん",
+    "hanViet": "TÁC PHẨM",
+    "meanings": [
+      "tác phẩm"
+    ]
+  },
+  {
+    "id": "n3:92",
+    "level": "N3",
+    "order": 92,
+    "headword": "制服",
+    "reading": "せいふく",
+    "hanViet": "CHẾ PHỤC",
+    "meanings": [
+      "đồng phục"
+    ]
+  },
+  {
+    "id": "n3:93",
+    "level": "N3",
+    "order": 93,
+    "headword": "洗剤",
+    "reading": "せんざい",
+    "hanViet": "TẨY TỄ",
+    "meanings": [
+      "bột giặt"
+    ]
+  },
+  {
+    "id": "n3:94",
+    "level": "N3",
+    "order": 94,
+    "headword": "底",
+    "reading": "そこ",
+    "hanViet": "ĐỂ",
+    "meanings": [
+      "đáy"
+    ]
+  },
+  {
+    "id": "n3:95",
+    "level": "N3",
+    "order": 95,
+    "headword": "地下",
+    "reading": "ちか",
+    "hanViet": "ĐỊA HẠ",
+    "meanings": [
+      "ngầm"
+    ]
+  },
+  {
+    "id": "n3:96",
+    "level": "N3",
+    "order": 96,
+    "headword": "寺",
+    "reading": "てら",
+    "hanViet": "TỰ",
+    "meanings": [
+      "chùa"
+    ]
+  },
+  {
+    "id": "n3:97",
+    "level": "N3",
+    "order": 97,
+    "headword": "道路",
+    "reading": "どうろ",
+    "hanViet": "ĐẠO LỘ",
+    "meanings": [
+      "đường"
+    ]
+  },
+  {
+    "id": "n3:98",
+    "level": "N3",
+    "order": 98,
+    "headword": "坂",
+    "reading": "さか",
+    "hanViet": "PHẢN",
+    "meanings": [
+      "dốc"
+    ]
+  },
+  {
+    "id": "n3:99",
+    "level": "N3",
+    "order": 99,
+    "headword": "煙",
+    "reading": "けむり",
+    "hanViet": "YÊN",
+    "meanings": [
+      "khói"
+    ]
+  },
+  {
+    "id": "n3:100",
+    "level": "N3",
+    "order": 100,
+    "headword": "灰",
+    "reading": "はい",
+    "hanViet": "HÔI",
+    "meanings": [
+      "tàn"
+    ]
+  },
+  {
+    "id": "n3:101",
+    "level": "N3",
+    "order": 101,
+    "headword": "判",
+    "reading": "はん",
+    "hanViet": "PHÁN",
+    "meanings": [
+      "con dấu"
+    ]
+  },
+  {
+    "id": "n3:102",
+    "level": "N3",
+    "order": 102,
+    "headword": "名刺",
+    "reading": "めいし",
+    "hanViet": "DANH THÍCH",
+    "meanings": [
+      "danh thiếp"
+    ]
+  },
+  {
+    "id": "n3:103",
+    "level": "N3",
+    "order": 103,
+    "headword": "免許",
+    "reading": "めんきょ",
+    "hanViet": "MIỄN HỨA",
+    "meanings": [
+      "giấy phép"
+    ]
+  },
+  {
+    "id": "n3:104",
+    "level": "N3",
+    "order": 104,
+    "headword": "多く",
+    "reading": "おおく",
+    "hanViet": "ĐA",
+    "meanings": [
+      "nhiều"
+    ]
+  },
+  {
+    "id": "n3:105",
+    "level": "N3",
+    "order": 105,
+    "headword": "前半",
+    "reading": "ぜんはん",
+    "hanViet": "TIỀN BÁN",
+    "meanings": [
+      "phần đầu"
+    ]
+  },
+  {
+    "id": "n3:106",
+    "level": "N3",
+    "order": 106,
+    "headword": "後半",
+    "reading": "こうはん",
+    "hanViet": "HẬU BÁN",
+    "meanings": [
+      "phần cuối"
+    ]
+  },
+  {
+    "id": "n3:107",
+    "level": "N3",
+    "order": 107,
+    "headword": "最高",
+    "reading": "さいこう",
+    "hanViet": "TỐI CAO",
+    "meanings": [
+      "cao nhất"
+    ]
+  },
+  {
+    "id": "n3:108",
+    "level": "N3",
+    "order": 108,
+    "headword": "最低",
+    "reading": "さいてい",
+    "hanViet": "TỐI ĐÊ",
+    "meanings": [
+      "thấp nhất"
+    ]
+  },
+  {
+    "id": "n3:109",
+    "level": "N3",
+    "order": 109,
+    "headword": "最初",
+    "reading": "さいしょ",
+    "hanViet": "TỐI SƠ",
+    "meanings": [
+      "đầu tiên"
+    ]
+  },
+  {
+    "id": "n3:110",
+    "level": "N3",
+    "order": 110,
+    "headword": "最後",
+    "reading": "さいご",
+    "hanViet": "TỐI HẬU",
+    "meanings": [
+      "cuối cùng"
+    ]
+  },
+  {
+    "id": "n3:111",
+    "level": "N3",
+    "order": 111,
+    "headword": "自動",
+    "reading": "じどう",
+    "hanViet": "TỰ ĐỘNG",
+    "meanings": [
+      "tự động"
+    ]
+  },
+  {
+    "id": "n3:112",
+    "level": "N3",
+    "order": 112,
+    "headword": "種類",
+    "reading": "しゅるい",
+    "hanViet": "CHỦNG LOẠI",
+    "meanings": [
+      "loại"
+    ]
+  },
+  {
+    "id": "n3:113",
+    "level": "N3",
+    "order": 113,
+    "headword": "性格",
+    "reading": "せいかく",
+    "hanViet": "TÍNH CÁCH",
+    "meanings": [
+      "tính cách"
+    ]
+  },
+  {
+    "id": "n3:114",
+    "level": "N3",
+    "order": 114,
+    "headword": "性質",
+    "reading": "せいしつ",
+    "hanViet": "TÍNH CHẤT",
+    "meanings": [
+      "tính chất"
+    ]
+  },
+  {
+    "id": "n3:115",
+    "level": "N3",
+    "order": 115,
+    "headword": "順番",
+    "reading": "じゅんばん",
+    "hanViet": "THUẬN PHIÊN",
+    "meanings": [
+      "thứ tự"
+    ]
+  },
+  {
+    "id": "n3:116",
+    "level": "N3",
+    "order": 116,
+    "headword": "番",
+    "reading": "ばん",
+    "hanViet": "PHIÊN",
+    "meanings": [
+      "lượt"
+    ]
+  },
+  {
+    "id": "n3:117",
+    "level": "N3",
+    "order": 117,
+    "headword": "方法",
+    "reading": "ほうほう",
+    "hanViet": "PHƯƠNG PHÁP",
+    "meanings": [
+      "phương pháp"
+    ]
+  },
+  {
+    "id": "n3:118",
+    "level": "N3",
+    "order": 118,
+    "headword": "製品",
+    "reading": "せいひん",
+    "hanViet": "CHẾ PHẨM",
+    "meanings": [
+      "sản phẩm"
+    ]
+  },
+  {
+    "id": "n3:119",
+    "level": "N3",
+    "order": 119,
+    "headword": "値上がり",
+    "reading": "ねあがり",
+    "hanViet": "TRỊ THƯỢNG",
+    "meanings": [
+      "tăng giá"
+    ]
+  },
+  {
+    "id": "n3:120",
+    "level": "N3",
+    "order": 120,
+    "headword": "生",
+    "reading": "なま",
+    "hanViet": "SINH",
+    "meanings": [
+      "tươi"
+    ]
+  },
+  {
+    "id": "n3:121",
+    "level": "N3",
+    "order": 121,
+    "headword": "渇く",
+    "reading": "かわく",
+    "hanViet": "KHÁT",
+    "meanings": [
+      "khát"
+    ]
+  },
+  {
+    "id": "n3:122",
+    "level": "N3",
+    "order": 122,
+    "headword": "嗅ぐ",
+    "reading": "かぐ",
+    "hanViet": "KHỨU",
+    "meanings": [
+      "ngửi"
+    ]
+  },
+  {
+    "id": "n3:123",
+    "level": "N3",
+    "order": 123,
+    "headword": "叩く",
+    "reading": "たたく",
+    "hanViet": "KHẤU",
+    "meanings": [
+      "đánh",
+      "vỗ"
+    ]
+  },
+  {
+    "id": "n3:124",
+    "level": "N3",
+    "order": 124,
+    "headword": "殴る",
+    "reading": "なぐる",
+    "hanViet": "ẨU",
+    "meanings": [
+      "đấm"
+    ]
+  },
+  {
+    "id": "n3:125",
+    "level": "N3",
+    "order": 125,
+    "headword": "ける",
+    "reading": "ける",
+    "hanViet": null,
+    "meanings": [
+      "đá"
+    ]
+  },
+  {
+    "id": "n3:126",
+    "level": "N3",
+    "order": 126,
+    "headword": "抱く",
+    "reading": "だく",
+    "hanViet": "BÃO",
+    "meanings": [
+      "ôm"
+    ]
+  },
+  {
+    "id": "n3:127",
+    "level": "N3",
+    "order": 127,
+    "headword": "倒れる",
+    "reading": "たおれる",
+    "hanViet": "ĐẢO",
+    "meanings": [
+      "đổ"
+    ]
+  },
+  {
+    "id": "n3:128",
+    "level": "N3",
+    "order": 128,
+    "headword": "倒す",
+    "reading": "たおす",
+    "hanViet": "ĐẢO",
+    "meanings": [
+      "làm đổ"
+    ]
+  },
+  {
+    "id": "n3:129",
+    "level": "N3",
+    "order": 129,
+    "headword": "起きる",
+    "reading": "おきる",
+    "hanViet": "KHỞI",
+    "meanings": [
+      "thức dậy"
+    ]
+  },
+  {
+    "id": "n3:130",
+    "level": "N3",
+    "order": 130,
+    "headword": "起こす",
+    "reading": "おこす",
+    "hanViet": "KHỞI",
+    "meanings": [
+      "đánh thức"
+    ]
+  },
+  {
+    "id": "n3:131",
+    "level": "N3",
+    "order": 131,
+    "headword": "尋ねる",
+    "reading": "たずねる",
+    "hanViet": "TẦM",
+    "meanings": [
+      "hỏi"
+    ]
+  },
+  {
+    "id": "n3:132",
+    "level": "N3",
+    "order": 132,
+    "headword": "呼ぶ",
+    "reading": "よぶ",
+    "hanViet": "HÔ",
+    "meanings": [
+      "gọi"
+    ]
+  },
+  {
+    "id": "n3:133",
+    "level": "N3",
+    "order": 133,
+    "headword": "叫ぶ",
+    "reading": "さけぶ",
+    "hanViet": "KHIẾU",
+    "meanings": [
+      "gào to"
+    ]
+  },
+  {
+    "id": "n3:134",
+    "level": "N3",
+    "order": 134,
+    "headword": "黙る",
+    "reading": "だまる",
+    "hanViet": "MẶC",
+    "meanings": [
+      "im lặng"
+    ]
+  },
+  {
+    "id": "n3:135",
+    "level": "N3",
+    "order": 135,
+    "headword": "飼う",
+    "reading": "かう",
+    "hanViet": "TỰ",
+    "meanings": [
+      "nuôi"
+    ]
+  },
+  {
+    "id": "n3:136",
+    "level": "N3",
+    "order": 136,
+    "headword": "数える",
+    "reading": "かぞえる",
+    "hanViet": "SỐ",
+    "meanings": [
+      "đếm"
+    ]
+  },
+  {
+    "id": "n3:137",
+    "level": "N3",
+    "order": 137,
+    "headword": "乾く",
+    "reading": "かわく",
+    "hanViet": "CÀN",
+    "meanings": [
+      "khô"
+    ]
+  },
+  {
+    "id": "n3:138",
+    "level": "N3",
+    "order": 138,
+    "headword": "乾かす",
+    "reading": "かわかす",
+    "hanViet": "CÀN",
+    "meanings": [
+      "làm khô"
+    ]
+  },
+  {
+    "id": "n3:139",
+    "level": "N3",
+    "order": 139,
+    "headword": "畳む",
+    "reading": "たたむ",
+    "hanViet": "ĐIỆP",
+    "meanings": [
+      "gấp"
+    ]
+  },
+  {
+    "id": "n3:140",
+    "level": "N3",
+    "order": 140,
+    "headword": "誘う",
+    "reading": "さそう",
+    "hanViet": "DỤ",
+    "meanings": [
+      "mời",
+      "rủ"
+    ]
+  },
+  {
+    "id": "n3:141",
+    "level": "N3",
+    "order": 141,
+    "headword": "おごる",
+    "reading": "おごる",
+    "hanViet": null,
+    "meanings": [
+      "chiêu đãi"
+    ]
+  },
+  {
+    "id": "n3:142",
+    "level": "N3",
+    "order": 142,
+    "headword": "預かる",
+    "reading": "あずかる",
+    "hanViet": "DỰ",
+    "meanings": [
+      "chăm sóc"
+    ]
+  },
+  {
+    "id": "n3:143",
+    "level": "N3",
+    "order": 143,
+    "headword": "預ける",
+    "reading": "あずける",
+    "hanViet": "DỰ",
+    "meanings": [
+      "gửi"
+    ]
+  },
+  {
+    "id": "n3:144",
+    "level": "N3",
+    "order": 144,
+    "headword": "決まる",
+    "reading": "きまる",
+    "hanViet": "QUYẾT",
+    "meanings": [
+      "được quyết định"
+    ]
+  },
+  {
+    "id": "n3:145",
+    "level": "N3",
+    "order": 145,
+    "headword": "決める",
+    "reading": "きめる",
+    "hanViet": "QUYẾT",
+    "meanings": [
+      "quyết định"
+    ]
+  },
+  {
+    "id": "n3:146",
+    "level": "N3",
+    "order": 146,
+    "headword": "写る",
+    "reading": "うつる",
+    "hanViet": "TẢ",
+    "meanings": [
+      "chụp được"
+    ]
+  },
+  {
+    "id": "n3:147",
+    "level": "N3",
+    "order": 147,
+    "headword": "写す",
+    "reading": "うつす",
+    "hanViet": "TẢ",
+    "meanings": [
+      "chụp"
+    ]
+  },
+  {
+    "id": "n3:148",
+    "level": "N3",
+    "order": 148,
+    "headword": "思い出す",
+    "reading": "おもいだす",
+    "hanViet": "TƯ XUẤT",
+    "meanings": [
+      "nhớ lại"
+    ]
+  },
+  {
+    "id": "n3:149",
+    "level": "N3",
+    "order": 149,
+    "headword": "教わる",
+    "reading": "おそわる",
+    "hanViet": "GIÁO",
+    "meanings": [
+      "được dạy"
+    ]
+  },
+  {
+    "id": "n3:150",
+    "level": "N3",
+    "order": 150,
+    "headword": "申し込む",
+    "reading": "もうしこむ",
+    "hanViet": "THÂN NHẬP",
+    "meanings": [
+      "đăng ký"
+    ]
+  },
+  {
+    "id": "n3:151",
+    "level": "N3",
+    "order": 151,
+    "headword": "断る",
+    "reading": "ことわる",
+    "hanViet": "ĐOẠN",
+    "meanings": [
+      "từ chối"
+    ]
+  },
+  {
+    "id": "n3:152",
+    "level": "N3",
+    "order": 152,
+    "headword": "見つかる",
+    "reading": "みつかる",
+    "hanViet": "KIẾN",
+    "meanings": [
+      "được tìm thấy"
+    ]
+  },
+  {
+    "id": "n3:153",
+    "level": "N3",
+    "order": 153,
+    "headword": "見つける",
+    "reading": "みつける",
+    "hanViet": "KIẾN",
+    "meanings": [
+      "tìm thấy"
+    ]
+  },
+  {
+    "id": "n3:154",
+    "level": "N3",
+    "order": 154,
+    "headword": "捕まる",
+    "reading": "つかまる",
+    "hanViet": "BỘ",
+    "meanings": [
+      "bị bắt"
+    ]
+  },
+  {
+    "id": "n3:155",
+    "level": "N3",
+    "order": 155,
+    "headword": "捕まえる",
+    "reading": "つかまえる",
+    "hanViet": "BỘ",
+    "meanings": [
+      "bắt"
+    ]
+  },
+  {
+    "id": "n3:156",
+    "level": "N3",
+    "order": 156,
+    "headword": "乗る",
+    "reading": "のる",
+    "hanViet": "THỪA",
+    "meanings": [
+      "leo lên"
+    ]
+  },
+  {
+    "id": "n3:157",
+    "level": "N3",
+    "order": 157,
+    "headword": "乗せる",
+    "reading": "のせる",
+    "hanViet": "THỪA",
+    "meanings": [
+      "cho lên"
+    ]
+  },
+  {
+    "id": "n3:158",
+    "level": "N3",
+    "order": 158,
+    "headword": "降りる",
+    "reading": "おりる",
+    "hanViet": "GIÁNG",
+    "meanings": [
+      "xuống"
+    ]
+  },
+  {
+    "id": "n3:159",
+    "level": "N3",
+    "order": 159,
+    "headword": "降ろす",
+    "reading": "おろす",
+    "hanViet": "GIÁNG",
+    "meanings": [
+      "cho xuống"
+    ]
+  },
+  {
+    "id": "n3:160",
+    "level": "N3",
+    "order": 160,
+    "headword": "直る",
+    "reading": "なおる",
+    "hanViet": "TRỰC",
+    "meanings": [
+      "được sửa"
+    ]
+  },
+  {
+    "id": "n3:161",
+    "level": "N3",
+    "order": 161,
+    "headword": "直す",
+    "reading": "なおす",
+    "hanViet": "TRỰC",
+    "meanings": [
+      "sửa"
+    ]
+  },
+  {
+    "id": "n3:162",
+    "level": "N3",
+    "order": 162,
+    "headword": "治る",
+    "reading": "なおる",
+    "hanViet": "TRỊ",
+    "meanings": [
+      "hồi phục"
+    ]
+  },
+  {
+    "id": "n3:163",
+    "level": "N3",
+    "order": 163,
+    "headword": "治す",
+    "reading": "なおす",
+    "hanViet": "TRỊ",
+    "meanings": [
+      "cứu chữa"
+    ]
+  },
+  {
+    "id": "n3:164",
+    "level": "N3",
+    "order": 164,
+    "headword": "亡くなる",
+    "reading": "なくなる",
+    "hanViet": "VONG",
+    "meanings": [
+      "chết"
+    ]
+  },
+  {
+    "id": "n3:165",
+    "level": "N3",
+    "order": 165,
+    "headword": "亡くす",
+    "reading": "なくす",
+    "hanViet": "VONG",
+    "meanings": [
+      "mất"
+    ]
+  },
+  {
+    "id": "n3:166",
+    "level": "N3",
+    "order": 166,
+    "headword": "生まれる",
+    "reading": "うまれる",
+    "hanViet": "SINH",
+    "meanings": [
+      "được sinh ra"
+    ]
+  },
+  {
+    "id": "n3:167",
+    "level": "N3",
+    "order": 167,
+    "headword": "生む",
+    "reading": "うむ",
+    "hanViet": "SINH",
+    "meanings": [
+      "sinh"
+    ]
+  },
+  {
+    "id": "n3:168",
+    "level": "N3",
+    "order": 168,
+    "headword": "出会う",
+    "reading": "であう",
+    "hanViet": "XUẤT HỘI",
+    "meanings": [
+      "gặp (ngẫu nhiên)"
+    ]
+  },
+  {
+    "id": "n3:169",
+    "level": "N3",
+    "order": 169,
+    "headword": "訪ねる",
+    "reading": "たずねる",
+    "hanViet": "PHỎNG",
+    "meanings": [
+      "thăm"
+    ]
+  },
+  {
+    "id": "n3:170",
+    "level": "N3",
+    "order": 170,
+    "headword": "付き合う",
+    "reading": "つきあう",
+    "hanViet": "PHÓ HỢP",
+    "meanings": [
+      "hẹn hò",
+      "giao tiếp"
+    ]
+  },
+  {
+    "id": "n3:171",
+    "level": "N3",
+    "order": 171,
+    "headword": "効く",
+    "reading": "きく",
+    "hanViet": "HIỆU",
+    "meanings": [
+      "có hiệu quả"
+    ]
+  },
+  {
+    "id": "n3:172",
+    "level": "N3",
+    "order": 172,
+    "headword": "はやる",
+    "reading": "はやる",
+    "hanViet": null,
+    "meanings": [
+      "phổ biến"
+    ]
+  },
+  {
+    "id": "n3:173",
+    "level": "N3",
+    "order": 173,
+    "headword": "経つ",
+    "reading": "たつ",
+    "hanViet": "KINH",
+    "meanings": [
+      "qua"
+    ]
+  },
+  {
+    "id": "n3:174",
+    "level": "N3",
+    "order": 174,
+    "headword": "間に合う",
+    "reading": "まにあう",
+    "hanViet": "GIAN HỢP",
+    "meanings": [
+      "làm cho kịp giờ"
+    ]
+  },
+  {
+    "id": "n3:175",
+    "level": "N3",
+    "order": 175,
+    "headword": "間に合わせる",
+    "reading": "まにあわせる",
+    "hanViet": "GIAN HỢP",
+    "meanings": [
+      "kịp giờ"
+    ]
+  },
+  {
+    "id": "n3:176",
+    "level": "N3",
+    "order": 176,
+    "headword": "通う",
+    "reading": "かよう",
+    "hanViet": "THÔNG",
+    "meanings": [
+      "đi làm",
+      "học"
+    ]
+  },
+  {
+    "id": "n3:177",
+    "level": "N3",
+    "order": 177,
+    "headword": "込む",
+    "reading": "こむ",
+    "hanViet": "NHẬP",
+    "meanings": [
+      "đông"
+    ]
+  },
+  {
+    "id": "n3:178",
+    "level": "N3",
+    "order": 178,
+    "headword": "すれ違う",
+    "reading": "すれちがう",
+    "hanViet": "VI",
+    "meanings": [
+      "vượt",
+      "lướt"
+    ]
+  },
+  {
+    "id": "n3:179",
+    "level": "N3",
+    "order": 179,
+    "headword": "掛かる",
+    "reading": "かかる",
+    "hanViet": "QUẢI",
+    "meanings": [
+      "được bao phủ"
+    ]
+  },
+  {
+    "id": "n3:180",
+    "level": "N3",
+    "order": 180,
+    "headword": "掛ける",
+    "reading": "かける",
+    "hanViet": "QUẢI",
+    "meanings": [
+      "bao phủ"
+    ]
+  },
+  {
+    "id": "n3:181",
+    "level": "N3",
+    "order": 181,
+    "headword": "動く",
+    "reading": "うごく",
+    "hanViet": "ĐỘNG",
+    "meanings": [
+      "hoạt động"
+    ]
+  },
+  {
+    "id": "n3:182",
+    "level": "N3",
+    "order": 182,
+    "headword": "動かす",
+    "reading": "うごかす",
+    "hanViet": "ĐỘNG",
+    "meanings": [
+      "di chuyển"
+    ]
+  },
+  {
+    "id": "n3:183",
+    "level": "N3",
+    "order": 183,
+    "headword": "離れる",
+    "reading": "はなれる",
+    "hanViet": "LY",
+    "meanings": [
+      "tránh xa"
+    ]
+  },
+  {
+    "id": "n3:184",
+    "level": "N3",
+    "order": 184,
+    "headword": "離す",
+    "reading": "はなす",
+    "hanViet": "LY",
+    "meanings": [
+      "tách ra"
+    ]
+  },
+  {
+    "id": "n3:185",
+    "level": "N3",
+    "order": 185,
+    "headword": "ぶつかる",
+    "reading": "ぶつかる",
+    "hanViet": null,
+    "meanings": [
+      "bị đâm"
+    ]
+  },
+  {
+    "id": "n3:186",
+    "level": "N3",
+    "order": 186,
+    "headword": "ぶつける",
+    "reading": "ぶつける",
+    "hanViet": null,
+    "meanings": [
+      "đâm"
+    ]
+  },
+  {
+    "id": "n3:187",
+    "level": "N3",
+    "order": 187,
+    "headword": "こぼれる",
+    "reading": "こぼれる",
+    "hanViet": null,
+    "meanings": [
+      "bị tràn"
+    ]
+  },
+  {
+    "id": "n3:188",
+    "level": "N3",
+    "order": 188,
+    "headword": "こぼす",
+    "reading": "こぼす",
+    "hanViet": null,
+    "meanings": [
+      "tràn"
+    ]
+  },
+  {
+    "id": "n3:189",
+    "level": "N3",
+    "order": 189,
+    "headword": "ふく",
+    "reading": "ふく",
+    "hanViet": null,
+    "meanings": [
+      "lau"
+    ]
+  },
+  {
+    "id": "n3:190",
+    "level": "N3",
+    "order": 190,
+    "headword": "片付く",
+    "reading": "かたづく",
+    "hanViet": "PHIẾN PHÓ",
+    "meanings": [
+      "được dọn dẹp"
+    ]
+  },
+  {
+    "id": "n3:191",
+    "level": "N3",
+    "order": 191,
+    "headword": "片付ける",
+    "reading": "かたづける",
+    "hanViet": "PHIẾN PHÓ",
+    "meanings": [
+      "dọn dẹp"
+    ]
+  },
+  {
+    "id": "n3:192",
+    "level": "N3",
+    "order": 192,
+    "headword": "包む",
+    "reading": "つつむ",
+    "hanViet": "BAO",
+    "meanings": [
+      "bọc"
+    ]
+  },
+  {
+    "id": "n3:193",
+    "level": "N3",
+    "order": 193,
+    "headword": "張る",
+    "reading": "はる",
+    "hanViet": "TRƯƠNG",
+    "meanings": [
+      "dán"
+    ]
+  },
+  {
+    "id": "n3:194",
+    "level": "N3",
+    "order": 194,
+    "headword": "無くなる",
+    "reading": "なくなる",
+    "hanViet": "VÔ",
+    "meanings": [
+      "bị mất"
+    ]
+  },
+  {
+    "id": "n3:195",
+    "level": "N3",
+    "order": 195,
+    "headword": "無くす",
+    "reading": "なくす",
+    "hanViet": "VÔ",
+    "meanings": [
+      "mất"
+    ]
+  },
+  {
+    "id": "n3:196",
+    "level": "N3",
+    "order": 196,
+    "headword": "足りる",
+    "reading": "たりる",
+    "hanViet": "TÚC",
+    "meanings": [
+      "đủ"
+    ]
+  },
+  {
+    "id": "n3:197",
+    "level": "N3",
+    "order": 197,
+    "headword": "残る",
+    "reading": "のこる",
+    "hanViet": "TÀN",
+    "meanings": [
+      "bị thừa"
+    ]
+  },
+  {
+    "id": "n3:198",
+    "level": "N3",
+    "order": 198,
+    "headword": "残す",
+    "reading": "のこす",
+    "hanViet": "TÀN",
+    "meanings": [
+      "thừa"
+    ]
+  },
+  {
+    "id": "n3:199",
+    "level": "N3",
+    "order": 199,
+    "headword": "腐る",
+    "reading": "くさる",
+    "hanViet": "HỦ",
+    "meanings": [
+      "thối"
+    ]
+  },
+  {
+    "id": "n3:200",
+    "level": "N3",
+    "order": 200,
+    "headword": "むける",
+    "reading": "むける",
+    "hanViet": null,
+    "meanings": [
+      "bị lột"
+    ]
+  },
+  {
+    "id": "n3:201",
+    "level": "N3",
+    "order": 201,
+    "headword": "むく",
+    "reading": "むく",
+    "hanViet": null,
+    "meanings": [
+      "lột"
+    ]
+  },
+  {
+    "id": "n3:202",
+    "level": "N3",
+    "order": 202,
+    "headword": "滑る",
+    "reading": "すべる",
+    "hanViet": "HOẠT",
+    "meanings": [
+      "trượt"
+    ]
+  },
+  {
+    "id": "n3:203",
+    "level": "N3",
+    "order": 203,
+    "headword": "積もる",
+    "reading": "つもる",
+    "hanViet": "TÍCH",
+    "meanings": [
+      "được tích tụ"
+    ]
+  },
+  {
+    "id": "n3:204",
+    "level": "N3",
+    "order": 204,
+    "headword": "積む",
+    "reading": "つむ",
+    "hanViet": "TÍCH",
+    "meanings": [
+      "tích tụ",
+      "chất lại"
+    ]
+  },
+  {
+    "id": "n3:205",
+    "level": "N3",
+    "order": 205,
+    "headword": "空く",
+    "reading": "あく",
+    "hanViet": "KHÔNG",
+    "meanings": [
+      "bị thủng"
+    ]
+  },
+  {
+    "id": "n3:206",
+    "level": "N3",
+    "order": 206,
+    "headword": "空ける",
+    "reading": "あける",
+    "hanViet": "KHÔNG",
+    "meanings": [
+      "thủng"
+    ]
+  },
+  {
+    "id": "n3:207",
+    "level": "N3",
+    "order": 207,
+    "headword": "下がる",
+    "reading": "さがる",
+    "hanViet": "HẠ",
+    "meanings": [
+      "bị giảm"
+    ]
+  },
+  {
+    "id": "n3:208",
+    "level": "N3",
+    "order": 208,
+    "headword": "下げる",
+    "reading": "さげる",
+    "hanViet": "HẠ",
+    "meanings": [
+      "giảm"
+    ]
+  },
+  {
+    "id": "n3:209",
+    "level": "N3",
+    "order": 209,
+    "headword": "冷える",
+    "reading": "ひえる",
+    "hanViet": "LÃNH",
+    "meanings": [
+      "bị lạnh"
+    ]
+  },
+  {
+    "id": "n3:210",
+    "level": "N3",
+    "order": 210,
+    "headword": "冷やす",
+    "reading": "ひやす",
+    "hanViet": "LÃNH",
+    "meanings": [
+      "làm lạnh"
+    ]
+  },
+  {
+    "id": "n3:211",
+    "level": "N3",
+    "order": 211,
+    "headword": "冷める",
+    "reading": "さめる",
+    "hanViet": "LÃNH",
+    "meanings": [
+      "bị nguội"
+    ]
+  },
+  {
+    "id": "n3:212",
+    "level": "N3",
+    "order": 212,
+    "headword": "冷ます",
+    "reading": "さます",
+    "hanViet": "LÃNH",
+    "meanings": [
+      "làm nguội"
+    ]
+  },
+  {
+    "id": "n3:213",
+    "level": "N3",
+    "order": 213,
+    "headword": "燃える",
+    "reading": "もえる",
+    "hanViet": "NHIÊN",
+    "meanings": [
+      "cháy"
+    ]
+  },
+  {
+    "id": "n3:214",
+    "level": "N3",
+    "order": 214,
+    "headword": "燃やす",
+    "reading": "もやす",
+    "hanViet": "NHIÊN",
+    "meanings": [
+      "đốt"
+    ]
+  },
+  {
+    "id": "n3:215",
+    "level": "N3",
+    "order": 215,
+    "headword": "沸く",
+    "reading": "わく",
+    "hanViet": "PHÍ",
+    "meanings": [
+      "sôi"
+    ]
+  },
+  {
+    "id": "n3:216",
+    "level": "N3",
+    "order": 216,
+    "headword": "沸かす",
+    "reading": "わかす",
+    "hanViet": "PHÍ",
+    "meanings": [
+      "đun sôi"
+    ]
+  },
+  {
+    "id": "n3:217",
+    "level": "N3",
+    "order": 217,
+    "headword": "鳴る",
+    "reading": "なる",
+    "hanViet": "MINH",
+    "meanings": [
+      "kêu"
+    ]
+  },
+  {
+    "id": "n3:218",
+    "level": "N3",
+    "order": 218,
+    "headword": "鳴らす",
+    "reading": "ならす",
+    "hanViet": "MINH",
+    "meanings": [
+      "làm kêu"
+    ]
+  },
+  {
+    "id": "n3:219",
+    "level": "N3",
+    "order": 219,
+    "headword": "役立つ",
+    "reading": "やくだつ",
+    "hanViet": "DỊCH LẬP",
+    "meanings": [
+      "hữu ích"
+    ]
+  },
+  {
+    "id": "n3:220",
+    "level": "N3",
+    "order": 220,
+    "headword": "役立てる",
+    "reading": "やくだてる",
+    "hanViet": "DỊCH LẬP",
+    "meanings": [
+      "được sử dụng"
+    ]
+  },
+  {
+    "id": "n3:221",
+    "level": "N3",
+    "order": 221,
+    "headword": "飾り",
+    "reading": "かざり",
+    "hanViet": "SỨC",
+    "meanings": [
+      "trang trí"
+    ]
+  },
+  {
+    "id": "n3:222",
+    "level": "N3",
+    "order": 222,
+    "headword": "遊び",
+    "reading": "あそび",
+    "hanViet": "DU",
+    "meanings": [
+      "chơi"
+    ]
+  },
+  {
+    "id": "n3:223",
+    "level": "N3",
+    "order": 223,
+    "headword": "集まり",
+    "reading": "あつまり",
+    "hanViet": "TẬP",
+    "meanings": [
+      "tập hợp"
+    ]
+  },
+  {
+    "id": "n3:224",
+    "level": "N3",
+    "order": 224,
+    "headword": "教え",
+    "reading": "おしえ",
+    "hanViet": "GIÁO",
+    "meanings": [
+      "dạy"
+    ]
+  },
+  {
+    "id": "n3:225",
+    "level": "N3",
+    "order": 225,
+    "headword": "踊り",
+    "reading": "おどり",
+    "hanViet": "DŨNG",
+    "meanings": [
+      "nhảy"
+    ]
+  },
+  {
+    "id": "n3:226",
+    "level": "N3",
+    "order": 226,
+    "headword": "思い",
+    "reading": "おもい",
+    "hanViet": "TƯ",
+    "meanings": [
+      "suy nghĩ",
+      "cảm giác"
+    ]
+  },
+  {
+    "id": "n3:227",
+    "level": "N3",
+    "order": 227,
+    "headword": "考え",
+    "reading": "かんがえ",
+    "hanViet": "KHẢO",
+    "meanings": [
+      "nghĩ",
+      "ý tưởng"
+    ]
+  },
+  {
+    "id": "n3:228",
+    "level": "N3",
+    "order": 228,
+    "headword": "片づけ",
+    "reading": "かたづけ",
+    "hanViet": "PHIẾN",
+    "meanings": [
+      "ngăn nắp"
+    ]
+  },
+  {
+    "id": "n3:229",
+    "level": "N3",
+    "order": 229,
+    "headword": "手伝い",
+    "reading": "てつだい",
+    "hanViet": "THỦ TRUYỀN",
+    "meanings": [
+      "giúp đỡ"
+    ]
+  },
+  {
+    "id": "n3:230",
+    "level": "N3",
+    "order": 230,
+    "headword": "働き",
+    "reading": "はたらき",
+    "hanViet": "ĐỘNG",
+    "meanings": [
+      "hoạt động"
+    ]
+  },
+  {
+    "id": "n3:231",
+    "level": "N3",
+    "order": 231,
+    "headword": "決まり",
+    "reading": "きまり",
+    "hanViet": "QUYẾT",
+    "meanings": [
+      "luật lệ"
+    ]
+  },
+  {
+    "id": "n3:232",
+    "level": "N3",
+    "order": 232,
+    "headword": "騒ぎ",
+    "reading": "さわぎ",
+    "hanViet": "TAO",
+    "meanings": [
+      "ồn ào",
+      "om xòm"
+    ]
+  },
+  {
+    "id": "n3:233",
+    "level": "N3",
+    "order": 233,
+    "headword": "知らせ",
+    "reading": "しらせ",
+    "hanViet": "TRI",
+    "meanings": [
+      "tin tức",
+      "thông báo"
+    ]
+  },
+  {
+    "id": "n3:234",
+    "level": "N3",
+    "order": 234,
+    "headword": "頼み",
+    "reading": "たのみ",
+    "hanViet": "LẠI",
+    "meanings": [
+      "yêu cầu"
+    ]
+  },
+  {
+    "id": "n3:235",
+    "level": "N3",
+    "order": 235,
+    "headword": "疲れ",
+    "reading": "つかれ",
+    "hanViet": "BÌ",
+    "meanings": [
+      "vất vả",
+      "mệt mỏi"
+    ]
+  },
+  {
+    "id": "n3:236",
+    "level": "N3",
+    "order": 236,
+    "headword": "違い",
+    "reading": "ちがい",
+    "hanViet": "VI",
+    "meanings": [
+      "khác biệt"
+    ]
+  },
+  {
+    "id": "n3:237",
+    "level": "N3",
+    "order": 237,
+    "headword": "始め",
+    "reading": "はじめ",
+    "hanViet": "THUỶ",
+    "meanings": [
+      "khởi đầu"
+    ]
+  },
+  {
+    "id": "n3:238",
+    "level": "N3",
+    "order": 238,
+    "headword": "続き",
+    "reading": "つづき",
+    "hanViet": "TỤC",
+    "meanings": [
+      "tiếp tục"
+    ]
+  },
+  {
+    "id": "n3:239",
+    "level": "N3",
+    "order": 239,
+    "headword": "暮れ",
+    "reading": "くれ",
+    "hanViet": "MỘ",
+    "meanings": [
+      "cuối năm"
+    ]
+  },
+  {
+    "id": "n3:240",
+    "level": "N3",
+    "order": 240,
+    "headword": "行き",
+    "reading": "いき",
+    "hanViet": "HÀNH",
+    "meanings": [
+      "đi"
+    ]
+  },
+  {
+    "id": "n3:241",
+    "level": "N3",
+    "order": 241,
+    "headword": "帰り",
+    "reading": "かえり",
+    "hanViet": "QUY",
+    "meanings": [
+      "trở về"
+    ]
+  },
+  {
+    "id": "n3:242",
+    "level": "N3",
+    "order": 242,
+    "headword": "急ぎ",
+    "reading": "いそぎ",
+    "hanViet": "CẤP",
+    "meanings": [
+      "khẩn cấp",
+      "vội"
+    ]
+  },
+  {
+    "id": "n3:243",
+    "level": "N3",
+    "order": 243,
+    "headword": "遅れ",
+    "reading": "おくれ",
+    "hanViet": "TRÌ",
+    "meanings": [
+      "gián đoạn"
+    ]
+  },
+  {
+    "id": "n3:244",
+    "level": "N3",
+    "order": 244,
+    "headword": "貸し",
+    "reading": "かし",
+    "hanViet": "THẢI",
+    "meanings": [
+      "cho mượn"
+    ]
+  },
+  {
+    "id": "n3:245",
+    "level": "N3",
+    "order": 245,
+    "headword": "借り",
+    "reading": "かり",
+    "hanViet": "TÁ",
+    "meanings": [
+      "mượn"
+    ]
+  },
+  {
+    "id": "n3:246",
+    "level": "N3",
+    "order": 246,
+    "headword": "勝ち",
+    "reading": "かち",
+    "hanViet": "THẮNG",
+    "meanings": [
+      "thắng"
+    ]
+  },
+  {
+    "id": "n3:247",
+    "level": "N3",
+    "order": 247,
+    "headword": "負け",
+    "reading": "まけ",
+    "hanViet": "PHỤ",
+    "meanings": [
+      "thua"
+    ]
+  },
+  {
+    "id": "n3:248",
+    "level": "N3",
+    "order": 248,
+    "headword": "迎え",
+    "reading": "むかえ",
+    "hanViet": "NGHINH",
+    "meanings": [
+      "đón"
+    ]
+  },
+  {
+    "id": "n3:249",
+    "level": "N3",
+    "order": 249,
+    "headword": "始まり",
+    "reading": "はじまり",
+    "hanViet": "THUỶ",
+    "meanings": [
+      "bắt đầu"
+    ]
+  },
+  {
+    "id": "n3:250",
+    "level": "N3",
+    "order": 250,
+    "headword": "終わり",
+    "reading": "おわり",
+    "hanViet": "CHUNG",
+    "meanings": [
+      "kết thúc"
+    ]
+  },
+  {
+    "id": "n3:251",
+    "level": "N3",
+    "order": 251,
+    "headword": "戻り",
+    "reading": "もどり",
+    "hanViet": "LỆ",
+    "meanings": [
+      "trở về",
+      "trả lại"
+    ]
+  },
+  {
+    "id": "n3:252",
+    "level": "N3",
+    "order": 252,
+    "headword": "別れ",
+    "reading": "わかれ",
+    "hanViet": "BIỆT",
+    "meanings": [
+      "chia ly"
+    ]
+  },
+  {
+    "id": "n3:253",
+    "level": "N3",
+    "order": 253,
+    "headword": "喜び",
+    "reading": "よろこび",
+    "hanViet": "HỶ",
+    "meanings": [
+      "hớn hở"
+    ]
+  },
+  {
+    "id": "n3:254",
+    "level": "N3",
+    "order": 254,
+    "headword": "楽しみ",
+    "reading": "たのしみ",
+    "hanViet": "LẠC",
+    "meanings": [
+      "sung sướng"
+    ]
+  },
+  {
+    "id": "n3:255",
+    "level": "N3",
+    "order": 255,
+    "headword": "笑い",
+    "reading": "わらい",
+    "hanViet": "TIẾU",
+    "meanings": [
+      "cười"
+    ]
+  },
+  {
+    "id": "n3:256",
+    "level": "N3",
+    "order": 256,
+    "headword": "驚き",
+    "reading": "おどろき",
+    "hanViet": "KINH",
+    "meanings": [
+      "ngạc nhiên"
+    ]
+  },
+  {
+    "id": "n3:257",
+    "level": "N3",
+    "order": 257,
+    "headword": "怒り",
+    "reading": "いかり",
+    "hanViet": "NỘ",
+    "meanings": [
+      "giận dữ"
+    ]
+  },
+  {
+    "id": "n3:258",
+    "level": "N3",
+    "order": 258,
+    "headword": "悲しみ",
+    "reading": "かなしみ",
+    "hanViet": "BI",
+    "meanings": [
+      "buồn bã"
+    ]
+  },
+  {
+    "id": "n3:259",
+    "level": "N3",
+    "order": 259,
+    "headword": "幸せな",
+    "reading": "しあわせな",
+    "hanViet": "HẠNH",
+    "meanings": [
+      "hạnh phúc"
+    ]
+  },
+  {
+    "id": "n3:260",
+    "level": "N3",
+    "order": 260,
+    "headword": "得意な",
+    "reading": "とくいな",
+    "hanViet": "ĐẮC Ý",
+    "meanings": [
+      "mạnh",
+      "giỏi"
+    ]
+  },
+  {
+    "id": "n3:261",
+    "level": "N3",
+    "order": 261,
+    "headword": "苦手な",
+    "reading": "にがてな",
+    "hanViet": "KHỔ THỦ",
+    "meanings": [
+      "yếu",
+      "kém"
+    ]
+  },
+  {
+    "id": "n3:262",
+    "level": "N3",
+    "order": 262,
+    "headword": "熱心な",
+    "reading": "ねっしんな",
+    "hanViet": "NHIỆT TÂM",
+    "meanings": [
+      "chăm chỉ"
+    ]
+  },
+  {
+    "id": "n3:263",
+    "level": "N3",
+    "order": 263,
+    "headword": "夢中な",
+    "reading": "むちゅうな",
+    "hanViet": "MỘNG TRUNG",
+    "meanings": [
+      "chú tâm"
+    ]
+  },
+  {
+    "id": "n3:264",
+    "level": "N3",
+    "order": 264,
+    "headword": "退屈な",
+    "reading": "たいくつな",
+    "hanViet": "THOÁI KHUẤT",
+    "meanings": [
+      "chán"
+    ]
+  },
+  {
+    "id": "n3:265",
+    "level": "N3",
+    "order": 265,
+    "headword": "健康な",
+    "reading": "けんこうな",
+    "hanViet": "KIỆN KHANG",
+    "meanings": [
+      "khỏe khoắn"
+    ]
+  },
+  {
+    "id": "n3:266",
+    "level": "N3",
+    "order": 266,
+    "headword": "苦しい",
+    "reading": "くるしい",
+    "hanViet": "KHỔ",
+    "meanings": [
+      "cực khổ"
+    ]
+  },
+  {
+    "id": "n3:267",
+    "level": "N3",
+    "order": 267,
+    "headword": "平気な",
+    "reading": "へいきな",
+    "hanViet": "BÌNH KHÍ",
+    "meanings": [
+      "bình thản"
+    ]
+  },
+  {
+    "id": "n3:268",
+    "level": "N3",
+    "order": 268,
+    "headword": "悔しい",
+    "reading": "くやしい",
+    "hanViet": "HỐI",
+    "meanings": [
+      "cay cú"
+    ]
+  },
+  {
+    "id": "n3:269",
+    "level": "N3",
+    "order": 269,
+    "headword": "うらやましい",
+    "reading": "うらやましい",
+    "hanViet": null,
+    "meanings": [
+      "ghen tỵ"
+    ]
+  },
+  {
+    "id": "n3:270",
+    "level": "N3",
+    "order": 270,
+    "headword": "かゆい",
+    "reading": "かゆい",
+    "hanViet": null,
+    "meanings": [
+      "ngứa"
+    ]
+  },
+  {
+    "id": "n3:271",
+    "level": "N3",
+    "order": 271,
+    "headword": "おとなしい",
+    "reading": "おとなしい",
+    "hanViet": null,
+    "meanings": [
+      "trầm lặng"
+    ]
+  },
+  {
+    "id": "n3:272",
+    "level": "N3",
+    "order": 272,
+    "headword": "我慢強い",
+    "reading": "がまんづよい",
+    "hanViet": "NGÃ MẠN CƯỜNG",
+    "meanings": [
+      "chịu đựng giỏi"
+    ]
+  },
+  {
+    "id": "n3:273",
+    "level": "N3",
+    "order": 273,
+    "headword": "正直な",
+    "reading": "しょうじきな",
+    "hanViet": "CHÍNH TRỰC",
+    "meanings": [
+      "trung thực"
+    ]
+  },
+  {
+    "id": "n3:274",
+    "level": "N3",
+    "order": 274,
+    "headword": "けちな",
+    "reading": "けちな",
+    "hanViet": null,
+    "meanings": [
+      "kẹt xỉ"
+    ]
+  },
+  {
+    "id": "n3:275",
+    "level": "N3",
+    "order": 275,
+    "headword": "我儘な",
+    "reading": "わがままな",
+    "hanViet": "NGÃ TẬN",
+    "meanings": [
+      "ích kỷ"
+    ]
+  },
+  {
+    "id": "n3:276",
+    "level": "N3",
+    "order": 276,
+    "headword": "積極的な",
+    "reading": "せっきょくてきな",
+    "hanViet": "TÍCH CỰC ĐÍCH",
+    "meanings": [
+      "tích cực"
+    ]
+  },
+  {
+    "id": "n3:277",
+    "level": "N3",
+    "order": 277,
+    "headword": "消極的な",
+    "reading": "しょうきょくてきな",
+    "hanViet": "TIÊU CỰC ĐÍCH",
+    "meanings": [
+      "tiêu cực"
+    ]
+  },
+  {
+    "id": "n3:278",
+    "level": "N3",
+    "order": 278,
+    "headword": "満足な",
+    "reading": "まんぞくな",
+    "hanViet": "MÃN TÚC",
+    "meanings": [
+      "thỏa mãn"
+    ]
+  },
+  {
+    "id": "n3:279",
+    "level": "N3",
+    "order": 279,
+    "headword": "不満な",
+    "reading": "ふまんな",
+    "hanViet": "BẤT MÃN",
+    "meanings": [
+      "bất mãn"
+    ]
+  },
+  {
+    "id": "n3:280",
+    "level": "N3",
+    "order": 280,
+    "headword": "不安な",
+    "reading": "ふあんな",
+    "hanViet": "BẤT AN",
+    "meanings": [
+      "bất an"
+    ]
+  },
+  {
+    "id": "n3:281",
+    "level": "N3",
+    "order": 281,
+    "headword": "大変な",
+    "reading": "たいへんな",
+    "hanViet": "ĐẠI BIẾN",
+    "meanings": [
+      "tồi tệ"
+    ]
+  },
+  {
+    "id": "n3:282",
+    "level": "N3",
+    "order": 282,
+    "headword": "無理な",
+    "reading": "むりな",
+    "hanViet": "VÔ LÝ",
+    "meanings": [
+      "vô lý"
+    ]
+  },
+  {
+    "id": "n3:283",
+    "level": "N3",
+    "order": 283,
+    "headword": "不注意な",
+    "reading": "ふちゅういな",
+    "hanViet": "BẤT CHÚ Ý",
+    "meanings": [
+      "không chú ý"
+    ]
+  },
+  {
+    "id": "n3:284",
+    "level": "N3",
+    "order": 284,
+    "headword": "楽な",
+    "reading": "らくな",
+    "hanViet": "LẠC",
+    "meanings": [
+      "thoải mái"
+    ]
+  },
+  {
+    "id": "n3:285",
+    "level": "N3",
+    "order": 285,
+    "headword": "面倒な",
+    "reading": "めんどうな",
+    "hanViet": "DIỆN ĐẢO",
+    "meanings": [
+      "phiền phức"
+    ]
+  },
+  {
+    "id": "n3:286",
+    "level": "N3",
+    "order": 286,
+    "headword": "失礼な",
+    "reading": "しつれいな",
+    "hanViet": "THẤT LỄ",
+    "meanings": [
+      "thất lễ"
+    ]
+  },
+  {
+    "id": "n3:287",
+    "level": "N3",
+    "order": 287,
+    "headword": "当然な",
+    "reading": "とうぜんな",
+    "hanViet": "ĐƯƠNG NHIÊN",
+    "meanings": [
+      "đương nhiên"
+    ]
+  },
+  {
+    "id": "n3:288",
+    "level": "N3",
+    "order": 288,
+    "headword": "意外な",
+    "reading": "いがいな",
+    "hanViet": "Ý NGOẠI",
+    "meanings": [
+      "không ngờ đến"
+    ]
+  },
+  {
+    "id": "n3:289",
+    "level": "N3",
+    "order": 289,
+    "headword": "結構な",
+    "reading": "けっこうな",
+    "hanViet": "KẾT CẤU",
+    "meanings": [
+      "tốt",
+      "đủ"
+    ]
+  },
+  {
+    "id": "n3:290",
+    "level": "N3",
+    "order": 290,
+    "headword": "派手な",
+    "reading": "はでな",
+    "hanViet": "PHÁI THỦ",
+    "meanings": [
+      "lòe loẹt"
+    ]
+  },
+  {
+    "id": "n3:291",
+    "level": "N3",
+    "order": 291,
+    "headword": "地味な",
+    "reading": "じみな",
+    "hanViet": "ĐỊA VỊ",
+    "meanings": [
+      "giản dị"
+    ]
+  },
+  {
+    "id": "n3:292",
+    "level": "N3",
+    "order": 292,
+    "headword": "おしゃれな",
+    "reading": "おしゃれな",
+    "hanViet": null,
+    "meanings": [
+      "thời trang",
+      "mốt"
+    ]
+  },
+  {
+    "id": "n3:293",
+    "level": "N3",
+    "order": 293,
+    "headword": "変な",
+    "reading": "へんな",
+    "hanViet": "BIẾN",
+    "meanings": [
+      "lạ"
+    ]
+  },
+  {
+    "id": "n3:294",
+    "level": "N3",
+    "order": 294,
+    "headword": "不思議な",
+    "reading": "ふしぎな",
+    "hanViet": "BẤT TƯ NGHỊ",
+    "meanings": [
+      "thần bí"
+    ]
+  },
+  {
+    "id": "n3:295",
+    "level": "N3",
+    "order": 295,
+    "headword": "ましな",
+    "reading": "ましな",
+    "hanViet": null,
+    "meanings": [
+      "tốt lên"
+    ]
+  },
+  {
+    "id": "n3:296",
+    "level": "N3",
+    "order": 296,
+    "headword": "むだな",
+    "reading": "むだな",
+    "hanViet": null,
+    "meanings": [
+      "lãng phí"
+    ]
+  },
+  {
+    "id": "n3:297",
+    "level": "N3",
+    "order": 297,
+    "headword": "自由な",
+    "reading": "じゆうな",
+    "hanViet": "TỰ DO",
+    "meanings": [
+      "tự do"
+    ]
+  },
+  {
+    "id": "n3:298",
+    "level": "N3",
+    "order": 298,
+    "headword": "不自由な",
+    "reading": "ふじゆうな",
+    "hanViet": "BẤT TỰ DO",
+    "meanings": [
+      "tàn tật",
+      "không tự do"
+    ]
+  },
+  {
+    "id": "n3:299",
+    "level": "N3",
+    "order": 299,
+    "headword": "温まる",
+    "reading": "あたたまる",
+    "hanViet": "ÔN",
+    "meanings": [
+      "trở nên ấm hơn"
+    ]
+  },
+  {
+    "id": "n3:300",
+    "level": "N3",
+    "order": 300,
+    "headword": "温める",
+    "reading": "あたためる",
+    "hanViet": "ÔN",
+    "meanings": [
+      "ấm",
+      "nóng"
+    ]
+  },
+  {
+    "id": "n3:301",
+    "level": "N3",
+    "order": 301,
+    "headword": "高まる",
+    "reading": "たかまる",
+    "hanViet": "CAO",
+    "meanings": [
+      "cao lên"
+    ]
+  },
+  {
+    "id": "n3:302",
+    "level": "N3",
+    "order": 302,
+    "headword": "高める",
+    "reading": "たかめる",
+    "hanViet": "CAO",
+    "meanings": [
+      "làm cao lên"
+    ]
+  },
+  {
+    "id": "n3:303",
+    "level": "N3",
+    "order": 303,
+    "headword": "強まる",
+    "reading": "つよまる",
+    "hanViet": "CƯỜNG",
+    "meanings": [
+      "mạnh lên"
+    ]
+  },
+  {
+    "id": "n3:304",
+    "level": "N3",
+    "order": 304,
+    "headword": "強める",
+    "reading": "つよめる",
+    "hanViet": "CƯỜNG",
+    "meanings": [
+      "làm mạnh lên"
+    ]
+  },
+  {
+    "id": "n3:305",
+    "level": "N3",
+    "order": 305,
+    "headword": "弱まる",
+    "reading": "よわまる",
+    "hanViet": "NHƯỢC",
+    "meanings": [
+      "yếu đi"
+    ]
+  },
+  {
+    "id": "n3:306",
+    "level": "N3",
+    "order": 306,
+    "headword": "弱める",
+    "reading": "よわめる",
+    "hanViet": "NHƯỢC",
+    "meanings": [
+      "làm yếu đi"
+    ]
+  },
+  {
+    "id": "n3:307",
+    "level": "N3",
+    "order": 307,
+    "headword": "広まる",
+    "reading": "ひろまる",
+    "hanViet": "QUẢNG",
+    "meanings": [
+      "rộng ra"
+    ]
+  },
+  {
+    "id": "n3:308",
+    "level": "N3",
+    "order": 308,
+    "headword": "広める",
+    "reading": "ひろめる",
+    "hanViet": "QUẢNG",
+    "meanings": [
+      "làm rộng ra"
+    ]
+  },
+  {
+    "id": "n3:309",
+    "level": "N3",
+    "order": 309,
+    "headword": "深まる",
+    "reading": "ふかまる",
+    "hanViet": "THÂM",
+    "meanings": [
+      "sâu hơn"
+    ]
+  },
+  {
+    "id": "n3:310",
+    "level": "N3",
+    "order": 310,
+    "headword": "深める",
+    "reading": "ふかめる",
+    "hanViet": "THÂM",
+    "meanings": [
+      "làm sâu thêm"
+    ]
+  },
+  {
+    "id": "n3:311",
+    "level": "N3",
+    "order": 311,
+    "headword": "世話",
+    "reading": "せわ",
+    "hanViet": "THẾ THOẠI",
+    "meanings": [
+      "chăm sóc"
+    ]
+  },
+  {
+    "id": "n3:312",
+    "level": "N3",
+    "order": 312,
+    "headword": "家庭",
+    "reading": "かてい",
+    "hanViet": "GIA ĐÌNH",
+    "meanings": [
+      "gia đình"
+    ]
+  },
+  {
+    "id": "n3:313",
+    "level": "N3",
+    "order": 313,
+    "headword": "協力",
+    "reading": "きょうりょく",
+    "hanViet": "HIỆP LỰC",
+    "meanings": [
+      "hiệp lực"
+    ]
+  },
+  {
+    "id": "n3:314",
+    "level": "N3",
+    "order": 314,
+    "headword": "感謝",
+    "reading": "かんしゃ",
+    "hanViet": "CẢM TẠ",
+    "meanings": [
+      "cảm tạ"
+    ]
+  },
+  {
+    "id": "n3:315",
+    "level": "N3",
+    "order": 315,
+    "headword": "お礼",
+    "reading": "おれい",
+    "hanViet": "LỄ",
+    "meanings": [
+      "đáp lễ"
+    ]
+  },
+  {
+    "id": "n3:316",
+    "level": "N3",
+    "order": 316,
+    "headword": "お詫び",
+    "reading": "おわび",
+    "hanViet": "SÁ",
+    "meanings": [
+      "xin lỗi"
+    ]
+  },
+  {
+    "id": "n3:317",
+    "level": "N3",
+    "order": 317,
+    "headword": "おじぎ",
+    "reading": "おじぎ",
+    "hanViet": null,
+    "meanings": [
+      "cúi chào"
+    ]
+  },
+  {
+    "id": "n3:318",
+    "level": "N3",
+    "order": 318,
+    "headword": "握手",
+    "reading": "あくしゅ",
+    "hanViet": "ÁC THỦ",
+    "meanings": [
+      "bắt tay"
+    ]
+  },
+  {
+    "id": "n3:319",
+    "level": "N3",
+    "order": 319,
+    "headword": "いじわる",
+    "reading": "いじわる",
+    "hanViet": null,
+    "meanings": [
+      "xấu bụng"
+    ]
+  },
+  {
+    "id": "n3:320",
+    "level": "N3",
+    "order": 320,
+    "headword": "いたずら",
+    "reading": "いたずら",
+    "hanViet": null,
+    "meanings": [
+      "nghịch ngợm"
+    ]
+  },
+  {
+    "id": "n3:321",
+    "level": "N3",
+    "order": 321,
+    "headword": "節約",
+    "reading": "せつやく",
+    "hanViet": "TIẾT ƯỚC",
+    "meanings": [
+      "tiết kiệm"
+    ]
+  },
+  {
+    "id": "n3:322",
+    "level": "N3",
+    "order": 322,
+    "headword": "経営",
+    "reading": "けいえい",
+    "hanViet": "KINH DOANH",
+    "meanings": [
+      "quản lý"
+    ]
+  },
+  {
+    "id": "n3:323",
+    "level": "N3",
+    "order": 323,
+    "headword": "反省",
+    "reading": "はんせい",
+    "hanViet": "PHẢN TỈNH",
+    "meanings": [
+      "tự kiểm tra"
+    ]
+  },
+  {
+    "id": "n3:324",
+    "level": "N3",
+    "order": 324,
+    "headword": "実行",
+    "reading": "じっこう",
+    "hanViet": "THỰC HÀNH",
+    "meanings": [
+      "thực hành"
+    ]
+  },
+  {
+    "id": "n3:325",
+    "level": "N3",
+    "order": 325,
+    "headword": "進歩",
+    "reading": "しんぽ",
+    "hanViet": "TIẾN BỘ",
+    "meanings": [
+      "tiến bộ"
+    ]
+  },
+  {
+    "id": "n3:326",
+    "level": "N3",
+    "order": 326,
+    "headword": "変化",
+    "reading": "へんか",
+    "hanViet": "BIẾN HOÁ",
+    "meanings": [
+      "thay đổi",
+      "biến hóa"
+    ]
+  },
+  {
+    "id": "n3:327",
+    "level": "N3",
+    "order": 327,
+    "headword": "発達",
+    "reading": "はったつ",
+    "hanViet": "PHÁT ĐẠT",
+    "meanings": [
+      "phát triển"
+    ]
+  },
+  {
+    "id": "n3:328",
+    "level": "N3",
+    "order": 328,
+    "headword": "体力",
+    "reading": "たいりょく",
+    "hanViet": "THỂ LỰC",
+    "meanings": [
+      "thể lực"
+    ]
+  },
+  {
+    "id": "n3:329",
+    "level": "N3",
+    "order": 329,
+    "headword": "出場",
+    "reading": "しゅつじょう",
+    "hanViet": "XUẤT TRƯỜNG",
+    "meanings": [
+      "tham dự"
+    ]
+  },
+  {
+    "id": "n3:330",
+    "level": "N3",
+    "order": 330,
+    "headword": "活躍",
+    "reading": "かつやく",
+    "hanViet": "HOẠT DƯỢC",
+    "meanings": [
+      "hoạt động"
+    ]
+  },
+  {
+    "id": "n3:331",
+    "level": "N3",
+    "order": 331,
+    "headword": "競争",
+    "reading": "きょうそう",
+    "hanViet": "CẠNH TRANH",
+    "meanings": [
+      "cạnh tranh"
+    ]
+  },
+  {
+    "id": "n3:332",
+    "level": "N3",
+    "order": 332,
+    "headword": "応援",
+    "reading": "おうえん",
+    "hanViet": "ƯNG VIỆN",
+    "meanings": [
+      "cổ vũ"
+    ]
+  },
+  {
+    "id": "n3:333",
+    "level": "N3",
+    "order": 333,
+    "headword": "拍手",
+    "reading": "はくしゅ",
+    "hanViet": "PHÁCH THỦ",
+    "meanings": [
+      "vỗ tay"
+    ]
+  },
+  {
+    "id": "n3:334",
+    "level": "N3",
+    "order": 334,
+    "headword": "人気",
+    "reading": "にんき",
+    "hanViet": "NHÂN KHÍ",
+    "meanings": [
+      "nổi tiếng"
+    ]
+  },
+  {
+    "id": "n3:335",
+    "level": "N3",
+    "order": 335,
+    "headword": "うわさ",
+    "reading": "うわさ",
+    "hanViet": null,
+    "meanings": [
+      "tin đồn"
+    ]
+  },
+  {
+    "id": "n3:336",
+    "level": "N3",
+    "order": 336,
+    "headword": "情報",
+    "reading": "じょうほう",
+    "hanViet": "TÌNH BÁO",
+    "meanings": [
+      "thông tin"
+    ]
+  },
+  {
+    "id": "n3:337",
+    "level": "N3",
+    "order": 337,
+    "headword": "交換",
+    "reading": "こうかん",
+    "hanViet": "GIAO HOÁN",
+    "meanings": [
+      "trao đổi"
+    ]
+  },
+  {
+    "id": "n3:338",
+    "level": "N3",
+    "order": 338,
+    "headword": "流行",
+    "reading": "りゅうこう",
+    "hanViet": "LƯU HÀNH",
+    "meanings": [
+      "trào lưu"
+    ]
+  },
+  {
+    "id": "n3:339",
+    "level": "N3",
+    "order": 339,
+    "headword": "宣伝",
+    "reading": "せんでん",
+    "hanViet": "TUYÊN TRUYỀN",
+    "meanings": [
+      "tuyên truyền"
+    ]
+  },
+  {
+    "id": "n3:340",
+    "level": "N3",
+    "order": 340,
+    "headword": "広告",
+    "reading": "こうこく",
+    "hanViet": "QUẢNG CÁO",
+    "meanings": [
+      "quảng cáo"
+    ]
+  },
+  {
+    "id": "n3:341",
+    "level": "N3",
+    "order": 341,
+    "headword": "注目",
+    "reading": "ちゅうもく",
+    "hanViet": "CHÚ MỤC",
+    "meanings": [
+      "chú trọng"
+    ]
+  },
+  {
+    "id": "n3:342",
+    "level": "N3",
+    "order": 342,
+    "headword": "通訳",
+    "reading": "つうやく",
+    "hanViet": "THÔNG DỊCH",
+    "meanings": [
+      "thông dịch"
+    ]
+  },
+  {
+    "id": "n3:343",
+    "level": "N3",
+    "order": 343,
+    "headword": "翻訳",
+    "reading": "ほにゃく",
+    "hanViet": "PHIÊN DỊCH",
+    "meanings": [
+      "biên dịch"
+    ]
+  },
+  {
+    "id": "n3:344",
+    "level": "N3",
+    "order": 344,
+    "headword": "伝言",
+    "reading": "でんごん",
+    "hanViet": "TRUYỀN NGÔN",
+    "meanings": [
+      "tin nhắn thoại"
+    ]
+  },
+  {
+    "id": "n3:345",
+    "level": "N3",
+    "order": 345,
+    "headword": "報告",
+    "reading": "ほうこく",
+    "hanViet": "BÁO CÁO",
+    "meanings": [
+      "báo cáo"
+    ]
+  },
+  {
+    "id": "n3:346",
+    "level": "N3",
+    "order": 346,
+    "headword": "録画",
+    "reading": "ろくが",
+    "hanViet": "LỤC HOẠ",
+    "meanings": [
+      "ghi lại"
+    ]
+  },
+  {
+    "id": "n3:347",
+    "level": "N3",
+    "order": 347,
+    "headword": "混雑",
+    "reading": "こんざつ",
+    "hanViet": "HỖN TẠP",
+    "meanings": [
+      "hỗn tạp"
+    ]
+  },
+  {
+    "id": "n3:348",
+    "level": "N3",
+    "order": 348,
+    "headword": "渋滞",
+    "reading": "じゅうたい",
+    "hanViet": "SÁP TRỆ",
+    "meanings": [
+      "tắc đường"
+    ]
+  },
+  {
+    "id": "n3:349",
+    "level": "N3",
+    "order": 349,
+    "headword": "衝突",
+    "reading": "しょうとつ",
+    "hanViet": "XUNG ĐỘT",
+    "meanings": [
+      "xung đột"
+    ]
+  },
+  {
+    "id": "n3:350",
+    "level": "N3",
+    "order": 350,
+    "headword": "被害",
+    "reading": "ひがい",
+    "hanViet": "BỊ HẠI",
+    "meanings": [
+      "thiệt hại"
+    ]
+  },
+  {
+    "id": "n3:351",
+    "level": "N3",
+    "order": 351,
+    "headword": "事故",
+    "reading": "じこ",
+    "hanViet": "SỰ CỐ",
+    "meanings": [
+      "tai nạn"
+    ]
+  },
+  {
+    "id": "n3:352",
+    "level": "N3",
+    "order": 352,
+    "headword": "事件",
+    "reading": "じけん",
+    "hanViet": "SỰ KIỆN",
+    "meanings": [
+      "sự kiện"
+    ]
+  },
+  {
+    "id": "n3:353",
+    "level": "N3",
+    "order": 353,
+    "headword": "故障",
+    "reading": "こしょう",
+    "hanViet": "CỐ CHƯỚNG",
+    "meanings": [
+      "hỏng"
+    ]
+  },
+  {
+    "id": "n3:354",
+    "level": "N3",
+    "order": 354,
+    "headword": "修理",
+    "reading": "しゅうり",
+    "hanViet": "TU LÝ",
+    "meanings": [
+      "sửa chữa"
+    ]
+  },
+  {
+    "id": "n3:355",
+    "level": "N3",
+    "order": 355,
+    "headword": "停電",
+    "reading": "ていでん",
+    "hanViet": "ĐÌNH ĐIỆN",
+    "meanings": [
+      "mất điện"
+    ]
+  },
+  {
+    "id": "n3:356",
+    "level": "N3",
+    "order": 356,
+    "headword": "調子",
+    "reading": "ちょうし",
+    "hanViet": "ĐIỀU TỬ",
+    "meanings": [
+      "trạng thái"
+    ]
+  },
+  {
+    "id": "n3:357",
+    "level": "N3",
+    "order": 357,
+    "headword": "緊張",
+    "reading": "きんちょう",
+    "hanViet": "KHẨN TRƯƠNG",
+    "meanings": [
+      "lo lắng"
+    ]
+  },
+  {
+    "id": "n3:358",
+    "level": "N3",
+    "order": 358,
+    "headword": "自身",
+    "reading": "じしん",
+    "hanViet": "TỰ THÂN",
+    "meanings": [
+      "tự tin"
+    ]
+  },
+  {
+    "id": "n3:359",
+    "level": "N3",
+    "order": 359,
+    "headword": "自慢",
+    "reading": "じまん",
+    "hanViet": "TỰ MẠN",
+    "meanings": [
+      "tự mãn"
+    ]
+  },
+  {
+    "id": "n3:360",
+    "level": "N3",
+    "order": 360,
+    "headword": "感心",
+    "reading": "かんしん",
+    "hanViet": "CẢM TÂM",
+    "meanings": [
+      "quan tâm"
+    ]
+  },
+  {
+    "id": "n3:361",
+    "level": "N3",
+    "order": 361,
+    "headword": "感動",
+    "reading": "かんどう",
+    "hanViet": "CẢM ĐỘNG",
+    "meanings": [
+      "cảm động"
+    ]
+  },
+  {
+    "id": "n3:362",
+    "level": "N3",
+    "order": 362,
+    "headword": "興奮",
+    "reading": "こうふん",
+    "hanViet": "HƯNG PHẤN",
+    "meanings": [
+      "hưng phấn"
+    ]
+  },
+  {
+    "id": "n3:363",
+    "level": "N3",
+    "order": 363,
+    "headword": "感想",
+    "reading": "かんそう",
+    "hanViet": "CẢM TƯỞNG",
+    "meanings": [
+      "cảm tưởng"
+    ]
+  },
+  {
+    "id": "n3:364",
+    "level": "N3",
+    "order": 364,
+    "headword": "予想",
+    "reading": "よそう",
+    "hanViet": "DỰ TƯỞNG",
+    "meanings": [
+      "dự đoán"
+    ]
+  },
+  {
+    "id": "n3:365",
+    "level": "N3",
+    "order": 365,
+    "headword": "専門",
+    "reading": "せんもん",
+    "hanViet": "CHUYÊN MÔN",
+    "meanings": [
+      "chuyên môn"
+    ]
+  },
+  {
+    "id": "n3:366",
+    "level": "N3",
+    "order": 366,
+    "headword": "研究",
+    "reading": "けんきゅう",
+    "hanViet": "NGHIÊN CỨU",
+    "meanings": [
+      "nghiên cứu"
+    ]
+  },
+  {
+    "id": "n3:367",
+    "level": "N3",
+    "order": 367,
+    "headword": "調査",
+    "reading": "ちょうさ",
+    "hanViet": "ĐIỀU TRA",
+    "meanings": [
+      "điều tra"
+    ]
+  },
+  {
+    "id": "n3:368",
+    "level": "N3",
+    "order": 368,
+    "headword": "原因",
+    "reading": "げんいん",
+    "hanViet": "NGUYÊN NHÂN",
+    "meanings": [
+      "nguyên nhân"
+    ]
+  },
+  {
+    "id": "n3:369",
+    "level": "N3",
+    "order": 369,
+    "headword": "結果",
+    "reading": "けっか",
+    "hanViet": "KẾT QUẢ",
+    "meanings": [
+      "kết quả"
+    ]
+  },
+  {
+    "id": "n3:370",
+    "level": "N3",
+    "order": 370,
+    "headword": "解決",
+    "reading": "かいけつ",
+    "hanViet": "GIẢI QUYẾT",
+    "meanings": [
+      "giải quyết"
+    ]
+  },
+  {
+    "id": "n3:371",
+    "level": "N3",
+    "order": 371,
+    "headword": "確認",
+    "reading": "かくにん",
+    "hanViet": "XÁC NHẬN",
+    "meanings": [
+      "xác nhận"
+    ]
+  },
+  {
+    "id": "n3:372",
+    "level": "N3",
+    "order": 372,
+    "headword": "利用",
+    "reading": "りよう",
+    "hanViet": "LỢI DỤNG",
+    "meanings": [
+      "sử dụng"
+    ]
+  },
+  {
+    "id": "n3:373",
+    "level": "N3",
+    "order": 373,
+    "headword": "理解",
+    "reading": "りかい",
+    "hanViet": "LÝ GIẢI",
+    "meanings": [
+      "lý giải"
+    ]
+  },
+  {
+    "id": "n3:374",
+    "level": "N3",
+    "order": 374,
+    "headword": "発見",
+    "reading": "はっけん",
+    "hanViet": "PHÁT KIẾN",
+    "meanings": [
+      "phát kiến"
+    ]
+  },
+  {
+    "id": "n3:375",
+    "level": "N3",
+    "order": 375,
+    "headword": "発明",
+    "reading": "はつめい",
+    "hanViet": "PHÁT MINH",
+    "meanings": [
+      "phát minh"
+    ]
+  },
+  {
+    "id": "n3:376",
+    "level": "N3",
+    "order": 376,
+    "headword": "関係",
+    "reading": "かんけい",
+    "hanViet": "QUAN HỆ",
+    "meanings": [
+      "quan hệ"
+    ]
+  },
+  {
+    "id": "n3:377",
+    "level": "N3",
+    "order": 377,
+    "headword": "団体",
+    "reading": "だんたい",
+    "hanViet": "ĐOÀN THỂ",
+    "meanings": [
+      "đoàn thể"
+    ]
+  },
+  {
+    "id": "n3:378",
+    "level": "N3",
+    "order": 378,
+    "headword": "選挙",
+    "reading": "せんきょ",
+    "hanViet": "TUYỂN CỬ",
+    "meanings": [
+      "bầu cử"
+    ]
+  },
+  {
+    "id": "n3:379",
+    "level": "N3",
+    "order": 379,
+    "headword": "税金",
+    "reading": "ぜいきん",
+    "hanViet": "THUẾ KIM",
+    "meanings": [
+      "thuế"
+    ]
+  },
+  {
+    "id": "n3:380",
+    "level": "N3",
+    "order": 380,
+    "headword": "責任",
+    "reading": "せきにん",
+    "hanViet": "TRÁCH NHẬM",
+    "meanings": [
+      "trách nhiệm"
+    ]
+  },
+  {
+    "id": "n3:381",
+    "level": "N3",
+    "order": 381,
+    "headword": "書類",
+    "reading": "しょるい",
+    "hanViet": "THƯ LOẠI",
+    "meanings": [
+      "tài liệu"
+    ]
+  },
+  {
+    "id": "n3:382",
+    "level": "N3",
+    "order": 382,
+    "headword": "題名",
+    "reading": "だいめい",
+    "hanViet": "ĐỀ DANH",
+    "meanings": [
+      "tiêu đề"
+    ]
+  },
+  {
+    "id": "n3:383",
+    "level": "N3",
+    "order": 383,
+    "headword": "条件",
+    "reading": "じょうけん",
+    "hanViet": "ĐIỀU KIỆN",
+    "meanings": [
+      "điều kiện"
+    ]
+  },
+  {
+    "id": "n3:384",
+    "level": "N3",
+    "order": 384,
+    "headword": "締め切り",
+    "reading": "しめきり",
+    "hanViet": "ĐẾ THIẾT",
+    "meanings": [
+      "hạn cuối"
+    ]
+  },
+  {
+    "id": "n3:385",
+    "level": "N3",
+    "order": 385,
+    "headword": "期間",
+    "reading": "きかん",
+    "hanViet": "KỲ GIAN",
+    "meanings": [
+      "thời gian",
+      "thời kỳ"
+    ]
+  },
+  {
+    "id": "n3:386",
+    "level": "N3",
+    "order": 386,
+    "headword": "倍",
+    "reading": "ばい",
+    "hanViet": "BỘI",
+    "meanings": [
+      "lần"
+    ]
+  },
+  {
+    "id": "n3:387",
+    "level": "N3",
+    "order": 387,
+    "headword": "くじ",
+    "reading": "くじ",
+    "hanViet": null,
+    "meanings": [
+      "xổ số",
+      "rút thăm"
+    ]
+  },
+  {
+    "id": "n3:388",
+    "level": "N3",
+    "order": 388,
+    "headword": "近道",
+    "reading": "ちかみち",
+    "hanViet": "CẬN ĐẠO",
+    "meanings": [
+      "đường tắt"
+    ]
+  },
+  {
+    "id": "n3:389",
+    "level": "N3",
+    "order": 389,
+    "headword": "中心",
+    "reading": "ちゅうしん",
+    "hanViet": "TRUNG TÂM",
+    "meanings": [
+      "trung tâm"
+    ]
+  },
+  {
+    "id": "n3:390",
+    "level": "N3",
+    "order": 390,
+    "headword": "辺り",
+    "reading": "あたり",
+    "hanViet": "BIÊN",
+    "meanings": [
+      "gần",
+      "lân cận"
+    ]
+  },
+  {
+    "id": "n3:391",
+    "level": "N3",
+    "order": 391,
+    "headword": "周り",
+    "reading": "まわり",
+    "hanViet": "CHU",
+    "meanings": [
+      "xung quanh",
+      "vòng quanh"
+    ]
+  },
+  {
+    "id": "n3:392",
+    "level": "N3",
+    "order": 392,
+    "headword": "穴",
+    "reading": "あな",
+    "hanViet": "HUYỆT",
+    "meanings": [
+      "lỗ"
+    ]
+  },
+  {
+    "id": "n3:393",
+    "level": "N3",
+    "order": 393,
+    "headword": "列",
+    "reading": "れつ",
+    "hanViet": "LIỆT",
+    "meanings": [
+      "hàng"
+    ]
+  },
+  {
+    "id": "n3:394",
+    "level": "N3",
+    "order": 394,
+    "headword": "幅",
+    "reading": "はば",
+    "hanViet": "BỨC",
+    "meanings": [
+      "chiều rộng"
+    ]
+  },
+  {
+    "id": "n3:395",
+    "level": "N3",
+    "order": 395,
+    "headword": "範囲",
+    "reading": "はんい",
+    "hanViet": "PHẠM VY",
+    "meanings": [
+      "phạm vi"
+    ]
+  },
+  {
+    "id": "n3:396",
+    "level": "N3",
+    "order": 396,
+    "headword": "内容",
+    "reading": "ないよう",
+    "hanViet": "NỘI DUNG",
+    "meanings": [
+      "nội dung"
+    ]
+  },
+  {
+    "id": "n3:397",
+    "level": "N3",
+    "order": 397,
+    "headword": "中身",
+    "reading": "なかみ",
+    "hanViet": "TRUNG THÂN",
+    "meanings": [
+      "bên trong"
+    ]
+  },
+  {
+    "id": "n3:398",
+    "level": "N3",
+    "order": 398,
+    "headword": "特徴",
+    "reading": "とくちょう",
+    "hanViet": "ĐẶC TRƯNG",
+    "meanings": [
+      "đặc trưng"
+    ]
+  },
+  {
+    "id": "n3:399",
+    "level": "N3",
+    "order": 399,
+    "headword": "普通",
+    "reading": "ふつう",
+    "hanViet": "PHỔ THÔNG",
+    "meanings": [
+      "bình thường"
+    ]
+  },
+  {
+    "id": "n3:400",
+    "level": "N3",
+    "order": 400,
+    "headword": "当たり前",
+    "reading": "あたりまえ",
+    "hanViet": "ĐƯƠNG TIỀN",
+    "meanings": [
+      "đương nhiên"
+    ]
+  },
+  {
+    "id": "n3:401",
+    "level": "N3",
+    "order": 401,
+    "headword": "偽",
+    "reading": "にせ",
+    "hanViet": "NGUỴ",
+    "meanings": [
+      "giả"
+    ]
+  },
+  {
+    "id": "n3:402",
+    "level": "N3",
+    "order": 402,
+    "headword": "別",
+    "reading": "べつ",
+    "hanViet": "BIỆT",
+    "meanings": [
+      "khác"
+    ]
+  },
+  {
+    "id": "n3:403",
+    "level": "N3",
+    "order": 403,
+    "headword": "国籍",
+    "reading": "こくせき",
+    "hanViet": "QUỐC TỊCH",
+    "meanings": [
+      "quốc tịch"
+    ]
+  },
+  {
+    "id": "n3:404",
+    "level": "N3",
+    "order": 404,
+    "headword": "東洋",
+    "reading": "とうよう",
+    "hanViet": "ĐÔNG DƯƠNG",
+    "meanings": [
+      "phương đông"
+    ]
+  },
+  {
+    "id": "n3:405",
+    "level": "N3",
+    "order": 405,
+    "headword": "西洋",
+    "reading": "せいよう",
+    "hanViet": "TÂY DƯƠNG",
+    "meanings": [
+      "phương tây"
+    ]
+  },
+  {
+    "id": "n3:406",
+    "level": "N3",
+    "order": 406,
+    "headword": "国際",
+    "reading": "こくさい",
+    "hanViet": "QUỐC TẾ",
+    "meanings": [
+      "quốc tế"
+    ]
+  },
+  {
+    "id": "n3:407",
+    "level": "N3",
+    "order": 407,
+    "headword": "自然",
+    "reading": "しぜん",
+    "hanViet": "TỰ NHIÊN",
+    "meanings": [
+      "tự nhiên"
+    ]
+  },
+  {
+    "id": "n3:408",
+    "level": "N3",
+    "order": 408,
+    "headword": "景色",
+    "reading": "けしき",
+    "hanViet": "CẢNH SẮC",
+    "meanings": [
+      "phong cảnh"
+    ]
+  },
+  {
+    "id": "n3:409",
+    "level": "N3",
+    "order": 409,
+    "headword": "宗教",
+    "reading": "しゅうきょう",
+    "hanViet": "TÔNG GIÁO",
+    "meanings": [
+      "tôn giáo"
+    ]
+  },
+  {
+    "id": "n3:410",
+    "level": "N3",
+    "order": 410,
+    "headword": "愛",
+    "reading": "あい",
+    "hanViet": "ÁI",
+    "meanings": [
+      "yêu"
+    ]
+  },
+  {
+    "id": "n3:411",
+    "level": "N3",
+    "order": 411,
+    "headword": "届く",
+    "reading": "とどく",
+    "hanViet": "GIỚI",
+    "meanings": [
+      "được giao đến"
+    ]
+  },
+  {
+    "id": "n3:412",
+    "level": "N3",
+    "order": 412,
+    "headword": "届ける",
+    "reading": "とどける",
+    "hanViet": "GIỚI",
+    "meanings": [
+      "giao đến"
+    ]
+  },
+  {
+    "id": "n3:413",
+    "level": "N3",
+    "order": 413,
+    "headword": "かく",
+    "reading": "かく",
+    "hanViet": null,
+    "meanings": [
+      "gãi"
+    ]
+  },
+  {
+    "id": "n3:414",
+    "level": "N3",
+    "order": 414,
+    "headword": "つかむ",
+    "reading": "つかむ",
+    "hanViet": null,
+    "meanings": [
+      "tóm",
+      "chộp"
+    ]
+  },
+  {
+    "id": "n3:415",
+    "level": "N3",
+    "order": 415,
+    "headword": "握る",
+    "reading": "にぎる",
+    "hanViet": "ÁC",
+    "meanings": [
+      "nắm chặt"
+    ]
+  },
+  {
+    "id": "n3:416",
+    "level": "N3",
+    "order": 416,
+    "headword": "抑える",
+    "reading": "おさえる",
+    "hanViet": "ỨC",
+    "meanings": [
+      "giữ"
+    ]
+  },
+  {
+    "id": "n3:417",
+    "level": "N3",
+    "order": 417,
+    "headword": "近づく",
+    "reading": "ちかづく",
+    "hanViet": "CẬN",
+    "meanings": [
+      "lại gần"
+    ]
+  },
+  {
+    "id": "n3:418",
+    "level": "N3",
+    "order": 418,
+    "headword": "近づける",
+    "reading": "ちかづける",
+    "hanViet": "CẬN",
+    "meanings": [
+      "mang đến gần"
+    ]
+  },
+  {
+    "id": "n3:419",
+    "level": "N3",
+    "order": 419,
+    "headword": "合う",
+    "reading": "あう",
+    "hanViet": "HỢP",
+    "meanings": [
+      "gặp"
+    ]
+  },
+  {
+    "id": "n3:420",
+    "level": "N3",
+    "order": 420,
+    "headword": "合わせる",
+    "reading": "あわせる",
+    "hanViet": "HỢP",
+    "meanings": [
+      "tập hợp",
+      "hiệp lực"
+    ]
+  },
+  {
+    "id": "n3:421",
+    "level": "N3",
+    "order": 421,
+    "headword": "当たる",
+    "reading": "あたる",
+    "hanViet": "ĐƯƠNG",
+    "meanings": [
+      "bị đánh"
+    ]
+  },
+  {
+    "id": "n3:422",
+    "level": "N3",
+    "order": 422,
+    "headword": "当てる",
+    "reading": "あてる",
+    "hanViet": "ĐƯƠNG",
+    "meanings": [
+      "đánh"
+    ]
+  },
+  {
+    "id": "n3:423",
+    "level": "N3",
+    "order": 423,
+    "headword": "比べる",
+    "reading": "くらべる",
+    "hanViet": "TỶ",
+    "meanings": [
+      "so sánh"
+    ]
+  },
+  {
+    "id": "n3:424",
+    "level": "N3",
+    "order": 424,
+    "headword": "似合う",
+    "reading": "にあう",
+    "hanViet": "TỰ HỢP",
+    "meanings": [
+      "hợp"
+    ]
+  },
+  {
+    "id": "n3:425",
+    "level": "N3",
+    "order": 425,
+    "headword": "似る",
+    "reading": "にる",
+    "hanViet": "TỰ",
+    "meanings": [
+      "giống"
+    ]
+  },
+  {
+    "id": "n3:426",
+    "level": "N3",
+    "order": 426,
+    "headword": "似せる",
+    "reading": "にせる",
+    "hanViet": "TỰ",
+    "meanings": [
+      "bắt chước"
+    ]
+  },
+  {
+    "id": "n3:427",
+    "level": "N3",
+    "order": 427,
+    "headword": "分かれる",
+    "reading": "わかれる",
+    "hanViet": "PHÂN",
+    "meanings": [
+      "được chia ra"
+    ]
+  },
+  {
+    "id": "n3:428",
+    "level": "N3",
+    "order": 428,
+    "headword": "分ける",
+    "reading": "わける",
+    "hanViet": "PHÂN",
+    "meanings": [
+      "chia"
+    ]
+  },
+  {
+    "id": "n3:429",
+    "level": "N3",
+    "order": 429,
+    "headword": "足す",
+    "reading": "たす",
+    "hanViet": "TÚC",
+    "meanings": [
+      "cộng",
+      "thêm vào"
+    ]
+  },
+  {
+    "id": "n3:430",
+    "level": "N3",
+    "order": 430,
+    "headword": "引く",
+    "reading": "ひく",
+    "hanViet": "DẪN",
+    "meanings": [
+      "kéo",
+      "trừ"
+    ]
+  },
+  {
+    "id": "n3:431",
+    "level": "N3",
+    "order": 431,
+    "headword": "増える",
+    "reading": "ふえる",
+    "hanViet": "TĂNG",
+    "meanings": [
+      "tăng lên"
+    ]
+  },
+  {
+    "id": "n3:432",
+    "level": "N3",
+    "order": 432,
+    "headword": "増やす",
+    "reading": "ふやす",
+    "hanViet": "TĂNG",
+    "meanings": [
+      "làm tăng lên"
+    ]
+  },
+  {
+    "id": "n3:433",
+    "level": "N3",
+    "order": 433,
+    "headword": "減る",
+    "reading": "へる",
+    "hanViet": "GIẢM",
+    "meanings": [
+      "giảm xuống"
+    ]
+  },
+  {
+    "id": "n3:434",
+    "level": "N3",
+    "order": 434,
+    "headword": "減らす",
+    "reading": "へらす",
+    "hanViet": "GIẢM",
+    "meanings": [
+      "làm giảm xuống"
+    ]
+  },
+  {
+    "id": "n3:435",
+    "level": "N3",
+    "order": 435,
+    "headword": "変わる",
+    "reading": "かわる",
+    "hanViet": "BIẾN",
+    "meanings": [
+      "thay đổi"
+    ]
+  },
+  {
+    "id": "n3:436",
+    "level": "N3",
+    "order": 436,
+    "headword": "変える",
+    "reading": "かえる",
+    "hanViet": "BIẾN",
+    "meanings": [
+      "làm thay đổi"
+    ]
+  },
+  {
+    "id": "n3:437",
+    "level": "N3",
+    "order": 437,
+    "headword": "代わる・替わる・換わる",
+    "reading": "かわる",
+    "hanViet": "ĐẠI THẾ HOÁN",
+    "meanings": [
+      "thay"
+    ]
+  },
+  {
+    "id": "n3:438",
+    "level": "N3",
+    "order": 438,
+    "headword": "代える・替える・換える",
+    "reading": "かえる",
+    "hanViet": "ĐẠI THẾ HOÁN",
+    "meanings": [
+      "đổi"
+    ]
+  },
+  {
+    "id": "n3:439",
+    "level": "N3",
+    "order": 439,
+    "headword": "返る",
+    "reading": "かえる",
+    "hanViet": "PHẢN",
+    "meanings": [
+      "được trả lại"
+    ]
+  },
+  {
+    "id": "n3:440",
+    "level": "N3",
+    "order": 440,
+    "headword": "返す",
+    "reading": "かえす",
+    "hanViet": "PHẢN",
+    "meanings": [
+      "trả lại"
+    ]
+  },
+  {
+    "id": "n3:441",
+    "level": "N3",
+    "order": 441,
+    "headword": "譲る",
+    "reading": "ゆずる",
+    "hanViet": "NHƯỢNG",
+    "meanings": [
+      "nhường"
+    ]
+  },
+  {
+    "id": "n3:442",
+    "level": "N3",
+    "order": 442,
+    "headword": "助かる",
+    "reading": "たすかる",
+    "hanViet": "TRỢ",
+    "meanings": [
+      "được giúp"
+    ]
+  },
+  {
+    "id": "n3:443",
+    "level": "N3",
+    "order": 443,
+    "headword": "助ける",
+    "reading": "たすける",
+    "hanViet": "TRỢ",
+    "meanings": [
+      "giúp"
+    ]
+  },
+  {
+    "id": "n3:444",
+    "level": "N3",
+    "order": 444,
+    "headword": "いじめる",
+    "reading": "いじめる",
+    "hanViet": null,
+    "meanings": [
+      "bắt nạt"
+    ]
+  },
+  {
+    "id": "n3:445",
+    "level": "N3",
+    "order": 445,
+    "headword": "だまる",
+    "reading": "だまる",
+    "hanViet": null,
+    "meanings": [
+      "lừa"
+    ]
+  },
+  {
+    "id": "n3:446",
+    "level": "N3",
+    "order": 446,
+    "headword": "盗む",
+    "reading": "ぬすむ",
+    "hanViet": "ĐẠO",
+    "meanings": [
+      "lấy cắp"
+    ]
+  },
+  {
+    "id": "n3:447",
+    "level": "N3",
+    "order": 447,
+    "headword": "刺さる",
+    "reading": "ささる",
+    "hanViet": "THÍCH",
+    "meanings": [
+      "bị đâm"
+    ]
+  },
+  {
+    "id": "n3:448",
+    "level": "N3",
+    "order": 448,
+    "headword": "刺す",
+    "reading": "さす",
+    "hanViet": "THÍCH",
+    "meanings": [
+      "đâm"
+    ]
+  },
+  {
+    "id": "n3:449",
+    "level": "N3",
+    "order": 449,
+    "headword": "殺す",
+    "reading": "ころす",
+    "hanViet": "SÁT",
+    "meanings": [
+      "giết"
+    ]
+  },
+  {
+    "id": "n3:450",
+    "level": "N3",
+    "order": 450,
+    "headword": "隠れる",
+    "reading": "かくれる",
+    "hanViet": "ẨN",
+    "meanings": [
+      "ẩn náu",
+      "trốn"
+    ]
+  },
+  {
+    "id": "n3:451",
+    "level": "N3",
+    "order": 451,
+    "headword": "隠す",
+    "reading": "かくす",
+    "hanViet": "ẨN",
+    "meanings": [
+      "che giấu"
+    ]
+  },
+  {
+    "id": "n3:452",
+    "level": "N3",
+    "order": 452,
+    "headword": "埋まる",
+    "reading": "うまる",
+    "hanViet": "MAI",
+    "meanings": [
+      "bị chôn"
+    ]
+  },
+  {
+    "id": "n3:453",
+    "level": "N3",
+    "order": 453,
+    "headword": "埋める",
+    "reading": "うめる",
+    "hanViet": "MAI",
+    "meanings": [
+      "chôn"
+    ]
+  },
+  {
+    "id": "n3:454",
+    "level": "N3",
+    "order": 454,
+    "headword": "囲む",
+    "reading": "かこむ",
+    "hanViet": "VY",
+    "meanings": [
+      "vây quanh"
+    ]
+  },
+  {
+    "id": "n3:455",
+    "level": "N3",
+    "order": 455,
+    "headword": "詰まる",
+    "reading": "つまる",
+    "hanViet": "CẬT",
+    "meanings": [
+      "đầy",
+      "chặt"
+    ]
+  },
+  {
+    "id": "n3:456",
+    "level": "N3",
+    "order": 456,
+    "headword": "詰める",
+    "reading": "つめる",
+    "hanViet": "CẬT",
+    "meanings": [
+      "đóng gói"
+    ]
+  },
+  {
+    "id": "n3:457",
+    "level": "N3",
+    "order": 457,
+    "headword": "開く",
+    "reading": "ひらく",
+    "hanViet": "KHAI",
+    "meanings": [
+      "mở"
+    ]
+  },
+  {
+    "id": "n3:458",
+    "level": "N3",
+    "order": 458,
+    "headword": "閉じる",
+    "reading": "とじる",
+    "hanViet": "BẾ",
+    "meanings": [
+      "dđóng"
+    ]
+  },
+  {
+    "id": "n3:459",
+    "level": "N3",
+    "order": 459,
+    "headword": "飛ぶ",
+    "reading": "とぶ",
+    "hanViet": "PHI",
+    "meanings": [
+      "bay"
+    ]
+  },
+  {
+    "id": "n3:460",
+    "level": "N3",
+    "order": 460,
+    "headword": "飛ばす",
+    "reading": "とばす",
+    "hanViet": "PHI",
+    "meanings": [
+      "cho bay"
+    ]
+  },
+  {
+    "id": "n3:461",
+    "level": "N3",
+    "order": 461,
+    "headword": "振る",
+    "reading": "ふる",
+    "hanViet": "CHẤN",
+    "meanings": [
+      "rung",
+      "vẫy"
+    ]
+  },
+  {
+    "id": "n3:462",
+    "level": "N3",
+    "order": 462,
+    "headword": "めくる",
+    "reading": "めくる",
+    "hanViet": null,
+    "meanings": [
+      "lật lên"
+    ]
+  },
+  {
+    "id": "n3:463",
+    "level": "N3",
+    "order": 463,
+    "headword": "見かける",
+    "reading": "みかける",
+    "hanViet": "KIẾN",
+    "meanings": [
+      "tình cờ thấy"
+    ]
+  },
+  {
+    "id": "n3:464",
+    "level": "N3",
+    "order": 464,
+    "headword": "確かめる",
+    "reading": "たしかめる",
+    "hanViet": "XÁC",
+    "meanings": [
+      "kiểm tra lại"
+    ]
+  },
+  {
+    "id": "n3:465",
+    "level": "N3",
+    "order": 465,
+    "headword": "試す",
+    "reading": "ためす",
+    "hanViet": "THÍ",
+    "meanings": [
+      "thử"
+    ]
+  },
+  {
+    "id": "n3:466",
+    "level": "N3",
+    "order": 466,
+    "headword": "繰り返す",
+    "reading": "くりかえす",
+    "hanViet": "SÀO PHẢN",
+    "meanings": [
+      "lặp lại"
+    ]
+  },
+  {
+    "id": "n3:467",
+    "level": "N3",
+    "order": 467,
+    "headword": "訳す",
+    "reading": "やくす",
+    "hanViet": "DỊCH",
+    "meanings": [
+      "dịch"
+    ]
+  },
+  {
+    "id": "n3:468",
+    "level": "N3",
+    "order": 468,
+    "headword": "行う",
+    "reading": "おこなう",
+    "hanViet": "HÀNH",
+    "meanings": [
+      "tổ chức"
+    ]
+  },
+  {
+    "id": "n3:469",
+    "level": "N3",
+    "order": 469,
+    "headword": "間違う",
+    "reading": "まちがう",
+    "hanViet": "GIAN VI",
+    "meanings": [
+      "bị sai"
+    ]
+  },
+  {
+    "id": "n3:470",
+    "level": "N3",
+    "order": 470,
+    "headword": "間違える",
+    "reading": "まちがえる",
+    "hanViet": "GIAN VI",
+    "meanings": [
+      "làm sai"
+    ]
+  },
+  {
+    "id": "n3:471",
+    "level": "N3",
+    "order": 471,
+    "headword": "許す",
+    "reading": "ゆるす",
+    "hanViet": "HỨA",
+    "meanings": [
+      "tha thứ",
+      "cho phép"
+    ]
+  },
+  {
+    "id": "n3:472",
+    "level": "N3",
+    "order": 472,
+    "headword": "慣れる",
+    "reading": "なれる",
+    "hanViet": "QUÁN",
+    "meanings": [
+      "quen"
+    ]
+  },
+  {
+    "id": "n3:473",
+    "level": "N3",
+    "order": 473,
+    "headword": "慣らす",
+    "reading": "ならす",
+    "hanViet": "QUÁN",
+    "meanings": [
+      "khởi động"
+    ]
+  },
+  {
+    "id": "n3:474",
+    "level": "N3",
+    "order": 474,
+    "headword": "立つ",
+    "reading": "たつ",
+    "hanViet": "LẬP",
+    "meanings": [
+      "đứng"
+    ]
+  },
+  {
+    "id": "n3:475",
+    "level": "N3",
+    "order": 475,
+    "headword": "立てる",
+    "reading": "たてる",
+    "hanViet": "LẬP",
+    "meanings": [
+      "dựng lên"
+    ]
+  },
+  {
+    "id": "n3:476",
+    "level": "N3",
+    "order": 476,
+    "headword": "建つ",
+    "reading": "たつ",
+    "hanViet": "KIẾN",
+    "meanings": [
+      "được xây"
+    ]
+  },
+  {
+    "id": "n3:477",
+    "level": "N3",
+    "order": 477,
+    "headword": "建てる",
+    "reading": "たてる",
+    "hanViet": "KIẾN",
+    "meanings": [
+      "xây"
+    ]
+  },
+  {
+    "id": "n3:478",
+    "level": "N3",
+    "order": 478,
+    "headword": "育つ",
+    "reading": "そだつ",
+    "hanViet": "DỤC",
+    "meanings": [
+      "được nuôi dạy"
+    ]
+  },
+  {
+    "id": "n3:479",
+    "level": "N3",
+    "order": 479,
+    "headword": "育てる",
+    "reading": "そだてる",
+    "hanViet": "DỤC",
+    "meanings": [
+      "nuôi",
+      "dạy"
+    ]
+  },
+  {
+    "id": "n3:480",
+    "level": "N3",
+    "order": 480,
+    "headword": "生える",
+    "reading": "はえる",
+    "hanViet": "SINH",
+    "meanings": [
+      "mọc"
+    ]
+  },
+  {
+    "id": "n3:481",
+    "level": "N3",
+    "order": 481,
+    "headword": "生やす",
+    "reading": "はやす",
+    "hanViet": "SINH",
+    "meanings": [
+      "nuôi(râu)"
+    ]
+  },
+  {
+    "id": "n3:482",
+    "level": "N3",
+    "order": 482,
+    "headword": "汚れる",
+    "reading": "よごれる",
+    "hanViet": "Ô",
+    "meanings": [
+      "bị bẩn"
+    ]
+  },
+  {
+    "id": "n3:483",
+    "level": "N3",
+    "order": 483,
+    "headword": "汚す",
+    "reading": "よごす",
+    "hanViet": "Ô",
+    "meanings": [
+      "làm bẩn"
+    ]
+  },
+  {
+    "id": "n3:484",
+    "level": "N3",
+    "order": 484,
+    "headword": "壊れる",
+    "reading": "こわれる",
+    "hanViet": "HOẠI",
+    "meanings": [
+      "bị hỏng"
+    ]
+  },
+  {
+    "id": "n3:485",
+    "level": "N3",
+    "order": 485,
+    "headword": "壊す",
+    "reading": "こわす",
+    "hanViet": "HOẠI",
+    "meanings": [
+      "làm hỏng"
+    ]
+  },
+  {
+    "id": "n3:486",
+    "level": "N3",
+    "order": 486,
+    "headword": "割れる",
+    "reading": "われる",
+    "hanViet": "CÁT",
+    "meanings": [
+      "bị vỡ"
+    ]
+  },
+  {
+    "id": "n3:487",
+    "level": "N3",
+    "order": 487,
+    "headword": "割る",
+    "reading": "わる",
+    "hanViet": "CÁT",
+    "meanings": [
+      "làm vỡ"
+    ]
+  },
+  {
+    "id": "n3:488",
+    "level": "N3",
+    "order": 488,
+    "headword": "折れる",
+    "reading": "おれる",
+    "hanViet": "CHIẾT",
+    "meanings": [
+      "bị gãy"
+    ]
+  },
+  {
+    "id": "n3:489",
+    "level": "N3",
+    "order": 489,
+    "headword": "折る",
+    "reading": "おる",
+    "hanViet": "CHIẾT",
+    "meanings": [
+      "làm gãy"
+    ]
+  },
+  {
+    "id": "n3:490",
+    "level": "N3",
+    "order": 490,
+    "headword": "破れる",
+    "reading": "やぶれる",
+    "hanViet": "PHÁ",
+    "meanings": [
+      "bị rách"
+    ]
+  },
+  {
+    "id": "n3:491",
+    "level": "N3",
+    "order": 491,
+    "headword": "破る",
+    "reading": "やぶる",
+    "hanViet": "PHÁ",
+    "meanings": [
+      "xé rách"
+    ]
+  },
+  {
+    "id": "n3:492",
+    "level": "N3",
+    "order": 492,
+    "headword": "曲がる",
+    "reading": "まがる",
+    "hanViet": "KHÚC",
+    "meanings": [
+      "gập",
+      "cong"
+    ]
+  },
+  {
+    "id": "n3:493",
+    "level": "N3",
+    "order": 493,
+    "headword": "曲げる",
+    "reading": "まげる",
+    "hanViet": "KHÚC",
+    "meanings": [
+      "bẻ",
+      "uốn"
+    ]
+  },
+  {
+    "id": "n3:494",
+    "level": "N3",
+    "order": 494,
+    "headword": "外れる",
+    "reading": "はずれる",
+    "hanViet": "NGOẠI",
+    "meanings": [
+      "bị rời ra"
+    ]
+  },
+  {
+    "id": "n3:495",
+    "level": "N3",
+    "order": 495,
+    "headword": "外す",
+    "reading": "はずす",
+    "hanViet": "NGOẠI",
+    "meanings": [
+      "tách ra"
+    ]
+  },
+  {
+    "id": "n3:496",
+    "level": "N3",
+    "order": 496,
+    "headword": "揺れる",
+    "reading": "ゆれる",
+    "hanViet": "DAO",
+    "meanings": [
+      "bị rung"
+    ]
+  },
+  {
+    "id": "n3:497",
+    "level": "N3",
+    "order": 497,
+    "headword": "揺らす",
+    "reading": "ゆらす",
+    "hanViet": "DAO",
+    "meanings": [
+      "đung đưa"
+    ]
+  },
+  {
+    "id": "n3:498",
+    "level": "N3",
+    "order": 498,
+    "headword": "流れる",
+    "reading": "ながれる",
+    "hanViet": "LƯU",
+    "meanings": [
+      "chảy"
+    ]
+  },
+  {
+    "id": "n3:499",
+    "level": "N3",
+    "order": 499,
+    "headword": "流す",
+    "reading": "ながす",
+    "hanViet": "LƯU",
+    "meanings": [
+      "cho chảy"
+    ]
+  },
+  {
+    "id": "n3:500",
+    "level": "N3",
+    "order": 500,
+    "headword": "濡れる",
+    "reading": "ぬれる",
+    "hanViet": "NHỤA",
+    "meanings": [
+      "bị ướt"
+    ]
+  },
+  {
+    "id": "n3:501",
+    "level": "N3",
+    "order": 501,
+    "headword": "濡らす",
+    "reading": "ぬらす",
+    "hanViet": "NHỤA",
+    "meanings": [
+      "làm ướt"
+    ]
+  },
+  {
+    "id": "n3:502",
+    "level": "N3",
+    "order": 502,
+    "headword": "迷う",
+    "reading": "まよう",
+    "hanViet": "MÊ",
+    "meanings": [
+      "lạc đường"
+    ]
+  },
+  {
+    "id": "n3:503",
+    "level": "N3",
+    "order": 503,
+    "headword": "悩む",
+    "reading": "なやむ",
+    "hanViet": "NÃO",
+    "meanings": [
+      "băn khoăn"
+    ]
+  },
+  {
+    "id": "n3:504",
+    "level": "N3",
+    "order": 504,
+    "headword": "慌てる",
+    "reading": "あわてる",
+    "hanViet": "HOANG",
+    "meanings": [
+      "vội vàng"
+    ]
+  },
+  {
+    "id": "n3:505",
+    "level": "N3",
+    "order": 505,
+    "headword": "覚める",
+    "reading": "さめる",
+    "hanViet": "GIÁC",
+    "meanings": [
+      "thức dậy"
+    ]
+  },
+  {
+    "id": "n3:506",
+    "level": "N3",
+    "order": 506,
+    "headword": "覚ます",
+    "reading": "さます",
+    "hanViet": "GIÁC",
+    "meanings": [
+      "mở mắt",
+      "tỉnh"
+    ]
+  },
+  {
+    "id": "n3:507",
+    "level": "N3",
+    "order": 507,
+    "headword": "眠る",
+    "reading": "ねむる",
+    "hanViet": "MIÊN",
+    "meanings": [
+      "ngủ"
+    ]
+  },
+  {
+    "id": "n3:508",
+    "level": "N3",
+    "order": 508,
+    "headword": "祈る",
+    "reading": "いのる",
+    "hanViet": "KỲ",
+    "meanings": [
+      "cầu",
+      "khấn"
+    ]
+  },
+  {
+    "id": "n3:509",
+    "level": "N3",
+    "order": 509,
+    "headword": "祝う",
+    "reading": "いわう",
+    "hanViet": "CHÚC",
+    "meanings": [
+      "ăn mừng"
+    ]
+  },
+  {
+    "id": "n3:510",
+    "level": "N3",
+    "order": 510,
+    "headword": "感じる",
+    "reading": "かんじる",
+    "hanViet": "CẢM",
+    "meanings": [
+      "cảm thấy"
+    ]
+  },
+  {
+    "id": "n3:511",
+    "level": "N3",
+    "order": 511,
+    "headword": "クラスメート",
+    "reading": "クラスメート",
+    "hanViet": null,
+    "meanings": [
+      "bạn cùng lớp"
+    ]
+  },
+  {
+    "id": "n3:512",
+    "level": "N3",
+    "order": 512,
+    "headword": "グループ",
+    "reading": "グループ",
+    "hanViet": null,
+    "meanings": [
+      "nhóm"
+    ]
+  },
+  {
+    "id": "n3:513",
+    "level": "N3",
+    "order": 513,
+    "headword": "チーム",
+    "reading": "チーム",
+    "hanViet": null,
+    "meanings": [
+      "đội"
+    ]
+  },
+  {
+    "id": "n3:514",
+    "level": "N3",
+    "order": 514,
+    "headword": "プロフェッショナル",
+    "reading": "プロフェッショナル",
+    "hanViet": null,
+    "meanings": [
+      "chuyên nghiệp"
+    ]
+  },
+  {
+    "id": "n3:515",
+    "level": "N3",
+    "order": 515,
+    "headword": "アマチュア",
+    "reading": "アマチュア",
+    "hanViet": null,
+    "meanings": [
+      "nghiệp dư"
+    ]
+  },
+  {
+    "id": "n3:516",
+    "level": "N3",
+    "order": 516,
+    "headword": "トレーニング",
+    "reading": "トレーニング",
+    "hanViet": null,
+    "meanings": [
+      "đào tạo"
+    ]
+  },
+  {
+    "id": "n3:517",
+    "level": "N3",
+    "order": 517,
+    "headword": "マッサージ",
+    "reading": "マッサージ",
+    "hanViet": null,
+    "meanings": [
+      "mát xa"
+    ]
+  },
+  {
+    "id": "n3:518",
+    "level": "N3",
+    "order": 518,
+    "headword": "アドバイス",
+    "reading": "アドバイス",
+    "hanViet": null,
+    "meanings": [
+      "khuyên"
+    ]
+  },
+  {
+    "id": "n3:519",
+    "level": "N3",
+    "order": 519,
+    "headword": "アイデア・アイディア",
+    "reading": "アイデア・アイディア",
+    "hanViet": null,
+    "meanings": [
+      "ý tưởng"
+    ]
+  },
+  {
+    "id": "n3:520",
+    "level": "N3",
+    "order": 520,
+    "headword": "トップ",
+    "reading": "トップ",
+    "hanViet": null,
+    "meanings": [
+      "top"
+    ]
+  },
+  {
+    "id": "n3:521",
+    "level": "N3",
+    "order": 521,
+    "headword": "スピード",
+    "reading": "スピード",
+    "hanViet": null,
+    "meanings": [
+      "tốc độ"
+    ]
+  },
+  {
+    "id": "n3:522",
+    "level": "N3",
+    "order": 522,
+    "headword": "ラッシュ",
+    "reading": "ラッシュ",
+    "hanViet": null,
+    "meanings": [
+      "đông đúc"
+    ]
+  },
+  {
+    "id": "n3:523",
+    "level": "N3",
+    "order": 523,
+    "headword": "バイク",
+    "reading": "バイク",
+    "hanViet": null,
+    "meanings": [
+      "xe máy"
+    ]
+  },
+  {
+    "id": "n3:524",
+    "level": "N3",
+    "order": 524,
+    "headword": "ヘルメット",
+    "reading": "ヘルメット",
+    "hanViet": null,
+    "meanings": [
+      "mũ bảo hiểm"
+    ]
+  },
+  {
+    "id": "n3:525",
+    "level": "N3",
+    "order": 525,
+    "headword": "コンタクトレンズ",
+    "reading": "コンタクトレンズ",
+    "hanViet": null,
+    "meanings": [
+      "kính áp tròng"
+    ]
+  },
+  {
+    "id": "n3:526",
+    "level": "N3",
+    "order": 526,
+    "headword": "ガラス",
+    "reading": "ガラス",
+    "hanViet": null,
+    "meanings": [
+      "kính"
+    ]
+  },
+  {
+    "id": "n3:527",
+    "level": "N3",
+    "order": 527,
+    "headword": "プラスチック",
+    "reading": "プラスチック",
+    "hanViet": null,
+    "meanings": [
+      "nhựa"
+    ]
+  },
+  {
+    "id": "n3:528",
+    "level": "N3",
+    "order": 528,
+    "headword": "ベランダ",
+    "reading": "ベランダ",
+    "hanViet": null,
+    "meanings": [
+      "ban công"
+    ]
+  },
+  {
+    "id": "n3:529",
+    "level": "N3",
+    "order": 529,
+    "headword": "ペット",
+    "reading": "ペット",
+    "hanViet": null,
+    "meanings": [
+      "thú cưng"
+    ]
+  },
+  {
+    "id": "n3:530",
+    "level": "N3",
+    "order": 530,
+    "headword": "ベンチ",
+    "reading": "ベンチ",
+    "hanViet": null,
+    "meanings": [
+      "ghế bành"
+    ]
+  },
+  {
+    "id": "n3:531",
+    "level": "N3",
+    "order": 531,
+    "headword": "デザイン",
+    "reading": "デザイン",
+    "hanViet": null,
+    "meanings": [
+      "thiết kế"
+    ]
+  },
+  {
+    "id": "n3:532",
+    "level": "N3",
+    "order": 532,
+    "headword": "バーゲンセール",
+    "reading": "バーゲンセール",
+    "hanViet": null,
+    "meanings": [
+      "sale"
+    ]
+  },
+  {
+    "id": "n3:533",
+    "level": "N3",
+    "order": 533,
+    "headword": "パート",
+    "reading": "パート",
+    "hanViet": null,
+    "meanings": [
+      "làm thêm"
+    ]
+  },
+  {
+    "id": "n3:534",
+    "level": "N3",
+    "order": 534,
+    "headword": "コンビニエンスストア",
+    "reading": "コンビニエンスストア",
+    "hanViet": null,
+    "meanings": [
+      "cửa hàng tiện ích"
+    ]
+  },
+  {
+    "id": "n3:535",
+    "level": "N3",
+    "order": 535,
+    "headword": "レジ",
+    "reading": "レジ",
+    "hanViet": null,
+    "meanings": [
+      "máy tính tiền"
+    ]
+  },
+  {
+    "id": "n3:536",
+    "level": "N3",
+    "order": 536,
+    "headword": "レシート",
+    "reading": "レシート",
+    "hanViet": null,
+    "meanings": [
+      "hóa đơn"
+    ]
+  },
+  {
+    "id": "n3:537",
+    "level": "N3",
+    "order": 537,
+    "headword": "インスタント",
+    "reading": "インスタント",
+    "hanViet": null,
+    "meanings": [
+      "ăn liền"
+    ]
+  },
+  {
+    "id": "n3:538",
+    "level": "N3",
+    "order": 538,
+    "headword": "ファストフード",
+    "reading": "ファストフード",
+    "hanViet": null,
+    "meanings": [
+      "đồ ăn nhanh"
+    ]
+  },
+  {
+    "id": "n3:539",
+    "level": "N3",
+    "order": 539,
+    "headword": "フルーツ",
+    "reading": "フルーツ",
+    "hanViet": null,
+    "meanings": [
+      "trái cây"
+    ]
+  },
+  {
+    "id": "n3:540",
+    "level": "N3",
+    "order": 540,
+    "headword": "デザート",
+    "reading": "デザート",
+    "hanViet": null,
+    "meanings": [
+      "tráng miệng"
+    ]
+  },
+  {
+    "id": "n3:541",
+    "level": "N3",
+    "order": 541,
+    "headword": "インターネット",
+    "reading": "インターネット",
+    "hanViet": null,
+    "meanings": [
+      "internet"
+    ]
+  },
+  {
+    "id": "n3:542",
+    "level": "N3",
+    "order": 542,
+    "headword": "チャイム",
+    "reading": "チャイム",
+    "hanViet": null,
+    "meanings": [
+      "chuông"
+    ]
+  },
+  {
+    "id": "n3:543",
+    "level": "N3",
+    "order": 543,
+    "headword": "アナウンス",
+    "reading": "アナウンス",
+    "hanViet": null,
+    "meanings": [
+      "thông báo"
+    ]
+  },
+  {
+    "id": "n3:544",
+    "level": "N3",
+    "order": 544,
+    "headword": "メッセージ",
+    "reading": "メッセージ",
+    "hanViet": null,
+    "meanings": [
+      "tin nhắn"
+    ]
+  },
+  {
+    "id": "n3:545",
+    "level": "N3",
+    "order": 545,
+    "headword": "パンフレット",
+    "reading": "パンフレット",
+    "hanViet": null,
+    "meanings": [
+      "tờ rơi"
+    ]
+  },
+  {
+    "id": "n3:546",
+    "level": "N3",
+    "order": 546,
+    "headword": "カード",
+    "reading": "カード",
+    "hanViet": null,
+    "meanings": [
+      "card"
+    ]
+  },
+  {
+    "id": "n3:547",
+    "level": "N3",
+    "order": 547,
+    "headword": "インタビュー",
+    "reading": "インタビュー",
+    "hanViet": null,
+    "meanings": [
+      "phỏng vấn"
+    ]
+  },
+  {
+    "id": "n3:548",
+    "level": "N3",
+    "order": 548,
+    "headword": "アンケート",
+    "reading": "アンケート",
+    "hanViet": null,
+    "meanings": [
+      "tờ câu hỏi"
+    ]
+  },
+  {
+    "id": "n3:549",
+    "level": "N3",
+    "order": 549,
+    "headword": "データ",
+    "reading": "データ",
+    "hanViet": null,
+    "meanings": [
+      "dữ liệu"
+    ]
+  },
+  {
+    "id": "n3:550",
+    "level": "N3",
+    "order": 550,
+    "headword": "パーセント",
+    "reading": "パーセント",
+    "hanViet": null,
+    "meanings": [
+      "phần trăm"
+    ]
+  },
+  {
+    "id": "n3:551",
+    "level": "N3",
+    "order": 551,
+    "headword": "濃い",
+    "reading": "こい",
+    "hanViet": "NÙNG",
+    "meanings": [
+      "đậm",
+      "đặc"
+    ]
+  },
+  {
+    "id": "n3:552",
+    "level": "N3",
+    "order": 552,
+    "headword": "薄い",
+    "reading": "うすい",
+    "hanViet": "BẠC",
+    "meanings": [
+      "mỏng",
+      "nhạt"
+    ]
+  },
+  {
+    "id": "n3:553",
+    "level": "N3",
+    "order": 553,
+    "headword": "酸っぱい",
+    "reading": "すっぱい",
+    "hanViet": "TOAN",
+    "meanings": [
+      "chua"
+    ]
+  },
+  {
+    "id": "n3:554",
+    "level": "N3",
+    "order": 554,
+    "headword": "臭い",
+    "reading": "くさい",
+    "hanViet": "XÚ",
+    "meanings": [
+      "thối"
+    ]
+  },
+  {
+    "id": "n3:555",
+    "level": "N3",
+    "order": 555,
+    "headword": "おかしい",
+    "reading": "おかしい",
+    "hanViet": null,
+    "meanings": [
+      "lạ"
+    ]
+  },
+  {
+    "id": "n3:556",
+    "level": "N3",
+    "order": 556,
+    "headword": "かっこいい",
+    "reading": "かっこいい",
+    "hanViet": null,
+    "meanings": [
+      "bảnh bao"
+    ]
+  },
+  {
+    "id": "n3:557",
+    "level": "N3",
+    "order": 557,
+    "headword": "うまい",
+    "reading": "うまい",
+    "hanViet": null,
+    "meanings": [
+      "ngon"
+    ]
+  },
+  {
+    "id": "n3:558",
+    "level": "N3",
+    "order": 558,
+    "headword": "親しい",
+    "reading": "したしい",
+    "hanViet": "THÂN",
+    "meanings": [
+      "thân thiết"
+    ]
+  },
+  {
+    "id": "n3:559",
+    "level": "N3",
+    "order": 559,
+    "headword": "詳しい",
+    "reading": "くわしい",
+    "hanViet": "TƯỜNG",
+    "meanings": [
+      "chi tiết"
+    ]
+  },
+  {
+    "id": "n3:560",
+    "level": "N3",
+    "order": 560,
+    "headword": "細かい",
+    "reading": "こまかい",
+    "hanViet": "TẾ",
+    "meanings": [
+      "tiểu tiết",
+      "bé"
+    ]
+  },
+  {
+    "id": "n3:561",
+    "level": "N3",
+    "order": 561,
+    "headword": "浅い",
+    "reading": "あさい",
+    "hanViet": "THIỂN",
+    "meanings": [
+      "nông"
+    ]
+  },
+  {
+    "id": "n3:562",
+    "level": "N3",
+    "order": 562,
+    "headword": "固い・硬い",
+    "reading": "かたい",
+    "hanViet": "CỐ NGẠNH",
+    "meanings": [
+      "cứng"
+    ]
+  },
+  {
+    "id": "n3:563",
+    "level": "N3",
+    "order": 563,
+    "headword": "ぬるい",
+    "reading": "ぬるい",
+    "hanViet": null,
+    "meanings": [
+      "nguội"
+    ]
+  },
+  {
+    "id": "n3:564",
+    "level": "N3",
+    "order": 564,
+    "headword": "まぶしい",
+    "reading": "まぶしい",
+    "hanViet": null,
+    "meanings": [
+      "chói"
+    ]
+  },
+  {
+    "id": "n3:565",
+    "level": "N3",
+    "order": 565,
+    "headword": "蒸し暑い",
+    "reading": "むしあつい",
+    "hanViet": "CHƯNG THỬ",
+    "meanings": [
+      "nóng ẩm"
+    ]
+  },
+  {
+    "id": "n3:566",
+    "level": "N3",
+    "order": 566,
+    "headword": "清潔な",
+    "reading": "せいけつな",
+    "hanViet": "THANH KHIẾT",
+    "meanings": [
+      "sạch"
+    ]
+  },
+  {
+    "id": "n3:567",
+    "level": "N3",
+    "order": 567,
+    "headword": "新鮮な",
+    "reading": "しんせんな",
+    "hanViet": "TÂN TIÊN",
+    "meanings": [
+      "tươi"
+    ]
+  },
+  {
+    "id": "n3:568",
+    "level": "N3",
+    "order": 568,
+    "headword": "豊かな",
+    "reading": "ゆたかな",
+    "hanViet": "PHONG",
+    "meanings": [
+      "giàu có"
+    ]
+  },
+  {
+    "id": "n3:569",
+    "level": "N3",
+    "order": 569,
+    "headword": "立派な",
+    "reading": "りっぱな",
+    "hanViet": "LẬP PHÁI",
+    "meanings": [
+      "siêu"
+    ]
+  },
+  {
+    "id": "n3:570",
+    "level": "N3",
+    "order": 570,
+    "headword": "正確な",
+    "reading": "せいかくな",
+    "hanViet": "CHÍNH XÁC",
+    "meanings": [
+      "chính xác"
+    ]
+  },
+  {
+    "id": "n3:571",
+    "level": "N3",
+    "order": 571,
+    "headword": "確かな",
+    "reading": "たしかな",
+    "hanViet": "XÁC",
+    "meanings": [
+      "đích thực"
+    ]
+  },
+  {
+    "id": "n3:572",
+    "level": "N3",
+    "order": 572,
+    "headword": "重要な",
+    "reading": "じゅうような",
+    "hanViet": "TRỌNG YẾU",
+    "meanings": [
+      "quan trọng"
+    ]
+  },
+  {
+    "id": "n3:573",
+    "level": "N3",
+    "order": 573,
+    "headword": "必要な",
+    "reading": "ひつような",
+    "hanViet": "TẤT YẾU",
+    "meanings": [
+      "cần thiết"
+    ]
+  },
+  {
+    "id": "n3:574",
+    "level": "N3",
+    "order": 574,
+    "headword": "もったいない",
+    "reading": "もったいない",
+    "hanViet": null,
+    "meanings": [
+      "lãng phí"
+    ]
+  },
+  {
+    "id": "n3:575",
+    "level": "N3",
+    "order": 575,
+    "headword": "すごい",
+    "reading": "すごい",
+    "hanViet": null,
+    "meanings": [
+      "ghê",
+      "siêu"
+    ]
+  },
+  {
+    "id": "n3:576",
+    "level": "N3",
+    "order": 576,
+    "headword": "ひどい",
+    "reading": "ひどい",
+    "hanViet": null,
+    "meanings": [
+      "tồi"
+    ]
+  },
+  {
+    "id": "n3:577",
+    "level": "N3",
+    "order": 577,
+    "headword": "激しい",
+    "reading": "はげしい",
+    "hanViet": "KÍCH",
+    "meanings": [
+      "mãnh liệt"
+    ]
+  },
+  {
+    "id": "n3:578",
+    "level": "N3",
+    "order": 578,
+    "headword": "そっくりな",
+    "reading": "そっくりな",
+    "hanViet": null,
+    "meanings": [
+      "giống"
+    ]
+  },
+  {
+    "id": "n3:579",
+    "level": "N3",
+    "order": 579,
+    "headword": "急な",
+    "reading": "きゅうな",
+    "hanViet": "CẤP",
+    "meanings": [
+      "đột nhiên"
+    ]
+  },
+  {
+    "id": "n3:580",
+    "level": "N3",
+    "order": 580,
+    "headword": "敵とな",
+    "reading": "てきとな",
+    "hanViet": "ĐỊCH",
+    "meanings": [
+      "phù hợp"
+    ]
+  },
+  {
+    "id": "n3:581",
+    "level": "N3",
+    "order": 581,
+    "headword": "特別な",
+    "reading": "とくべつな",
+    "hanViet": "ĐẶC BIỆT",
+    "meanings": [
+      "đặc biệt"
+    ]
+  },
+  {
+    "id": "n3:582",
+    "level": "N3",
+    "order": 582,
+    "headword": "完全な",
+    "reading": "かんぜんな",
+    "hanViet": "HOÀN TOÀN",
+    "meanings": [
+      "toàn bộ"
+    ]
+  },
+  {
+    "id": "n3:583",
+    "level": "N3",
+    "order": 583,
+    "headword": "盛んな",
+    "reading": "さかんな",
+    "hanViet": "THỊNH",
+    "meanings": [
+      "thịnh vượng"
+    ]
+  },
+  {
+    "id": "n3:584",
+    "level": "N3",
+    "order": 584,
+    "headword": "様々な",
+    "reading": "さまざまな",
+    "hanViet": "DẠNG",
+    "meanings": [
+      "đa đạng"
+    ]
+  },
+  {
+    "id": "n3:585",
+    "level": "N3",
+    "order": 585,
+    "headword": "可能な",
+    "reading": "かのうな",
+    "hanViet": "KHẢ NĂNG",
+    "meanings": [
+      "khả thi"
+    ]
+  },
+  {
+    "id": "n3:586",
+    "level": "N3",
+    "order": 586,
+    "headword": "不可能な",
+    "reading": "ふかのうな",
+    "hanViet": "BẤT KHẢ NĂNG",
+    "meanings": [
+      "bất khả thi"
+    ]
+  },
+  {
+    "id": "n3:587",
+    "level": "N3",
+    "order": 587,
+    "headword": "基本的な",
+    "reading": "きほんてきな",
+    "hanViet": "CƠ BẢN ĐÍCH",
+    "meanings": [
+      "cơ bản"
+    ]
+  },
+  {
+    "id": "n3:588",
+    "level": "N3",
+    "order": 588,
+    "headword": "国際的な",
+    "reading": "こくさいてきな",
+    "hanViet": "QUỐC TẾ ĐÍCH",
+    "meanings": [
+      "tính quốc tế"
+    ]
+  },
+  {
+    "id": "n3:589",
+    "level": "N3",
+    "order": 589,
+    "headword": "ばらばらな",
+    "reading": "ばらばらな",
+    "hanViet": null,
+    "meanings": [
+      "tung tóe",
+      "chia rẽ"
+    ]
+  },
+  {
+    "id": "n3:590",
+    "level": "N3",
+    "order": 590,
+    "headword": "ぼろぼろな",
+    "reading": "ぼろぼろな",
+    "hanViet": null,
+    "meanings": [
+      "rách nát",
+      "te tua"
+    ]
+  },
+  {
+    "id": "n3:591",
+    "level": "N3",
+    "order": 591,
+    "headword": "非常に",
+    "reading": "ひじょうに",
+    "hanViet": "PHI THƯỜNG",
+    "meanings": [
+      "rất"
+    ]
+  },
+  {
+    "id": "n3:592",
+    "level": "N3",
+    "order": 592,
+    "headword": "大変に",
+    "reading": "たいへんに",
+    "hanViet": "ĐẠI BIẾN",
+    "meanings": [
+      "khủng khiếp",
+      "rất nhiều"
+    ]
+  },
+  {
+    "id": "n3:593",
+    "level": "N3",
+    "order": 593,
+    "headword": "ほとんど",
+    "reading": "ほとんど",
+    "hanViet": null,
+    "meanings": [
+      "gần như hoàn toàn"
+    ]
+  },
+  {
+    "id": "n3:594",
+    "level": "N3",
+    "order": 594,
+    "headword": "大体",
+    "reading": "だいたい",
+    "hanViet": "ĐẠI THỂ",
+    "meanings": [
+      "phần lớn",
+      "trong khoảng"
+    ]
+  },
+  {
+    "id": "n3:595",
+    "level": "N3",
+    "order": 595,
+    "headword": "かなり",
+    "reading": "かなり",
+    "hanViet": null,
+    "meanings": [
+      "khá"
+    ]
+  },
+  {
+    "id": "n3:596",
+    "level": "N3",
+    "order": 596,
+    "headword": "ずいぶん",
+    "reading": "ずいぶん",
+    "hanViet": null,
+    "meanings": [
+      "đáng kể"
+    ]
+  },
+  {
+    "id": "n3:597",
+    "level": "N3",
+    "order": 597,
+    "headword": "けっこう",
+    "reading": "けっこう",
+    "hanViet": null,
+    "meanings": [
+      "rất"
+    ]
+  },
+  {
+    "id": "n3:598",
+    "level": "N3",
+    "order": 598,
+    "headword": "大分",
+    "reading": "ずいぶん",
+    "hanViet": "ĐẠI PHÂN",
+    "meanings": [
+      "chủ yếu",
+      "khá"
+    ]
+  },
+  {
+    "id": "n3:599",
+    "level": "N3",
+    "order": 599,
+    "headword": "もっと",
+    "reading": "もっと",
+    "hanViet": null,
+    "meanings": [
+      "hơn",
+      "nữa"
+    ]
+  },
+  {
+    "id": "n3:600",
+    "level": "N3",
+    "order": 600,
+    "headword": "しっかり",
+    "reading": "しっかり",
+    "hanViet": null,
+    "meanings": [
+      "toàn bộ"
+    ]
+  },
+  {
+    "id": "n3:601",
+    "level": "N3",
+    "order": 601,
+    "headword": "いっぱい",
+    "reading": "いっぱい",
+    "hanViet": null,
+    "meanings": [
+      "đầy"
+    ]
+  },
+  {
+    "id": "n3:602",
+    "level": "N3",
+    "order": 602,
+    "headword": "ぎりぎり",
+    "reading": "ぎりぎり",
+    "hanViet": null,
+    "meanings": [
+      "gần",
+      "sát nút"
+    ]
+  },
+  {
+    "id": "n3:603",
+    "level": "N3",
+    "order": 603,
+    "headword": "ぴったり",
+    "reading": "ぴったり",
+    "hanViet": null,
+    "meanings": [
+      "vừa vặn",
+      "đúng"
+    ]
+  },
+  {
+    "id": "n3:604",
+    "level": "N3",
+    "order": 604,
+    "headword": "たいてい",
+    "reading": "たいてい",
+    "hanViet": null,
+    "meanings": [
+      "đại thể",
+      "thường"
+    ]
+  },
+  {
+    "id": "n3:605",
+    "level": "N3",
+    "order": 605,
+    "headword": "同時に",
+    "reading": "どうじに",
+    "hanViet": "ĐỒNG THỜI",
+    "meanings": [
+      "cùng lúc"
+    ]
+  },
+  {
+    "id": "n3:606",
+    "level": "N3",
+    "order": 606,
+    "headword": "前もって",
+    "reading": "まえもって",
+    "hanViet": "TIỀN",
+    "meanings": [
+      "trước"
+    ]
+  },
+  {
+    "id": "n3:607",
+    "level": "N3",
+    "order": 607,
+    "headword": "すぐに",
+    "reading": "すぐに",
+    "hanViet": null,
+    "meanings": [
+      "ngay lập tức"
+    ]
+  },
+  {
+    "id": "n3:608",
+    "level": "N3",
+    "order": 608,
+    "headword": "もうすぐ",
+    "reading": "もうすぐ",
+    "hanViet": null,
+    "meanings": [
+      "sắp"
+    ]
+  },
+  {
+    "id": "n3:609",
+    "level": "N3",
+    "order": 609,
+    "headword": "突然",
+    "reading": "とつぜん",
+    "hanViet": "ĐỘT NHIÊN",
+    "meanings": [
+      "đột nhiên"
+    ]
+  },
+  {
+    "id": "n3:610",
+    "level": "N3",
+    "order": 610,
+    "headword": "あっという間に",
+    "reading": "あっというまに",
+    "hanViet": "GIAN",
+    "meanings": [
+      "loáng một cái"
+    ]
+  },
+  {
+    "id": "n3:611",
+    "level": "N3",
+    "order": 611,
+    "headword": "いつの間にか",
+    "reading": "いつのまにか",
+    "hanViet": "GIAN",
+    "meanings": [
+      "lúc nào không biết"
+    ]
+  },
+  {
+    "id": "n3:612",
+    "level": "N3",
+    "order": 612,
+    "headword": "しばらく",
+    "reading": "しばらく",
+    "hanViet": null,
+    "meanings": [
+      "một chút"
+    ]
+  },
+  {
+    "id": "n3:613",
+    "level": "N3",
+    "order": 613,
+    "headword": "ずっと",
+    "reading": "ずっと",
+    "hanViet": null,
+    "meanings": [
+      "suốt",
+      "nhiều"
+    ]
+  },
+  {
+    "id": "n3:614",
+    "level": "N3",
+    "order": 614,
+    "headword": "相変わらず",
+    "reading": "あいかわらず",
+    "hanViet": "TƯƠNG BIẾN",
+    "meanings": [
+      "như mọi khi"
+    ]
+  },
+  {
+    "id": "n3:615",
+    "level": "N3",
+    "order": 615,
+    "headword": "次々に",
+    "reading": "つぎつぎに",
+    "hanViet": "THỨ",
+    "meanings": [
+      "lần lượt"
+    ]
+  },
+  {
+    "id": "n3:616",
+    "level": "N3",
+    "order": 616,
+    "headword": "どんどん",
+    "reading": "どんどん",
+    "hanViet": null,
+    "meanings": [
+      "dần dần"
+    ]
+  },
+  {
+    "id": "n3:617",
+    "level": "N3",
+    "order": 617,
+    "headword": "ますます",
+    "reading": "ますます",
+    "hanViet": null,
+    "meanings": [
+      "càng ngày càng"
+    ]
+  },
+  {
+    "id": "n3:618",
+    "level": "N3",
+    "order": 618,
+    "headword": "やっと",
+    "reading": "やっと",
+    "hanViet": null,
+    "meanings": [
+      "cuối cùng",
+      "vừa đủ"
+    ]
+  },
+  {
+    "id": "n3:619",
+    "level": "N3",
+    "order": 619,
+    "headword": "とうとう",
+    "reading": "とうとう",
+    "hanViet": null,
+    "meanings": [
+      "sau cùng",
+      "cuối cùng",
+      "sau tất cả"
+    ]
+  },
+  {
+    "id": "n3:620",
+    "level": "N3",
+    "order": 620,
+    "headword": "ついに",
+    "reading": "ついに",
+    "hanViet": null,
+    "meanings": [
+      "cuối cùng",
+      "sau cùng"
+    ]
+  },
+  {
+    "id": "n3:621",
+    "level": "N3",
+    "order": 621,
+    "headword": "もちろん",
+    "reading": "もちろん",
+    "hanViet": null,
+    "meanings": [
+      "tất nhiên"
+    ]
+  },
+  {
+    "id": "n3:622",
+    "level": "N3",
+    "order": 622,
+    "headword": "やはり",
+    "reading": "やはり",
+    "hanViet": null,
+    "meanings": [
+      "như dự tính"
+    ]
+  },
+  {
+    "id": "n3:623",
+    "level": "N3",
+    "order": 623,
+    "headword": "きっと",
+    "reading": "きっと",
+    "hanViet": null,
+    "meanings": [
+      "nhất định"
+    ]
+  },
+  {
+    "id": "n3:624",
+    "level": "N3",
+    "order": 624,
+    "headword": "ぜひ",
+    "reading": "ぜひ",
+    "hanViet": null,
+    "meanings": [
+      "bằng mọi giá",
+      "rất (muốn)"
+    ]
+  },
+  {
+    "id": "n3:625",
+    "level": "N3",
+    "order": 625,
+    "headword": "なるべく",
+    "reading": "なるべく",
+    "hanViet": null,
+    "meanings": [
+      "càng nhiều càng tốt"
+    ]
+  },
+  {
+    "id": "n3:626",
+    "level": "N3",
+    "order": 626,
+    "headword": "案外",
+    "reading": "あんがい",
+    "hanViet": "ÁN NGOẠI",
+    "meanings": [
+      "không ngờ đến"
+    ]
+  },
+  {
+    "id": "n3:627",
+    "level": "N3",
+    "order": 627,
+    "headword": "もしかすると・もしかしたら・もしかして",
+    "reading": "None",
+    "hanViet": null,
+    "meanings": [
+      "có lẽ"
+    ]
+  },
+  {
+    "id": "n3:628",
+    "level": "N3",
+    "order": 628,
+    "headword": "まさか",
+    "reading": "まさか",
+    "hanViet": null,
+    "meanings": [
+      "không thể ngờ",
+      "không"
+    ]
+  },
+  {
+    "id": "n3:629",
+    "level": "N3",
+    "order": 629,
+    "headword": "うっかり",
+    "reading": "うっかり",
+    "hanViet": null,
+    "meanings": [
+      "ngơ ngác",
+      "không để ý"
+    ]
+  },
+  {
+    "id": "n3:630",
+    "level": "N3",
+    "order": 630,
+    "headword": "つい",
+    "reading": "つい",
+    "hanViet": null,
+    "meanings": [
+      "vô ý",
+      "buột"
+    ]
+  },
+  {
+    "id": "n3:631",
+    "level": "N3",
+    "order": 631,
+    "headword": "思わず",
+    "reading": "おもわず",
+    "hanViet": "TƯ",
+    "meanings": [
+      "không ngờ đến"
+    ]
+  },
+  {
+    "id": "n3:632",
+    "level": "N3",
+    "order": 632,
+    "headword": "ほっと",
+    "reading": "ほっと",
+    "hanViet": null,
+    "meanings": [
+      "yên tâm"
+    ]
+  },
+  {
+    "id": "n3:633",
+    "level": "N3",
+    "order": 633,
+    "headword": "いらいら",
+    "reading": "いらいら",
+    "hanViet": null,
+    "meanings": [
+      "khó chịu",
+      "nóng giận"
+    ]
+  },
+  {
+    "id": "n3:634",
+    "level": "N3",
+    "order": 634,
+    "headword": "のんびり",
+    "reading": "のんびり",
+    "hanViet": null,
+    "meanings": [
+      "tận hưởng"
+    ]
+  },
+  {
+    "id": "n3:635",
+    "level": "N3",
+    "order": 635,
+    "headword": "実は",
+    "reading": "じつは",
+    "hanViet": "THỰC",
+    "meanings": [
+      "thực tế là"
+    ]
+  },
+  {
+    "id": "n3:636",
+    "level": "N3",
+    "order": 636,
+    "headword": "読書",
+    "reading": "どくしょ",
+    "hanViet": "ĐỘC THƯ",
+    "meanings": [
+      "đọc viết"
+    ]
+  },
+  {
+    "id": "n3:637",
+    "level": "N3",
+    "order": 637,
+    "headword": "演奏",
+    "reading": "えんそう",
+    "hanViet": "DIỄN TẤU",
+    "meanings": [
+      "biểu diễn"
+    ]
+  },
+  {
+    "id": "n3:638",
+    "level": "N3",
+    "order": 638,
+    "headword": "芸術",
+    "reading": "げいじゅつ",
+    "hanViet": "VÂN THUẬT",
+    "meanings": [
+      "nghệ thuật"
+    ]
+  },
+  {
+    "id": "n3:639",
+    "level": "N3",
+    "order": 639,
+    "headword": "検査",
+    "reading": "けんさ",
+    "hanViet": "KIỂM TRA",
+    "meanings": [
+      "kiểm tra"
+    ]
+  },
+  {
+    "id": "n3:640",
+    "level": "N3",
+    "order": 640,
+    "headword": "血液",
+    "reading": "けつえき",
+    "hanViet": "HUYẾT DỊCH",
+    "meanings": [
+      "máu"
+    ]
+  },
+  {
+    "id": "n3:641",
+    "level": "N3",
+    "order": 641,
+    "headword": "治療",
+    "reading": "ちりょう",
+    "hanViet": "TRỊ LIỆU",
+    "meanings": [
+      "trị liệu"
+    ]
+  },
+  {
+    "id": "n3:642",
+    "level": "N3",
+    "order": 642,
+    "headword": "症状",
+    "reading": "しょうじょう",
+    "hanViet": "CHỨNG TRẠNG",
+    "meanings": [
+      "triệu chứng"
+    ]
+  },
+  {
+    "id": "n3:643",
+    "level": "N3",
+    "order": 643,
+    "headword": "予防",
+    "reading": "よぼう",
+    "hanViet": "DỰ PHÒNG",
+    "meanings": [
+      "dự phòng"
+    ]
+  },
+  {
+    "id": "n3:644",
+    "level": "N3",
+    "order": 644,
+    "headword": "栄養",
+    "reading": "えいよう",
+    "hanViet": "VINH DƯỠNG",
+    "meanings": [
+      "dinh dưỡng"
+    ]
+  },
+  {
+    "id": "n3:645",
+    "level": "N3",
+    "order": 645,
+    "headword": "手術",
+    "reading": "しゅじゅつ",
+    "hanViet": "THỦ THUẬT",
+    "meanings": [
+      "phẫu thuật"
+    ]
+  },
+  {
+    "id": "n3:646",
+    "level": "N3",
+    "order": 646,
+    "headword": "死亡",
+    "reading": "しぼう",
+    "hanViet": "TỬ VONG",
+    "meanings": [
+      "tử vong"
+    ]
+  },
+  {
+    "id": "n3:647",
+    "level": "N3",
+    "order": 647,
+    "headword": "命",
+    "reading": "いのち",
+    "hanViet": "MỆNH",
+    "meanings": [
+      "sinh mạng"
+    ]
+  },
+  {
+    "id": "n3:648",
+    "level": "N3",
+    "order": 648,
+    "headword": "一生",
+    "reading": "いっしょう",
+    "hanViet": "NHẤT SINH",
+    "meanings": [
+      "suốt đời"
+    ]
+  },
+  {
+    "id": "n3:649",
+    "level": "N3",
+    "order": 649,
+    "headword": "誤解",
+    "reading": "ごかい",
+    "hanViet": "NGỘ GIẢI",
+    "meanings": [
+      "hiểu nhầm"
+    ]
+  },
+  {
+    "id": "n3:650",
+    "level": "N3",
+    "order": 650,
+    "headword": "後悔",
+    "reading": "こうかい",
+    "hanViet": "HẬU HỐI",
+    "meanings": [
+      "hối hận"
+    ]
+  },
+  {
+    "id": "n3:651",
+    "level": "N3",
+    "order": 651,
+    "headword": "訳",
+    "reading": "わけ",
+    "hanViet": "DỊCH",
+    "meanings": [
+      "lý do"
+    ]
+  },
+  {
+    "id": "n3:652",
+    "level": "N3",
+    "order": 652,
+    "headword": "態度",
+    "reading": "たいど",
+    "hanViet": "THÁI ĐỘ",
+    "meanings": [
+      "thái độ"
+    ]
+  },
+  {
+    "id": "n3:653",
+    "level": "N3",
+    "order": 653,
+    "headword": "癖",
+    "reading": "くせ",
+    "hanViet": "TÍCH",
+    "meanings": [
+      "thói quen"
+    ]
+  },
+  {
+    "id": "n3:654",
+    "level": "N3",
+    "order": 654,
+    "headword": "礼儀",
+    "reading": "れいぎ",
+    "hanViet": "LỄ NGHI",
+    "meanings": [
+      "lễ nghĩa"
+    ]
+  },
+  {
+    "id": "n3:655",
+    "level": "N3",
+    "order": 655,
+    "headword": "文句",
+    "reading": "もんく",
+    "hanViet": "VĂN CÂU",
+    "meanings": [
+      "phàn nàn"
+    ]
+  },
+  {
+    "id": "n3:656",
+    "level": "N3",
+    "order": 656,
+    "headword": "表情",
+    "reading": "ひょうじょう",
+    "hanViet": "BIỂU TÌNH",
+    "meanings": [
+      "biểu lộ",
+      "biểu thị"
+    ]
+  },
+  {
+    "id": "n3:657",
+    "level": "N3",
+    "order": 657,
+    "headword": "鏡面",
+    "reading": "ひょうめん",
+    "hanViet": "KÍNH DIỆN",
+    "meanings": [
+      "bề mặt"
+    ]
+  },
+  {
+    "id": "n3:658",
+    "level": "N3",
+    "order": 658,
+    "headword": "禁煙",
+    "reading": "きんえん",
+    "hanViet": "CẤM YÊN",
+    "meanings": [
+      "cấm hút thuốc"
+    ]
+  },
+  {
+    "id": "n3:659",
+    "level": "N3",
+    "order": 659,
+    "headword": "禁止",
+    "reading": "きんし",
+    "hanViet": "CẤM CHỈ",
+    "meanings": [
+      "cấm"
+    ]
+  },
+  {
+    "id": "n3:660",
+    "level": "N3",
+    "order": 660,
+    "headword": "完成",
+    "reading": "かんせい",
+    "hanViet": "HOÀN THÀNH",
+    "meanings": [
+      "hoàn thành"
+    ]
+  },
+  {
+    "id": "n3:661",
+    "level": "N3",
+    "order": 661,
+    "headword": "課題",
+    "reading": "かだい",
+    "hanViet": "KHOÁ ĐỀ",
+    "meanings": [
+      "chủ đề"
+    ]
+  },
+  {
+    "id": "n3:662",
+    "level": "N3",
+    "order": 662,
+    "headword": "例外",
+    "reading": "れいがい",
+    "hanViet": "LỆ NGOẠI",
+    "meanings": [
+      "ngoại lệ"
+    ]
+  },
+  {
+    "id": "n3:663",
+    "level": "N3",
+    "order": 663,
+    "headword": "基本",
+    "reading": "きほん",
+    "hanViet": "CƠ BẢN",
+    "meanings": [
+      "cơ bản"
+    ]
+  },
+  {
+    "id": "n3:664",
+    "level": "N3",
+    "order": 664,
+    "headword": "記録",
+    "reading": "きろく",
+    "hanViet": "KÝ LỤC",
+    "meanings": [
+      "ghi âm"
+    ]
+  },
+  {
+    "id": "n3:665",
+    "level": "N3",
+    "order": 665,
+    "headword": "状態",
+    "reading": "じょうたい",
+    "hanViet": "TRẠNG THÁI",
+    "meanings": [
+      "trạng thái"
+    ]
+  },
+  {
+    "id": "n3:666",
+    "level": "N3",
+    "order": 666,
+    "headword": "出来事",
+    "reading": "できごと",
+    "hanViet": "XUẤT LAI SỰ",
+    "meanings": [
+      "sự kiện"
+    ]
+  },
+  {
+    "id": "n3:667",
+    "level": "N3",
+    "order": 667,
+    "headword": "場面",
+    "reading": "ばめん",
+    "hanViet": "TRƯỜNG DIỆN",
+    "meanings": [
+      "khung cảnh",
+      "tình huống",
+      "hiện trường"
+    ]
+  },
+  {
+    "id": "n3:668",
+    "level": "N3",
+    "order": 668,
+    "headword": "機会",
+    "reading": "きかい",
+    "hanViet": "CƠ HỘI",
+    "meanings": [
+      "cơ hội"
+    ]
+  },
+  {
+    "id": "n3:669",
+    "level": "N3",
+    "order": 669,
+    "headword": "距離",
+    "reading": "きょり",
+    "hanViet": "CỰ LY",
+    "meanings": [
+      "khoảng cách"
+    ]
+  },
+  {
+    "id": "n3:670",
+    "level": "N3",
+    "order": 670,
+    "headword": "提案",
+    "reading": "ていあん",
+    "hanViet": "ĐỀ ÁN",
+    "meanings": [
+      "đề xuất"
+    ]
+  },
+  {
+    "id": "n3:671",
+    "level": "N3",
+    "order": 671,
+    "headword": "やり取り",
+    "reading": "やりとり",
+    "hanViet": "THỦ",
+    "meanings": [
+      "trao đổi",
+      "làm việc"
+    ]
+  },
+  {
+    "id": "n3:672",
+    "level": "N3",
+    "order": 672,
+    "headword": "知識",
+    "reading": "ちしき",
+    "hanViet": "TRI THỨC",
+    "meanings": [
+      "kiến thức"
+    ]
+  },
+  {
+    "id": "n3:673",
+    "level": "N3",
+    "order": 673,
+    "headword": "実力",
+    "reading": "じつりょく",
+    "hanViet": "THỰC LỰC",
+    "meanings": [
+      "thực lực"
+    ]
+  },
+  {
+    "id": "n3:674",
+    "level": "N3",
+    "order": 674,
+    "headword": "手段",
+    "reading": "しゅだん",
+    "hanViet": "THỦ ĐOẠN",
+    "meanings": [
+      "cách thức"
+    ]
+  },
+  {
+    "id": "n3:675",
+    "level": "N3",
+    "order": 675,
+    "headword": "代表",
+    "reading": "だいひょう",
+    "hanViet": "ĐẠI BIỂU",
+    "meanings": [
+      "đại biểu"
+    ]
+  },
+  {
+    "id": "n3:676",
+    "level": "N3",
+    "order": 676,
+    "headword": "影響",
+    "reading": "えいきょう",
+    "hanViet": "ẢNH HƯỞNG",
+    "meanings": [
+      "ảnh hưởng"
+    ]
+  },
+  {
+    "id": "n3:677",
+    "level": "N3",
+    "order": 677,
+    "headword": "効果",
+    "reading": "こうか",
+    "hanViet": "HIỆU QUẢ",
+    "meanings": [
+      "hiệu quả"
+    ]
+  },
+  {
+    "id": "n3:678",
+    "level": "N3",
+    "order": 678,
+    "headword": "印象",
+    "reading": "いんしょう",
+    "hanViet": "ẤN TƯỢNG",
+    "meanings": [
+      "ấn tượng"
+    ]
+  },
+  {
+    "id": "n3:679",
+    "level": "N3",
+    "order": 679,
+    "headword": "印",
+    "reading": "しるし",
+    "hanViet": "ẤN",
+    "meanings": [
+      "dấu",
+      "dấu hiệu"
+    ]
+  },
+  {
+    "id": "n3:680",
+    "level": "N3",
+    "order": 680,
+    "headword": "合図",
+    "reading": "あいず",
+    "hanViet": "HỢP ĐỒ",
+    "meanings": [
+      "ám hiệu"
+    ]
+  },
+  {
+    "id": "n3:681",
+    "level": "N3",
+    "order": 681,
+    "headword": "共通",
+    "reading": "きょうつう",
+    "hanViet": "CỘNG THÔNG",
+    "meanings": [
+      "chung"
+    ]
+  },
+  {
+    "id": "n3:682",
+    "level": "N3",
+    "order": 682,
+    "headword": "協調",
+    "reading": "きょうちょう",
+    "hanViet": "HIỆP ĐIỀU",
+    "meanings": [
+      "nhấn mạnh"
+    ]
+  },
+  {
+    "id": "n3:683",
+    "level": "N3",
+    "order": 683,
+    "headword": "省略",
+    "reading": "しょうりゃく",
+    "hanViet": "TỈNH LƯỢC",
+    "meanings": [
+      "lược bớt"
+    ]
+  },
+  {
+    "id": "n3:684",
+    "level": "N3",
+    "order": 684,
+    "headword": "挑戦",
+    "reading": "ちょうせん",
+    "hanViet": "KHIÊU CHIẾN",
+    "meanings": [
+      "thử thách"
+    ]
+  },
+  {
+    "id": "n3:685",
+    "level": "N3",
+    "order": 685,
+    "headword": "やる気",
+    "reading": "やるき",
+    "hanViet": "KHÍ",
+    "meanings": [
+      "động lực"
+    ]
+  },
+  {
+    "id": "n3:686",
+    "level": "N3",
+    "order": 686,
+    "headword": "勇気",
+    "reading": "ゆうき",
+    "hanViet": "DŨNG KHÍ",
+    "meanings": [
+      "dũng cảm",
+      "dũng khí"
+    ]
+  },
+  {
+    "id": "n3:687",
+    "level": "N3",
+    "order": 687,
+    "headword": "資格",
+    "reading": "しかく",
+    "hanViet": "TƯ CÁCH",
+    "meanings": [
+      "bằng cấp",
+      "tư cách"
+    ]
+  },
+  {
+    "id": "n3:688",
+    "level": "N3",
+    "order": 688,
+    "headword": "申請",
+    "reading": "しんせい",
+    "hanViet": "THÂN THỈNH",
+    "meanings": [
+      "đăng ký",
+      "ứng tuyển"
+    ]
+  },
+  {
+    "id": "n3:689",
+    "level": "N3",
+    "order": 689,
+    "headword": "本人",
+    "reading": "ほんにん",
+    "hanViet": "BẢN NHÂN",
+    "meanings": [
+      "người được nói đến"
+    ]
+  },
+  {
+    "id": "n3:690",
+    "level": "N3",
+    "order": 690,
+    "headword": "契約",
+    "reading": "けいやく",
+    "hanViet": "KHẾ ƯỚC",
+    "meanings": [
+      "hợp đồng"
+    ]
+  },
+  {
+    "id": "n3:691",
+    "level": "N3",
+    "order": 691,
+    "headword": "証明",
+    "reading": "しょうめい",
+    "hanViet": "CHỨNG MINH",
+    "meanings": [
+      "chứng minh",
+      "bằng chứng"
+    ]
+  },
+  {
+    "id": "n3:692",
+    "level": "N3",
+    "order": 692,
+    "headword": "変更",
+    "reading": "へんこう",
+    "hanViet": "BIẾN CANH",
+    "meanings": [
+      "thay đổi"
+    ]
+  },
+  {
+    "id": "n3:693",
+    "level": "N3",
+    "order": 693,
+    "headword": "保存",
+    "reading": "ほぞん",
+    "hanViet": "BẢO TỒN",
+    "meanings": [
+      "bảo tồn"
+    ]
+  },
+  {
+    "id": "n3:694",
+    "level": "N3",
+    "order": 694,
+    "headword": "保護",
+    "reading": "ほご",
+    "hanViet": "BẢO HỘ",
+    "meanings": [
+      "bảo vệ"
+    ]
+  },
+  {
+    "id": "n3:695",
+    "level": "N3",
+    "order": 695,
+    "headword": "環境",
+    "reading": "かんきょう",
+    "hanViet": "HOÀN CẢNH",
+    "meanings": [
+      "môi trường"
+    ]
+  },
+  {
+    "id": "n3:696",
+    "level": "N3",
+    "order": 696,
+    "headword": "資源",
+    "reading": "しげん",
+    "hanViet": "TƯ NGUYÊN",
+    "meanings": [
+      "tài nguyên"
+    ]
+  },
+  {
+    "id": "n3:697",
+    "level": "N3",
+    "order": 697,
+    "headword": "不足",
+    "reading": "ふそく",
+    "hanViet": "BẤT TÚC",
+    "meanings": [
+      "thiếu"
+    ]
+  },
+  {
+    "id": "n3:698",
+    "level": "N3",
+    "order": 698,
+    "headword": "平均",
+    "reading": "へいきん",
+    "hanViet": "BÌNH QUÂN",
+    "meanings": [
+      "trung bình"
+    ]
+  },
+  {
+    "id": "n3:699",
+    "level": "N3",
+    "order": 699,
+    "headword": "割合",
+    "reading": "わりあい",
+    "hanViet": "CÁT HỢP",
+    "meanings": [
+      "tỷ lệ"
+    ]
+  },
+  {
+    "id": "n3:700",
+    "level": "N3",
+    "order": 700,
+    "headword": "商売",
+    "reading": "しょうばい",
+    "hanViet": "THƯƠNG MẠI",
+    "meanings": [
+      "kinh doanh",
+      "buôn bán"
+    ]
+  },
+  {
+    "id": "n3:701",
+    "level": "N3",
+    "order": 701,
+    "headword": "商品",
+    "reading": "しょうひん",
+    "hanViet": "THƯƠNG PHẨM",
+    "meanings": [
+      "sản phẩm"
+    ]
+  },
+  {
+    "id": "n3:702",
+    "level": "N3",
+    "order": 702,
+    "headword": "質",
+    "reading": "しつ",
+    "hanViet": "CHẤT",
+    "meanings": [
+      "chất lượng"
+    ]
+  },
+  {
+    "id": "n3:703",
+    "level": "N3",
+    "order": 703,
+    "headword": "型",
+    "reading": "かた",
+    "hanViet": "HÌNH",
+    "meanings": [
+      "mẫu"
+    ]
+  },
+  {
+    "id": "n3:704",
+    "level": "N3",
+    "order": 704,
+    "headword": "生産",
+    "reading": "せいさん",
+    "hanViet": "SINH SẢN",
+    "meanings": [
+      "sản xuất"
+    ]
+  },
+  {
+    "id": "n3:705",
+    "level": "N3",
+    "order": 705,
+    "headword": "消費",
+    "reading": "しょうひ",
+    "hanViet": "TIÊU PHÍ",
+    "meanings": [
+      "tiêu dùng",
+      "tiêu thụ"
+    ]
+  },
+  {
+    "id": "n3:706",
+    "level": "N3",
+    "order": 706,
+    "headword": "物価",
+    "reading": "ぶっか",
+    "hanViet": "VẬT GIÁ",
+    "meanings": [
+      "giá cả",
+      "vật giá"
+    ]
+  },
+  {
+    "id": "n3:707",
+    "level": "N3",
+    "order": 707,
+    "headword": "倒産",
+    "reading": "とうさん",
+    "hanViet": "ĐẢO SẢN",
+    "meanings": [
+      "phá sản"
+    ]
+  },
+  {
+    "id": "n3:708",
+    "level": "N3",
+    "order": 708,
+    "headword": "携帯",
+    "reading": "けいたい",
+    "hanViet": "HUỀ ĐỚI",
+    "meanings": [
+      "mang theo"
+    ]
+  },
+  {
+    "id": "n3:709",
+    "level": "N3",
+    "order": 709,
+    "headword": "現代",
+    "reading": "げんだい",
+    "hanViet": "HIỆN ĐẠI",
+    "meanings": [
+      "hiện tại"
+    ]
+  },
+  {
+    "id": "n3:710",
+    "level": "N3",
+    "order": 710,
+    "headword": "世紀",
+    "reading": "せいき",
+    "hanViet": "THẾ KỶ",
+    "meanings": [
+      "thế kỷ"
+    ]
+  },
+  {
+    "id": "n3:711",
+    "level": "N3",
+    "order": 711,
+    "headword": "文化",
+    "reading": "ぶんか",
+    "hanViet": "VĂN HOÁ",
+    "meanings": [
+      "văn hóa"
+    ]
+  },
+  {
+    "id": "n3:712",
+    "level": "N3",
+    "order": 712,
+    "headword": "都市",
+    "reading": "とし",
+    "hanViet": "ĐÔ THỊ",
+    "meanings": [
+      "thành phố"
+    ]
+  },
+  {
+    "id": "n3:713",
+    "level": "N3",
+    "order": 713,
+    "headword": "地方",
+    "reading": "ちほう",
+    "hanViet": "ĐỊA PHƯƠNG",
+    "meanings": [
+      "địa phương"
+    ]
+  },
+  {
+    "id": "n3:714",
+    "level": "N3",
+    "order": 714,
+    "headword": "戦争",
+    "reading": "せんそう",
+    "hanViet": "CHIẾN TRANH",
+    "meanings": [
+      "chiến tranh"
+    ]
+  },
+  {
+    "id": "n3:715",
+    "level": "N3",
+    "order": 715,
+    "headword": "平和",
+    "reading": "へいわ",
+    "hanViet": "BÌNH HOÀ",
+    "meanings": [
+      "hòa bình"
+    ]
+  },
+  {
+    "id": "n3:716",
+    "level": "N3",
+    "order": 716,
+    "headword": "上る",
+    "reading": "のぼる",
+    "hanViet": "THƯỢNG",
+    "meanings": [
+      "leo lên"
+    ]
+  },
+  {
+    "id": "n3:717",
+    "level": "N3",
+    "order": 717,
+    "headword": "下る",
+    "reading": "くだる",
+    "hanViet": "HẠ",
+    "meanings": [
+      "đi xuống"
+    ]
+  },
+  {
+    "id": "n3:718",
+    "level": "N3",
+    "order": 718,
+    "headword": "進む",
+    "reading": "すすむ",
+    "hanViet": "TIẾN",
+    "meanings": [
+      "tiến lên"
+    ]
+  },
+  {
+    "id": "n3:719",
+    "level": "N3",
+    "order": 719,
+    "headword": "進める",
+    "reading": "すすめる",
+    "hanViet": "TIẾN",
+    "meanings": [
+      "làm cho tiến lên"
+    ]
+  },
+  {
+    "id": "n3:720",
+    "level": "N3",
+    "order": 720,
+    "headword": "通る",
+    "reading": "とおる",
+    "hanViet": "THÔNG",
+    "meanings": [
+      "thông qua",
+      "được chấp nhận",
+      "đi qua"
+    ]
+  },
+  {
+    "id": "n3:721",
+    "level": "N3",
+    "order": 721,
+    "headword": "通す",
+    "reading": "とおす",
+    "hanViet": "THÔNG",
+    "meanings": [
+      "xuyên qua",
+      "thông qua"
+    ]
+  },
+  {
+    "id": "n3:722",
+    "level": "N3",
+    "order": 722,
+    "headword": "超える・越える",
+    "reading": "こえる",
+    "hanViet": "SIÊU VIỆT",
+    "meanings": [
+      "vượt qua"
+    ]
+  },
+  {
+    "id": "n3:723",
+    "level": "N3",
+    "order": 723,
+    "headword": "過ぎる",
+    "reading": "すぎる",
+    "hanViet": "QUÁ",
+    "meanings": [
+      "quá",
+      "đi qua"
+    ]
+  },
+  {
+    "id": "n3:724",
+    "level": "N3",
+    "order": 724,
+    "headword": "過ごす",
+    "reading": "すごす",
+    "hanViet": "QUÁ",
+    "meanings": [
+      "sử dụng(thời gian)"
+    ]
+  },
+  {
+    "id": "n3:725",
+    "level": "N3",
+    "order": 725,
+    "headword": "移る",
+    "reading": "うつる",
+    "hanViet": "DI",
+    "meanings": [
+      "được chuyển"
+    ]
+  },
+  {
+    "id": "n3:726",
+    "level": "N3",
+    "order": 726,
+    "headword": "移す",
+    "reading": "うつす",
+    "hanViet": "DI",
+    "meanings": [
+      "chuyển"
+    ]
+  },
+  {
+    "id": "n3:727",
+    "level": "N3",
+    "order": 727,
+    "headword": "連れる",
+    "reading": "つれる",
+    "hanViet": "LIÊN",
+    "meanings": [
+      "dẫn đi"
+    ]
+  },
+  {
+    "id": "n3:728",
+    "level": "N3",
+    "order": 728,
+    "headword": "寄る",
+    "reading": "よる",
+    "hanViet": "KÝ",
+    "meanings": [
+      "ghé sát",
+      "lại gần"
+    ]
+  },
+  {
+    "id": "n3:729",
+    "level": "N3",
+    "order": 729,
+    "headword": "寄せる",
+    "reading": "よせる",
+    "hanViet": "KÝ",
+    "meanings": [
+      "ghé vào"
+    ]
+  },
+  {
+    "id": "n3:730",
+    "level": "N3",
+    "order": 730,
+    "headword": "与える",
+    "reading": "あたえる",
+    "hanViet": "DỮ",
+    "meanings": [
+      "trao",
+      "cung cấp"
+    ]
+  },
+  {
+    "id": "n3:731",
+    "level": "N3",
+    "order": 731,
+    "headword": "得る",
+    "reading": "える",
+    "hanViet": "ĐẮC",
+    "meanings": [
+      "đạt được",
+      "có được"
+    ]
+  },
+  {
+    "id": "n3:732",
+    "level": "N3",
+    "order": 732,
+    "headword": "向く",
+    "reading": "むく",
+    "hanViet": "HƯỚNG",
+    "meanings": [
+      "hướng",
+      "đối diện"
+    ]
+  },
+  {
+    "id": "n3:733",
+    "level": "N3",
+    "order": 733,
+    "headword": "向ける",
+    "reading": "むける",
+    "hanViet": "HƯỚNG",
+    "meanings": [
+      "hướng đến",
+      "quay"
+    ]
+  },
+  {
+    "id": "n3:734",
+    "level": "N3",
+    "order": 734,
+    "headword": "勧める",
+    "reading": "すすめる",
+    "hanViet": "CẦN",
+    "meanings": [
+      "rủ",
+      "mời",
+      "gợi ý"
+    ]
+  },
+  {
+    "id": "n3:735",
+    "level": "N3",
+    "order": 735,
+    "headword": "薦める",
+    "reading": "すすめる",
+    "hanViet": "TIẾN",
+    "meanings": [
+      "giới thiệu",
+      "gợi ý"
+    ]
+  },
+  {
+    "id": "n3:736",
+    "level": "N3",
+    "order": 736,
+    "headword": "任せる",
+    "reading": "まかせる",
+    "hanViet": "NHẬM",
+    "meanings": [
+      "tin tưởng",
+      "để cho ai đó làm gì"
+    ]
+  },
+  {
+    "id": "n3:737",
+    "level": "N3",
+    "order": 737,
+    "headword": "守る",
+    "reading": "まもる",
+    "hanViet": "THỦ",
+    "meanings": [
+      "giữ",
+      "tuân thủ",
+      "bảo vệ"
+    ]
+  },
+  {
+    "id": "n3:738",
+    "level": "N3",
+    "order": 738,
+    "headword": "争う",
+    "reading": "あらそう",
+    "hanViet": "TRANH",
+    "meanings": [
+      "gây gổ",
+      "tranh giành"
+    ]
+  },
+  {
+    "id": "n3:739",
+    "level": "N3",
+    "order": 739,
+    "headword": "臨む",
+    "reading": "のぞむ",
+    "hanViet": "LÂM",
+    "meanings": [
+      "ước"
+    ]
+  },
+  {
+    "id": "n3:740",
+    "level": "N3",
+    "order": 740,
+    "headword": "信じる",
+    "reading": "しんじる",
+    "hanViet": "TÍN",
+    "meanings": [
+      "tin tưởng"
+    ]
+  },
+  {
+    "id": "n3:741",
+    "level": "N3",
+    "order": 741,
+    "headword": "通じる",
+    "reading": "つうじる",
+    "hanViet": "THÔNG",
+    "meanings": [
+      "hiểu",
+      "thông qua"
+    ]
+  },
+  {
+    "id": "n3:742",
+    "level": "N3",
+    "order": 742,
+    "headword": "飽きる",
+    "reading": "あきる",
+    "hanViet": "BÃO",
+    "meanings": [
+      "chán",
+      "ngấy"
+    ]
+  },
+  {
+    "id": "n3:743",
+    "level": "N3",
+    "order": 743,
+    "headword": "思いつく",
+    "reading": "おもいつく",
+    "hanViet": "TƯ",
+    "meanings": [
+      "nghĩ về"
+    ]
+  },
+  {
+    "id": "n3:744",
+    "level": "N3",
+    "order": 744,
+    "headword": "思いやる",
+    "reading": "おもいやる",
+    "hanViet": "TƯ",
+    "meanings": [
+      "quan tâm",
+      "thông cảm"
+    ]
+  },
+  {
+    "id": "n3:745",
+    "level": "N3",
+    "order": 745,
+    "headword": "熱中する",
+    "reading": "ねっちゅうする",
+    "hanViet": "NHIỆT TRUNG",
+    "meanings": [
+      "nghiện"
+    ]
+  },
+  {
+    "id": "n3:746",
+    "level": "N3",
+    "order": 746,
+    "headword": "暮らす",
+    "reading": "くらす",
+    "hanViet": "MỘ",
+    "meanings": [
+      "sống"
+    ]
+  },
+  {
+    "id": "n3:747",
+    "level": "N3",
+    "order": 747,
+    "headword": "巻く",
+    "reading": "まく",
+    "hanViet": "QUYỂN",
+    "meanings": [
+      "quấn",
+      "quàng"
+    ]
+  },
+  {
+    "id": "n3:748",
+    "level": "N3",
+    "order": 748,
+    "headword": "結ぶ",
+    "reading": "むすぶ",
+    "hanViet": "KẾT",
+    "meanings": [
+      "buộc",
+      "cột",
+      "nối"
+    ]
+  },
+  {
+    "id": "n3:749",
+    "level": "N3",
+    "order": 749,
+    "headword": "済む",
+    "reading": "すむ",
+    "hanViet": "TẾ",
+    "meanings": [
+      "kết thúc"
+    ]
+  },
+  {
+    "id": "n3:750",
+    "level": "N3",
+    "order": 750,
+    "headword": "済ませる・済ます",
+    "reading": "すませる・すます",
+    "hanViet": "TẾ TẾ",
+    "meanings": [
+      "hoàn tất"
+    ]
+  },
+  {
+    "id": "n3:751",
+    "level": "N3",
+    "order": 751,
+    "headword": "出来る",
+    "reading": "できる",
+    "hanViet": "XUẤT LAI",
+    "meanings": [
+      "có thể",
+      "được xây dựng"
+    ]
+  },
+  {
+    "id": "n3:752",
+    "level": "N3",
+    "order": 752,
+    "headword": "切れる",
+    "reading": "きれる",
+    "hanViet": "THIẾT",
+    "meanings": [
+      "cắt",
+      "hết hạn"
+    ]
+  },
+  {
+    "id": "n3:753",
+    "level": "N3",
+    "order": 753,
+    "headword": "切らす",
+    "reading": "きらす",
+    "hanViet": "THIẾT",
+    "meanings": [
+      "hết"
+    ]
+  },
+  {
+    "id": "n3:754",
+    "level": "N3",
+    "order": 754,
+    "headword": "伝わる",
+    "reading": "つたわる",
+    "hanViet": "TRUYỀN",
+    "meanings": [
+      "được truyền đi",
+      "được trải ra",
+      "được giới thiệu"
+    ]
+  },
+  {
+    "id": "n3:755",
+    "level": "N3",
+    "order": 755,
+    "headword": "伝える",
+    "reading": "つたえる",
+    "hanViet": "TRUYỀN",
+    "meanings": [
+      "truyền đi",
+      "giới thiệu"
+    ]
+  },
+  {
+    "id": "n3:756",
+    "level": "N3",
+    "order": 756,
+    "headword": "続く",
+    "reading": "つづく",
+    "hanViet": "TỤC",
+    "meanings": [
+      "tiếp tục",
+      "xảy ra",
+      "lặp lại",
+      "theo sau"
+    ]
+  },
+  {
+    "id": "n3:757",
+    "level": "N3",
+    "order": 757,
+    "headword": "続ける",
+    "reading": "つづける",
+    "hanViet": "TỤC",
+    "meanings": [
+      "tiếp tục",
+      "xảy ra liên tiếp"
+    ]
+  },
+  {
+    "id": "n3:758",
+    "level": "N3",
+    "order": 758,
+    "headword": "つながる",
+    "reading": "つながる",
+    "hanViet": null,
+    "meanings": [
+      "được kết nối",
+      "được mở rộng",
+      "thông qua"
+    ]
+  },
+  {
+    "id": "n3:759",
+    "level": "N3",
+    "order": 759,
+    "headword": "つなぐ",
+    "reading": "つなぐ",
+    "hanViet": null,
+    "meanings": [
+      "kết nối",
+      "tham gia"
+    ]
+  },
+  {
+    "id": "n3:760",
+    "level": "N3",
+    "order": 760,
+    "headword": "つなげる",
+    "reading": "つなげる",
+    "hanViet": null,
+    "meanings": [
+      "kết nối",
+      "làm chặt thêm"
+    ]
+  },
+  {
+    "id": "n3:761",
+    "level": "N3",
+    "order": 761,
+    "headword": "伸びる",
+    "reading": "のびる",
+    "hanViet": "THÂN",
+    "meanings": [
+      "lớn lên",
+      "tăng thêm",
+      "dài ra"
+    ]
+  },
+  {
+    "id": "n3:762",
+    "level": "N3",
+    "order": 762,
+    "headword": "伸ばす",
+    "reading": "のばす",
+    "hanViet": "THÂN",
+    "meanings": [
+      "nuôi dài",
+      "căng ra"
+    ]
+  },
+  {
+    "id": "n3:763",
+    "level": "N3",
+    "order": 763,
+    "headword": "延びる",
+    "reading": "のびる",
+    "hanViet": "DUYÊN",
+    "meanings": [
+      "bị trì hoãn",
+      "bị kéo dài"
+    ]
+  },
+  {
+    "id": "n3:764",
+    "level": "N3",
+    "order": 764,
+    "headword": "延ばす",
+    "reading": "のばす",
+    "hanViet": "DUYÊN",
+    "meanings": [
+      "trì hoãn",
+      "kéo dài"
+    ]
+  },
+  {
+    "id": "n3:765",
+    "level": "N3",
+    "order": 765,
+    "headword": "重なる",
+    "reading": "かさなる",
+    "hanViet": "TRỌNG",
+    "meanings": [
+      "xung đột",
+      "xếp chồng"
+    ]
+  },
+  {
+    "id": "n3:766",
+    "level": "N3",
+    "order": 766,
+    "headword": "重ねる",
+    "reading": "かさねる",
+    "hanViet": "TRỌNG",
+    "meanings": [
+      "chồng lên",
+      "tích trữ"
+    ]
+  },
+  {
+    "id": "n3:767",
+    "level": "N3",
+    "order": 767,
+    "headword": "広がる",
+    "reading": "ひろがる",
+    "hanViet": "QUẢNG",
+    "meanings": [
+      "mở rộng",
+      "bùng phát",
+      "lan tràn",
+      "trải dài"
+    ]
+  },
+  {
+    "id": "n3:768",
+    "level": "N3",
+    "order": 768,
+    "headword": "広げる",
+    "reading": "ひろげる",
+    "hanViet": "QUẢNG",
+    "meanings": [
+      "mở thêm",
+      "mở rộng",
+      "nới rộng",
+      "mở ra"
+    ]
+  },
+  {
+    "id": "n3:769",
+    "level": "N3",
+    "order": 769,
+    "headword": "載る",
+    "reading": "のる",
+    "hanViet": "TẢI",
+    "meanings": [
+      "vừa",
+      "được công bố"
+    ]
+  },
+  {
+    "id": "n3:770",
+    "level": "N3",
+    "order": 770,
+    "headword": "載せる",
+    "reading": "のせる",
+    "hanViet": "TẢI",
+    "meanings": [
+      "cho vào",
+      "cho lên",
+      "công bố"
+    ]
+  },
+  {
+    "id": "n3:771",
+    "level": "N3",
+    "order": 771,
+    "headword": "そろう",
+    "reading": "そろう",
+    "hanViet": null,
+    "meanings": [
+      "thu thập",
+      "được thu thập"
+    ]
+  },
+  {
+    "id": "n3:772",
+    "level": "N3",
+    "order": 772,
+    "headword": "そろえる",
+    "reading": "そろえる",
+    "hanViet": null,
+    "meanings": [
+      "gom lại",
+      "chuẩn bị sẵn sàng"
+    ]
+  },
+  {
+    "id": "n3:773",
+    "level": "N3",
+    "order": 773,
+    "headword": "まとまる",
+    "reading": "まとまる",
+    "hanViet": null,
+    "meanings": [
+      "được thống nhất",
+      "được tổ chức",
+      "được sắp xếp"
+    ]
+  },
+  {
+    "id": "n3:774",
+    "level": "N3",
+    "order": 774,
+    "headword": "まとめる",
+    "reading": "まとめる",
+    "hanViet": null,
+    "meanings": [
+      "tập hợp",
+      "sàng lọc",
+      "hợp nhất",
+      "tổ chức"
+    ]
+  },
+  {
+    "id": "n3:775",
+    "level": "N3",
+    "order": 775,
+    "headword": "付く",
+    "reading": "つく",
+    "hanViet": "PHÓ",
+    "meanings": [
+      "dính",
+      "gắn",
+      "đạt được",
+      "đi cùng với"
+    ]
+  },
+  {
+    "id": "n3:776",
+    "level": "N3",
+    "order": 776,
+    "headword": "付ける",
+    "reading": "つける",
+    "hanViet": "PHÓ",
+    "meanings": [
+      "gắn",
+      "thêm vào"
+    ]
+  },
+  {
+    "id": "n3:777",
+    "level": "N3",
+    "order": 777,
+    "headword": "たまる",
+    "reading": "たまる",
+    "hanViet": null,
+    "meanings": [
+      "được tiết kiệm"
+    ]
+  },
+  {
+    "id": "n3:778",
+    "level": "N3",
+    "order": 778,
+    "headword": "ためる",
+    "reading": "ためる",
+    "hanViet": null,
+    "meanings": [
+      "tiết kiệm"
+    ]
+  },
+  {
+    "id": "n3:779",
+    "level": "N3",
+    "order": 779,
+    "headword": "交じる・混じる",
+    "reading": "まじる",
+    "hanViet": "GIAO HỖN",
+    "meanings": [
+      "giao vào",
+      "lẫn vào"
+    ]
+  },
+  {
+    "id": "n3:780",
+    "level": "N3",
+    "order": 780,
+    "headword": "交ざる・混ざる",
+    "reading": "まざる",
+    "hanViet": "GIAO HỖN",
+    "meanings": [
+      "được trộn lẫn"
+    ]
+  },
+  {
+    "id": "n3:781",
+    "level": "N3",
+    "order": 781,
+    "headword": "交ぜる・混ぜる",
+    "reading": "まぜる",
+    "hanViet": "GIAO HỖN",
+    "meanings": [
+      "trộn vào"
+    ]
+  },
+  {
+    "id": "n3:782",
+    "level": "N3",
+    "order": 782,
+    "headword": "解ける・溶ける",
+    "reading": "とける",
+    "hanViet": "GIẢI DUNG",
+    "meanings": [
+      "được giải quyết",
+      "nóng chảy"
+    ]
+  },
+  {
+    "id": "n3:783",
+    "level": "N3",
+    "order": 783,
+    "headword": "解く・溶く",
+    "reading": "とく",
+    "hanViet": "GIẢI DUNG",
+    "meanings": [
+      "giải quyết",
+      "nóng chảy"
+    ]
+  },
+  {
+    "id": "n3:784",
+    "level": "N3",
+    "order": 784,
+    "headword": "含む",
+    "reading": "ふくむ",
+    "hanViet": "HÀM",
+    "meanings": [
+      "chứa",
+      "bao gồm"
+    ]
+  },
+  {
+    "id": "n3:785",
+    "level": "N3",
+    "order": 785,
+    "headword": "含める",
+    "reading": "ふくめる",
+    "hanViet": "HÀM",
+    "meanings": [
+      "bao gồm"
+    ]
+  },
+  {
+    "id": "n3:786",
+    "level": "N3",
+    "order": 786,
+    "headword": "抜ける",
+    "reading": "ぬける",
+    "hanViet": "BẠT",
+    "meanings": [
+      "tháo",
+      "tuột"
+    ]
+  },
+  {
+    "id": "n3:787",
+    "level": "N3",
+    "order": 787,
+    "headword": "抜く",
+    "reading": "ぬく",
+    "hanViet": "BẠT",
+    "meanings": [
+      "lấy ra"
+    ]
+  },
+  {
+    "id": "n3:788",
+    "level": "N3",
+    "order": 788,
+    "headword": "現れる",
+    "reading": "あらわれる",
+    "hanViet": "HIỆN",
+    "meanings": [
+      "xuất hiện",
+      "được thẻ hiện"
+    ]
+  },
+  {
+    "id": "n3:789",
+    "level": "N3",
+    "order": 789,
+    "headword": "現す",
+    "reading": "あらわす",
+    "hanViet": "HIỆN",
+    "meanings": [
+      "xuất hiện",
+      "hiện ra"
+    ]
+  },
+  {
+    "id": "n3:790",
+    "level": "N3",
+    "order": 790,
+    "headword": "表れる",
+    "reading": "あらわれる",
+    "hanViet": "BIỂU",
+    "meanings": [
+      "biểu hiện (trên mặt)"
+    ]
+  },
+  {
+    "id": "n3:791",
+    "level": "N3",
+    "order": 791,
+    "headword": "表す",
+    "reading": "あらわす",
+    "hanViet": "BIỂU",
+    "meanings": [
+      "biểu thị",
+      "biểu lộ",
+      "đại diện"
+    ]
+  },
+  {
+    "id": "n3:792",
+    "level": "N3",
+    "order": 792,
+    "headword": "散る",
+    "reading": "ちる",
+    "hanViet": "TÁN",
+    "meanings": [
+      "bị tàn",
+      "rụng"
+    ]
+  },
+  {
+    "id": "n3:793",
+    "level": "N3",
+    "order": 793,
+    "headword": "散らす",
+    "reading": "ちらす",
+    "hanViet": "TÁN",
+    "meanings": [
+      "tàn"
+    ]
+  },
+  {
+    "id": "n3:794",
+    "level": "N3",
+    "order": 794,
+    "headword": "明ける",
+    "reading": "あける",
+    "hanViet": "MINH",
+    "meanings": [
+      "(đêm) đến",
+      "(năm mới) bắt đầu",
+      "(mùa mưa) kết thúc"
+    ]
+  },
+  {
+    "id": "n3:795",
+    "level": "N3",
+    "order": 795,
+    "headword": "差す",
+    "reading": "さす",
+    "hanViet": "SI",
+    "meanings": [
+      "(mặt trời) chiếu sáng",
+      "mở (ô)",
+      "nhỏ (thuốc mắt)"
+    ]
+  },
+  {
+    "id": "n3:796",
+    "level": "N3",
+    "order": 796,
+    "headword": "パートナ",
+    "reading": "パートナー",
+    "hanViet": null,
+    "meanings": [
+      "đối tác"
+    ]
+  },
+  {
+    "id": "n3:797",
+    "level": "N3",
+    "order": 797,
+    "headword": "リーダー",
+    "reading": "リーダー",
+    "hanViet": null,
+    "meanings": [
+      "lãnh đạo"
+    ]
+  },
+  {
+    "id": "n3:798",
+    "level": "N3",
+    "order": 798,
+    "headword": "ボランティア",
+    "reading": "ボランティア",
+    "hanViet": null,
+    "meanings": [
+      "tình nguyện"
+    ]
+  },
+  {
+    "id": "n3:799",
+    "level": "N3",
+    "order": 799,
+    "headword": "コミュニケーション",
+    "reading": "コミュニケーション",
+    "hanViet": null,
+    "meanings": [
+      "giao tiếp"
+    ]
+  },
+  {
+    "id": "n3:800",
+    "level": "N3",
+    "order": 800,
+    "headword": "ユーモア",
+    "reading": "ユーモア",
+    "hanViet": null,
+    "meanings": [
+      "hài hước",
+      "đùa"
+    ]
+  },
+  {
+    "id": "n3:801",
+    "level": "N3",
+    "order": 801,
+    "headword": "ショック",
+    "reading": "ショック",
+    "hanViet": null,
+    "meanings": [
+      "shock",
+      "choáng"
+    ]
+  },
+  {
+    "id": "n3:802",
+    "level": "N3",
+    "order": 802,
+    "headword": "ストレス",
+    "reading": "ストレス",
+    "hanViet": null,
+    "meanings": [
+      "căng thẳng",
+      "stress"
+    ]
+  },
+  {
+    "id": "n3:803",
+    "level": "N3",
+    "order": 803,
+    "headword": "バランス",
+    "reading": "バランス",
+    "hanViet": null,
+    "meanings": [
+      "cân bằng"
+    ]
+  },
+  {
+    "id": "n3:804",
+    "level": "N3",
+    "order": 804,
+    "headword": "レベル",
+    "reading": "レベル",
+    "hanViet": null,
+    "meanings": [
+      "trình độ",
+      "level"
+    ]
+  },
+  {
+    "id": "n3:805",
+    "level": "N3",
+    "order": 805,
+    "headword": "アップ",
+    "reading": "アップ",
+    "hanViet": null,
+    "meanings": [
+      "tăng lên"
+    ]
+  },
+  {
+    "id": "n3:806",
+    "level": "N3",
+    "order": 806,
+    "headword": "ダウン",
+    "reading": "ダウン",
+    "hanViet": null,
+    "meanings": [
+      "giảm xuống"
+    ]
+  },
+  {
+    "id": "n3:807",
+    "level": "N3",
+    "order": 807,
+    "headword": "プラス",
+    "reading": "プラス",
+    "hanViet": null,
+    "meanings": [
+      "phép cộng",
+      "tác động tích cực"
+    ]
+  },
+  {
+    "id": "n3:808",
+    "level": "N3",
+    "order": 808,
+    "headword": "マイナス",
+    "reading": "マイナス",
+    "hanViet": null,
+    "meanings": [
+      "phép trừ",
+      "tác động tiêu cực"
+    ]
+  },
+  {
+    "id": "n3:809",
+    "level": "N3",
+    "order": 809,
+    "headword": "イメージ",
+    "reading": "イメージ",
+    "hanViet": null,
+    "meanings": [
+      "hình ảnh"
+    ]
+  },
+  {
+    "id": "n3:810",
+    "level": "N3",
+    "order": 810,
+    "headword": "コンテスト",
+    "reading": "コンテスト",
+    "hanViet": null,
+    "meanings": [
+      "cuộc thi"
+    ]
+  },
+  {
+    "id": "n3:811",
+    "level": "N3",
+    "order": 811,
+    "headword": "マスコミ",
+    "reading": "マスコミ",
+    "hanViet": null,
+    "meanings": [
+      "thông tin truyền thông"
+    ]
+  },
+  {
+    "id": "n3:812",
+    "level": "N3",
+    "order": 812,
+    "headword": "プライバシー",
+    "reading": "プライバシー",
+    "hanViet": null,
+    "meanings": [
+      "cá nhân",
+      "riêng tư"
+    ]
+  },
+  {
+    "id": "n3:813",
+    "level": "N3",
+    "order": 813,
+    "headword": "オフィス",
+    "reading": "オフィス",
+    "hanViet": null,
+    "meanings": [
+      "văn phòng"
+    ]
+  },
+  {
+    "id": "n3:814",
+    "level": "N3",
+    "order": 814,
+    "headword": "ルール",
+    "reading": "ルール",
+    "hanViet": null,
+    "meanings": [
+      "luật lệ"
+    ]
+  },
+  {
+    "id": "n3:815",
+    "level": "N3",
+    "order": 815,
+    "headword": "マナー",
+    "reading": "マナー",
+    "hanViet": null,
+    "meanings": [
+      "kiểu",
+      "thói"
+    ]
+  },
+  {
+    "id": "n3:816",
+    "level": "N3",
+    "order": 816,
+    "headword": "ミス",
+    "reading": "ミス",
+    "hanViet": null,
+    "meanings": [
+      "lỗi"
+    ]
+  },
+  {
+    "id": "n3:817",
+    "level": "N3",
+    "order": 817,
+    "headword": "スケジュール",
+    "reading": "スケジュール",
+    "hanViet": null,
+    "meanings": [
+      "lịch",
+      "kế hoạch"
+    ]
+  },
+  {
+    "id": "n3:818",
+    "level": "N3",
+    "order": 818,
+    "headword": "タイトル",
+    "reading": "タイトル",
+    "hanViet": null,
+    "meanings": [
+      "tiêu đề"
+    ]
+  },
+  {
+    "id": "n3:819",
+    "level": "N3",
+    "order": 819,
+    "headword": "テーマ",
+    "reading": "テーマ",
+    "hanViet": null,
+    "meanings": [
+      "chủ đề"
+    ]
+  },
+  {
+    "id": "n3:820",
+    "level": "N3",
+    "order": 820,
+    "headword": "ストーリー",
+    "reading": "ストーリー",
+    "hanViet": null,
+    "meanings": [
+      "câu chuyện"
+    ]
+  },
+  {
+    "id": "n3:821",
+    "level": "N3",
+    "order": 821,
+    "headword": "ヒット",
+    "reading": "ヒット",
+    "hanViet": null,
+    "meanings": [
+      "nổi tiếng"
+    ]
+  },
+  {
+    "id": "n3:822",
+    "level": "N3",
+    "order": 822,
+    "headword": "ブランド",
+    "reading": "ブランド",
+    "hanViet": null,
+    "meanings": [
+      "nhãn hiệu"
+    ]
+  },
+  {
+    "id": "n3:823",
+    "level": "N3",
+    "order": 823,
+    "headword": "レンタル",
+    "reading": "レンタル",
+    "hanViet": null,
+    "meanings": [
+      "thuê"
+    ]
+  },
+  {
+    "id": "n3:824",
+    "level": "N3",
+    "order": 824,
+    "headword": "リサイクル",
+    "reading": "リサイクル",
+    "hanViet": null,
+    "meanings": [
+      "tái chế"
+    ]
+  },
+  {
+    "id": "n3:825",
+    "level": "N3",
+    "order": 825,
+    "headword": "ラベル",
+    "reading": "ラベル",
+    "hanViet": null,
+    "meanings": [
+      "nhãn"
+    ]
+  },
+  {
+    "id": "n3:826",
+    "level": "N3",
+    "order": 826,
+    "headword": "タイプ",
+    "reading": "タイプ",
+    "hanViet": null,
+    "meanings": [
+      "loại"
+    ]
+  },
+  {
+    "id": "n3:827",
+    "level": "N3",
+    "order": 827,
+    "headword": "スタイル",
+    "reading": "スタイル",
+    "hanViet": null,
+    "meanings": [
+      "kiểu dáng"
+    ]
+  },
+  {
+    "id": "n3:828",
+    "level": "N3",
+    "order": 828,
+    "headword": "セット",
+    "reading": "セット",
+    "hanViet": null,
+    "meanings": [
+      "cài đặt",
+      "set"
+    ]
+  },
+  {
+    "id": "n3:829",
+    "level": "N3",
+    "order": 829,
+    "headword": "ウイルス",
+    "reading": "ウイルス",
+    "hanViet": null,
+    "meanings": [
+      "virus"
+    ]
+  },
+  {
+    "id": "n3:830",
+    "level": "N3",
+    "order": 830,
+    "headword": "ロボット",
+    "reading": "ロボット",
+    "hanViet": null,
+    "meanings": [
+      "robot"
+    ]
+  },
+  {
+    "id": "n3:831",
+    "level": "N3",
+    "order": 831,
+    "headword": "エネルギー",
+    "reading": "エネルギー",
+    "hanViet": null,
+    "meanings": [
+      "năng lượng"
+    ]
+  },
+  {
+    "id": "n3:832",
+    "level": "N3",
+    "order": 832,
+    "headword": "デジタル",
+    "reading": "デジタル",
+    "hanViet": null,
+    "meanings": [
+      "kỹ thuật số"
+    ]
+  },
+  {
+    "id": "n3:833",
+    "level": "N3",
+    "order": 833,
+    "headword": "マイク",
+    "reading": "マイク",
+    "hanViet": null,
+    "meanings": [
+      "microphone",
+      "ghi âm"
+    ]
+  },
+  {
+    "id": "n3:834",
+    "level": "N3",
+    "order": 834,
+    "headword": "ブレーキ",
+    "reading": "ブレーキ",
+    "hanViet": null,
+    "meanings": [
+      "phanh"
+    ]
+  },
+  {
+    "id": "n3:835",
+    "level": "N3",
+    "order": 835,
+    "headword": "ペンキ",
+    "reading": "ペンキ",
+    "hanViet": null,
+    "meanings": [
+      "sơn"
+    ]
+  },
+  {
+    "id": "n3:836",
+    "level": "N3",
+    "order": 836,
+    "headword": "炊ける",
+    "reading": "たける",
+    "hanViet": "XUY",
+    "meanings": [
+      "được nấu"
+    ]
+  },
+  {
+    "id": "n3:837",
+    "level": "N3",
+    "order": 837,
+    "headword": "炊く",
+    "reading": "たく",
+    "hanViet": "XUY",
+    "meanings": [
+      "nấu"
+    ]
+  },
+  {
+    "id": "n3:838",
+    "level": "N3",
+    "order": 838,
+    "headword": "煮える",
+    "reading": "にえる",
+    "hanViet": "CHỬ",
+    "meanings": [
+      "được nấu",
+      "được ninh"
+    ]
+  },
+  {
+    "id": "n3:839",
+    "level": "N3",
+    "order": 839,
+    "headword": "煮る",
+    "reading": "にる",
+    "hanViet": "CHỬ",
+    "meanings": [
+      "nấu",
+      "ninh",
+      "luộc"
+    ]
+  },
+  {
+    "id": "n3:840",
+    "level": "N3",
+    "order": 840,
+    "headword": "炒める",
+    "reading": "いためる",
+    "hanViet": "SAO",
+    "meanings": [
+      "rán"
+    ]
+  },
+  {
+    "id": "n3:841",
+    "level": "N3",
+    "order": 841,
+    "headword": "焼ける",
+    "reading": "やける",
+    "hanViet": "THIÊU",
+    "meanings": [
+      "được nấu",
+      "được nướng"
+    ]
+  },
+  {
+    "id": "n3:842",
+    "level": "N3",
+    "order": 842,
+    "headword": "焼く",
+    "reading": "やく",
+    "hanViet": "THIÊU",
+    "meanings": [
+      "nướng",
+      "nấu"
+    ]
+  },
+  {
+    "id": "n3:843",
+    "level": "N3",
+    "order": 843,
+    "headword": "ゆでる",
+    "reading": "ゆでる",
+    "hanViet": null,
+    "meanings": [
+      "luộc"
+    ]
+  },
+  {
+    "id": "n3:844",
+    "level": "N3",
+    "order": 844,
+    "headword": "揚げる",
+    "reading": "あげる",
+    "hanViet": "DƯƠNG",
+    "meanings": [
+      "rán ngập"
+    ]
+  },
+  {
+    "id": "n3:845",
+    "level": "N3",
+    "order": 845,
+    "headword": "蒸す",
+    "reading": "むす",
+    "hanViet": "CHƯNG",
+    "meanings": [
+      "hấp"
+    ]
+  },
+  {
+    "id": "n3:846",
+    "level": "N3",
+    "order": 846,
+    "headword": "ぐっすり",
+    "reading": "ぐっすり",
+    "hanViet": null,
+    "meanings": [
+      "say"
+    ]
+  },
+  {
+    "id": "n3:847",
+    "level": "N3",
+    "order": 847,
+    "headword": "きちんと",
+    "reading": "きちんと",
+    "hanViet": null,
+    "meanings": [
+      "ngay ngắn"
+    ]
+  },
+  {
+    "id": "n3:848",
+    "level": "N3",
+    "order": 848,
+    "headword": "しっかり",
+    "reading": "しっかり",
+    "hanViet": null,
+    "meanings": [
+      "kiên quyết",
+      "chắc chắn",
+      "đáng tin cậy"
+    ]
+  },
+  {
+    "id": "n3:849",
+    "level": "N3",
+    "order": 849,
+    "headword": "はっきり",
+    "reading": "はっきり",
+    "hanViet": null,
+    "meanings": [
+      "rõ ràng"
+    ]
+  },
+  {
+    "id": "n3:850",
+    "level": "N3",
+    "order": 850,
+    "headword": "じっと",
+    "reading": "じっと",
+    "hanViet": null,
+    "meanings": [
+      "kiên nhẫn",
+      "chăm chú",
+      "chằm chằm"
+    ]
+  },
+  {
+    "id": "n3:851",
+    "level": "N3",
+    "order": 851,
+    "headword": "そっと",
+    "reading": "そっと",
+    "hanViet": null,
+    "meanings": [
+      "nhẹ nhàng",
+      "yên lặng"
+    ]
+  },
+  {
+    "id": "n3:852",
+    "level": "N3",
+    "order": 852,
+    "headword": "別々に",
+    "reading": "べつべつに",
+    "hanViet": "BIỆT",
+    "meanings": [
+      "riêng biệt"
+    ]
+  },
+  {
+    "id": "n3:853",
+    "level": "N3",
+    "order": 853,
+    "headword": "それぞれ",
+    "reading": "それぞれ",
+    "hanViet": null,
+    "meanings": [
+      "lần lượt",
+      "tương ứng"
+    ]
+  },
+  {
+    "id": "n3:854",
+    "level": "N3",
+    "order": 854,
+    "headword": "互いに",
+    "reading": "たがいに",
+    "hanViet": "HỖ",
+    "meanings": [
+      "lẫn nhau"
+    ]
+  },
+  {
+    "id": "n3:855",
+    "level": "N3",
+    "order": 855,
+    "headword": "直接",
+    "reading": "ちょくせつ",
+    "hanViet": "TRỰC TIẾP",
+    "meanings": [
+      "trực tiếp"
+    ]
+  },
+  {
+    "id": "n3:856",
+    "level": "N3",
+    "order": 856,
+    "headword": "本当に",
+    "reading": "ほんとうに",
+    "hanViet": "BẢN ĐƯƠNG",
+    "meanings": [
+      "thật lòng",
+      "kỳ thực"
+    ]
+  },
+  {
+    "id": "n3:857",
+    "level": "N3",
+    "order": 857,
+    "headword": "必ず",
+    "reading": "かならず",
+    "hanViet": "TẤT",
+    "meanings": [
+      "chắc chắn"
+    ]
+  },
+  {
+    "id": "n3:858",
+    "level": "N3",
+    "order": 858,
+    "headword": "絶対に",
+    "reading": "ぜったいに",
+    "hanViet": "TUYỆT ĐỐI",
+    "meanings": [
+      "chắc chắn rồi"
+    ]
+  },
+  {
+    "id": "n3:859",
+    "level": "N3",
+    "order": 859,
+    "headword": "特に",
+    "reading": "とくに",
+    "hanViet": "ĐẶC",
+    "meanings": [
+      "đặc biệt là"
+    ]
+  },
+  {
+    "id": "n3:860",
+    "level": "N3",
+    "order": 860,
+    "headword": "ただ",
+    "reading": "ただ",
+    "hanViet": null,
+    "meanings": [
+      "chỉ"
+    ]
+  },
+  {
+    "id": "n3:861",
+    "level": "N3",
+    "order": 861,
+    "headword": "少なくとも",
+    "reading": "すくなくとも",
+    "hanViet": "THIỂU",
+    "meanings": [
+      "ít nhất"
+    ]
+  },
+  {
+    "id": "n3:862",
+    "level": "N3",
+    "order": 862,
+    "headword": "決して",
+    "reading": "けっして",
+    "hanViet": "QUYẾT",
+    "meanings": [
+      "không bao giờ"
+    ]
+  },
+  {
+    "id": "n3:863",
+    "level": "N3",
+    "order": 863,
+    "headword": "少しも",
+    "reading": "すこしも",
+    "hanViet": "THIỂU",
+    "meanings": [
+      "một chút"
+    ]
+  },
+  {
+    "id": "n3:864",
+    "level": "N3",
+    "order": 864,
+    "headword": "ちっとも",
+    "reading": "ちっとも",
+    "hanViet": null,
+    "meanings": [
+      "(không) tí gì"
+    ]
+  },
+  {
+    "id": "n3:865",
+    "level": "N3",
+    "order": 865,
+    "headword": "全く",
+    "reading": "まったく",
+    "hanViet": "TOÀN",
+    "meanings": [
+      "hoàn toàn (không)"
+    ]
+  },
+  {
+    "id": "n3:866",
+    "level": "N3",
+    "order": 866,
+    "headword": "とても",
+    "reading": "とても",
+    "hanViet": null,
+    "meanings": [
+      "rất"
+    ]
+  },
+  {
+    "id": "n3:867",
+    "level": "N3",
+    "order": 867,
+    "headword": "どんなに",
+    "reading": "どんなに",
+    "hanViet": null,
+    "meanings": [
+      "thế nào",
+      "bao nhiêu"
+    ]
+  },
+  {
+    "id": "n3:868",
+    "level": "N3",
+    "order": 868,
+    "headword": "どうしても",
+    "reading": "どうしても",
+    "hanViet": null,
+    "meanings": [
+      "kiểu gì cũng"
+    ]
+  },
+  {
+    "id": "n3:869",
+    "level": "N3",
+    "order": 869,
+    "headword": "まるで",
+    "reading": "まるで",
+    "hanViet": null,
+    "meanings": [
+      "như là"
+    ]
+  },
+  {
+    "id": "n3:870",
+    "level": "N3",
+    "order": 870,
+    "headword": "一体",
+    "reading": "いったい",
+    "hanViet": "NHẤT THỂ",
+    "meanings": [
+      "cái quái gì"
+    ]
+  },
+  {
+    "id": "n3:871",
+    "level": "N3",
+    "order": 871,
+    "headword": "別に",
+    "reading": "べつに",
+    "hanViet": "BIỆT",
+    "meanings": [
+      "(không) có gì"
+    ]
+  },
+  {
+    "id": "n3:872",
+    "level": "N3",
+    "order": 872,
+    "headword": "たった",
+    "reading": "たった",
+    "hanViet": null,
+    "meanings": [
+      "chỉ"
+    ]
+  },
+  {
+    "id": "n3:873",
+    "level": "N3",
+    "order": 873,
+    "headword": "ほんの",
+    "reading": "ほんの",
+    "hanViet": null,
+    "meanings": [
+      "một chút"
+    ]
+  },
+  {
+    "id": "n3:874",
+    "level": "N3",
+    "order": 874,
+    "headword": "それで",
+    "reading": "それで",
+    "hanViet": null,
+    "meanings": [
+      "thế thì"
+    ]
+  },
+  {
+    "id": "n3:875",
+    "level": "N3",
+    "order": 875,
+    "headword": "そこで",
+    "reading": "そこで",
+    "hanViet": null,
+    "meanings": [
+      "tiếp theo"
+    ]
+  },
+  {
+    "id": "n3:876",
+    "level": "N3",
+    "order": 876,
+    "headword": "そのうえ",
+    "reading": "そのうえ",
+    "hanViet": null,
+    "meanings": [
+      "hơn nữa"
+    ]
+  },
+  {
+    "id": "n3:877",
+    "level": "N3",
+    "order": 877,
+    "headword": "また",
+    "reading": "また",
+    "hanViet": null,
+    "meanings": [
+      "nữa"
+    ]
+  },
+  {
+    "id": "n3:878",
+    "level": "N3",
+    "order": 878,
+    "headword": "または",
+    "reading": "または",
+    "hanViet": null,
+    "meanings": [
+      "hoặc"
+    ]
+  },
+  {
+    "id": "n3:879",
+    "level": "N3",
+    "order": 879,
+    "headword": "それとも",
+    "reading": "それとも",
+    "hanViet": null,
+    "meanings": [
+      "hoặc"
+    ]
+  },
+  {
+    "id": "n3:880",
+    "level": "N3",
+    "order": 880,
+    "headword": "つまり",
+    "reading": "つまり",
+    "hanViet": null,
+    "meanings": [
+      "nói cách khác"
+    ]
+  }
+]

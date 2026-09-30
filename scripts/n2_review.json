@@ -1,0 +1,1832 @@
+[
+  [
+    1,
+    "hanVietMismatch",
+    "NHÂN SANH",
+    "NHÂN SINH"
+  ],
+  [
+    6,
+    "meaningLowConfidence",
+    "vợ chồng",
+    "vợ chồng"
+  ],
+  [
+    33,
+    "meaningLowConfidence",
+    "địa vị, chức vị",
+    "địa vị, vị trí"
+  ],
+  [
+    34,
+    "hanVietMismatch",
+    "THỤ NGHIỆM",
+    "THÂU NGHIỆM"
+  ],
+  [
+    36,
+    "headwordMismatch",
+    "文度",
+    "支度"
+  ],
+  [
+    43,
+    "meaningLowConfidence",
+    "ũ Ầ À „s*\nchủ đê, đê tài",
+    "chủ đề"
+  ],
+  [
+    46,
+    "readingMismatch",
+    "げんそん",
+    "けんそん"
+  ],
+  [
+    47,
+    "hanVietMismatch",
+    "KÌ ĐÀI",
+    "KỲ ĐÃI"
+  ],
+  [
+    55,
+    "hanVietMismatch",
+    "BANH BỘ",
+    "DANH BẠ"
+  ],
+  [
+    55,
+    "readingMismatch",
+    "めいほぼ",
+    "めいぼ"
+  ],
+  [
+    58,
+    "headwordMismatch",
+    "か",
+    "栓"
+  ],
+  [
+    61,
+    "meaningLowConfidence",
+    "{ ~ BẮ `.\ntrông rồng, bâu trời",
+    "trống rỗng, bầu trời"
+  ],
+  [
+    63,
+    "hanVietMismatch",
+    "LÍ LỊCH",
+    "LÝ LỊCH"
+  ],
+  [
+    63,
+    "readingMismatch",
+    "りれさき",
+    "りれき"
+  ],
+  [
+    65,
+    "hanVietMismatch",
+    "TI HỘI",
+    "TY HỘI"
+  ],
+  [
+    65,
+    "meaningLowConfidence",
+    "chủ trì buồi tiệc, MC",
+    "chủ trì buổi tiệc, hội nghị"
+  ],
+  [
+    66,
+    "hanVietMismatch",
+    "HOAN NGHÊNH",
+    "HOAN NGHINH"
+  ],
+  [
+    69,
+    "readingMismatch",
+    "とは",
+    "とほ"
+  ],
+  [
+    71,
+    "meaningLowConfidence",
+    "vi phạm",
+    "vi phạm"
+  ],
+  [
+    78,
+    "hanVietMismatch",
+    "THÌ KÌ",
+    "THỜI KỲ"
+  ],
+  [
+    80,
+    "hanVietMismatch",
+    "LÂM THÌ",
+    "LÂM THỜI"
+  ],
+  [
+    81,
+    "readingMismatch",
+    "ひよまう",
+    "ひよう"
+  ],
+  [
+    82,
+    "meaningLowConfidence",
+    "=S. .. Ẩ\ngia niệm vct",
+    "giá cố định"
+  ],
+  [
+    83,
+    "readingMismatch",
+    "わりびぴき",
+    "わりびき"
+  ],
+  [
+    88,
+    "hanVietMismatch",
+    "THU NHẬP",
+    "THÂU NHẬP"
+  ],
+  [
+    93,
+    "readingMismatch",
+    "けいかひ",
+    "けいひ"
+  ],
+  [
+    95,
+    "readingMismatch",
+    "べんしょ?う?",
+    "べんしょう"
+  ],
+  [
+    97,
+    "readingMismatch",
+    "けいさき",
+    "けいき"
+  ],
+  [
+    98,
+    "readingMismatch",
+    "ほきん",
+    "ぼきん"
+  ],
+  [
+    104,
+    "meaningLowConfidence",
+    "nũng nịu",
+    "nũng nịu"
+  ],
+  [
+    107,
+    "meaningLowConfidence",
+    "nghỉ ngờ",
+    "nghi ngờ"
+  ],
+  [
+    109,
+    "readingMismatch",
+    "かなしおむ",
+    "かなしむ"
+  ],
+  [
+    117,
+    "readingMismatch",
+    "しゃがおむ",
+    "しゃがむ"
+  ],
+  [
+    124,
+    "hanVietMismatch",
+    "TÀO",
+    "?"
+  ],
+  [
+    124,
+    "headwordMismatch",
+    "満ぐ",
+    "漕ぐ"
+  ],
+  [
+    128,
+    "readingMismatch",
+    "はほうる",
+    "ほうる"
+  ],
+  [
+    129,
+    "readingMismatch",
+    "はる",
+    "ほる"
+  ],
+  [
+    130,
+    "meaningLowConfidence",
+    "Tắc, Tải, g1ieO",
+    "rắc, rải"
+  ],
+  [
+    131,
+    "hanVietMismatch",
+    "KÉ",
+    "TRẮC"
+  ],
+  [
+    131,
+    "headwordMismatch",
+    "計る",
+    "測る・計る・量る"
+  ],
+  [
+    134,
+    "meaningLowConfidence",
+    "chọc, đâm, chồng ( căm,\nII...)",
+    "chọc, đâm"
+  ],
+  [
+    137,
+    "hanVietMismatch",
+    "CẬN KÍ",
+    "CẬN KÝ"
+  ],
+  [
+    142,
+    "readingMismatch",
+    "おほぼれる",
+    "おぼれる"
+  ],
+  [
+    143,
+    "readingMismatch",
+    "いたおむ",
+    "いたむ"
+  ],
+  [
+    145,
+    "meaningLowConfidence",
+    "say",
+    "say"
+  ],
+  [
+    150,
+    "meaningLowConfidence",
+    ".Á .À ˆ ..\nkiêm tiên, câu giờ",
+    "kiếm tiền"
+  ],
+  [
+    152,
+    "hanVietMismatch",
+    "THỤ THỦ",
+    "THÂU THỦ"
+  ],
+  [
+    153,
+    "hanVietMismatch",
+    "PHÁT NHẬP",
+    "BẬT NHẬP"
+  ],
+  [
+    153,
+    "readingMismatch",
+    "はらいこおむ",
+    "はらいこむ"
+  ],
+  [
+    154,
+    "hanVietMismatch",
+    "PHÁT LỆ",
+    "BẬT LỆ"
+  ],
+  [
+    156,
+    "readingMismatch",
+    "ゃうかる",
+    "もうかる"
+  ],
+  [
+    157,
+    "readingMismatch",
+    "ゃうける",
+    "もうける"
+  ],
+  [
+    158,
+    "hanVietMismatch",
+    "LẠC XƯỚC",
+    "LẠC NHẬP"
+  ],
+  [
+    166,
+    "readingMismatch",
+    "ちちぢまる",
+    "ちぢまる"
+  ],
+  [
+    167,
+    "readingMismatch",
+    "ちちぢめる",
+    "ちぢめる"
+  ],
+  [
+    168,
+    "readingMismatch",
+    "しずおむ",
+    "しずむ"
+  ],
+  [
+    170,
+    "meaningLowConfidence",
+    "hạ xuông, lùi về, giảm",
+    "rơi"
+  ],
+  [
+    173,
+    "meaningLowConfidence",
+    "dăt.. lăc, lăn",
+    "lăn(vật gì đó, lăn quả bóng)"
+  ],
+  [
+    174,
+    "readingMismatch",
+    "かたおむく",
+    "かたむく"
+  ],
+  [
+    180,
+    "meaningLowConfidence",
+    "căt, chạm khăc, ghi lại",
+    "cắt nhỏ, chạm khắc"
+  ],
+  [
+    186,
+    "meaningLowConfidence",
+    ".. ... M\nCƠI Ta, gia! quy©t",
+    "mở, cởi ra"
+  ],
+  [
+    190,
+    "readingMismatch",
+    "いたおむ",
+    "いたむ"
+  ],
+  [
+    199,
+    "hanVietMismatch",
+    "CHIẾN",
+    "CHIẾN ĐẤU"
+  ],
+  [
+    207,
+    "readingMismatch",
+    "あつかう?う",
+    "あつかう"
+  ],
+  [
+    210,
+    "hanVietMismatch",
+    "LẬP - PHÁT",
+    "LẬP"
+  ],
+  [
+    211,
+    "hanVietMismatch",
+    "NGHÊNH",
+    "NGHINH"
+  ],
+  [
+    212,
+    "readingMismatch",
+    "ゃもてる",
+    "もてる"
+  ],
+  [
+    219,
+    "readingMismatch",
+    "よびかける",
+    "よぶかける"
+  ],
+  [
+    222,
+    "readingMismatch",
+    "ゃぁゃうしわけない",
+    "もうしわけない"
+  ],
+  [
+    228,
+    "readingMismatch",
+    "こころほそい",
+    "こころぼそい"
+  ],
+  [
+    233,
+    "readingMismatch",
+    "しかた(が)ない",
+    "しかた（が）ない"
+  ],
+  [
+    233,
+    "headwordMismatch",
+    "仕方(が)ない",
+    "仕方（が）ない"
+  ],
+  [
+    235,
+    "meaningLowConfidence",
+    "phiên hà, răc rÔi",
+    "phiền toái"
+  ],
+  [
+    235,
+    "headwordMismatch",
+    "面倒臭い",
+    "面倒くさい"
+  ],
+  [
+    236,
+    "meaningLowConfidence",
+    "lăng nhăng, nói hoài, cảm\nrằm",
+    "lằng nhằng, nói hoài, càm ràm hoài (thái độ bực mình)"
+  ],
+  [
+    238,
+    "meaningLowConfidence",
+    "khói mù mịt",
+    "nhiều khói"
+  ],
+  [
+    241,
+    "meaningLowConfidence",
+    "ôn ảo, hôn loạn, inh ỏi",
+    "ồn ào, sôi nổi (thường thể hiện khung cảnh ồn ào)"
+  ],
+  [
+    244,
+    "readingMismatch",
+    "おる$るいがけない",
+    "おもいがけない"
+  ],
+  [
+    249,
+    "readingMismatch",
+    "でたらめな",
+    ""
+  ],
+  [
+    258,
+    "meaningLowConfidence",
+    "lỏng lẻo, thoải, nhẹ nhàng",
+    "lỏng, chậm"
+  ],
+  [
+    260,
+    "meaningLowConfidence",
+    "săc bén, sắc sáo, nhạy bén",
+    "sắc, sắc sảo"
+  ],
+  [
+    261,
+    "hanVietMismatch",
+    "HOANG - THÔ",
+    "HOANG"
+  ],
+  [
+    270,
+    "hanVietMismatch",
+    "AN DỊCH",
+    "AN DỊ"
+  ],
+  [
+    270,
+    "meaningLowConfidence",
+    "% ` .. M Ả\ndê dàng, đơn giản, bật cân",
+    "dễ dàng, đơn giản (suy nghĩ)"
+  ],
+  [
+    277,
+    "hanVietMismatch",
+    "PHẦN VI KHÍ",
+    "PHÂN VY KHÍ"
+  ],
+  [
+    280,
+    "hanVietMismatch",
+    "QUAN TÂM",
+    "CẢM TÂM"
+  ],
+  [
+    280,
+    "headwordMismatch",
+    "関心",
+    "感心"
+  ],
+  [
+    283,
+    "hanVietMismatch",
+    "BÓN KHÍ",
+    "BẢN KHÍ"
+  ],
+  [
+    283,
+    "readingMismatch",
+    "ほんさき",
+    "ほんき"
+  ],
+  [
+    284,
+    "hanVietMismatch",
+    "Ý THỨC/CHÍ",
+    "Ý THỨC"
+  ],
+  [
+    299,
+    "hanVietMismatch",
+    "KIÊN TÁO",
+    "CÀN TÁO"
+  ],
+  [
+    304,
+    "readingMismatch",
+    "かいふぶふく",
+    "かいふく"
+  ],
+  [
+    309,
+    "headwordMismatch",
+    "解答(回答)",
+    "解答"
+  ],
+  [
+    314,
+    "hanVietMismatch",
+    "SAI BIỆT",
+    "SI BIỆT"
+  ],
+  [
+    323,
+    "meaningLowConfidence",
+    "phố biên, thông thường",
+    "tổng quan, cái chung"
+  ],
+  [
+    331,
+    "readingMismatch",
+    "ていしめゅつ",
+    "ていしゅつ"
+  ],
+  [
+    332,
+    "hanVietMismatch",
+    "KÌ HẠN",
+    "KỲ HẠN"
+  ],
+  [
+    333,
+    "hanVietMismatch",
+    "DUYÊN KÌ",
+    "DUYÊN KỲ"
+  ],
+  [
+    333,
+    "readingMismatch",
+    "えんさき",
+    "えんき"
+  ],
+  [
+    338,
+    "headwordMismatch",
+    "育景",
+    "背景"
+  ],
+  [
+    340,
+    "readingMismatch",
+    "こうは",
+    "こうほ"
+  ],
+  [
+    342,
+    "meaningLowConfidence",
+    "Ầ ũ M\nbâu cử, bâu chọn",
+    "bầu cử"
+  ],
+  [
+    349,
+    "hanVietMismatch",
+    "LÍ TƯỞNG",
+    "LÝ TƯỞNG"
+  ],
+  [
+    359,
+    "meaningLowConfidence",
+    "thống nhất",
+    "thống nhất"
+  ],
+  [
+    360,
+    "hanVietMismatch",
+    "KHUÉCH ĐẠI",
+    "KHOÁC ĐẠI"
+  ],
+  [
+    363,
+    "readingMismatch",
+    "はほうこう",
+    "ほうこう"
+  ],
+  [
+    372,
+    "readingMismatch",
+    "とぴあがる",
+    "とびあがる"
+  ],
+  [
+    376,
+    "readingMismatch",
+    "5ゃりあがる",
+    "もりあがる"
+  ],
+  [
+    377,
+    "hanVietMismatch",
+    "PHÍ THƯỢNG",
+    "PHÍ"
+  ],
+  [
+    377,
+    "headwordMismatch",
+    "沸き上がる",
+    "沸(湧)き上がる"
+  ],
+  [
+    379,
+    "hanVietMismatch",
+    "CHÂN",
+    "CHẤN THƯỢNG"
+  ],
+  [
+    380,
+    "hanVietMismatch",
+    "SÚC",
+    "SÚC THƯỢNG"
+  ],
+  [
+    380,
+    "readingMismatch",
+    "ちちぢみあがる",
+    "ちぢみあがる"
+  ],
+  [
+    383,
+    "readingMismatch",
+    "ゃぁゃちあげる",
+    "もちあげる"
+  ],
+  [
+    385,
+    "hanVietMismatch",
+    "TÍCH",
+    "TÍCH THƯỢNG"
+  ],
+  [
+    397,
+    "readingMismatch",
+    "5ゃちだす",
+    "もちだす"
+  ],
+  [
+    402,
+    "meaningLowConfidence",
+    "x `.\ndân ra ngoài",
+    "dẫn ra ngoài"
+  ],
+  [
+    410,
+    "readingMismatch",
+    "かけこおむ",
+    "かけこむ"
+  ],
+  [
+    412,
+    "hanVietMismatch",
+    "SOA NHẬP",
+    "SI NHẬP"
+  ],
+  [
+    413,
+    "readingMismatch",
+    "しみこおむ",
+    "しみこむ"
+  ],
+  [
+    414,
+    "readingMismatch",
+    "ひっこおむ",
+    "ひっこむ"
+  ],
+  [
+    416,
+    "meaningLowConfidence",
+    "nuôt vào, hiệu rõ",
+    "nuốt, hiểu; thành thục"
+  ],
+  [
+    416,
+    "readingMismatch",
+    "のみこおむ",
+    "のみこむ"
+  ],
+  [
+    417,
+    "readingMismatch",
+    "はこびぴこおむ",
+    "はこびこむ"
+  ],
+  [
+    419,
+    "hanVietMismatch",
+    "CHÚ",
+    "CHÚ NHẬP"
+  ],
+  [
+    419,
+    "readingMismatch",
+    "そそぎこおむ",
+    "そそぎこむ"
+  ],
+  [
+    420,
+    "hanVietMismatch",
+    "ĐÁ NHẬP",
+    "DẪN NHẬP"
+  ],
+  [
+    421,
+    "hanVietMismatch",
+    "CHÚ NHẬP",
+    "THƯ NHẬP"
+  ],
+  [
+    421,
+    "readingMismatch",
+    "かきこおむ",
+    "かきこむ"
+  ],
+  [
+    422,
+    "hanVietMismatch",
+    "DÂN NHẬP",
+    "QUYỂN NHẬP"
+  ],
+  [
+    423,
+    "hanVietMismatch",
+    "THƯ NHẬP",
+    "TRUY NHẬP"
+  ],
+  [
+    423,
+    "readingMismatch",
+    "おいこおむ",
+    "おいこむ"
+  ],
+  [
+    424,
+    "hanVietMismatch",
+    "QUYỀN NHẬP",
+    "HÔ NHẬP"
+  ],
+  [
+    425,
+    "hanVietMismatch",
+    "TRUY NHẬP",
+    "TOẠ NHẬP"
+  ],
+  [
+    426,
+    "hanVietMismatch",
+    "HÔ NHẬP",
+    "TẨM NHẬP"
+  ],
+  [
+    428,
+    "hanVietMismatch",
+    "TÂM NHẬP",
+    "MẶC NHẬP"
+  ],
+  [
+    429,
+    "hanVietMismatch",
+    "THOẠI NHẬP",
+    "BẠC NHẬP"
+  ],
+  [
+    430,
+    "hanVietMismatch",
+    "MẶC NHẬP",
+    "TRÚ NHẬP"
+  ],
+  [
+    433,
+    "readingMismatch",
+    "たのみこおむ",
+    "たのみこむ"
+  ],
+  [
+    434,
+    "readingMismatch",
+    "おしえこおむ",
+    "おしえこむ"
+  ],
+  [
+    443,
+    "readingMismatch",
+    "5ゃうしあわせる",
+    "もうしあわせる"
+  ],
+  [
+    450,
+    "hanVietMismatch",
+    "THỪA HỘI",
+    "THỪA HỢP"
+  ],
+  [
+    451,
+    "readingMismatch",
+    "5もゃちあわせる",
+    "もちあわせる"
+  ],
+  [
+    459,
+    "readingMismatch",
+    "かんがえなおおす",
+    "かんがえなおす"
+  ],
+  [
+    469,
+    "meaningLowConfidence",
+    "trọng âm, điểm nhân",
+    "giọng, nhấn"
+  ],
+  [
+    481,
+    "headwordMismatch",
+    "ウッエスト",
+    "ウエスト"
+  ],
+  [
+    487,
+    "meaningLowConfidence",
+    "ˆ .Ả ,\ncuộc đua, ren (viên áo -\nquân)",
+    "cuộc đua"
+  ],
+  [
+    493,
+    "headwordMismatch",
+    "レギュラフー",
+    "レギュラー"
+  ],
+  [
+    507,
+    "headwordMismatch",
+    "ッイークテー",
+    "ウイークデー"
+  ],
+  [
+    511,
+    "readingMismatch",
+    "ゎぁっとる",
+    "もっとも"
+  ],
+  [
+    513,
+    "meaningLowConfidence",
+    "Tương đối, khá=7)›72",
+    "đáng kể　(＝すいぶん＝かなり)"
+  ],
+  [
+    514,
+    "readingMismatch",
+    "わりあい",
+    "わりに・わりと・わりあい(に・と)"
+  ],
+  [
+    514,
+    "headwordMismatch",
+    "割合",
+    "割に・割と・割合(に・と)"
+  ],
+  [
+    515,
+    "meaningLowConfidence",
+    "một chút, ítnhiều => L",
+    "một chút (= ちょっと、少し)"
+  ],
+  [
+    517,
+    "meaningLowConfidence",
+    "mọi thứ, toàn bộ ( = # )",
+    "mọi thứ (= 全部 < 全て < 何もかも)"
+  ],
+  [
+    518,
+    "readingMismatch",
+    "なにゃもかる",
+    "なにもかも"
+  ],
+  [
+    521,
+    "meaningLowConfidence",
+    "dân dân, từng chút một\n( =7 ?A)",
+    "dần dần （＝だんだん＝徐々に＝少しずつ ＝追々）"
+  ],
+  [
+    534,
+    "readingMismatch",
+    "まるもなく",
+    "まもなく"
+  ],
+  [
+    535,
+    "meaningLowConfidence",
+    "sẽ sớm thôi, 1l lúc nữa",
+    "chẳng mấy chốc"
+  ],
+  [
+    544,
+    "hanVietMismatch",
+    "NHÁT ĐƯƠNG",
+    "NHẤT THỜI"
+  ],
+  [
+    550,
+    "meaningLowConfidence",
+    "liên tục, triển miên",
+    "liên tục"
+  ],
+  [
+    551,
+    "meaningLowConfidence",
+    "rất thường xuyên , không\nngừng",
+    "rất thường xuyên (しばしば > たびたび > しょっちゅう＝常に)"
+  ],
+  [
+    557,
+    "meaningLowConfidence",
+    "CƯỜI tOe toét",
+    "cười tủm"
+  ],
+  [
+    557,
+    "readingMismatch",
+    "にやにや",
+    "にやにや・にやりと"
+  ],
+  [
+    560,
+    "meaningLowConfidence",
+    "bừng bừng . nôi giận",
+    "rực rỡ(ánh sáng), bực mình"
+  ],
+  [
+    561,
+    "readingMismatch",
+    "びしょびしょ",
+    "びしょびしょ・びっしょり"
+  ],
+  [
+    565,
+    "meaningLowConfidence",
+    "loanh quanh, lang thang.\nláng váng",
+    "quanh quẩn, đung đưa (đồ vật)"
+  ],
+  [
+    569,
+    "readingMismatch",
+    "しかる",
+    "しかも"
+  ],
+  [
+    580,
+    "meaningLowConfidence",
+    "Tuy ... thê nhưng ..., ngoại\ntrừ Ì điêu, miện phí",
+    "đưa ra ý kiến, ví dụ ngược lại(quán đó ngon nhưng mà xa)"
+  ],
+  [
+    581,
+    "headwordMismatch",
+    "食料",
+    "食料・食糧"
+  ],
+  [
+    584,
+    "meaningLowConfidence",
+    "nuôi trồng, trông trọt",
+    "nuôi trồng"
+  ],
+  [
+    585,
+    "hanVietMismatch",
+    "THU HOẠCH",
+    "THÂU HOẠCH"
+  ],
+  [
+    588,
+    "hanVietMismatch",
+    "THƯƠNG KHÓ",
+    "THẢNG KHỐ"
+  ],
+  [
+    590,
+    "hanVietMismatch",
+    "THU TẬP",
+    "THÂU TẬP"
+  ],
+  [
+    601,
+    "hanVietMismatch",
+    "THỨ KÍCH",
+    "THÍCH KÍCH"
+  ],
+  [
+    607,
+    "hanVietMismatch",
+    "GIAO ĐẠI - GIAO THÊ",
+    "GIAO ĐẠI"
+  ],
+  [
+    608,
+    "hanVietMismatch",
+    "ĐẠI LÍ",
+    "ĐẠI LÝ"
+  ],
+  [
+    609,
+    "readingMismatch",
+    "しんばん",
+    "しんぱん"
+  ],
+  [
+    615,
+    "hanVietMismatch",
+    "CHỈ THỊ",
+    "CHỈ KỲ"
+  ],
+  [
+    620,
+    "meaningLowConfidence",
+    "nghỉ vân, thăc măc",
+    "nghi vấn"
+  ],
+  [
+    620,
+    "readingMismatch",
+    "きゃるん",
+    "ぎもん"
+  ],
+  [
+    630,
+    "hanVietMismatch",
+    "TÔNG TRỌNG",
+    "TÔN TRỌNG"
+  ],
+  [
+    634,
+    "hanVietMismatch",
+    "HÁP THU",
+    "HẤP THÂU"
+  ],
+  [
+    636,
+    "hanVietMismatch",
+    "THIẾT LẬP",
+    "THIẾT ĐỊNH"
+  ],
+  [
+    639,
+    "readingMismatch",
+    "かいはほう",
+    "かいほう"
+  ],
+  [
+    644,
+    "meaningLowConfidence",
+    "ôn định",
+    "ổn định"
+  ],
+  [
+    658,
+    "meaningLowConfidence",
+    "tăng thuế",
+    "tăng thuế"
+  ],
+  [
+    659,
+    "meaningLowConfidence",
+    "4 M ˆ ..\ntăng sô lượng nhân viên",
+    "ｔăng nhân sự"
+  ],
+  [
+    660,
+    "hanVietMismatch",
+    "NGUYÊN ĐIỂM",
+    "GIẢM ĐIỂM"
+  ],
+  [
+    661,
+    "hanVietMismatch",
+    "GIẢM THÓI",
+    "GIẢM THOÁI"
+  ],
+  [
+    662,
+    "hanVietMismatch",
+    "GIẢM LIỆU",
+    "GIẢM LƯỢNG"
+  ],
+  [
+    664,
+    "hanVietMismatch",
+    "KHAI ĐIM",
+    "KHAI ĐIẾM"
+  ],
+  [
+    667,
+    "readingMismatch",
+    "かいなはほう",
+    "かいほう"
+  ],
+  [
+    673,
+    "readingMismatch",
+    "がかいせい",
+    "かいせい"
+  ],
+  [
+    677,
+    "readingMismatch",
+    "いっほう",
+    "いっぽう"
+  ],
+  [
+    678,
+    "readingMismatch",
+    "いつてい",
+    "いってい"
+  ],
+  [
+    682,
+    "meaningLowConfidence",
+    ".Á › .Ẩ ñ\nchiêu, phản chiêu, soi",
+    "chiếu, phản chiếu"
+  ],
+  [
+    689,
+    "meaningLowConfidence",
+    "bắn ra ( dầu, mỡ, bùn.... ).\nnhảy",
+    "nhảy, (dầu)bắn ra, bị cắt(cổ), bị xe đâm　跳ねられる"
+  ],
+  [
+    690,
+    "headwordMismatch",
+    "育負う",
+    "背負う"
+  ],
+  [
+    696,
+    "hanVietMismatch",
+    "BỘ - THÁI - CHÁP",
+    "BỘ"
+  ],
+  [
+    696,
+    "headwordMismatch",
+    "捕る/採る執る",
+    "捕る"
+  ],
+  [
+    701,
+    "readingMismatch",
+    "しほる",
+    "しぼる"
+  ],
+  [
+    703,
+    "meaningLowConfidence",
+    "xoay, chuyên, vặn núm,\ntruyền tay",
+    "xoay, qua, gửi, chuyển nhượng, đầu tư"
+  ],
+  [
+    711,
+    "hanVietMismatch",
+    "THÔNG QUẢI",
+    "THÔNG"
+  ],
+  [
+    711,
+    "headwordMismatch",
+    "通り掛かる",
+    "通りかかる"
+  ],
+  [
+    712,
+    "readingMismatch",
+    "とどびぴまわる",
+    "とびまわる"
+  ],
+  [
+    715,
+    "meaningLowConfidence",
+    "phòng, chống",
+    "phòng, chống"
+  ],
+  [
+    715,
+    "readingMismatch",
+    "ぶせ$",
+    "ふせぐ"
+  ],
+  [
+    719,
+    "meaningLowConfidence",
+    "mặăặc lôi, lâm lỡ",
+    "mắc lỗi"
+  ],
+  [
+    723,
+    "readingMismatch",
+    "2しなう",
+    "うしなう"
+  ],
+  [
+    727,
+    "hanVietMismatch",
+    "LÍ THIẾT",
+    "LÝ THIẾT"
+  ],
+  [
+    732,
+    "meaningLowConfidence",
+    "mặăc, vướng, hât, băn...",
+    "mắc, lừa đảo, ném vào"
+  ],
+  [
+    740,
+    "meaningLowConfidence",
+    "làm lộn xôn, tung tóc, phá\nhoại",
+    "tàn phá, đột phá"
+  ],
+  [
+    744,
+    "readingMismatch",
+    "ゃもぉとめる",
+    "もとめる"
+  ],
+  [
+    745,
+    "readingMismatch",
+    "ゃれる",
+    "もれる"
+  ],
+  [
+    746,
+    "readingMismatch",
+    "ゃもらす",
+    "もらす"
+  ],
+  [
+    756,
+    "hanVietMismatch",
+    "THỤ TRÌ",
+    "THÂU TRÌ"
+  ],
+  [
+    756,
+    "readingMismatch",
+    "うける$るつ",
+    "うけもつ"
+  ],
+  [
+    757,
+    "hanVietMismatch",
+    "TÙNG",
+    "TÒNG"
+  ],
+  [
+    758,
+    "meaningLowConfidence",
+    "thì thầm, lầm bầm",
+    "thì thầm, thì thào"
+  ],
+  [
+    762,
+    "hanVietMismatch",
+    "PHIẾN KÍ",
+    "PHIẾN KÝ"
+  ],
+  [
+    770,
+    "hanVietMismatch",
+    "LẠC TRỨ",
+    "LẠC TRƯỚC"
+  ],
+  [
+    781,
+    "meaningLowConfidence",
+    "nhuộm, nhiêm",
+    "được nhuộm, bị ảnh hưởng bởi"
+  ],
+  [
+    783,
+    "meaningLowConfidence",
+    "gập đôi, trùng nhau, nhăc\nlại",
+    "gấp đôi"
+  ],
+  [
+    783,
+    "readingMismatch",
+    "ダブル",
+    "ダブる"
+  ],
+  [
+    786,
+    "readingMismatch",
+    "あきさらめる",
+    "あきらめる"
+  ],
+  [
+    792,
+    "headwordMismatch",
+    "コーチー",
+    "コーナー"
+  ],
+  [
+    800,
+    "meaningLowConfidence",
+    "bắt lấy, chộp",
+    "bắt lấy"
+  ],
+  [
+    818,
+    "meaningLowConfidence",
+    "` Ẩ ` ñ M\nnhà chê tạo, nhà sản xuât",
+    "nhà chế tạo, nhà sản xuất, nghệ sĩ"
+  ],
+  [
+    823,
+    "meaningLowConfidence",
+    "rặc TÔI, Sự CÔ",
+    "rắc rối"
+  ],
+  [
+    841,
+    "headwordMismatch",
+    "単純な",
+    "単純"
+  ],
+  [
+    846,
+    "meaningLowConfidence",
+    "trực tính, thăng thắn",
+    "trực tính, thẳng thắn"
+  ],
+  [
+    854,
+    "readingMismatch",
+    "おるな",
+    "おもな"
+  ],
+  [
+    860,
+    "readingMismatch",
+    "とくしめゅな",
+    "とくしゅな"
+  ],
+  [
+    861,
+    "hanVietMismatch",
+    "KÌ DIỆU",
+    "KỲ DIỆU"
+  ],
+  [
+    867,
+    "hanVietMismatch",
+    "HỢP LÍ ĐÍCH",
+    "HỢP LÝ ĐÍCH"
+  ],
+  [
+    870,
+    "headwordMismatch",
+    "手どろな",
+    "手ごろな"
+  ],
+  [
+    871,
+    "meaningLowConfidence",
+    "đắt",
+    "đắt"
+  ],
+  [
+    874,
+    "readingMismatch",
+    "こうきめゅうな",
+    "こうきゅうな"
+  ],
+  [
+    875,
+    "meaningLowConfidence",
+    "Ẩ h `\nCao cap, xịn SO",
+    "thượng đẳng, đủ tốt"
+  ],
+  [
+    884,
+    "readingMismatch",
+    "あきさらかな",
+    "あきらかな"
+  ],
+  [
+    892,
+    "readingMismatch",
+    "ゃの",
+    "もの"
+  ],
+  [
+    906,
+    "meaningLowConfidence",
+    "giêu cợt, mia mai",
+    "giễu cợt, mỉa mai"
+  ],
+  [
+    930,
+    "hanVietMismatch",
+    "TU CHÁNH",
+    "TU CHÍNH"
+  ],
+  [
+    936,
+    "meaningLowConfidence",
+    "Ầ . Ầ\ntruyền nhiêm, lan truyền",
+    "truyền nhiễm"
+  ],
+  [
+    940,
+    "hanVietMismatch",
+    "XỨ LÍ",
+    "XỨ LÝ"
+  ],
+  [
+    940,
+    "meaningLowConfidence",
+    "sơ chế, xử lý",
+    "xử lý"
+  ],
+  [
+    942,
+    "meaningLowConfidence",
+    "lồi lõm, ổ gà",
+    "lồi lõm, ổ gà"
+  ],
+  [
+    955,
+    "meaningLowConfidence",
+    "Á P\ncau trục",
+    "cấu thành"
+  ],
+  [
+    959,
+    "readingMismatch",
+    "てらってい",
+    "てってい"
+  ],
+  [
+    962,
+    "hanVietMismatch",
+    "QUẢN LÍ",
+    "QUẢN LÝ"
+  ],
+  [
+    968,
+    "meaningLowConfidence",
+    "cung câp",
+    "cung cấp (CUNG)"
+  ],
+  [
+    973,
+    "hanVietMismatch",
+    "KHUYẾT HẦM",
+    "KHIẾM HÃM"
+  ],
+  [
+    975,
+    "hanVietMismatch",
+    "PHỤ CHÚC",
+    "PHÓ THUỘC"
+  ],
+  [
+    977,
+    "readingMismatch",
+    "ゃと",
+    "もと"
+  ],
+  [
+    979,
+    "hanVietMismatch",
+    "THIẾT",
+    "THUYẾT"
+  ],
+  [
+    980,
+    "hanVietMismatch",
+    "SAI",
+    "SI"
+  ],
+  [
+    980,
+    "meaningLowConfidence",
+    "sai khác, khoảng cách, hiệu\nẮ\nsô",
+    "sai khác, khoảng cách"
+  ],
+  [
+    984,
+    "meaningLowConfidence",
+    "phần dư",
+    "dư, thừa (dùng còn dư), phụ cấp"
+  ],
+  [
+    986,
+    "readingMismatch",
+    "はほはしょう",
+    "ほしょう"
+  ],
+  [
+    989,
+    "hanVietMismatch",
+    "MÂU THUẪN",
+    "MÂU MY"
+  ],
+  [
+    994,
+    "hanVietMismatch",
+    "THỊ",
+    "KỲ"
+  ],
+  [
+    995,
+    "headwordMismatch",
+    "注ぐ",
+    "そそぐ(注ぐ)"
+  ],
+  [
+    1020,
+    "meaningLowConfidence",
+    "thưởng thức, trải nghiệm,\nnhâm nhấp. tận hướng",
+    "thưởng thức, trải nghiệm (món ăn ngon, phim hay, cảnh đẹp)"
+  ],
+  [
+    1021,
+    "hanVietMismatch",
+    "MÙI",
+    "CÁI"
+  ],
+  [
+    1023,
+    "hanVietMismatch",
+    "GIAN",
+    "VẤN"
+  ],
+  [
+    1028,
+    "meaningLowConfidence",
+    "sử dụng, tiệp nhận, bô\nnhiệm",
+    "sử dụng, nhận nuôi, thuê"
+  ],
+  [
+    1031,
+    "headwordMismatch",
+    "収まる・納まる",
+    "収まる・納まる・治まる"
+  ],
+  [
+    1032,
+    "hanVietMismatch",
+    "THU",
+    "THÂU"
+  ],
+  [
+    1032,
+    "headwordMismatch",
+    "収める",
+    "収める・納める・治める"
+  ],
+  [
+    1033,
+    "hanVietMismatch",
+    "DUYÊN - THIÊM",
+    "DIÊN"
+  ],
+  [
+    1034,
+    "meaningLowConfidence",
+    "găn với",
+    "gắn với"
+  ],
+  [
+    1036,
+    "readingMismatch",
+    "できする",
+    "てきする"
+  ],
+  [
+    1038,
+    "readingMismatch",
+    "とるなう",
+    "ともなう"
+  ],
+  [
+    1043,
+    "meaningLowConfidence",
+    "nhắm đền, thả thính, rình\nrập, đê ý đên",
+    "nhắm đến　(con mồi, đối tượng, mục tiêu, tạo cảm giác gian xảo)"
+  ],
+  [
+    1044,
+    "hanVietMismatch",
+    "THƯ",
+    "PHẠM"
+  ],
+  [
+    1046,
+    "headwordMismatch",
+    "宮す",
+    "冒す"
+  ],
+  [
+    1048,
+    "readingMismatch",
+    "おぴやかす",
+    "おどかす"
+  ],
+  [
+    1053,
+    "meaningLowConfidence",
+    "nhận. nghe (Khiêm nhường\nngữ của l] < )",
+    "nhận, nghe (khiêm nhường ngữ của 聞く、受ける)"
+  ],
+  [
+    1054,
+    "hanVietMismatch",
+    "ĐÍNH ĐÁI",
+    "ĐỈNH ĐỚI"
+  ],
+  [
+    1056,
+    "meaningLowConfidence",
+    "nhào trộn, gọt giữa, trau\nchuôt",
+    "nhào trộn (bột, đất sét), trau chuốt (kế hoạch)"
+  ],
+  [
+    1068,
+    "readingMismatch",
+    "およほぼほす",
+    "およぼす"
+  ],
+  [
+    1074,
+    "readingMismatch",
+    "とこと恋る",
+    "ことなる"
+  ],
+  [
+    1075,
+    "meaningLowConfidence",
+    "% . Ầ x\nhôn hoạn, bị nhâm lân",
+    "hỗn hoạn, bị nhầm lẫn"
+  ],
+  [
+    1081,
+    "hanVietMismatch",
+    "CHÚC",
+    "THUỘC"
+  ],
+  [
+    1089,
+    "meaningLowConfidence",
+    "chần chừ, lưỡng lự",
+    "chần chừ"
+  ],
+  [
+    1094,
+    "readingMismatch",
+    "おる$るいさきり",
+    "おもいきり"
+  ],
+  [
+    1100,
+    "readingMismatch",
+    "なんとるも",
+    "なんとも"
+  ],
+  [
+    1111,
+    "readingMismatch",
+    "せいずぜい",
+    "せいぜい"
+  ],
+  [
+    1127,
+    "hanVietMismatch",
+    "SINH",
+    "SINH SINH"
+  ],
+  [
+    1127,
+    "readingMismatch",
+    "いきさいさき",
+    "いきいき"
+  ],
+  [
+    1128,
+    "readingMismatch",
+    "ほんやり",
+    "ぼんやり"
+  ],
+  [
+    1131,
+    "meaningLowConfidence",
+    "] lúc, l lần",
+    "cùng lúc làm nhiều thứ"
+  ],
+  [
+    1133,
+    "hanVietMismatch",
+    "CUNG",
+    "CỘNG"
+  ],
+  [
+    1135,
+    "hanVietMismatch",
+    "NHÁT NHÂN",
+    "NHẤT NHÂN NHẤT NHÂN"
+  ],
+  [
+    1136,
+    "meaningLowConfidence",
+    "chi l¡, xét nét, hở 1 chút\nlàn”",
+    "chi li quá (thường mang nghĩa không tốt, không cần thiết quá như thế)"
+  ],
+  [
+    1140,
+    "meaningLowConfidence",
+    "Không...nhiêu;\nkhông... lăm, so với",
+    "Không…nhiều; không…lắm"
+  ],
+  [
+    1145,
+    "readingMismatch",
+    "かならずしゃ$",
+    "かならずしも"
+  ],
+  [
+    1145,
+    "headwordMismatch",
+    "必ずしぁゃも",
+    "必ずしも"
+  ],
+  [
+    1146,
+    "hanVietMismatch",
+    "ĐƠN",
+    "ĐAN"
+  ],
+  [
+    1150,
+    "hanVietMismatch",
+    "PHƯƠNG NHÁT",
+    "VẠN NHẤT"
+  ],
+  [
+    1150,
+    "readingMismatch",
+    "まんいち(が)",
+    "まんいち・まんがいち"
+  ],
+  [
+    1150,
+    "headwordMismatch",
+    "万ー(が)",
+    "万一・万が一"
+  ],
+  [
+    1156,
+    "hanVietMismatch",
+    "BÓN LAI",
+    "BẢN LAI"
+  ],
+  [
+    1158,
+    "meaningLowConfidence",
+    "Á R °\ntät ca, mọi",
+    "tất cả"
+  ]
+]
