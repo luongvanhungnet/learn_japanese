@@ -4,7 +4,10 @@ import { hintPrefix, isCorrect, nextHint, parseProgress, revealAnswer, submitAns
 test('accepts one of several Vietnamese meanings', () => {
   expect(isCorrect('meaning', 'rủ', ['mời', 'rủ'])).toBe(true)
   expect(isCorrect('meaning', '  CUỘC   ĐỜI! ', ['cuộc đời'])).toBe(true)
-  expect(isCorrect('meaning', 'cuoc doi', ['cuộc đời'])).toBe(false)
+  expect(isCorrect('meaning', 'cuoc doi', ['cuộc đời'])).toBe(true)
+  expect(isCorrect('meaning', 'day la vi du', ['đây là ví dụ'])).toBe(true)
+  expect(isCorrect('hanViet', 'han viet', ['HÁN VIỆT'])).toBe(true)
+  expect(isCorrect('reading', 'だんせい', ['だんぜい'])).toBe(false)
   expect(isCorrect('reading', 'ダンセイ', ['だんせい'])).toBe(true)
 })
 

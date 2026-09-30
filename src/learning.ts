@@ -78,7 +78,9 @@ const kanaFold = (value: string) => Array.from(value, (char) => {
 
 export function normalizeAnswer(value: string, field: string): string {
   const base = value.normalize('NFKC').normalize('NFC').toLocaleLowerCase('vi')
-  const folded = field === 'reading' ? kanaFold(base) : base
+  const folded = field === 'reading'
+    ? kanaFold(base)
+    : base.normalize('NFD').replace(/đ/g, 'd').replace(/\p{M}/gu, '')
   return folded.replace(/[^\p{L}\p{N}ー]/gu, '')
 }
 
