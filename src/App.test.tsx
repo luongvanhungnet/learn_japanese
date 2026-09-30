@@ -1,5 +1,5 @@
 // @vitest-environment jsdom
-import { act, fireEvent, render, screen, within } from '@testing-library/react'
+import { act, cleanup, fireEvent, render, screen, within } from '@testing-library/react'
 import { afterEach, expect, test, vi } from 'vitest'
 import App from './App'
 
@@ -12,6 +12,7 @@ vi.mock('./data/n2.json', () => ({ default: [
 ] }))
 
 afterEach(() => {
+  cleanup()
   vi.useRealTimers()
   window.localStorage.clear()
 })
@@ -62,4 +63,31 @@ test('the full table advances within the same column and answer button keeps typ
   fireEvent.submit(input.closest('form')!)
   const second = within(document.getElementById('practice-n3:2:reading')!)
   expect(document.activeElement).toBe(second.getByRole('textbox', { name: 'Cách đọc cho từ số 2' }))
+})
+
+test('Alt shortcuts work immediately in focus mode before opening a cell', () => {
+  window.scrollTo = vi.fn()
+  render(<App />)
+  fireEvent.click(screen.getByRole('button', { name: 'Tập trung' }))
+
+  fireEvent.keyDown(document, { key: 'a', altKey: true })
+  const first = within(screen.getByRole('group', { name: 'Từ 男性' }))
+  const input = first.getByRole('textbox', { name: 'Ngữ nghĩa cho 男性' })
+  expect(first.getByText(/Gợi ý:/).textContent).toContain('đ')
+  expect(document.activeElement).toBe(input)
+
+  fireEvent.keyDown(document, { key: 's', altKey: true })
+  expect(first.getByRole('status').textContent).toContain('đàn ông')
+  expect(document.activeElement).toBe(input)
+})
+
+test('Alt+S opens the current practice cell directly', () => {
+  window.scrollTo = vi.fn()
+  render(<App />)
+  fireEvent.click(screen.getByRole('button', { name: 'Tập trung' }))
+
+  fireEvent.keyDown(document, { key: 's', altKey: true })
+  const first = within(screen.getByRole('group', { name: 'Từ 男性' }))
+  expect(first.getByRole('status').textContent).toContain('đàn ông')
+  expect(document.activeElement).toBe(first.getByRole('textbox', { name: 'Ngữ nghĩa cho 男性' }))
 })
