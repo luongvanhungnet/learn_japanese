@@ -7,7 +7,8 @@
     "reading": "だんせい",
     "hanViet": "NAM TÍNH",
     "meanings": [
-      "đàn ông"
+      "man",
+      "male"
     ]
   },
   {
@@ -18,7 +19,8 @@
     "reading": "じょせい",
     "hanViet": "NỮ TÍNH",
     "meanings": [
-      "phụ nữ"
+      "woman",
+      "female"
     ]
   },
   {
@@ -29,7 +31,8 @@
     "reading": "こうれい",
     "hanViet": "CAO LINH",
     "meanings": [
-      "cao tuổi"
+      "advanced age",
+      "old age"
     ]
   },
   {
@@ -40,7 +43,8 @@
     "reading": "としうえ",
     "hanViet": "NIÊN THƯỢNG",
     "meanings": [
-      "hơn tuổi"
+      "older",
+      "senior"
     ]
   },
   {
@@ -51,7 +55,8 @@
     "reading": "めうえ",
     "hanViet": "MỤC THƯỢNG",
     "meanings": [
-      "bề trên"
+      "superior",
+      "superiors"
     ]
   },
   {
@@ -62,7 +67,8 @@
     "reading": "せんぱい",
     "hanViet": "TIÊN BỐI",
     "meanings": [
-      "tiền bối"
+      "senior",
+      "superior"
     ]
   },
   {
@@ -73,7 +79,8 @@
     "reading": "こうはい",
     "hanViet": "HẬU BỐI",
     "meanings": [
-      "hậu bối"
+      "junior",
+      "younger people"
     ]
   },
   {
@@ -84,7 +91,8 @@
     "reading": "じょうし",
     "hanViet": "THƯỢNG TY",
     "meanings": [
-      "cấp trên"
+      "superior",
+      "boss"
     ]
   },
   {
@@ -95,7 +103,10 @@
     "reading": "あいて",
     "hanViet": "TƯƠNG THỦ",
     "meanings": [
-      "người đối diện"
+      "companion",
+      "partner",
+      "other party",
+      "opponent"
     ]
   },
   {
@@ -106,7 +117,7 @@
     "reading": "しりあい",
     "hanViet": "TRI HỢP",
     "meanings": [
-      "người quen"
+      "acquaintance"
     ]
   },
   {
@@ -117,7 +128,7 @@
     "reading": "ゆうじん",
     "hanViet": "HỮU NHÂN",
     "meanings": [
-      "bạn bè"
+      "friend"
     ]
   },
   {
@@ -128,7 +139,8 @@
     "reading": "なか",
     "hanViet": "TRỌNG",
     "meanings": [
-      "mối quan hệ"
+      "relation",
+      "relationship"
     ]
   },
   {
@@ -139,7 +151,8 @@
     "reading": "せいねんがっぴ",
     "hanViet": "SINH NIÊN NGUYỆT NHẬT",
     "meanings": [
-      "ngày tháng năm sinh"
+      "birth date",
+      "date of birth"
     ]
   },
   {
@@ -150,7 +163,10 @@
     "reading": "たんじょう",
     "hanViet": "ĐẢN SINH",
     "meanings": [
-      "ra đời"
+      "birth",
+      "nativity",
+      "creation",
+      "one's first birthday"
     ]
   },
   {
@@ -161,7 +177,9 @@
     "reading": "とし",
     "hanViet": "NIÊN",
     "meanings": [
-      "năm"
+      "year",
+      "age",
+      "past one's prime"
     ]
   },
   {
@@ -172,7 +190,7 @@
     "reading": "しゅっしん",
     "hanViet": "XUẤT THÂN",
     "meanings": [
-      "quê quán"
+      "one's origin"
     ]
   },
   {
@@ -183,7 +201,8 @@
     "reading": "こきょう",
     "hanViet": "CỐ HƯƠNG",
     "meanings": [
-      "cố hương"
+      "hometown",
+      "birthplace"
     ]
   },
   {
@@ -194,7 +213,8 @@
     "reading": "せいちょう",
     "hanViet": "THÀNH TRƯỞNG",
     "meanings": [
-      "trưởng thành"
+      "growth",
+      "development"
     ]
   },
   {
@@ -205,7 +225,9 @@
     "reading": "せいじん",
     "hanViet": "THÀNH NHÂN",
     "meanings": [
-      "người trưởng thành"
+      "adult",
+      "grown-up",
+      "becoming an adult"
     ]
   },
   {
@@ -216,7 +238,9 @@
     "reading": "ごうかく",
     "hanViet": "HỢP CÁCH",
     "meanings": [
-      "đỗ đại học"
+      "passing",
+      "pass",
+      "meeting"
     ]
   },
   {
@@ -227,7 +251,8 @@
     "reading": "しんがく",
     "hanViet": "TIẾN HỌC",
     "meanings": [
-      "vào đại học"
+      "advancing to the next stage of education",
+      "going on to"
     ]
   },
   {
@@ -238,7 +263,10 @@
     "reading": "たいがく",
     "hanViet": "THOÁI HỌC",
     "meanings": [
-      "bỏ học"
+      "dropping out of school",
+      "withdrawal from school",
+      "expulsion from school",
+      "leaving school after completing a course"
     ]
   },
   {
@@ -249,7 +277,8 @@
     "reading": "しゅうしょく",
     "hanViet": "TỰU CHỨC",
     "meanings": [
-      "có việc làm"
+      "finding employment",
+      "getting a job"
     ]
   },
   {
@@ -260,7 +289,8 @@
     "reading": "たいしょく",
     "hanViet": "THOÁI CHỨC",
     "meanings": [
-      "nghỉ việc"
+      "retirement",
+      "resignation"
     ]
   },
   {
@@ -271,7 +301,8 @@
     "reading": "しつぎょう",
     "hanViet": "THẤT NGHIỆP",
     "meanings": [
-      "thất nghiệp"
+      "unemployment",
+      "losing one's job"
     ]
   },
   {
@@ -282,7 +313,7 @@
     "reading": "ざんぎょう",
     "hanViet": "TÀN NGHIỆP",
     "meanings": [
-      "làm thêm"
+      "overtime"
     ]
   },
   {
@@ -293,7 +324,9 @@
     "reading": "せいかつ",
     "hanViet": "SINH HOẠT",
     "meanings": [
-      "cuộc sống"
+      "life",
+      "living",
+      "livelihood"
     ]
   },
   {
@@ -304,7 +337,7 @@
     "reading": "つうきん",
     "hanViet": "THÔNG CẦN",
     "meanings": [
-      "đi làm"
+      "commuting to work"
     ]
   },
   {
@@ -315,7 +348,8 @@
     "reading": "がくれき",
     "hanViet": "HỌC LỊCH",
     "meanings": [
-      "bằng cấp"
+      "academic background",
+      "academic credentials"
     ]
   },
   {
@@ -326,7 +360,8 @@
     "reading": "きゅうりょう",
     "hanViet": "CẤP LIỆU",
     "meanings": [
-      "tiền lương"
+      "salary",
+      "wages"
     ]
   },
   {
@@ -337,7 +372,7 @@
     "reading": "めんせつ",
     "hanViet": "DIỆN TIẾP",
     "meanings": [
-      "phỏng vấn"
+      "interview"
     ]
   },
   {
@@ -348,7 +383,8 @@
     "reading": "きゅうけい",
     "hanViet": "HƯU KHẾ",
     "meanings": [
-      "nghỉ ngơi"
+      "rest",
+      "break"
     ]
   },
   {
@@ -359,7 +395,8 @@
     "reading": "かんこう",
     "hanViet": "QUAN QUANG",
     "meanings": [
-      "tham quan"
+      "sightseeing",
+      "tourism"
     ]
   },
   {
@@ -370,7 +407,8 @@
     "reading": "きこく",
     "hanViet": "QUY QUỐC",
     "meanings": [
-      "về nước"
+      "return to one's country",
+      "return to one's hometown"
     ]
   },
   {
@@ -381,7 +419,8 @@
     "reading": "きせい",
     "hanViet": "QUY TỈNH",
     "meanings": [
-      "về quê"
+      "homecoming",
+      "returning home"
     ]
   },
   {
@@ -392,7 +431,8 @@
     "reading": "きたく",
     "hanViet": "QUY TRẠCH",
     "meanings": [
-      "về nhà"
+      "returning home",
+      "going home"
     ]
   },
   {
@@ -403,7 +443,8 @@
     "reading": "さんか",
     "hanViet": "THAM GIA",
     "meanings": [
-      "tham gia"
+      "participation",
+      "joining"
     ]
   },
   {
@@ -414,7 +455,8 @@
     "reading": "しゅっせき",
     "hanViet": "XUẤT TỊCH",
     "meanings": [
-      "có mặt"
+      "attendance",
+      "presence"
     ]
   },
   {
@@ -425,7 +467,8 @@
     "reading": "けっせき",
     "hanViet": "KHIẾM TỊCH",
     "meanings": [
-      "vắng mặt"
+      "absence",
+      "non-attendance"
     ]
   },
   {
@@ -436,7 +479,8 @@
     "reading": "ちこく",
     "hanViet": "TRÌ KHẮC",
     "meanings": [
-      "đến muộn"
+      "lateness",
+      "tardiness"
     ]
   },
   {
@@ -447,7 +491,9 @@
     "reading": "けしょう",
     "hanViet": "HOÁ TRANG",
     "meanings": [
-      "trang điểm"
+      "make-up",
+      "makeup",
+      "decoration"
     ]
   },
   {
@@ -458,7 +504,9 @@
     "reading": "けいさん",
     "hanViet": "KẾ TOÁN",
     "meanings": [
-      "tính toán"
+      "calculation",
+      "computation",
+      "consideration"
     ]
   },
   {
@@ -469,7 +517,8 @@
     "reading": "けいかく",
     "hanViet": "KẾ HOẠ",
     "meanings": [
-      "kế hoạch"
+      "plan",
+      "project"
     ]
   },
   {
@@ -480,7 +529,9 @@
     "reading": "せいこう",
     "hanViet": "THÀNH CÔNG",
     "meanings": [
-      "thành công"
+      "success",
+      "achievement",
+      "succeeding"
     ]
   },
   {
@@ -491,7 +542,8 @@
     "reading": "しっぱい",
     "hanViet": "THẤT BẠI",
     "meanings": [
-      "thất bại"
+      "failure",
+      "mistake"
     ]
   },
   {
@@ -502,7 +554,8 @@
     "reading": "じゅんび",
     "hanViet": "CHUẨN BỊ",
     "meanings": [
-      "chuẩn bị"
+      "preparation",
+      "arrangements"
     ]
   },
   {
@@ -513,7 +566,10 @@
     "reading": "せいり",
     "hanViet": "CHỈNH LÝ",
     "meanings": [
-      "chỉnh sửa"
+      "sorting",
+      "arrangement",
+      "liquidation",
+      "retrenchment"
     ]
   },
   {
@@ -524,7 +580,8 @@
     "reading": "ちゅうもん",
     "hanViet": "CHÚ VĂN",
     "meanings": [
-      "đặt hàng"
+      "order",
+      "request"
     ]
   },
   {
@@ -535,7 +592,9 @@
     "reading": "ちょきん",
     "hanViet": "TRỮ KIM",
     "meanings": [
-      "tiết kiệm"
+      "putting money aside",
+      "savings",
+      "accumulated surplus of wins"
     ]
   },
   {
@@ -546,7 +605,7 @@
     "reading": "てつや",
     "hanViet": "TRIỆT DẠ",
     "meanings": [
-      "thức xuyên đêm"
+      "staying up all night"
     ]
   },
   {
@@ -557,7 +616,8 @@
     "reading": "ひっこし",
     "hanViet": "DẪN VIỆT",
     "meanings": [
-      "chuyển nhà"
+      "moving",
+      "changing residence"
     ]
   },
   {
@@ -568,7 +628,8 @@
     "reading": "しんちょう",
     "hanViet": "THÂN TRƯỜNG",
     "meanings": [
-      "chiều cao"
+      "height",
+      "stature"
     ]
   },
   {
@@ -579,7 +640,7 @@
     "reading": "たいじゅう",
     "hanViet": "THỂ TRỌNG",
     "meanings": [
-      "cân nặng"
+      "weight"
     ]
   },
   {
@@ -590,7 +651,8 @@
     "reading": "けが",
     "hanViet": null,
     "meanings": [
-      "vết thương"
+      "injury",
+      "wound"
     ]
   },
   {
@@ -601,8 +663,9 @@
     "reading": "かい",
     "hanViet": "HỘI",
     "meanings": [
-      "hội",
-      "tiệc"
+      "meeting",
+      "assembly",
+      "society"
     ]
   },
   {
@@ -613,7 +676,9 @@
     "reading": "しゅみ",
     "hanViet": "THÚ VỊ",
     "meanings": [
-      "sở thích"
+      "hobby",
+      "pastime",
+      "tastes"
     ]
   },
   {
@@ -624,7 +689,8 @@
     "reading": "きょうみ",
     "hanViet": "HƯNG VỊ",
     "meanings": [
-      "hứng thú"
+      "interest",
+      "curiosity"
     ]
   },
   {
@@ -635,7 +701,8 @@
     "reading": "おもいで",
     "hanViet": "TƯ XUẤT",
     "meanings": [
-      "nhớ lại"
+      "memories",
+      "recollections"
     ]
   },
   {
@@ -646,7 +713,8 @@
     "reading": "じょうだん",
     "hanViet": "NHŨNG ĐÀM",
     "meanings": [
-      "đùa cợt"
+      "joke",
+      "jest"
     ]
   },
   {
@@ -657,7 +725,8 @@
     "reading": "もくてき",
     "hanViet": "MỤC ĐÍCH",
     "meanings": [
-      "mục đích"
+      "purpose",
+      "goal"
     ]
   },
   {
@@ -668,7 +737,10 @@
     "reading": "やくそく",
     "hanViet": "ƯỚC THÚC",
     "meanings": [
-      "lời hứa"
+      "promise",
+      "agreement",
+      "appointment",
+      "convention"
     ]
   },
   {
@@ -679,7 +751,9 @@
     "reading": "おしゃべり",
     "hanViet": null,
     "meanings": [
-      "nói chuyện riêng"
+      "chattering",
+      "talk",
+      "chatty"
     ]
   },
   {
@@ -690,7 +764,10 @@
     "reading": "えんりょ",
     "hanViet": "VIỄN LỰ",
     "meanings": [
-      "ngại ngần"
+      "reserve",
+      "constraint",
+      "declining",
+      "forethought"
     ]
   },
   {
@@ -701,7 +778,9 @@
     "reading": "がまん",
     "hanViet": "NGÃ MẠN",
     "meanings": [
-      "chịu đựng"
+      "endurance",
+      "patience",
+      "self-control"
     ]
   },
   {
@@ -712,7 +791,8 @@
     "reading": "めわく",
     "hanViet": "MÊ HOẶC",
     "meanings": [
-      "làm phiền"
+      "trouble",
+      "nuisance"
     ]
   },
   {
@@ -723,7 +803,9 @@
     "reading": "きぼう",
     "hanViet": "HY VỌNG",
     "meanings": [
-      "hi vọng"
+      "hope",
+      "wish",
+      "prospects"
     ]
   },
   {
@@ -734,7 +816,8 @@
     "reading": "ゆめ",
     "hanViet": "MỘNG",
     "meanings": [
-      "giấc mơ"
+      "dream",
+      "unrealistic aspiration"
     ]
   },
   {
@@ -745,7 +828,8 @@
     "reading": "さんせい",
     "hanViet": "TÁN THÀNH",
     "meanings": [
-      "đồng ý"
+      "approval",
+      "agreement"
     ]
   },
   {
@@ -756,7 +840,9 @@
     "reading": "はんたい",
     "hanViet": "PHẢN ĐỐI",
     "meanings": [
-      "đối lập"
+      "opposition",
+      "resistance",
+      "reverse"
     ]
   },
   {
@@ -767,7 +853,8 @@
     "reading": "そうぞう",
     "hanViet": "TƯỞNG TƯỢNG",
     "meanings": [
-      "tưởng tượng"
+      "imagination",
+      "supposition"
     ]
   },
   {
@@ -778,7 +865,8 @@
     "reading": "どりょく",
     "hanViet": "NỖ LỰC",
     "meanings": [
-      "nỗ lực"
+      "effort",
+      "exertion"
     ]
   },
   {
@@ -789,7 +877,7 @@
     "reading": "たいよう",
     "hanViet": "THÁI DƯƠNG",
     "meanings": [
-      "mặt trời"
+      "Sun"
     ]
   },
   {
@@ -800,7 +888,8 @@
     "reading": "ちきゅう",
     "hanViet": "ĐỊA CẦU",
     "meanings": [
-      "trái đất"
+      "Earth",
+      "the globe"
     ]
   },
   {
@@ -811,7 +900,7 @@
     "reading": "おんど",
     "hanViet": "ÔN ĐỘ",
     "meanings": [
-      "nhiệt độ"
+      "temperature"
     ]
   },
   {
@@ -822,7 +911,7 @@
     "reading": "しつど",
     "hanViet": "THẤP ĐỘ",
     "meanings": [
-      "độ ẩm"
+      "humidity"
     ]
   },
   {
@@ -833,7 +922,8 @@
     "reading": "しっけ",
     "hanViet": "THẤP KHÍ",
     "meanings": [
-      "hơi ẩm"
+      "moisture",
+      "humidity"
     ]
   },
   {
@@ -844,7 +934,8 @@
     "reading": "つゆ",
     "hanViet": "MAI VŨ",
     "meanings": [
-      "mùa mưa"
+      "rainy season",
+      "rain during the rainy season"
     ]
   },
   {
@@ -855,7 +946,8 @@
     "reading": "かび",
     "hanViet": null,
     "meanings": [
-      "nấm mốc"
+      "mold",
+      "mould"
     ]
   },
   {
@@ -866,7 +958,7 @@
     "reading": "だんぼう",
     "hanViet": "NOÃN PHÒNG",
     "meanings": [
-      "điều hòa ấm"
+      "heating"
     ]
   },
   {
@@ -877,7 +969,10 @@
     "reading": "かわ",
     "hanViet": "BÌ",
     "meanings": [
-      "da"
+      "skin",
+      "hide",
+      "rind",
+      "shell"
     ]
   },
   {
@@ -888,7 +983,9 @@
     "reading": "かん",
     "hanViet": "PHŨ",
     "meanings": [
-      "đồ hộp"
+      "can",
+      "tin",
+      "canned food"
     ]
   },
   {
@@ -899,7 +996,9 @@
     "reading": "がめん",
     "hanViet": "HOẠ DIỆN",
     "meanings": [
-      "màn hình"
+      "screen",
+      "image",
+      "surface of a painting"
     ]
   },
   {
@@ -910,7 +1009,8 @@
     "reading": "ばんぐみ",
     "hanViet": "PHIÊN TỔ",
     "meanings": [
-      "chương trình"
+      "program",
+      "programme"
     ]
   },
   {
@@ -921,7 +1021,8 @@
     "reading": "きじ",
     "hanViet": "KÝ SỰ",
     "meanings": [
-      "ký sự"
+      "article",
+      "news story"
     ]
   },
   {
@@ -932,7 +1033,8 @@
     "reading": "きんじょ",
     "hanViet": "CẬN SỞ",
     "meanings": [
-      "xung quanh"
+      "neighbourhood",
+      "neighborhood"
     ]
   },
   {
@@ -943,7 +1045,9 @@
     "reading": "けいさつ",
     "hanViet": "CẢNH SÁT",
     "meanings": [
-      "cảnh sát"
+      "police",
+      "police officer",
+      "police station"
     ]
   },
   {
@@ -954,7 +1058,8 @@
     "reading": "はんにん",
     "hanViet": "PHẠM NHÂN",
     "meanings": [
-      "tội phạm"
+      "offender",
+      "criminal"
     ]
   },
   {
@@ -965,7 +1070,9 @@
     "reading": "こぜに",
     "hanViet": "TIỂU TIỀN",
     "meanings": [
-      "tiền lẻ"
+      "small change",
+      "pocket change",
+      "small sum of money"
     ]
   },
   {
@@ -976,7 +1083,8 @@
     "reading": "ごちそう",
     "hanViet": null,
     "meanings": [
-      "chiêu đãi"
+      "feast",
+      "treat"
     ]
   },
   {
@@ -987,7 +1095,8 @@
     "reading": "さくしゃ",
     "hanViet": "TÁC GIẢ",
     "meanings": [
-      "tác giả"
+      "creator",
+      "author"
     ]
   },
   {
@@ -998,7 +1107,8 @@
     "reading": "さくひん",
     "hanViet": "TÁC PHẨM",
     "meanings": [
-      "tác phẩm"
+      "work",
+      "piece"
     ]
   },
   {
@@ -1009,7 +1119,7 @@
     "reading": "せいふく",
     "hanViet": "CHẾ PHỤC",
     "meanings": [
-      "đồng phục"
+      "uniform"
     ]
   },
   {
@@ -1020,7 +1130,8 @@
     "reading": "せんざい",
     "hanViet": "TẨY TỄ",
     "meanings": [
-      "bột giặt"
+      "detergent",
+      "cleanser"
     ]
   },
   {
@@ -1031,7 +1142,8 @@
     "reading": "そこ",
     "hanViet": "ĐỂ",
     "meanings": [
-      "đáy"
+      "bottom",
+      "sole"
     ]
   },
   {
@@ -1042,7 +1154,9 @@
     "reading": "ちか",
     "hanViet": "ĐỊA HẠ",
     "meanings": [
-      "ngầm"
+      "underground",
+      "below the ground",
+      "world of the dead"
     ]
   },
   {
@@ -1053,7 +1167,7 @@
     "reading": "てら",
     "hanViet": "TỰ",
     "meanings": [
-      "chùa"
+      "temple"
     ]
   },
   {
@@ -1064,7 +1178,8 @@
     "reading": "どうろ",
     "hanViet": "ĐẠO LỘ",
     "meanings": [
-      "đường"
+      "road",
+      "highway"
     ]
   },
   {
@@ -1075,7 +1190,9 @@
     "reading": "さか",
     "hanViet": "PHẢN",
     "meanings": [
-      "dốc"
+      "slope",
+      "incline",
+      "milestone"
     ]
   },
   {
@@ -1086,7 +1203,8 @@
     "reading": "けむり",
     "hanViet": "YÊN",
     "meanings": [
-      "khói"
+      "smoke",
+      "fumes"
     ]
   },
   {
@@ -1097,7 +1215,8 @@
     "reading": "はい",
     "hanViet": "HÔI",
     "meanings": [
-      "tàn"
+      "ash",
+      "ashes"
     ]
   },
   {
@@ -1108,7 +1227,10 @@
     "reading": "はん",
     "hanViet": "PHÁN",
     "meanings": [
-      "con dấu"
+      "seal",
+      "stamp",
+      "judgment",
+      "size"
     ]
   },
   {
@@ -1119,7 +1241,7 @@
     "reading": "めいし",
     "hanViet": "DANH THÍCH",
     "meanings": [
-      "danh thiếp"
+      "business card"
     ]
   },
   {
@@ -1130,7 +1252,9 @@
     "reading": "めんきょ",
     "hanViet": "MIỄN HỨA",
     "meanings": [
-      "giấy phép"
+      "license",
+      "licence",
+      "driver's license"
     ]
   },
   {
@@ -1141,7 +1265,10 @@
     "reading": "おおく",
     "hanViet": "ĐA",
     "meanings": [
-      "nhiều"
+      "many",
+      "much",
+      "majority",
+      "mostly"
     ]
   },
   {
@@ -1152,7 +1279,7 @@
     "reading": "ぜんはん",
     "hanViet": "TIỀN BÁN",
     "meanings": [
-      "phần đầu"
+      "first half"
     ]
   },
   {
@@ -1163,7 +1290,8 @@
     "reading": "こうはん",
     "hanViet": "HẬU BÁN",
     "meanings": [
-      "phần cuối"
+      "second half",
+      "latter half"
     ]
   },
   {
@@ -1174,7 +1302,9 @@
     "reading": "さいこう",
     "hanViet": "TỐI CAO",
     "meanings": [
-      "cao nhất"
+      "best",
+      "supreme",
+      "highest"
     ]
   },
   {
@@ -1185,7 +1315,10 @@
     "reading": "さいてい",
     "hanViet": "TỐI ĐÊ",
     "meanings": [
-      "thấp nhất"
+      "least",
+      "lowest",
+      "worst",
+      "awful"
     ]
   },
   {
@@ -1196,7 +1329,8 @@
     "reading": "さいしょ",
     "hanViet": "TỐI SƠ",
     "meanings": [
-      "đầu tiên"
+      "beginning",
+      "outset"
     ]
   },
   {
@@ -1207,7 +1341,10 @@
     "reading": "さいご",
     "hanViet": "TỐI HẬU",
     "meanings": [
-      "cuối cùng"
+      "end",
+      "conclusion",
+      "last",
+      "once ..."
     ]
   },
   {
@@ -1218,7 +1355,8 @@
     "reading": "じどう",
     "hanViet": "TỰ ĐỘNG",
     "meanings": [
-      "tự động"
+      "automatic",
+      "intransitive verb"
     ]
   },
   {
@@ -1229,7 +1367,9 @@
     "reading": "しゅるい",
     "hanViet": "CHỦNG LOẠI",
     "meanings": [
-      "loại"
+      "variety",
+      "kind",
+      "counter for kinds, species, etc."
     ]
   },
   {
@@ -1240,7 +1380,9 @@
     "reading": "せいかく",
     "hanViet": "TÍNH CÁCH",
     "meanings": [
-      "tính cách"
+      "character",
+      "personality",
+      "characteristics"
     ]
   },
   {
@@ -1251,7 +1393,9 @@
     "reading": "せいしつ",
     "hanViet": "TÍNH CHẤT",
     "meanings": [
-      "tính chất"
+      "nature",
+      "disposition",
+      "quality"
     ]
   },
   {
@@ -1262,7 +1406,8 @@
     "reading": "じゅんばん",
     "hanViet": "THUẬN PHIÊN",
     "meanings": [
-      "thứ tự"
+      "order",
+      "turn"
     ]
   },
   {
@@ -1273,7 +1418,9 @@
     "reading": "ばん",
     "hanViet": "PHIÊN",
     "meanings": [
-      "lượt"
+      "number",
+      "turn",
+      "watch"
     ]
   },
   {
@@ -1284,7 +1431,8 @@
     "reading": "ほうほう",
     "hanViet": "PHƯƠNG PHÁP",
     "meanings": [
-      "phương pháp"
+      "method",
+      "way"
     ]
   },
   {
@@ -1295,7 +1443,8 @@
     "reading": "せいひん",
     "hanViet": "CHẾ PHẨM",
     "meanings": [
-      "sản phẩm"
+      "manufactured goods",
+      "finished goods"
     ]
   },
   {
@@ -1306,7 +1455,8 @@
     "reading": "ねあがり",
     "hanViet": "TRỊ THƯỢNG",
     "meanings": [
-      "tăng giá"
+      "price increase",
+      "rise in price"
     ]
   },
   {
@@ -1317,7 +1467,9 @@
     "reading": "なま",
     "hanViet": "SINH",
     "meanings": [
-      "tươi"
+      "raw",
+      "fresh",
+      "uncooked"
     ]
   },
   {
@@ -1328,7 +1480,9 @@
     "reading": "かわく",
     "hanViet": "KHÁT",
     "meanings": [
-      "khát"
+      "be thirsty",
+      "feel thirsty",
+      "thirst for"
     ]
   },
   {
@@ -1339,7 +1493,8 @@
     "reading": "かぐ",
     "hanViet": "KHỨU",
     "meanings": [
-      "ngửi"
+      "sniff",
+      "smell"
     ]
   },
   {
@@ -1350,8 +1505,10 @@
     "reading": "たたく",
     "hanViet": "KHẤU",
     "meanings": [
-      "đánh",
-      "vỗ"
+      "strike",
+      "hit",
+      "attack",
+      "sound out"
     ]
   },
   {
@@ -1362,7 +1519,8 @@
     "reading": "なぐる",
     "hanViet": "ẨU",
     "meanings": [
-      "đấm"
+      "strike",
+      "hit"
     ]
   },
   {
@@ -1373,7 +1531,7 @@
     "reading": "ける",
     "hanViet": null,
     "meanings": [
-      "đá"
+      "kick"
     ]
   },
   {
@@ -1384,7 +1542,10 @@
     "reading": "だく",
     "hanViet": "BÃO",
     "meanings": [
-      "ôm"
+      "hold in one's arms",
+      "embrace",
+      "have sex with",
+      "sit on"
     ]
   },
   {
@@ -1395,7 +1556,10 @@
     "reading": "たおれる",
     "hanViet": "ĐẢO",
     "meanings": [
-      "đổ"
+      "fall",
+      "collapse",
+      "be destroyed",
+      "be confined to bed"
     ]
   },
   {
@@ -1406,7 +1570,10 @@
     "reading": "たおす",
     "hanViet": "ĐẢO",
     "meanings": [
-      "làm đổ"
+      "throw down",
+      "bring down",
+      "kill",
+      "overthrow"
     ]
   },
   {
@@ -1417,7 +1584,10 @@
     "reading": "おきる",
     "hanViet": "KHỞI",
     "meanings": [
-      "thức dậy"
+      "get up",
+      "rise",
+      "wake up",
+      "occur"
     ]
   },
   {
@@ -1428,7 +1598,10 @@
     "reading": "おこす",
     "hanViet": "KHỞI",
     "meanings": [
-      "đánh thức"
+      "raise",
+      "raise up",
+      "wake",
+      "cause"
     ]
   },
   {
@@ -1439,7 +1612,9 @@
     "reading": "たずねる",
     "hanViet": "TẦM",
     "meanings": [
-      "hỏi"
+      "ask",
+      "enquire",
+      "search"
     ]
   },
   {
@@ -1450,7 +1625,10 @@
     "reading": "よぶ",
     "hanViet": "HÔ",
     "meanings": [
-      "gọi"
+      "call out",
+      "call",
+      "summon",
+      "invite"
     ]
   },
   {
@@ -1461,7 +1639,9 @@
     "reading": "さけぶ",
     "hanViet": "KHIẾU",
     "meanings": [
-      "gào to"
+      "shout",
+      "cry",
+      "clamor"
     ]
   },
   {
@@ -1472,7 +1652,8 @@
     "reading": "だまる",
     "hanViet": "MẶC",
     "meanings": [
-      "im lặng"
+      "be silent",
+      "say nothing"
     ]
   },
   {
@@ -1483,7 +1664,8 @@
     "reading": "かう",
     "hanViet": "TỰ",
     "meanings": [
-      "nuôi"
+      "keep",
+      "have"
     ]
   },
   {
@@ -1494,7 +1676,8 @@
     "reading": "かぞえる",
     "hanViet": "SỐ",
     "meanings": [
-      "đếm"
+      "count",
+      "enumerate"
     ]
   },
   {
@@ -1505,7 +1688,7 @@
     "reading": "かわく",
     "hanViet": "CÀN",
     "meanings": [
-      "khô"
+      "get dry"
     ]
   },
   {
@@ -1516,7 +1699,8 @@
     "reading": "かわかす",
     "hanViet": "CÀN",
     "meanings": [
-      "làm khô"
+      "dry",
+      "desiccate"
     ]
   },
   {
@@ -1527,7 +1711,9 @@
     "reading": "たたむ",
     "hanViet": "ĐIỆP",
     "meanings": [
-      "gấp"
+      "fold",
+      "close",
+      "vacate"
     ]
   },
   {
@@ -1538,8 +1724,10 @@
     "reading": "さそう",
     "hanViet": "DỤ",
     "meanings": [
-      "mời",
-      "rủ"
+      "invite",
+      "ask",
+      "tempt",
+      "induce"
     ]
   },
   {
@@ -1550,7 +1738,11 @@
     "reading": "おごる",
     "hanViet": null,
     "meanings": [
-      "chiêu đãi"
+      "treat to",
+      "give a treat",
+      "be extravagant",
+      "be proud",
+      "be haughty"
     ]
   },
   {
@@ -1561,7 +1753,10 @@
     "reading": "あずかる",
     "hanViet": "DỰ",
     "meanings": [
-      "chăm sóc"
+      "look after",
+      "take care of",
+      "be put in charge of",
+      "withhold"
     ]
   },
   {
@@ -1572,7 +1767,10 @@
     "reading": "あずける",
     "hanViet": "DỰ",
     "meanings": [
-      "gửi"
+      "leave",
+      "put",
+      "put in charge of",
+      "lean on"
     ]
   },
   {
@@ -1583,7 +1781,10 @@
     "reading": "きまる",
     "hanViet": "QUYẾT",
     "meanings": [
-      "được quyết định"
+      "be decided",
+      "be settled",
+      "be unchanging",
+      "be a fixed rule"
     ]
   },
   {
@@ -1594,7 +1795,10 @@
     "reading": "きめる",
     "hanViet": "QUYẾT",
     "meanings": [
-      "quyết định"
+      "decide",
+      "choose",
+      "clinch",
+      "persist in doing"
     ]
   },
   {
@@ -1605,7 +1809,8 @@
     "reading": "うつる",
     "hanViet": "TẢ",
     "meanings": [
-      "chụp được"
+      "be photographed",
+      "be projected"
     ]
   },
   {
@@ -1616,7 +1821,10 @@
     "reading": "うつす",
     "hanViet": "TẢ",
     "meanings": [
-      "chụp"
+      "copy",
+      "duplicate",
+      "describe",
+      "imitate"
     ]
   },
   {
@@ -1627,7 +1835,8 @@
     "reading": "おもいだす",
     "hanViet": "TƯ XUẤT",
     "meanings": [
-      "nhớ lại"
+      "recall",
+      "remember"
     ]
   },
   {
@@ -1638,7 +1847,8 @@
     "reading": "おそわる",
     "hanViet": "GIÁO",
     "meanings": [
-      "được dạy"
+      "be taught",
+      "learn"
     ]
   },
   {
@@ -1649,7 +1859,8 @@
     "reading": "もうしこむ",
     "hanViet": "THÂN NHẬP",
     "meanings": [
-      "đăng ký"
+      "apply for",
+      "make an application"
     ]
   },
   {
@@ -1660,7 +1871,10 @@
     "reading": "ことわる",
     "hanViet": "ĐOẠN",
     "meanings": [
-      "từ chối"
+      "refuse",
+      "reject",
+      "inform",
+      "ask leave"
     ]
   },
   {
@@ -1671,7 +1885,8 @@
     "reading": "みつかる",
     "hanViet": "KIẾN",
     "meanings": [
-      "được tìm thấy"
+      "be found",
+      "be discovered"
     ]
   },
   {
@@ -1682,7 +1897,9 @@
     "reading": "みつける",
     "hanViet": "KIẾN",
     "meanings": [
-      "tìm thấy"
+      "find",
+      "discover",
+      "be used to seeing"
     ]
   },
   {
@@ -1693,7 +1910,10 @@
     "reading": "つかまる",
     "hanViet": "BỘ",
     "meanings": [
-      "bị bắt"
+      "be caught",
+      "be arrested",
+      "hold on to",
+      "find"
     ]
   },
   {
@@ -1704,7 +1924,10 @@
     "reading": "つかまえる",
     "hanViet": "BỘ",
     "meanings": [
-      "bắt"
+      "catch",
+      "capture",
+      "grab",
+      "catch hold of"
     ]
   },
   {
@@ -1715,7 +1938,9 @@
     "reading": "のる",
     "hanViet": "THỪA",
     "meanings": [
-      "leo lên"
+      "get on",
+      "get in",
+      "reach"
     ]
   },
   {
@@ -1726,7 +1951,9 @@
     "reading": "のせる",
     "hanViet": "THỪA",
     "meanings": [
-      "cho lên"
+      "place on",
+      "give a ride",
+      "load"
     ]
   },
   {
@@ -1737,7 +1964,10 @@
     "reading": "おりる",
     "hanViet": "GIÁNG",
     "meanings": [
-      "xuống"
+      "descend",
+      "go down",
+      "alight",
+      "step down"
     ]
   },
   {
@@ -1748,7 +1978,10 @@
     "reading": "おろす",
     "hanViet": "GIÁNG",
     "meanings": [
-      "cho xuống"
+      "take down",
+      "bring down",
+      "drop off",
+      "withdraw"
     ]
   },
   {
@@ -1759,7 +1992,10 @@
     "reading": "なおる",
     "hanViet": "TRỰC",
     "meanings": [
-      "được sửa"
+      "get mended",
+      "be repaired",
+      "return to normal",
+      "be corrected"
     ]
   },
   {
@@ -1770,7 +2006,10 @@
     "reading": "なおす",
     "hanViet": "TRỰC",
     "meanings": [
-      "sửa"
+      "repair",
+      "mend",
+      "change",
+      "put back"
     ]
   },
   {
@@ -1781,7 +2020,8 @@
     "reading": "なおる",
     "hanViet": "TRỊ",
     "meanings": [
-      "hồi phục"
+      "get better",
+      "get well"
     ]
   },
   {
@@ -1792,7 +2032,8 @@
     "reading": "なおす",
     "hanViet": "TRỊ",
     "meanings": [
-      "cứu chữa"
+      "cure",
+      "heal"
     ]
   },
   {
@@ -1803,7 +2044,8 @@
     "reading": "なくなる",
     "hanViet": "VONG",
     "meanings": [
-      "chết"
+      "die",
+      "pass away"
     ]
   },
   {
@@ -1814,7 +2056,7 @@
     "reading": "なくす",
     "hanViet": "VONG",
     "meanings": [
-      "mất"
+      "lose"
     ]
   },
   {
@@ -1825,7 +2067,7 @@
     "reading": "うまれる",
     "hanViet": "SINH",
     "meanings": [
-      "được sinh ra"
+      "be born"
     ]
   },
   {
@@ -1836,7 +2078,9 @@
     "reading": "うむ",
     "hanViet": "SINH",
     "meanings": [
-      "sinh"
+      "give birth",
+      "bear",
+      "produce"
     ]
   },
   {
@@ -1847,7 +2091,9 @@
     "reading": "であう",
     "hanViet": "XUẤT HỘI",
     "meanings": [
-      "gặp (ngẫu nhiên)"
+      "meet",
+      "come across",
+      "emerge and engage"
     ]
   },
   {
@@ -1858,7 +2104,8 @@
     "reading": "たずねる",
     "hanViet": "PHỎNG",
     "meanings": [
-      "thăm"
+      "visit",
+      "call on"
     ]
   },
   {
@@ -1869,8 +2116,9 @@
     "reading": "つきあう",
     "hanViet": "PHÓ HỢP",
     "meanings": [
-      "hẹn hò",
-      "giao tiếp"
+      "associate with",
+      "keep company with",
+      "go along with"
     ]
   },
   {
@@ -1881,7 +2129,10 @@
     "reading": "きく",
     "hanViet": "HIỆU",
     "meanings": [
-      "có hiệu quả"
+      "be effective",
+      "take effect",
+      "work",
+      "be possible"
     ]
   },
   {
@@ -1892,7 +2143,8 @@
     "reading": "はやる",
     "hanViet": null,
     "meanings": [
-      "phổ biến"
+      "be popular",
+      "come into fashion"
     ]
   },
   {
@@ -1903,7 +2155,8 @@
     "reading": "たつ",
     "hanViet": "KINH",
     "meanings": [
-      "qua"
+      "pass",
+      "elapse"
     ]
   },
   {
@@ -1914,7 +2167,8 @@
     "reading": "まにあう",
     "hanViet": "GIAN HỢP",
     "meanings": [
-      "làm cho kịp giờ"
+      "be in time",
+      "serve the purpose"
     ]
   },
   {
@@ -1925,7 +2179,9 @@
     "reading": "まにあわせる",
     "hanViet": "GIAN HỢP",
     "meanings": [
-      "kịp giờ"
+      "make do with",
+      "manage with",
+      "get done in time"
     ]
   },
   {
@@ -1936,8 +2192,10 @@
     "reading": "かよう",
     "hanViet": "THÔNG",
     "meanings": [
-      "đi làm",
-      "học"
+      "go to and from",
+      "go back and forth between",
+      "go to",
+      "circulate"
     ]
   },
   {
@@ -1948,7 +2206,10 @@
     "reading": "こむ",
     "hanViet": "NHẬP",
     "meanings": [
-      "đông"
+      "be crowded",
+      "be packed",
+      "be complex",
+      "go into"
     ]
   },
   {
@@ -1959,8 +2220,10 @@
     "reading": "すれちがう",
     "hanViet": "VI",
     "meanings": [
-      "vượt",
-      "lướt"
+      "pass each other",
+      "brush past",
+      "miss each other",
+      "be at odds"
     ]
   },
   {
@@ -1971,7 +2234,9 @@
     "reading": "かかる",
     "hanViet": "QUẢI",
     "meanings": [
-      "được bao phủ"
+      "take",
+      "hang",
+      "come into view"
     ]
   },
   {
@@ -1982,7 +2247,9 @@
     "reading": "かける",
     "hanViet": "QUẢI",
     "meanings": [
-      "bao phủ"
+      "hang up",
+      "let hang",
+      "put on"
     ]
   },
   {
@@ -1993,7 +2260,10 @@
     "reading": "うごく",
     "hanViet": "ĐỘNG",
     "meanings": [
-      "hoạt động"
+      "move",
+      "stir",
+      "operate",
+      "make a move"
     ]
   },
   {
@@ -2004,7 +2274,10 @@
     "reading": "うごかす",
     "hanViet": "ĐỘNG",
     "meanings": [
-      "di chuyển"
+      "move",
+      "shift",
+      "inspire",
+      "change"
     ]
   },
   {
@@ -2015,7 +2288,9 @@
     "reading": "はなれる",
     "hanViet": "LY",
     "meanings": [
-      "tránh xa"
+      "be separated",
+      "be apart",
+      "leave"
     ]
   },
   {
@@ -2026,7 +2301,8 @@
     "reading": "はなす",
     "hanViet": "LY",
     "meanings": [
-      "tách ra"
+      "separate",
+      "part"
     ]
   },
   {
@@ -2037,7 +2313,10 @@
     "reading": "ぶつかる",
     "hanViet": null,
     "meanings": [
-      "bị đâm"
+      "bump into",
+      "run into",
+      "encounter",
+      "clash"
     ]
   },
   {
@@ -2048,7 +2327,10 @@
     "reading": "ぶつける",
     "hanViet": null,
     "meanings": [
-      "đâm"
+      "hit",
+      "strike",
+      "throw",
+      "vent"
     ]
   },
   {
@@ -2059,7 +2341,12 @@
     "reading": "こぼれる",
     "hanViet": null,
     "meanings": [
-      "bị tràn"
+      "spill",
+      "fall out of",
+      "peek through",
+      "escape",
+      "be chipped",
+      "be nicked"
     ]
   },
   {
@@ -2070,7 +2357,10 @@
     "reading": "こぼす",
     "hanViet": null,
     "meanings": [
-      "tràn"
+      "spill",
+      "drop",
+      "grumble",
+      "let show"
     ]
   },
   {
@@ -2081,7 +2371,7 @@
     "reading": "ふく",
     "hanViet": null,
     "meanings": [
-      "lau"
+      "wipe"
     ]
   },
   {
@@ -2092,7 +2382,10 @@
     "reading": "かたづく",
     "hanViet": "PHIẾN PHÓ",
     "meanings": [
-      "được dọn dẹp"
+      "be put in order",
+      "be put to rights",
+      "be disposed of",
+      "be finished"
     ]
   },
   {
@@ -2103,7 +2396,10 @@
     "reading": "かたづける",
     "hanViet": "PHIẾN PHÓ",
     "meanings": [
-      "dọn dẹp"
+      "put in order",
+      "tidy up",
+      "settle",
+      "finish"
     ]
   },
   {
@@ -2114,7 +2410,10 @@
     "reading": "つつむ",
     "hanViet": "BAO",
     "meanings": [
-      "bọc"
+      "wrap up",
+      "pack",
+      "cover",
+      "conceal"
     ]
   },
   {
@@ -2125,7 +2424,10 @@
     "reading": "はる",
     "hanViet": "TRƯƠNG",
     "meanings": [
-      "dán"
+      "stick",
+      "paste",
+      "stretch",
+      "form"
     ]
   },
   {
@@ -2136,7 +2438,10 @@
     "reading": "なくなる",
     "hanViet": "VÔ",
     "meanings": [
-      "bị mất"
+      "be lost",
+      "be missing",
+      "be used up",
+      "disappear"
     ]
   },
   {
@@ -2147,7 +2452,8 @@
     "reading": "なくす",
     "hanViet": "VÔ",
     "meanings": [
-      "mất"
+      "lose",
+      "get rid of"
     ]
   },
   {
@@ -2158,7 +2464,10 @@
     "reading": "たりる",
     "hanViet": "TÚC",
     "meanings": [
-      "đủ"
+      "be sufficient",
+      "be enough",
+      "be worth doing",
+      "do"
     ]
   },
   {
@@ -2169,7 +2478,8 @@
     "reading": "のこる",
     "hanViet": "TÀN",
     "meanings": [
-      "bị thừa"
+      "remain",
+      "be left"
     ]
   },
   {
@@ -2180,7 +2490,8 @@
     "reading": "のこす",
     "hanViet": "TÀN",
     "meanings": [
-      "thừa"
+      "leave",
+      "save"
     ]
   },
   {
@@ -2191,7 +2502,10 @@
     "reading": "くさる",
     "hanViet": "HỦ",
     "meanings": [
-      "thối"
+      "rot",
+      "go bad",
+      "corrode",
+      "become useless"
     ]
   },
   {
@@ -2202,7 +2516,7 @@
     "reading": "むける",
     "hanViet": null,
     "meanings": [
-      "bị lột"
+      "peel off"
     ]
   },
   {
@@ -2213,7 +2527,7 @@
     "reading": "むく",
     "hanViet": null,
     "meanings": [
-      "lột"
+      "peel"
     ]
   },
   {
@@ -2224,7 +2538,10 @@
     "reading": "すべる",
     "hanViet": "HOẠT",
     "meanings": [
-      "trượt"
+      "slide",
+      "glide",
+      "slip",
+      "be slippery"
     ]
   },
   {
@@ -2235,7 +2552,9 @@
     "reading": "つもる",
     "hanViet": "TÍCH",
     "meanings": [
-      "được tích tụ"
+      "pile up",
+      "accumulate",
+      "estimate"
     ]
   },
   {
@@ -2246,8 +2565,10 @@
     "reading": "つむ",
     "hanViet": "TÍCH",
     "meanings": [
-      "tích tụ",
-      "chất lại"
+      "pile up",
+      "stack",
+      "load",
+      "acquire"
     ]
   },
   {
@@ -2258,7 +2579,8 @@
     "reading": "あく",
     "hanViet": "KHÔNG",
     "meanings": [
-      "bị thủng"
+      "open",
+      "be empty"
     ]
   },
   {
@@ -2269,7 +2591,10 @@
     "reading": "あける",
     "hanViet": "KHÔNG",
     "meanings": [
-      "thủng"
+      "empty",
+      "remove",
+      "move out",
+      "be away from"
     ]
   },
   {
@@ -2280,7 +2605,10 @@
     "reading": "さがる",
     "hanViet": "HẠ",
     "meanings": [
-      "bị giảm"
+      "come down",
+      "go down",
+      "hang",
+      "move back"
     ]
   },
   {
@@ -2291,7 +2619,10 @@
     "reading": "さげる",
     "hanViet": "HẠ",
     "meanings": [
-      "giảm"
+      "hang",
+      "suspend",
+      "lower",
+      "demote"
     ]
   },
   {
@@ -2302,7 +2633,8 @@
     "reading": "ひえる",
     "hanViet": "LÃNH",
     "meanings": [
-      "bị lạnh"
+      "grow cold",
+      "get chilly"
     ]
   },
   {
@@ -2313,7 +2645,10 @@
     "reading": "ひやす",
     "hanViet": "LÃNH",
     "meanings": [
-      "làm lạnh"
+      "cool",
+      "chill",
+      "calm down",
+      "be frightened"
     ]
   },
   {
@@ -2324,7 +2659,10 @@
     "reading": "さめる",
     "hanViet": "LÃNH",
     "meanings": [
-      "bị nguội"
+      "cool down",
+      "get cold",
+      "cool off",
+      "be cold"
     ]
   },
   {
@@ -2335,7 +2673,9 @@
     "reading": "さます",
     "hanViet": "LÃNH",
     "meanings": [
-      "làm nguội"
+      "cool",
+      "let cool",
+      "dampen"
     ]
   },
   {
@@ -2346,7 +2686,8 @@
     "reading": "もえる",
     "hanViet": "NHIÊN",
     "meanings": [
-      "cháy"
+      "burn",
+      "get fired up"
     ]
   },
   {
@@ -2357,7 +2698,8 @@
     "reading": "もやす",
     "hanViet": "NHIÊN",
     "meanings": [
-      "đốt"
+      "burn",
+      "burn with"
     ]
   },
   {
@@ -2368,7 +2710,10 @@
     "reading": "わく",
     "hanViet": "PHÍ",
     "meanings": [
-      "sôi"
+      "grow hot",
+      "boil",
+      "get excited",
+      "ferment"
     ]
   },
   {
@@ -2379,7 +2724,9 @@
     "reading": "わかす",
     "hanViet": "PHÍ",
     "meanings": [
-      "đun sôi"
+      "boil",
+      "heat",
+      "excite"
     ]
   },
   {
@@ -2390,7 +2737,8 @@
     "reading": "なる",
     "hanViet": "MINH",
     "meanings": [
-      "kêu"
+      "sound",
+      "ring"
     ]
   },
   {
@@ -2401,7 +2749,10 @@
     "reading": "ならす",
     "hanViet": "MINH",
     "meanings": [
-      "làm kêu"
+      "ring",
+      "sound",
+      "be popular",
+      "state"
     ]
   },
   {
@@ -2412,7 +2763,8 @@
     "reading": "やくだつ",
     "hanViet": "DỊCH LẬP",
     "meanings": [
-      "hữu ích"
+      "be useful",
+      "be helpful"
     ]
   },
   {
@@ -2423,7 +2775,8 @@
     "reading": "やくだてる",
     "hanViet": "DỊCH LẬP",
     "meanings": [
-      "được sử dụng"
+      "put to use",
+      "make use of"
     ]
   },
   {
@@ -2434,7 +2787,8 @@
     "reading": "かざり",
     "hanViet": "SỨC",
     "meanings": [
-      "trang trí"
+      "decoration",
+      "ornament"
     ]
   },
   {
@@ -2445,7 +2799,9 @@
     "reading": "あそび",
     "hanViet": "DU",
     "meanings": [
-      "chơi"
+      "play",
+      "playing",
+      "pleasure"
     ]
   },
   {
@@ -2456,7 +2812,8 @@
     "reading": "あつまり",
     "hanViet": "TẬP",
     "meanings": [
-      "tập hợp"
+      "gathering",
+      "meeting"
     ]
   },
   {
@@ -2467,7 +2824,8 @@
     "reading": "おしえ",
     "hanViet": "GIÁO",
     "meanings": [
-      "dạy"
+      "teaching",
+      "instruction"
     ]
   },
   {
@@ -2478,7 +2836,10 @@
     "reading": "おどり",
     "hanViet": "DŨNG",
     "meanings": [
-      "nhảy"
+      "dancing",
+      "dance",
+      "iteration mark",
+      "Bon Festival dance"
     ]
   },
   {
@@ -2489,8 +2850,9 @@
     "reading": "おもい",
     "hanViet": "TƯ",
     "meanings": [
-      "suy nghĩ",
-      "cảm giác"
+      "thought",
+      "imagination",
+      "desire"
     ]
   },
   {
@@ -2501,8 +2863,10 @@
     "reading": "かんがえ",
     "hanViet": "KHẢO",
     "meanings": [
-      "nghĩ",
-      "ý tưởng"
+      "thinking",
+      "thought",
+      "idea",
+      "intention"
     ]
   },
   {
@@ -2513,7 +2877,8 @@
     "reading": "かたづけ",
     "hanViet": "PHIẾN",
     "meanings": [
-      "ngăn nắp"
+      "tidying up",
+      "finishing"
     ]
   },
   {
@@ -2524,7 +2889,9 @@
     "reading": "てつだい",
     "hanViet": "THỦ TRUYỀN",
     "meanings": [
-      "giúp đỡ"
+      "helper",
+      "assistant",
+      "help"
     ]
   },
   {
@@ -2535,7 +2902,10 @@
     "reading": "はたらき",
     "hanViet": "ĐỘNG",
     "meanings": [
-      "hoạt động"
+      "work",
+      "labor",
+      "achievement",
+      "salary"
     ]
   },
   {
@@ -2546,7 +2916,10 @@
     "reading": "きまり",
     "hanViet": "QUYẾT",
     "meanings": [
-      "luật lệ"
+      "rule",
+      "regulation",
+      "settlement",
+      "habit"
     ]
   },
   {
@@ -2557,8 +2930,8 @@
     "reading": "さわぎ",
     "hanViet": "TAO",
     "meanings": [
-      "ồn ào",
-      "om xòm"
+      "uproar",
+      "disturbance"
     ]
   },
   {
@@ -2569,8 +2942,9 @@
     "reading": "しらせ",
     "hanViet": "TRI",
     "meanings": [
-      "tin tức",
-      "thông báo"
+      "news",
+      "word",
+      "omen"
     ]
   },
   {
@@ -2581,7 +2955,9 @@
     "reading": "たのみ",
     "hanViet": "LẠI",
     "meanings": [
-      "yêu cầu"
+      "request",
+      "favor",
+      "reliance"
     ]
   },
   {
@@ -2592,8 +2968,8 @@
     "reading": "つかれ",
     "hanViet": "BÌ",
     "meanings": [
-      "vất vả",
-      "mệt mỏi"
+      "tiredness",
+      "fatigue"
     ]
   },
   {
@@ -2604,7 +2980,9 @@
     "reading": "ちがい",
     "hanViet": "VI",
     "meanings": [
-      "khác biệt"
+      "difference",
+      "distinction",
+      "mistake"
     ]
   },
   {
@@ -2615,7 +2993,10 @@
     "reading": "はじめ",
     "hanViet": "THUỶ",
     "meanings": [
-      "khởi đầu"
+      "beginning",
+      "start",
+      "first",
+      "origin"
     ]
   },
   {
@@ -2626,7 +3007,10 @@
     "reading": "つづき",
     "hanViet": "TỤC",
     "meanings": [
-      "tiếp tục"
+      "continuation",
+      "rest",
+      "flow",
+      "succession"
     ]
   },
   {
@@ -2637,7 +3021,10 @@
     "reading": "くれ",
     "hanViet": "MỘ",
     "meanings": [
-      "cuối năm"
+      "sunset",
+      "sundown",
+      "end",
+      "year-end"
     ]
   },
   {
@@ -2648,7 +3035,10 @@
     "reading": "いき",
     "hanViet": "HÀNH",
     "meanings": [
-      "đi"
+      "the way there",
+      "outbound leg",
+      "bound for ...",
+      "outbound ticket"
     ]
   },
   {
@@ -2659,7 +3049,8 @@
     "reading": "かえり",
     "hanViet": "QUY",
     "meanings": [
-      "trở về"
+      "return",
+      "coming back"
     ]
   },
   {
@@ -2670,8 +3061,9 @@
     "reading": "いそぎ",
     "hanViet": "CẤP",
     "meanings": [
-      "khẩn cấp",
-      "vội"
+      "haste",
+      "hurry",
+      "in a hurry"
     ]
   },
   {
@@ -2682,7 +3074,9 @@
     "reading": "おくれ",
     "hanViet": "TRÌ",
     "meanings": [
-      "gián đoạn"
+      "delay",
+      "lag",
+      "falling behind in"
     ]
   },
   {
@@ -2693,7 +3087,10 @@
     "reading": "かし",
     "hanViet": "THẢI",
     "meanings": [
-      "cho mượn"
+      "loan",
+      "lending",
+      "favor",
+      "creditor"
     ]
   },
   {
@@ -2704,7 +3101,8 @@
     "reading": "かり",
     "hanViet": "TÁ",
     "meanings": [
-      "mượn"
+      "borrowing",
+      "debt"
     ]
   },
   {
@@ -2715,7 +3113,8 @@
     "reading": "かち",
     "hanViet": "THẮNG",
     "meanings": [
-      "thắng"
+      "win",
+      "victory"
     ]
   },
   {
@@ -2726,7 +3125,10 @@
     "reading": "まけ",
     "hanViet": "PHỤ",
     "meanings": [
-      "thua"
+      "defeat",
+      "loss",
+      "failing to live up to",
+      "discount"
     ]
   },
   {
@@ -2737,7 +3139,9 @@
     "reading": "むかえ",
     "hanViet": "NGHINH",
     "meanings": [
-      "đón"
+      "meeting",
+      "greeting",
+      "person sent to meet a visitor"
     ]
   },
   {
@@ -2748,7 +3152,8 @@
     "reading": "はじまり",
     "hanViet": "THUỶ",
     "meanings": [
-      "bắt đầu"
+      "origin",
+      "beginning"
     ]
   },
   {
@@ -2759,7 +3164,9 @@
     "reading": "おわり",
     "hanViet": "CHUNG",
     "meanings": [
-      "kết thúc"
+      "end",
+      "ending",
+      "end of life"
     ]
   },
   {
@@ -2770,8 +3177,8 @@
     "reading": "もどり",
     "hanViet": "LỆ",
     "meanings": [
-      "trở về",
-      "trả lại"
+      "return",
+      "reaction"
     ]
   },
   {
@@ -2782,7 +3189,9 @@
     "reading": "わかれ",
     "hanViet": "BIỆT",
     "meanings": [
-      "chia ly"
+      "parting",
+      "separation",
+      "breakup"
     ]
   },
   {
@@ -2793,7 +3202,8 @@
     "reading": "よろこび",
     "hanViet": "HỶ",
     "meanings": [
-      "hớn hở"
+      "joy",
+      "delight"
     ]
   },
   {
@@ -2804,7 +3214,9 @@
     "reading": "たのしみ",
     "hanViet": "LẠC",
     "meanings": [
-      "sung sướng"
+      "enjoyment",
+      "pleasure",
+      "anticipation"
     ]
   },
   {
@@ -2815,7 +3227,10 @@
     "reading": "わらい",
     "hanViet": "TIẾU",
     "meanings": [
-      "cười"
+      "laugh",
+      "laughter",
+      "smile",
+      "sneer"
     ]
   },
   {
@@ -2826,7 +3241,8 @@
     "reading": "おどろき",
     "hanViet": "KINH",
     "meanings": [
-      "ngạc nhiên"
+      "surprise",
+      "astonishment"
     ]
   },
   {
@@ -2837,7 +3253,8 @@
     "reading": "いかり",
     "hanViet": "NỘ",
     "meanings": [
-      "giận dữ"
+      "anger",
+      "rage"
     ]
   },
   {
@@ -2848,7 +3265,8 @@
     "reading": "かなしみ",
     "hanViet": "BI",
     "meanings": [
-      "buồn bã"
+      "sadness",
+      "sorrow"
     ]
   },
   {
@@ -2859,7 +3277,8 @@
     "reading": "しあわせな",
     "hanViet": "HẠNH",
     "meanings": [
-      "hạnh phúc"
+      "happiness",
+      "good fortune"
     ]
   },
   {
@@ -2870,8 +3289,10 @@
     "reading": "とくいな",
     "hanViet": "ĐẮC Ý",
     "meanings": [
-      "mạnh",
-      "giỏi"
+      "satisfaction",
+      "pride",
+      "one's strong point",
+      "regular customer"
     ]
   },
   {
@@ -2882,8 +3303,9 @@
     "reading": "にがてな",
     "hanViet": "KHỔ THỦ",
     "meanings": [
-      "yếu",
-      "kém"
+      "poor",
+      "weak",
+      "not one's cup of tea"
     ]
   },
   {
@@ -2894,7 +3316,8 @@
     "reading": "ねっしんな",
     "hanViet": "NHIỆT TÂM",
     "meanings": [
-      "chăm chỉ"
+      "zealous",
+      "enthusiastic"
     ]
   },
   {
@@ -2905,7 +3328,10 @@
     "reading": "むちゅうな",
     "hanViet": "MỘNG TRUNG",
     "meanings": [
-      "chú tâm"
+      "absorbed in",
+      "immersed in",
+      "forgetting oneself",
+      "within a dream"
     ]
   },
   {
@@ -2916,7 +3342,9 @@
     "reading": "たいくつな",
     "hanViet": "THOÁI KHUẤT",
     "meanings": [
-      "chán"
+      "tedious",
+      "boring",
+      "feel bored"
     ]
   },
   {
@@ -2927,7 +3355,8 @@
     "reading": "けんこうな",
     "hanViet": "KIỆN KHANG",
     "meanings": [
-      "khỏe khoắn"
+      "health",
+      "healthy"
     ]
   },
   {
@@ -2938,7 +3367,10 @@
     "reading": "くるしい",
     "hanViet": "KHỔ",
     "meanings": [
-      "cực khổ"
+      "painful",
+      "difficult",
+      "distressing",
+      "straitened"
     ]
   },
   {
@@ -2949,7 +3381,9 @@
     "reading": "へいきな",
     "hanViet": "BÌNH KHÍ",
     "meanings": [
-      "bình thản"
+      "cool",
+      "calm",
+      "all right"
     ]
   },
   {
@@ -2960,7 +3394,8 @@
     "reading": "くやしい",
     "hanViet": "HỐI",
     "meanings": [
-      "cay cú"
+      "frustrated",
+      "annoyed"
     ]
   },
   {
@@ -2971,7 +3406,9 @@
     "reading": "うらやましい",
     "hanViet": null,
     "meanings": [
-      "ghen tỵ"
+      "envious",
+      "jealous",
+      "enviable"
     ]
   },
   {
@@ -2982,7 +3419,7 @@
     "reading": "かゆい",
     "hanViet": null,
     "meanings": [
-      "ngứa"
+      "itchy"
     ]
   },
   {
@@ -2993,7 +3430,8 @@
     "reading": "おとなしい",
     "hanViet": null,
     "meanings": [
-      "trầm lặng"
+      "gentle",
+      "quiet"
     ]
   },
   {
@@ -3004,7 +3442,8 @@
     "reading": "がまんづよい",
     "hanViet": "NGÃ MẠN CƯỜNG",
     "meanings": [
-      "chịu đựng giỏi"
+      "patient",
+      "persevering"
     ]
   },
   {
@@ -3015,7 +3454,9 @@
     "reading": "しょうじきな",
     "hanViet": "CHÍNH TRỰC",
     "meanings": [
-      "trung thực"
+      "honest",
+      "frank",
+      "honestly"
     ]
   },
   {
@@ -3026,7 +3467,8 @@
     "reading": "けちな",
     "hanViet": null,
     "meanings": [
-      "kẹt xỉ"
+      "stingy",
+      "miserly"
     ]
   },
   {
@@ -3037,7 +3479,8 @@
     "reading": "わがままな",
     "hanViet": "NGÃ TẬN",
     "meanings": [
-      "ích kỷ"
+      "selfish",
+      "egoist"
     ]
   },
   {
@@ -3048,7 +3491,8 @@
     "reading": "せっきょくてきな",
     "hanViet": "TÍCH CỰC ĐÍCH",
     "meanings": [
-      "tích cực"
+      "positive",
+      "assertive"
     ]
   },
   {
@@ -3059,7 +3503,8 @@
     "reading": "しょうきょくてきな",
     "hanViet": "TIÊU CỰC ĐÍCH",
     "meanings": [
-      "tiêu cực"
+      "negative",
+      "passive"
     ]
   },
   {
@@ -3070,7 +3515,10 @@
     "reading": "まんぞくな",
     "hanViet": "MÃN TÚC",
     "meanings": [
-      "thỏa mãn"
+      "satisfaction",
+      "contentment",
+      "sufficient",
+      "satisfying"
     ]
   },
   {
@@ -3081,7 +3529,8 @@
     "reading": "ふまんな",
     "hanViet": "BẤT MÃN",
     "meanings": [
-      "bất mãn"
+      "dissatisfaction",
+      "discontent"
     ]
   },
   {
@@ -3092,7 +3541,8 @@
     "reading": "ふあんな",
     "hanViet": "BẤT AN",
     "meanings": [
-      "bất an"
+      "anxiety",
+      "uneasiness"
     ]
   },
   {
@@ -3103,7 +3553,10 @@
     "reading": "たいへんな",
     "hanViet": "ĐẠI BIẾN",
     "meanings": [
-      "tồi tệ"
+      "very",
+      "greatly",
+      "immense",
+      "serious"
     ]
   },
   {
@@ -3114,7 +3567,10 @@
     "reading": "むりな",
     "hanViet": "VÔ LÝ",
     "meanings": [
-      "vô lý"
+      "unreasonable",
+      "unnatural",
+      "impossible",
+      "forcible"
     ]
   },
   {
@@ -3125,7 +3581,8 @@
     "reading": "ふちゅういな",
     "hanViet": "BẤT CHÚ Ý",
     "meanings": [
-      "không chú ý"
+      "carelessness",
+      "inattention"
     ]
   },
   {
@@ -3136,7 +3593,10 @@
     "reading": "らくな",
     "hanViet": "LẠC",
     "meanings": [
-      "thoải mái"
+      "comfort",
+      "ease",
+      "easy",
+      "comfortable"
     ]
   },
   {
@@ -3147,7 +3607,9 @@
     "reading": "めんどうな",
     "hanViet": "DIỆN ĐẢO",
     "meanings": [
-      "phiền phức"
+      "trouble",
+      "bother",
+      "care"
     ]
   },
   {
@@ -3158,7 +3620,10 @@
     "reading": "しつれいな",
     "hanViet": "THẤT LỄ",
     "meanings": [
-      "thất lễ"
+      "discourtesy",
+      "impoliteness",
+      "excuse me",
+      "leave"
     ]
   },
   {
@@ -3169,7 +3634,9 @@
     "reading": "とうぜんな",
     "hanViet": "ĐƯƠNG NHIÊN",
     "meanings": [
-      "đương nhiên"
+      "natural",
+      "right",
+      "naturally"
     ]
   },
   {
@@ -3180,7 +3647,8 @@
     "reading": "いがいな",
     "hanViet": "Ý NGOẠI",
     "meanings": [
-      "không ngờ đến"
+      "unexpected",
+      "surprising"
     ]
   },
   {
@@ -3191,8 +3659,10 @@
     "reading": "けっこうな",
     "hanViet": "KẾT CẤU",
     "meanings": [
-      "tốt",
-      "đủ"
+      "splendid",
+      "nice",
+      "sufficient",
+      "not needing"
     ]
   },
   {
@@ -3203,7 +3673,8 @@
     "reading": "はでな",
     "hanViet": "PHÁI THỦ",
     "meanings": [
-      "lòe loẹt"
+      "showy",
+      "loud"
     ]
   },
   {
@@ -3214,7 +3685,10 @@
     "reading": "じみな",
     "hanViet": "ĐỊA VỊ",
     "meanings": [
-      "giản dị"
+      "plain",
+      "simple",
+      "reserved",
+      "quite"
     ]
   },
   {
@@ -3225,8 +3699,10 @@
     "reading": "おしゃれな",
     "hanViet": null,
     "meanings": [
-      "thời trang",
-      "mốt"
+      "stylish",
+      "fashionable",
+      "dressing up",
+      "fashionable dresser"
     ]
   },
   {
@@ -3237,7 +3713,10 @@
     "reading": "へんな",
     "hanViet": "BIẾN",
     "meanings": [
-      "lạ"
+      "strange",
+      "odd",
+      "unexpected",
+      "change"
     ]
   },
   {
@@ -3248,7 +3727,9 @@
     "reading": "ふしぎな",
     "hanViet": "BẤT TƯ NGHỊ",
     "meanings": [
-      "thần bí"
+      "wonderful",
+      "marvelous",
+      "strangely enough"
     ]
   },
   {
@@ -3259,7 +3740,8 @@
     "reading": "ましな",
     "hanViet": null,
     "meanings": [
-      "tốt lên"
+      "better",
+      "preferable"
     ]
   },
   {
@@ -3270,7 +3752,8 @@
     "reading": "むだな",
     "hanViet": null,
     "meanings": [
-      "lãng phí"
+      "wasteful",
+      "useless"
     ]
   },
   {
@@ -3281,7 +3764,8 @@
     "reading": "じゆうな",
     "hanViet": "TỰ DO",
     "meanings": [
-      "tự do"
+      "freedom",
+      "liberty"
     ]
   },
   {
@@ -3292,8 +3776,10 @@
     "reading": "ふじゆうな",
     "hanViet": "BẤT TỰ DO",
     "meanings": [
-      "tàn tật",
-      "không tự do"
+      "discomfort",
+      "inconvenience",
+      "poverty",
+      "inability"
     ]
   },
   {
@@ -3304,7 +3790,8 @@
     "reading": "あたたまる",
     "hanViet": "ÔN",
     "meanings": [
-      "trở nên ấm hơn"
+      "warm oneself",
+      "sun oneself"
     ]
   },
   {
@@ -3315,8 +3802,10 @@
     "reading": "あたためる",
     "hanViet": "ÔN",
     "meanings": [
-      "ấm",
-      "nóng"
+      "warm",
+      "heat",
+      "sit on",
+      "renew"
     ]
   },
   {
@@ -3327,7 +3816,8 @@
     "reading": "たかまる",
     "hanViet": "CAO",
     "meanings": [
-      "cao lên"
+      "rise",
+      "swell"
     ]
   },
   {
@@ -3338,7 +3828,8 @@
     "reading": "たかめる",
     "hanViet": "CAO",
     "meanings": [
-      "làm cao lên"
+      "raise",
+      "lift"
     ]
   },
   {
@@ -3349,7 +3840,8 @@
     "reading": "つよまる",
     "hanViet": "CƯỜNG",
     "meanings": [
-      "mạnh lên"
+      "get strong",
+      "gain strength"
     ]
   },
   {
@@ -3360,7 +3852,8 @@
     "reading": "つよめる",
     "hanViet": "CƯỜNG",
     "meanings": [
-      "làm mạnh lên"
+      "strengthen",
+      "emphasize"
     ]
   },
   {
@@ -3371,7 +3864,8 @@
     "reading": "よわまる",
     "hanViet": "NHƯỢC",
     "meanings": [
-      "yếu đi"
+      "abate",
+      "weaken"
     ]
   },
   {
@@ -3382,7 +3876,7 @@
     "reading": "よわめる",
     "hanViet": "NHƯỢC",
     "meanings": [
-      "làm yếu đi"
+      "weaken"
     ]
   },
   {
@@ -3393,7 +3887,8 @@
     "reading": "ひろまる",
     "hanViet": "QUẢNG",
     "meanings": [
-      "rộng ra"
+      "spread",
+      "be propagated"
     ]
   },
   {
@@ -3404,7 +3899,9 @@
     "reading": "ひろめる",
     "hanViet": "QUẢNG",
     "meanings": [
-      "làm rộng ra"
+      "spread",
+      "propagate",
+      "broaden"
     ]
   },
   {
@@ -3415,7 +3912,8 @@
     "reading": "ふかまる",
     "hanViet": "THÂM",
     "meanings": [
-      "sâu hơn"
+      "deepen",
+      "heighten"
     ]
   },
   {
@@ -3426,7 +3924,8 @@
     "reading": "ふかめる",
     "hanViet": "THÂM",
     "meanings": [
-      "làm sâu thêm"
+      "deepen",
+      "heighten"
     ]
   },
   {
@@ -3437,7 +3936,10 @@
     "reading": "せわ",
     "hanViet": "THẾ THOẠI",
     "meanings": [
-      "chăm sóc"
+      "care",
+      "looking after",
+      "trouble",
+      "good offices"
     ]
   },
   {
@@ -3448,7 +3950,8 @@
     "reading": "かてい",
     "hanViet": "GIA ĐÌNH",
     "meanings": [
-      "gia đình"
+      "home",
+      "household"
     ]
   },
   {
@@ -3459,7 +3962,8 @@
     "reading": "きょうりょく",
     "hanViet": "HIỆP LỰC",
     "meanings": [
-      "hiệp lực"
+      "cooperation",
+      "collaboration"
     ]
   },
   {
@@ -3470,7 +3974,8 @@
     "reading": "かんしゃ",
     "hanViet": "CẢM TẠ",
     "meanings": [
-      "cảm tạ"
+      "thanks",
+      "gratitude"
     ]
   },
   {
@@ -3481,7 +3986,10 @@
     "reading": "おれい",
     "hanViet": "LỄ",
     "meanings": [
-      "đáp lễ"
+      "thanks",
+      "gratitude",
+      "manners",
+      "bow"
     ]
   },
   {
@@ -3492,7 +4000,7 @@
     "reading": "おわび",
     "hanViet": "SÁ",
     "meanings": [
-      "xin lỗi"
+      "apology"
     ]
   },
   {
@@ -3503,7 +4011,8 @@
     "reading": "おじぎ",
     "hanViet": null,
     "meanings": [
-      "cúi chào"
+      "bow",
+      "bowing"
     ]
   },
   {
@@ -3514,7 +4023,8 @@
     "reading": "あくしゅ",
     "hanViet": "ÁC THỦ",
     "meanings": [
-      "bắt tay"
+      "handshake",
+      "reconciliation"
     ]
   },
   {
@@ -3525,7 +4035,8 @@
     "reading": "いじわる",
     "hanViet": null,
     "meanings": [
-      "xấu bụng"
+      "mean",
+      "malicious"
     ]
   },
   {
@@ -3536,7 +4047,12 @@
     "reading": "いたずら",
     "hanViet": null,
     "meanings": [
-      "nghịch ngợm"
+      "mischief",
+      "prank",
+      "mischievous",
+      "pastime",
+      "useless",
+      "vain"
     ]
   },
   {
@@ -3547,7 +4063,8 @@
     "reading": "せつやく",
     "hanViet": "TIẾT ƯỚC",
     "meanings": [
-      "tiết kiệm"
+      "saving",
+      "economising"
     ]
   },
   {
@@ -3558,7 +4075,8 @@
     "reading": "けいえい",
     "hanViet": "KINH DOANH",
     "meanings": [
-      "quản lý"
+      "management",
+      "administration"
     ]
   },
   {
@@ -3569,7 +4087,9 @@
     "reading": "はんせい",
     "hanViet": "PHẢN TỈNH",
     "meanings": [
-      "tự kiểm tra"
+      "reflection",
+      "reconsideration",
+      "regret"
     ]
   },
   {
@@ -3580,7 +4100,8 @@
     "reading": "じっこう",
     "hanViet": "THỰC HÀNH",
     "meanings": [
-      "thực hành"
+      "execution",
+      "carrying out"
     ]
   },
   {
@@ -3591,7 +4112,8 @@
     "reading": "しんぽ",
     "hanViet": "TIẾN BỘ",
     "meanings": [
-      "tiến bộ"
+      "progress",
+      "advance"
     ]
   },
   {
@@ -3602,8 +4124,10 @@
     "reading": "へんか",
     "hanViet": "BIẾN HOÁ",
     "meanings": [
-      "thay đổi",
-      "biến hóa"
+      "change",
+      "variation",
+      "variety",
+      "inflection"
     ]
   },
   {
@@ -3614,7 +4138,10 @@
     "reading": "はったつ",
     "hanViet": "PHÁT ĐẠT",
     "meanings": [
-      "phát triển"
+      "development",
+      "growth",
+      "progress",
+      "expansion"
     ]
   },
   {
@@ -3625,7 +4152,9 @@
     "reading": "たいりょく",
     "hanViet": "THỂ LỰC",
     "meanings": [
-      "thể lực"
+      "physical strength",
+      "power",
+      "strength"
     ]
   },
   {
@@ -3636,7 +4165,10 @@
     "reading": "しゅつじょう",
     "hanViet": "XUẤT TRƯỜNG",
     "meanings": [
-      "tham dự"
+      "participation",
+      "entry",
+      "appearance",
+      "exiting"
     ]
   },
   {
@@ -3647,7 +4179,8 @@
     "reading": "かつやく",
     "hanViet": "HOẠT DƯỢC",
     "meanings": [
-      "hoạt động"
+      "activity",
+      "great efforts"
     ]
   },
   {
@@ -3658,7 +4191,8 @@
     "reading": "きょうそう",
     "hanViet": "CẠNH TRANH",
     "meanings": [
-      "cạnh tranh"
+      "competition",
+      "contest"
     ]
   },
   {
@@ -3669,7 +4203,9 @@
     "reading": "おうえん",
     "hanViet": "ƯNG VIỆN",
     "meanings": [
-      "cổ vũ"
+      "aid",
+      "assistance",
+      "cheering"
     ]
   },
   {
@@ -3680,7 +4216,9 @@
     "reading": "はくしゅ",
     "hanViet": "PHÁCH THỦ",
     "meanings": [
-      "vỗ tay"
+      "clapping hands",
+      "applause",
+      "clapping one's hands in prayer"
     ]
   },
   {
@@ -3691,7 +4229,9 @@
     "reading": "にんき",
     "hanViet": "NHÂN KHÍ",
     "meanings": [
-      "nổi tiếng"
+      "popularity",
+      "public favor",
+      "condition"
     ]
   },
   {
@@ -3702,7 +4242,8 @@
     "reading": "うわさ",
     "hanViet": null,
     "meanings": [
-      "tin đồn"
+      "rumour",
+      "rumor"
     ]
   },
   {
@@ -3713,7 +4254,9 @@
     "reading": "じょうほう",
     "hanViet": "TÌNH BÁO",
     "meanings": [
-      "thông tin"
+      "information",
+      "news",
+      "informatics"
     ]
   },
   {
@@ -3724,7 +4267,8 @@
     "reading": "こうかん",
     "hanViet": "GIAO HOÁN",
     "meanings": [
-      "trao đổi"
+      "exchange",
+      "interchange"
     ]
   },
   {
@@ -3735,7 +4279,9 @@
     "reading": "りゅうこう",
     "hanViet": "LƯU HÀNH",
     "meanings": [
-      "trào lưu"
+      "fashion",
+      "trend",
+      "prevalence"
     ]
   },
   {
@@ -3746,7 +4292,8 @@
     "reading": "せんでん",
     "hanViet": "TUYÊN TRUYỀN",
     "meanings": [
-      "tuyên truyền"
+      "publicity",
+      "advertisement"
     ]
   },
   {
@@ -3757,7 +4304,9 @@
     "reading": "こうこく",
     "hanViet": "QUẢNG CÁO",
     "meanings": [
-      "quảng cáo"
+      "advertisement",
+      "advertising",
+      "announcement"
     ]
   },
   {
@@ -3768,7 +4317,8 @@
     "reading": "ちゅうもく",
     "hanViet": "CHÚ MỤC",
     "meanings": [
-      "chú trọng"
+      "notice",
+      "attention"
     ]
   },
   {
@@ -3779,7 +4329,8 @@
     "reading": "つうやく",
     "hanViet": "THÔNG DỊCH",
     "meanings": [
-      "thông dịch"
+      "interpretation",
+      "interpreter"
     ]
   },
   {
@@ -3790,7 +4341,7 @@
     "reading": "ほにゃく",
     "hanViet": "PHIÊN DỊCH",
     "meanings": [
-      "biên dịch"
+      "translation"
     ]
   },
   {
@@ -3801,7 +4352,8 @@
     "reading": "でんごん",
     "hanViet": "TRUYỀN NGÔN",
     "meanings": [
-      "tin nhắn thoại"
+      "message",
+      "word"
     ]
   },
   {
@@ -3812,7 +4364,8 @@
     "reading": "ほうこく",
     "hanViet": "BÁO CÁO",
     "meanings": [
-      "báo cáo"
+      "report",
+      "information"
     ]
   },
   {
@@ -3823,7 +4376,7 @@
     "reading": "ろくが",
     "hanViet": "LỤC HOẠ",
     "meanings": [
-      "ghi lại"
+      "recording"
     ]
   },
   {
@@ -3834,7 +4387,9 @@
     "reading": "こんざつ",
     "hanViet": "HỖN TẠP",
     "meanings": [
-      "hỗn tạp"
+      "congestion",
+      "crush",
+      "confusion"
     ]
   },
   {
@@ -3845,7 +4400,9 @@
     "reading": "じゅうたい",
     "hanViet": "SÁP TRỆ",
     "meanings": [
-      "tắc đường"
+      "congestion",
+      "traffic jam",
+      "delay"
     ]
   },
   {
@@ -3856,7 +4413,9 @@
     "reading": "しょうとつ",
     "hanViet": "XUNG ĐỘT",
     "meanings": [
-      "xung đột"
+      "collision",
+      "crash",
+      "clash"
     ]
   },
   {
@@ -3867,7 +4426,8 @@
     "reading": "ひがい",
     "hanViet": "BỊ HẠI",
     "meanings": [
-      "thiệt hại"
+      "damage",
+      "injury"
     ]
   },
   {
@@ -3878,7 +4438,9 @@
     "reading": "じこ",
     "hanViet": "SỰ CỐ",
     "meanings": [
-      "tai nạn"
+      "accident",
+      "incident",
+      "circumstances"
     ]
   },
   {
@@ -3889,7 +4451,8 @@
     "reading": "じけん",
     "hanViet": "SỰ KIỆN",
     "meanings": [
-      "sự kiện"
+      "event",
+      "affair"
     ]
   },
   {
@@ -3900,7 +4463,10 @@
     "reading": "こしょう",
     "hanViet": "CỐ CHƯỚNG",
     "meanings": [
-      "hỏng"
+      "fault",
+      "trouble",
+      "damage",
+      "problem"
     ]
   },
   {
@@ -3911,7 +4477,8 @@
     "reading": "しゅうり",
     "hanViet": "TU LÝ",
     "meanings": [
-      "sửa chữa"
+      "repair",
+      "mending"
     ]
   },
   {
@@ -3922,7 +4489,8 @@
     "reading": "ていでん",
     "hanViet": "ĐÌNH ĐIỆN",
     "meanings": [
-      "mất điện"
+      "power outage",
+      "power failure"
     ]
   },
   {
@@ -3933,7 +4501,10 @@
     "reading": "ちょうし",
     "hanViet": "ĐIỀU TỬ",
     "meanings": [
-      "trạng thái"
+      "tune",
+      "tone",
+      "vein",
+      "condition"
     ]
   },
   {
@@ -3944,7 +4515,10 @@
     "reading": "きんちょう",
     "hanViet": "KHẨN TRƯƠNG",
     "meanings": [
-      "lo lắng"
+      "tension",
+      "strain",
+      "tensions",
+      "tonus"
     ]
   },
   {
@@ -3955,7 +4529,7 @@
     "reading": "じしん",
     "hanViet": "TỰ THÂN",
     "meanings": [
-      "tự tin"
+      "confidence"
     ]
   },
   {
@@ -3966,7 +4540,8 @@
     "reading": "じまん",
     "hanViet": "TỰ MẠN",
     "meanings": [
-      "tự mãn"
+      "pride",
+      "self-praise"
     ]
   },
   {
@@ -3977,7 +4552,10 @@
     "reading": "かんしん",
     "hanViet": "CẢM TÂM",
     "meanings": [
-      "quan tâm"
+      "admiration",
+      "being impressed",
+      "admirable",
+      "astonishment"
     ]
   },
   {
@@ -3988,7 +4566,8 @@
     "reading": "かんどう",
     "hanViet": "CẢM ĐỘNG",
     "meanings": [
-      "cảm động"
+      "being deeply moved emotionally",
+      "excitement"
     ]
   },
   {
@@ -3999,7 +4578,8 @@
     "reading": "こうふん",
     "hanViet": "HƯNG PHẤN",
     "meanings": [
-      "hưng phấn"
+      "excitement",
+      "stimulation"
     ]
   },
   {
@@ -4010,7 +4590,8 @@
     "reading": "かんそう",
     "hanViet": "CẢM TƯỞNG",
     "meanings": [
-      "cảm tưởng"
+      "impressions",
+      "thoughts"
     ]
   },
   {
@@ -4021,7 +4602,8 @@
     "reading": "よそう",
     "hanViet": "DỰ TƯỞNG",
     "meanings": [
-      "dự đoán"
+      "expectation",
+      "anticipation"
     ]
   },
   {
@@ -4032,7 +4614,9 @@
     "reading": "せんもん",
     "hanViet": "CHUYÊN MÔN",
     "meanings": [
-      "chuyên môn"
+      "speciality",
+      "specialty",
+      "sole interest"
     ]
   },
   {
@@ -4043,7 +4627,8 @@
     "reading": "けんきゅう",
     "hanViet": "NGHIÊN CỨU",
     "meanings": [
-      "nghiên cứu"
+      "research",
+      "study"
     ]
   },
   {
@@ -4054,7 +4639,8 @@
     "reading": "ちょうさ",
     "hanViet": "ĐIỀU TRA",
     "meanings": [
-      "điều tra"
+      "investigation",
+      "examination"
     ]
   },
   {
@@ -4065,7 +4651,8 @@
     "reading": "げんいん",
     "hanViet": "NGUYÊN NHÂN",
     "meanings": [
-      "nguyên nhân"
+      "cause",
+      "origin"
     ]
   },
   {
@@ -4076,7 +4663,10 @@
     "reading": "けっか",
     "hanViet": "KẾT QUẢ",
     "meanings": [
-      "kết quả"
+      "result",
+      "consequence",
+      "consequently",
+      "as a result of"
     ]
   },
   {
@@ -4087,7 +4677,8 @@
     "reading": "かいけつ",
     "hanViet": "GIẢI QUYẾT",
     "meanings": [
-      "giải quyết"
+      "settlement",
+      "solution"
     ]
   },
   {
@@ -4098,7 +4689,8 @@
     "reading": "かくにん",
     "hanViet": "XÁC NHẬN",
     "meanings": [
-      "xác nhận"
+      "confirmation",
+      "verification"
     ]
   },
   {
@@ -4109,7 +4701,8 @@
     "reading": "りよう",
     "hanViet": "LỢI DỤNG",
     "meanings": [
-      "sử dụng"
+      "use",
+      "utilization"
     ]
   },
   {
@@ -4120,7 +4713,9 @@
     "reading": "りかい",
     "hanViet": "LÝ GIẢI",
     "meanings": [
-      "lý giải"
+      "understanding",
+      "comprehension",
+      "sympathy"
     ]
   },
   {
@@ -4131,7 +4726,8 @@
     "reading": "はっけん",
     "hanViet": "PHÁT KIẾN",
     "meanings": [
-      "phát kiến"
+      "discovery",
+      "detection"
     ]
   },
   {
@@ -4142,7 +4738,8 @@
     "reading": "はつめい",
     "hanViet": "PHÁT MINH",
     "meanings": [
-      "phát minh"
+      "invention",
+      "intelligent"
     ]
   },
   {
@@ -4153,7 +4750,10 @@
     "reading": "かんけい",
     "hanViet": "QUAN HỆ",
     "meanings": [
-      "quan hệ"
+      "relation",
+      "relationship",
+      "participation",
+      "influence"
     ]
   },
   {
@@ -4164,7 +4764,9 @@
     "reading": "だんたい",
     "hanViet": "ĐOÀN THỂ",
     "meanings": [
-      "đoàn thể"
+      "group",
+      "party",
+      "organization"
     ]
   },
   {
@@ -4175,7 +4777,7 @@
     "reading": "せんきょ",
     "hanViet": "TUYỂN CỬ",
     "meanings": [
-      "bầu cử"
+      "election"
     ]
   },
   {
@@ -4186,7 +4788,8 @@
     "reading": "ぜいきん",
     "hanViet": "THUẾ KIM",
     "meanings": [
-      "thuế"
+      "tax",
+      "duty"
     ]
   },
   {
@@ -4197,7 +4800,9 @@
     "reading": "せきにん",
     "hanViet": "TRÁCH NHẬM",
     "meanings": [
-      "trách nhiệm"
+      "duty",
+      "responsibility",
+      "liability"
     ]
   },
   {
@@ -4208,7 +4813,8 @@
     "reading": "しょるい",
     "hanViet": "THƯ LOẠI",
     "meanings": [
-      "tài liệu"
+      "document",
+      "papers"
     ]
   },
   {
@@ -4219,7 +4825,8 @@
     "reading": "だいめい",
     "hanViet": "ĐỀ DANH",
     "meanings": [
-      "tiêu đề"
+      "title",
+      "caption"
     ]
   },
   {
@@ -4230,7 +4837,8 @@
     "reading": "じょうけん",
     "hanViet": "ĐIỀU KIỆN",
     "meanings": [
-      "điều kiện"
+      "condition",
+      "term"
     ]
   },
   {
@@ -4241,7 +4849,9 @@
     "reading": "しめきり",
     "hanViet": "ĐẾ THIẾT",
     "meanings": [
-      "hạn cuối"
+      "deadline",
+      "closing",
+      "cofferdam"
     ]
   },
   {
@@ -4252,8 +4862,8 @@
     "reading": "きかん",
     "hanViet": "KỲ GIAN",
     "meanings": [
-      "thời gian",
-      "thời kỳ"
+      "period",
+      "term"
     ]
   },
   {
@@ -4264,7 +4874,10 @@
     "reading": "ばい",
     "hanViet": "BỘI",
     "meanings": [
-      "lần"
+      "double",
+      "twice",
+      "times",
+      "1-nth"
     ]
   },
   {
@@ -4275,8 +4888,8 @@
     "reading": "くじ",
     "hanViet": null,
     "meanings": [
-      "xổ số",
-      "rút thăm"
+      "lottery",
+      "drawing lots"
     ]
   },
   {
@@ -4287,7 +4900,8 @@
     "reading": "ちかみち",
     "hanViet": "CẬN ĐẠO",
     "meanings": [
-      "đường tắt"
+      "shorter way",
+      "shortcut"
     ]
   },
   {
@@ -4298,7 +4912,9 @@
     "reading": "ちゅうしん",
     "hanViet": "TRUNG TÂM",
     "meanings": [
-      "trung tâm"
+      "center",
+      "centre",
+      "-centered"
     ]
   },
   {
@@ -4309,8 +4925,10 @@
     "reading": "あたり",
     "hanViet": "BIÊN",
     "meanings": [
-      "gần",
-      "lân cận"
+      "neighbourhood",
+      "neighborhood",
+      "around",
+      "for instance"
     ]
   },
   {
@@ -4321,8 +4939,10 @@
     "reading": "まわり",
     "hanViet": "CHU",
     "meanings": [
-      "xung quanh",
-      "vòng quanh"
+      "circumference",
+      "girth",
+      "surroundings",
+      "people surrounding oneself"
     ]
   },
   {
@@ -4333,7 +4953,10 @@
     "reading": "あな",
     "hanViet": "HUYỆT",
     "meanings": [
-      "lỗ"
+      "hole",
+      "opening",
+      "pit",
+      "burrow"
     ]
   },
   {
@@ -4344,7 +4967,10 @@
     "reading": "れつ",
     "hanViet": "LIỆT",
     "meanings": [
-      "hàng"
+      "row",
+      "line",
+      "group",
+      "sequence"
     ]
   },
   {
@@ -4355,7 +4981,10 @@
     "reading": "はば",
     "hanViet": "BỨC",
     "meanings": [
-      "chiều rộng"
+      "width",
+      "breadth",
+      "freedom",
+      "gap"
     ]
   },
   {
@@ -4366,7 +4995,8 @@
     "reading": "はんい",
     "hanViet": "PHẠM VY",
     "meanings": [
-      "phạm vi"
+      "extent",
+      "scope"
     ]
   },
   {
@@ -4377,7 +5007,8 @@
     "reading": "ないよう",
     "hanViet": "NỘI DUNG",
     "meanings": [
-      "nội dung"
+      "contents",
+      "content"
     ]
   },
   {
@@ -4388,7 +5019,10 @@
     "reading": "なかみ",
     "hanViet": "TRUNG THÂN",
     "meanings": [
-      "bên trong"
+      "contents",
+      "interior",
+      "substance",
+      "blade"
     ]
   },
   {
@@ -4399,7 +5033,8 @@
     "reading": "とくちょう",
     "hanViet": "ĐẶC TRƯNG",
     "meanings": [
-      "đặc trưng"
+      "feature",
+      "trait"
     ]
   },
   {
@@ -4410,7 +5045,10 @@
     "reading": "ふつう",
     "hanViet": "PHỔ THÔNG",
     "meanings": [
-      "bình thường"
+      "normal",
+      "ordinary",
+      "normally",
+      "local train"
     ]
   },
   {
@@ -4421,7 +5059,9 @@
     "reading": "あたりまえ",
     "hanViet": "ĐƯƠNG TIỀN",
     "meanings": [
-      "đương nhiên"
+      "natural",
+      "reasonable",
+      "usual"
     ]
   },
   {
@@ -4432,7 +5072,9 @@
     "reading": "にせ",
     "hanViet": "NGUỴ",
     "meanings": [
-      "giả"
+      "imitation",
+      "fake",
+      "pseudo-"
     ]
   },
   {
@@ -4443,7 +5085,10 @@
     "reading": "べつ",
     "hanViet": "BIỆT",
     "meanings": [
-      "khác"
+      "distinction",
+      "difference",
+      "separate",
+      "exception"
     ]
   },
   {
@@ -4454,7 +5099,8 @@
     "reading": "こくせき",
     "hanViet": "QUỐC TỊCH",
     "meanings": [
-      "quốc tịch"
+      "nationality",
+      "citizenship"
     ]
   },
   {
@@ -4465,7 +5111,9 @@
     "reading": "とうよう",
     "hanViet": "ĐÔNG DƯƠNG",
     "meanings": [
-      "phương đông"
+      "the East",
+      "the Orient",
+      "Japan"
     ]
   },
   {
@@ -4476,7 +5124,8 @@
     "reading": "せいよう",
     "hanViet": "TÂY DƯƠNG",
     "meanings": [
-      "phương tây"
+      "the West",
+      "the Occident"
     ]
   },
   {
@@ -4487,7 +5136,7 @@
     "reading": "こくさい",
     "hanViet": "QUỐC TẾ",
     "meanings": [
-      "quốc tế"
+      "international"
     ]
   },
   {
@@ -4498,7 +5147,9 @@
     "reading": "しぜん",
     "hanViet": "TỰ NHIÊN",
     "meanings": [
-      "tự nhiên"
+      "nature",
+      "natural",
+      "naturally"
     ]
   },
   {
@@ -4509,7 +5160,8 @@
     "reading": "けしき",
     "hanViet": "CẢNH SẮC",
     "meanings": [
-      "phong cảnh"
+      "scenery",
+      "scene"
     ]
   },
   {
@@ -4520,7 +5172,9 @@
     "reading": "しゅうきょう",
     "hanViet": "TÔNG GIÁO",
     "meanings": [
-      "tôn giáo"
+      "religion",
+      "religious affiliation",
+      "religious activity"
     ]
   },
   {
@@ -4531,7 +5185,10 @@
     "reading": "あい",
     "hanViet": "ÁI",
     "meanings": [
-      "yêu"
+      "love",
+      "affection",
+      "attachment",
+      "agape"
     ]
   },
   {
@@ -4542,7 +5199,10 @@
     "reading": "とどく",
     "hanViet": "GIỚI",
     "meanings": [
-      "được giao đến"
+      "reach",
+      "touch",
+      "be delivered",
+      "be attentive"
     ]
   },
   {
@@ -4553,7 +5213,9 @@
     "reading": "とどける",
     "hanViet": "GIỚI",
     "meanings": [
-      "giao đến"
+      "deliver",
+      "forward",
+      "report"
     ]
   },
   {
@@ -4564,7 +5226,7 @@
     "reading": "かく",
     "hanViet": null,
     "meanings": [
-      "gãi"
+      "scratch"
     ]
   },
   {
@@ -4575,8 +5237,10 @@
     "reading": "つかむ",
     "hanViet": null,
     "meanings": [
-      "tóm",
-      "chộp"
+      "seize",
+      "catch",
+      "obtain",
+      "understand"
     ]
   },
   {
@@ -4587,7 +5251,10 @@
     "reading": "にぎる",
     "hanViet": "ÁC",
     "meanings": [
-      "nắm chặt"
+      "clasp",
+      "grasp",
+      "hold",
+      "seize"
     ]
   },
   {
@@ -4598,7 +5265,9 @@
     "reading": "おさえる",
     "hanViet": "ỨC",
     "meanings": [
-      "giữ"
+      "keep within limits",
+      "restrain",
+      "hold back"
     ]
   },
   {
@@ -4609,7 +5278,9 @@
     "reading": "ちかづく",
     "hanViet": "CẬN",
     "meanings": [
-      "lại gần"
+      "approach",
+      "draw near",
+      "get acquainted with"
     ]
   },
   {
@@ -4620,7 +5291,9 @@
     "reading": "ちかづける",
     "hanViet": "CẬN",
     "meanings": [
-      "mang đến gần"
+      "bring near",
+      "bring close",
+      "associate with"
     ]
   },
   {
@@ -4631,7 +5304,10 @@
     "reading": "あう",
     "hanViet": "HỢP",
     "meanings": [
-      "gặp"
+      "come together",
+      "merge",
+      "fit",
+      "be profitable"
     ]
   },
   {
@@ -4642,8 +5318,9 @@
     "reading": "あわせる",
     "hanViet": "HỢP",
     "meanings": [
-      "tập hợp",
-      "hiệp lực"
+      "match",
+      "join together",
+      "face"
     ]
   },
   {
@@ -4654,7 +5331,10 @@
     "reading": "あたる",
     "hanViet": "ĐƯƠNG",
     "meanings": [
-      "bị đánh"
+      "be hit",
+      "strike",
+      "touch",
+      "be equivalent to"
     ]
   },
   {
@@ -4665,7 +5345,9 @@
     "reading": "あてる",
     "hanViet": "ĐƯƠNG",
     "meanings": [
-      "đánh"
+      "hit",
+      "expose",
+      "apply"
     ]
   },
   {
@@ -4676,7 +5358,9 @@
     "reading": "くらべる",
     "hanViet": "TỶ",
     "meanings": [
-      "so sánh"
+      "compare",
+      "make a comparison",
+      "compete"
     ]
   },
   {
@@ -4687,7 +5371,8 @@
     "reading": "にあう",
     "hanViet": "TỰ HỢP",
     "meanings": [
-      "hợp"
+      "suit",
+      "match"
     ]
   },
   {
@@ -4698,7 +5383,8 @@
     "reading": "にる",
     "hanViet": "TỰ",
     "meanings": [
-      "giống"
+      "resemble",
+      "look like"
     ]
   },
   {
@@ -4709,7 +5395,8 @@
     "reading": "にせる",
     "hanViet": "TỰ",
     "meanings": [
-      "bắt chước"
+      "copy",
+      "imitate"
     ]
   },
   {
@@ -4720,7 +5407,10 @@
     "reading": "わかれる",
     "hanViet": "PHÂN",
     "meanings": [
-      "được chia ra"
+      "branch",
+      "fork",
+      "separate",
+      "disperse"
     ]
   },
   {
@@ -4731,7 +5421,10 @@
     "reading": "わける",
     "hanViet": "PHÂN",
     "meanings": [
-      "chia"
+      "divide",
+      "split",
+      "share",
+      "distinguish"
     ]
   },
   {
@@ -4742,8 +5435,8 @@
     "reading": "たす",
     "hanViet": "TÚC",
     "meanings": [
-      "cộng",
-      "thêm vào"
+      "add",
+      "take care of"
     ]
   },
   {
@@ -4754,8 +5447,10 @@
     "reading": "ひく",
     "hanViet": "DẪN",
     "meanings": [
-      "kéo",
-      "trừ"
+      "pull",
+      "tug",
+      "draw",
+      "draw back"
     ]
   },
   {
@@ -4766,7 +5461,8 @@
     "reading": "ふえる",
     "hanViet": "TĂNG",
     "meanings": [
-      "tăng lên"
+      "increase",
+      "multiply"
     ]
   },
   {
@@ -4777,7 +5473,8 @@
     "reading": "ふやす",
     "hanViet": "TĂNG",
     "meanings": [
-      "làm tăng lên"
+      "increase",
+      "add to"
     ]
   },
   {
@@ -4788,7 +5485,8 @@
     "reading": "へる",
     "hanViet": "GIẢM",
     "meanings": [
-      "giảm xuống"
+      "decrease",
+      "diminish"
     ]
   },
   {
@@ -4799,7 +5497,8 @@
     "reading": "へらす",
     "hanViet": "GIẢM",
     "meanings": [
-      "làm giảm xuống"
+      "abate",
+      "decrease"
     ]
   },
   {
@@ -4810,7 +5509,10 @@
     "reading": "かわる",
     "hanViet": "BIẾN",
     "meanings": [
-      "thay đổi"
+      "change",
+      "be transformed",
+      "move to",
+      "be different"
     ]
   },
   {
@@ -4821,7 +5523,9 @@
     "reading": "かえる",
     "hanViet": "BIẾN",
     "meanings": [
-      "làm thay đổi"
+      "change",
+      "alter",
+      "reform"
     ]
   },
   {
@@ -4832,7 +5536,10 @@
     "reading": "かわる",
     "hanViet": "ĐẠI THẾ HOÁN",
     "meanings": [
-      "thay"
+      "succeed",
+      "relieve",
+      "take the place of",
+      "be exchanged"
     ]
   },
   {
@@ -4843,7 +5550,10 @@
     "reading": "かえる",
     "hanViet": "ĐẠI THẾ HOÁN",
     "meanings": [
-      "đổi"
+      "replace",
+      "convert",
+      "exchange",
+      "substitute"
     ]
   },
   {
@@ -4854,7 +5564,10 @@
     "reading": "かえる",
     "hanViet": "PHẢN",
     "meanings": [
-      "được trả lại"
+      "return",
+      "come back",
+      "turn over",
+      "become extremely"
     ]
   },
   {
@@ -4865,7 +5578,10 @@
     "reading": "かえす",
     "hanViet": "PHẢN",
     "meanings": [
-      "trả lại"
+      "return",
+      "restore",
+      "turn over",
+      "pay back"
     ]
   },
   {
@@ -4876,7 +5592,10 @@
     "reading": "ゆずる",
     "hanViet": "NHƯỢNG",
     "meanings": [
-      "nhường"
+      "hand over",
+      "transfer",
+      "give up",
+      "yield"
     ]
   },
   {
@@ -4887,7 +5606,10 @@
     "reading": "たすかる",
     "hanViet": "TRỢ",
     "meanings": [
-      "được giúp"
+      "be saved",
+      "be rescued",
+      "escape harm",
+      "be helped"
     ]
   },
   {
@@ -4898,7 +5620,10 @@
     "reading": "たすける",
     "hanViet": "TRỢ",
     "meanings": [
-      "giúp"
+      "save",
+      "rescue",
+      "help",
+      "support"
     ]
   },
   {
@@ -4909,7 +5634,9 @@
     "reading": "いじめる",
     "hanViet": null,
     "meanings": [
-      "bắt nạt"
+      "ill-treat",
+      "bully",
+      "be tough on"
     ]
   },
   {
@@ -4920,7 +5647,8 @@
     "reading": "だまる",
     "hanViet": null,
     "meanings": [
-      "lừa"
+      "deceive",
+      "trick"
     ]
   },
   {
@@ -4931,7 +5659,9 @@
     "reading": "ぬすむ",
     "hanViet": "ĐẠO",
     "meanings": [
-      "lấy cắp"
+      "steal",
+      "plagiarize",
+      "do stealthily"
     ]
   },
   {
@@ -4942,7 +5672,9 @@
     "reading": "ささる",
     "hanViet": "THÍCH",
     "meanings": [
-      "bị đâm"
+      "stick into",
+      "prick",
+      "resonate emotionally"
     ]
   },
   {
@@ -4953,7 +5685,10 @@
     "reading": "さす",
     "hanViet": "THÍCH",
     "meanings": [
-      "đâm"
+      "pierce",
+      "stab",
+      "sting",
+      "sew"
     ]
   },
   {
@@ -4964,7 +5699,9 @@
     "reading": "ころす",
     "hanViet": "SÁT",
     "meanings": [
-      "giết"
+      "kill",
+      "slay",
+      "suppress"
     ]
   },
   {
@@ -4975,8 +5712,10 @@
     "reading": "かくれる",
     "hanViet": "ẨN",
     "meanings": [
-      "ẩn náu",
-      "trốn"
+      "hide",
+      "conceal oneself",
+      "disappear",
+      "live in seclusion"
     ]
   },
   {
@@ -4987,7 +5726,8 @@
     "reading": "かくす",
     "hanViet": "ẨN",
     "meanings": [
-      "che giấu"
+      "hide",
+      "conceal"
     ]
   },
   {
@@ -4998,7 +5738,10 @@
     "reading": "うまる",
     "hanViet": "MAI",
     "meanings": [
-      "bị chôn"
+      "be buried",
+      "be covered",
+      "overflow",
+      "be repaid"
     ]
   },
   {
@@ -5009,7 +5752,9 @@
     "reading": "うめる",
     "hanViet": "MAI",
     "meanings": [
-      "chôn"
+      "bury",
+      "fill up",
+      "plug"
     ]
   },
   {
@@ -5020,7 +5765,10 @@
     "reading": "かこむ",
     "hanViet": "VY",
     "meanings": [
-      "vây quanh"
+      "surround",
+      "encircle",
+      "besiege",
+      "play"
     ]
   },
   {
@@ -5031,8 +5779,10 @@
     "reading": "つまる",
     "hanViet": "CẬT",
     "meanings": [
-      "đầy",
-      "chặt"
+      "be packed",
+      "be filled",
+      "be blocked",
+      "be become shorter"
     ]
   },
   {
@@ -5043,7 +5793,10 @@
     "reading": "つめる",
     "hanViet": "CẬT",
     "meanings": [
-      "đóng gói"
+      "stuff into",
+      "jam",
+      "shorten",
+      "reduce"
     ]
   },
   {
@@ -5054,7 +5807,9 @@
     "reading": "ひらく",
     "hanViet": "KHAI",
     "meanings": [
-      "mở"
+      "open",
+      "undo",
+      "bloom"
     ]
   },
   {
@@ -5065,7 +5820,8 @@
     "reading": "とじる",
     "hanViet": "BẾ",
     "meanings": [
-      "dđóng"
+      "close",
+      "shut"
     ]
   },
   {
@@ -5076,7 +5832,10 @@
     "reading": "とぶ",
     "hanViet": "PHI",
     "meanings": [
-      "bay"
+      "fly",
+      "soar",
+      "jump",
+      "spatter"
     ]
   },
   {
@@ -5087,7 +5846,10 @@
     "reading": "とばす",
     "hanViet": "PHI",
     "meanings": [
-      "cho bay"
+      "let fly",
+      "make fly",
+      "skip over",
+      "run fast"
     ]
   },
   {
@@ -5098,8 +5860,10 @@
     "reading": "ふる",
     "hanViet": "CHẤN",
     "meanings": [
-      "rung",
-      "vẫy"
+      "wave",
+      "shake",
+      "sprinkle",
+      "cast"
     ]
   },
   {
@@ -5110,7 +5874,9 @@
     "reading": "めくる",
     "hanViet": null,
     "meanings": [
-      "lật lên"
+      "turn over",
+      "turn",
+      "tear off"
     ]
   },
   {
@@ -5121,7 +5887,8 @@
     "reading": "みかける",
     "hanViet": "KIẾN",
     "meanings": [
-      "tình cờ thấy"
+      "see",
+      "notice"
     ]
   },
   {
@@ -5132,7 +5899,8 @@
     "reading": "たしかめる",
     "hanViet": "XÁC",
     "meanings": [
-      "kiểm tra lại"
+      "make sure",
+      "check"
     ]
   },
   {
@@ -5143,7 +5911,8 @@
     "reading": "ためす",
     "hanViet": "THÍ",
     "meanings": [
-      "thử"
+      "try",
+      "have a try"
     ]
   },
   {
@@ -5154,7 +5923,8 @@
     "reading": "くりかえす",
     "hanViet": "SÀO PHẢN",
     "meanings": [
-      "lặp lại"
+      "repeat",
+      "do over again"
     ]
   },
   {
@@ -5165,7 +5935,8 @@
     "reading": "やくす",
     "hanViet": "DỊCH",
     "meanings": [
-      "dịch"
+      "translate",
+      "interpret"
     ]
   },
   {
@@ -5176,7 +5947,8 @@
     "reading": "おこなう",
     "hanViet": "HÀNH",
     "meanings": [
-      "tổ chức"
+      "perform",
+      "do"
     ]
   },
   {
@@ -5187,7 +5959,10 @@
     "reading": "まちがう",
     "hanViet": "GIAN VI",
     "meanings": [
-      "bị sai"
+      "be mistaken",
+      "be incorrect",
+      "make a mistake",
+      "mistake"
     ]
   },
   {
@@ -5198,7 +5973,9 @@
     "reading": "まちがえる",
     "hanViet": "GIAN VI",
     "meanings": [
-      "làm sai"
+      "make a mistake",
+      "commit an error",
+      "mistake"
     ]
   },
   {
@@ -5209,8 +5986,10 @@
     "reading": "ゆるす",
     "hanViet": "HỨA",
     "meanings": [
-      "tha thứ",
-      "cho phép"
+      "permit",
+      "allow",
+      "forgive",
+      "exempt from"
     ]
   },
   {
@@ -5221,7 +6000,10 @@
     "reading": "なれる",
     "hanViet": "QUÁN",
     "meanings": [
-      "quen"
+      "get used to",
+      "grow accustomed to",
+      "become skilled in",
+      "become tame"
     ]
   },
   {
@@ -5232,7 +6014,9 @@
     "reading": "ならす",
     "hanViet": "QUÁN",
     "meanings": [
-      "khởi động"
+      "accustom",
+      "train",
+      "tame"
     ]
   },
   {
@@ -5243,7 +6027,9 @@
     "reading": "たつ",
     "hanViet": "LẬP",
     "meanings": [
-      "đứng"
+      "stand",
+      "rise",
+      "be"
     ]
   },
   {
@@ -5254,7 +6040,10 @@
     "reading": "たてる",
     "hanViet": "LẬP",
     "meanings": [
-      "dựng lên"
+      "stand up",
+      "put upright",
+      "thrust into",
+      "make"
     ]
   },
   {
@@ -5265,7 +6054,8 @@
     "reading": "たつ",
     "hanViet": "KIẾN",
     "meanings": [
-      "được xây"
+      "be erected",
+      "be built"
     ]
   },
   {
@@ -5276,7 +6066,8 @@
     "reading": "たてる",
     "hanViet": "KIẾN",
     "meanings": [
-      "xây"
+      "build",
+      "construct"
     ]
   },
   {
@@ -5287,7 +6078,8 @@
     "reading": "そだつ",
     "hanViet": "DỤC",
     "meanings": [
-      "được nuôi dạy"
+      "be raised",
+      "be brought up"
     ]
   },
   {
@@ -5298,8 +6090,10 @@
     "reading": "そだてる",
     "hanViet": "DỤC",
     "meanings": [
-      "nuôi",
-      "dạy"
+      "raise",
+      "rear",
+      "train",
+      "promote the growth of"
     ]
   },
   {
@@ -5310,7 +6104,9 @@
     "reading": "はえる",
     "hanViet": "SINH",
     "meanings": [
-      "mọc"
+      "grow",
+      "spring up",
+      "cut"
     ]
   },
   {
@@ -5321,7 +6117,9 @@
     "reading": "はやす",
     "hanViet": "SINH",
     "meanings": [
-      "nuôi(râu)"
+      "grow",
+      "cultivate",
+      "let grow"
     ]
   },
   {
@@ -5332,7 +6130,9 @@
     "reading": "よごれる",
     "hanViet": "Ô",
     "meanings": [
-      "bị bẩn"
+      "get dirty",
+      "become dirty",
+      "become sullied"
     ]
   },
   {
@@ -5343,7 +6143,9 @@
     "reading": "よごす",
     "hanViet": "Ô",
     "meanings": [
-      "làm bẩn"
+      "pollute",
+      "contaminate",
+      "disgrace"
     ]
   },
   {
@@ -5354,7 +6156,9 @@
     "reading": "こわれる",
     "hanViet": "HOẠI",
     "meanings": [
-      "bị hỏng"
+      "be broken",
+      "break",
+      "fall through"
     ]
   },
   {
@@ -5365,7 +6169,9 @@
     "reading": "こわす",
     "hanViet": "HOẠI",
     "meanings": [
-      "làm hỏng"
+      "break",
+      "destroy",
+      "wreck"
     ]
   },
   {
@@ -5376,7 +6182,10 @@
     "reading": "われる",
     "hanViet": "CÁT",
     "meanings": [
-      "bị vỡ"
+      "break",
+      "be smashed",
+      "split",
+      "be divided"
     ]
   },
   {
@@ -5387,7 +6196,9 @@
     "reading": "わる",
     "hanViet": "CÁT",
     "meanings": [
-      "làm vỡ"
+      "divide",
+      "cut",
+      "break"
     ]
   },
   {
@@ -5398,7 +6209,10 @@
     "reading": "おれる",
     "hanViet": "CHIẾT",
     "meanings": [
-      "bị gãy"
+      "break",
+      "be broken",
+      "be folded",
+      "give in"
     ]
   },
   {
@@ -5409,7 +6223,10 @@
     "reading": "おる",
     "hanViet": "CHIẾT",
     "meanings": [
-      "làm gãy"
+      "break",
+      "fracture",
+      "fold",
+      "make"
     ]
   },
   {
@@ -5420,7 +6237,9 @@
     "reading": "やぶれる",
     "hanViet": "PHÁ",
     "meanings": [
-      "bị rách"
+      "get torn",
+      "tear",
+      "be broken off"
     ]
   },
   {
@@ -5431,7 +6250,10 @@
     "reading": "やぶる",
     "hanViet": "PHÁ",
     "meanings": [
-      "xé rách"
+      "tear",
+      "rip",
+      "break through",
+      "defeat"
     ]
   },
   {
@@ -5442,8 +6264,10 @@
     "reading": "まがる",
     "hanViet": "KHÚC",
     "meanings": [
-      "gập",
-      "cong"
+      "bend",
+      "curve",
+      "turn",
+      "be awry"
     ]
   },
   {
@@ -5454,8 +6278,9 @@
     "reading": "まげる",
     "hanViet": "KHÚC",
     "meanings": [
-      "bẻ",
-      "uốn"
+      "bend",
+      "crook",
+      "lean"
     ]
   },
   {
@@ -5466,7 +6291,10 @@
     "reading": "はずれる",
     "hanViet": "NGOẠI",
     "meanings": [
-      "bị rời ra"
+      "be disconnected",
+      "get out of place",
+      "miss the mark",
+      "be removed"
     ]
   },
   {
@@ -5477,7 +6305,10 @@
     "reading": "はずす",
     "hanViet": "NGOẠI",
     "meanings": [
-      "tách ra"
+      "remove",
+      "take off",
+      "drop",
+      "leave"
     ]
   },
   {
@@ -5488,7 +6319,9 @@
     "reading": "ゆれる",
     "hanViet": "DAO",
     "meanings": [
-      "bị rung"
+      "shake",
+      "sway",
+      "become unstable"
     ]
   },
   {
@@ -5499,7 +6332,8 @@
     "reading": "ゆらす",
     "hanViet": "DAO",
     "meanings": [
-      "đung đưa"
+      "rock",
+      "shake"
     ]
   },
   {
@@ -5510,7 +6344,10 @@
     "reading": "ながれる",
     "hanViet": "LƯU",
     "meanings": [
-      "chảy"
+      "stream",
+      "flow",
+      "be washed away",
+      "drift"
     ]
   },
   {
@@ -5521,7 +6358,10 @@
     "reading": "ながす",
     "hanViet": "LƯU",
     "meanings": [
-      "cho chảy"
+      "drain",
+      "pour",
+      "float",
+      "wash away"
     ]
   },
   {
@@ -5532,7 +6372,7 @@
     "reading": "ぬれる",
     "hanViet": "NHỤA",
     "meanings": [
-      "bị ướt"
+      "get wet"
     ]
   },
   {
@@ -5543,7 +6383,8 @@
     "reading": "ぬらす",
     "hanViet": "NHỤA",
     "meanings": [
-      "làm ướt"
+      "wet",
+      "moisten"
     ]
   },
   {
@@ -5554,7 +6395,10 @@
     "reading": "まよう",
     "hanViet": "MÊ",
     "meanings": [
-      "lạc đường"
+      "lose one's way",
+      "get lost",
+      "waver",
+      "be captivated"
     ]
   },
   {
@@ -5565,7 +6409,8 @@
     "reading": "なやむ",
     "hanViet": "NÃO",
     "meanings": [
-      "băn khoăn"
+      "be worried",
+      "be troubled"
     ]
   },
   {
@@ -5576,7 +6421,9 @@
     "reading": "あわてる",
     "hanViet": "HOANG",
     "meanings": [
-      "vội vàng"
+      "become confused",
+      "be flustered",
+      "hurry"
     ]
   },
   {
@@ -5587,7 +6434,10 @@
     "reading": "さめる",
     "hanViet": "GIÁC",
     "meanings": [
-      "thức dậy"
+      "wake",
+      "wake up",
+      "wear off",
+      "come to one's senses"
     ]
   },
   {
@@ -5598,8 +6448,10 @@
     "reading": "さます",
     "hanViet": "GIÁC",
     "meanings": [
-      "mở mắt",
-      "tỉnh"
+      "awaken",
+      "arouse from sleep",
+      "bring to one's senses",
+      "sober up"
     ]
   },
   {
@@ -5610,7 +6462,9 @@
     "reading": "ねむる",
     "hanViet": "MIÊN",
     "meanings": [
-      "ngủ"
+      "sleep",
+      "die",
+      "lie idle"
     ]
   },
   {
@@ -5621,8 +6475,9 @@
     "reading": "いのる",
     "hanViet": "KỲ",
     "meanings": [
-      "cầu",
-      "khấn"
+      "pray",
+      "say a prayer",
+      "wish"
     ]
   },
   {
@@ -5633,7 +6488,10 @@
     "reading": "いわう",
     "hanViet": "CHÚC",
     "meanings": [
-      "ăn mừng"
+      "celebrate",
+      "congratulate",
+      "present in celebration",
+      "wish for"
     ]
   },
   {
@@ -5644,7 +6502,10 @@
     "reading": "かんじる",
     "hanViet": "CẢM",
     "meanings": [
-      "cảm thấy"
+      "feel",
+      "sense",
+      "be moved",
+      "become infected with"
     ]
   },
   {
@@ -5655,7 +6516,7 @@
     "reading": "クラスメート",
     "hanViet": null,
     "meanings": [
-      "bạn cùng lớp"
+      "classmate"
     ]
   },
   {
@@ -5666,7 +6527,7 @@
     "reading": "グループ",
     "hanViet": null,
     "meanings": [
-      "nhóm"
+      "group"
     ]
   },
   {
@@ -5677,7 +6538,7 @@
     "reading": "チーム",
     "hanViet": null,
     "meanings": [
-      "đội"
+      "team"
     ]
   },
   {
@@ -5688,7 +6549,7 @@
     "reading": "プロフェッショナル",
     "hanViet": null,
     "meanings": [
-      "chuyên nghiệp"
+      "professional"
     ]
   },
   {
@@ -5699,7 +6560,7 @@
     "reading": "アマチュア",
     "hanViet": null,
     "meanings": [
-      "nghiệp dư"
+      "amateur"
     ]
   },
   {
@@ -5710,7 +6571,9 @@
     "reading": "トレーニング",
     "hanViet": null,
     "meanings": [
-      "đào tạo"
+      "training",
+      "practice",
+      "working out"
     ]
   },
   {
@@ -5721,7 +6584,7 @@
     "reading": "マッサージ",
     "hanViet": null,
     "meanings": [
-      "mát xa"
+      "massage"
     ]
   },
   {
@@ -5732,7 +6595,7 @@
     "reading": "アドバイス",
     "hanViet": null,
     "meanings": [
-      "khuyên"
+      "advice"
     ]
   },
   {
@@ -5743,7 +6606,7 @@
     "reading": "アイデア・アイディア",
     "hanViet": null,
     "meanings": [
-      "ý tưởng"
+      "idea"
     ]
   },
   {
@@ -5754,7 +6617,9 @@
     "reading": "トップ",
     "hanViet": null,
     "meanings": [
-      "top"
+      "top",
+      "top position",
+      "senior management"
     ]
   },
   {
@@ -5765,7 +6630,7 @@
     "reading": "スピード",
     "hanViet": null,
     "meanings": [
-      "tốc độ"
+      "speed"
     ]
   },
   {
@@ -5776,7 +6641,8 @@
     "reading": "ラッシュ",
     "hanViet": null,
     "meanings": [
-      "đông đúc"
+      "rush hour",
+      "rush"
     ]
   },
   {
@@ -5787,7 +6653,9 @@
     "reading": "バイク",
     "hanViet": null,
     "meanings": [
-      "xe máy"
+      "motorcycle",
+      "motorbike",
+      "bicycle"
     ]
   },
   {
@@ -5798,7 +6666,8 @@
     "reading": "ヘルメット",
     "hanViet": null,
     "meanings": [
-      "mũ bảo hiểm"
+      "helmet",
+      "hard hat"
     ]
   },
   {
@@ -5809,7 +6678,7 @@
     "reading": "コンタクトレンズ",
     "hanViet": null,
     "meanings": [
-      "kính áp tròng"
+      "contact lens"
     ]
   },
   {
@@ -5820,7 +6689,8 @@
     "reading": "ガラス",
     "hanViet": null,
     "meanings": [
-      "kính"
+      "glass",
+      "pane"
     ]
   },
   {
@@ -5831,7 +6701,7 @@
     "reading": "プラスチック",
     "hanViet": null,
     "meanings": [
-      "nhựa"
+      "plastic"
     ]
   },
   {
@@ -5842,7 +6712,8 @@
     "reading": "ベランダ",
     "hanViet": null,
     "meanings": [
-      "ban công"
+      "balcony",
+      "veranda"
     ]
   },
   {
@@ -5853,7 +6724,7 @@
     "reading": "ペット",
     "hanViet": null,
     "meanings": [
-      "thú cưng"
+      "pet"
     ]
   },
   {
@@ -5864,7 +6735,7 @@
     "reading": "ベンチ",
     "hanViet": null,
     "meanings": [
-      "ghế bành"
+      "bench"
     ]
   },
   {
@@ -5875,7 +6746,7 @@
     "reading": "デザイン",
     "hanViet": null,
     "meanings": [
-      "thiết kế"
+      "design"
     ]
   },
   {
@@ -5886,7 +6757,7 @@
     "reading": "バーゲンセール",
     "hanViet": null,
     "meanings": [
-      "sale"
+      "bargain sale"
     ]
   },
   {
@@ -5897,7 +6768,8 @@
     "reading": "パート",
     "hanViet": null,
     "meanings": [
-      "làm thêm"
+      "part-time work",
+      "part"
     ]
   },
   {
@@ -5908,7 +6780,7 @@
     "reading": "コンビニエンスストア",
     "hanViet": null,
     "meanings": [
-      "cửa hàng tiện ích"
+      "convenience store"
     ]
   },
   {
@@ -5919,7 +6791,8 @@
     "reading": "レジ",
     "hanViet": null,
     "meanings": [
-      "máy tính tiền"
+      "register",
+      "checkout"
     ]
   },
   {
@@ -5930,7 +6803,8 @@
     "reading": "レシート",
     "hanViet": null,
     "meanings": [
-      "hóa đơn"
+      "receipt",
+      "cash-register slip"
     ]
   },
   {
@@ -5941,7 +6815,7 @@
     "reading": "インスタント",
     "hanViet": null,
     "meanings": [
-      "ăn liền"
+      "instant"
     ]
   },
   {
@@ -5952,7 +6826,7 @@
     "reading": "ファストフード",
     "hanViet": null,
     "meanings": [
-      "đồ ăn nhanh"
+      "fast food"
     ]
   },
   {
@@ -5963,7 +6837,7 @@
     "reading": "フルーツ",
     "hanViet": null,
     "meanings": [
-      "trái cây"
+      "fruit"
     ]
   },
   {
@@ -5974,7 +6848,7 @@
     "reading": "デザート",
     "hanViet": null,
     "meanings": [
-      "tráng miệng"
+      "dessert"
     ]
   },
   {
@@ -5985,7 +6859,7 @@
     "reading": "インターネット",
     "hanViet": null,
     "meanings": [
-      "internet"
+      "Internet"
     ]
   },
   {
@@ -5996,7 +6870,8 @@
     "reading": "チャイム",
     "hanViet": null,
     "meanings": [
-      "chuông"
+      "chime",
+      "bell"
     ]
   },
   {
@@ -6007,7 +6882,8 @@
     "reading": "アナウンス",
     "hanViet": null,
     "meanings": [
-      "thông báo"
+      "announcement",
+      "official announcement"
     ]
   },
   {
@@ -6018,7 +6894,7 @@
     "reading": "メッセージ",
     "hanViet": null,
     "meanings": [
-      "tin nhắn"
+      "message"
     ]
   },
   {
@@ -6029,7 +6905,8 @@
     "reading": "パンフレット",
     "hanViet": null,
     "meanings": [
-      "tờ rơi"
+      "pamphlet",
+      "brochure"
     ]
   },
   {
@@ -6051,7 +6928,7 @@
     "reading": "インタビュー",
     "hanViet": null,
     "meanings": [
-      "phỏng vấn"
+      "interview"
     ]
   },
   {
@@ -6062,7 +6939,8 @@
     "reading": "アンケート",
     "hanViet": null,
     "meanings": [
-      "tờ câu hỏi"
+      "questionnaire",
+      "survey"
     ]
   },
   {
@@ -6073,7 +6951,8 @@
     "reading": "データ",
     "hanViet": null,
     "meanings": [
-      "dữ liệu"
+      "data",
+      "datum"
     ]
   },
   {
@@ -6084,7 +6963,8 @@
     "reading": "パーセント",
     "hanViet": null,
     "meanings": [
-      "phần trăm"
+      "percent",
+      "per cent"
     ]
   },
   {
@@ -6095,8 +6975,10 @@
     "reading": "こい",
     "hanViet": "NÙNG",
     "meanings": [
-      "đậm",
-      "đặc"
+      "deep",
+      "dark",
+      "strong",
+      "thick"
     ]
   },
   {
@@ -6107,8 +6989,9 @@
     "reading": "うすい",
     "hanViet": "BẠC",
     "meanings": [
-      "mỏng",
-      "nhạt"
+      "thin",
+      "pale",
+      "watery"
     ]
   },
   {
@@ -6119,7 +7002,8 @@
     "reading": "すっぱい",
     "hanViet": "TOAN",
     "meanings": [
-      "chua"
+      "sour",
+      "acid"
     ]
   },
   {
@@ -6130,7 +7014,10 @@
     "reading": "くさい",
     "hanViet": "XÚ",
     "meanings": [
-      "thối"
+      "stinking",
+      "smelly",
+      "suspicious",
+      "hammy"
     ]
   },
   {
@@ -6141,7 +7028,10 @@
     "reading": "おかしい",
     "hanViet": null,
     "meanings": [
-      "lạ"
+      "funny",
+      "amusing",
+      "strange",
+      "wrong"
     ]
   },
   {
@@ -6152,7 +7042,8 @@
     "reading": "かっこいい",
     "hanViet": null,
     "meanings": [
-      "bảnh bao"
+      "attractive",
+      "good-looking"
     ]
   },
   {
@@ -6163,7 +7054,9 @@
     "reading": "うまい",
     "hanViet": null,
     "meanings": [
-      "ngon"
+      "delicious",
+      "skillful",
+      "good"
     ]
   },
   {
@@ -6174,7 +7067,8 @@
     "reading": "したしい",
     "hanViet": "THÂN",
     "meanings": [
-      "thân thiết"
+      "close",
+      "familiar"
     ]
   },
   {
@@ -6185,7 +7079,9 @@
     "reading": "くわしい",
     "hanViet": "TƯỜNG",
     "meanings": [
-      "chi tiết"
+      "detailed",
+      "full",
+      "knowing very well"
     ]
   },
   {
@@ -6196,8 +7092,9 @@
     "reading": "こまかい",
     "hanViet": "TẾ",
     "meanings": [
-      "tiểu tiết",
-      "bé"
+      "small",
+      "fine",
+      "minor"
     ]
   },
   {
@@ -6208,7 +7105,10 @@
     "reading": "あさい",
     "hanViet": "THIỂN",
     "meanings": [
-      "nông"
+      "shallow",
+      "superficial",
+      "slight",
+      "short"
     ]
   },
   {
@@ -6219,7 +7119,10 @@
     "reading": "かたい",
     "hanViet": "CỐ NGẠNH",
     "meanings": [
-      "cứng"
+      "hard",
+      "solid",
+      "stiff",
+      "strong"
     ]
   },
   {
@@ -6230,7 +7133,9 @@
     "reading": "ぬるい",
     "hanViet": null,
     "meanings": [
-      "nguội"
+      "lukewarm",
+      "tepid",
+      "lenient"
     ]
   },
   {
@@ -6241,7 +7146,8 @@
     "reading": "まぶしい",
     "hanViet": null,
     "meanings": [
-      "chói"
+      "dazzling",
+      "radiant"
     ]
   },
   {
@@ -6252,7 +7158,8 @@
     "reading": "むしあつい",
     "hanViet": "CHƯNG THỬ",
     "meanings": [
-      "nóng ẩm"
+      "humid",
+      "sultry"
     ]
   },
   {
@@ -6263,7 +7170,9 @@
     "reading": "せいけつな",
     "hanViet": "THANH KHIẾT",
     "meanings": [
-      "sạch"
+      "clean",
+      "hygienic",
+      "pure"
     ]
   },
   {
@@ -6274,7 +7183,7 @@
     "reading": "しんせんな",
     "hanViet": "TÂN TIÊN",
     "meanings": [
-      "tươi"
+      "fresh"
     ]
   },
   {
@@ -6285,7 +7194,10 @@
     "reading": "ゆたかな",
     "hanViet": "PHONG",
     "meanings": [
-      "giàu có"
+      "abundant",
+      "plentiful",
+      "rich",
+      "open"
     ]
   },
   {
@@ -6296,7 +7208,10 @@
     "reading": "りっぱな",
     "hanViet": "LẬP PHÁI",
     "meanings": [
-      "siêu"
+      "splendid",
+      "fine",
+      "praiseworthy",
+      "legal"
     ]
   },
   {
@@ -6307,7 +7222,8 @@
     "reading": "せいかくな",
     "hanViet": "CHÍNH XÁC",
     "meanings": [
-      "chính xác"
+      "accurate",
+      "correct"
     ]
   },
   {
@@ -6318,7 +7234,10 @@
     "reading": "たしかな",
     "hanViet": "XÁC",
     "meanings": [
-      "đích thực"
+      "sure",
+      "certain",
+      "reliable",
+      "If I'm not mistaken"
     ]
   },
   {
@@ -6329,7 +7248,8 @@
     "reading": "じゅうような",
     "hanViet": "TRỌNG YẾU",
     "meanings": [
-      "quan trọng"
+      "important",
+      "essential"
     ]
   },
   {
@@ -6340,7 +7260,9 @@
     "reading": "ひつような",
     "hanViet": "TẤT YẾU",
     "meanings": [
-      "cần thiết"
+      "necessary",
+      "needed",
+      "necessity"
     ]
   },
   {
@@ -6351,7 +7273,10 @@
     "reading": "もったいない",
     "hanViet": null,
     "meanings": [
-      "lãng phí"
+      "wasteful",
+      "a waste",
+      "too good",
+      "impious"
     ]
   },
   {
@@ -6362,8 +7287,10 @@
     "reading": "すごい",
     "hanViet": null,
     "meanings": [
-      "ghê",
-      "siêu"
+      "terrible",
+      "dreadful",
+      "amazing",
+      "a great extent"
     ]
   },
   {
@@ -6374,7 +7301,10 @@
     "reading": "ひどい",
     "hanViet": null,
     "meanings": [
-      "tồi"
+      "cruel",
+      "heartless",
+      "violent",
+      "very bad"
     ]
   },
   {
@@ -6385,7 +7315,10 @@
     "reading": "はげしい",
     "hanViet": "KÍCH",
     "meanings": [
-      "mãnh liệt"
+      "violent",
+      "furious",
+      "extreme",
+      "fervent"
     ]
   },
   {
@@ -6396,7 +7329,8 @@
     "reading": "そっくりな",
     "hanViet": null,
     "meanings": [
-      "giống"
+      "exactly alike",
+      "identical"
     ]
   },
   {
@@ -6407,7 +7341,10 @@
     "reading": "きゅうな",
     "hanViet": "CẤP",
     "meanings": [
-      "đột nhiên"
+      "sudden",
+      "abrupt",
+      "urgent",
+      "steep"
     ]
   },
   {
@@ -6418,7 +7355,8 @@
     "reading": "てきとな",
     "hanViet": "ĐỊCH",
     "meanings": [
-      "phù hợp"
+      "appropriate",
+      "suitable"
     ]
   },
   {
@@ -6429,7 +7367,8 @@
     "reading": "とくべつな",
     "hanViet": "ĐẶC BIỆT",
     "meanings": [
-      "đặc biệt"
+      "special",
+      "particular"
     ]
   },
   {
@@ -6440,7 +7379,8 @@
     "reading": "かんぜんな",
     "hanViet": "HOÀN TOÀN",
     "meanings": [
-      "toàn bộ"
+      "perfect",
+      "complete"
     ]
   },
   {
@@ -6451,7 +7391,10 @@
     "reading": "さかんな",
     "hanViet": "THỊNH",
     "meanings": [
-      "thịnh vượng"
+      "prosperous",
+      "flourishing",
+      "popular",
+      "active"
     ]
   },
   {
@@ -6462,7 +7405,8 @@
     "reading": "さまざまな",
     "hanViet": "DẠNG",
     "meanings": [
-      "đa đạng"
+      "various",
+      "varied"
     ]
   },
   {
@@ -6473,7 +7417,8 @@
     "reading": "かのうな",
     "hanViet": "KHẢ NĂNG",
     "meanings": [
-      "khả thi"
+      "possible",
+      "potential"
     ]
   },
   {
@@ -6484,7 +7429,7 @@
     "reading": "ふかのうな",
     "hanViet": "BẤT KHẢ NĂNG",
     "meanings": [
-      "bất khả thi"
+      "impossible"
     ]
   },
   {
@@ -6495,7 +7440,8 @@
     "reading": "きほんてきな",
     "hanViet": "CƠ BẢN ĐÍCH",
     "meanings": [
-      "cơ bản"
+      "fundamental",
+      "basic"
     ]
   },
   {
@@ -6506,7 +7452,8 @@
     "reading": "こくさいてきな",
     "hanViet": "QUỐC TẾ ĐÍCH",
     "meanings": [
-      "tính quốc tế"
+      "international",
+      "worldwide"
     ]
   },
   {
@@ -6517,8 +7464,8 @@
     "reading": "ばらばらな",
     "hanViet": null,
     "meanings": [
-      "tung tóe",
-      "chia rẽ"
+      "scattered",
+      "disperse"
     ]
   },
   {
@@ -6529,8 +7476,10 @@
     "reading": "ぼろぼろな",
     "hanViet": null,
     "meanings": [
-      "rách nát",
-      "te tua"
+      "worn-out",
+      "ragged",
+      "crumbling",
+      "falling"
     ]
   },
   {
@@ -6541,7 +7490,8 @@
     "reading": "ひじょうに",
     "hanViet": "PHI THƯỜNG",
     "meanings": [
-      "rất"
+      "very",
+      "extremely"
     ]
   },
   {
@@ -6552,8 +7502,8 @@
     "reading": "たいへんに",
     "hanViet": "ĐẠI BIẾN",
     "meanings": [
-      "khủng khiếp",
-      "rất nhiều"
+      "very",
+      "extremely"
     ]
   },
   {
@@ -6564,7 +7514,10 @@
     "reading": "ほとんど",
     "hanViet": null,
     "meanings": [
-      "gần như hoàn toàn"
+      "almost",
+      "nearly",
+      "hardly",
+      "large majority"
     ]
   },
   {
@@ -6575,8 +7528,10 @@
     "reading": "だいたい",
     "hanViet": "ĐẠI THỂ",
     "meanings": [
-      "phần lớn",
-      "trong khoảng"
+      "generally",
+      "on the whole",
+      "general",
+      "outline"
     ]
   },
   {
@@ -6587,7 +7542,8 @@
     "reading": "かなり",
     "hanViet": null,
     "meanings": [
-      "khá"
+      "considerably",
+      "fairly"
     ]
   },
   {
@@ -6598,7 +7554,10 @@
     "reading": "ずいぶん",
     "hanViet": null,
     "meanings": [
-      "đáng kể"
+      "very",
+      "extremely",
+      "terrible",
+      "remarkable"
     ]
   },
   {
@@ -6609,7 +7568,8 @@
     "reading": "けっこう",
     "hanViet": null,
     "meanings": [
-      "rất"
+      "quite",
+      "fairly"
     ]
   },
   {
@@ -6620,8 +7580,8 @@
     "reading": "ずいぶん",
     "hanViet": "ĐẠI PHÂN",
     "meanings": [
-      "chủ yếu",
-      "khá"
+      "considerably",
+      "quite"
     ]
   },
   {
@@ -6632,8 +7592,8 @@
     "reading": "もっと",
     "hanViet": null,
     "meanings": [
-      "hơn",
-      "nữa"
+      "more",
+      "even more"
     ]
   },
   {
@@ -6644,7 +7604,10 @@
     "reading": "しっかり",
     "hanViet": null,
     "meanings": [
-      "toàn bộ"
+      "tightly",
+      "firmly",
+      "strongly",
+      "properly"
     ]
   },
   {
@@ -6655,7 +7618,9 @@
     "reading": "いっぱい",
     "hanViet": null,
     "meanings": [
-      "đầy"
+      "full",
+      "a lot",
+      "one cup"
     ]
   },
   {
@@ -6666,8 +7631,11 @@
     "reading": "ぎりぎり",
     "hanViet": null,
     "meanings": [
-      "gần",
-      "sát nút"
+      "just barely",
+      "only just",
+      "grinding",
+      "grating",
+      "forcefully"
     ]
   },
   {
@@ -6678,8 +7646,9 @@
     "reading": "ぴったり",
     "hanViet": null,
     "meanings": [
-      "vừa vặn",
-      "đúng"
+      "exactly",
+      "perfectly",
+      "snugly"
     ]
   },
   {
@@ -6690,8 +7659,8 @@
     "reading": "たいてい",
     "hanViet": null,
     "meanings": [
-      "đại thể",
-      "thường"
+      "usually",
+      "generally"
     ]
   },
   {
@@ -6702,7 +7671,9 @@
     "reading": "どうじに",
     "hanViet": "ĐỒNG THỜI",
     "meanings": [
-      "cùng lúc"
+      "at the same time",
+      "at once",
+      "just as ..."
     ]
   },
   {
@@ -6713,7 +7684,8 @@
     "reading": "まえもって",
     "hanViet": "TIỀN",
     "meanings": [
-      "trước"
+      "in advance",
+      "beforehand"
     ]
   },
   {
@@ -6724,7 +7696,8 @@
     "reading": "すぐに",
     "hanViet": null,
     "meanings": [
-      "ngay lập tức"
+      "immediately",
+      "right away"
     ]
   },
   {
@@ -6735,7 +7708,8 @@
     "reading": "もうすぐ",
     "hanViet": null,
     "meanings": [
-      "sắp"
+      "soon",
+      "shortly"
     ]
   },
   {
@@ -6746,7 +7720,8 @@
     "reading": "とつぜん",
     "hanViet": "ĐỘT NHIÊN",
     "meanings": [
-      "đột nhiên"
+      "abrupt",
+      "sudden"
     ]
   },
   {
@@ -6757,7 +7732,8 @@
     "reading": "あっというまに",
     "hanViet": "GIAN",
     "meanings": [
-      "loáng một cái"
+      "in an instant",
+      "in a flash"
     ]
   },
   {
@@ -6768,7 +7744,8 @@
     "reading": "いつのまにか",
     "hanViet": "GIAN",
     "meanings": [
-      "lúc nào không biết"
+      "before one knows",
+      "before one becomes aware of"
     ]
   },
   {
@@ -6779,7 +7756,10 @@
     "reading": "しばらく",
     "hanViet": null,
     "meanings": [
-      "một chút"
+      "for a moment",
+      "for a minute",
+      "for a while",
+      "for the time being"
     ]
   },
   {
@@ -6790,8 +7770,10 @@
     "reading": "ずっと",
     "hanViet": null,
     "meanings": [
-      "suốt",
-      "nhiều"
+      "continuously",
+      "the whole time",
+      "much",
+      "far"
     ]
   },
   {
@@ -6802,7 +7784,8 @@
     "reading": "あいかわらず",
     "hanViet": "TƯƠNG BIẾN",
     "meanings": [
-      "như mọi khi"
+      "as usual",
+      "as always"
     ]
   },
   {
@@ -6813,7 +7796,8 @@
     "reading": "つぎつぎに",
     "hanViet": "THỨ",
     "meanings": [
-      "lần lượt"
+      "one by one",
+      "one after another"
     ]
   },
   {
@@ -6824,7 +7808,9 @@
     "reading": "どんどん",
     "hanViet": null,
     "meanings": [
-      "dần dần"
+      "rapidly",
+      "steadily",
+      "one after another"
     ]
   },
   {
@@ -6835,7 +7821,8 @@
     "reading": "ますます",
     "hanViet": null,
     "meanings": [
-      "càng ngày càng"
+      "increasingly",
+      "more and more"
     ]
   },
   {
@@ -6846,8 +7833,9 @@
     "reading": "やっと",
     "hanViet": null,
     "meanings": [
-      "cuối cùng",
-      "vừa đủ"
+      "at last",
+      "finally",
+      "barely"
     ]
   },
   {
@@ -6858,9 +7846,8 @@
     "reading": "とうとう",
     "hanViet": null,
     "meanings": [
-      "sau cùng",
-      "cuối cùng",
-      "sau tất cả"
+      "finally",
+      "at last"
     ]
   },
   {
@@ -6871,8 +7858,8 @@
     "reading": "ついに",
     "hanViet": null,
     "meanings": [
-      "cuối cùng",
-      "sau cùng"
+      "finally",
+      "in the end"
     ]
   },
   {
@@ -6883,7 +7870,8 @@
     "reading": "もちろん",
     "hanViet": null,
     "meanings": [
-      "tất nhiên"
+      "of course",
+      "certainly"
     ]
   },
   {
@@ -6894,7 +7882,10 @@
     "reading": "やはり",
     "hanViet": null,
     "meanings": [
-      "như dự tính"
+      "as expected",
+      "sure enough",
+      "after all",
+      "too"
     ]
   },
   {
@@ -6905,7 +7896,10 @@
     "reading": "きっと",
     "hanViet": null,
     "meanings": [
-      "nhất định"
+      "surely",
+      "undoubtedly",
+      "sternly",
+      "having no slack"
     ]
   },
   {
@@ -6916,8 +7910,8 @@
     "reading": "ぜひ",
     "hanViet": null,
     "meanings": [
-      "bằng mọi giá",
-      "rất (muốn)"
+      "by all means",
+      "without fail"
     ]
   },
   {
@@ -6928,7 +7922,7 @@
     "reading": "なるべく",
     "hanViet": null,
     "meanings": [
-      "càng nhiều càng tốt"
+      "as much as possible"
     ]
   },
   {
@@ -6939,7 +7933,9 @@
     "reading": "あんがい",
     "hanViet": "ÁN NGOẠI",
     "meanings": [
-      "không ngờ đến"
+      "unexpectedly",
+      "surprisingly",
+      "unexpected"
     ]
   },
   {
@@ -6950,7 +7946,8 @@
     "reading": "None",
     "hanViet": null,
     "meanings": [
-      "có lẽ"
+      "perhaps",
+      "possibly"
     ]
   },
   {
@@ -6961,8 +7958,10 @@
     "reading": "まさか",
     "hanViet": null,
     "meanings": [
-      "không thể ngờ",
-      "không"
+      "by no means",
+      "never!",
+      "certainly",
+      "something unexpected"
     ]
   },
   {
@@ -6973,8 +7972,8 @@
     "reading": "うっかり",
     "hanViet": null,
     "meanings": [
-      "ngơ ngác",
-      "không để ý"
+      "carelessly",
+      "thoughtlessly"
     ]
   },
   {
@@ -6985,8 +7984,8 @@
     "reading": "つい",
     "hanViet": null,
     "meanings": [
-      "vô ý",
-      "buột"
+      "unintentionally",
+      "just"
     ]
   },
   {
@@ -6997,7 +7996,8 @@
     "reading": "おもわず",
     "hanViet": "TƯ",
     "meanings": [
-      "không ngờ đến"
+      "unconsciously",
+      "involuntarily"
     ]
   },
   {
@@ -7008,7 +8008,9 @@
     "reading": "ほっと",
     "hanViet": null,
     "meanings": [
-      "yên tâm"
+      "with a feeling of relief",
+      "with a sigh of relief",
+      "deeply"
     ]
   },
   {
@@ -7019,8 +8021,8 @@
     "reading": "いらいら",
     "hanViet": null,
     "meanings": [
-      "khó chịu",
-      "nóng giận"
+      "get irritated",
+      "get annoyed"
     ]
   },
   {
@@ -7031,7 +8033,9 @@
     "reading": "のんびり",
     "hanViet": null,
     "meanings": [
-      "tận hưởng"
+      "at leisure",
+      "in a relaxed manner",
+      "relax"
     ]
   },
   {
@@ -7042,7 +8046,8 @@
     "reading": "じつは",
     "hanViet": "THỰC",
     "meanings": [
-      "thực tế là"
+      "as a matter of fact",
+      "by the way"
     ]
   },
   {
@@ -7053,7 +8058,7 @@
     "reading": "どくしょ",
     "hanViet": "ĐỘC THƯ",
     "meanings": [
-      "đọc viết"
+      "reading"
     ]
   },
   {
@@ -7064,7 +8069,7 @@
     "reading": "えんそう",
     "hanViet": "DIỄN TẤU",
     "meanings": [
-      "biểu diễn"
+      "musical performance"
     ]
   },
   {
@@ -7075,7 +8080,8 @@
     "reading": "げいじゅつ",
     "hanViet": "VÂN THUẬT",
     "meanings": [
-      "nghệ thuật"
+      "art",
+      "the arts"
     ]
   },
   {
@@ -7086,7 +8092,8 @@
     "reading": "けんさ",
     "hanViet": "KIỂM TRA",
     "meanings": [
-      "kiểm tra"
+      "inspection",
+      "examination"
     ]
   },
   {
@@ -7097,7 +8104,7 @@
     "reading": "けつえき",
     "hanViet": "HUYẾT DỊCH",
     "meanings": [
-      "máu"
+      "blood"
     ]
   },
   {
@@ -7108,7 +8115,8 @@
     "reading": "ちりょう",
     "hanViet": "TRỊ LIỆU",
     "meanings": [
-      "trị liệu"
+      "treatment",
+      "care"
     ]
   },
   {
@@ -7119,7 +8127,8 @@
     "reading": "しょうじょう",
     "hanViet": "CHỨNG TRẠNG",
     "meanings": [
-      "triệu chứng"
+      "symptoms",
+      "condition"
     ]
   },
   {
@@ -7130,7 +8139,8 @@
     "reading": "よぼう",
     "hanViet": "DỰ PHÒNG",
     "meanings": [
-      "dự phòng"
+      "prevention",
+      "protection"
     ]
   },
   {
@@ -7141,7 +8151,8 @@
     "reading": "えいよう",
     "hanViet": "VINH DƯỠNG",
     "meanings": [
-      "dinh dưỡng"
+      "nutrition",
+      "nourishment"
     ]
   },
   {
@@ -7152,7 +8163,8 @@
     "reading": "しゅじゅつ",
     "hanViet": "THỦ THUẬT",
     "meanings": [
-      "phẫu thuật"
+      "surgery",
+      "operation"
     ]
   },
   {
@@ -7163,7 +8175,8 @@
     "reading": "しぼう",
     "hanViet": "TỬ VONG",
     "meanings": [
-      "tử vong"
+      "death",
+      "dying"
     ]
   },
   {
@@ -7174,7 +8187,10 @@
     "reading": "いのち",
     "hanViet": "MỆNH",
     "meanings": [
-      "sinh mạng"
+      "life",
+      "life force",
+      "lifetime",
+      "most important thing"
     ]
   },
   {
@@ -7185,7 +8201,9 @@
     "reading": "いっしょう",
     "hanViet": "NHẤT SINH",
     "meanings": [
-      "suốt đời"
+      "whole life",
+      "a lifetime",
+      "of one's life"
     ]
   },
   {
@@ -7196,7 +8214,7 @@
     "reading": "ごかい",
     "hanViet": "NGỘ GIẢI",
     "meanings": [
-      "hiểu nhầm"
+      "misunderstanding"
     ]
   },
   {
@@ -7207,7 +8225,8 @@
     "reading": "こうかい",
     "hanViet": "HẬU HỐI",
     "meanings": [
-      "hối hận"
+      "regret",
+      "repentance"
     ]
   },
   {
@@ -7218,7 +8237,10 @@
     "reading": "わけ",
     "hanViet": "DỊCH",
     "meanings": [
-      "lý do"
+      "reason",
+      "cause",
+      "meaning",
+      "sense"
     ]
   },
   {
@@ -7229,7 +8251,8 @@
     "reading": "たいど",
     "hanViet": "THÁI ĐỘ",
     "meanings": [
-      "thái độ"
+      "attitude",
+      "manner"
     ]
   },
   {
@@ -7240,7 +8263,10 @@
     "reading": "くせ",
     "hanViet": "TÍCH",
     "meanings": [
-      "thói quen"
+      "habit",
+      "tendency",
+      "peculiarity",
+      "crease"
     ]
   },
   {
@@ -7251,7 +8277,8 @@
     "reading": "れいぎ",
     "hanViet": "LỄ NGHI",
     "meanings": [
-      "lễ nghĩa"
+      "manners",
+      "courtesy"
     ]
   },
   {
@@ -7262,7 +8289,9 @@
     "reading": "もんく",
     "hanViet": "VĂN CÂU",
     "meanings": [
-      "phàn nàn"
+      "complaint",
+      "grumbling",
+      "phrase"
     ]
   },
   {
@@ -7273,8 +8302,9 @@
     "reading": "ひょうじょう",
     "hanViet": "BIỂU TÌNH",
     "meanings": [
-      "biểu lộ",
-      "biểu thị"
+      "facial expression",
+      "countenance",
+      "look"
     ]
   },
   {
@@ -7285,7 +8315,7 @@
     "reading": "ひょうめん",
     "hanViet": "KÍNH DIỆN",
     "meanings": [
-      "bề mặt"
+      "surface"
     ]
   },
   {
@@ -7296,7 +8326,10 @@
     "reading": "きんえん",
     "hanViet": "CẤM YÊN",
     "meanings": [
-      "cấm hút thuốc"
+      "abstaining from smoking",
+      "quitting smoking",
+      "prohibition of smoking",
+      "No Smoking"
     ]
   },
   {
@@ -7307,7 +8340,8 @@
     "reading": "きんし",
     "hanViet": "CẤM CHỈ",
     "meanings": [
-      "cấm"
+      "prohibition",
+      "inhibition"
     ]
   },
   {
@@ -7318,7 +8352,8 @@
     "reading": "かんせい",
     "hanViet": "HOÀN THÀNH",
     "meanings": [
-      "hoàn thành"
+      "completion",
+      "perfection"
     ]
   },
   {
@@ -7329,7 +8364,10 @@
     "reading": "かだい",
     "hanViet": "KHOÁ ĐỀ",
     "meanings": [
-      "chủ đề"
+      "subject",
+      "theme",
+      "homework",
+      "problem"
     ]
   },
   {
@@ -7340,7 +8378,7 @@
     "reading": "れいがい",
     "hanViet": "LỆ NGOẠI",
     "meanings": [
-      "ngoại lệ"
+      "exception"
     ]
   },
   {
@@ -7351,7 +8389,9 @@
     "reading": "きほん",
     "hanViet": "CƠ BẢN",
     "meanings": [
-      "cơ bản"
+      "basics",
+      "fundamentals",
+      "basically"
     ]
   },
   {
@@ -7362,7 +8402,8 @@
     "reading": "きろく",
     "hanViet": "KÝ LỤC",
     "meanings": [
-      "ghi âm"
+      "record",
+      "document"
     ]
   },
   {
@@ -7373,7 +8414,8 @@
     "reading": "じょうたい",
     "hanViet": "TRẠNG THÁI",
     "meanings": [
-      "trạng thái"
+      "state",
+      "condition"
     ]
   },
   {
@@ -7384,7 +8426,8 @@
     "reading": "できごと",
     "hanViet": "XUẤT LAI SỰ",
     "meanings": [
-      "sự kiện"
+      "occurrence",
+      "happening"
     ]
   },
   {
@@ -7395,9 +8438,9 @@
     "reading": "ばめん",
     "hanViet": "TRƯỜNG DIỆN",
     "meanings": [
-      "khung cảnh",
-      "tình huống",
-      "hiện trường"
+      "scene",
+      "setting",
+      "state of the market"
     ]
   },
   {
@@ -7408,7 +8451,8 @@
     "reading": "きかい",
     "hanViet": "CƠ HỘI",
     "meanings": [
-      "cơ hội"
+      "chance",
+      "opportunity"
     ]
   },
   {
@@ -7419,7 +8463,10 @@
     "reading": "きょり",
     "hanViet": "CỰ LY",
     "meanings": [
-      "khoảng cách"
+      "distance",
+      "range",
+      "difference",
+      "metric"
     ]
   },
   {
@@ -7430,7 +8477,8 @@
     "reading": "ていあん",
     "hanViet": "ĐỀ ÁN",
     "meanings": [
-      "đề xuất"
+      "proposal",
+      "proposition"
     ]
   },
   {
@@ -7441,8 +8489,8 @@
     "reading": "やりとり",
     "hanViet": "THỦ",
     "meanings": [
-      "trao đổi",
-      "làm việc"
+      "giving and taking",
+      "exchange"
     ]
   },
   {
@@ -7453,7 +8501,8 @@
     "reading": "ちしき",
     "hanViet": "TRI THỨC",
     "meanings": [
-      "kiến thức"
+      "knowledge",
+      "information"
     ]
   },
   {
@@ -7464,7 +8513,9 @@
     "reading": "じつりょく",
     "hanViet": "THỰC LỰC",
     "meanings": [
-      "thực lực"
+      "ability",
+      "true strength",
+      "arms"
     ]
   },
   {
@@ -7475,7 +8526,8 @@
     "reading": "しゅだん",
     "hanViet": "THỦ ĐOẠN",
     "meanings": [
-      "cách thức"
+      "means",
+      "way"
     ]
   },
   {
@@ -7486,7 +8538,10 @@
     "reading": "だいひょう",
     "hanViet": "ĐẠI BIỂU",
     "meanings": [
-      "đại biểu"
+      "representation",
+      "representative",
+      "exemplification",
+      "leader"
     ]
   },
   {
@@ -7497,7 +8552,8 @@
     "reading": "えいきょう",
     "hanViet": "ẢNH HƯỞNG",
     "meanings": [
-      "ảnh hưởng"
+      "influence",
+      "effect"
     ]
   },
   {
@@ -7508,7 +8564,9 @@
     "reading": "こうか",
     "hanViet": "HIỆU QUẢ",
     "meanings": [
-      "hiệu quả"
+      "effect",
+      "effectiveness",
+      "effects"
     ]
   },
   {
@@ -7519,7 +8577,7 @@
     "reading": "いんしょう",
     "hanViet": "ẤN TƯỢNG",
     "meanings": [
-      "ấn tượng"
+      "impression"
     ]
   },
   {
@@ -7530,8 +8588,10 @@
     "reading": "しるし",
     "hanViet": "ẤN",
     "meanings": [
-      "dấu",
-      "dấu hiệu"
+      "mark",
+      "sign",
+      "symbol",
+      "badge"
     ]
   },
   {
@@ -7542,7 +8602,8 @@
     "reading": "あいず",
     "hanViet": "HỢP ĐỒ",
     "meanings": [
-      "ám hiệu"
+      "sign",
+      "signal"
     ]
   },
   {
@@ -7553,7 +8614,10 @@
     "reading": "きょうつう",
     "hanViet": "CỘNG THÔNG",
     "meanings": [
-      "chung"
+      "common",
+      "shared",
+      "be common",
+      "-wide"
     ]
   },
   {
@@ -7564,7 +8628,7 @@
     "reading": "きょうちょう",
     "hanViet": "HIỆP ĐIỀU",
     "meanings": [
-      "nhấn mạnh"
+      "emphasis"
     ]
   },
   {
@@ -7575,7 +8639,9 @@
     "reading": "しょうりゃく",
     "hanViet": "TỈNH LƯỢC",
     "meanings": [
-      "lược bớt"
+      "omission",
+      "leaving out",
+      "abbreviation"
     ]
   },
   {
@@ -7586,7 +8652,8 @@
     "reading": "ちょうせん",
     "hanViet": "KHIÊU CHIẾN",
     "meanings": [
-      "thử thách"
+      "challenge",
+      "defiance"
     ]
   },
   {
@@ -7597,7 +8664,8 @@
     "reading": "やるき",
     "hanViet": "KHÍ",
     "meanings": [
-      "động lực"
+      "will",
+      "drive"
     ]
   },
   {
@@ -7608,8 +8676,8 @@
     "reading": "ゆうき",
     "hanViet": "DŨNG KHÍ",
     "meanings": [
-      "dũng cảm",
-      "dũng khí"
+      "courage",
+      "bravery"
     ]
   },
   {
@@ -7620,8 +8688,8 @@
     "reading": "しかく",
     "hanViet": "TƯ CÁCH",
     "meanings": [
-      "bằng cấp",
-      "tư cách"
+      "qualifications",
+      "requirements"
     ]
   },
   {
@@ -7632,8 +8700,8 @@
     "reading": "しんせい",
     "hanViet": "THÂN THỈNH",
     "meanings": [
-      "đăng ký",
-      "ứng tuyển"
+      "application",
+      "request"
     ]
   },
   {
@@ -7644,7 +8712,8 @@
     "reading": "ほんにん",
     "hanViet": "BẢN NHÂN",
     "meanings": [
-      "người được nói đến"
+      "the person in question",
+      "the person themselves"
     ]
   },
   {
@@ -7655,7 +8724,8 @@
     "reading": "けいやく",
     "hanViet": "KHẾ ƯỚC",
     "meanings": [
-      "hợp đồng"
+      "contract",
+      "compact"
     ]
   },
   {
@@ -7666,8 +8736,8 @@
     "reading": "しょうめい",
     "hanViet": "CHỨNG MINH",
     "meanings": [
-      "chứng minh",
-      "bằng chứng"
+      "proof",
+      "testimony"
     ]
   },
   {
@@ -7678,7 +8748,8 @@
     "reading": "へんこう",
     "hanViet": "BIẾN CANH",
     "meanings": [
-      "thay đổi"
+      "change",
+      "modification"
     ]
   },
   {
@@ -7689,7 +8760,9 @@
     "reading": "ほぞん",
     "hanViet": "BẢO TỒN",
     "meanings": [
-      "bảo tồn"
+      "preservation",
+      "conservation",
+      "save"
     ]
   },
   {
@@ -7700,7 +8773,9 @@
     "reading": "ほご",
     "hanViet": "BẢO HỘ",
     "meanings": [
-      "bảo vệ"
+      "protection",
+      "safeguard",
+      "preservation"
     ]
   },
   {
@@ -7711,7 +8786,8 @@
     "reading": "かんきょう",
     "hanViet": "HOÀN CẢNH",
     "meanings": [
-      "môi trường"
+      "environment",
+      "surroundings"
     ]
   },
   {
@@ -7722,7 +8798,7 @@
     "reading": "しげん",
     "hanViet": "TƯ NGUYÊN",
     "meanings": [
-      "tài nguyên"
+      "resources"
     ]
   },
   {
@@ -7733,7 +8809,9 @@
     "reading": "ふそく",
     "hanViet": "BẤT TÚC",
     "meanings": [
-      "thiếu"
+      "insufficiency",
+      "deficiency",
+      "dissatisfaction"
     ]
   },
   {
@@ -7744,7 +8822,9 @@
     "reading": "へいきん",
     "hanViet": "BÌNH QUÂN",
     "meanings": [
-      "trung bình"
+      "average",
+      "mean",
+      "balance"
     ]
   },
   {
@@ -7755,7 +8835,10 @@
     "reading": "わりあい",
     "hanViet": "CÁT HỢP",
     "meanings": [
-      "tỷ lệ"
+      "rate",
+      "ratio",
+      "comparatively",
+      "contrary to expectations"
     ]
   },
   {
@@ -7766,8 +8849,9 @@
     "reading": "しょうばい",
     "hanViet": "THƯƠNG MẠI",
     "meanings": [
-      "kinh doanh",
-      "buôn bán"
+      "trade",
+      "business",
+      "occupation"
     ]
   },
   {
@@ -7778,7 +8862,8 @@
     "reading": "しょうひん",
     "hanViet": "THƯƠNG PHẨM",
     "meanings": [
-      "sản phẩm"
+      "commodity",
+      "article of commerce"
     ]
   },
   {
@@ -7789,7 +8874,10 @@
     "reading": "しつ",
     "hanViet": "CHẤT",
     "meanings": [
-      "chất lượng"
+      "quality",
+      "value",
+      "nature",
+      "logical quality"
     ]
   },
   {
@@ -7800,7 +8888,10 @@
     "reading": "かた",
     "hanViet": "HÌNH",
     "meanings": [
-      "mẫu"
+      "type",
+      "style",
+      "mold",
+      "kata"
     ]
   },
   {
@@ -7811,7 +8902,8 @@
     "reading": "せいさん",
     "hanViet": "SINH SẢN",
     "meanings": [
-      "sản xuất"
+      "production",
+      "manufacture"
     ]
   },
   {
@@ -7822,8 +8914,8 @@
     "reading": "しょうひ",
     "hanViet": "TIÊU PHÍ",
     "meanings": [
-      "tiêu dùng",
-      "tiêu thụ"
+      "consumption",
+      "expenditure"
     ]
   },
   {
@@ -7834,8 +8926,8 @@
     "reading": "ぶっか",
     "hanViet": "VẬT GIÁ",
     "meanings": [
-      "giá cả",
-      "vật giá"
+      "prices of commodities",
+      "prices"
     ]
   },
   {
@@ -7846,7 +8938,8 @@
     "reading": "とうさん",
     "hanViet": "ĐẢO SẢN",
     "meanings": [
-      "phá sản"
+      "bankruptcy",
+      "insolvency"
     ]
   },
   {
@@ -7857,7 +8950,8 @@
     "reading": "けいたい",
     "hanViet": "HUỀ ĐỚI",
     "meanings": [
-      "mang theo"
+      "carrying",
+      "mobile phone"
     ]
   },
   {
@@ -7868,7 +8962,9 @@
     "reading": "げんだい",
     "hanViet": "HIỆN ĐẠI",
     "meanings": [
-      "hiện tại"
+      "present age",
+      "present day",
+      "modern era"
     ]
   },
   {
@@ -7879,7 +8975,9 @@
     "reading": "せいき",
     "hanViet": "THẾ KỶ",
     "meanings": [
-      "thế kỷ"
+      "century",
+      "era",
+      "of the century"
     ]
   },
   {
@@ -7890,7 +8988,9 @@
     "reading": "ぶんか",
     "hanViet": "VĂN HOÁ",
     "meanings": [
-      "văn hóa"
+      "culture",
+      "civilization",
+      "Bunka era"
     ]
   },
   {
@@ -7901,7 +9001,8 @@
     "reading": "とし",
     "hanViet": "ĐÔ THỊ",
     "meanings": [
-      "thành phố"
+      "town",
+      "city"
     ]
   },
   {
@@ -7912,7 +9013,9 @@
     "reading": "ちほう",
     "hanViet": "ĐỊA PHƯƠNG",
     "meanings": [
-      "địa phương"
+      "district",
+      "region",
+      "the country"
     ]
   },
   {
@@ -7923,7 +9026,8 @@
     "reading": "せんそう",
     "hanViet": "CHIẾN TRANH",
     "meanings": [
-      "chiến tranh"
+      "war",
+      "fighting"
     ]
   },
   {
@@ -7934,7 +9038,8 @@
     "reading": "へいわ",
     "hanViet": "BÌNH HOÀ",
     "meanings": [
-      "hòa bình"
+      "peace",
+      "harmony"
     ]
   },
   {
@@ -7945,7 +9050,9 @@
     "reading": "のぼる",
     "hanViet": "THƯỢNG",
     "meanings": [
-      "leo lên"
+      "ascend",
+      "go up",
+      "go to"
     ]
   },
   {
@@ -7956,7 +9063,10 @@
     "reading": "くだる",
     "hanViet": "HẠ",
     "meanings": [
-      "đi xuống"
+      "descend",
+      "go down",
+      "be handed down",
+      "pass"
     ]
   },
   {
@@ -7967,7 +9077,10 @@
     "reading": "すすむ",
     "hanViet": "TIẾN",
     "meanings": [
-      "tiến lên"
+      "advance",
+      "go forward",
+      "precede",
+      "make progress"
     ]
   },
   {
@@ -7978,7 +9091,10 @@
     "reading": "すすめる",
     "hanViet": "TIẾN",
     "meanings": [
-      "làm cho tiến lên"
+      "advance",
+      "move forward",
+      "carry forward",
+      "raise"
     ]
   },
   {
@@ -7989,9 +9105,10 @@
     "reading": "とおる",
     "hanViet": "THÔNG",
     "meanings": [
-      "thông qua",
-      "được chấp nhận",
-      "đi qua"
+      "go by",
+      "go past",
+      "run",
+      "go indoors"
     ]
   },
   {
@@ -8002,8 +9119,10 @@
     "reading": "とおす",
     "hanViet": "THÔNG",
     "meanings": [
-      "xuyên qua",
-      "thông qua"
+      "let pass",
+      "allow through",
+      "transmit",
+      "stick through"
     ]
   },
   {
@@ -8014,7 +9133,9 @@
     "reading": "こえる",
     "hanViet": "SIÊU VIỆT",
     "meanings": [
-      "vượt qua"
+      "cross over",
+      "cross",
+      "exceed"
     ]
   },
   {
@@ -8025,8 +9146,10 @@
     "reading": "すぎる",
     "hanViet": "QUÁ",
     "meanings": [
-      "quá",
-      "đi qua"
+      "pass through",
+      "pass by",
+      "pass",
+      "have expired"
     ]
   },
   {
@@ -8037,7 +9160,10 @@
     "reading": "すごす",
     "hanViet": "QUÁ",
     "meanings": [
-      "sử dụng(thời gian)"
+      "spend",
+      "pass",
+      "overdo",
+      "take care of"
     ]
   },
   {
@@ -8048,7 +9174,9 @@
     "reading": "うつる",
     "hanViet": "DI",
     "meanings": [
-      "được chuyển"
+      "move",
+      "change",
+      "spread"
     ]
   },
   {
@@ -8059,7 +9187,10 @@
     "reading": "うつす",
     "hanViet": "DI",
     "meanings": [
-      "chuyển"
+      "transfer",
+      "change",
+      "move to the next stage",
+      "divert to"
     ]
   },
   {
@@ -8070,7 +9201,8 @@
     "reading": "つれる",
     "hanViet": "LIÊN",
     "meanings": [
-      "dẫn đi"
+      "take with one",
+      "bring along"
     ]
   },
   {
@@ -8081,8 +9213,10 @@
     "reading": "よる",
     "hanViet": "KÝ",
     "meanings": [
-      "ghé sát",
-      "lại gần"
+      "approach",
+      "draw near",
+      "gather",
+      "stop by"
     ]
   },
   {
@@ -8093,7 +9227,10 @@
     "reading": "よせる",
     "hanViet": "KÝ",
     "meanings": [
-      "ghé vào"
+      "come near",
+      "let someone approach",
+      "bring near",
+      "deliver"
     ]
   },
   {
@@ -8104,8 +9241,10 @@
     "reading": "あたえる",
     "hanViet": "DỮ",
     "meanings": [
-      "trao",
-      "cung cấp"
+      "give",
+      "bestow",
+      "provide",
+      "assign"
     ]
   },
   {
@@ -8116,8 +9255,10 @@
     "reading": "える",
     "hanViet": "ĐẮC",
     "meanings": [
-      "đạt được",
-      "có được"
+      "get",
+      "earn",
+      "understand",
+      "receive something undesirable"
     ]
   },
   {
@@ -8128,8 +9269,10 @@
     "reading": "むく",
     "hanViet": "HƯỚNG",
     "meanings": [
-      "hướng",
-      "đối diện"
+      "turn toward",
+      "look",
+      "face",
+      "point"
     ]
   },
   {
@@ -8140,8 +9283,10 @@
     "reading": "むける",
     "hanViet": "HƯỚNG",
     "meanings": [
-      "hướng đến",
-      "quay"
+      "turn",
+      "face",
+      "head to",
+      "allot"
     ]
   },
   {
@@ -8152,9 +9297,9 @@
     "reading": "すすめる",
     "hanViet": "CẦN",
     "meanings": [
-      "rủ",
-      "mời",
-      "gợi ý"
+      "recommend",
+      "advise",
+      "offer"
     ]
   },
   {
@@ -8165,8 +9310,8 @@
     "reading": "すすめる",
     "hanViet": "TIẾN",
     "meanings": [
-      "giới thiệu",
-      "gợi ý"
+      "recommend",
+      "suggest"
     ]
   },
   {
@@ -8177,8 +9322,9 @@
     "reading": "まかせる",
     "hanViet": "NHẬM",
     "meanings": [
-      "tin tưởng",
-      "để cho ai đó làm gì"
+      "leave",
+      "entrust",
+      "use to the full"
     ]
   },
   {
@@ -8189,9 +9335,9 @@
     "reading": "まもる",
     "hanViet": "THỦ",
     "meanings": [
-      "giữ",
-      "tuân thủ",
-      "bảo vệ"
+      "protect",
+      "guard",
+      "keep"
     ]
   },
   {
@@ -8202,8 +9348,10 @@
     "reading": "あらそう",
     "hanViet": "TRANH",
     "meanings": [
-      "gây gổ",
-      "tranh giành"
+      "compete",
+      "contest",
+      "quarrel",
+      "deny"
     ]
   },
   {
@@ -8214,7 +9362,8 @@
     "reading": "のぞむ",
     "hanViet": "LÂM",
     "meanings": [
-      "ước"
+      "wish",
+      "hope"
     ]
   },
   {
@@ -8225,7 +9374,8 @@
     "reading": "しんじる",
     "hanViet": "TÍN",
     "meanings": [
-      "tin tưởng"
+      "believe",
+      "believe in"
     ]
   },
   {
@@ -8236,8 +9386,10 @@
     "reading": "つうじる",
     "hanViet": "THÔNG",
     "meanings": [
-      "hiểu",
-      "thông qua"
+      "be open",
+      "lead",
+      "flow",
+      "be conveyed"
     ]
   },
   {
@@ -8248,8 +9400,9 @@
     "reading": "あきる",
     "hanViet": "BÃO",
     "meanings": [
-      "chán",
-      "ngấy"
+      "get tired of",
+      "tire of",
+      "become sated"
     ]
   },
   {
@@ -8260,7 +9413,9 @@
     "reading": "おもいつく",
     "hanViet": "TƯ",
     "meanings": [
-      "nghĩ về"
+      "think of",
+      "hit upon",
+      "remember"
     ]
   },
   {
@@ -8271,8 +9426,10 @@
     "reading": "おもいやる",
     "hanViet": "TƯ",
     "meanings": [
-      "quan tâm",
-      "thông cảm"
+      "sympathize with",
+      "sympathise with",
+      "think of",
+      "worry about"
     ]
   },
   {
@@ -8283,7 +9440,8 @@
     "reading": "ねっちゅうする",
     "hanViet": "NHIỆT TRUNG",
     "meanings": [
-      "nghiện"
+      "being enthusiastic about",
+      "being wild about"
     ]
   },
   {
@@ -8294,7 +9452,10 @@
     "reading": "くらす",
     "hanViet": "MỘ",
     "meanings": [
-      "sống"
+      "live",
+      "lead a life",
+      "make a living",
+      "spend one's time"
     ]
   },
   {
@@ -8305,8 +9466,10 @@
     "reading": "まく",
     "hanViet": "QUYỂN",
     "meanings": [
-      "quấn",
-      "quàng"
+      "wind",
+      "coil",
+      "envelope",
+      "outflank"
     ]
   },
   {
@@ -8317,9 +9480,10 @@
     "reading": "むすぶ",
     "hanViet": "KẾT",
     "meanings": [
-      "buộc",
-      "cột",
-      "nối"
+      "tie",
+      "bind",
+      "bear",
+      "close"
     ]
   },
   {
@@ -8330,7 +9494,10 @@
     "reading": "すむ",
     "hanViet": "TẾ",
     "meanings": [
-      "kết thúc"
+      "finish",
+      "end",
+      "have a result less severe than expected",
+      "feel at ease"
     ]
   },
   {
@@ -8341,7 +9508,10 @@
     "reading": "すませる・すます",
     "hanViet": "TẾ TẾ",
     "meanings": [
-      "hoàn tất"
+      "finish",
+      "make an end of",
+      "make do",
+      "resolve"
     ]
   },
   {
@@ -8352,8 +9522,10 @@
     "reading": "できる",
     "hanViet": "XUẤT LAI",
     "meanings": [
-      "có thể",
-      "được xây dựng"
+      "be able to do",
+      "be possible",
+      "be good at",
+      "come into existence"
     ]
   },
   {
@@ -8364,8 +9536,10 @@
     "reading": "きれる",
     "hanViet": "THIẾT",
     "meanings": [
-      "cắt",
-      "hết hạn"
+      "break",
+      "snap",
+      "be injured",
+      "wear out"
     ]
   },
   {
@@ -8376,7 +9550,9 @@
     "reading": "きらす",
     "hanViet": "THIẾT",
     "meanings": [
-      "hết"
+      "run out of",
+      "be short of",
+      "be out of"
     ]
   },
   {
@@ -8387,9 +9563,10 @@
     "reading": "つたわる",
     "hanViet": "TRUYỀN",
     "meanings": [
-      "được truyền đi",
-      "được trải ra",
-      "được giới thiệu"
+      "spread",
+      "travel",
+      "be handed down",
+      "be introduced"
     ]
   },
   {
@@ -8400,8 +9577,8 @@
     "reading": "つたえる",
     "hanViet": "TRUYỀN",
     "meanings": [
-      "truyền đi",
-      "giới thiệu"
+      "convey",
+      "report"
     ]
   },
   {
@@ -8412,10 +9589,9 @@
     "reading": "つづく",
     "hanViet": "TỤC",
     "meanings": [
-      "tiếp tục",
-      "xảy ra",
-      "lặp lại",
-      "theo sau"
+      "continue",
+      "last",
+      "occur again and again"
     ]
   },
   {
@@ -8426,8 +9602,9 @@
     "reading": "つづける",
     "hanViet": "TỤC",
     "meanings": [
-      "tiếp tục",
-      "xảy ra liên tiếp"
+      "continue",
+      "keep up",
+      "continue ..."
     ]
   },
   {
@@ -8438,9 +9615,10 @@
     "reading": "つながる",
     "hanViet": null,
     "meanings": [
-      "được kết nối",
-      "được mở rộng",
-      "thông qua"
+      "be connected",
+      "be joined together",
+      "connect",
+      "lead"
     ]
   },
   {
@@ -8451,8 +9629,11 @@
     "reading": "つなぐ",
     "hanViet": null,
     "meanings": [
-      "kết nối",
-      "tham gia"
+      "connect",
+      "link together",
+      "tie",
+      "maintain",
+      "rigging"
     ]
   },
   {
@@ -8463,8 +9644,9 @@
     "reading": "つなげる",
     "hanViet": null,
     "meanings": [
-      "kết nối",
-      "làm chặt thêm"
+      "connect",
+      "tie",
+      "transfer"
     ]
   },
   {
@@ -8475,9 +9657,10 @@
     "reading": "のびる",
     "hanViet": "THÂN",
     "meanings": [
-      "lớn lên",
-      "tăng thêm",
-      "dài ra"
+      "stretch",
+      "extend",
+      "straighten out",
+      "spread"
     ]
   },
   {
@@ -8488,8 +9671,9 @@
     "reading": "のばす",
     "hanViet": "THÂN",
     "meanings": [
-      "nuôi dài",
-      "căng ra"
+      "grow long",
+      "lengthen",
+      "reach out"
     ]
   },
   {
@@ -8500,8 +9684,10 @@
     "reading": "のびる",
     "hanViet": "DUYÊN",
     "meanings": [
-      "bị trì hoãn",
-      "bị kéo dài"
+      "stretch",
+      "extend",
+      "straighten out",
+      "spread"
     ]
   },
   {
@@ -8512,8 +9698,9 @@
     "reading": "のばす",
     "hanViet": "DUYÊN",
     "meanings": [
-      "trì hoãn",
-      "kéo dài"
+      "grow long",
+      "lengthen",
+      "reach out"
     ]
   },
   {
@@ -8524,8 +9711,10 @@
     "reading": "かさなる",
     "hanViet": "TRỌNG",
     "meanings": [
-      "xung đột",
-      "xếp chồng"
+      "be piled up",
+      "lie on top of one another",
+      "come one after another",
+      "overlap"
     ]
   },
   {
@@ -8536,8 +9725,9 @@
     "reading": "かさねる",
     "hanViet": "TRỌNG",
     "meanings": [
-      "chồng lên",
-      "tích trữ"
+      "pile up",
+      "heap up",
+      "repeat many times over"
     ]
   },
   {
@@ -8548,10 +9738,8 @@
     "reading": "ひろがる",
     "hanViet": "QUẢNG",
     "meanings": [
-      "mở rộng",
-      "bùng phát",
-      "lan tràn",
-      "trải dài"
+      "spread",
+      "extend"
     ]
   },
   {
@@ -8562,10 +9750,10 @@
     "reading": "ひろげる",
     "hanViet": "QUẢNG",
     "meanings": [
-      "mở thêm",
-      "mở rộng",
-      "nới rộng",
-      "mở ra"
+      "spread",
+      "extend",
+      "unfold",
+      "scatter about"
     ]
   },
   {
@@ -8576,8 +9764,9 @@
     "reading": "のる",
     "hanViet": "TẢI",
     "meanings": [
-      "vừa",
-      "được công bố"
+      "be placed on",
+      "be set on",
+      "appear"
     ]
   },
   {
@@ -8588,9 +9777,9 @@
     "reading": "のせる",
     "hanViet": "TẢI",
     "meanings": [
-      "cho vào",
-      "cho lên",
-      "công bố"
+      "place on",
+      "give a ride",
+      "load"
     ]
   },
   {
@@ -8601,8 +9790,9 @@
     "reading": "そろう",
     "hanViet": null,
     "meanings": [
-      "thu thập",
-      "được thu thập"
+      "be complete",
+      "be all present",
+      "match"
     ]
   },
   {
@@ -8613,8 +9803,10 @@
     "reading": "そろえる",
     "hanViet": null,
     "meanings": [
-      "gom lại",
-      "chuẩn bị sẵn sàng"
+      "collect",
+      "gather",
+      "arrange",
+      "make uniform"
     ]
   },
   {
@@ -8625,9 +9817,10 @@
     "reading": "まとまる",
     "hanViet": null,
     "meanings": [
-      "được thống nhất",
-      "được tổ chức",
-      "được sắp xếp"
+      "find resolution",
+      "be settled",
+      "be collected",
+      "be well arranged"
     ]
   },
   {
@@ -8638,10 +9831,10 @@
     "reading": "まとめる",
     "hanViet": null,
     "meanings": [
-      "tập hợp",
-      "sàng lọc",
-      "hợp nhất",
-      "tổ chức"
+      "collect",
+      "put together",
+      "summarize",
+      "bring to a conclusion"
     ]
   },
   {
@@ -8652,10 +9845,10 @@
     "reading": "つく",
     "hanViet": "PHÓ",
     "meanings": [
-      "dính",
-      "gắn",
-      "đạt được",
-      "đi cùng với"
+      "be attached",
+      "be connected with",
+      "remain imprinted",
+      "bear"
     ]
   },
   {
@@ -8666,8 +9859,10 @@
     "reading": "つける",
     "hanViet": "PHÓ",
     "meanings": [
-      "gắn",
-      "thêm vào"
+      "attach",
+      "join",
+      "furnish",
+      "wear"
     ]
   },
   {
@@ -8678,7 +9873,8 @@
     "reading": "たまる",
     "hanViet": null,
     "meanings": [
-      "được tiết kiệm"
+      "accumulate",
+      "build up"
     ]
   },
   {
@@ -8689,7 +9885,8 @@
     "reading": "ためる",
     "hanViet": null,
     "meanings": [
-      "tiết kiệm"
+      "save up",
+      "accumulate"
     ]
   },
   {
@@ -8700,8 +9897,9 @@
     "reading": "まじる",
     "hanViet": "GIAO HỖN",
     "meanings": [
-      "giao vào",
-      "lẫn vào"
+      "be mixed",
+      "be blended with",
+      "associate with"
     ]
   },
   {
@@ -8712,7 +9910,8 @@
     "reading": "まざる",
     "hanViet": "GIAO HỖN",
     "meanings": [
-      "được trộn lẫn"
+      "be mixed",
+      "be blended with"
     ]
   },
   {
@@ -8723,7 +9922,8 @@
     "reading": "まぜる",
     "hanViet": "GIAO HỖN",
     "meanings": [
-      "trộn vào"
+      "mix",
+      "stir"
     ]
   },
   {
@@ -8734,8 +9934,12 @@
     "reading": "とける",
     "hanViet": "GIẢI DUNG",
     "meanings": [
-      "được giải quyết",
-      "nóng chảy"
+      "be solved",
+      "be worked out",
+      "come loose",
+      "be removed",
+      "melt",
+      "liquefy"
     ]
   },
   {
@@ -8746,8 +9950,10 @@
     "reading": "とく",
     "hanViet": "GIẢI DUNG",
     "meanings": [
-      "giải quyết",
-      "nóng chảy"
+      "untie",
+      "unfasten",
+      "unsew",
+      "solve"
     ]
   },
   {
@@ -8758,8 +9964,10 @@
     "reading": "ふくむ",
     "hanViet": "HÀM",
     "meanings": [
-      "chứa",
-      "bao gồm"
+      "contain",
+      "comprise",
+      "hold in the mouth",
+      "bear in mind"
     ]
   },
   {
@@ -8770,7 +9978,8 @@
     "reading": "ふくめる",
     "hanViet": "HÀM",
     "meanings": [
-      "bao gồm"
+      "include",
+      "instruct"
     ]
   },
   {
@@ -8781,8 +9990,10 @@
     "reading": "ぬける",
     "hanViet": "BẠT",
     "meanings": [
-      "tháo",
-      "tuột"
+      "come out",
+      "fall out",
+      "fade",
+      "wear a hole"
     ]
   },
   {
@@ -8793,7 +10004,10 @@
     "reading": "ぬく",
     "hanViet": "BẠT",
     "meanings": [
-      "lấy ra"
+      "pull out",
+      "draw out",
+      "omit",
+      "do to the end"
     ]
   },
   {
@@ -8804,8 +10018,9 @@
     "reading": "あらわれる",
     "hanViet": "HIỆN",
     "meanings": [
-      "xuất hiện",
-      "được thẻ hiện"
+      "appear",
+      "come in sight",
+      "be expressed"
     ]
   },
   {
@@ -8816,8 +10031,10 @@
     "reading": "あらわす",
     "hanViet": "HIỆN",
     "meanings": [
-      "xuất hiện",
-      "hiện ra"
+      "represent",
+      "signify",
+      "reveal",
+      "express"
     ]
   },
   {
@@ -8828,7 +10045,9 @@
     "reading": "あらわれる",
     "hanViet": "BIỂU",
     "meanings": [
-      "biểu hiện (trên mặt)"
+      "appear",
+      "come in sight",
+      "be expressed"
     ]
   },
   {
@@ -8839,9 +10058,10 @@
     "reading": "あらわす",
     "hanViet": "BIỂU",
     "meanings": [
-      "biểu thị",
-      "biểu lộ",
-      "đại diện"
+      "represent",
+      "signify",
+      "reveal",
+      "express"
     ]
   },
   {
@@ -8852,8 +10072,9 @@
     "reading": "ちる",
     "hanViet": "TÁN",
     "meanings": [
-      "bị tàn",
-      "rụng"
+      "fall",
+      "scatter",
+      "disappear"
     ]
   },
   {
@@ -8864,7 +10085,10 @@
     "reading": "ちらす",
     "hanViet": "TÁN",
     "meanings": [
-      "tàn"
+      "scatter",
+      "cause a shower of",
+      "disperse",
+      "resolve"
     ]
   },
   {
@@ -8875,9 +10099,10 @@
     "reading": "あける",
     "hanViet": "MINH",
     "meanings": [
-      "(đêm) đến",
-      "(năm mới) bắt đầu",
-      "(mùa mưa) kết thúc"
+      "empty",
+      "remove",
+      "move out",
+      "be away from"
     ]
   },
   {
@@ -8888,9 +10113,9 @@
     "reading": "さす",
     "hanViet": "SI",
     "meanings": [
-      "(mặt trời) chiếu sáng",
-      "mở (ô)",
-      "nhỏ (thuốc mắt)"
+      "shine",
+      "be visible",
+      "be tinged with"
     ]
   },
   {
@@ -8901,7 +10126,7 @@
     "reading": "パートナー",
     "hanViet": null,
     "meanings": [
-      "đối tác"
+      "partner"
     ]
   },
   {
@@ -8912,7 +10137,7 @@
     "reading": "リーダー",
     "hanViet": null,
     "meanings": [
-      "lãnh đạo"
+      "leader"
     ]
   },
   {
@@ -8923,7 +10148,7 @@
     "reading": "ボランティア",
     "hanViet": null,
     "meanings": [
-      "tình nguyện"
+      "volunteer"
     ]
   },
   {
@@ -8934,7 +10159,7 @@
     "reading": "コミュニケーション",
     "hanViet": null,
     "meanings": [
-      "giao tiếp"
+      "communication"
     ]
   },
   {
@@ -8945,8 +10170,8 @@
     "reading": "ユーモア",
     "hanViet": null,
     "meanings": [
-      "hài hước",
-      "đùa"
+      "humor",
+      "humour"
     ]
   },
   {
@@ -8958,7 +10183,7 @@
     "hanViet": null,
     "meanings": [
       "shock",
-      "choáng"
+      "crisis"
     ]
   },
   {
@@ -8969,7 +10194,6 @@
     "reading": "ストレス",
     "hanViet": null,
     "meanings": [
-      "căng thẳng",
       "stress"
     ]
   },
@@ -8981,7 +10205,7 @@
     "reading": "バランス",
     "hanViet": null,
     "meanings": [
-      "cân bằng"
+      "balance"
     ]
   },
   {
@@ -8992,8 +10216,8 @@
     "reading": "レベル",
     "hanViet": null,
     "meanings": [
-      "trình độ",
-      "level"
+      "level",
+      "standard"
     ]
   },
   {
@@ -9004,7 +10228,11 @@
     "reading": "アップ",
     "hanViet": null,
     "meanings": [
-      "tăng lên"
+      "rise",
+      "increase",
+      "upload",
+      "close-up",
+      "upstairs"
     ]
   },
   {
@@ -9015,7 +10243,10 @@
     "reading": "ダウン",
     "hanViet": null,
     "meanings": [
-      "giảm xuống"
+      "fall",
+      "decrease",
+      "knocking down",
+      "being out of action"
     ]
   },
   {
@@ -9026,8 +10257,10 @@
     "reading": "プラス",
     "hanViet": null,
     "meanings": [
-      "phép cộng",
-      "tác động tích cực"
+      "plus",
+      "addition",
+      "positive",
+      "plus sign"
     ]
   },
   {
@@ -9038,8 +10271,10 @@
     "reading": "マイナス",
     "hanViet": null,
     "meanings": [
-      "phép trừ",
-      "tác động tiêu cực"
+      "minus",
+      "subtraction",
+      "negative",
+      "deficit"
     ]
   },
   {
@@ -9050,7 +10285,9 @@
     "reading": "イメージ",
     "hanViet": null,
     "meanings": [
-      "hình ảnh"
+      "image",
+      "impression",
+      "depiction"
     ]
   },
   {
@@ -9061,7 +10298,7 @@
     "reading": "コンテスト",
     "hanViet": null,
     "meanings": [
-      "cuộc thi"
+      "contest"
     ]
   },
   {
@@ -9072,7 +10309,8 @@
     "reading": "マスコミ",
     "hanViet": null,
     "meanings": [
-      "thông tin truyền thông"
+      "mass communication",
+      "mass media"
     ]
   },
   {
@@ -9083,8 +10321,7 @@
     "reading": "プライバシー",
     "hanViet": null,
     "meanings": [
-      "cá nhân",
-      "riêng tư"
+      "privacy"
     ]
   },
   {
@@ -9095,7 +10332,7 @@
     "reading": "オフィス",
     "hanViet": null,
     "meanings": [
-      "văn phòng"
+      "office"
     ]
   },
   {
@@ -9106,7 +10343,7 @@
     "reading": "ルール",
     "hanViet": null,
     "meanings": [
-      "luật lệ"
+      "rule"
     ]
   },
   {
@@ -9117,8 +10354,8 @@
     "reading": "マナー",
     "hanViet": null,
     "meanings": [
-      "kiểu",
-      "thói"
+      "manners",
+      "etiquette"
     ]
   },
   {
@@ -9129,7 +10366,8 @@
     "reading": "ミス",
     "hanViet": null,
     "meanings": [
-      "lỗi"
+      "mistake",
+      "error"
     ]
   },
   {
@@ -9140,8 +10378,8 @@
     "reading": "スケジュール",
     "hanViet": null,
     "meanings": [
-      "lịch",
-      "kế hoạch"
+      "schedule",
+      "program"
     ]
   },
   {
@@ -9152,7 +10390,7 @@
     "reading": "タイトル",
     "hanViet": null,
     "meanings": [
-      "tiêu đề"
+      "title"
     ]
   },
   {
@@ -9163,7 +10401,8 @@
     "reading": "テーマ",
     "hanViet": null,
     "meanings": [
-      "chủ đề"
+      "theme",
+      "topic"
     ]
   },
   {
@@ -9174,7 +10413,9 @@
     "reading": "ストーリー",
     "hanViet": null,
     "meanings": [
-      "câu chuyện"
+      "story",
+      "tale",
+      "plot"
     ]
   },
   {
@@ -9185,7 +10426,8 @@
     "reading": "ヒット",
     "hanViet": null,
     "meanings": [
-      "nổi tiếng"
+      "hit",
+      "popular success"
     ]
   },
   {
@@ -9196,7 +10438,7 @@
     "reading": "ブランド",
     "hanViet": null,
     "meanings": [
-      "nhãn hiệu"
+      "brand"
     ]
   },
   {
@@ -9207,7 +10449,7 @@
     "reading": "レンタル",
     "hanViet": null,
     "meanings": [
-      "thuê"
+      "rental"
     ]
   },
   {
@@ -9218,7 +10460,7 @@
     "reading": "リサイクル",
     "hanViet": null,
     "meanings": [
-      "tái chế"
+      "recycling"
     ]
   },
   {
@@ -9229,7 +10471,7 @@
     "reading": "ラベル",
     "hanViet": null,
     "meanings": [
-      "nhãn"
+      "label"
     ]
   },
   {
@@ -9240,7 +10482,9 @@
     "reading": "タイプ",
     "hanViet": null,
     "meanings": [
-      "loại"
+      "type",
+      "kind",
+      "typewriter"
     ]
   },
   {
@@ -9251,7 +10495,8 @@
     "reading": "スタイル",
     "hanViet": null,
     "meanings": [
-      "kiểu dáng"
+      "style",
+      "figure"
     ]
   },
   {
@@ -9262,8 +10507,10 @@
     "reading": "セット",
     "hanViet": null,
     "meanings": [
-      "cài đặt",
-      "set"
+      "set",
+      "combo",
+      "setting up",
+      "setting"
     ]
   },
   {
@@ -9285,7 +10532,8 @@
     "reading": "ロボット",
     "hanViet": null,
     "meanings": [
-      "robot"
+      "robot",
+      "puppet"
     ]
   },
   {
@@ -9296,7 +10544,8 @@
     "reading": "エネルギー",
     "hanViet": null,
     "meanings": [
-      "năng lượng"
+      "energy",
+      "energy source"
     ]
   },
   {
@@ -9307,7 +10556,7 @@
     "reading": "デジタル",
     "hanViet": null,
     "meanings": [
-      "kỹ thuật số"
+      "digital"
     ]
   },
   {
@@ -9319,7 +10568,7 @@
     "hanViet": null,
     "meanings": [
       "microphone",
-      "ghi âm"
+      "mic"
     ]
   },
   {
@@ -9330,7 +10579,8 @@
     "reading": "ブレーキ",
     "hanViet": null,
     "meanings": [
-      "phanh"
+      "brake",
+      "stop"
     ]
   },
   {
@@ -9341,7 +10591,7 @@
     "reading": "ペンキ",
     "hanViet": null,
     "meanings": [
-      "sơn"
+      "paint"
     ]
   },
   {
@@ -9352,7 +10602,8 @@
     "reading": "たける",
     "hanViet": "XUY",
     "meanings": [
-      "được nấu"
+      "be boiled",
+      "be cooked"
     ]
   },
   {
@@ -9363,7 +10614,9 @@
     "reading": "たく",
     "hanViet": "XUY",
     "meanings": [
-      "nấu"
+      "cook",
+      "boil",
+      "get angry"
     ]
   },
   {
@@ -9374,8 +10627,8 @@
     "reading": "にえる",
     "hanViet": "CHỬ",
     "meanings": [
-      "được nấu",
-      "được ninh"
+      "be boiled",
+      "be cooked"
     ]
   },
   {
@@ -9386,9 +10639,8 @@
     "reading": "にる",
     "hanViet": "CHỬ",
     "meanings": [
-      "nấu",
-      "ninh",
-      "luộc"
+      "boil",
+      "simmer"
     ]
   },
   {
@@ -9399,7 +10651,8 @@
     "reading": "いためる",
     "hanViet": "SAO",
     "meanings": [
-      "rán"
+      "fry",
+      "saute"
     ]
   },
   {
@@ -9410,8 +10663,10 @@
     "reading": "やける",
     "hanViet": "THIÊU",
     "meanings": [
-      "được nấu",
-      "được nướng"
+      "burn",
+      "burn down",
+      "be roasted",
+      "be sunburnt"
     ]
   },
   {
@@ -9422,8 +10677,9 @@
     "reading": "やく",
     "hanViet": "THIÊU",
     "meanings": [
-      "nướng",
-      "nấu"
+      "burn",
+      "roast",
+      "heat"
     ]
   },
   {
@@ -9434,7 +10690,8 @@
     "reading": "ゆでる",
     "hanViet": null,
     "meanings": [
-      "luộc"
+      "boil",
+      "treat with medicinal steam"
     ]
   },
   {
@@ -9445,7 +10702,10 @@
     "reading": "あげる",
     "hanViet": "DƯƠNG",
     "meanings": [
-      "rán ngập"
+      "deep-fry",
+      "make deep-fried food",
+      "launch",
+      "summon"
     ]
   },
   {
@@ -9456,7 +10716,8 @@
     "reading": "むす",
     "hanViet": "CHƯNG",
     "meanings": [
-      "hấp"
+      "steam",
+      "be hot and humid"
     ]
   },
   {
@@ -9467,7 +10728,8 @@
     "reading": "ぐっすり",
     "hanViet": null,
     "meanings": [
-      "say"
+      "soundly",
+      "fast"
     ]
   },
   {
@@ -9478,7 +10740,9 @@
     "reading": "きちんと",
     "hanViet": null,
     "meanings": [
-      "ngay ngắn"
+      "properly",
+      "accurately",
+      "neatly"
     ]
   },
   {
@@ -9489,9 +10753,10 @@
     "reading": "しっかり",
     "hanViet": null,
     "meanings": [
-      "kiên quyết",
-      "chắc chắn",
-      "đáng tin cậy"
+      "tightly",
+      "firmly",
+      "strongly",
+      "properly"
     ]
   },
   {
@@ -9502,7 +10767,9 @@
     "reading": "はっきり",
     "hanViet": null,
     "meanings": [
-      "rõ ràng"
+      "clearly",
+      "plainly",
+      "be clear"
     ]
   },
   {
@@ -9513,9 +10780,10 @@
     "reading": "じっと",
     "hanViet": null,
     "meanings": [
-      "kiên nhẫn",
-      "chăm chú",
-      "chằm chằm"
+      "motionlessly",
+      "still",
+      "fixedly",
+      "patiently"
     ]
   },
   {
@@ -9526,8 +10794,9 @@
     "reading": "そっと",
     "hanViet": null,
     "meanings": [
-      "nhẹ nhàng",
-      "yên lặng"
+      "gently",
+      "quietly",
+      "stealthily"
     ]
   },
   {
@@ -9538,7 +10807,8 @@
     "reading": "べつべつに",
     "hanViet": "BIỆT",
     "meanings": [
-      "riêng biệt"
+      "separately",
+      "apart"
     ]
   },
   {
@@ -9549,8 +10819,8 @@
     "reading": "それぞれ",
     "hanViet": null,
     "meanings": [
-      "lần lượt",
-      "tương ứng"
+      "each",
+      "respectively"
     ]
   },
   {
@@ -9561,7 +10831,8 @@
     "reading": "たがいに",
     "hanViet": "HỖ",
     "meanings": [
-      "lẫn nhau"
+      "mutually",
+      "with each other"
     ]
   },
   {
@@ -9572,7 +10843,8 @@
     "reading": "ちょくせつ",
     "hanViet": "TRỰC TIẾP",
     "meanings": [
-      "trực tiếp"
+      "direct",
+      "immediate"
     ]
   },
   {
@@ -9583,8 +10855,8 @@
     "reading": "ほんとうに",
     "hanViet": "BẢN ĐƯƠNG",
     "meanings": [
-      "thật lòng",
-      "kỳ thực"
+      "really",
+      "truly"
     ]
   },
   {
@@ -9595,7 +10867,8 @@
     "reading": "かならず",
     "hanViet": "TẤT",
     "meanings": [
-      "chắc chắn"
+      "always",
+      "without exception"
     ]
   },
   {
@@ -9606,7 +10879,8 @@
     "reading": "ぜったいに",
     "hanViet": "TUYỆT ĐỐI",
     "meanings": [
-      "chắc chắn rồi"
+      "absolutely",
+      "definitely"
     ]
   },
   {
@@ -9617,7 +10891,8 @@
     "reading": "とくに",
     "hanViet": "ĐẶC",
     "meanings": [
-      "đặc biệt là"
+      "particularly",
+      "especially"
     ]
   },
   {
@@ -9628,7 +10903,8 @@
     "reading": "ただ",
     "hanViet": null,
     "meanings": [
-      "chỉ"
+      "only",
+      "just"
     ]
   },
   {
@@ -9639,7 +10915,7 @@
     "reading": "すくなくとも",
     "hanViet": "THIỂU",
     "meanings": [
-      "ít nhất"
+      "at least"
     ]
   },
   {
@@ -9650,7 +10926,8 @@
     "reading": "けっして",
     "hanViet": "QUYẾT",
     "meanings": [
-      "không bao giờ"
+      "ever",
+      "by any means"
     ]
   },
   {
@@ -9661,7 +10938,7 @@
     "reading": "すこしも",
     "hanViet": "THIỂU",
     "meanings": [
-      "một chút"
+      "not at all"
     ]
   },
   {
@@ -9672,7 +10949,7 @@
     "reading": "ちっとも",
     "hanViet": null,
     "meanings": [
-      "(không) tí gì"
+      "not at all"
     ]
   },
   {
@@ -9683,7 +10960,8 @@
     "reading": "まったく",
     "hanViet": "TOÀN",
     "meanings": [
-      "hoàn toàn (không)"
+      "completely",
+      "not at all"
     ]
   },
   {
@@ -9694,7 +10972,9 @@
     "reading": "とても",
     "hanViet": null,
     "meanings": [
-      "rất"
+      "very",
+      "awfully",
+      "at all"
     ]
   },
   {
@@ -9705,8 +10985,9 @@
     "reading": "どんなに",
     "hanViet": null,
     "meanings": [
-      "thế nào",
-      "bao nhiêu"
+      "how",
+      "how much",
+      "no matter how"
     ]
   },
   {
@@ -9717,7 +10998,10 @@
     "reading": "どうしても",
     "hanViet": null,
     "meanings": [
-      "kiểu gì cũng"
+      "by all means",
+      "at any cost",
+      "whether willing or not",
+      "on no account"
     ]
   },
   {
@@ -9728,7 +11012,10 @@
     "reading": "まるで",
     "hanViet": null,
     "meanings": [
-      "như là"
+      "as if",
+      "as though",
+      "at all",
+      "really"
     ]
   },
   {
@@ -9739,7 +11026,10 @@
     "reading": "いったい",
     "hanViet": "NHẤT THỂ",
     "meanings": [
-      "cái quái gì"
+      "the heck",
+      "in the world",
+      "one object",
+      "one form"
     ]
   },
   {
@@ -9750,7 +11040,9 @@
     "reading": "べつに",
     "hanViet": "BIỆT",
     "meanings": [
-      "(không) có gì"
+      "particularly",
+      "especially",
+      "separately"
     ]
   },
   {
@@ -9761,7 +11053,8 @@
     "reading": "たった",
     "hanViet": null,
     "meanings": [
-      "chỉ"
+      "only",
+      "merely"
     ]
   },
   {
@@ -9772,7 +11065,8 @@
     "reading": "ほんの",
     "hanViet": null,
     "meanings": [
-      "một chút"
+      "mere",
+      "only"
     ]
   },
   {
@@ -9783,7 +11077,8 @@
     "reading": "それで",
     "hanViet": null,
     "meanings": [
-      "thế thì"
+      "so",
+      "therefore"
     ]
   },
   {
@@ -9794,7 +11089,8 @@
     "reading": "そこで",
     "hanViet": null,
     "meanings": [
-      "tiếp theo"
+      "so",
+      "accordingly"
     ]
   },
   {
@@ -9805,7 +11101,9 @@
     "reading": "そのうえ",
     "hanViet": null,
     "meanings": [
-      "hơn nữa"
+      "in addition",
+      "furthermore",
+      "above"
     ]
   },
   {
@@ -9816,7 +11114,8 @@
     "reading": "また",
     "hanViet": null,
     "meanings": [
-      "nữa"
+      "again",
+      "also"
     ]
   },
   {
@@ -9827,7 +11126,8 @@
     "reading": "または",
     "hanViet": null,
     "meanings": [
-      "hoặc"
+      "or",
+      "either ... or ..."
     ]
   },
   {
@@ -9838,7 +11138,8 @@
     "reading": "それとも",
     "hanViet": null,
     "meanings": [
-      "hoặc"
+      "or",
+      "or else"
     ]
   },
   {
@@ -9849,7 +11150,9 @@
     "reading": "つまり",
     "hanViet": null,
     "meanings": [
-      "nói cách khác"
+      "in other words",
+      "that is to say",
+      "in short"
     ]
   }
 ]

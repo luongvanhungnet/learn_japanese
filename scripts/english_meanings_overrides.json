@@ -1,0 +1,496 @@
+{
+  "n3:1": [
+    "man",
+    "male"
+  ],
+  "n3:2": [
+    "woman",
+    "female"
+  ],
+  "n2:1": [
+    "life",
+    "human life"
+  ],
+  "n3:65": [
+    "trouble",
+    "nuisance"
+  ],
+  "n3:343": [
+    "translation"
+  ],
+  "n3:580": [
+    "appropriate",
+    "suitable"
+  ],
+  "n3:592": [
+    "very",
+    "extremely"
+  ],
+  "n3:598": [
+    "considerably",
+    "quite"
+  ],
+  "n3:657": [
+    "surface"
+  ],
+  "n3:120": [
+    "raw",
+    "fresh",
+    "uncooked"
+  ],
+  "n3:189": [
+    "wipe"
+  ],
+  "n3:200": [
+    "peel off"
+  ],
+  "n3:201": [
+    "peel"
+  ],
+  "n3:295": [
+    "better",
+    "preferable"
+  ],
+  "n3:387": [
+    "lottery",
+    "drawing lots"
+  ],
+  "n3:413": [
+    "scratch"
+  ],
+  "n3:445": [
+    "deceive",
+    "trick"
+  ],
+  "n3:358": [
+    "confidence"
+  ],
+  "n3:682": [
+    "emphasis"
+  ],
+  "n3:739": [
+    "wish",
+    "hope"
+  ],
+  "n2:220": [
+    "call out",
+    "summon"
+  ],
+  "n2:267": [
+    "serious",
+    "important"
+  ],
+  "n2:444": [
+    "invite each other",
+    "arrange to go together"
+  ],
+  "n2:541": [
+    "in advance",
+    "beforehand"
+  ],
+  "n2:1077": [
+    "loosen",
+    "relax"
+  ],
+  "n2:1134": [
+    "mutually",
+    "each other"
+  ],
+  "n2:825": [
+    "complaint",
+    "claim"
+  ],
+  "n2:506": [
+    "train timetable"
+  ],
+  "n2:491": [
+    "pass"
+  ],
+  "n2:560": [
+    "furious",
+    "blazing",
+    "clanging"
+  ],
+  "n2:747": [
+    "bear fruit",
+    "produce fruit"
+  ],
+  "n2:684": [
+    "soak",
+    "pickle"
+  ],
+  "n2:902": [
+    "pretence",
+    "pretending"
+  ],
+  "n2:1103": [
+    "with great effort",
+    "a rare opportunity",
+    "kindly"
+  ],
+  "n2:1116": [
+    "silently",
+    "quietly"
+  ],
+  "n2:1129": [
+    "suddenly",
+    "unexpectedly"
+  ],
+  "n2:1138": [
+    "please"
+  ],
+  "n2:1157": [
+    "a certain",
+    "some"
+  ],
+  "n2:1019": [
+    "slurp",
+    "sniffle"
+  ],
+  "n3:636": [
+    "reading"
+  ],
+  "n3:863": [
+    "not at all"
+  ],
+  "n3:864": [
+    "not at all"
+  ],
+  "n3:865": [
+    "completely",
+    "not at all"
+  ],
+  "n2:1140": [
+    "not very",
+    "not much"
+  ],
+  "n2:1145": [
+    "not necessarily"
+  ],
+  "n2:1098": [
+    "no matter how",
+    "cannot do anything"
+  ],
+  "n2:1100": [
+    "not at all",
+    "indescribably"
+  ],
+  "n2:1160": [
+    "so-called"
+  ],
+  "n3:54": [
+    "injury",
+    "wound"
+  ],
+  "n3:78": [
+    "mold",
+    "mould"
+  ],
+  "n3:89": [
+    "feast",
+    "treat"
+  ],
+  "n3:125": [
+    "kick"
+  ],
+  "n3:172": [
+    "be popular",
+    "come into fashion"
+  ],
+  "n3:274": [
+    "stingy",
+    "miserly"
+  ],
+  "n3:296": [
+    "wasteful",
+    "useless"
+  ],
+  "n3:319": [
+    "mean",
+    "malicious"
+  ],
+  "n3:522": [
+    "rush hour",
+    "rush"
+  ],
+  "n3:529": [
+    "pet"
+  ],
+  "n3:533": [
+    "part-time work",
+    "part"
+  ],
+  "n3:540": [
+    "dessert"
+  ],
+  "n3:546": [
+    "card"
+  ],
+  "n3:557": [
+    "delicious",
+    "skillful",
+    "good"
+  ],
+  "n3:578": [
+    "exactly alike",
+    "identical"
+  ],
+  "n3:597": [
+    "quite",
+    "fairly"
+  ],
+  "n3:601": [
+    "full",
+    "a lot",
+    "one cup"
+  ],
+  "n3:603": [
+    "exactly",
+    "perfectly",
+    "snugly"
+  ],
+  "n3:604": [
+    "usually",
+    "generally"
+  ],
+  "n3:616": [
+    "rapidly",
+    "steadily",
+    "one after another"
+  ],
+  "n3:617": [
+    "increasingly",
+    "more and more"
+  ],
+  "n3:619": [
+    "finally",
+    "at last"
+  ],
+  "n3:624": [
+    "by all means",
+    "without fail"
+  ],
+  "n3:625": [
+    "as much as possible"
+  ],
+  "n3:630": [
+    "unintentionally",
+    "just"
+  ],
+  "n3:771": [
+    "be complete",
+    "be all present",
+    "match"
+  ],
+  "n3:777": [
+    "accumulate",
+    "build up"
+  ],
+  "n3:778": [
+    "save up",
+    "accumulate"
+  ],
+  "n3:797": [
+    "leader"
+  ],
+  "n3:804": [
+    "level",
+    "standard"
+  ],
+  "n3:816": [
+    "mistake",
+    "error"
+  ],
+  "n3:821": [
+    "hit",
+    "popular success"
+  ],
+  "n3:827": [
+    "style",
+    "figure"
+  ],
+  "n3:833": [
+    "microphone",
+    "mic"
+  ],
+  "n3:851": [
+    "gently",
+    "quietly",
+    "stealthily"
+  ],
+  "n3:860": [
+    "only",
+    "just"
+  ],
+  "n3:877": [
+    "again",
+    "also"
+  ],
+  "n3:880": [
+    "in other words",
+    "that is to say",
+    "in short"
+  ],
+  "n2:38": [
+    "wrinkle",
+    "crease"
+  ],
+  "n2:118": [
+    "step aside",
+    "move out of the way"
+  ],
+  "n2:126": [
+    "pour"
+  ],
+  "n2:130": [
+    "scatter",
+    "sprinkle"
+  ],
+  "n2:141": [
+    "run over"
+  ],
+  "n2:144": [
+    "contract an illness",
+    "catch a disease"
+  ],
+  "n2:157": [
+    "earn",
+    "make a profit"
+  ],
+  "n2:317": [
+    "elsewhere",
+    "another place"
+  ],
+  "n2:464": [
+    "cord",
+    "code"
+  ],
+  "n2:466": [
+    "meter",
+    "gauge"
+  ],
+  "n2:467": [
+    "pair"
+  ],
+  "n2:473": [
+    "mark",
+    "symbol"
+  ],
+  "n2:475": [
+    "signature",
+    "autograph",
+    "sign"
+  ],
+  "n2:480": [
+    "style",
+    "figure"
+  ],
+  "n2:481": [
+    "waist",
+    "waistline"
+  ],
+  "n2:485": [
+    "curve",
+    "bend"
+  ],
+  "n2:487": [
+    "race"
+  ],
+  "n2:488": [
+    "lead",
+    "take the lead"
+  ],
+  "n2:490": [
+    "goal",
+    "finish line"
+  ],
+  "n2:492": [
+    "best"
+  ],
+  "n2:512": [
+    "almost",
+    "roughly"
+  ],
+  "n2:526": [
+    "more"
+  ],
+  "n2:528": [
+    "finally",
+    "at last",
+    "barely"
+  ],
+  "n2:537": [
+    "eventually",
+    "someday",
+    "either"
+  ],
+  "n2:577": [
+    "then",
+    "well then"
+  ],
+  "n2:580": [
+    "however",
+    "only"
+  ],
+  "n2:583": [
+    "scraps",
+    "waste"
+  ],
+  "n2:721": [
+    "put away",
+    "finish"
+  ],
+  "n2:783": [
+    "double"
+  ],
+  "n2:786": [
+    "give up",
+    "abandon"
+  ],
+  "n2:808": [
+    "key"
+  ],
+  "n2:811": [
+    "career",
+    "experience"
+  ],
+  "n2:815": [
+    "cash"
+  ],
+  "n2:820": [
+    "case"
+  ],
+  "n2:885": [
+    "vague",
+    "ambiguous"
+  ],
+  "n2:1054": [
+    "receive",
+    "accept"
+  ],
+  "n2:1091": [
+    "refreshing",
+    "completely",
+    "not at all"
+  ],
+  "n2:1092": [
+    "neat",
+    "clear",
+    "refreshing"
+  ],
+  "n2:1110": [
+    "at least"
+  ],
+  "n2:1142": [
+    "rather",
+    "preferably"
+  ],
+  "n2:1148": [
+    "while doing something",
+    "by the way"
+  ],
+  "n2:1152": [
+    "by chance",
+    "occasionally"
+  ]
+}
