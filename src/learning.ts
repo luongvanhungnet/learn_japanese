@@ -60,7 +60,7 @@ export function parseProgress(raw: string | null): Progress {
     if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) return {}
     const result: Progress = {}
     for (const [key, value] of Object.entries(parsed)) {
-      if (!/^n[23]:\d+:(reading|hanViet|meaning)$/.test(key) || !value || typeof value !== 'object') continue
+      if (!/^n[23]:\d+:(reading|hanViet|meaning(?::vi)?)$/.test(key) || !value || typeof value !== 'object') continue
       const cell = value as Record<string, unknown>
       if (typeof cell.solved !== 'boolean' || typeof cell.unresolved !== 'boolean' || typeof cell.revealed !== 'boolean' || typeof cell.hints !== 'number') continue
       result[key] = { solved: cell.solved, unresolved: cell.unresolved, revealed: cell.revealed, hints: Math.max(0, Math.floor(cell.hints)), answer: typeof cell.answer === 'string' ? cell.answer : undefined }

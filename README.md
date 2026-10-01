@@ -29,7 +29,9 @@ npm run preview
 - **Tập trung** chỉ hiện từ vựng và một cột luyện tập. Chọn **Cách đọc**, **Hán Việt** hoặc **Ngữ nghĩa** ở thanh nhỏ phía trên; chiều rộng cột từ vựng tự thay đổi theo từng từ. Dùng **Danh sách đầy đủ** để quay lại bảng.
 - Tiến độ được lưu bằng `localStorage` trong trình duyệt đang dùng. Xóa dữ liệu trang web của trình duyệt sẽ xóa tiến độ.
 
-Giao diện và phần nghĩa dùng tiếng Anh; cột Hán Việt giữ nguyên. Ô cách đọc nhận hiragana hoặc katakana tương đương. Ô nghĩa nhận một trong các nghĩa tiếng Anh của từ, bỏ qua hoa thường, khoảng trắng và dấu câu. Hán Việt nhận cả có dấu hoặc không dấu. Từ không có kanji hiện “—” ở ô Hán Việt. Tiến độ cũ vẫn được giữ; đáp án nghĩa tiếng Việt đã lưu được hiển thị bằng nghĩa tiếng Anh tương ứng.
+Chọn **English** hoặc **Tiếng Việt** ở đầu trang (cũng có trong chế độ tập trung) để đổi giao diện và ngôn ngữ của nghĩa. Lựa chọn được lưu cho lần mở tiếp theo; mặc định là tiếng Anh. Cột Hán Việt giữ nguyên. Ô cách đọc nhận hiragana hoặc katakana tương đương. Ô nghĩa nhận một trong các nghĩa của ngôn ngữ đang chọn, bỏ qua hoa thường, khoảng trắng và dấu câu; nghĩa tiếng Việt và Hán Việt nhận cả có dấu hoặc không dấu. Từ không có kanji hiện “—” ở ô Hán Việt.
+
+Tiến độ phần nghĩa, gợi ý và lỗi cần ôn được lưu riêng cho tiếng Anh và tiếng Việt; tiến độ cách đọc và Hán Việt dùng chung. Tiến độ đã có của bản tiếng Anh vẫn được giữ.
 
 ## Dữ liệu
 
@@ -42,3 +44,5 @@ Hai tập dữ liệu đã được đóng gói vào `src/data/n3.json` và `src
 Các script trong `scripts/` dùng để tái tạo dữ liệu từ tài liệu nguồn. Chúng cần Python cùng `openpyxl`, `Pillow`, `lxml`, Poppler, Tesseract.js và kết nối mạng để tải dữ liệu tham chiếu; việc học và chạy ứng dụng không cần các bước này.
 
 Sau khi nhập lại dữ liệu từ nguồn tiếng Việt, chạy `python scripts/import_english_meanings.py path/to/JMdict_e.xml` để áp dụng nghĩa tiếng Anh. Các nghĩa đã rà soát nằm trong `scripts/english_meanings_overrides.json`. Nguồn JMdict và giấy phép được ghi trong [ATTRIBUTION.md](ATTRIBUTION.md).
+
+`src/data/vi.json` chứa toàn bộ nghĩa tiếng Việt được lấy nguyên vẹn từ phiên bản Git `92d0a2b`, trước khi đổi nội dung sang tiếng Anh. Hai ngôn ngữ liên kết bằng ID mục từ và dùng chung dữ liệu tiếng Nhật, cách đọc, Hán Việt.

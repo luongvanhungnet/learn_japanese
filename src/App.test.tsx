@@ -10,12 +10,79 @@ vi.mock('./data/n3.json', () => ({ default: [
 vi.mock('./data/n2.json', () => ({ default: [
   { id: 'n2:1', level: 'N2', order: 1, headword: '男性', reading: 'だんせい', hanViet: 'NAM TÍNH', meanings: ['man'] },
 ] }))
+vi.mock('./data/vi.json', () => ({ default: {
+  N3: { 'n3:1': ['đàn ông'], 'n3:2': ['phụ nữ'] },
+  N2: { 'n2:1': ['đàn ông'] },
+} }))
 
 afterEach(() => {
   cleanup()
   vi.restoreAllMocks()
   vi.useRealTimers()
   window.localStorage.clear()
+})
+
+test('switches UI and accepted meanings to Vietnamese and remembers the language', () => {
+  render(<App />)
+  fireEvent.click(screen.getByRole('button', { name: 'Tiếng Việt' }))
+  expect(screen.getByRole('columnheader', { name: 'Ngữ nghĩa' })).toBeTruthy()
+  expect(screen.getByRole('columnheader', { name: 'Hán Việt' })).toBeTruthy()
+  expect(document.documentElement.lang).toBe('vi')
+  fireEvent.click(screen.getByRole('button', { name: 'Nhập Ngữ nghĩa cho từ số 1' }))
+  const input = screen.getByRole('textbox', { name: 'Ngữ nghĩa cho từ số 1' })
+  fireEvent.change(input, { target: { value: 'man' } })
+  fireEvent.submit(input.closest('form')!)
+  expect(screen.getByRole('alert').textContent).toContain('Chưa đúng')
+  fireEvent.change(input, { target: { value: 'dan ong' } })
+  fireEvent.submit(input.closest('form')!)
+  expect(document.getElementById('practice-n3:1:meaning')!.textContent).toBe('dan ong✓')
+  cleanup()
+  render(<App />)
+  expect(screen.getByRole('columnheader', { name: 'Ngữ nghĩa' })).toBeTruthy()
+  expect(screen.getByRole('button', { name: 'Tiếng Việt' }).getAttribute('aria-pressed')).toBe('true')
+})
+
+test('keeps meaning practice separate by language while sharing reading and Hán Việt progress', () => {
+  window.localStorage.setItem('mimikara-progress-v1', JSON.stringify({
+    'n3:1:meaning': { solved: true, unresolved: false, revealed: false, hints: 0, answer: 'man' },
+    'n3:1:reading': { solved: true, unresolved: false, revealed: false, hints: 0, answer: 'だんせい' },
+    'n3:1:hanViet': { solved: true, unresolved: false, revealed: false, hints: 0, answer: 'NAM TÍNH' },
+  }))
+  render(<App />)
+  fireEvent.click(screen.getByRole('button', { name: 'Tiếng Việt' }))
+  expect(document.getElementById('practice-n3:1:reading')!.textContent).toBe('だんせい✓')
+  expect(document.getElementById('practice-n3:1:hanViet')!.textContent).toBe('NAM TÍNH✓')
+  fireEvent.click(screen.getByRole('button', { name: 'Nhập Ngữ nghĩa cho từ số 1' }))
+  const input = screen.getByRole('textbox', { name: 'Ngữ nghĩa cho từ số 1' })
+  fireEvent.change(input, { target: { value: 'đàn ông' } })
+  fireEvent.submit(input.closest('form')!)
+  fireEvent.click(screen.getByRole('button', { name: 'English' }))
+  expect(document.getElementById('practice-n3:1:meaning')!.textContent).toBe('man✓')
+  cleanup()
+  render(<App />)
+  fireEvent.click(screen.getByRole('button', { name: 'Tiếng Việt' }))
+  expect(document.getElementById('practice-n3:1:meaning')!.textContent).toBe('đàn ông✓')
+})
+
+test('switches focus mode, hints, answer previews, and overview labels together', () => {
+  window.scrollTo = vi.fn()
+  render(<App />)
+  fireEvent.click(screen.getByRole('button', { name: 'Focus' }))
+  fireEvent.click(screen.getByRole('button', { name: 'Enter Meaning for 男性' }))
+  fireEvent.click(screen.getByRole('button', { name: 'Tiếng Việt' }))
+  expect(screen.queryByRole('textbox')).toBeNull()
+  fireEvent.keyDown(document, { key: 'a', altKey: true })
+  const first = within(screen.getByRole('group', { name: 'Từ 男性' }))
+  expect(first.getByText(/Gợi ý:/).textContent).toContain('đ')
+  fireEvent.click(first.getByRole('button', { name: /Đáp án/ }))
+  expect(first.getByRole('status').textContent).toBe('đàn ông')
+  fireEvent.click(screen.getByRole('button', { name: /Danh sách đầy đủ/ }))
+  fireEvent.click(screen.getByRole('button', { name: /Tổng quan/ }))
+  expect(screen.getByRole('dialog', { name: 'Tổng quan N3' })).toBeTruthy()
+  fireEvent.click(screen.getByRole('button', { name: 'Đóng tổng quan' }))
+  fireEvent.click(screen.getByRole('button', { name: 'English' }))
+  fireEvent.click(screen.getByRole('button', { name: /Review mistakes/ }))
+  expect(screen.getByRole('heading', { name: 'No mistakes left to review' })).toBeTruthy()
 })
 
 test('scrolls the table so the next input replaces the submitted input on screen', async () => {

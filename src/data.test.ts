@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import n2 from './data/n2.json'
 import n3 from './data/n3.json'
+import vietnameseMeanings from './data/vi.json'
 
 it('uses English meanings while preserving Sino-Vietnamese readings', () => {
   expect(n3[0].meanings).toContain('man')
@@ -21,6 +22,8 @@ for (const [level, entries, count] of [
       expect(entries).toHaveLength(count)
       expect(entries.map((entry) => entry.order)).toEqual(Array.from({ length: count }, (_, index) => index + 1))
       expect(new Set(entries.map((entry) => entry.id)).size).toBe(count)
+      const translations = vietnameseMeanings[level] as Record<string, string[]>
+      expect(Object.keys(translations).sort()).toEqual(entries.map((entry) => entry.id).sort())
       for (const entry of entries) {
         expect(entry.id).toBe(`${level.toLowerCase()}:${entry.order}`)
         expect(entry.level).toBe(level)
@@ -29,6 +32,8 @@ for (const [level, entries, count] of [
         expect(entry.reading).not.toMatch(/[\u4e00-\u9fff]/)
         expect(entry.meanings.length).toBeGreaterThan(0)
         expect(entry.meanings.every((meaning) => meaning.trim())).toBe(true)
+        expect(translations[entry.id].length).toBeGreaterThan(0)
+        expect(translations[entry.id].every((meaning) => meaning.trim())).toBe(true)
         expect(entry.hanViet !== null).toBe(/[\u4e00-\u9fff]/.test(entry.headword))
       }
     })
