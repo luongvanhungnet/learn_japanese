@@ -1,0 +1,4244 @@
+[
+  {
+    "id": "radicals:1",
+    "level": "RADICALS",
+    "order": 1,
+    "headword": "一",
+    "reading": "いち",
+    "readings": [
+      "いち"
+    ],
+    "hanViet": "NHẤT",
+    "meanings": [
+      "one",
+      "horizontal stroke"
+    ],
+    "meaningsVi": [
+      "một"
+    ],
+    "strokes": 1,
+    "variants": []
+  },
+  {
+    "id": "radicals:2",
+    "level": "RADICALS",
+    "order": 2,
+    "headword": "丨",
+    "reading": "たてぼう",
+    "readings": [
+      "たてぼう"
+    ],
+    "hanViet": "CỔN",
+    "meanings": [
+      "vertical stroke"
+    ],
+    "meaningsVi": [
+      "nét sổ"
+    ],
+    "strokes": 1,
+    "variants": []
+  },
+  {
+    "id": "radicals:3",
+    "level": "RADICALS",
+    "order": 3,
+    "headword": "丶",
+    "reading": "てん",
+    "readings": [
+      "てん"
+    ],
+    "hanViet": "CHỦ",
+    "meanings": [
+      "dot"
+    ],
+    "meaningsVi": [
+      "dấu chấm"
+    ],
+    "strokes": 1,
+    "variants": []
+  },
+  {
+    "id": "radicals:4",
+    "level": "RADICALS",
+    "order": 4,
+    "headword": "丿",
+    "reading": "の",
+    "readings": [
+      "の"
+    ],
+    "hanViet": "PHIỆT",
+    "meanings": [
+      "diagonal sweeping stroke"
+    ],
+    "meaningsVi": [
+      "nét phẩy"
+    ],
+    "strokes": 1,
+    "variants": []
+  },
+  {
+    "id": "radicals:5",
+    "level": "RADICALS",
+    "order": 5,
+    "headword": "乙",
+    "reading": "おつ",
+    "readings": [
+      "おつ"
+    ],
+    "hanViet": "ẤT",
+    "meanings": [
+      "the second"
+    ],
+    "meaningsVi": [
+      "thứ hai"
+    ],
+    "strokes": 1,
+    "variants": []
+  },
+  {
+    "id": "radicals:6",
+    "level": "RADICALS",
+    "order": 6,
+    "headword": "亅",
+    "reading": "はねぼう",
+    "readings": [
+      "はねぼう"
+    ],
+    "hanViet": "QUYẾT",
+    "meanings": [
+      "vertical stroke with a hook"
+    ],
+    "meaningsVi": [
+      "nét móc"
+    ],
+    "strokes": 1,
+    "variants": []
+  },
+  {
+    "id": "radicals:7",
+    "level": "RADICALS",
+    "order": 7,
+    "headword": "二",
+    "reading": "に",
+    "readings": [
+      "に"
+    ],
+    "hanViet": "NHỊ",
+    "meanings": [
+      "two"
+    ],
+    "meaningsVi": [
+      "hai"
+    ],
+    "strokes": 2,
+    "variants": []
+  },
+  {
+    "id": "radicals:8",
+    "level": "RADICALS",
+    "order": 8,
+    "headword": "亠",
+    "reading": "なべぶた",
+    "readings": [
+      "なべぶた"
+    ],
+    "hanViet": "ĐẦU",
+    "meanings": [
+      "lid",
+      "top"
+    ],
+    "meaningsVi": [
+      "nắp"
+    ],
+    "strokes": 2,
+    "variants": []
+  },
+  {
+    "id": "radicals:9",
+    "level": "RADICALS",
+    "order": 9,
+    "headword": "人",
+    "reading": "ひと",
+    "readings": [
+      "ひと"
+    ],
+    "hanViet": "NHÂN",
+    "meanings": [
+      "person"
+    ],
+    "meaningsVi": [
+      "người"
+    ],
+    "strokes": 2,
+    "variants": [
+      "亻"
+    ]
+  },
+  {
+    "id": "radicals:10",
+    "level": "RADICALS",
+    "order": 10,
+    "headword": "儿",
+    "reading": "ひとあし",
+    "readings": [
+      "ひとあし"
+    ],
+    "hanViet": "NHI",
+    "meanings": [
+      "human legs"
+    ],
+    "meaningsVi": [
+      "chân người"
+    ],
+    "strokes": 2,
+    "variants": []
+  },
+  {
+    "id": "radicals:11",
+    "level": "RADICALS",
+    "order": 11,
+    "headword": "入",
+    "reading": "いる",
+    "readings": [
+      "いる"
+    ],
+    "hanViet": "NHẬP",
+    "meanings": [
+      "to enter"
+    ],
+    "meaningsVi": [
+      "vào"
+    ],
+    "strokes": 2,
+    "variants": []
+  },
+  {
+    "id": "radicals:12",
+    "level": "RADICALS",
+    "order": 12,
+    "headword": "八",
+    "reading": "はち",
+    "readings": [
+      "はち"
+    ],
+    "hanViet": "BÁT",
+    "meanings": [
+      "eight"
+    ],
+    "meaningsVi": [
+      "tám"
+    ],
+    "strokes": 2,
+    "variants": []
+  },
+  {
+    "id": "radicals:13",
+    "level": "RADICALS",
+    "order": 13,
+    "headword": "冂",
+    "reading": "けいがまえ",
+    "readings": [
+      "けいがまえ"
+    ],
+    "hanViet": "QUYNH",
+    "meanings": [
+      "to enclose"
+    ],
+    "meaningsVi": [
+      "hộp mở dưới"
+    ],
+    "strokes": 2,
+    "variants": []
+  },
+  {
+    "id": "radicals:14",
+    "level": "RADICALS",
+    "order": 14,
+    "headword": "冖",
+    "reading": "わかんむり",
+    "readings": [
+      "わかんむり"
+    ],
+    "hanViet": "MỊCH",
+    "meanings": [
+      "cover",
+      "crown"
+    ],
+    "meaningsVi": [
+      "che phủ"
+    ],
+    "strokes": 2,
+    "variants": []
+  },
+  {
+    "id": "radicals:15",
+    "level": "RADICALS",
+    "order": 15,
+    "headword": "冫",
+    "reading": "にすい",
+    "readings": [
+      "にすい"
+    ],
+    "hanViet": "BĂNG",
+    "meanings": [
+      "ice"
+    ],
+    "meaningsVi": [
+      "băng"
+    ],
+    "strokes": 2,
+    "variants": []
+  },
+  {
+    "id": "radicals:16",
+    "level": "RADICALS",
+    "order": 16,
+    "headword": "几",
+    "reading": "きにょう",
+    "readings": [
+      "きにょう"
+    ],
+    "hanViet": "KỶ",
+    "meanings": [
+      "table"
+    ],
+    "meaningsVi": [
+      "bàn"
+    ],
+    "strokes": 2,
+    "variants": []
+  },
+  {
+    "id": "radicals:17",
+    "level": "RADICALS",
+    "order": 17,
+    "headword": "凵",
+    "reading": "かんにょう",
+    "readings": [
+      "かんにょう"
+    ],
+    "hanViet": "KHẢM",
+    "meanings": [
+      "container",
+      "open box"
+    ],
+    "meaningsVi": [
+      "hộp mở"
+    ],
+    "strokes": 2,
+    "variants": []
+  },
+  {
+    "id": "radicals:18",
+    "level": "RADICALS",
+    "order": 18,
+    "headword": "刀",
+    "reading": "かたな",
+    "readings": [
+      "かたな"
+    ],
+    "hanViet": "ĐAO",
+    "meanings": [
+      "knife",
+      "sword"
+    ],
+    "meaningsVi": [
+      "dao"
+    ],
+    "strokes": 2,
+    "variants": [
+      "刂"
+    ]
+  },
+  {
+    "id": "radicals:19",
+    "level": "RADICALS",
+    "order": 19,
+    "headword": "力",
+    "reading": "ちから",
+    "readings": [
+      "ちから"
+    ],
+    "hanViet": "LỰC",
+    "meanings": [
+      "power"
+    ],
+    "meaningsVi": [
+      "sức mạnh"
+    ],
+    "strokes": 2,
+    "variants": []
+  },
+  {
+    "id": "radicals:20",
+    "level": "RADICALS",
+    "order": 20,
+    "headword": "勹",
+    "reading": "つつみがまえ",
+    "readings": [
+      "つつみがまえ"
+    ],
+    "hanViet": "BAO",
+    "meanings": [
+      "to wrap"
+    ],
+    "meaningsVi": [
+      "bao bọc"
+    ],
+    "strokes": 2,
+    "variants": []
+  },
+  {
+    "id": "radicals:21",
+    "level": "RADICALS",
+    "order": 21,
+    "headword": "匕",
+    "reading": "さじ",
+    "readings": [
+      "さじ"
+    ],
+    "hanViet": "CHỦY",
+    "meanings": [
+      "spoon"
+    ],
+    "meaningsVi": [
+      "thìa"
+    ],
+    "strokes": 2,
+    "variants": []
+  },
+  {
+    "id": "radicals:22",
+    "level": "RADICALS",
+    "order": 22,
+    "headword": "匚",
+    "reading": "はこがまえ",
+    "readings": [
+      "はこがまえ"
+    ],
+    "hanViet": "PHƯƠNG",
+    "meanings": [
+      "box"
+    ],
+    "meaningsVi": [
+      "hộp mở phải"
+    ],
+    "strokes": 2,
+    "variants": []
+  },
+  {
+    "id": "radicals:23",
+    "level": "RADICALS",
+    "order": 23,
+    "headword": "匸",
+    "reading": "かくしがまえ",
+    "readings": [
+      "かくしがまえ"
+    ],
+    "hanViet": "HỆ",
+    "meanings": [
+      "to conceal",
+      "hide"
+    ],
+    "meaningsVi": [
+      "ẩn trong vách"
+    ],
+    "strokes": 2,
+    "variants": []
+  },
+  {
+    "id": "radicals:24",
+    "level": "RADICALS",
+    "order": 24,
+    "headword": "十",
+    "reading": "じゅう",
+    "readings": [
+      "じゅう"
+    ],
+    "hanViet": "THẬP",
+    "meanings": [
+      "ten"
+    ],
+    "meaningsVi": [
+      "mười"
+    ],
+    "strokes": 2,
+    "variants": []
+  },
+  {
+    "id": "radicals:25",
+    "level": "RADICALS",
+    "order": 25,
+    "headword": "卜",
+    "reading": "ぼく",
+    "readings": [
+      "ぼく"
+    ],
+    "hanViet": "BỐC",
+    "meanings": [
+      "oracle"
+    ],
+    "meaningsVi": [
+      "bói"
+    ],
+    "strokes": 2,
+    "variants": []
+  },
+  {
+    "id": "radicals:26",
+    "level": "RADICALS",
+    "order": 26,
+    "headword": "卩",
+    "reading": "ふしづくり",
+    "readings": [
+      "ふしづくり"
+    ],
+    "hanViet": "TIẾT",
+    "meanings": [
+      "stamp",
+      "seal"
+    ],
+    "meaningsVi": [
+      "đốt tre",
+      "con dấu"
+    ],
+    "strokes": 2,
+    "variants": []
+  },
+  {
+    "id": "radicals:27",
+    "level": "RADICALS",
+    "order": 27,
+    "headword": "厂",
+    "reading": "がんだれ",
+    "readings": [
+      "がんだれ"
+    ],
+    "hanViet": "HÁN",
+    "meanings": [
+      "cliff"
+    ],
+    "meaningsVi": [
+      "vách núi"
+    ],
+    "strokes": 2,
+    "variants": []
+  },
+  {
+    "id": "radicals:28",
+    "level": "RADICALS",
+    "order": 28,
+    "headword": "厶",
+    "reading": "む",
+    "readings": [
+      "む"
+    ],
+    "hanViet": "TƯ",
+    "meanings": [
+      "private",
+      "Katakana Mu"
+    ],
+    "meaningsVi": [
+      "riêng tư"
+    ],
+    "strokes": 2,
+    "variants": []
+  },
+  {
+    "id": "radicals:29",
+    "level": "RADICALS",
+    "order": 29,
+    "headword": "又",
+    "reading": "また",
+    "readings": [
+      "また"
+    ],
+    "hanViet": "HỰU",
+    "meanings": [
+      "again",
+      "right hand"
+    ],
+    "meaningsVi": [
+      "lại nữa"
+    ],
+    "strokes": 2,
+    "variants": []
+  },
+  {
+    "id": "radicals:30",
+    "level": "RADICALS",
+    "order": 30,
+    "headword": "口",
+    "reading": "くち",
+    "readings": [
+      "くち"
+    ],
+    "hanViet": "KHẨU",
+    "meanings": [
+      "mouth"
+    ],
+    "meaningsVi": [
+      "miệng"
+    ],
+    "strokes": 3,
+    "variants": [
+      "口"
+    ]
+  },
+  {
+    "id": "radicals:31",
+    "level": "RADICALS",
+    "order": 31,
+    "headword": "囗",
+    "reading": "くにがまえ",
+    "readings": [
+      "くにがまえ"
+    ],
+    "hanViet": "VI",
+    "meanings": [
+      "border",
+      "territorial boundaries"
+    ],
+    "meaningsVi": [
+      "vây quanh"
+    ],
+    "strokes": 3,
+    "variants": []
+  },
+  {
+    "id": "radicals:32",
+    "level": "RADICALS",
+    "order": 32,
+    "headword": "土",
+    "reading": "つち",
+    "readings": [
+      "つち"
+    ],
+    "hanViet": "THỔ",
+    "meanings": [
+      "earth"
+    ],
+    "meaningsVi": [
+      "đất"
+    ],
+    "strokes": 3,
+    "variants": [
+      "土"
+    ]
+  },
+  {
+    "id": "radicals:33",
+    "level": "RADICALS",
+    "order": 33,
+    "headword": "士",
+    "reading": "さむらい",
+    "readings": [
+      "さむらい"
+    ],
+    "hanViet": "SĨ",
+    "meanings": [
+      "man",
+      "scholar",
+      "samurai"
+    ],
+    "meaningsVi": [
+      "kẻ sĩ"
+    ],
+    "strokes": 3,
+    "variants": []
+  },
+  {
+    "id": "radicals:34",
+    "level": "RADICALS",
+    "order": 34,
+    "headword": "夂",
+    "reading": "のまた",
+    "readings": [
+      "のまた"
+    ],
+    "hanViet": "TRUY",
+    "meanings": [
+      "to follow"
+    ],
+    "meaningsVi": [
+      "đi theo"
+    ],
+    "strokes": 3,
+    "variants": []
+  },
+  {
+    "id": "radicals:35",
+    "level": "RADICALS",
+    "order": 35,
+    "headword": "夊",
+    "reading": "なつあし",
+    "readings": [
+      "なつあし"
+    ],
+    "hanViet": "TUY",
+    "meanings": [
+      "to go slowly"
+    ],
+    "meaningsVi": [
+      "đi chậm"
+    ],
+    "strokes": 3,
+    "variants": []
+  },
+  {
+    "id": "radicals:36",
+    "level": "RADICALS",
+    "order": 36,
+    "headword": "夕",
+    "reading": "ゆうべ",
+    "readings": [
+      "ゆうべ"
+    ],
+    "hanViet": "TỊCH",
+    "meanings": [
+      "evening"
+    ],
+    "meaningsVi": [
+      "buổi tối"
+    ],
+    "strokes": 3,
+    "variants": []
+  },
+  {
+    "id": "radicals:37",
+    "level": "RADICALS",
+    "order": 37,
+    "headword": "大",
+    "reading": "だい",
+    "readings": [
+      "だい"
+    ],
+    "hanViet": "ĐẠI",
+    "meanings": [
+      "large",
+      "big"
+    ],
+    "meaningsVi": [
+      "lớn"
+    ],
+    "strokes": 3,
+    "variants": []
+  },
+  {
+    "id": "radicals:38",
+    "level": "RADICALS",
+    "order": 38,
+    "headword": "女",
+    "reading": "おんな",
+    "readings": [
+      "おんな"
+    ],
+    "hanViet": "NỮ",
+    "meanings": [
+      "woman"
+    ],
+    "meaningsVi": [
+      "phụ nữ"
+    ],
+    "strokes": 3,
+    "variants": [
+      "女"
+    ]
+  },
+  {
+    "id": "radicals:39",
+    "level": "RADICALS",
+    "order": 39,
+    "headword": "子",
+    "reading": "こ",
+    "readings": [
+      "こ"
+    ],
+    "hanViet": "TỬ",
+    "meanings": [
+      "child",
+      "son"
+    ],
+    "meaningsVi": [
+      "con"
+    ],
+    "strokes": 3,
+    "variants": []
+  },
+  {
+    "id": "radicals:40",
+    "level": "RADICALS",
+    "order": 40,
+    "headword": "宀",
+    "reading": "うかんむり",
+    "readings": [
+      "うかんむり"
+    ],
+    "hanViet": "MIÊN",
+    "meanings": [
+      "roof",
+      "house"
+    ],
+    "meaningsVi": [
+      "mái nhà"
+    ],
+    "strokes": 3,
+    "variants": []
+  },
+  {
+    "id": "radicals:41",
+    "level": "RADICALS",
+    "order": 41,
+    "headword": "寸",
+    "reading": "すん",
+    "readings": [
+      "すん"
+    ],
+    "hanViet": "THỐN",
+    "meanings": [
+      "inch",
+      "(2.25 cm)"
+    ],
+    "meaningsVi": [
+      "tấc"
+    ],
+    "strokes": 3,
+    "variants": []
+  },
+  {
+    "id": "radicals:42",
+    "level": "RADICALS",
+    "order": 42,
+    "headword": "小",
+    "reading": "しょう",
+    "readings": [
+      "しょう"
+    ],
+    "hanViet": "TIỂU",
+    "meanings": [
+      "small"
+    ],
+    "meaningsVi": [
+      "nhỏ"
+    ],
+    "strokes": 3,
+    "variants": []
+  },
+  {
+    "id": "radicals:43",
+    "level": "RADICALS",
+    "order": 43,
+    "headword": "尢",
+    "reading": "だいのまげあし",
+    "readings": [
+      "だいのまげあし"
+    ],
+    "hanViet": "UÔNG",
+    "meanings": [
+      "lame leg"
+    ],
+    "meaningsVi": [
+      "khập khiễng"
+    ],
+    "strokes": 3,
+    "variants": []
+  },
+  {
+    "id": "radicals:44",
+    "level": "RADICALS",
+    "order": 44,
+    "headword": "尸",
+    "reading": "しかばね",
+    "readings": [
+      "しかばね"
+    ],
+    "hanViet": "THI",
+    "meanings": [
+      "corpse",
+      "awning"
+    ],
+    "meaningsVi": [
+      "thi thể"
+    ],
+    "strokes": 3,
+    "variants": []
+  },
+  {
+    "id": "radicals:45",
+    "level": "RADICALS",
+    "order": 45,
+    "headword": "屮",
+    "reading": "くさのめ",
+    "readings": [
+      "くさのめ"
+    ],
+    "hanViet": "TRIỆT",
+    "meanings": [
+      "sprout"
+    ],
+    "meaningsVi": [
+      "mầm non"
+    ],
+    "strokes": 3,
+    "variants": []
+  },
+  {
+    "id": "radicals:46",
+    "level": "RADICALS",
+    "order": 46,
+    "headword": "山",
+    "reading": "やま",
+    "readings": [
+      "やま"
+    ],
+    "hanViet": "SƠN",
+    "meanings": [
+      "mountain"
+    ],
+    "meaningsVi": [
+      "núi"
+    ],
+    "strokes": 3,
+    "variants": []
+  },
+  {
+    "id": "radicals:47",
+    "level": "RADICALS",
+    "order": 47,
+    "headword": "巛",
+    "reading": "まがりがわ",
+    "readings": [
+      "まがりがわ"
+    ],
+    "hanViet": "XUYÊN",
+    "meanings": [
+      "winding river"
+    ],
+    "meaningsVi": [
+      "sông"
+    ],
+    "strokes": 3,
+    "variants": []
+  },
+  {
+    "id": "radicals:48",
+    "level": "RADICALS",
+    "order": 48,
+    "headword": "工",
+    "reading": "たくみ",
+    "readings": [
+      "たくみ"
+    ],
+    "hanViet": "CÔNG",
+    "meanings": [
+      "work",
+      "carpenter",
+      "skill"
+    ],
+    "meaningsVi": [
+      "công việc"
+    ],
+    "strokes": 3,
+    "variants": []
+  },
+  {
+    "id": "radicals:49",
+    "level": "RADICALS",
+    "order": 49,
+    "headword": "己",
+    "reading": "おのれ",
+    "readings": [
+      "おのれ"
+    ],
+    "hanViet": "KỶ",
+    "meanings": [
+      "self"
+    ],
+    "meaningsVi": [
+      "bản thân"
+    ],
+    "strokes": 3,
+    "variants": []
+  },
+  {
+    "id": "radicals:50",
+    "level": "RADICALS",
+    "order": 50,
+    "headword": "巾",
+    "reading": "はば",
+    "readings": [
+      "はば"
+    ],
+    "hanViet": "CÂN",
+    "meanings": [
+      "cloth"
+    ],
+    "meaningsVi": [
+      "khăn"
+    ],
+    "strokes": 3,
+    "variants": []
+  },
+  {
+    "id": "radicals:51",
+    "level": "RADICALS",
+    "order": 51,
+    "headword": "干",
+    "reading": "かん",
+    "readings": [
+      "かん"
+    ],
+    "hanViet": "CAN",
+    "meanings": [
+      "to dry",
+      "shield"
+    ],
+    "meaningsVi": [
+      "khô"
+    ],
+    "strokes": 3,
+    "variants": []
+  },
+  {
+    "id": "radicals:52",
+    "level": "RADICALS",
+    "order": 52,
+    "headword": "幺",
+    "reading": "いとがしら",
+    "readings": [
+      "いとがしら"
+    ],
+    "hanViet": "YÊU",
+    "meanings": [
+      "young",
+      "slight"
+    ],
+    "meaningsVi": [
+      "sợi chỉ ngắn"
+    ],
+    "strokes": 3,
+    "variants": []
+  },
+  {
+    "id": "radicals:53",
+    "level": "RADICALS",
+    "order": 53,
+    "headword": "广",
+    "reading": "まだれ",
+    "readings": [
+      "まだれ"
+    ],
+    "hanViet": "NGHIỄM",
+    "meanings": [
+      "slanting roof"
+    ],
+    "meaningsVi": [
+      "vách núi chấm"
+    ],
+    "strokes": 3,
+    "variants": []
+  },
+  {
+    "id": "radicals:54",
+    "level": "RADICALS",
+    "order": 54,
+    "headword": "廴",
+    "reading": "えんにょう",
+    "readings": [
+      "えんにょう"
+    ],
+    "hanViet": "DẪN",
+    "meanings": [
+      "to move",
+      "stretch"
+    ],
+    "meaningsVi": [
+      "bước dài"
+    ],
+    "strokes": 3,
+    "variants": []
+  },
+  {
+    "id": "radicals:55",
+    "level": "RADICALS",
+    "order": 55,
+    "headword": "廾",
+    "reading": "にじゅうあし",
+    "readings": [
+      "にじゅうあし"
+    ],
+    "hanViet": "CỦNG",
+    "meanings": [
+      "folded hands"
+    ],
+    "meaningsVi": [
+      "hai tay"
+    ],
+    "strokes": 3,
+    "variants": []
+  },
+  {
+    "id": "radicals:56",
+    "level": "RADICALS",
+    "order": 56,
+    "headword": "弋",
+    "reading": "いぐるみ",
+    "readings": [
+      "いぐるみ"
+    ],
+    "hanViet": "DẶC",
+    "meanings": [
+      "javelin"
+    ],
+    "meaningsVi": [
+      "bắn"
+    ],
+    "strokes": 3,
+    "variants": []
+  },
+  {
+    "id": "radicals:57",
+    "level": "RADICALS",
+    "order": 57,
+    "headword": "弓",
+    "reading": "ゆみ",
+    "readings": [
+      "ゆみ"
+    ],
+    "hanViet": "CUNG",
+    "meanings": [
+      "bow（in archery）"
+    ],
+    "meaningsVi": [
+      "cung"
+    ],
+    "strokes": 3,
+    "variants": []
+  },
+  {
+    "id": "radicals:58",
+    "level": "RADICALS",
+    "order": 58,
+    "headword": "彐",
+    "reading": "けいがしら",
+    "readings": [
+      "けいがしら"
+    ],
+    "hanViet": "KỆ",
+    "meanings": [
+      "pig’s head"
+    ],
+    "meaningsVi": [
+      "mõm"
+    ],
+    "strokes": 3,
+    "variants": []
+  },
+  {
+    "id": "radicals:59",
+    "level": "RADICALS",
+    "order": 59,
+    "headword": "彡",
+    "reading": "さんづくり",
+    "readings": [
+      "さんづくり"
+    ],
+    "hanViet": "SAM",
+    "meanings": [
+      "hair-style",
+      "light rays"
+    ],
+    "meaningsVi": [
+      "lông ngắn"
+    ],
+    "strokes": 3,
+    "variants": []
+  },
+  {
+    "id": "radicals:60",
+    "level": "RADICALS",
+    "order": 60,
+    "headword": "彳",
+    "reading": "ぎょうにんべん",
+    "readings": [
+      "ぎょうにんべん"
+    ],
+    "hanViet": "XÍCH",
+    "meanings": [
+      "step",
+      "stride",
+      "street",
+      "to go"
+    ],
+    "meaningsVi": [
+      "bước đi"
+    ],
+    "strokes": 3,
+    "variants": []
+  },
+  {
+    "id": "radicals:61",
+    "level": "RADICALS",
+    "order": 61,
+    "headword": "心",
+    "reading": "こころ",
+    "readings": [
+      "こころ"
+    ],
+    "hanViet": "TÂM",
+    "meanings": [
+      "heart",
+      "mind",
+      "spirit"
+    ],
+    "meaningsVi": [
+      "tim"
+    ],
+    "strokes": 4,
+    "variants": [
+      "忄",
+      "⺗"
+    ]
+  },
+  {
+    "id": "radicals:62",
+    "level": "RADICALS",
+    "order": 62,
+    "headword": "戈",
+    "reading": "ほこ",
+    "readings": [
+      "ほこ"
+    ],
+    "hanViet": "QUA",
+    "meanings": [
+      "spear",
+      "weapon"
+    ],
+    "meaningsVi": [
+      "qua giáo"
+    ],
+    "strokes": 4,
+    "variants": []
+  },
+  {
+    "id": "radicals:63",
+    "level": "RADICALS",
+    "order": 63,
+    "headword": "戶",
+    "reading": "と",
+    "readings": [
+      "と"
+    ],
+    "hanViet": "HỘ",
+    "meanings": [
+      "door"
+    ],
+    "meaningsVi": [
+      "cửa"
+    ],
+    "strokes": 4,
+    "variants": []
+  },
+  {
+    "id": "radicals:64",
+    "level": "RADICALS",
+    "order": 64,
+    "headword": "手",
+    "reading": "て",
+    "readings": [
+      "て"
+    ],
+    "hanViet": "THỦ",
+    "meanings": [
+      "hand"
+    ],
+    "meaningsVi": [
+      "tay"
+    ],
+    "strokes": 4,
+    "variants": [
+      "扌"
+    ]
+  },
+  {
+    "id": "radicals:65",
+    "level": "RADICALS",
+    "order": 65,
+    "headword": "支",
+    "reading": "しにょう",
+    "readings": [
+      "しにょう"
+    ],
+    "hanViet": "CHI",
+    "meanings": [
+      "branch"
+    ],
+    "meaningsVi": [
+      "cành cây"
+    ],
+    "strokes": 4,
+    "variants": []
+  },
+  {
+    "id": "radicals:66",
+    "level": "RADICALS",
+    "order": 66,
+    "headword": "攴",
+    "reading": "ぼくづくり",
+    "readings": [
+      "ぼくづくり"
+    ],
+    "hanViet": "PHỘC",
+    "meanings": [
+      "activity",
+      "to strike",
+      "hit"
+    ],
+    "meaningsVi": [
+      "đánh nhẹ"
+    ],
+    "strokes": 4,
+    "variants": []
+  },
+  {
+    "id": "radicals:67",
+    "level": "RADICALS",
+    "order": 67,
+    "headword": "文",
+    "reading": "ぶん",
+    "readings": [
+      "ぶん"
+    ],
+    "hanViet": "VĂN",
+    "meanings": [
+      "literature",
+      "letters"
+    ],
+    "meaningsVi": [
+      "văn",
+      "hoa văn"
+    ],
+    "strokes": 4,
+    "variants": []
+  },
+  {
+    "id": "radicals:68",
+    "level": "RADICALS",
+    "order": 68,
+    "headword": "斗",
+    "reading": "ますづくり",
+    "readings": [
+      "ますづくり"
+    ],
+    "hanViet": "ĐẨU",
+    "meanings": [
+      "big dipper",
+      "ladle",
+      "18 liters"
+    ],
+    "meaningsVi": [
+      "cái đấu"
+    ],
+    "strokes": 4,
+    "variants": []
+  },
+  {
+    "id": "radicals:69",
+    "level": "RADICALS",
+    "order": 69,
+    "headword": "斤",
+    "reading": "おのづくり",
+    "readings": [
+      "おのづくり"
+    ],
+    "hanViet": "CÂN",
+    "meanings": [
+      "axe"
+    ],
+    "meaningsVi": [
+      "rìu"
+    ],
+    "strokes": 4,
+    "variants": []
+  },
+  {
+    "id": "radicals:70",
+    "level": "RADICALS",
+    "order": 70,
+    "headword": "方",
+    "reading": "ほう",
+    "readings": [
+      "ほう"
+    ],
+    "hanViet": "PHƯƠNG",
+    "meanings": [
+      "direction",
+      "flag"
+    ],
+    "meaningsVi": [
+      "hình vuông"
+    ],
+    "strokes": 4,
+    "variants": []
+  },
+  {
+    "id": "radicals:71",
+    "level": "RADICALS",
+    "order": 71,
+    "headword": "无",
+    "reading": "むにょう",
+    "readings": [
+      "むにょう"
+    ],
+    "hanViet": "VÔ",
+    "meanings": [
+      "not"
+    ],
+    "meaningsVi": [
+      "không"
+    ],
+    "strokes": 4,
+    "variants": []
+  },
+  {
+    "id": "radicals:72",
+    "level": "RADICALS",
+    "order": 72,
+    "headword": "日",
+    "reading": "ひ",
+    "readings": [
+      "ひ"
+    ],
+    "hanViet": "NHẬT",
+    "meanings": [
+      "sun",
+      "day",
+      "time"
+    ],
+    "meaningsVi": [
+      "mặt trời"
+    ],
+    "strokes": 4,
+    "variants": [
+      "日"
+    ]
+  },
+  {
+    "id": "radicals:73",
+    "level": "RADICALS",
+    "order": 73,
+    "headword": "曰",
+    "reading": "ひらび",
+    "readings": [
+      "ひらび"
+    ],
+    "hanViet": "VIẾT",
+    "meanings": [
+      "to say"
+    ],
+    "meaningsVi": [
+      "nói"
+    ],
+    "strokes": 4,
+    "variants": []
+  },
+  {
+    "id": "radicals:74",
+    "level": "RADICALS",
+    "order": 74,
+    "headword": "月",
+    "reading": "つき",
+    "readings": [
+      "つき"
+    ],
+    "hanViet": "NGUYỆT",
+    "meanings": [
+      "moon",
+      "month",
+      "period"
+    ],
+    "meaningsVi": [
+      "mặt trăng"
+    ],
+    "strokes": 4,
+    "variants": []
+  },
+  {
+    "id": "radicals:75",
+    "level": "RADICALS",
+    "order": 75,
+    "headword": "木",
+    "reading": "き",
+    "readings": [
+      "き"
+    ],
+    "hanViet": "MỘC",
+    "meanings": [
+      "tree",
+      "wood"
+    ],
+    "meaningsVi": [
+      "cây"
+    ],
+    "strokes": 4,
+    "variants": [
+      "木"
+    ]
+  },
+  {
+    "id": "radicals:76",
+    "level": "RADICALS",
+    "order": 76,
+    "headword": "欠",
+    "reading": "あくび",
+    "readings": [
+      "あくび"
+    ],
+    "hanViet": "KHIẾM",
+    "meanings": [
+      "to lack",
+      "yawn"
+    ],
+    "meaningsVi": [
+      "thiếu"
+    ],
+    "strokes": 4,
+    "variants": []
+  },
+  {
+    "id": "radicals:77",
+    "level": "RADICALS",
+    "order": 77,
+    "headword": "止",
+    "reading": "とめる",
+    "readings": [
+      "とめる"
+    ],
+    "hanViet": "CHỈ",
+    "meanings": [
+      "to stop"
+    ],
+    "meaningsVi": [
+      "dừng"
+    ],
+    "strokes": 4,
+    "variants": []
+  },
+  {
+    "id": "radicals:78",
+    "level": "RADICALS",
+    "order": 78,
+    "headword": "歹",
+    "reading": "がつ",
+    "readings": [
+      "がつ"
+    ],
+    "hanViet": "ĐÃI",
+    "meanings": [
+      "death & dying",
+      "to decompose"
+    ],
+    "meaningsVi": [
+      "chết"
+    ],
+    "strokes": 4,
+    "variants": []
+  },
+  {
+    "id": "radicals:79",
+    "level": "RADICALS",
+    "order": 79,
+    "headword": "殳",
+    "reading": "るまた",
+    "readings": [
+      "るまた"
+    ],
+    "hanViet": "THÙ",
+    "meanings": [
+      "lance shaft",
+      "action"
+    ],
+    "meaningsVi": [
+      "vũ khí"
+    ],
+    "strokes": 4,
+    "variants": []
+  },
+  {
+    "id": "radicals:80",
+    "level": "RADICALS",
+    "order": 80,
+    "headword": "毋",
+    "reading": "なかれ",
+    "readings": [
+      "なかれ"
+    ],
+    "hanViet": "VÔ",
+    "meanings": [
+      "not",
+      "mother"
+    ],
+    "meaningsVi": [
+      "đừng"
+    ],
+    "strokes": 4,
+    "variants": []
+  },
+  {
+    "id": "radicals:81",
+    "level": "RADICALS",
+    "order": 81,
+    "headword": "比",
+    "reading": "くらべる",
+    "readings": [
+      "くらべる"
+    ],
+    "hanViet": "TỶ",
+    "meanings": [
+      "to compare"
+    ],
+    "meaningsVi": [
+      "so sánh"
+    ],
+    "strokes": 4,
+    "variants": []
+  },
+  {
+    "id": "radicals:82",
+    "level": "RADICALS",
+    "order": 82,
+    "headword": "毛",
+    "reading": "け",
+    "readings": [
+      "け"
+    ],
+    "hanViet": "MAO",
+    "meanings": [
+      "hair"
+    ],
+    "meaningsVi": [
+      "lông thú"
+    ],
+    "strokes": 4,
+    "variants": []
+  },
+  {
+    "id": "radicals:83",
+    "level": "RADICALS",
+    "order": 83,
+    "headword": "氏",
+    "reading": "うじ",
+    "readings": [
+      "うじ"
+    ],
+    "hanViet": "THỊ",
+    "meanings": [
+      "family",
+      "clan"
+    ],
+    "meaningsVi": [
+      "dòng họ"
+    ],
+    "strokes": 4,
+    "variants": []
+  },
+  {
+    "id": "radicals:84",
+    "level": "RADICALS",
+    "order": 84,
+    "headword": "气",
+    "reading": "きがまえ",
+    "readings": [
+      "きがまえ"
+    ],
+    "hanViet": "KHÍ",
+    "meanings": [
+      "steam",
+      "air"
+    ],
+    "meaningsVi": [
+      "hơi nước"
+    ],
+    "strokes": 4,
+    "variants": []
+  },
+  {
+    "id": "radicals:85",
+    "level": "RADICALS",
+    "order": 85,
+    "headword": "水",
+    "reading": "みず",
+    "readings": [
+      "みず"
+    ],
+    "hanViet": "THỦY",
+    "meanings": [
+      "water"
+    ],
+    "meaningsVi": [
+      "nước"
+    ],
+    "strokes": 4,
+    "variants": [
+      "氵",
+      "氺"
+    ]
+  },
+  {
+    "id": "radicals:86",
+    "level": "RADICALS",
+    "order": 86,
+    "headword": "火",
+    "reading": "ひ",
+    "readings": [
+      "ひ"
+    ],
+    "hanViet": "HỎA",
+    "meanings": [
+      "fire"
+    ],
+    "meaningsVi": [
+      "lửa"
+    ],
+    "strokes": 4,
+    "variants": [
+      "灬"
+    ]
+  },
+  {
+    "id": "radicals:87",
+    "level": "RADICALS",
+    "order": 87,
+    "headword": "爪",
+    "reading": "つめ",
+    "readings": [
+      "つめ"
+    ],
+    "hanViet": "TRẢO",
+    "meanings": [
+      "claw",
+      "nail"
+    ],
+    "meaningsVi": [
+      "móng vuốt"
+    ],
+    "strokes": 4,
+    "variants": [
+      "爫"
+    ]
+  },
+  {
+    "id": "radicals:88",
+    "level": "RADICALS",
+    "order": 88,
+    "headword": "父",
+    "reading": "ちち",
+    "readings": [
+      "ちち"
+    ],
+    "hanViet": "PHỤ",
+    "meanings": [
+      "father"
+    ],
+    "meaningsVi": [
+      "cha"
+    ],
+    "strokes": 4,
+    "variants": []
+  },
+  {
+    "id": "radicals:89",
+    "level": "RADICALS",
+    "order": 89,
+    "headword": "爻",
+    "reading": "こう",
+    "readings": [
+      "こう"
+    ],
+    "hanViet": "HÀO",
+    "meanings": [
+      "to mix"
+    ],
+    "meaningsVi": [
+      "hai dấu X"
+    ],
+    "strokes": 4,
+    "variants": []
+  },
+  {
+    "id": "radicals:90",
+    "level": "RADICALS",
+    "order": 90,
+    "headword": "爿",
+    "reading": "しょうへん",
+    "readings": [
+      "しょうへん"
+    ],
+    "hanViet": "TƯỜNG",
+    "meanings": [
+      "split wood"
+    ],
+    "meaningsVi": [
+      "thân cây chẻ"
+    ],
+    "strokes": 4,
+    "variants": []
+  },
+  {
+    "id": "radicals:91",
+    "level": "RADICALS",
+    "order": 91,
+    "headword": "片",
+    "reading": "かた",
+    "readings": [
+      "かた"
+    ],
+    "hanViet": "PHIẾN",
+    "meanings": [
+      "split wood"
+    ],
+    "meaningsVi": [
+      "mảnh"
+    ],
+    "strokes": 4,
+    "variants": []
+  },
+  {
+    "id": "radicals:92",
+    "level": "RADICALS",
+    "order": 92,
+    "headword": "牙",
+    "reading": "きば",
+    "readings": [
+      "きば"
+    ],
+    "hanViet": "NHA",
+    "meanings": [
+      "fang",
+      "canine tooth"
+    ],
+    "meaningsVi": [
+      "răng nanh"
+    ],
+    "strokes": 4,
+    "variants": []
+  },
+  {
+    "id": "radicals:93",
+    "level": "RADICALS",
+    "order": 93,
+    "headword": "牛",
+    "reading": "うし",
+    "readings": [
+      "うし"
+    ],
+    "hanViet": "NGƯU",
+    "meanings": [
+      "cow"
+    ],
+    "meaningsVi": [
+      "bò"
+    ],
+    "strokes": 4,
+    "variants": [
+      "牜"
+    ]
+  },
+  {
+    "id": "radicals:94",
+    "level": "RADICALS",
+    "order": 94,
+    "headword": "犬",
+    "reading": "いぬ",
+    "readings": [
+      "いぬ"
+    ],
+    "hanViet": "KHUYỂN",
+    "meanings": [
+      "dog"
+    ],
+    "meaningsVi": [
+      "chó"
+    ],
+    "strokes": 4,
+    "variants": [
+      "犭"
+    ]
+  },
+  {
+    "id": "radicals:95",
+    "level": "RADICALS",
+    "order": 95,
+    "headword": "玄",
+    "reading": "げん",
+    "readings": [
+      "げん"
+    ],
+    "hanViet": "HUYỀN",
+    "meanings": [
+      "darkness"
+    ],
+    "meaningsVi": [
+      "huyền bí"
+    ],
+    "strokes": 5,
+    "variants": []
+  },
+  {
+    "id": "radicals:96",
+    "level": "RADICALS",
+    "order": 96,
+    "headword": "玉",
+    "reading": "たま",
+    "readings": [
+      "たま"
+    ],
+    "hanViet": "NGỌC",
+    "meanings": [
+      "jewelry"
+    ],
+    "meaningsVi": [
+      "ngọc"
+    ],
+    "strokes": 5,
+    "variants": [
+      "王"
+    ]
+  },
+  {
+    "id": "radicals:97",
+    "level": "RADICALS",
+    "order": 97,
+    "headword": "瓜",
+    "reading": "うり",
+    "readings": [
+      "うり"
+    ],
+    "hanViet": "QUA",
+    "meanings": [
+      "melon"
+    ],
+    "meaningsVi": [
+      "dưa"
+    ],
+    "strokes": 5,
+    "variants": []
+  },
+  {
+    "id": "radicals:98",
+    "level": "RADICALS",
+    "order": 98,
+    "headword": "瓦",
+    "reading": "かわら",
+    "readings": [
+      "かわら"
+    ],
+    "hanViet": "NGÕA",
+    "meanings": [
+      "tile"
+    ],
+    "meaningsVi": [
+      "ngói"
+    ],
+    "strokes": 5,
+    "variants": []
+  },
+  {
+    "id": "radicals:99",
+    "level": "RADICALS",
+    "order": 99,
+    "headword": "甘",
+    "reading": "あまい",
+    "readings": [
+      "あまい"
+    ],
+    "hanViet": "CAM",
+    "meanings": [
+      "sweet"
+    ],
+    "meaningsVi": [
+      "ngọt"
+    ],
+    "strokes": 5,
+    "variants": []
+  },
+  {
+    "id": "radicals:100",
+    "level": "RADICALS",
+    "order": 100,
+    "headword": "生",
+    "reading": "うまれる",
+    "readings": [
+      "うまれる"
+    ],
+    "hanViet": "SINH",
+    "meanings": [
+      "birth",
+      "to be born",
+      "live"
+    ],
+    "meaningsVi": [
+      "sinh",
+      "sự sống"
+    ],
+    "strokes": 5,
+    "variants": []
+  },
+  {
+    "id": "radicals:101",
+    "level": "RADICALS",
+    "order": 101,
+    "headword": "用",
+    "reading": "もちいる",
+    "readings": [
+      "もちいる"
+    ],
+    "hanViet": "DỤNG",
+    "meanings": [
+      "to use"
+    ],
+    "meaningsVi": [
+      "dùng"
+    ],
+    "strokes": 5,
+    "variants": []
+  },
+  {
+    "id": "radicals:102",
+    "level": "RADICALS",
+    "order": 102,
+    "headword": "田",
+    "reading": "た",
+    "readings": [
+      "た"
+    ],
+    "hanViet": "ĐIỀN",
+    "meanings": [
+      "rice paddy"
+    ],
+    "meaningsVi": [
+      "ruộng"
+    ],
+    "strokes": 5,
+    "variants": [
+      "田"
+    ]
+  },
+  {
+    "id": "radicals:103",
+    "level": "RADICALS",
+    "order": 103,
+    "headword": "疋",
+    "reading": "ひき",
+    "readings": [
+      "ひき"
+    ],
+    "hanViet": "SƠ",
+    "meanings": [
+      "bolt of cloth"
+    ],
+    "meaningsVi": [
+      "tấm vải"
+    ],
+    "strokes": 5,
+    "variants": []
+  },
+  {
+    "id": "radicals:104",
+    "level": "RADICALS",
+    "order": 104,
+    "headword": "疒",
+    "reading": "やまいだれ",
+    "readings": [
+      "やまいだれ"
+    ],
+    "hanViet": "NẠCH",
+    "meanings": [
+      "sickness"
+    ],
+    "meaningsVi": [
+      "bệnh"
+    ],
+    "strokes": 5,
+    "variants": []
+  },
+  {
+    "id": "radicals:105",
+    "level": "RADICALS",
+    "order": 105,
+    "headword": "癶",
+    "reading": "はつがしら",
+    "readings": [
+      "はつがしら"
+    ],
+    "hanViet": "BÁT",
+    "meanings": [
+      "outspread legs",
+      "departure"
+    ],
+    "meaningsVi": [
+      "lều có chấm"
+    ],
+    "strokes": 5,
+    "variants": []
+  },
+  {
+    "id": "radicals:106",
+    "level": "RADICALS",
+    "order": 106,
+    "headword": "白",
+    "reading": "しろ",
+    "readings": [
+      "しろ"
+    ],
+    "hanViet": "BẠCH",
+    "meanings": [
+      "white"
+    ],
+    "meaningsVi": [
+      "trắng"
+    ],
+    "strokes": 5,
+    "variants": []
+  },
+  {
+    "id": "radicals:107",
+    "level": "RADICALS",
+    "order": 107,
+    "headword": "皮",
+    "reading": "けがわ",
+    "readings": [
+      "けがわ"
+    ],
+    "hanViet": "BÌ",
+    "meanings": [
+      "skin",
+      "hide"
+    ],
+    "meaningsVi": [
+      "da"
+    ],
+    "strokes": 5,
+    "variants": []
+  },
+  {
+    "id": "radicals:108",
+    "level": "RADICALS",
+    "order": 108,
+    "headword": "皿",
+    "reading": "さら",
+    "readings": [
+      "さら"
+    ],
+    "hanViet": "MÃNH",
+    "meanings": [
+      "plate",
+      "bowl"
+    ],
+    "meaningsVi": [
+      "đĩa"
+    ],
+    "strokes": 5,
+    "variants": []
+  },
+  {
+    "id": "radicals:109",
+    "level": "RADICALS",
+    "order": 109,
+    "headword": "目",
+    "reading": "め",
+    "readings": [
+      "め"
+    ],
+    "hanViet": "MỤC",
+    "meanings": [
+      "eye"
+    ],
+    "meaningsVi": [
+      "mắt"
+    ],
+    "strokes": 5,
+    "variants": []
+  },
+  {
+    "id": "radicals:110",
+    "level": "RADICALS",
+    "order": 110,
+    "headword": "矛",
+    "reading": "ほこ",
+    "readings": [
+      "ほこ"
+    ],
+    "hanViet": "MÂU",
+    "meanings": [
+      "halberd"
+    ],
+    "meaningsVi": [
+      "giáo"
+    ],
+    "strokes": 5,
+    "variants": []
+  },
+  {
+    "id": "radicals:111",
+    "level": "RADICALS",
+    "order": 111,
+    "headword": "矢",
+    "reading": "や",
+    "readings": [
+      "や"
+    ],
+    "hanViet": "THỈ",
+    "meanings": [
+      "arrow"
+    ],
+    "meaningsVi": [
+      "mũi tên"
+    ],
+    "strokes": 5,
+    "variants": []
+  },
+  {
+    "id": "radicals:112",
+    "level": "RADICALS",
+    "order": 112,
+    "headword": "石",
+    "reading": "いし",
+    "readings": [
+      "いし"
+    ],
+    "hanViet": "THẠCH",
+    "meanings": [
+      "stone"
+    ],
+    "meaningsVi": [
+      "đá"
+    ],
+    "strokes": 5,
+    "variants": []
+  },
+  {
+    "id": "radicals:113",
+    "level": "RADICALS",
+    "order": 113,
+    "headword": "示",
+    "reading": "しめす",
+    "readings": [
+      "しめす"
+    ],
+    "hanViet": "THỊ",
+    "meanings": [
+      "altar",
+      "festival",
+      "religious service"
+    ],
+    "meaningsVi": [
+      "thần linh"
+    ],
+    "strokes": 5,
+    "variants": [
+      "礻"
+    ]
+  },
+  {
+    "id": "radicals:114",
+    "level": "RADICALS",
+    "order": 114,
+    "headword": "禸",
+    "reading": "じゅうのあし",
+    "readings": [
+      "じゅうのあし"
+    ],
+    "hanViet": "NHỰU",
+    "meanings": [
+      "footprint"
+    ],
+    "meaningsVi": [
+      "dấu vết"
+    ],
+    "strokes": 5,
+    "variants": []
+  },
+  {
+    "id": "radicals:115",
+    "level": "RADICALS",
+    "order": 115,
+    "headword": "禾",
+    "reading": "のぎへん",
+    "readings": [
+      "のぎへん"
+    ],
+    "hanViet": "HÒA",
+    "meanings": [
+      "grain"
+    ],
+    "meaningsVi": [
+      "lúa"
+    ],
+    "strokes": 5,
+    "variants": []
+  },
+  {
+    "id": "radicals:116",
+    "level": "RADICALS",
+    "order": 116,
+    "headword": "穴",
+    "reading": "あな",
+    "readings": [
+      "あな"
+    ],
+    "hanViet": "HUYỆT",
+    "meanings": [
+      "hole",
+      "cave"
+    ],
+    "meaningsVi": [
+      "hang"
+    ],
+    "strokes": 5,
+    "variants": []
+  },
+  {
+    "id": "radicals:117",
+    "level": "RADICALS",
+    "order": 117,
+    "headword": "立",
+    "reading": "たつ",
+    "readings": [
+      "たつ"
+    ],
+    "hanViet": "LẬP",
+    "meanings": [
+      "to stand"
+    ],
+    "meaningsVi": [
+      "đứng"
+    ],
+    "strokes": 5,
+    "variants": []
+  },
+  {
+    "id": "radicals:118",
+    "level": "RADICALS",
+    "order": 118,
+    "headword": "竹",
+    "reading": "たけ",
+    "readings": [
+      "たけ"
+    ],
+    "hanViet": "TRÚC",
+    "meanings": [
+      "bamboo"
+    ],
+    "meaningsVi": [
+      "tre"
+    ],
+    "strokes": 6,
+    "variants": [
+      "⺮"
+    ]
+  },
+  {
+    "id": "radicals:119",
+    "level": "RADICALS",
+    "order": 119,
+    "headword": "米",
+    "reading": "こめ",
+    "readings": [
+      "こめ"
+    ],
+    "hanViet": "MỄ",
+    "meanings": [
+      "rice"
+    ],
+    "meaningsVi": [
+      "gạo"
+    ],
+    "strokes": 6,
+    "variants": []
+  },
+  {
+    "id": "radicals:120",
+    "level": "RADICALS",
+    "order": 120,
+    "headword": "糸",
+    "reading": "いと",
+    "readings": [
+      "いと"
+    ],
+    "hanViet": "MỊCH",
+    "meanings": [
+      "thread"
+    ],
+    "meaningsVi": [
+      "tơ lụa"
+    ],
+    "strokes": 6,
+    "variants": [
+      "糹"
+    ]
+  },
+  {
+    "id": "radicals:121",
+    "level": "RADICALS",
+    "order": 121,
+    "headword": "缶",
+    "reading": "みずがめ",
+    "readings": [
+      "みずがめ"
+    ],
+    "hanViet": "PHẪU",
+    "meanings": [
+      "earthen jar"
+    ],
+    "meaningsVi": [
+      "chum"
+    ],
+    "strokes": 6,
+    "variants": []
+  },
+  {
+    "id": "radicals:122",
+    "level": "RADICALS",
+    "order": 122,
+    "headword": "网",
+    "reading": "あみめ",
+    "readings": [
+      "あみめ"
+    ],
+    "hanViet": "VÕNG",
+    "meanings": [
+      "net"
+    ],
+    "meaningsVi": [
+      "lưới"
+    ],
+    "strokes": 6,
+    "variants": [
+      "罒"
+    ]
+  },
+  {
+    "id": "radicals:123",
+    "level": "RADICALS",
+    "order": 123,
+    "headword": "羊",
+    "reading": "ひつじ",
+    "readings": [
+      "ひつじ"
+    ],
+    "hanViet": "DƯƠNG",
+    "meanings": [
+      "sheep"
+    ],
+    "meaningsVi": [
+      "dê",
+      "cừu"
+    ],
+    "strokes": 6,
+    "variants": [
+      "⺶"
+    ]
+  },
+  {
+    "id": "radicals:124",
+    "level": "RADICALS",
+    "order": 124,
+    "headword": "羽",
+    "reading": "はね",
+    "readings": [
+      "はね"
+    ],
+    "hanViet": "VŨ",
+    "meanings": [
+      "feather",
+      "wing"
+    ],
+    "meaningsVi": [
+      "lông vũ"
+    ],
+    "strokes": 6,
+    "variants": []
+  },
+  {
+    "id": "radicals:125",
+    "level": "RADICALS",
+    "order": 125,
+    "headword": "老",
+    "reading": "おいかんむり",
+    "readings": [
+      "おいかんむり"
+    ],
+    "hanViet": "LÃO",
+    "meanings": [
+      "old",
+      "old-age"
+    ],
+    "meaningsVi": [
+      "già"
+    ],
+    "strokes": 6,
+    "variants": []
+  },
+  {
+    "id": "radicals:126",
+    "level": "RADICALS",
+    "order": 126,
+    "headword": "而",
+    "reading": "しこうして",
+    "readings": [
+      "しこうして"
+    ],
+    "hanViet": "NHI",
+    "meanings": [
+      "and also"
+    ],
+    "meaningsVi": [
+      "và"
+    ],
+    "strokes": 6,
+    "variants": []
+  },
+  {
+    "id": "radicals:127",
+    "level": "RADICALS",
+    "order": 127,
+    "headword": "耒",
+    "reading": "らいすき",
+    "readings": [
+      "らいすき"
+    ],
+    "hanViet": "LỖI",
+    "meanings": [
+      "plow"
+    ],
+    "meaningsVi": [
+      "cày"
+    ],
+    "strokes": 6,
+    "variants": []
+  },
+  {
+    "id": "radicals:128",
+    "level": "RADICALS",
+    "order": 128,
+    "headword": "耳",
+    "reading": "みみ",
+    "readings": [
+      "みみ"
+    ],
+    "hanViet": "NHĨ",
+    "meanings": [
+      "ear"
+    ],
+    "meaningsVi": [
+      "tai"
+    ],
+    "strokes": 6,
+    "variants": []
+  },
+  {
+    "id": "radicals:129",
+    "level": "RADICALS",
+    "order": 129,
+    "headword": "聿",
+    "reading": "ふでづくり",
+    "readings": [
+      "ふでづくり"
+    ],
+    "hanViet": "DUẬT",
+    "meanings": [
+      "writing brush"
+    ],
+    "meaningsVi": [
+      "bút lông"
+    ],
+    "strokes": 6,
+    "variants": []
+  },
+  {
+    "id": "radicals:130",
+    "level": "RADICALS",
+    "order": 130,
+    "headword": "肉",
+    "reading": "にく",
+    "readings": [
+      "にく"
+    ],
+    "hanViet": "NHỤC",
+    "meanings": [
+      "flesh",
+      "meat"
+    ],
+    "meaningsVi": [
+      "thịt"
+    ],
+    "strokes": 6,
+    "variants": [
+      "月"
+    ]
+  },
+  {
+    "id": "radicals:131",
+    "level": "RADICALS",
+    "order": 131,
+    "headword": "臣",
+    "reading": "しん",
+    "readings": [
+      "しん"
+    ],
+    "hanViet": "THẦN",
+    "meanings": [
+      "retainer",
+      "minister"
+    ],
+    "meaningsVi": [
+      "bề tôi"
+    ],
+    "strokes": 6,
+    "variants": []
+  },
+  {
+    "id": "radicals:132",
+    "level": "RADICALS",
+    "order": 132,
+    "headword": "自",
+    "reading": "みずから",
+    "readings": [
+      "みずから"
+    ],
+    "hanViet": "TỰ",
+    "meanings": [
+      "self"
+    ],
+    "meaningsVi": [
+      "tự mình"
+    ],
+    "strokes": 6,
+    "variants": []
+  },
+  {
+    "id": "radicals:133",
+    "level": "RADICALS",
+    "order": 133,
+    "headword": "至",
+    "reading": "いたる",
+    "readings": [
+      "いたる"
+    ],
+    "hanViet": "CHÍ",
+    "meanings": [
+      "to arrive",
+      "reach"
+    ],
+    "meaningsVi": [
+      "đến"
+    ],
+    "strokes": 6,
+    "variants": []
+  },
+  {
+    "id": "radicals:134",
+    "level": "RADICALS",
+    "order": 134,
+    "headword": "臼",
+    "reading": "うす",
+    "readings": [
+      "うす"
+    ],
+    "hanViet": "CỮU",
+    "meanings": [
+      "mortar",
+      "quern"
+    ],
+    "meaningsVi": [
+      "cối giã"
+    ],
+    "strokes": 6,
+    "variants": []
+  },
+  {
+    "id": "radicals:135",
+    "level": "RADICALS",
+    "order": 135,
+    "headword": "舌",
+    "reading": "した",
+    "readings": [
+      "した"
+    ],
+    "hanViet": "THIỆT",
+    "meanings": [
+      "tongue"
+    ],
+    "meaningsVi": [
+      "lưỡi"
+    ],
+    "strokes": 6,
+    "variants": []
+  },
+  {
+    "id": "radicals:136",
+    "level": "RADICALS",
+    "order": 136,
+    "headword": "舛",
+    "reading": "まいあし",
+    "readings": [
+      "まいあし"
+    ],
+    "hanViet": "SUYỄN",
+    "meanings": [
+      "contrary",
+      "to err"
+    ],
+    "meaningsVi": [
+      "trái ngược"
+    ],
+    "strokes": 6,
+    "variants": []
+  },
+  {
+    "id": "radicals:137",
+    "level": "RADICALS",
+    "order": 137,
+    "headword": "舟",
+    "reading": "ふね",
+    "readings": [
+      "ふね"
+    ],
+    "hanViet": "CHU",
+    "meanings": [
+      "ship",
+      "boat"
+    ],
+    "meaningsVi": [
+      "thuyền"
+    ],
+    "strokes": 6,
+    "variants": []
+  },
+  {
+    "id": "radicals:138",
+    "level": "RADICALS",
+    "order": 138,
+    "headword": "艮",
+    "reading": "こん",
+    "readings": [
+      "こん"
+    ],
+    "hanViet": "CẤN",
+    "meanings": [
+      "boundary"
+    ],
+    "meaningsVi": [
+      "dừng lại"
+    ],
+    "strokes": 6,
+    "variants": []
+  },
+  {
+    "id": "radicals:139",
+    "level": "RADICALS",
+    "order": 139,
+    "headword": "色",
+    "reading": "いろ",
+    "readings": [
+      "いろ"
+    ],
+    "hanViet": "SẮC",
+    "meanings": [
+      "color"
+    ],
+    "meaningsVi": [
+      "màu sắc"
+    ],
+    "strokes": 6,
+    "variants": []
+  },
+  {
+    "id": "radicals:140",
+    "level": "RADICALS",
+    "order": 140,
+    "headword": "艸",
+    "reading": "くさ",
+    "readings": [
+      "くさ"
+    ],
+    "hanViet": "THẢO",
+    "meanings": [
+      "grass",
+      "plant"
+    ],
+    "meaningsVi": [
+      "cỏ"
+    ],
+    "strokes": 6,
+    "variants": [
+      "艹"
+    ]
+  },
+  {
+    "id": "radicals:141",
+    "level": "RADICALS",
+    "order": 141,
+    "headword": "虍",
+    "reading": "とらがしら",
+    "readings": [
+      "とらがしら"
+    ],
+    "hanViet": "HÔ",
+    "meanings": [
+      "tiger"
+    ],
+    "meaningsVi": [
+      "hổ"
+    ],
+    "strokes": 6,
+    "variants": []
+  },
+  {
+    "id": "radicals:142",
+    "level": "RADICALS",
+    "order": 142,
+    "headword": "虫",
+    "reading": "むし",
+    "readings": [
+      "むし"
+    ],
+    "hanViet": "TRÙNG",
+    "meanings": [
+      "worm",
+      "insect",
+      "bug"
+    ],
+    "meaningsVi": [
+      "côn trùng"
+    ],
+    "strokes": 6,
+    "variants": [
+      "虫"
+    ]
+  },
+  {
+    "id": "radicals:143",
+    "level": "RADICALS",
+    "order": 143,
+    "headword": "血",
+    "reading": "ち",
+    "readings": [
+      "ち"
+    ],
+    "hanViet": "HUYẾT",
+    "meanings": [
+      "blood"
+    ],
+    "meaningsVi": [
+      "máu"
+    ],
+    "strokes": 6,
+    "variants": []
+  },
+  {
+    "id": "radicals:144",
+    "level": "RADICALS",
+    "order": 144,
+    "headword": "行",
+    "reading": "ぎょうがまえ",
+    "readings": [
+      "ぎょうがまえ"
+    ],
+    "hanViet": "HÀNH",
+    "meanings": [
+      "to go"
+    ],
+    "meaningsVi": [
+      "đi trong khung"
+    ],
+    "strokes": 6,
+    "variants": []
+  },
+  {
+    "id": "radicals:145",
+    "level": "RADICALS",
+    "order": 145,
+    "headword": "衣",
+    "reading": "ころも",
+    "readings": [
+      "ころも"
+    ],
+    "hanViet": "Y",
+    "meanings": [
+      "clothing"
+    ],
+    "meaningsVi": [
+      "quần áo"
+    ],
+    "strokes": 6,
+    "variants": [
+      "衤"
+    ]
+  },
+  {
+    "id": "radicals:146",
+    "level": "RADICALS",
+    "order": 146,
+    "headword": "襾",
+    "reading": "にし",
+    "readings": [
+      "にし"
+    ],
+    "hanViet": "Á",
+    "meanings": [
+      "cover",
+      "west"
+    ],
+    "meaningsVi": [
+      "phía tây"
+    ],
+    "strokes": 6,
+    "variants": []
+  },
+  {
+    "id": "radicals:147",
+    "level": "RADICALS",
+    "order": 147,
+    "headword": "見",
+    "reading": "みる",
+    "readings": [
+      "みる"
+    ],
+    "hanViet": "KIẾN",
+    "meanings": [
+      "to see"
+    ],
+    "meaningsVi": [
+      "nhìn"
+    ],
+    "strokes": 7,
+    "variants": []
+  },
+  {
+    "id": "radicals:148",
+    "level": "RADICALS",
+    "order": 148,
+    "headword": "角",
+    "reading": "つの",
+    "readings": [
+      "つの"
+    ],
+    "hanViet": "GIÁC",
+    "meanings": [
+      "horn",
+      "corner"
+    ],
+    "meaningsVi": [
+      "sừng"
+    ],
+    "strokes": 7,
+    "variants": []
+  },
+  {
+    "id": "radicals:149",
+    "level": "RADICALS",
+    "order": 149,
+    "headword": "言",
+    "reading": "げん",
+    "readings": [
+      "げん"
+    ],
+    "hanViet": "NGÔN",
+    "meanings": [
+      "words",
+      "to speak",
+      "say"
+    ],
+    "meaningsVi": [
+      "lời nói"
+    ],
+    "strokes": 7,
+    "variants": [
+      "訁"
+    ]
+  },
+  {
+    "id": "radicals:150",
+    "level": "RADICALS",
+    "order": 150,
+    "headword": "谷",
+    "reading": "たに",
+    "readings": [
+      "たに"
+    ],
+    "hanViet": "CỐC",
+    "meanings": [
+      "valley"
+    ],
+    "meaningsVi": [
+      "thung lũng"
+    ],
+    "strokes": 7,
+    "variants": []
+  },
+  {
+    "id": "radicals:151",
+    "level": "RADICALS",
+    "order": 151,
+    "headword": "豆",
+    "reading": "まめ",
+    "readings": [
+      "まめ"
+    ],
+    "hanViet": "ĐẬU",
+    "meanings": [
+      "bean"
+    ],
+    "meaningsVi": [
+      "đậu"
+    ],
+    "strokes": 7,
+    "variants": []
+  },
+  {
+    "id": "radicals:152",
+    "level": "RADICALS",
+    "order": 152,
+    "headword": "豕",
+    "reading": "いのこ",
+    "readings": [
+      "いのこ"
+    ],
+    "hanViet": "THỈ",
+    "meanings": [
+      "pig"
+    ],
+    "meaningsVi": [
+      "lợn"
+    ],
+    "strokes": 7,
+    "variants": []
+  },
+  {
+    "id": "radicals:153",
+    "level": "RADICALS",
+    "order": 153,
+    "headword": "豸",
+    "reading": "むじなへん",
+    "readings": [
+      "むじなへん"
+    ],
+    "hanViet": "TRÃI",
+    "meanings": [
+      "badger"
+    ],
+    "meaningsVi": [
+      "chồn"
+    ],
+    "strokes": 7,
+    "variants": []
+  },
+  {
+    "id": "radicals:154",
+    "level": "RADICALS",
+    "order": 154,
+    "headword": "貝",
+    "reading": "かい",
+    "readings": [
+      "かい"
+    ],
+    "hanViet": "BỐI",
+    "meanings": [
+      "shell",
+      "property",
+      "wealth"
+    ],
+    "meaningsVi": [
+      "vỏ sò"
+    ],
+    "strokes": 7,
+    "variants": [
+      "貝"
+    ]
+  },
+  {
+    "id": "radicals:155",
+    "level": "RADICALS",
+    "order": 155,
+    "headword": "赤",
+    "reading": "あか",
+    "readings": [
+      "あか"
+    ],
+    "hanViet": "XÍCH",
+    "meanings": [
+      "red"
+    ],
+    "meaningsVi": [
+      "đỏ"
+    ],
+    "strokes": 7,
+    "variants": []
+  },
+  {
+    "id": "radicals:156",
+    "level": "RADICALS",
+    "order": 156,
+    "headword": "走",
+    "reading": "はしる",
+    "readings": [
+      "はしる"
+    ],
+    "hanViet": "TẨU",
+    "meanings": [
+      "to run"
+    ],
+    "meaningsVi": [
+      "chạy"
+    ],
+    "strokes": 7,
+    "variants": []
+  },
+  {
+    "id": "radicals:157",
+    "level": "RADICALS",
+    "order": 157,
+    "headword": "足",
+    "reading": "あし",
+    "readings": [
+      "あし"
+    ],
+    "hanViet": "TÚC",
+    "meanings": [
+      "foot",
+      "leg"
+    ],
+    "meaningsVi": [
+      "chân"
+    ],
+    "strokes": 7,
+    "variants": [
+      "⻊"
+    ]
+  },
+  {
+    "id": "radicals:158",
+    "level": "RADICALS",
+    "order": 158,
+    "headword": "身",
+    "reading": "み",
+    "readings": [
+      "み"
+    ],
+    "hanViet": "THÂN",
+    "meanings": [
+      "body"
+    ],
+    "meaningsVi": [
+      "thân thể"
+    ],
+    "strokes": 7,
+    "variants": []
+  },
+  {
+    "id": "radicals:159",
+    "level": "RADICALS",
+    "order": 159,
+    "headword": "車",
+    "reading": "くるま",
+    "readings": [
+      "くるま"
+    ],
+    "hanViet": "XA",
+    "meanings": [
+      "vehicle",
+      "wheel",
+      "car"
+    ],
+    "meaningsVi": [
+      "xe"
+    ],
+    "strokes": 7,
+    "variants": [
+      "車"
+    ]
+  },
+  {
+    "id": "radicals:160",
+    "level": "RADICALS",
+    "order": 160,
+    "headword": "辛",
+    "reading": "からい",
+    "readings": [
+      "からい"
+    ],
+    "hanViet": "TÂN",
+    "meanings": [
+      "bitter"
+    ],
+    "meaningsVi": [
+      "cay đắng"
+    ],
+    "strokes": 7,
+    "variants": []
+  },
+  {
+    "id": "radicals:161",
+    "level": "RADICALS",
+    "order": 161,
+    "headword": "辰",
+    "reading": "しんのたつ",
+    "readings": [
+      "しんのたつ"
+    ],
+    "hanViet": "THẦN",
+    "meanings": [
+      "Fifth zodiac sign",
+      "7–9 A.M."
+    ],
+    "meaningsVi": [
+      "buổi sáng"
+    ],
+    "strokes": 7,
+    "variants": []
+  },
+  {
+    "id": "radicals:162",
+    "level": "RADICALS",
+    "order": 162,
+    "headword": "辵",
+    "reading": "しんにょう",
+    "readings": [
+      "しんにょう"
+    ],
+    "hanViet": "SƯỚC",
+    "meanings": [
+      "to advance",
+      "move ahead"
+    ],
+    "meaningsVi": [
+      "đi bộ"
+    ],
+    "strokes": 7,
+    "variants": [
+      "辶",
+      "⻌"
+    ]
+  },
+  {
+    "id": "radicals:163",
+    "level": "RADICALS",
+    "order": 163,
+    "headword": "邑",
+    "reading": "むら",
+    "readings": [
+      "むら"
+    ],
+    "hanViet": "ẤP",
+    "meanings": [
+      "community"
+    ],
+    "meaningsVi": [
+      "thành phố"
+    ],
+    "strokes": 7,
+    "variants": [
+      "阝 (phải)"
+    ]
+  },
+  {
+    "id": "radicals:164",
+    "level": "RADICALS",
+    "order": 164,
+    "headword": "酉",
+    "reading": "ひよみのとり",
+    "readings": [
+      "ひよみのとり"
+    ],
+    "hanViet": "DẬU",
+    "meanings": [
+      "sake jar",
+      "bird"
+    ],
+    "meaningsVi": [
+      "rượu"
+    ],
+    "strokes": 7,
+    "variants": [
+      "酉"
+    ]
+  },
+  {
+    "id": "radicals:165",
+    "level": "RADICALS",
+    "order": 165,
+    "headword": "釆",
+    "reading": "のごめ",
+    "readings": [
+      "のごめ"
+    ],
+    "hanViet": "BIỆN",
+    "meanings": [
+      "to separate"
+    ],
+    "meaningsVi": [
+      "phân biệt"
+    ],
+    "strokes": 7,
+    "variants": []
+  },
+  {
+    "id": "radicals:166",
+    "level": "RADICALS",
+    "order": 166,
+    "headword": "里",
+    "reading": "さと",
+    "readings": [
+      "さと"
+    ],
+    "hanViet": "LÝ",
+    "meanings": [
+      "village",
+      "(3.93 km)"
+    ],
+    "meaningsVi": [
+      "làng"
+    ],
+    "strokes": 7,
+    "variants": []
+  },
+  {
+    "id": "radicals:167",
+    "level": "RADICALS",
+    "order": 167,
+    "headword": "金",
+    "reading": "かね",
+    "readings": [
+      "かね"
+    ],
+    "hanViet": "KIM",
+    "meanings": [
+      "metal",
+      "gold",
+      "mineral"
+    ],
+    "meaningsVi": [
+      "vàng",
+      "kim loại"
+    ],
+    "strokes": 8,
+    "variants": [
+      "金"
+    ]
+  },
+  {
+    "id": "radicals:168",
+    "level": "RADICALS",
+    "order": 168,
+    "headword": "長",
+    "reading": "ながい",
+    "readings": [
+      "ながい"
+    ],
+    "hanViet": "TRƯỜNG",
+    "meanings": [
+      "long"
+    ],
+    "meaningsVi": [
+      "dài"
+    ],
+    "strokes": 8,
+    "variants": []
+  },
+  {
+    "id": "radicals:169",
+    "level": "RADICALS",
+    "order": 169,
+    "headword": "門",
+    "reading": "もんがまえ",
+    "readings": [
+      "もんがまえ"
+    ],
+    "hanViet": "MÔN",
+    "meanings": [
+      "gate",
+      "door"
+    ],
+    "meaningsVi": [
+      "cổng"
+    ],
+    "strokes": 8,
+    "variants": [
+      "門"
+    ]
+  },
+  {
+    "id": "radicals:170",
+    "level": "RADICALS",
+    "order": 170,
+    "headword": "阜",
+    "reading": "こざと",
+    "readings": [
+      "こざと"
+    ],
+    "hanViet": "PHỤ",
+    "meanings": [
+      "hill"
+    ],
+    "meaningsVi": [
+      "gò đất"
+    ],
+    "strokes": 8,
+    "variants": [
+      "阝 (trái)"
+    ]
+  },
+  {
+    "id": "radicals:171",
+    "level": "RADICALS",
+    "order": 171,
+    "headword": "隶",
+    "reading": "れいづくり",
+    "readings": [
+      "れいづくり"
+    ],
+    "hanViet": "ĐÃI",
+    "meanings": [
+      "to capture"
+    ],
+    "meaningsVi": [
+      "nô lệ"
+    ],
+    "strokes": 8,
+    "variants": []
+  },
+  {
+    "id": "radicals:172",
+    "level": "RADICALS",
+    "order": 172,
+    "headword": "隹",
+    "reading": "ふるとり",
+    "readings": [
+      "ふるとり"
+    ],
+    "hanViet": "CHUY",
+    "meanings": [
+      "small bird"
+    ],
+    "meaningsVi": [
+      "chim đuôi ngắn"
+    ],
+    "strokes": 8,
+    "variants": []
+  },
+  {
+    "id": "radicals:173",
+    "level": "RADICALS",
+    "order": 173,
+    "headword": "雨",
+    "reading": "あめ",
+    "readings": [
+      "あめ"
+    ],
+    "hanViet": "VŨ",
+    "meanings": [
+      "rain"
+    ],
+    "meaningsVi": [
+      "mưa"
+    ],
+    "strokes": 8,
+    "variants": []
+  },
+  {
+    "id": "radicals:174",
+    "level": "RADICALS",
+    "order": 174,
+    "headword": "靑",
+    "reading": "あお",
+    "readings": [
+      "あお"
+    ],
+    "hanViet": "THANH",
+    "meanings": [
+      "blue",
+      "green"
+    ],
+    "meaningsVi": [
+      "xanh"
+    ],
+    "strokes": 8,
+    "variants": []
+  },
+  {
+    "id": "radicals:175",
+    "level": "RADICALS",
+    "order": 175,
+    "headword": "非",
+    "reading": "あらず",
+    "readings": [
+      "あらず"
+    ],
+    "hanViet": "PHI",
+    "meanings": [
+      "wrong",
+      "non-"
+    ],
+    "meaningsVi": [
+      "sai"
+    ],
+    "strokes": 8,
+    "variants": []
+  },
+  {
+    "id": "radicals:176",
+    "level": "RADICALS",
+    "order": 176,
+    "headword": "面",
+    "reading": "めん",
+    "readings": [
+      "めん"
+    ],
+    "hanViet": "DIỆN",
+    "meanings": [
+      "face",
+      "surface"
+    ],
+    "meaningsVi": [
+      "mặt"
+    ],
+    "strokes": 9,
+    "variants": []
+  },
+  {
+    "id": "radicals:177",
+    "level": "RADICALS",
+    "order": 177,
+    "headword": "革",
+    "reading": "つくりがわ",
+    "readings": [
+      "つくりがわ"
+    ],
+    "hanViet": "CÁCH",
+    "meanings": [
+      "leather"
+    ],
+    "meaningsVi": [
+      "da thuộc"
+    ],
+    "strokes": 9,
+    "variants": []
+  },
+  {
+    "id": "radicals:178",
+    "level": "RADICALS",
+    "order": 178,
+    "headword": "韋",
+    "reading": "なめしがわ",
+    "readings": [
+      "なめしがわ"
+    ],
+    "hanViet": "VI",
+    "meanings": [
+      "leather"
+    ],
+    "meaningsVi": [
+      "da thuộc xử lý"
+    ],
+    "strokes": 9,
+    "variants": []
+  },
+  {
+    "id": "radicals:179",
+    "level": "RADICALS",
+    "order": 179,
+    "headword": "韭",
+    "reading": "にら",
+    "readings": [
+      "にら"
+    ],
+    "hanViet": "PHỈ",
+    "meanings": [
+      "leek"
+    ],
+    "meaningsVi": [
+      "hẹ"
+    ],
+    "strokes": 9,
+    "variants": []
+  },
+  {
+    "id": "radicals:180",
+    "level": "RADICALS",
+    "order": 180,
+    "headword": "音",
+    "reading": "おと",
+    "readings": [
+      "おと"
+    ],
+    "hanViet": "ÂM",
+    "meanings": [
+      "sound",
+      "noise"
+    ],
+    "meaningsVi": [
+      "âm thanh"
+    ],
+    "strokes": 9,
+    "variants": []
+  },
+  {
+    "id": "radicals:181",
+    "level": "RADICALS",
+    "order": 181,
+    "headword": "頁",
+    "reading": "おおがい",
+    "readings": [
+      "おおがい"
+    ],
+    "hanViet": "HIỆT",
+    "meanings": [
+      "head",
+      "page"
+    ],
+    "meaningsVi": [
+      "lá"
+    ],
+    "strokes": 9,
+    "variants": []
+  },
+  {
+    "id": "radicals:182",
+    "level": "RADICALS",
+    "order": 182,
+    "headword": "風",
+    "reading": "かぜ",
+    "readings": [
+      "かぜ"
+    ],
+    "hanViet": "PHONG",
+    "meanings": [
+      "wind"
+    ],
+    "meaningsVi": [
+      "gió"
+    ],
+    "strokes": 9,
+    "variants": []
+  },
+  {
+    "id": "radicals:183",
+    "level": "RADICALS",
+    "order": 183,
+    "headword": "飛",
+    "reading": "とぶ",
+    "readings": [
+      "とぶ"
+    ],
+    "hanViet": "PHI",
+    "meanings": [
+      "to fly"
+    ],
+    "meaningsVi": [
+      "bay"
+    ],
+    "strokes": 9,
+    "variants": []
+  },
+  {
+    "id": "radicals:184",
+    "level": "RADICALS",
+    "order": 184,
+    "headword": "食",
+    "reading": "しょく",
+    "readings": [
+      "しょく"
+    ],
+    "hanViet": "THỰC",
+    "meanings": [
+      "food",
+      "to eat"
+    ],
+    "meaningsVi": [
+      "ăn"
+    ],
+    "strokes": 9,
+    "variants": [
+      "飠"
+    ]
+  },
+  {
+    "id": "radicals:185",
+    "level": "RADICALS",
+    "order": 185,
+    "headword": "首",
+    "reading": "くび",
+    "readings": [
+      "くび"
+    ],
+    "hanViet": "THỦ",
+    "meanings": [
+      "head"
+    ],
+    "meaningsVi": [
+      "đầu"
+    ],
+    "strokes": 9,
+    "variants": []
+  },
+  {
+    "id": "radicals:186",
+    "level": "RADICALS",
+    "order": 186,
+    "headword": "香",
+    "reading": "かおり",
+    "readings": [
+      "かおり"
+    ],
+    "hanViet": "HƯƠNG",
+    "meanings": [
+      "scent"
+    ],
+    "meaningsVi": [
+      "thơm"
+    ],
+    "strokes": 10,
+    "variants": []
+  },
+  {
+    "id": "radicals:187",
+    "level": "RADICALS",
+    "order": 187,
+    "headword": "馬",
+    "reading": "うま",
+    "readings": [
+      "うま"
+    ],
+    "hanViet": "MÃ",
+    "meanings": [
+      "horse"
+    ],
+    "meaningsVi": [
+      "ngựa"
+    ],
+    "strokes": 10,
+    "variants": [
+      "馬"
+    ]
+  },
+  {
+    "id": "radicals:188",
+    "level": "RADICALS",
+    "order": 188,
+    "headword": "骨",
+    "reading": "ほね",
+    "readings": [
+      "ほね"
+    ],
+    "hanViet": "CỐT",
+    "meanings": [
+      "bone"
+    ],
+    "meaningsVi": [
+      "xương"
+    ],
+    "strokes": 10,
+    "variants": []
+  },
+  {
+    "id": "radicals:189",
+    "level": "RADICALS",
+    "order": 189,
+    "headword": "高",
+    "reading": "たかい",
+    "readings": [
+      "たかい"
+    ],
+    "hanViet": "CAO",
+    "meanings": [
+      "high"
+    ],
+    "meaningsVi": [
+      "cao"
+    ],
+    "strokes": 10,
+    "variants": []
+  },
+  {
+    "id": "radicals:190",
+    "level": "RADICALS",
+    "order": 190,
+    "headword": "髟",
+    "reading": "かみかんむり",
+    "readings": [
+      "かみかんむり"
+    ],
+    "hanViet": "BƯU",
+    "meanings": [
+      "long hair"
+    ],
+    "meaningsVi": [
+      "tóc"
+    ],
+    "strokes": 10,
+    "variants": []
+  },
+  {
+    "id": "radicals:191",
+    "level": "RADICALS",
+    "order": 191,
+    "headword": "鬥",
+    "reading": "たたかいがまえ",
+    "readings": [
+      "たたかいがまえ"
+    ],
+    "hanViet": "ĐẤU",
+    "meanings": [
+      "fighting"
+    ],
+    "meaningsVi": [
+      "đánh nhau"
+    ],
+    "strokes": 10,
+    "variants": []
+  },
+  {
+    "id": "radicals:192",
+    "level": "RADICALS",
+    "order": 192,
+    "headword": "鬯",
+    "reading": "においざけ",
+    "readings": [
+      "においざけ"
+    ],
+    "hanViet": "SƯỞNG",
+    "meanings": [
+      "herbs"
+    ],
+    "meaningsVi": [
+      "rượu tế"
+    ],
+    "strokes": 10,
+    "variants": []
+  },
+  {
+    "id": "radicals:193",
+    "level": "RADICALS",
+    "order": 193,
+    "headword": "鬲",
+    "reading": "れき",
+    "readings": [
+      "れき"
+    ],
+    "hanViet": "CÁCH",
+    "meanings": [
+      "tripod"
+    ],
+    "meaningsVi": [
+      "vạc"
+    ],
+    "strokes": 10,
+    "variants": []
+  },
+  {
+    "id": "radicals:194",
+    "level": "RADICALS",
+    "order": 194,
+    "headword": "鬼",
+    "reading": "おに",
+    "readings": [
+      "おに"
+    ],
+    "hanViet": "QUỶ",
+    "meanings": [
+      "demon"
+    ],
+    "meaningsVi": [
+      "ma"
+    ],
+    "strokes": 11,
+    "variants": []
+  },
+  {
+    "id": "radicals:195",
+    "level": "RADICALS",
+    "order": 195,
+    "headword": "魚",
+    "reading": "うお",
+    "readings": [
+      "うお"
+    ],
+    "hanViet": "NGƯ",
+    "meanings": [
+      "fish"
+    ],
+    "meaningsVi": [
+      "cá"
+    ],
+    "strokes": 11,
+    "variants": [
+      "魚"
+    ]
+  },
+  {
+    "id": "radicals:196",
+    "level": "RADICALS",
+    "order": 196,
+    "headword": "鳥",
+    "reading": "とり",
+    "readings": [
+      "とり"
+    ],
+    "hanViet": "ĐIỂU",
+    "meanings": [
+      "bird"
+    ],
+    "meaningsVi": [
+      "chim"
+    ],
+    "strokes": 11,
+    "variants": [
+      "鳥"
+    ]
+  },
+  {
+    "id": "radicals:197",
+    "level": "RADICALS",
+    "order": 197,
+    "headword": "鹵",
+    "reading": "しお",
+    "readings": [
+      "しお"
+    ],
+    "hanViet": "LỖ",
+    "meanings": [
+      "salt"
+    ],
+    "meaningsVi": [
+      "muối"
+    ],
+    "strokes": 11,
+    "variants": []
+  },
+  {
+    "id": "radicals:198",
+    "level": "RADICALS",
+    "order": 198,
+    "headword": "鹿",
+    "reading": "しか",
+    "readings": [
+      "しか"
+    ],
+    "hanViet": "LỘC",
+    "meanings": [
+      "deer"
+    ],
+    "meaningsVi": [
+      "hươu"
+    ],
+    "strokes": 11,
+    "variants": []
+  },
+  {
+    "id": "radicals:199",
+    "level": "RADICALS",
+    "order": 199,
+    "headword": "麥",
+    "reading": "むぎ",
+    "readings": [
+      "むぎ"
+    ],
+    "hanViet": "MẠCH",
+    "meanings": [
+      "wheat"
+    ],
+    "meaningsVi": [
+      "lúa mì"
+    ],
+    "strokes": 11,
+    "variants": []
+  },
+  {
+    "id": "radicals:200",
+    "level": "RADICALS",
+    "order": 200,
+    "headword": "麻",
+    "reading": "あさ",
+    "readings": [
+      "あさ"
+    ],
+    "hanViet": "MA",
+    "meanings": [
+      "hemp"
+    ],
+    "meaningsVi": [
+      "gai"
+    ],
+    "strokes": 12,
+    "variants": []
+  },
+  {
+    "id": "radicals:201",
+    "level": "RADICALS",
+    "order": 201,
+    "headword": "黃",
+    "reading": "き",
+    "readings": [
+      "き"
+    ],
+    "hanViet": "HOÀNG",
+    "meanings": [
+      "yellow"
+    ],
+    "meaningsVi": [
+      "vàng"
+    ],
+    "strokes": 12,
+    "variants": []
+  },
+  {
+    "id": "radicals:202",
+    "level": "RADICALS",
+    "order": 202,
+    "headword": "黍",
+    "reading": "きび",
+    "readings": [
+      "きび"
+    ],
+    "hanViet": "THỬ",
+    "meanings": [
+      "millet"
+    ],
+    "meaningsVi": [
+      "kê"
+    ],
+    "strokes": 12,
+    "variants": []
+  },
+  {
+    "id": "radicals:203",
+    "level": "RADICALS",
+    "order": 203,
+    "headword": "黑",
+    "reading": "くろ",
+    "readings": [
+      "くろ"
+    ],
+    "hanViet": "HẮC",
+    "meanings": [
+      "black"
+    ],
+    "meaningsVi": [
+      "đen"
+    ],
+    "strokes": 12,
+    "variants": []
+  },
+  {
+    "id": "radicals:204",
+    "level": "RADICALS",
+    "order": 204,
+    "headword": "黹",
+    "reading": "ぬいとり",
+    "readings": [
+      "ぬいとり"
+    ],
+    "hanViet": "CHỈ",
+    "meanings": [
+      "embroider"
+    ],
+    "meaningsVi": [
+      "thêu"
+    ],
+    "strokes": 12,
+    "variants": []
+  },
+  {
+    "id": "radicals:205",
+    "level": "RADICALS",
+    "order": 205,
+    "headword": "黽",
+    "reading": "かえる",
+    "readings": [
+      "かえる"
+    ],
+    "hanViet": "MÃNH",
+    "meanings": [
+      "frog"
+    ],
+    "meaningsVi": [
+      "ếch"
+    ],
+    "strokes": 13,
+    "variants": []
+  },
+  {
+    "id": "radicals:206",
+    "level": "RADICALS",
+    "order": 206,
+    "headword": "鼎",
+    "reading": "かなえ",
+    "readings": [
+      "かなえ"
+    ],
+    "hanViet": "ĐỈNH",
+    "meanings": [
+      "tripod"
+    ],
+    "meaningsVi": [
+      "đỉnh ba chân"
+    ],
+    "strokes": 13,
+    "variants": []
+  },
+  {
+    "id": "radicals:207",
+    "level": "RADICALS",
+    "order": 207,
+    "headword": "鼓",
+    "reading": "つづみ",
+    "readings": [
+      "つづみ"
+    ],
+    "hanViet": "CỔ",
+    "meanings": [
+      "drum"
+    ],
+    "meaningsVi": [
+      "trống"
+    ],
+    "strokes": 13,
+    "variants": []
+  },
+  {
+    "id": "radicals:208",
+    "level": "RADICALS",
+    "order": 208,
+    "headword": "鼠",
+    "reading": "ねずみ",
+    "readings": [
+      "ねずみ"
+    ],
+    "hanViet": "THỬ",
+    "meanings": [
+      "rat",
+      "mouse"
+    ],
+    "meaningsVi": [
+      "chuột"
+    ],
+    "strokes": 13,
+    "variants": []
+  },
+  {
+    "id": "radicals:209",
+    "level": "RADICALS",
+    "order": 209,
+    "headword": "鼻",
+    "reading": "はな",
+    "readings": [
+      "はな"
+    ],
+    "hanViet": "TỴ",
+    "meanings": [
+      "nose"
+    ],
+    "meaningsVi": [
+      "mũi"
+    ],
+    "strokes": 14,
+    "variants": []
+  },
+  {
+    "id": "radicals:210",
+    "level": "RADICALS",
+    "order": 210,
+    "headword": "齊",
+    "reading": "せい",
+    "readings": [
+      "せい"
+    ],
+    "hanViet": "TỀ",
+    "meanings": [
+      "alike"
+    ],
+    "meaningsVi": [
+      "đều"
+    ],
+    "strokes": 14,
+    "variants": []
+  },
+  {
+    "id": "radicals:211",
+    "level": "RADICALS",
+    "order": 211,
+    "headword": "齒",
+    "reading": "は",
+    "readings": [
+      "は"
+    ],
+    "hanViet": "XỈ",
+    "meanings": [
+      "tooth"
+    ],
+    "meaningsVi": [
+      "răng"
+    ],
+    "strokes": 15,
+    "variants": []
+  },
+  {
+    "id": "radicals:212",
+    "level": "RADICALS",
+    "order": 212,
+    "headword": "龍",
+    "reading": "りゅう",
+    "readings": [
+      "りゅう"
+    ],
+    "hanViet": "LONG",
+    "meanings": [
+      "dragon"
+    ],
+    "meaningsVi": [
+      "rồng"
+    ],
+    "strokes": 16,
+    "variants": []
+  },
+  {
+    "id": "radicals:213",
+    "level": "RADICALS",
+    "order": 213,
+    "headword": "龜",
+    "reading": "かめ",
+    "readings": [
+      "かめ"
+    ],
+    "hanViet": "QUY",
+    "meanings": [
+      "turtle"
+    ],
+    "meaningsVi": [
+      "rùa"
+    ],
+    "strokes": 16,
+    "variants": []
+  },
+  {
+    "id": "radicals:214",
+    "level": "RADICALS",
+    "order": 214,
+    "headword": "龠",
+    "reading": "やく",
+    "readings": [
+      "やく"
+    ],
+    "hanViet": "DƯỢC",
+    "meanings": [
+      "flute"
+    ],
+    "meaningsVi": [
+      "sáo"
+    ],
+    "strokes": 17,
+    "variants": []
+  }
+]

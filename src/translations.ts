@@ -2,6 +2,23 @@ import { createContext, useContext } from 'react'
 
 export type Language = 'en' | 'vi'
 const english = {
+  grammar: 'N3 Grammar', grammarUnit: 'patterns', grammarPattern: 'Grammar pattern', formation: 'Formation',
+  examples: 'Examples', sourcePage: 'PDF page {page}', noFormation: 'No formation rule in the source',
+  formationPlaceholder: 'Enter a formation rule…', grammarNumber: 'pattern {order}',
+  grammarMap: 'GRAMMAR MAP', grammarList: 'Grammar list', selectPattern: 'Select a pattern to return to the list',
+  goToPattern: 'Go to pattern {order}: {word}', patternLabel: 'Pattern {word}',
+  showingGrammar: 'Showing all {count} N3 grammar patterns', showingGrammarReview: '{count} patterns with mistakes to review',
+  grammarHeader: 'Japanese grammar · learn at your own pace', grammarDaily: 'DAILY GRAMMAR PRACTICE',
+  grammarHeadline: 'See the pattern. Recall its use.', grammarInstructions: 'Practice formation and meaning. Open Examples to see each pattern in context.',
+  grammarTable: 'Grammar practice table', grammarReview: 'Incorrect answers, Hint+, and Answer add patterns here. Clear each mistake with an unaided correct answer in review mode.',
+  grammarBack: 'Back to grammar list', grammarNotation: 'Source notation: Vru / Vる = dictionary form; Vte / Vて = te form; Vta / Vた = ta form; Vnai = nai form; Vます = masu stem; N = noun; N-no = noun + の; Ana = na-adjective; Ai = i-adjective. Enter any listed formation alternative.',
+  grammarSource: 'Grammar source: Riki nihongo · user-provided Ebook n3.pdf',
+  sourceWording: 'Original source wording (typo corrected above)',
+  radicals: 'Kanji radicals', radicalUnit: 'radicals', strokeCount: '{count} strokes', variants: 'Variants',
+  showingRadicals: 'Showing all {count} Kanji radicals',
+  radicalNote: 'Traditional Kangxi order · The Japanese names are radical names; they may differ from standalone kanji readings.',
+  fullscreen: 'Full screen', exitFullscreen: 'Exit full screen', fullscreenError: 'Full screen is unavailable in this browser. Try again in a regular browser tab.',
+  displayMode: '{field} display mode', showCorrect: 'Show correct answers', hideCorrect: 'Hide correct answers', showAll: 'Show all answers',
   reading: 'Reading', meaning: 'Meaning', hanViet: 'Hán Việt',
   wordNumber: 'word {order}', enterLabel: 'Enter {field} for {target}', inputLabel: '{field} for {target}',
   noReading: 'No Sino-Vietnamese reading', noReview: 'No mistakes to review', clickAnswer: 'Click to answer',
@@ -18,15 +35,32 @@ const english = {
   practiceTable: 'Vocabulary practice table', selectLevel: 'Select level', cellsCorrect: 'cells correct', studyMode: 'Study mode',
   wordList: 'Word list', reviewMistakes: 'Review mistakes', focus: 'Focus', zoom: 'Zoom', zoomOut: 'Zoom out', zoomIn: 'Zoom in',
   listZoom: 'List zoom level', overview: 'Overview', showingAll: 'Showing all {count} {level} words', showingReview: '{count} words with mistakes to review',
-  hintExplanation: 'Hint+ reveals one letter at a time · Answer shows a preview',
-  noMistakes: 'No mistakes left to review', reviewExplanation: 'Cells you answer incorrectly will appear here until you answer them correctly in review mode.',
+  hintExplanation: 'Hint+ reveals letters and resets after 5s without a press · Answer shows a preview',
+  noMistakes: 'No mistakes left to review', reviewExplanation: 'Incorrect answers, Hint+, and Answer add words here. Clear each mistake with a correct answer in review mode without using Hint+ or Answer for that attempt.',
   backToList: 'Back to word list', number: 'No.', vocabulary: 'Vocabulary', englishMeanings: 'English meanings:',
   savedProgress: 'Your progress is saved automatically in this browser.', language: 'Language',
-  title: 'Mimikara Study · N3 & N2 Vocabulary Practice',
-  description: 'Practice 880 Mimikara N3 and 1,160 Mimikara N2 words with English meanings, review mistakes, and save progress on your device.',
+  title: 'Mimikara Study · N3 Vocabulary & Grammar, N2 & Kanji Radicals',
+  description: 'Practice 880 N3 words, 111 N3 grammar patterns, 1,160 N2 words and 214 Kanji radicals, review mistakes, and save progress on your device.',
 }
 type Message = keyof typeof english
 const vietnamese: Record<Message, string> = {
+  grammar: 'Ngữ pháp N3', grammarUnit: 'mẫu', grammarPattern: 'Mẫu ngữ pháp', formation: 'Cấu trúc',
+  examples: 'Ví dụ', sourcePage: 'Trang PDF {page}', noFormation: 'Nguồn không ghi cấu trúc',
+  formationPlaceholder: 'Nhập một cấu trúc…', grammarNumber: 'mẫu số {order}',
+  grammarMap: 'BẢN ĐỒ NGỮ PHÁP', grammarList: 'Danh sách ngữ pháp', selectPattern: 'Chọn một mẫu để quay lại danh sách',
+  goToPattern: 'Đến mẫu số {order}: {word}', patternLabel: 'Mẫu {word}',
+  showingGrammar: 'Đang xem toàn bộ {count} mẫu ngữ pháp N3', showingGrammarReview: '{count} mẫu có lỗi cần khắc phục',
+  grammarHeader: 'Ngữ pháp tiếng Nhật · học theo nhịp của bạn', grammarDaily: 'LUYỆN NGỮ PHÁP MỖI NGÀY',
+  grammarHeadline: 'Nhìn mẫu. Nhớ cách dùng.', grammarInstructions: 'Luyện cấu trúc và ngữ nghĩa. Mở Ví dụ để xem cách dùng trong câu.',
+  grammarTable: 'Bảng học ngữ pháp', grammarReview: 'Nhập sai, dùng Hint+ hoặc xem Đáp án đều đưa mẫu vào danh sách này. Trả lời đúng khi ôn mà không dùng trợ giúp để xóa lỗi.',
+  grammarBack: 'Quay lại danh sách ngữ pháp', grammarNotation: 'Ký hiệu nguồn: Vru / Vる = thể từ điển; Vte / Vて = thể て; Vta / Vた = thể た; Vnai = thể ない; Vます = gốc ます; N = danh từ; N-no = danh từ + の; Ana = tính từ な; Ai = tính từ い. Nhập một trong các cấu trúc được liệt kê.',
+  grammarSource: 'Nguồn ngữ pháp: Riki nihongo · Ebook n3.pdf do người dùng cung cấp',
+  sourceWording: 'Nguyên văn nguồn (đã sửa lỗi ở trên)',
+  radicals: 'Bộ thủ Kanji', radicalUnit: 'bộ', strokeCount: '{count} nét', variants: 'Biến thể',
+  showingRadicals: 'Đang xem toàn bộ {count} bộ thủ Kanji',
+  radicalNote: 'Thứ tự Kangxi truyền thống · Cách đọc là tên gọi bộ thủ trong tiếng Nhật, có thể khác âm đọc của chữ khi đứng riêng.',
+  fullscreen: 'Toàn màn hình', exitFullscreen: 'Thoát toàn màn hình', fullscreenError: 'Không thể mở toàn màn hình trong trình duyệt này. Hãy thử lại trong một thẻ trình duyệt thông thường.',
+  displayMode: 'Chế độ hiển thị {field}', showCorrect: 'Hiện đáp án đã đúng', hideCorrect: 'Ẩn đáp án đã đúng', showAll: 'Hiện tất cả đáp án',
   reading: 'Cách đọc', meaning: 'Ngữ nghĩa', hanViet: 'Hán Việt',
   wordNumber: 'từ số {order}', enterLabel: 'Nhập {field} cho {target}', inputLabel: '{field} cho {target}',
   noReading: 'Không có âm Hán Việt', noReview: 'Không có lỗi cần ôn', clickAnswer: 'Nhấn để điền',
@@ -43,12 +77,12 @@ const vietnamese: Record<Message, string> = {
   practiceTable: 'Bảng học từ vựng', selectLevel: 'Chọn cấp độ', cellsCorrect: 'ô đã đúng', studyMode: 'Chế độ học',
   wordList: 'Danh sách từ', reviewMistakes: 'Khắc phục lỗi', focus: 'Tập trung', zoom: 'Thu phóng', zoomOut: 'Thu nhỏ', zoomIn: 'Phóng to',
   listZoom: 'Mức phóng to danh sách', overview: 'Tổng quan', showingAll: 'Đang xem toàn bộ {count} từ {level}', showingReview: '{count} từ có lỗi cần khắc phục',
-  hintExplanation: 'Hint+ gợi ý từng chữ · Đáp án chỉ để xem',
-  noMistakes: 'Không còn lỗi cần ôn', reviewExplanation: 'Những ô bạn nhập sai sẽ xuất hiện ở đây cho đến khi làm đúng lại.',
+  hintExplanation: 'Hint+ gợi ý từng chữ, tự đặt lại sau 5 giây không nhấn · Đáp án chỉ để xem',
+  noMistakes: 'Không còn lỗi cần ôn', reviewExplanation: 'Nhập sai, dùng Hint+ hoặc xem Đáp án đều đưa từ vào danh sách này. Để xóa lỗi, hãy trả lời đúng ở chế độ ôn mà không dùng Hint+ hoặc Đáp án trong lần thử đó.',
   backToList: 'Quay lại danh sách', number: 'STT', vocabulary: 'Từ vựng', englishMeanings: 'Nghĩa tiếng Anh:',
   savedProgress: 'Tiến độ được lưu tự động trong trình duyệt này.', language: 'Ngôn ngữ',
-  title: 'Mimikara Study · Học từ vựng N3 & N2',
-  description: 'Luyện 880 từ Mimikara N3 và 1.160 từ Mimikara N2, ôn lỗi sai và lưu tiến độ ngay trên máy.',
+  title: 'Mimikara Study · Từ vựng & Ngữ pháp N3, N2 & Bộ thủ Kanji',
+  description: 'Luyện 880 từ N3, 111 mẫu ngữ pháp N3, 1.160 từ N2 và 214 bộ thủ Kanji, ôn lỗi sai và lưu tiến độ ngay trên máy.',
 }
 
 export const messagesByLanguage = { en: english, vi: vietnamese }
@@ -63,7 +97,7 @@ export function useLanguage() {
     messages[key].replace(/\{(\w+)\}/g, (match, name: string) => String(values[name] ?? match))
   return {
     ...context, t, locale: context.language === 'vi' ? 'vi-VN' : 'en-US',
-    labels: { reading: messages.reading, hanViet: messages.hanViet, meaning: messages.meaning },
+    labels: { reading: messages.reading, hanViet: messages.hanViet, meaning: messages.meaning, formation: messages.formation },
   }
 }
 

@@ -4,6 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "novel:audio": "node scripts/prepare_novel_audio.mjs && python scripts/build_novel_audio.py",
+    "novel:build": "python scripts/build_novel.py && node scripts/audit_novel.mjs",
+    "novel:audit": "node scripts/audit_novel.mjs",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "test": "vitest run",
@@ -24,6 +27,7 @@
     "@types/react-dom": "^19.2.7",
     "@vitejs/plugin-react": "^6.1.1",
     "jsdom": "^29.1.1",
+    "kuromoji": "^0.1.2",
     "oxlint": "^1.81.0",
     "typescript": "~6.0.2",
     "vite": "^8.3.0",

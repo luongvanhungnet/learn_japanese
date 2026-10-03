@@ -30,7 +30,34 @@ def validate(level: str, expected: int) -> None:
     print(f"{level}: {expected} unique ordered entries OK")
 
 
+def validate_grammar() -> None:
+    entries = json.loads((ROOT / 'src/data/n3-grammar.json').read_text(encoding='utf-8'))
+    assert len(entries) == 111
+    assert [entry['order'] for entry in entries] == list(range(1, 112))
+    for entry in entries:
+        assert entry['id'] == f'n3-grammar:{entry["order"]}'
+        assert 4 <= entry['sourcePage'] <= 31
+        assert entry['pattern'].strip()
+        assert all(value.strip() for value in entry['formations'])
+        for language in ('en', 'vi'):
+            assert entry['meanings'][language] and all(value.strip() for value in entry['meanings'][language])
+        assert entry['examples']
+        for example in entry['examples']:
+            assert all(example[key].strip() for key in ('japanese', 'en', 'vi'))
+            assert all(annotation['text'] and annotation['reading'] for annotation in example['furigana'])
+            assert '�' not in example['japanese']
+    assert sum(len(entry['examples']) for entry in entries) == 134
+    assert 111 + sum(bool(entry['formations']) for entry in entries) == 200
+    print('N3 grammar: 111 ordered entries, 134 bilingual examples, 200 practice cells OK')
+
+
 if __name__ == "__main__":
     validate("N3", 880)
     validate("N2", 1160)
+    validate("RADICALS", 214)
+    validate_grammar()
+    lexicon = json.loads((ROOT / 'src/data/novel-lexicon.json').read_text(encoding='utf8'))
+    for entry in lexicon:
+        assert entry['meaningsVi'] and all(value.strip() for value in entry['meaningsVi']), (entry['headword'], 'Vietnamese lookup meaning')
+    print(f'Novel dictionary: {len(lexicon)} entries with Vietnamese meanings OK')
     sys.exit(0)

@@ -1,0 +1,72 @@
+.novel-shell{min-height:100vh;background:#f7f5ef;color:#263935}.novel-header{display:flex;align-items:center;justify-content:space-between;gap:16px;border-bottom:1px solid #dddcd1;padding:20px 5%;font-size:12px;letter-spacing:.12em}.reader-back{border:0;background:none;color:#246354;cursor:pointer;font-weight:650;letter-spacing:0}.novel-main{max-width:1260px;margin:auto;padding:40px 30px 80px}.novel-title{max-width:850px;margin:0 0 30px}.novel-title h1{font-family:serif;font-size:clamp(25px,4vw,42px);line-height:1.6;margin:12px 0 4px}.novel-title>p{color:#62716a}.reader-instructions{font-size:14px;line-height:1.8}.reader-controls{display:flex;align-items:center;flex-wrap:wrap;gap:20px;background:#ebece3;border-radius:12px;padding:16px 20px;margin-bottom:24px}.reader-controls label{font-size:12px;display:flex;align-items:center;gap:10px}.reader-controls select{max-width:360px;min-width:220px;padding:9px;border:1px solid #c7cec3;border-radius:6px;background:#fffdf6;color:#263935}.reader-controls input[type=range]{width:110px;accent-color:#246354}.novel-layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:32px;align-items:start}.novel-prose{font-family:'Yu Mincho','Noto Serif JP',serif;line-height:2.2;background:#fffdf8;padding:40px 44px;border:1px solid #e6e2d4;border-radius:14px;min-width:0;overflow-wrap:anywhere}.novel-prose h2{font-size:1.35em;line-height:1.8;margin:12px 0 30px}.chapter-meta{font-family:system-ui,sans-serif;font-size:12px;letter-spacing:.07em;color:#778777}.novel-prose p{margin:0 0 1.25em}.story-token{display:inline;padding:0;border:0;background:none;color:inherit;font:inherit;line-height:inherit;cursor:pointer;text-align:inherit;border-radius:2px}.highlight-words .story-token.target-word{text-decoration:underline;text-decoration-color:#91b5a2;text-underline-offset:5px;text-decoration-thickness:1px}.highlight-words .grammar-token{text-decoration-line:underline;text-underline-offset:5px;text-decoration-style:dotted;text-decoration-color:#bc942d;text-decoration-thickness:2px}.story-token:hover,.story-token:focus-visible,.story-token.pinned-token{background:#e0eee1;outline:2px solid #71997d;outline-offset:2px}.reader-sidebar{position:sticky;top:20px;min-width:0}.reader-help,.lookup-card{background:#eaf0e7;border:1px solid #cddbcc;border-radius:12px;padding:22px;font-size:14px;line-height:1.7;max-height:calc(100vh - 48px);overflow:auto}.reader-help>span{font-family:serif;font-size:48px;color:#93ac96}.reader-help h3{margin:4px 0}.lookup-top{display:flex;justify-content:space-between;align-items:center;font-size:11px;text-transform:uppercase;letter-spacing:.09em;color:#5e7862}.lookup-top button{font-size:24px;background:none;border:0;cursor:pointer}.lookup-surface{font-size:23px;line-height:1.5;overflow-wrap:anywhere}.lookup-entry{border-top:1px solid #cfdbca;padding-top:12px;margin-top:14px}.lookup-entry h3{font-size:24px;line-height:1.5;margin:5px 0 14px}.lookup-entry dl{margin:0}.lookup-entry dt{font-size:11px;text-transform:uppercase;color:#617362;margin-top:12px}.lookup-entry dd{margin:0;font-size:15px}.lookup-entry details{font-size:11px;margin-top:12px}.grammar-lookup{background:#f6f1db;margin:16px -10px 0;padding:14px;border-radius:8px}.chapter-targets{margin-top:20px;font-size:13px}.chapter-targets>div{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}.chapter-targets button{border:1px solid #d3dcce;background:#fffdf8;padding:4px 7px;border-radius:4px;cursor:pointer}.novel-download{display:inline-block;margin-top:22px;font-size:13px;color:#246354}.chapter-navigation{display:flex;align-items:center;justify-content:space-between;gap:12px;font:14px system-ui,sans-serif;border-top:1px solid #e0e1d5;padding-top:25px;margin-top:35px}.chapter-navigation button{border:1px solid #cbd6c7;background:#eaf0e7;border-radius:6px;padding:10px 14px;cursor:pointer}.chapter-navigation button:disabled{opacity:.35;cursor:default}.novel-launch{border:1px solid #adc2ad;background:#eff4e9;color:#285742;border-radius:6px;padding:8px 13px;cursor:pointer;font-weight:650}.lookup-card:focus{outline:2px solid #71997d}
+@media(max-width:850px){.novel-main{padding:25px 18px 50px}.novel-layout{grid-template-columns:minmax(0,1fr)}.novel-prose{padding:25px 22px}.reader-sidebar{position:static}.lookup-card{position:fixed;bottom:12px;right:12px;left:12px;max-height:43vh;z-index:30;box-shadow:0 8px 35px #20342a44;padding:16px 22px}.lookup-surface{margin:8px 0}.lookup-entry{padding-top:8px;margin-top:8px}.novel-header{flex-wrap:wrap;padding:14px 18px;gap:12px}.reader-controls{gap:12px;padding:12px}.reader-controls select{min-width:0;max-width:calc(100vw - 120px)}.reader-help{display:none}.chapter-targets{margin-top:0}}
+
+.reader-attribution{font-size:11px;line-height:1.7;color:#637460;margin-top:20px}.reader-attribution a{color:inherit}
+
+.lookup-top{position:sticky;top:0;background:#eaf0e7;z-index:1}
+.novel-chapter{scroll-margin-top:calc(var(--reader-controls-height,180px) + 28px)}
+.novel-chapter+.novel-chapter{border-top:1px solid #e0e1d5;margin-top:60px;padding-top:40px}
+.novel-main{max-width:1600px;padding-left:clamp(16px,3vw,48px);padding-right:clamp(16px,3vw,48px)}
+.novel-layout{display:block}
+.novel-prose{padding-left:clamp(24px,4vw,64px);padding-right:clamp(24px,4vw,64px)}
+.novel-playback-panel{border:1px solid #c7d4c3;background:#edf2e9;box-shadow:0 4px 18px #26393512;overflow:hidden}
+.reader-panel-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:8px 16px;color:#285742;font:12px system-ui,sans-serif}
+.reader-collapse{width:34px;height:32px;border:1px solid #becfba;border-radius:6px;background:#fffdf8;color:#285742;font-size:22px;cursor:pointer}
+.reader-collapse:focus-visible{outline:2px solid #71997d;outline-offset:2px}
+.novel-playback-panel .reader-controls{margin:0;padding:12px 20px;background:transparent;border-top:1px solid #d5dfd1;border-radius:0}
+.novel-playback-panel .novel-audio-player{border:0;border-top:1px solid #d5dfd1;border-radius:0;box-shadow:none;background:transparent}
+.novel-resources{border-top:1px solid #d5dfd1;margin-top:32px;padding:24px 12px;font-family:system-ui,sans-serif}
+.novel-resources .chapter-targets{margin-top:0}
+.reader-popup{display:contents}
+.pinned-lookup-dock{position:fixed;left:50%;transform:translateX(-50%);z-index:40;display:flex;align-items:center;gap:4px;max-width:calc(100vw - 24px);padding:5px;border:1px solid #b9cfb7;border-radius:10px;background:#eaf0e7;box-shadow:0 4px 20px #20342a33;color:#285742;font:14px system-ui,sans-serif}
+.pinned-lookup-dock button{display:flex;align-items:center;justify-content:center;gap:8px;min-height:34px;border:0;border-radius:6px;background:transparent;color:inherit;cursor:pointer;padding:5px 9px}
+.pinned-lookup-dock button:hover{background:#d9e7d6}
+.pinned-lookup-dock button:focus-visible{outline:2px solid #71997d;outline-offset:1px}
+.pinned-lookup-dock .return-to-pin{min-width:0}
+.return-to-pin svg{flex-shrink:0}
+.return-to-pin span{max-width:min(280px,calc(100vw - 116px));overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pinned-lookup-dock .unpin-word{font-size:24px;line-height:1;width:34px;flex-shrink:0}
+.reader-popup .lookup-card{position:fixed;bottom:auto;right:auto;left:auto;width:min(340px,calc(100vw - 24px));box-sizing:border-box;z-index:40;margin:0;padding:16px 20px;max-height:none;overflow:auto;overscroll-behavior:contain;box-shadow:0 8px 30px #20342a33;font:14px/1.7 system-ui,sans-serif;color:#263935}
+.reader-popup .lookup-surface{margin:8px 0;font-size:23px}
+.reader-popup .lookup-entry{padding-top:10px;margin-top:10px}
+.reader-popup .lookup-entry dt{margin-top:8px}
+.reader-popup .lookup-entry dd{font-size:14px}
+.reader-popup .lookup-top{top:-16px;padding:0;min-height:28px}
+.reader-popup .lookup-top button{width:28px;height:28px;padding:0;line-height:1;font-size:24px}
+@media(max-width:600px){.novel-playback-panel .reader-controls{padding:10px 12px;gap:12px}.reader-panel-heading{padding:6px 12px}.novel-playback-panel .audio-reading-options{padding:10px 12px}.reader-popup .lookup-card{padding:12px 16px}.reader-popup .lookup-top{top:-12px}}
+
+.novel-audio-player{position:sticky;top:8px;z-index:20;display:flex;flex-wrap:wrap;align-items:center;gap:10px;padding:18px 22px;background:#edf2e9;border:1px solid #c7d4c3;border-radius:12px;box-shadow:0 4px 18px #26393512;margin-bottom:12px;font:13px system-ui,sans-serif}
+.audio-heading{width:100%;display:flex;justify-content:space-between;align-items:center;gap:12px;color:#627565;font-size:11px;letter-spacing:.04em}
+.audio-heading strong{color:#285742;font-size:13px}
+.novel-audio-player button,.novel-audio-player select{border:1px solid #becfba;border-radius:7px;padding:9px 12px;background:#fffdf8;color:#285742;font:inherit;cursor:pointer;min-height:38px}
+.novel-audio-player button:disabled{opacity:.35;cursor:default}
+.novel-audio-player button.audio-play{background:#285742;color:#fff;border-color:#285742;min-width:94px;font-weight:650}
+.novel-audio-player button:focus-visible,.novel-audio-player select:focus-visible,.audio-timeline input:focus-visible{outline:2px solid #71997d;outline-offset:3px}
+.novel-audio-player label{margin-left:auto;display:flex;align-items:center;gap:6px}
+.audio-timeline{display:flex;align-items:center;gap:10px;width:100%;font-variant-numeric:tabular-nums;color:#627565;font-size:12px}
+.audio-timeline input{flex:1;min-width:0;accent-color:#285742;cursor:pointer}
+.audio-downloads{display:flex;flex-wrap:wrap;gap:20px;font-size:12px}
+.audio-downloads a{color:#285742;text-underline-offset:3px}
+.novel-audio-player [role=alert]{width:100%;margin:0;color:#9c3328}
+.audio-reading-options{display:flex;flex-wrap:wrap;gap:12px 24px;margin:0 0 24px;font-size:12px;color:#627565}
+.audio-reading-options label{display:flex;align-items:center;gap:7px}
+.audio-reading-options input{accent-color:#285742}
+.story-sentence{position:relative;border-radius:3px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.speaking-sentence{background:#f8e6a1;box-shadow:0 2px 0 #cda43b;transition:background .15s}
+.sentence-action{position:relative;display:inline-block;width:0;height:0;vertical-align:baseline}
+.sentence-play{position:absolute;left:-20px;bottom:0;width:18px;min-height:24px;padding:0;border:0;background:#eaf0e7;color:#285742;border-radius:4px;font:11px system-ui,sans-serif;opacity:0;pointer-events:none;cursor:pointer}
+.story-sentence:hover .sentence-play,.story-sentence:focus-within .sentence-play,.engaged-sentence .sentence-play,.pinned-sentence .sentence-play,.sentence-play:focus-visible{opacity:1;pointer-events:auto;outline:1px solid #71997d}
+@media(max-width:600px){.novel-audio-player{top:4px;gap:7px;padding:12px}.novel-audio-player button,.novel-audio-player select{padding:8px;font-size:12px}.novel-audio-player label{margin-left:0}.audio-heading{align-items:flex-start}.audio-heading span{text-align:right;max-width:55%}.audio-reading-options{gap:10px;font-size:11px}.novel-prose{padding-left:25px}.sentence-play{left:-19px}}
+.novel-playback-panel{position:sticky;top:8px;z-index:20;background:#f7f5ef;border-radius:12px;margin-bottom:24px}
+.novel-playback-panel .novel-audio-player{position:static;margin-bottom:0}
+.novel-playback-panel .audio-reading-options{margin:0;padding:12px 8px;align-items:center}
+.view-mode-switch{display:flex;align-items:center;gap:9px}
+.view-mode-switch .selected-mode{font-weight:650;color:#285742}
+.view-mode-switch button{display:inline-flex;align-items:center;width:42px;height:24px;border:0;border-radius:14px;padding:3px;background:#86978a;cursor:pointer}
+.view-mode-switch button[aria-checked=true]{background:#285742}
+.view-mode-switch button>span{width:18px;height:18px;border-radius:50%;background:#fff;transform:translateX(0);transition:transform .15s}
+.view-mode-switch button[aria-checked=true]>span{transform:translateX(18px)}
+.view-mode-switch button:focus-visible{outline:2px solid #71997d;outline-offset:3px}
+@media(max-width:600px){.novel-playback-panel{top:4px}}
+@media(min-width:851px){.reader-sidebar{top:calc(var(--reader-controls-height,180px) + 20px);max-height:calc(100dvh - var(--reader-controls-height,180px) - 40px);overflow:auto;overscroll-behavior:contain}.reader-sidebar .lookup-card,.reader-sidebar .reader-help{max-height:none}}
+@media(max-width:850px){.lookup-card{max-height:min(43vh,calc(100dvh - var(--reader-controls-height,220px) - 32px))}}

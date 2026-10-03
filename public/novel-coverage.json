@@ -1,0 +1,7463 @@
+{
+  "title": "異世界で日本語しか使えません！",
+  "chapters": 20,
+  "japaneseCharacters": 41055,
+  "coveredAtLeastTwice": 880,
+  "totalTargetIds": 880,
+  "counting": "Story paragraphs only; longest dictionary/inflection matches; source alternatives and corrected spellings map to the original ID. Identical source rows are retained as separate IDs. Chapter study lists and dictionary/example cards are excluded. Character count includes Japanese scripts, punctuation and full-width characters; excludes spaces, Latin text and annotation markup.",
+  "curriculum": "44 scheduled study targets per chapter, in source order. Incidental common words can occur before their scheduled chapter; this is not a first-ever-appearance quota.",
+  "chapterCoverage": [
+    {
+      "chapter": 1,
+      "title": "第一章　剣より先に履歴書",
+      "japaneseCharacters": 2270,
+      "scheduledTargets": 44,
+      "targetOccurrences": {
+        "n3:1": 2,
+        "n3:2": 5,
+        "n3:3": 2,
+        "n3:4": 2,
+        "n3:5": 2,
+        "n3:6": 2,
+        "n3:7": 2,
+        "n3:8": 2,
+        "n3:9": 2,
+        "n3:10": 2,
+        "n3:11": 2,
+        "n3:12": 2,
+        "n3:13": 2,
+        "n3:14": 2,
+        "n3:15": 2,
+        "n3:16": 2,
+        "n3:17": 2,
+        "n3:18": 2,
+        "n3:19": 2,
+        "n3:20": 3,
+        "n3:21": 2,
+        "n3:22": 2,
+        "n3:23": 2,
+        "n3:24": 2,
+        "n3:25": 2,
+        "n3:26": 2,
+        "n3:27": 2,
+        "n3:28": 3,
+        "n3:29": 2,
+        "n3:30": 2,
+        "n3:31": 2,
+        "n3:32": 2,
+        "n3:33": 2,
+        "n3:34": 2,
+        "n3:35": 2,
+        "n3:36": 2,
+        "n3:37": 2,
+        "n3:38": 2,
+        "n3:39": 2,
+        "n3:40": 2,
+        "n3:41": 2,
+        "n3:42": 2,
+        "n3:43": 2,
+        "n3:44": 2
+      },
+      "earlierTargetIdsReused": 0
+    },
+    {
+      "chapter": 2,
+      "title": "第二章　雨漏りの部屋と小さな約束",
+      "japaneseCharacters": 2180,
+      "scheduledTargets": 44,
+      "targetOccurrences": {
+        "n3:45": 2,
+        "n3:46": 2,
+        "n3:47": 2,
+        "n3:48": 2,
+        "n3:49": 2,
+        "n3:50": 2,
+        "n3:51": 2,
+        "n3:52": 2,
+        "n3:53": 2,
+        "n3:54": 2,
+        "n3:55": 2,
+        "n3:56": 2,
+        "n3:57": 2,
+        "n3:58": 5,
+        "n3:59": 2,
+        "n3:60": 2,
+        "n3:61": 4,
+        "n3:62": 2,
+        "n3:63": 2,
+        "n3:64": 2,
+        "n3:65": 2,
+        "n3:66": 3,
+        "n3:67": 2,
+        "n3:68": 2,
+        "n3:69": 2,
+        "n3:70": 2,
+        "n3:71": 2,
+        "n3:72": 3,
+        "n3:73": 2,
+        "n3:74": 2,
+        "n3:75": 2,
+        "n3:76": 2,
+        "n3:77": 2,
+        "n3:78": 2,
+        "n3:79": 2,
+        "n3:80": 2,
+        "n3:81": 3,
+        "n3:82": 3,
+        "n3:83": 2,
+        "n3:84": 2,
+        "n3:85": 2,
+        "n3:86": 3,
+        "n3:87": 3,
+        "n3:88": 2
+      },
+      "earlierTargetIdsReused": 2
+    },
+    {
+      "chapter": 3,
+      "title": "第三章　厨房には魔王より怖い人がいる",
+      "japaneseCharacters": 2055,
+      "scheduledTargets": 44,
+      "targetOccurrences": {
+        "n3:89": 2,
+        "n3:90": 2,
+        "n3:91": 2,
+        "n3:92": 2,
+        "n3:93": 2,
+        "n3:94": 3,
+        "n3:95": 2,
+        "n3:96": 2,
+        "n3:97": 2,
+        "n3:98": 2,
+        "n3:99": 2,
+        "n3:100": 2,
+        "n3:101": 2,
+        "n3:102": 2,
+        "n3:103": 2,
+        "n3:104": 2,
+        "n3:105": 2,
+        "n3:106": 2,
+        "n3:107": 2,
+        "n3:108": 2,
+        "n3:109": 2,
+        "n3:110": 2,
+        "n3:111": 2,
+        "n3:112": 2,
+        "n3:113": 2,
+        "n3:114": 2,
+        "n3:115": 2,
+        "n3:116": 2,
+        "n3:117": 2,
+        "n3:118": 2,
+        "n3:119": 2,
+        "n3:120": 2,
+        "n3:121": 2,
+        "n3:122": 2,
+        "n3:123": 2,
+        "n3:124": 3,
+        "n3:125": 2,
+        "n3:126": 2,
+        "n3:127": 2,
+        "n3:128": 3,
+        "n3:129": 3,
+        "n3:130": 2,
+        "n3:131": 2,
+        "n3:132": 3
+      },
+      "earlierTargetIdsReused": 6
+    },
+    {
+      "chapter": 4,
+      "title": "第四章　小さな命と帰りの馬車",
+      "japaneseCharacters": 1937,
+      "scheduledTargets": 44,
+      "targetOccurrences": {
+        "n3:133": 2,
+        "n3:134": 2,
+        "n3:135": 2,
+        "n3:136": 2,
+        "n3:137": 2,
+        "n3:138": 2,
+        "n3:139": 2,
+        "n3:140": 2,
+        "n3:141": 2,
+        "n3:142": 2,
+        "n3:143": 2,
+        "n3:144": 3,
+        "n3:145": 2,
+        "n3:146": 2,
+        "n3:147": 2,
+        "n3:148": 2,
+        "n3:149": 2,
+        "n3:150": 2,
+        "n3:151": 2,
+        "n3:152": 4,
+        "n3:153": 2,
+        "n3:154": 2,
+        "n3:155": 2,
+        "n3:156": 2,
+        "n3:157": 2,
+        "n3:158": 2,
+        "n3:159": 2,
+        "n3:160": 2,
+        "n3:161": 2,
+        "n3:162": 2,
+        "n3:163": 2,
+        "n3:164": 2,
+        "n3:165": 2,
+        "n3:166": 2,
+        "n3:167": 2,
+        "n3:168": 2,
+        "n3:169": 2,
+        "n3:170": 2,
+        "n3:171": 2,
+        "n3:172": 2,
+        "n3:173": 2,
+        "n3:174": 2,
+        "n3:175": 2,
+        "n3:176": 3
+      },
+      "earlierTargetIdsReused": 5
+    },
+    {
+      "chapter": 5,
+      "title": "第五章　水を運ぶだけの魔法",
+      "japaneseCharacters": 2078,
+      "scheduledTargets": 44,
+      "targetOccurrences": {
+        "n3:177": 2,
+        "n3:178": 2,
+        "n3:179": 2,
+        "n3:180": 2,
+        "n3:181": 4,
+        "n3:182": 5,
+        "n3:183": 2,
+        "n3:184": 3,
+        "n3:185": 2,
+        "n3:186": 2,
+        "n3:187": 3,
+        "n3:188": 2,
+        "n3:189": 2,
+        "n3:190": 2,
+        "n3:191": 2,
+        "n3:192": 2,
+        "n3:193": 2,
+        "n3:194": 2,
+        "n3:195": 2,
+        "n3:196": 4,
+        "n3:197": 3,
+        "n3:198": 2,
+        "n3:199": 2,
+        "n3:200": 2,
+        "n3:201": 2,
+        "n3:202": 2,
+        "n3:203": 2,
+        "n3:204": 2,
+        "n3:205": 2,
+        "n3:206": 2,
+        "n3:207": 2,
+        "n3:208": 2,
+        "n3:209": 2,
+        "n3:210": 2,
+        "n3:211": 2,
+        "n3:212": 2,
+        "n3:213": 2,
+        "n3:214": 2,
+        "n3:215": 2,
+        "n3:216": 2,
+        "n3:217": 2,
+        "n3:218": 2,
+        "n3:219": 2,
+        "n3:220": 2
+      },
+      "earlierTargetIdsReused": 12
+    },
+    {
+      "chapter": 6,
+      "title": "第六章　祭りの主役は舞台の外",
+      "japaneseCharacters": 1744,
+      "scheduledTargets": 44,
+      "targetOccurrences": {
+        "n3:221": 2,
+        "n3:222": 2,
+        "n3:223": 2,
+        "n3:224": 2,
+        "n3:225": 3,
+        "n3:226": 2,
+        "n3:227": 3,
+        "n3:228": 2,
+        "n3:229": 2,
+        "n3:230": 2,
+        "n3:231": 2,
+        "n3:232": 3,
+        "n3:233": 2,
+        "n3:234": 2,
+        "n3:235": 3,
+        "n3:236": 2,
+        "n3:237": 2,
+        "n3:238": 3,
+        "n3:239": 2,
+        "n3:240": 2,
+        "n3:241": 2,
+        "n3:242": 2,
+        "n3:243": 2,
+        "n3:244": 2,
+        "n3:245": 3,
+        "n3:246": 2,
+        "n3:247": 2,
+        "n3:248": 2,
+        "n3:249": 2,
+        "n3:250": 2,
+        "n3:251": 2,
+        "n3:252": 2,
+        "n3:253": 2,
+        "n3:254": 2,
+        "n3:255": 3,
+        "n3:256": 2,
+        "n3:257": 2,
+        "n3:258": 2,
+        "n3:259": 2,
+        "n3:260": 2,
+        "n3:261": 2,
+        "n3:262": 2,
+        "n3:263": 2,
+        "n3:264": 2
+      },
+      "earlierTargetIdsReused": 12
+    },
+    {
+      "chapter": 7,
+      "title": "第七章　火の先生は不器用だった",
+      "japaneseCharacters": 2088,
+      "scheduledTargets": 44,
+      "targetOccurrences": {
+        "n3:265": 2,
+        "n3:266": 2,
+        "n3:267": 2,
+        "n3:268": 2,
+        "n3:269": 2,
+        "n3:270": 2,
+        "n3:271": 2,
+        "n3:272": 2,
+        "n3:273": 2,
+        "n3:274": 2,
+        "n3:275": 2,
+        "n3:276": 2,
+        "n3:277": 2,
+        "n3:278": 2,
+        "n3:279": 2,
+        "n3:280": 2,
+        "n3:281": 2,
+        "n3:282": 4,
+        "n3:283": 2,
+        "n3:284": 2,
+        "n3:285": 2,
+        "n3:286": 2,
+        "n3:287": 2,
+        "n3:288": 2,
+        "n3:289": 2,
+        "n3:290": 2,
+        "n3:291": 2,
+        "n3:292": 2,
+        "n3:293": 2,
+        "n3:294": 2,
+        "n3:295": 2,
+        "n3:296": 2,
+        "n3:297": 4,
+        "n3:298": 2,
+        "n3:299": 2,
+        "n3:300": 2,
+        "n3:301": 2,
+        "n3:302": 2,
+        "n3:303": 2,
+        "n3:304": 2,
+        "n3:305": 2,
+        "n3:306": 2,
+        "n3:307": 2,
+        "n3:308": 2
+      },
+      "earlierTargetIdsReused": 21
+    },
+    {
+      "chapter": 8,
+      "title": "第八章　伝言ひとつで橋は止まる",
+      "japaneseCharacters": 2078,
+      "scheduledTargets": 44,
+      "targetOccurrences": {
+        "n3:309": 2,
+        "n3:310": 2,
+        "n3:311": 2,
+        "n3:312": 2,
+        "n3:313": 2,
+        "n3:314": 2,
+        "n3:315": 2,
+        "n3:316": 2,
+        "n3:317": 2,
+        "n3:318": 2,
+        "n3:319": 2,
+        "n3:320": 2,
+        "n3:321": 2,
+        "n3:322": 2,
+        "n3:323": 2,
+        "n3:324": 2,
+        "n3:325": 2,
+        "n3:326": 2,
+        "n3:327": 2,
+        "n3:328": 2,
+        "n3:329": 2,
+        "n3:330": 2,
+        "n3:331": 2,
+        "n3:332": 2,
+        "n3:333": 2,
+        "n3:334": 2,
+        "n3:335": 2,
+        "n3:336": 4,
+        "n3:337": 2,
+        "n3:338": 2,
+        "n3:339": 2,
+        "n3:340": 2,
+        "n3:341": 2,
+        "n3:342": 2,
+        "n3:343": 2,
+        "n3:344": 4,
+        "n3:345": 2,
+        "n3:346": 2,
+        "n3:347": 2,
+        "n3:348": 2,
+        "n3:349": 2,
+        "n3:350": 2,
+        "n3:351": 4,
+        "n3:352": 2
+      },
+      "earlierTargetIdsReused": 21
+    },
+    {
+      "chapter": 9,
+      "title": "第九章　故障した鐘と町長の椅子",
+      "japaneseCharacters": 1789,
+      "scheduledTargets": 44,
+      "targetOccurrences": {
+        "n3:353": 2,
+        "n3:354": 3,
+        "n3:355": 2,
+        "n3:356": 2,
+        "n3:357": 2,
+        "n3:358": 2,
+        "n3:359": 2,
+        "n3:360": 2,
+        "n3:361": 2,
+        "n3:362": 2,
+        "n3:363": 2,
+        "n3:364": 2,
+        "n3:365": 2,
+        "n3:366": 2,
+        "n3:367": 3,
+        "n3:368": 2,
+        "n3:369": 2,
+        "n3:370": 2,
+        "n3:371": 2,
+        "n3:372": 2,
+        "n3:373": 2,
+        "n3:374": 2,
+        "n3:375": 2,
+        "n3:376": 2,
+        "n3:377": 2,
+        "n3:378": 2,
+        "n3:379": 2,
+        "n3:380": 3,
+        "n3:381": 3,
+        "n3:382": 2,
+        "n3:383": 2,
+        "n3:384": 2,
+        "n3:385": 2,
+        "n3:386": 2,
+        "n3:387": 2,
+        "n3:388": 2,
+        "n3:389": 2,
+        "n3:390": 2,
+        "n3:391": 2,
+        "n3:392": 2,
+        "n3:393": 3,
+        "n3:394": 2,
+        "n3:395": 2,
+        "n3:396": 3
+      },
+      "earlierTargetIdsReused": 16
+    },
+    {
+      "chapter": 10,
+      "title": "第十章　偽物の銀貨は本物の問題",
+      "japaneseCharacters": 2130,
+      "scheduledTargets": 44,
+      "targetOccurrences": {
+        "n3:397": 2,
+        "n3:398": 2,
+        "n3:399": 2,
+        "n3:400": 2,
+        "n3:401": 3,
+        "n3:402": 3,
+        "n3:403": 2,
+        "n3:404": 2,
+        "n3:405": 2,
+        "n3:406": 2,
+        "n3:407": 2,
+        "n3:408": 2,
+        "n3:409": 2,
+        "n3:410": 2,
+        "n3:411": 2,
+        "n3:412": 2,
+        "n3:413": 2,
+        "n3:414": 2,
+        "n3:415": 2,
+        "n3:416": 2,
+        "n3:417": 2,
+        "n3:418": 2,
+        "n3:419": 2,
+        "n3:420": 4,
+        "n3:421": 2,
+        "n3:422": 2,
+        "n3:423": 2,
+        "n3:424": 2,
+        "n3:425": 3,
+        "n3:426": 2,
+        "n3:427": 2,
+        "n3:428": 2,
+        "n3:429": 2,
+        "n3:430": 2,
+        "n3:431": 2,
+        "n3:432": 2,
+        "n3:433": 2,
+        "n3:434": 2,
+        "n3:435": 3,
+        "n3:436": 2,
+        "n3:437": 2,
+        "n3:438": 9,
+        "n3:439": 2,
+        "n3:440": 2
+      },
+      "earlierTargetIdsReused": 26
+    },
+    {
+      "chapter": 11,
+      "title": "第十一章　学校の庭で盗まれたもの",
+      "japaneseCharacters": 1791,
+      "scheduledTargets": 44,
+      "targetOccurrences": {
+        "n3:441": 2,
+        "n3:442": 2,
+        "n3:443": 2,
+        "n3:444": 2,
+        "n3:445": 2,
+        "n3:446": 2,
+        "n3:447": 2,
+        "n3:448": 2,
+        "n3:449": 2,
+        "n3:450": 3,
+        "n3:451": 2,
+        "n3:452": 2,
+        "n3:453": 2,
+        "n3:454": 2,
+        "n3:455": 2,
+        "n3:456": 2,
+        "n3:457": 2,
+        "n3:458": 2,
+        "n3:459": 2,
+        "n3:460": 2,
+        "n3:461": 2,
+        "n3:462": 2,
+        "n3:463": 2,
+        "n3:464": 3,
+        "n3:465": 2,
+        "n3:466": 2,
+        "n3:467": 2,
+        "n3:468": 2,
+        "n3:469": 2,
+        "n3:470": 2,
+        "n3:471": 2,
+        "n3:472": 2,
+        "n3:473": 2,
+        "n3:474": 2,
+        "n3:475": 2,
+        "n3:476": 2,
+        "n3:477": 2,
+        "n3:478": 3,
+        "n3:479": 2,
+        "n3:480": 2,
+        "n3:481": 2,
+        "n3:482": 2,
+        "n3:483": 2,
+        "n3:484": 3
+      },
+      "earlierTargetIdsReused": 19
+    },
+    {
+      "chapter": 12,
+      "title": "第十二章　雨の橋と即席のチーム",
+      "japaneseCharacters": 2077,
+      "scheduledTargets": 44,
+      "targetOccurrences": {
+        "n3:485": 2,
+        "n3:486": 4,
+        "n3:487": 2,
+        "n3:488": 2,
+        "n3:489": 2,
+        "n3:490": 2,
+        "n3:491": 2,
+        "n3:492": 2,
+        "n3:493": 2,
+        "n3:494": 2,
+        "n3:495": 3,
+        "n3:496": 2,
+        "n3:497": 2,
+        "n3:498": 2,
+        "n3:499": 2,
+        "n3:500": 2,
+        "n3:501": 2,
+        "n3:502": 2,
+        "n3:503": 2,
+        "n3:504": 2,
+        "n3:505": 2,
+        "n3:506": 2,
+        "n3:507": 2,
+        "n3:508": 2,
+        "n3:509": 2,
+        "n3:510": 2,
+        "n3:511": 2,
+        "n3:512": 2,
+        "n3:513": 2,
+        "n3:514": 2,
+        "n3:515": 2,
+        "n3:516": 2,
+        "n3:517": 2,
+        "n3:518": 2,
+        "n3:519": 2,
+        "n3:520": 2,
+        "n3:521": 2,
+        "n3:522": 2,
+        "n3:523": 2,
+        "n3:524": 2,
+        "n3:525": 2,
+        "n3:526": 2,
+        "n3:527": 2,
+        "n3:528": 2
+      },
+      "earlierTargetIdsReused": 25
+    },
+    {
+      "chapter": 13,
+      "title": "第十三章　異世界のコンビニには竜が来る",
+      "japaneseCharacters": 2003,
+      "scheduledTargets": 44,
+      "targetOccurrences": {
+        "n3:529": 2,
+        "n3:530": 2,
+        "n3:531": 2,
+        "n3:532": 2,
+        "n3:533": 2,
+        "n3:534": 2,
+        "n3:535": 2,
+        "n3:536": 2,
+        "n3:537": 2,
+        "n3:538": 2,
+        "n3:539": 2,
+        "n3:540": 2,
+        "n3:541": 2,
+        "n3:542": 2,
+        "n3:543": 2,
+        "n3:544": 2,
+        "n3:545": 3,
+        "n3:546": 2,
+        "n3:547": 2,
+        "n3:548": 2,
+        "n3:549": 2,
+        "n3:550": 2,
+        "n3:551": 2,
+        "n3:552": 2,
+        "n3:553": 2,
+        "n3:554": 2,
+        "n3:555": 2,
+        "n3:556": 2,
+        "n3:557": 2,
+        "n3:558": 2,
+        "n3:559": 2,
+        "n3:560": 2,
+        "n3:561": 2,
+        "n3:562": 4,
+        "n3:563": 2,
+        "n3:564": 2,
+        "n3:565": 2,
+        "n3:566": 2,
+        "n3:567": 2,
+        "n3:568": 2,
+        "n3:569": 2,
+        "n3:570": 3,
+        "n3:571": 3,
+        "n3:572": 2
+      },
+      "earlierTargetIdsReused": 32
+    },
+    {
+      "chapter": 14,
+      "title": "第十四章　急行馬車は急がない",
+      "japaneseCharacters": 2235,
+      "scheduledTargets": 44,
+      "targetOccurrences": {
+        "n3:573": 5,
+        "n3:574": 3,
+        "n3:575": 2,
+        "n3:576": 2,
+        "n3:577": 2,
+        "n3:578": 2,
+        "n3:579": 2,
+        "n3:580": 2,
+        "n3:581": 2,
+        "n3:582": 2,
+        "n3:583": 2,
+        "n3:584": 2,
+        "n3:585": 2,
+        "n3:586": 2,
+        "n3:587": 2,
+        "n3:588": 2,
+        "n3:589": 2,
+        "n3:590": 2,
+        "n3:591": 2,
+        "n3:592": 2,
+        "n3:593": 2,
+        "n3:594": 2,
+        "n3:595": 2,
+        "n3:596": 2,
+        "n3:597": 2,
+        "n3:598": 2,
+        "n3:599": 2,
+        "n3:600": 2,
+        "n3:601": 2,
+        "n3:602": 2,
+        "n3:603": 2,
+        "n3:604": 2,
+        "n3:605": 2,
+        "n3:606": 2,
+        "n3:607": 3,
+        "n3:608": 2,
+        "n3:609": 2,
+        "n3:610": 2,
+        "n3:611": 2,
+        "n3:612": 2,
+        "n3:613": 2,
+        "n3:614": 2,
+        "n3:615": 2,
+        "n3:616": 2
+      },
+      "earlierTargetIdsReused": 44
+    },
+    {
+      "chapter": 15,
+      "title": "第十五章　薬を届ける夜",
+      "japaneseCharacters": 1985,
+      "scheduledTargets": 44,
+      "targetOccurrences": {
+        "n3:617": 2,
+        "n3:618": 2,
+        "n3:619": 2,
+        "n3:620": 2,
+        "n3:621": 2,
+        "n3:622": 2,
+        "n3:623": 2,
+        "n3:624": 2,
+        "n3:625": 2,
+        "n3:626": 2,
+        "n3:627": 2,
+        "n3:628": 2,
+        "n3:629": 2,
+        "n3:630": 2,
+        "n3:631": 2,
+        "n3:632": 2,
+        "n3:633": 2,
+        "n3:634": 2,
+        "n3:635": 2,
+        "n3:636": 2,
+        "n3:637": 2,
+        "n3:638": 2,
+        "n3:639": 2,
+        "n3:640": 2,
+        "n3:641": 2,
+        "n3:642": 2,
+        "n3:643": 2,
+        "n3:644": 2,
+        "n3:645": 2,
+        "n3:646": 2,
+        "n3:647": 2,
+        "n3:648": 2,
+        "n3:649": 2,
+        "n3:650": 2,
+        "n3:651": 2,
+        "n3:652": 2,
+        "n3:653": 3,
+        "n3:654": 2,
+        "n3:655": 2,
+        "n3:656": 3,
+        "n3:657": 4,
+        "n3:658": 2,
+        "n3:659": 2,
+        "n3:660": 3
+      },
+      "earlierTargetIdsReused": 35
+    },
+    {
+      "chapter": 16,
+      "title": "第十六章　契約書の小さな文字",
+      "japaneseCharacters": 2201,
+      "scheduledTargets": 44,
+      "targetOccurrences": {
+        "n3:661": 2,
+        "n3:662": 2,
+        "n3:663": 2,
+        "n3:664": 3,
+        "n3:665": 2,
+        "n3:666": 2,
+        "n3:667": 2,
+        "n3:668": 2,
+        "n3:669": 2,
+        "n3:670": 2,
+        "n3:671": 2,
+        "n3:672": 2,
+        "n3:673": 2,
+        "n3:674": 2,
+        "n3:675": 2,
+        "n3:676": 2,
+        "n3:677": 2,
+        "n3:678": 2,
+        "n3:679": 3,
+        "n3:680": 2,
+        "n3:681": 2,
+        "n3:682": 2,
+        "n3:683": 2,
+        "n3:684": 2,
+        "n3:685": 2,
+        "n3:686": 2,
+        "n3:687": 2,
+        "n3:688": 2,
+        "n3:689": 2,
+        "n3:690": 6,
+        "n3:691": 2,
+        "n3:692": 2,
+        "n3:693": 2,
+        "n3:694": 2,
+        "n3:695": 2,
+        "n3:696": 2,
+        "n3:697": 2,
+        "n3:698": 2,
+        "n3:699": 2,
+        "n3:700": 2,
+        "n3:701": 2,
+        "n3:702": 2,
+        "n3:703": 2,
+        "n3:704": 2
+      },
+      "earlierTargetIdsReused": 45
+    },
+    {
+      "chapter": 17,
+      "title": "第十七章　戦わない会議",
+      "japaneseCharacters": 1816,
+      "scheduledTargets": 44,
+      "targetOccurrences": {
+        "n3:705": 2,
+        "n3:706": 2,
+        "n3:707": 2,
+        "n3:708": 2,
+        "n3:709": 2,
+        "n3:710": 2,
+        "n3:711": 2,
+        "n3:712": 4,
+        "n3:713": 2,
+        "n3:714": 4,
+        "n3:715": 3,
+        "n3:716": 2,
+        "n3:717": 2,
+        "n3:718": 2,
+        "n3:719": 2,
+        "n3:720": 2,
+        "n3:721": 2,
+        "n3:722": 4,
+        "n3:723": 2,
+        "n3:724": 2,
+        "n3:725": 2,
+        "n3:726": 2,
+        "n3:727": 2,
+        "n3:728": 2,
+        "n3:729": 2,
+        "n3:730": 2,
+        "n3:731": 2,
+        "n3:732": 2,
+        "n3:733": 2,
+        "n3:734": 3,
+        "n3:735": 3,
+        "n3:736": 3,
+        "n3:737": 3,
+        "n3:738": 2,
+        "n3:739": 2,
+        "n3:740": 3,
+        "n3:741": 3,
+        "n3:742": 2,
+        "n3:743": 2,
+        "n3:744": 2,
+        "n3:745": 2,
+        "n3:746": 2,
+        "n3:747": 2,
+        "n3:748": 2
+      },
+      "earlierTargetIdsReused": 38
+    },
+    {
+      "chapter": 18,
+      "title": "第十八章　線をつなぐ人たち",
+      "japaneseCharacters": 2085,
+      "scheduledTargets": 44,
+      "targetOccurrences": {
+        "n3:749": 3,
+        "n3:750": 2,
+        "n3:751": 2,
+        "n3:752": 2,
+        "n3:753": 2,
+        "n3:754": 2,
+        "n3:755": 2,
+        "n3:756": 2,
+        "n3:757": 2,
+        "n3:758": 3,
+        "n3:759": 2,
+        "n3:760": 2,
+        "n3:761": 2,
+        "n3:762": 2,
+        "n3:763": 2,
+        "n3:764": 2,
+        "n3:765": 2,
+        "n3:766": 2,
+        "n3:767": 2,
+        "n3:768": 2,
+        "n3:769": 2,
+        "n3:770": 2,
+        "n3:771": 2,
+        "n3:772": 2,
+        "n3:773": 2,
+        "n3:774": 2,
+        "n3:775": 2,
+        "n3:776": 4,
+        "n3:777": 2,
+        "n3:778": 2,
+        "n3:779": 2,
+        "n3:780": 2,
+        "n3:781": 2,
+        "n3:782": 2,
+        "n3:783": 4,
+        "n3:784": 2,
+        "n3:785": 2,
+        "n3:786": 2,
+        "n3:787": 2,
+        "n3:788": 2,
+        "n3:789": 2,
+        "n3:790": 2,
+        "n3:791": 2,
+        "n3:792": 2
+      },
+      "earlierTargetIdsReused": 47
+    },
+    {
+      "chapter": 19,
+      "title": "第十九章　魔法のコンテストと帰りの扉",
+      "japaneseCharacters": 2150,
+      "scheduledTargets": 44,
+      "targetOccurrences": {
+        "n3:793": 2,
+        "n3:794": 2,
+        "n3:795": 2,
+        "n3:796": 2,
+        "n3:797": 2,
+        "n3:798": 2,
+        "n3:799": 2,
+        "n3:800": 2,
+        "n3:801": 2,
+        "n3:802": 2,
+        "n3:803": 2,
+        "n3:804": 2,
+        "n3:805": 2,
+        "n3:806": 2,
+        "n3:807": 2,
+        "n3:808": 2,
+        "n3:809": 2,
+        "n3:810": 2,
+        "n3:811": 2,
+        "n3:812": 2,
+        "n3:813": 2,
+        "n3:814": 2,
+        "n3:815": 2,
+        "n3:816": 2,
+        "n3:817": 2,
+        "n3:818": 2,
+        "n3:819": 2,
+        "n3:820": 2,
+        "n3:821": 2,
+        "n3:822": 2,
+        "n3:823": 2,
+        "n3:824": 2,
+        "n3:825": 2,
+        "n3:826": 2,
+        "n3:827": 2,
+        "n3:828": 2,
+        "n3:829": 2,
+        "n3:830": 2,
+        "n3:831": 2,
+        "n3:832": 2,
+        "n3:833": 2,
+        "n3:834": 3,
+        "n3:835": 2,
+        "n3:836": 2
+      },
+      "earlierTargetIdsReused": 49
+    },
+    {
+      "chapter": 20,
+      "title": "第二十章　お帰りは、二つの世界に",
+      "japaneseCharacters": 2363,
+      "scheduledTargets": 44,
+      "targetOccurrences": {
+        "n3:837": 2,
+        "n3:838": 2,
+        "n3:839": 2,
+        "n3:840": 2,
+        "n3:841": 2,
+        "n3:842": 2,
+        "n3:843": 2,
+        "n3:844": 2,
+        "n3:845": 2,
+        "n3:846": 2,
+        "n3:847": 2,
+        "n3:848": 2,
+        "n3:849": 2,
+        "n3:850": 2,
+        "n3:851": 2,
+        "n3:852": 2,
+        "n3:853": 2,
+        "n3:854": 2,
+        "n3:855": 2,
+        "n3:856": 2,
+        "n3:857": 2,
+        "n3:858": 2,
+        "n3:859": 2,
+        "n3:860": 2,
+        "n3:861": 2,
+        "n3:862": 2,
+        "n3:863": 2,
+        "n3:864": 2,
+        "n3:865": 2,
+        "n3:866": 2,
+        "n3:867": 2,
+        "n3:868": 2,
+        "n3:869": 2,
+        "n3:870": 2,
+        "n3:871": 2,
+        "n3:872": 2,
+        "n3:873": 2,
+        "n3:874": 2,
+        "n3:875": 2,
+        "n3:876": 2,
+        "n3:877": 5,
+        "n3:878": 2,
+        "n3:879": 2,
+        "n3:880": 2
+      },
+      "earlierTargetIdsReused": 44
+    }
+  ],
+  "grammarPassages": {
+    "n3-grammar:9": [
+      {
+        "chapter": 1,
+        "phrase": "買い物のついでに"
+      }
+    ],
+    "n3-grammar:1": [
+      {
+        "chapter": 1,
+        "phrase": "明るいうちに"
+      }
+    ],
+    "n3-grammar:3": [
+      {
+        "chapter": 2,
+        "phrase": "確かめてからでないと"
+      }
+    ],
+    "n3-grammar:2": [
+      {
+        "chapter": 2,
+        "phrase": "間に"
+      }
+    ],
+    "n3-grammar:5": [
+      {
+        "chapter": 3,
+        "phrase": "書いてあるとおりに"
+      }
+    ],
+    "n3-grammar:23": [
+      {
+        "chapter": 3,
+        "phrase": "ミナのおかげで"
+      }
+    ],
+    "n3-grammar:44": [
+      {
+        "chapter": 4,
+        "phrase": "道を教えてもらいたい"
+      }
+    ],
+    "n3-grammar:7": [
+      {
+        "chapter": 4,
+        "phrase": "橋を渡るたびに"
+      }
+    ],
+    "n3-grammar:6": [
+      {
+        "chapter": 5,
+        "phrase": "形によって"
+      }
+    ],
+    "n3-grammar:8": [
+      {
+        "chapter": 5,
+        "phrase": "読めば読むほど"
+      }
+    ],
+    "n3-grammar:10": [
+      {
+        "chapter": 6,
+        "phrase": "紙一枚ぐらい"
+      }
+    ],
+    "n3-grammar:58": [
+      {
+        "chapter": 6,
+        "phrase": "まで"
+      }
+    ],
+    "n3-grammar:15": [
+      {
+        "chapter": 7,
+        "phrase": "火に対して"
+      }
+    ],
+    "n3-grammar:38": [
+      {
+        "chapter": 7,
+        "phrase": "力が強ければよいとは限らない"
+      }
+    ],
+    "n3-grammar:60": [
+      {
+        "chapter": 8,
+        "phrase": "事故について"
+      }
+    ],
+    "n3-grammar:39": [
+      {
+        "chapter": 8,
+        "phrase": "御者だけが悪いわけではない"
+      }
+    ],
+    "n3-grammar:49": [
+      {
+        "chapter": 9,
+        "phrase": "説明は短くするべきだ"
+      }
+    ],
+    "n3-grammar:61": [
+      {
+        "chapter": 9,
+        "phrase": "町の人にとって"
+      }
+    ],
+    "n3-grammar:18": [
+      {
+        "chapter": 10,
+        "phrase": "盗難というより"
+      }
+    ],
+    "n3-grammar:64": [
+      {
+        "chapter": 11,
+        "phrase": "一人で謝ることはない"
+      }
+    ],
+    "n3-grammar:41": [
+      {
+        "chapter": 11,
+        "phrase": "教師も説明しないわけにはいかない"
+      }
+    ],
+    "n3-grammar:30": [
+      {
+        "chapter": 12,
+        "phrase": "たとえ雨が強くても"
+      }
+    ],
+    "n3-grammar:87": [
+      {
+        "chapter": 12,
+        "phrase": "橋が落ちるおそれがある"
+      }
+    ],
+    "n3-grammar:37": [
+      {
+        "chapter": 13,
+        "phrase": "同じ世界の人が、日本語だけ話すはずがない"
+      }
+    ],
+    "n3-grammar:92": [
+      {
+        "chapter": 13,
+        "phrase": "道具を通して"
+      }
+    ],
+    "n3-grammar:13": [
+      {
+        "chapter": 14,
+        "phrase": "橋から落ちるぐらいなら"
+      }
+    ],
+    "n3-grammar:20": [
+      {
+        "chapter": 14,
+        "phrase": "事故を避けるために"
+      }
+    ],
+    "n3-grammar:52": [
+      {
+        "chapter": 15,
+        "phrase": "間違えないようにする"
+      }
+    ],
+    "n3-grammar:62": [
+      {
+        "chapter": 16,
+        "phrase": "一人の担当者として"
+      }
+    ],
+    "n3-grammar:40": [
+      {
+        "chapter": 16,
+        "phrase": "町の水を止めたまま帰るわけにはいかない"
+      }
+    ],
+    "n3-grammar:28": [
+      {
+        "chapter": 17,
+        "phrase": "同じ量を記録さえすれば"
+      }
+    ],
+    "n3-grammar:51": [
+      {
+        "chapter": 17,
+        "phrase": "毎朝、一緒に見ることにする"
+      }
+    ],
+    "n3-grammar:85": [
+      {
+        "chapter": 18,
+        "phrase": "水だけの道に決まっている"
+      }
+    ],
+    "n3-grammar:91": [
+      {
+        "chapter": 18,
+        "phrase": "別の世界へ行く線だとしたら"
+      }
+    ],
+    "n3-grammar:81": [
+      {
+        "chapter": 19,
+        "phrase": "説明の最中に"
+      }
+    ],
+    "n3-grammar:82": [
+      {
+        "chapter": 19,
+        "phrase": "光が消えたとたん"
+      }
+    ],
+    "n3-grammar:94": [
+      {
+        "chapter": 20,
+        "phrase": "感謝をこめて"
+      }
+    ],
+    "n3-grammar:93": [
+      {
+        "chapter": 20,
+        "phrase": "今は帰って確かめるしかない"
+      }
+    ]
+  },
+  "vocabulary": [
+    {
+      "id": "n3:1",
+      "sourceHeadword": "男性",
+      "storyHeadword": "男性",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:2",
+      "sourceHeadword": "女性",
+      "storyHeadword": "女性",
+      "occurrences": 9,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:3",
+      "sourceHeadword": "高齢",
+      "storyHeadword": "高齢",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:4",
+      "sourceHeadword": "年上",
+      "storyHeadword": "年上",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:5",
+      "sourceHeadword": "目上",
+      "storyHeadword": "目上",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:6",
+      "sourceHeadword": "先輩",
+      "storyHeadword": "先輩",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:7",
+      "sourceHeadword": "後輩",
+      "storyHeadword": "後輩",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:8",
+      "sourceHeadword": "上司",
+      "storyHeadword": "上司",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:9",
+      "sourceHeadword": "相手",
+      "storyHeadword": "相手",
+      "occurrences": 20,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:10",
+      "sourceHeadword": "知り合い",
+      "storyHeadword": "知り合い",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:11",
+      "sourceHeadword": "友人",
+      "storyHeadword": "友人",
+      "occurrences": 9,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:12",
+      "sourceHeadword": "仲",
+      "storyHeadword": "仲",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:13",
+      "sourceHeadword": "生年月日",
+      "storyHeadword": "生年月日",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:14",
+      "sourceHeadword": "誕生",
+      "storyHeadword": "誕生",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:15",
+      "sourceHeadword": "年",
+      "storyHeadword": "年",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:16",
+      "sourceHeadword": "出身",
+      "storyHeadword": "出身",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:17",
+      "sourceHeadword": "故郷",
+      "storyHeadword": "故郷",
+      "occurrences": 8,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:18",
+      "sourceHeadword": "成長",
+      "storyHeadword": "成長",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:19",
+      "sourceHeadword": "成人",
+      "storyHeadword": "成人",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:20",
+      "sourceHeadword": "合格",
+      "storyHeadword": "合格",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:21",
+      "sourceHeadword": "進学",
+      "storyHeadword": "進学",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:22",
+      "sourceHeadword": "退学",
+      "storyHeadword": "退学",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:23",
+      "sourceHeadword": "就職",
+      "storyHeadword": "就職",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:24",
+      "sourceHeadword": "退職",
+      "storyHeadword": "退職",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:25",
+      "sourceHeadword": "失業",
+      "storyHeadword": "失業",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:26",
+      "sourceHeadword": "残業",
+      "storyHeadword": "残業",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:27",
+      "sourceHeadword": "生活",
+      "storyHeadword": "生活",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:28",
+      "sourceHeadword": "通勤",
+      "storyHeadword": "通勤",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:29",
+      "sourceHeadword": "学歴",
+      "storyHeadword": "学歴",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:30",
+      "sourceHeadword": "給料",
+      "storyHeadword": "給料",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:31",
+      "sourceHeadword": "面接",
+      "storyHeadword": "面接",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:32",
+      "sourceHeadword": "休憩",
+      "storyHeadword": "休憩",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:33",
+      "sourceHeadword": "観光",
+      "storyHeadword": "観光",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:34",
+      "sourceHeadword": "帰国",
+      "storyHeadword": "帰国",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:35",
+      "sourceHeadword": "帰省",
+      "storyHeadword": "帰省",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:36",
+      "sourceHeadword": "帰宅",
+      "storyHeadword": "帰宅",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:37",
+      "sourceHeadword": "参加",
+      "storyHeadword": "参加",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:38",
+      "sourceHeadword": "出席",
+      "storyHeadword": "出席",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:39",
+      "sourceHeadword": "欠席",
+      "storyHeadword": "欠席",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:40",
+      "sourceHeadword": "遅刻",
+      "storyHeadword": "遅刻",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:41",
+      "sourceHeadword": "化粧",
+      "storyHeadword": "化粧",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:42",
+      "sourceHeadword": "計算",
+      "storyHeadword": "計算",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:43",
+      "sourceHeadword": "計画",
+      "storyHeadword": "計画",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:44",
+      "sourceHeadword": "成功",
+      "storyHeadword": "成功",
+      "occurrences": 7,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:45",
+      "sourceHeadword": "失敗",
+      "storyHeadword": "失敗",
+      "occurrences": 11,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:46",
+      "sourceHeadword": "準備",
+      "storyHeadword": "準備",
+      "occurrences": 6,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:47",
+      "sourceHeadword": "整理",
+      "storyHeadword": "整理",
+      "occurrences": 6,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:48",
+      "sourceHeadword": "注文",
+      "storyHeadword": "注文",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:49",
+      "sourceHeadword": "貯金",
+      "storyHeadword": "貯金",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:50",
+      "sourceHeadword": "徹夜",
+      "storyHeadword": "徹夜",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:51",
+      "sourceHeadword": "引っ越し",
+      "storyHeadword": "引っ越し",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:52",
+      "sourceHeadword": "身長",
+      "storyHeadword": "身長",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:53",
+      "sourceHeadword": "体重",
+      "storyHeadword": "体重",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:54",
+      "sourceHeadword": "けが",
+      "storyHeadword": "けが",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:55",
+      "sourceHeadword": "会",
+      "storyHeadword": "会",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:56",
+      "sourceHeadword": "趣味",
+      "storyHeadword": "趣味",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:57",
+      "sourceHeadword": "興味",
+      "storyHeadword": "興味",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:58",
+      "sourceHeadword": "思い出",
+      "storyHeadword": "思い出",
+      "occurrences": 6,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:59",
+      "sourceHeadword": "冗談",
+      "storyHeadword": "冗談",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:60",
+      "sourceHeadword": "目的",
+      "storyHeadword": "目的",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:61",
+      "sourceHeadword": "約束",
+      "storyHeadword": "約束",
+      "occurrences": 25,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:62",
+      "sourceHeadword": "おしゃべり",
+      "storyHeadword": "おしゃべり",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:63",
+      "sourceHeadword": "遠慮",
+      "storyHeadword": "遠慮",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:64",
+      "sourceHeadword": "我慢",
+      "storyHeadword": "我慢",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:65",
+      "sourceHeadword": "迷惑",
+      "storyHeadword": "迷惑",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:66",
+      "sourceHeadword": "希望",
+      "storyHeadword": "希望",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:67",
+      "sourceHeadword": "夢",
+      "storyHeadword": "夢",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:68",
+      "sourceHeadword": "賛成",
+      "storyHeadword": "賛成",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:69",
+      "sourceHeadword": "反対",
+      "storyHeadword": "反対",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:70",
+      "sourceHeadword": "想像",
+      "storyHeadword": "想像",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:71",
+      "sourceHeadword": "努力",
+      "storyHeadword": "努力",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:72",
+      "sourceHeadword": "太陽",
+      "storyHeadword": "太陽",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:73",
+      "sourceHeadword": "地球",
+      "storyHeadword": "地球",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:74",
+      "sourceHeadword": "温度",
+      "storyHeadword": "温度",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:75",
+      "sourceHeadword": "湿度",
+      "storyHeadword": "湿度",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:76",
+      "sourceHeadword": "湿気",
+      "storyHeadword": "湿気",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:77",
+      "sourceHeadword": "梅雨",
+      "storyHeadword": "梅雨",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:78",
+      "sourceHeadword": "かび",
+      "storyHeadword": "かび",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:79",
+      "sourceHeadword": "暖房",
+      "storyHeadword": "暖房",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:80",
+      "sourceHeadword": "皮",
+      "storyHeadword": "皮",
+      "occurrences": 6,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:81",
+      "sourceHeadword": "缶",
+      "storyHeadword": "缶",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:82",
+      "sourceHeadword": "画面",
+      "storyHeadword": "画面",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:83",
+      "sourceHeadword": "番組",
+      "storyHeadword": "番組",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:84",
+      "sourceHeadword": "記事",
+      "storyHeadword": "記事",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:85",
+      "sourceHeadword": "近所",
+      "storyHeadword": "近所",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:86",
+      "sourceHeadword": "警察",
+      "storyHeadword": "警察",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:87",
+      "sourceHeadword": "犯人",
+      "storyHeadword": "犯人",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:88",
+      "sourceHeadword": "小銭",
+      "storyHeadword": "小銭",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:89",
+      "sourceHeadword": "ごちそう",
+      "storyHeadword": "ごちそう",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:90",
+      "sourceHeadword": "作者",
+      "storyHeadword": "作者",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:91",
+      "sourceHeadword": "作品",
+      "storyHeadword": "作品",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:92",
+      "sourceHeadword": "制服",
+      "storyHeadword": "制服",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:93",
+      "sourceHeadword": "洗剤",
+      "storyHeadword": "洗剤",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:94",
+      "sourceHeadword": "底",
+      "storyHeadword": "底",
+      "occurrences": 7,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:95",
+      "sourceHeadword": "地下",
+      "storyHeadword": "地下",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:96",
+      "sourceHeadword": "寺",
+      "storyHeadword": "寺",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:97",
+      "sourceHeadword": "道路",
+      "storyHeadword": "道路",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:98",
+      "sourceHeadword": "坂",
+      "storyHeadword": "坂",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:99",
+      "sourceHeadword": "煙",
+      "storyHeadword": "煙",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:100",
+      "sourceHeadword": "灰",
+      "storyHeadword": "灰",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:101",
+      "sourceHeadword": "判",
+      "storyHeadword": "判",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:102",
+      "sourceHeadword": "名刺",
+      "storyHeadword": "名刺",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:103",
+      "sourceHeadword": "免許",
+      "storyHeadword": "免許",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:104",
+      "sourceHeadword": "多く",
+      "storyHeadword": "多く",
+      "occurrences": 6,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:105",
+      "sourceHeadword": "前半",
+      "storyHeadword": "前半",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:106",
+      "sourceHeadword": "後半",
+      "storyHeadword": "後半",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:107",
+      "sourceHeadword": "最高",
+      "storyHeadword": "最高",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:108",
+      "sourceHeadword": "最低",
+      "storyHeadword": "最低",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:109",
+      "sourceHeadword": "最初",
+      "storyHeadword": "最初",
+      "occurrences": 10,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:110",
+      "sourceHeadword": "最後",
+      "storyHeadword": "最後",
+      "occurrences": 19,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:111",
+      "sourceHeadword": "自動",
+      "storyHeadword": "自動",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:112",
+      "sourceHeadword": "種類",
+      "storyHeadword": "種類",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:113",
+      "sourceHeadword": "性格",
+      "storyHeadword": "性格",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:114",
+      "sourceHeadword": "性質",
+      "storyHeadword": "性質",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:115",
+      "sourceHeadword": "順番",
+      "storyHeadword": "順番",
+      "occurrences": 7,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:116",
+      "sourceHeadword": "番",
+      "storyHeadword": "番",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:117",
+      "sourceHeadword": "方法",
+      "storyHeadword": "方法",
+      "occurrences": 15,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:118",
+      "sourceHeadword": "製品",
+      "storyHeadword": "製品",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:119",
+      "sourceHeadword": "値上がり",
+      "storyHeadword": "値上がり",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:120",
+      "sourceHeadword": "生",
+      "storyHeadword": "生",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:121",
+      "sourceHeadword": "渇く",
+      "storyHeadword": "渇く",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:122",
+      "sourceHeadword": "嗅ぐ",
+      "storyHeadword": "嗅ぐ",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:123",
+      "sourceHeadword": "叩く",
+      "storyHeadword": "叩く",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:124",
+      "sourceHeadword": "殴る",
+      "storyHeadword": "殴る",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:125",
+      "sourceHeadword": "ける",
+      "storyHeadword": "ける",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:126",
+      "sourceHeadword": "抱く",
+      "storyHeadword": "抱く",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:127",
+      "sourceHeadword": "倒れる",
+      "storyHeadword": "倒れる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:128",
+      "sourceHeadword": "倒す",
+      "storyHeadword": "倒す",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:129",
+      "sourceHeadword": "起きる",
+      "storyHeadword": "起きる",
+      "occurrences": 7,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:130",
+      "sourceHeadword": "起こす",
+      "storyHeadword": "起こす",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:131",
+      "sourceHeadword": "尋ねる",
+      "storyHeadword": "尋ねる",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:132",
+      "sourceHeadword": "呼ぶ",
+      "storyHeadword": "呼ぶ",
+      "occurrences": 10,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:133",
+      "sourceHeadword": "叫ぶ",
+      "storyHeadword": "叫ぶ",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:134",
+      "sourceHeadword": "黙る",
+      "storyHeadword": "黙る",
+      "occurrences": 6,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:135",
+      "sourceHeadword": "飼う",
+      "storyHeadword": "飼う",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:136",
+      "sourceHeadword": "数える",
+      "storyHeadword": "数える",
+      "occurrences": 8,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:137",
+      "sourceHeadword": "乾く",
+      "storyHeadword": "乾く",
+      "occurrences": 7,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:138",
+      "sourceHeadword": "乾かす",
+      "storyHeadword": "乾かす",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:139",
+      "sourceHeadword": "畳む",
+      "storyHeadword": "畳む",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:140",
+      "sourceHeadword": "誘う",
+      "storyHeadword": "誘う",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:141",
+      "sourceHeadword": "おごる",
+      "storyHeadword": "おごる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:142",
+      "sourceHeadword": "預かる",
+      "storyHeadword": "預かる",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:143",
+      "sourceHeadword": "預ける",
+      "storyHeadword": "預ける",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:144",
+      "sourceHeadword": "決まる",
+      "storyHeadword": "決まる",
+      "occurrences": 13,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:145",
+      "sourceHeadword": "決める",
+      "storyHeadword": "決める",
+      "occurrences": 19,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:146",
+      "sourceHeadword": "写る",
+      "storyHeadword": "写る",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:147",
+      "sourceHeadword": "写す",
+      "storyHeadword": "写す",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:148",
+      "sourceHeadword": "思い出す",
+      "storyHeadword": "思い出す",
+      "occurrences": 10,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:149",
+      "sourceHeadword": "教わる",
+      "storyHeadword": "教わる",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:150",
+      "sourceHeadword": "申し込む",
+      "storyHeadword": "申し込む",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:151",
+      "sourceHeadword": "断る",
+      "storyHeadword": "断る",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:152",
+      "sourceHeadword": "見つかる",
+      "storyHeadword": "見つかる",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:153",
+      "sourceHeadword": "見つける",
+      "storyHeadword": "見つける",
+      "occurrences": 10,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:154",
+      "sourceHeadword": "捕まる",
+      "storyHeadword": "捕まる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:155",
+      "sourceHeadword": "捕まえる",
+      "storyHeadword": "捕まえる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:156",
+      "sourceHeadword": "乗る",
+      "storyHeadword": "乗る",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:157",
+      "sourceHeadword": "乗せる",
+      "storyHeadword": "乗せる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:158",
+      "sourceHeadword": "降りる",
+      "storyHeadword": "降りる",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:159",
+      "sourceHeadword": "降ろす",
+      "storyHeadword": "降ろす",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:160",
+      "sourceHeadword": "直る",
+      "storyHeadword": "直る",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:161",
+      "sourceHeadword": "直す",
+      "storyHeadword": "直す",
+      "occurrences": 19,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:162",
+      "sourceHeadword": "治る",
+      "storyHeadword": "治る",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:163",
+      "sourceHeadword": "治す",
+      "storyHeadword": "治す",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:164",
+      "sourceHeadword": "亡くなる",
+      "storyHeadword": "亡くなる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:165",
+      "sourceHeadword": "亡くす",
+      "storyHeadword": "亡くす",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:166",
+      "sourceHeadword": "生まれる",
+      "storyHeadword": "生まれる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:167",
+      "sourceHeadword": "生む",
+      "storyHeadword": "生む",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:168",
+      "sourceHeadword": "出会う",
+      "storyHeadword": "出会う",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:169",
+      "sourceHeadword": "訪ねる",
+      "storyHeadword": "訪ねる",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:170",
+      "sourceHeadword": "付き合う",
+      "storyHeadword": "付き合う",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:171",
+      "sourceHeadword": "効く",
+      "storyHeadword": "効く",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:172",
+      "sourceHeadword": "はやる",
+      "storyHeadword": "はやる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:173",
+      "sourceHeadword": "経つ",
+      "storyHeadword": "経つ",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:174",
+      "sourceHeadword": "間に合う",
+      "storyHeadword": "間に合う",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:175",
+      "sourceHeadword": "間に合わせる",
+      "storyHeadword": "間に合わせる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:176",
+      "sourceHeadword": "通う",
+      "storyHeadword": "通う",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:177",
+      "sourceHeadword": "込む",
+      "storyHeadword": "込む",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:178",
+      "sourceHeadword": "すれ違う",
+      "storyHeadword": "すれ違う",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:179",
+      "sourceHeadword": "掛かる",
+      "storyHeadword": "掛かる",
+      "occurrences": 7,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:180",
+      "sourceHeadword": "掛ける",
+      "storyHeadword": "掛ける",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:181",
+      "sourceHeadword": "動く",
+      "storyHeadword": "動く",
+      "occurrences": 11,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:182",
+      "sourceHeadword": "動かす",
+      "storyHeadword": "動かす",
+      "occurrences": 7,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:183",
+      "sourceHeadword": "離れる",
+      "storyHeadword": "離れる",
+      "occurrences": 6,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:184",
+      "sourceHeadword": "離す",
+      "storyHeadword": "離す",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:185",
+      "sourceHeadword": "ぶつかる",
+      "storyHeadword": "ぶつかる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:186",
+      "sourceHeadword": "ぶつける",
+      "storyHeadword": "ぶつける",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:187",
+      "sourceHeadword": "こぼれる",
+      "storyHeadword": "こぼれる",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:188",
+      "sourceHeadword": "こぼす",
+      "storyHeadword": "こぼす",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:189",
+      "sourceHeadword": "ふく",
+      "storyHeadword": "ふく",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:190",
+      "sourceHeadword": "片付く",
+      "storyHeadword": "片付く",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:191",
+      "sourceHeadword": "片付ける",
+      "storyHeadword": "片付ける",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:192",
+      "sourceHeadword": "包む",
+      "storyHeadword": "包む",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:193",
+      "sourceHeadword": "張る",
+      "storyHeadword": "張る",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:194",
+      "sourceHeadword": "無くなる",
+      "storyHeadword": "無くなる",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:195",
+      "sourceHeadword": "無くす",
+      "storyHeadword": "無くす",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:196",
+      "sourceHeadword": "足りる",
+      "storyHeadword": "足りる",
+      "occurrences": 7,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:197",
+      "sourceHeadword": "残る",
+      "storyHeadword": "残る",
+      "occurrences": 29,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:198",
+      "sourceHeadword": "残す",
+      "storyHeadword": "残す",
+      "occurrences": 14,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:199",
+      "sourceHeadword": "腐る",
+      "storyHeadword": "腐る",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:200",
+      "sourceHeadword": "むける",
+      "storyHeadword": "むける",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:201",
+      "sourceHeadword": "むく",
+      "storyHeadword": "むく",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:202",
+      "sourceHeadword": "滑る",
+      "storyHeadword": "滑る",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:203",
+      "sourceHeadword": "積もる",
+      "storyHeadword": "積もる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:204",
+      "sourceHeadword": "積む",
+      "storyHeadword": "積む",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:205",
+      "sourceHeadword": "空く",
+      "storyHeadword": "空く",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:206",
+      "sourceHeadword": "空ける",
+      "storyHeadword": "空ける",
+      "occurrences": 8,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:207",
+      "sourceHeadword": "下がる",
+      "storyHeadword": "下がる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:208",
+      "sourceHeadword": "下げる",
+      "storyHeadword": "下げる",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:209",
+      "sourceHeadword": "冷える",
+      "storyHeadword": "冷える",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:210",
+      "sourceHeadword": "冷やす",
+      "storyHeadword": "冷やす",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:211",
+      "sourceHeadword": "冷める",
+      "storyHeadword": "冷める",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:212",
+      "sourceHeadword": "冷ます",
+      "storyHeadword": "冷ます",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:213",
+      "sourceHeadword": "燃える",
+      "storyHeadword": "燃える",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:214",
+      "sourceHeadword": "燃やす",
+      "storyHeadword": "燃やす",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:215",
+      "sourceHeadword": "沸く",
+      "storyHeadword": "沸く",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:216",
+      "sourceHeadword": "沸かす",
+      "storyHeadword": "沸かす",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:217",
+      "sourceHeadword": "鳴る",
+      "storyHeadword": "鳴る",
+      "occurrences": 6,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:218",
+      "sourceHeadword": "鳴らす",
+      "storyHeadword": "鳴らす",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:219",
+      "sourceHeadword": "役立つ",
+      "storyHeadword": "役立つ",
+      "occurrences": 6,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:220",
+      "sourceHeadword": "役立てる",
+      "storyHeadword": "役立てる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:221",
+      "sourceHeadword": "飾り",
+      "storyHeadword": "飾り",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:222",
+      "sourceHeadword": "遊び",
+      "storyHeadword": "遊び",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:223",
+      "sourceHeadword": "集まり",
+      "storyHeadword": "集まり",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:224",
+      "sourceHeadword": "教え",
+      "storyHeadword": "教え",
+      "occurrences": 13,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:225",
+      "sourceHeadword": "踊り",
+      "storyHeadword": "踊り",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:226",
+      "sourceHeadword": "思い",
+      "storyHeadword": "思い",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:227",
+      "sourceHeadword": "考え",
+      "storyHeadword": "考え",
+      "occurrences": 16,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:228",
+      "sourceHeadword": "片づけ",
+      "storyHeadword": "片づけ",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:229",
+      "sourceHeadword": "手伝い",
+      "storyHeadword": "手伝い",
+      "occurrences": 8,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:230",
+      "sourceHeadword": "働き",
+      "storyHeadword": "働き",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:231",
+      "sourceHeadword": "決まり",
+      "storyHeadword": "決まり",
+      "occurrences": 6,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:232",
+      "sourceHeadword": "騒ぎ",
+      "storyHeadword": "騒ぎ",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:233",
+      "sourceHeadword": "知らせ",
+      "storyHeadword": "知らせ",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:234",
+      "sourceHeadword": "頼み",
+      "storyHeadword": "頼み",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:235",
+      "sourceHeadword": "疲れ",
+      "storyHeadword": "疲れ",
+      "occurrences": 11,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:236",
+      "sourceHeadword": "違い",
+      "storyHeadword": "違い",
+      "occurrences": 9,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:237",
+      "sourceHeadword": "始め",
+      "storyHeadword": "始め",
+      "occurrences": 13,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:238",
+      "sourceHeadword": "続き",
+      "storyHeadword": "続き",
+      "occurrences": 7,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:239",
+      "sourceHeadword": "暮れ",
+      "storyHeadword": "暮れ",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:240",
+      "sourceHeadword": "行き",
+      "storyHeadword": "行き",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:241",
+      "sourceHeadword": "帰り",
+      "storyHeadword": "帰り",
+      "occurrences": 13,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:242",
+      "sourceHeadword": "急ぎ",
+      "storyHeadword": "急ぎ",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:243",
+      "sourceHeadword": "遅れ",
+      "storyHeadword": "遅れ",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:244",
+      "sourceHeadword": "貸し",
+      "storyHeadword": "貸し",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:245",
+      "sourceHeadword": "借り",
+      "storyHeadword": "借り",
+      "occurrences": 11,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:246",
+      "sourceHeadword": "勝ち",
+      "storyHeadword": "勝ち",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:247",
+      "sourceHeadword": "負け",
+      "storyHeadword": "負け",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:248",
+      "sourceHeadword": "迎え",
+      "storyHeadword": "迎え",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:249",
+      "sourceHeadword": "始まり",
+      "storyHeadword": "始まり",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:250",
+      "sourceHeadword": "終わり",
+      "storyHeadword": "終わり",
+      "occurrences": 6,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:251",
+      "sourceHeadword": "戻り",
+      "storyHeadword": "戻り",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:252",
+      "sourceHeadword": "別れ",
+      "storyHeadword": "別れ",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:253",
+      "sourceHeadword": "喜び",
+      "storyHeadword": "喜び",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:254",
+      "sourceHeadword": "楽しみ",
+      "storyHeadword": "楽しみ",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:255",
+      "sourceHeadword": "笑い",
+      "storyHeadword": "笑い",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:256",
+      "sourceHeadword": "驚き",
+      "storyHeadword": "驚き",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:257",
+      "sourceHeadword": "怒り",
+      "storyHeadword": "怒り",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:258",
+      "sourceHeadword": "悲しみ",
+      "storyHeadword": "悲しみ",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:259",
+      "sourceHeadword": "幸せな",
+      "storyHeadword": "幸せな",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:260",
+      "sourceHeadword": "得意な",
+      "storyHeadword": "得意な",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:261",
+      "sourceHeadword": "苦手な",
+      "storyHeadword": "苦手な",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:262",
+      "sourceHeadword": "熱心な",
+      "storyHeadword": "熱心な",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:263",
+      "sourceHeadword": "夢中な",
+      "storyHeadword": "夢中な",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:264",
+      "sourceHeadword": "退屈な",
+      "storyHeadword": "退屈な",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:265",
+      "sourceHeadword": "健康な",
+      "storyHeadword": "健康な",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:266",
+      "sourceHeadword": "苦しい",
+      "storyHeadword": "苦しい",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:267",
+      "sourceHeadword": "平気な",
+      "storyHeadword": "平気な",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:268",
+      "sourceHeadword": "悔しい",
+      "storyHeadword": "悔しい",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:269",
+      "sourceHeadword": "うらやましい",
+      "storyHeadword": "うらやましい",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:270",
+      "sourceHeadword": "かゆい",
+      "storyHeadword": "かゆい",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:271",
+      "sourceHeadword": "おとなしい",
+      "storyHeadword": "おとなしい",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:272",
+      "sourceHeadword": "我慢強い",
+      "storyHeadword": "我慢強い",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:273",
+      "sourceHeadword": "正直な",
+      "storyHeadword": "正直な",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:274",
+      "sourceHeadword": "けちな",
+      "storyHeadword": "けちな",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:275",
+      "sourceHeadword": "我儘な",
+      "storyHeadword": "我儘な",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:276",
+      "sourceHeadword": "積極的な",
+      "storyHeadword": "積極的な",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:277",
+      "sourceHeadword": "消極的な",
+      "storyHeadword": "消極的な",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:278",
+      "sourceHeadword": "満足な",
+      "storyHeadword": "満足な",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:279",
+      "sourceHeadword": "不満な",
+      "storyHeadword": "不満な",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:280",
+      "sourceHeadword": "不安な",
+      "storyHeadword": "不安な",
+      "occurrences": 6,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:281",
+      "sourceHeadword": "大変な",
+      "storyHeadword": "大変な",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:282",
+      "sourceHeadword": "無理な",
+      "storyHeadword": "無理な",
+      "occurrences": 9,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:283",
+      "sourceHeadword": "不注意な",
+      "storyHeadword": "不注意な",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:284",
+      "sourceHeadword": "楽な",
+      "storyHeadword": "楽な",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:285",
+      "sourceHeadword": "面倒な",
+      "storyHeadword": "面倒な",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:286",
+      "sourceHeadword": "失礼な",
+      "storyHeadword": "失礼な",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:287",
+      "sourceHeadword": "当然な",
+      "storyHeadword": "当然な",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:288",
+      "sourceHeadword": "意外な",
+      "storyHeadword": "意外な",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:289",
+      "sourceHeadword": "結構な",
+      "storyHeadword": "結構な",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:290",
+      "sourceHeadword": "派手な",
+      "storyHeadword": "派手な",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:291",
+      "sourceHeadword": "地味な",
+      "storyHeadword": "地味な",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:292",
+      "sourceHeadword": "おしゃれな",
+      "storyHeadword": "おしゃれな",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:293",
+      "sourceHeadword": "変な",
+      "storyHeadword": "変な",
+      "occurrences": 7,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:294",
+      "sourceHeadword": "不思議な",
+      "storyHeadword": "不思議な",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:295",
+      "sourceHeadword": "ましな",
+      "storyHeadword": "ましな",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:296",
+      "sourceHeadword": "むだな",
+      "storyHeadword": "むだな",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:297",
+      "sourceHeadword": "自由な",
+      "storyHeadword": "自由な",
+      "occurrences": 6,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:298",
+      "sourceHeadword": "不自由な",
+      "storyHeadword": "不自由な",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:299",
+      "sourceHeadword": "温まる",
+      "storyHeadword": "温まる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:300",
+      "sourceHeadword": "温める",
+      "storyHeadword": "温める",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:301",
+      "sourceHeadword": "高まる",
+      "storyHeadword": "高まる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:302",
+      "sourceHeadword": "高める",
+      "storyHeadword": "高める",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:303",
+      "sourceHeadword": "強まる",
+      "storyHeadword": "強まる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:304",
+      "sourceHeadword": "強める",
+      "storyHeadword": "強める",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:305",
+      "sourceHeadword": "弱まる",
+      "storyHeadword": "弱まる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:306",
+      "sourceHeadword": "弱める",
+      "storyHeadword": "弱める",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:307",
+      "sourceHeadword": "広まる",
+      "storyHeadword": "広まる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:308",
+      "sourceHeadword": "広める",
+      "storyHeadword": "広める",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:309",
+      "sourceHeadword": "深まる",
+      "storyHeadword": "深まる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:310",
+      "sourceHeadword": "深める",
+      "storyHeadword": "深める",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:311",
+      "sourceHeadword": "世話",
+      "storyHeadword": "世話",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:312",
+      "sourceHeadword": "家庭",
+      "storyHeadword": "家庭",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:313",
+      "sourceHeadword": "協力",
+      "storyHeadword": "協力",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:314",
+      "sourceHeadword": "感謝",
+      "storyHeadword": "感謝",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:315",
+      "sourceHeadword": "お礼",
+      "storyHeadword": "お礼",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:316",
+      "sourceHeadword": "お詫び",
+      "storyHeadword": "お詫び",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:317",
+      "sourceHeadword": "おじぎ",
+      "storyHeadword": "おじぎ",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:318",
+      "sourceHeadword": "握手",
+      "storyHeadword": "握手",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:319",
+      "sourceHeadword": "いじわる",
+      "storyHeadword": "いじわる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:320",
+      "sourceHeadword": "いたずら",
+      "storyHeadword": "いたずら",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:321",
+      "sourceHeadword": "節約",
+      "storyHeadword": "節約",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:322",
+      "sourceHeadword": "経営",
+      "storyHeadword": "経営",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:323",
+      "sourceHeadword": "反省",
+      "storyHeadword": "反省",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:324",
+      "sourceHeadword": "実行",
+      "storyHeadword": "実行",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:325",
+      "sourceHeadword": "進歩",
+      "storyHeadword": "進歩",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:326",
+      "sourceHeadword": "変化",
+      "storyHeadword": "変化",
+      "occurrences": 6,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:327",
+      "sourceHeadword": "発達",
+      "storyHeadword": "発達",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:328",
+      "sourceHeadword": "体力",
+      "storyHeadword": "体力",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:329",
+      "sourceHeadword": "出場",
+      "storyHeadword": "出場",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:330",
+      "sourceHeadword": "活躍",
+      "storyHeadword": "活躍",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:331",
+      "sourceHeadword": "競争",
+      "storyHeadword": "競争",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:332",
+      "sourceHeadword": "応援",
+      "storyHeadword": "応援",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:333",
+      "sourceHeadword": "拍手",
+      "storyHeadword": "拍手",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:334",
+      "sourceHeadword": "人気",
+      "storyHeadword": "人気",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:335",
+      "sourceHeadword": "うわさ",
+      "storyHeadword": "うわさ",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:336",
+      "sourceHeadword": "情報",
+      "storyHeadword": "情報",
+      "occurrences": 6,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:337",
+      "sourceHeadword": "交換",
+      "storyHeadword": "交換",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:338",
+      "sourceHeadword": "流行",
+      "storyHeadword": "流行",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:339",
+      "sourceHeadword": "宣伝",
+      "storyHeadword": "宣伝",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:340",
+      "sourceHeadword": "広告",
+      "storyHeadword": "広告",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:341",
+      "sourceHeadword": "注目",
+      "storyHeadword": "注目",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:342",
+      "sourceHeadword": "通訳",
+      "storyHeadword": "通訳",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:343",
+      "sourceHeadword": "翻訳",
+      "storyHeadword": "翻訳",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:344",
+      "sourceHeadword": "伝言",
+      "storyHeadword": "伝言",
+      "occurrences": 7,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:345",
+      "sourceHeadword": "報告",
+      "storyHeadword": "報告",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:346",
+      "sourceHeadword": "録画",
+      "storyHeadword": "録画",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:347",
+      "sourceHeadword": "混雑",
+      "storyHeadword": "混雑",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:348",
+      "sourceHeadword": "渋滞",
+      "storyHeadword": "渋滞",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:349",
+      "sourceHeadword": "衝突",
+      "storyHeadword": "衝突",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:350",
+      "sourceHeadword": "被害",
+      "storyHeadword": "被害",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:351",
+      "sourceHeadword": "事故",
+      "storyHeadword": "事故",
+      "occurrences": 7,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:352",
+      "sourceHeadword": "事件",
+      "storyHeadword": "事件",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:353",
+      "sourceHeadword": "故障",
+      "storyHeadword": "故障",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:354",
+      "sourceHeadword": "修理",
+      "storyHeadword": "修理",
+      "occurrences": 9,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:355",
+      "sourceHeadword": "停電",
+      "storyHeadword": "停電",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:356",
+      "sourceHeadword": "調子",
+      "storyHeadword": "調子",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:357",
+      "sourceHeadword": "緊張",
+      "storyHeadword": "緊張",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:358",
+      "sourceHeadword": "自身",
+      "storyHeadword": "自身",
+      "occurrences": 3,
+      "sourceCorrection": "自身 means oneself; confidence is 自信."
+    },
+    {
+      "id": "n3:359",
+      "sourceHeadword": "自慢",
+      "storyHeadword": "自慢",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:360",
+      "sourceHeadword": "感心",
+      "storyHeadword": "感心",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:361",
+      "sourceHeadword": "感動",
+      "storyHeadword": "感動",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:362",
+      "sourceHeadword": "興奮",
+      "storyHeadword": "興奮",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:363",
+      "sourceHeadword": "感想",
+      "storyHeadword": "感想",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:364",
+      "sourceHeadword": "予想",
+      "storyHeadword": "予想",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:365",
+      "sourceHeadword": "専門",
+      "storyHeadword": "専門",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:366",
+      "sourceHeadword": "研究",
+      "storyHeadword": "研究",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:367",
+      "sourceHeadword": "調査",
+      "storyHeadword": "調査",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:368",
+      "sourceHeadword": "原因",
+      "storyHeadword": "原因",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:369",
+      "sourceHeadword": "結果",
+      "storyHeadword": "結果",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:370",
+      "sourceHeadword": "解決",
+      "storyHeadword": "解決",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:371",
+      "sourceHeadword": "確認",
+      "storyHeadword": "確認",
+      "occurrences": 13,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:372",
+      "sourceHeadword": "利用",
+      "storyHeadword": "利用",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:373",
+      "sourceHeadword": "理解",
+      "storyHeadword": "理解",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:374",
+      "sourceHeadword": "発見",
+      "storyHeadword": "発見",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:375",
+      "sourceHeadword": "発明",
+      "storyHeadword": "発明",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:376",
+      "sourceHeadword": "関係",
+      "storyHeadword": "関係",
+      "occurrences": 7,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:377",
+      "sourceHeadword": "団体",
+      "storyHeadword": "団体",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:378",
+      "sourceHeadword": "選挙",
+      "storyHeadword": "選挙",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:379",
+      "sourceHeadword": "税金",
+      "storyHeadword": "税金",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:380",
+      "sourceHeadword": "責任",
+      "storyHeadword": "責任",
+      "occurrences": 10,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:381",
+      "sourceHeadword": "書類",
+      "storyHeadword": "書類",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:382",
+      "sourceHeadword": "題名",
+      "storyHeadword": "題名",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:383",
+      "sourceHeadword": "条件",
+      "storyHeadword": "条件",
+      "occurrences": 6,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:384",
+      "sourceHeadword": "締め切り",
+      "storyHeadword": "締め切り",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:385",
+      "sourceHeadword": "期間",
+      "storyHeadword": "期間",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:386",
+      "sourceHeadword": "倍",
+      "storyHeadword": "倍",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:387",
+      "sourceHeadword": "くじ",
+      "storyHeadword": "くじ",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:388",
+      "sourceHeadword": "近道",
+      "storyHeadword": "近道",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:389",
+      "sourceHeadword": "中心",
+      "storyHeadword": "中心",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:390",
+      "sourceHeadword": "辺り",
+      "storyHeadword": "辺り",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:391",
+      "sourceHeadword": "周り",
+      "storyHeadword": "周り",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:392",
+      "sourceHeadword": "穴",
+      "storyHeadword": "穴",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:393",
+      "sourceHeadword": "列",
+      "storyHeadword": "列",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:394",
+      "sourceHeadword": "幅",
+      "storyHeadword": "幅",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:395",
+      "sourceHeadword": "範囲",
+      "storyHeadword": "範囲",
+      "occurrences": 7,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:396",
+      "sourceHeadword": "内容",
+      "storyHeadword": "内容",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:397",
+      "sourceHeadword": "中身",
+      "storyHeadword": "中身",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:398",
+      "sourceHeadword": "特徴",
+      "storyHeadword": "特徴",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:399",
+      "sourceHeadword": "普通",
+      "storyHeadword": "普通",
+      "occurrences": 8,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:400",
+      "sourceHeadword": "当たり前",
+      "storyHeadword": "当たり前",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:401",
+      "sourceHeadword": "偽",
+      "storyHeadword": "偽",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:402",
+      "sourceHeadword": "別",
+      "storyHeadword": "別",
+      "occurrences": 30,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:403",
+      "sourceHeadword": "国籍",
+      "storyHeadword": "国籍",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:404",
+      "sourceHeadword": "東洋",
+      "storyHeadword": "東洋",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:405",
+      "sourceHeadword": "西洋",
+      "storyHeadword": "西洋",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:406",
+      "sourceHeadword": "国際",
+      "storyHeadword": "国際",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:407",
+      "sourceHeadword": "自然",
+      "storyHeadword": "自然",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:408",
+      "sourceHeadword": "景色",
+      "storyHeadword": "景色",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:409",
+      "sourceHeadword": "宗教",
+      "storyHeadword": "宗教",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:410",
+      "sourceHeadword": "愛",
+      "storyHeadword": "愛",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:411",
+      "sourceHeadword": "届く",
+      "storyHeadword": "届く",
+      "occurrences": 9,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:412",
+      "sourceHeadword": "届ける",
+      "storyHeadword": "届ける",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:413",
+      "sourceHeadword": "かく",
+      "storyHeadword": "かく",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:414",
+      "sourceHeadword": "つかむ",
+      "storyHeadword": "つかむ",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:415",
+      "sourceHeadword": "握る",
+      "storyHeadword": "握る",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:416",
+      "sourceHeadword": "抑える",
+      "storyHeadword": "抑える",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:417",
+      "sourceHeadword": "近づく",
+      "storyHeadword": "近づく",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:418",
+      "sourceHeadword": "近づける",
+      "storyHeadword": "近づける",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:419",
+      "sourceHeadword": "合う",
+      "storyHeadword": "合う",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:420",
+      "sourceHeadword": "合わせる",
+      "storyHeadword": "合わせる",
+      "occurrences": 7,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:421",
+      "sourceHeadword": "当たる",
+      "storyHeadword": "当たる",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:422",
+      "sourceHeadword": "当てる",
+      "storyHeadword": "当てる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:423",
+      "sourceHeadword": "比べる",
+      "storyHeadword": "比べる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:424",
+      "sourceHeadword": "似合う",
+      "storyHeadword": "似合う",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:425",
+      "sourceHeadword": "似る",
+      "storyHeadword": "似る",
+      "occurrences": 16,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:426",
+      "sourceHeadword": "似せる",
+      "storyHeadword": "似せる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:427",
+      "sourceHeadword": "分かれる",
+      "storyHeadword": "分かれる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:428",
+      "sourceHeadword": "分ける",
+      "storyHeadword": "分ける",
+      "occurrences": 14,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:429",
+      "sourceHeadword": "足す",
+      "storyHeadword": "足す",
+      "occurrences": 6,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:430",
+      "sourceHeadword": "引く",
+      "storyHeadword": "引く",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:431",
+      "sourceHeadword": "増える",
+      "storyHeadword": "増える",
+      "occurrences": 19,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:432",
+      "sourceHeadword": "増やす",
+      "storyHeadword": "増やす",
+      "occurrences": 6,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:433",
+      "sourceHeadword": "減る",
+      "storyHeadword": "減る",
+      "occurrences": 8,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:434",
+      "sourceHeadword": "減らす",
+      "storyHeadword": "減らす",
+      "occurrences": 9,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:435",
+      "sourceHeadword": "変わる",
+      "storyHeadword": "変わる",
+      "occurrences": 13,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:436",
+      "sourceHeadword": "変える",
+      "storyHeadword": "変える",
+      "occurrences": 15,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:437",
+      "sourceHeadword": "代わる・替わる・換わる",
+      "storyHeadword": "代わる・替わる・換わる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:438",
+      "sourceHeadword": "代える・替える・換える",
+      "storyHeadword": "代える・替える・換える",
+      "occurrences": 10,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:439",
+      "sourceHeadword": "返る",
+      "storyHeadword": "返る",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:440",
+      "sourceHeadword": "返す",
+      "storyHeadword": "返す",
+      "occurrences": 10,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:441",
+      "sourceHeadword": "譲る",
+      "storyHeadword": "譲る",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:442",
+      "sourceHeadword": "助かる",
+      "storyHeadword": "助かる",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:443",
+      "sourceHeadword": "助ける",
+      "storyHeadword": "助ける",
+      "occurrences": 10,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:444",
+      "sourceHeadword": "いじめる",
+      "storyHeadword": "いじめる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:445",
+      "sourceHeadword": "だまる",
+      "storyHeadword": "だます",
+      "occurrences": 2,
+      "sourceCorrection": "Source だまる has the meaning of だます; the story uses だます."
+    },
+    {
+      "id": "n3:446",
+      "sourceHeadword": "盗む",
+      "storyHeadword": "盗む",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:447",
+      "sourceHeadword": "刺さる",
+      "storyHeadword": "刺さる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:448",
+      "sourceHeadword": "刺す",
+      "storyHeadword": "刺す",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:449",
+      "sourceHeadword": "殺す",
+      "storyHeadword": "殺す",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:450",
+      "sourceHeadword": "隠れる",
+      "storyHeadword": "隠れる",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:451",
+      "sourceHeadword": "隠す",
+      "storyHeadword": "隠す",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:452",
+      "sourceHeadword": "埋まる",
+      "storyHeadword": "埋まる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:453",
+      "sourceHeadword": "埋める",
+      "storyHeadword": "埋める",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:454",
+      "sourceHeadword": "囲む",
+      "storyHeadword": "囲む",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:455",
+      "sourceHeadword": "詰まる",
+      "storyHeadword": "詰まる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:456",
+      "sourceHeadword": "詰める",
+      "storyHeadword": "詰める",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:457",
+      "sourceHeadword": "開く",
+      "storyHeadword": "開く",
+      "occurrences": 9,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:458",
+      "sourceHeadword": "閉じる",
+      "storyHeadword": "閉じる",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:459",
+      "sourceHeadword": "飛ぶ",
+      "storyHeadword": "飛ぶ",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:460",
+      "sourceHeadword": "飛ばす",
+      "storyHeadword": "飛ばす",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:461",
+      "sourceHeadword": "振る",
+      "storyHeadword": "振る",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:462",
+      "sourceHeadword": "めくる",
+      "storyHeadword": "めくる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:463",
+      "sourceHeadword": "見かける",
+      "storyHeadword": "見かける",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:464",
+      "sourceHeadword": "確かめる",
+      "storyHeadword": "確かめる",
+      "occurrences": 21,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:465",
+      "sourceHeadword": "試す",
+      "storyHeadword": "試す",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:466",
+      "sourceHeadword": "繰り返す",
+      "storyHeadword": "繰り返す",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:467",
+      "sourceHeadword": "訳す",
+      "storyHeadword": "訳す",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:468",
+      "sourceHeadword": "行う",
+      "storyHeadword": "行う",
+      "occurrences": 9,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:469",
+      "sourceHeadword": "間違う",
+      "storyHeadword": "間違う",
+      "occurrences": 6,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:470",
+      "sourceHeadword": "間違える",
+      "storyHeadword": "間違える",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:471",
+      "sourceHeadword": "許す",
+      "storyHeadword": "許す",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:472",
+      "sourceHeadword": "慣れる",
+      "storyHeadword": "慣れる",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:473",
+      "sourceHeadword": "慣らす",
+      "storyHeadword": "慣らす",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:474",
+      "sourceHeadword": "立つ",
+      "storyHeadword": "立つ",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:475",
+      "sourceHeadword": "立てる",
+      "storyHeadword": "立てる",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:476",
+      "sourceHeadword": "建つ",
+      "storyHeadword": "建つ",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:477",
+      "sourceHeadword": "建てる",
+      "storyHeadword": "建てる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:478",
+      "sourceHeadword": "育つ",
+      "storyHeadword": "育つ",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:479",
+      "sourceHeadword": "育てる",
+      "storyHeadword": "育てる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:480",
+      "sourceHeadword": "生える",
+      "storyHeadword": "生える",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:481",
+      "sourceHeadword": "生やす",
+      "storyHeadword": "生やす",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:482",
+      "sourceHeadword": "汚れる",
+      "storyHeadword": "汚れる",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:483",
+      "sourceHeadword": "汚す",
+      "storyHeadword": "汚す",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:484",
+      "sourceHeadword": "壊れる",
+      "storyHeadword": "壊れる",
+      "occurrences": 6,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:485",
+      "sourceHeadword": "壊す",
+      "storyHeadword": "壊す",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:486",
+      "sourceHeadword": "割れる",
+      "storyHeadword": "割れる",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:487",
+      "sourceHeadword": "割る",
+      "storyHeadword": "割る",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:488",
+      "sourceHeadword": "折れる",
+      "storyHeadword": "折れる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:489",
+      "sourceHeadword": "折る",
+      "storyHeadword": "折る",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:490",
+      "sourceHeadword": "破れる",
+      "storyHeadword": "破れる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:491",
+      "sourceHeadword": "破る",
+      "storyHeadword": "破る",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:492",
+      "sourceHeadword": "曲がる",
+      "storyHeadword": "曲がる",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:493",
+      "sourceHeadword": "曲げる",
+      "storyHeadword": "曲げる",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:494",
+      "sourceHeadword": "外れる",
+      "storyHeadword": "外れる",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:495",
+      "sourceHeadword": "外す",
+      "storyHeadword": "外す",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:496",
+      "sourceHeadword": "揺れる",
+      "storyHeadword": "揺れる",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:497",
+      "sourceHeadword": "揺らす",
+      "storyHeadword": "揺らす",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:498",
+      "sourceHeadword": "流れる",
+      "storyHeadword": "流れる",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:499",
+      "sourceHeadword": "流す",
+      "storyHeadword": "流す",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:500",
+      "sourceHeadword": "濡れる",
+      "storyHeadword": "濡れる",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:501",
+      "sourceHeadword": "濡らす",
+      "storyHeadword": "濡らす",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:502",
+      "sourceHeadword": "迷う",
+      "storyHeadword": "迷う",
+      "occurrences": 6,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:503",
+      "sourceHeadword": "悩む",
+      "storyHeadword": "悩む",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:504",
+      "sourceHeadword": "慌てる",
+      "storyHeadword": "慌てる",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:505",
+      "sourceHeadword": "覚める",
+      "storyHeadword": "覚める",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:506",
+      "sourceHeadword": "覚ます",
+      "storyHeadword": "覚ます",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:507",
+      "sourceHeadword": "眠る",
+      "storyHeadword": "眠る",
+      "occurrences": 14,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:508",
+      "sourceHeadword": "祈る",
+      "storyHeadword": "祈る",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:509",
+      "sourceHeadword": "祝う",
+      "storyHeadword": "祝う",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:510",
+      "sourceHeadword": "感じる",
+      "storyHeadword": "感じる",
+      "occurrences": 9,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:511",
+      "sourceHeadword": "クラスメート",
+      "storyHeadword": "クラスメート",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:512",
+      "sourceHeadword": "グループ",
+      "storyHeadword": "グループ",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:513",
+      "sourceHeadword": "チーム",
+      "storyHeadword": "チーム",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:514",
+      "sourceHeadword": "プロフェッショナル",
+      "storyHeadword": "プロフェッショナル",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:515",
+      "sourceHeadword": "アマチュア",
+      "storyHeadword": "アマチュア",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:516",
+      "sourceHeadword": "トレーニング",
+      "storyHeadword": "トレーニング",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:517",
+      "sourceHeadword": "マッサージ",
+      "storyHeadword": "マッサージ",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:518",
+      "sourceHeadword": "アドバイス",
+      "storyHeadword": "アドバイス",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:519",
+      "sourceHeadword": "アイデア・アイディア",
+      "storyHeadword": "アイデア・アイディア",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:520",
+      "sourceHeadword": "トップ",
+      "storyHeadword": "トップ",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:521",
+      "sourceHeadword": "スピード",
+      "storyHeadword": "スピード",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:522",
+      "sourceHeadword": "ラッシュ",
+      "storyHeadword": "ラッシュ",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:523",
+      "sourceHeadword": "バイク",
+      "storyHeadword": "バイク",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:524",
+      "sourceHeadword": "ヘルメット",
+      "storyHeadword": "ヘルメット",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:525",
+      "sourceHeadword": "コンタクトレンズ",
+      "storyHeadword": "コンタクトレンズ",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:526",
+      "sourceHeadword": "ガラス",
+      "storyHeadword": "ガラス",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:527",
+      "sourceHeadword": "プラスチック",
+      "storyHeadword": "プラスチック",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:528",
+      "sourceHeadword": "ベランダ",
+      "storyHeadword": "ベランダ",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:529",
+      "sourceHeadword": "ペット",
+      "storyHeadword": "ペット",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:530",
+      "sourceHeadword": "ベンチ",
+      "storyHeadword": "ベンチ",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:531",
+      "sourceHeadword": "デザイン",
+      "storyHeadword": "デザイン",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:532",
+      "sourceHeadword": "バーゲンセール",
+      "storyHeadword": "バーゲンセール",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:533",
+      "sourceHeadword": "パート",
+      "storyHeadword": "パート",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:534",
+      "sourceHeadword": "コンビニエンスストア",
+      "storyHeadword": "コンビニエンスストア",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:535",
+      "sourceHeadword": "レジ",
+      "storyHeadword": "レジ",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:536",
+      "sourceHeadword": "レシート",
+      "storyHeadword": "レシート",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:537",
+      "sourceHeadword": "インスタント",
+      "storyHeadword": "インスタント",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:538",
+      "sourceHeadword": "ファストフード",
+      "storyHeadword": "ファストフード",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:539",
+      "sourceHeadword": "フルーツ",
+      "storyHeadword": "フルーツ",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:540",
+      "sourceHeadword": "デザート",
+      "storyHeadword": "デザート",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:541",
+      "sourceHeadword": "インターネット",
+      "storyHeadword": "インターネット",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:542",
+      "sourceHeadword": "チャイム",
+      "storyHeadword": "チャイム",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:543",
+      "sourceHeadword": "アナウンス",
+      "storyHeadword": "アナウンス",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:544",
+      "sourceHeadword": "メッセージ",
+      "storyHeadword": "メッセージ",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:545",
+      "sourceHeadword": "パンフレット",
+      "storyHeadword": "パンフレット",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:546",
+      "sourceHeadword": "カード",
+      "storyHeadword": "カード",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:547",
+      "sourceHeadword": "インタビュー",
+      "storyHeadword": "インタビュー",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:548",
+      "sourceHeadword": "アンケート",
+      "storyHeadword": "アンケート",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:549",
+      "sourceHeadword": "データ",
+      "storyHeadword": "データ",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:550",
+      "sourceHeadword": "パーセント",
+      "storyHeadword": "パーセント",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:551",
+      "sourceHeadword": "濃い",
+      "storyHeadword": "濃い",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:552",
+      "sourceHeadword": "薄い",
+      "storyHeadword": "薄い",
+      "occurrences": 6,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:553",
+      "sourceHeadword": "酸っぱい",
+      "storyHeadword": "酸っぱい",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:554",
+      "sourceHeadword": "臭い",
+      "storyHeadword": "臭い",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:555",
+      "sourceHeadword": "おかしい",
+      "storyHeadword": "おかしい",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:556",
+      "sourceHeadword": "かっこいい",
+      "storyHeadword": "かっこいい",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:557",
+      "sourceHeadword": "うまい",
+      "storyHeadword": "うまい",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:558",
+      "sourceHeadword": "親しい",
+      "storyHeadword": "親しい",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:559",
+      "sourceHeadword": "詳しい",
+      "storyHeadword": "詳しい",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:560",
+      "sourceHeadword": "細かい",
+      "storyHeadword": "細かい",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:561",
+      "sourceHeadword": "浅い",
+      "storyHeadword": "浅い",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:562",
+      "sourceHeadword": "固い・硬い",
+      "storyHeadword": "固い・硬い",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:563",
+      "sourceHeadword": "ぬるい",
+      "storyHeadword": "ぬるい",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:564",
+      "sourceHeadword": "まぶしい",
+      "storyHeadword": "まぶしい",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:565",
+      "sourceHeadword": "蒸し暑い",
+      "storyHeadword": "蒸し暑い",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:566",
+      "sourceHeadword": "清潔な",
+      "storyHeadword": "清潔な",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:567",
+      "sourceHeadword": "新鮮な",
+      "storyHeadword": "新鮮な",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:568",
+      "sourceHeadword": "豊かな",
+      "storyHeadword": "豊かな",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:569",
+      "sourceHeadword": "立派な",
+      "storyHeadword": "立派な",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:570",
+      "sourceHeadword": "正確な",
+      "storyHeadword": "正確な",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:571",
+      "sourceHeadword": "確かな",
+      "storyHeadword": "確かな",
+      "occurrences": 7,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:572",
+      "sourceHeadword": "重要な",
+      "storyHeadword": "重要な",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:573",
+      "sourceHeadword": "必要な",
+      "storyHeadword": "必要な",
+      "occurrences": 76,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:574",
+      "sourceHeadword": "もったいない",
+      "storyHeadword": "もったいない",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:575",
+      "sourceHeadword": "すごい",
+      "storyHeadword": "すごい",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:576",
+      "sourceHeadword": "ひどい",
+      "storyHeadword": "ひどい",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:577",
+      "sourceHeadword": "激しい",
+      "storyHeadword": "激しい",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:578",
+      "sourceHeadword": "そっくりな",
+      "storyHeadword": "そっくりな",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:579",
+      "sourceHeadword": "急な",
+      "storyHeadword": "急な",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:580",
+      "sourceHeadword": "敵とな",
+      "storyHeadword": "適当な",
+      "occurrences": 2,
+      "sourceCorrection": "Source 敵とな / てきとな is corrected to 適当な."
+    },
+    {
+      "id": "n3:581",
+      "sourceHeadword": "特別な",
+      "storyHeadword": "特別な",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:582",
+      "sourceHeadword": "完全な",
+      "storyHeadword": "完全な",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:583",
+      "sourceHeadword": "盛んな",
+      "storyHeadword": "盛んな",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:584",
+      "sourceHeadword": "様々な",
+      "storyHeadword": "様々な",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:585",
+      "sourceHeadword": "可能な",
+      "storyHeadword": "可能な",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:586",
+      "sourceHeadword": "不可能な",
+      "storyHeadword": "不可能な",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:587",
+      "sourceHeadword": "基本的な",
+      "storyHeadword": "基本的な",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:588",
+      "sourceHeadword": "国際的な",
+      "storyHeadword": "国際的な",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:589",
+      "sourceHeadword": "ばらばらな",
+      "storyHeadword": "ばらばらな",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:590",
+      "sourceHeadword": "ぼろぼろな",
+      "storyHeadword": "ぼろぼろな",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:591",
+      "sourceHeadword": "非常に",
+      "storyHeadword": "非常に",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:592",
+      "sourceHeadword": "大変に",
+      "storyHeadword": "大変に",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:593",
+      "sourceHeadword": "ほとんど",
+      "storyHeadword": "ほとんど",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:594",
+      "sourceHeadword": "大体",
+      "storyHeadword": "大体",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:595",
+      "sourceHeadword": "かなり",
+      "storyHeadword": "かなり",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:596",
+      "sourceHeadword": "ずいぶん",
+      "storyHeadword": "ずいぶん",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:597",
+      "sourceHeadword": "けっこう",
+      "storyHeadword": "けっこう",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:598",
+      "sourceHeadword": "大分",
+      "storyHeadword": "大分",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:599",
+      "sourceHeadword": "もっと",
+      "storyHeadword": "もっと",
+      "occurrences": 6,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:600",
+      "sourceHeadword": "しっかり",
+      "storyHeadword": "しっかり",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:601",
+      "sourceHeadword": "いっぱい",
+      "storyHeadword": "いっぱい",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:602",
+      "sourceHeadword": "ぎりぎり",
+      "storyHeadword": "ぎりぎり",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:603",
+      "sourceHeadword": "ぴったり",
+      "storyHeadword": "ぴったり",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:604",
+      "sourceHeadword": "たいてい",
+      "storyHeadword": "たいてい",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:605",
+      "sourceHeadword": "同時に",
+      "storyHeadword": "同時に",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:606",
+      "sourceHeadword": "前もって",
+      "storyHeadword": "前もって",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:607",
+      "sourceHeadword": "すぐに",
+      "storyHeadword": "すぐに",
+      "occurrences": 10,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:608",
+      "sourceHeadword": "もうすぐ",
+      "storyHeadword": "もうすぐ",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:609",
+      "sourceHeadword": "突然",
+      "storyHeadword": "突然",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:610",
+      "sourceHeadword": "あっという間に",
+      "storyHeadword": "あっという間に",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:611",
+      "sourceHeadword": "いつの間にか",
+      "storyHeadword": "いつの間にか",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:612",
+      "sourceHeadword": "しばらく",
+      "storyHeadword": "しばらく",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:613",
+      "sourceHeadword": "ずっと",
+      "storyHeadword": "ずっと",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:614",
+      "sourceHeadword": "相変わらず",
+      "storyHeadword": "相変わらず",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:615",
+      "sourceHeadword": "次々に",
+      "storyHeadword": "次々に",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:616",
+      "sourceHeadword": "どんどん",
+      "storyHeadword": "どんどん",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:617",
+      "sourceHeadword": "ますます",
+      "storyHeadword": "ますます",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:618",
+      "sourceHeadword": "やっと",
+      "storyHeadword": "やっと",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:619",
+      "sourceHeadword": "とうとう",
+      "storyHeadword": "とうとう",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:620",
+      "sourceHeadword": "ついに",
+      "storyHeadword": "ついに",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:621",
+      "sourceHeadword": "もちろん",
+      "storyHeadword": "もちろん",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:622",
+      "sourceHeadword": "やはり",
+      "storyHeadword": "やはり",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:623",
+      "sourceHeadword": "きっと",
+      "storyHeadword": "きっと",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:624",
+      "sourceHeadword": "ぜひ",
+      "storyHeadword": "ぜひ",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:625",
+      "sourceHeadword": "なるべく",
+      "storyHeadword": "なるべく",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:626",
+      "sourceHeadword": "案外",
+      "storyHeadword": "案外",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:627",
+      "sourceHeadword": "もしかすると・もしかしたら・もしかして",
+      "storyHeadword": "もしかすると・もしかしたら・もしかして",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:628",
+      "sourceHeadword": "まさか",
+      "storyHeadword": "まさか",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:629",
+      "sourceHeadword": "うっかり",
+      "storyHeadword": "うっかり",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:630",
+      "sourceHeadword": "つい",
+      "storyHeadword": "つい",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:631",
+      "sourceHeadword": "思わず",
+      "storyHeadword": "思わず",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:632",
+      "sourceHeadword": "ほっと",
+      "storyHeadword": "ほっと",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:633",
+      "sourceHeadword": "いらいら",
+      "storyHeadword": "いらいら",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:634",
+      "sourceHeadword": "のんびり",
+      "storyHeadword": "のんびり",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:635",
+      "sourceHeadword": "実は",
+      "storyHeadword": "実は",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:636",
+      "sourceHeadword": "読書",
+      "storyHeadword": "読書",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:637",
+      "sourceHeadword": "演奏",
+      "storyHeadword": "演奏",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:638",
+      "sourceHeadword": "芸術",
+      "storyHeadword": "芸術",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:639",
+      "sourceHeadword": "検査",
+      "storyHeadword": "検査",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:640",
+      "sourceHeadword": "血液",
+      "storyHeadword": "血液",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:641",
+      "sourceHeadword": "治療",
+      "storyHeadword": "治療",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:642",
+      "sourceHeadword": "症状",
+      "storyHeadword": "症状",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:643",
+      "sourceHeadword": "予防",
+      "storyHeadword": "予防",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:644",
+      "sourceHeadword": "栄養",
+      "storyHeadword": "栄養",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:645",
+      "sourceHeadword": "手術",
+      "storyHeadword": "手術",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:646",
+      "sourceHeadword": "死亡",
+      "storyHeadword": "死亡",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:647",
+      "sourceHeadword": "命",
+      "storyHeadword": "命",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:648",
+      "sourceHeadword": "一生",
+      "storyHeadword": "一生",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:649",
+      "sourceHeadword": "誤解",
+      "storyHeadword": "誤解",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:650",
+      "sourceHeadword": "後悔",
+      "storyHeadword": "後悔",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:651",
+      "sourceHeadword": "訳",
+      "storyHeadword": "訳",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:652",
+      "sourceHeadword": "態度",
+      "storyHeadword": "態度",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:653",
+      "sourceHeadword": "癖",
+      "storyHeadword": "癖",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:654",
+      "sourceHeadword": "礼儀",
+      "storyHeadword": "礼儀",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:655",
+      "sourceHeadword": "文句",
+      "storyHeadword": "文句",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:656",
+      "sourceHeadword": "表情",
+      "storyHeadword": "表情",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:657",
+      "sourceHeadword": "鏡面",
+      "storyHeadword": "表面",
+      "occurrences": 4,
+      "sourceCorrection": "Source 鏡面 has the reading and meaning of 表面."
+    },
+    {
+      "id": "n3:658",
+      "sourceHeadword": "禁煙",
+      "storyHeadword": "禁煙",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:659",
+      "sourceHeadword": "禁止",
+      "storyHeadword": "禁止",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:660",
+      "sourceHeadword": "完成",
+      "storyHeadword": "完成",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:661",
+      "sourceHeadword": "課題",
+      "storyHeadword": "課題",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:662",
+      "sourceHeadword": "例外",
+      "storyHeadword": "例外",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:663",
+      "sourceHeadword": "基本",
+      "storyHeadword": "基本",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:664",
+      "sourceHeadword": "記録",
+      "storyHeadword": "記録",
+      "occurrences": 24,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:665",
+      "sourceHeadword": "状態",
+      "storyHeadword": "状態",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:666",
+      "sourceHeadword": "出来事",
+      "storyHeadword": "出来事",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:667",
+      "sourceHeadword": "場面",
+      "storyHeadword": "場面",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:668",
+      "sourceHeadword": "機会",
+      "storyHeadword": "機会",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:669",
+      "sourceHeadword": "距離",
+      "storyHeadword": "距離",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:670",
+      "sourceHeadword": "提案",
+      "storyHeadword": "提案",
+      "occurrences": 6,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:671",
+      "sourceHeadword": "やり取り",
+      "storyHeadword": "やり取り",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:672",
+      "sourceHeadword": "知識",
+      "storyHeadword": "知識",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:673",
+      "sourceHeadword": "実力",
+      "storyHeadword": "実力",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:674",
+      "sourceHeadword": "手段",
+      "storyHeadword": "手段",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:675",
+      "sourceHeadword": "代表",
+      "storyHeadword": "代表",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:676",
+      "sourceHeadword": "影響",
+      "storyHeadword": "影響",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:677",
+      "sourceHeadword": "効果",
+      "storyHeadword": "効果",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:678",
+      "sourceHeadword": "印象",
+      "storyHeadword": "印象",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:679",
+      "sourceHeadword": "印",
+      "storyHeadword": "印",
+      "occurrences": 11,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:680",
+      "sourceHeadword": "合図",
+      "storyHeadword": "合図",
+      "occurrences": 9,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:681",
+      "sourceHeadword": "共通",
+      "storyHeadword": "共通",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:682",
+      "sourceHeadword": "協調",
+      "storyHeadword": "協調",
+      "occurrences": 2,
+      "sourceCorrection": "協調 means cooperation; source English “emphasis” would be 強調."
+    },
+    {
+      "id": "n3:683",
+      "sourceHeadword": "省略",
+      "storyHeadword": "省略",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:684",
+      "sourceHeadword": "挑戦",
+      "storyHeadword": "挑戦",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:685",
+      "sourceHeadword": "やる気",
+      "storyHeadword": "やる気",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:686",
+      "sourceHeadword": "勇気",
+      "storyHeadword": "勇気",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:687",
+      "sourceHeadword": "資格",
+      "storyHeadword": "資格",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:688",
+      "sourceHeadword": "申請",
+      "storyHeadword": "申請",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:689",
+      "sourceHeadword": "本人",
+      "storyHeadword": "本人",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:690",
+      "sourceHeadword": "契約",
+      "storyHeadword": "契約",
+      "occurrences": 7,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:691",
+      "sourceHeadword": "証明",
+      "storyHeadword": "証明",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:692",
+      "sourceHeadword": "変更",
+      "storyHeadword": "変更",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:693",
+      "sourceHeadword": "保存",
+      "storyHeadword": "保存",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:694",
+      "sourceHeadword": "保護",
+      "storyHeadword": "保護",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:695",
+      "sourceHeadword": "環境",
+      "storyHeadword": "環境",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:696",
+      "sourceHeadword": "資源",
+      "storyHeadword": "資源",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:697",
+      "sourceHeadword": "不足",
+      "storyHeadword": "不足",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:698",
+      "sourceHeadword": "平均",
+      "storyHeadword": "平均",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:699",
+      "sourceHeadword": "割合",
+      "storyHeadword": "割合",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:700",
+      "sourceHeadword": "商売",
+      "storyHeadword": "商売",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:701",
+      "sourceHeadword": "商品",
+      "storyHeadword": "商品",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:702",
+      "sourceHeadword": "質",
+      "storyHeadword": "質",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:703",
+      "sourceHeadword": "型",
+      "storyHeadword": "型",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:704",
+      "sourceHeadword": "生産",
+      "storyHeadword": "生産",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:705",
+      "sourceHeadword": "消費",
+      "storyHeadword": "消費",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:706",
+      "sourceHeadword": "物価",
+      "storyHeadword": "物価",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:707",
+      "sourceHeadword": "倒産",
+      "storyHeadword": "倒産",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:708",
+      "sourceHeadword": "携帯",
+      "storyHeadword": "携帯",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:709",
+      "sourceHeadword": "現代",
+      "storyHeadword": "現代",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:710",
+      "sourceHeadword": "世紀",
+      "storyHeadword": "世紀",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:711",
+      "sourceHeadword": "文化",
+      "storyHeadword": "文化",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:712",
+      "sourceHeadword": "都市",
+      "storyHeadword": "都市",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:713",
+      "sourceHeadword": "地方",
+      "storyHeadword": "地方",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:714",
+      "sourceHeadword": "戦争",
+      "storyHeadword": "戦争",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:715",
+      "sourceHeadword": "平和",
+      "storyHeadword": "平和",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:716",
+      "sourceHeadword": "上る",
+      "storyHeadword": "上る",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:717",
+      "sourceHeadword": "下る",
+      "storyHeadword": "下る",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:718",
+      "sourceHeadword": "進む",
+      "storyHeadword": "進む",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:719",
+      "sourceHeadword": "進める",
+      "storyHeadword": "進める",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:720",
+      "sourceHeadword": "通る",
+      "storyHeadword": "通る",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:721",
+      "sourceHeadword": "通す",
+      "storyHeadword": "通す",
+      "occurrences": 8,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:722",
+      "sourceHeadword": "超える・越える",
+      "storyHeadword": "超える・越える",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:723",
+      "sourceHeadword": "過ぎる",
+      "storyHeadword": "過ぎる",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:724",
+      "sourceHeadword": "過ごす",
+      "storyHeadword": "過ごす",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:725",
+      "sourceHeadword": "移る",
+      "storyHeadword": "移る",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:726",
+      "sourceHeadword": "移す",
+      "storyHeadword": "移す",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:727",
+      "sourceHeadword": "連れる",
+      "storyHeadword": "連れる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:728",
+      "sourceHeadword": "寄る",
+      "storyHeadword": "寄る",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:729",
+      "sourceHeadword": "寄せる",
+      "storyHeadword": "寄せる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:730",
+      "sourceHeadword": "与える",
+      "storyHeadword": "与える",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:731",
+      "sourceHeadword": "得る",
+      "storyHeadword": "得る",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:732",
+      "sourceHeadword": "向く",
+      "storyHeadword": "向く",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:733",
+      "sourceHeadword": "向ける",
+      "storyHeadword": "向ける",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:734",
+      "sourceHeadword": "勧める",
+      "storyHeadword": "勧める",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:735",
+      "sourceHeadword": "薦める",
+      "storyHeadword": "薦める",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:736",
+      "sourceHeadword": "任せる",
+      "storyHeadword": "任せる",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:737",
+      "sourceHeadword": "守る",
+      "storyHeadword": "守る",
+      "occurrences": 15,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:738",
+      "sourceHeadword": "争う",
+      "storyHeadword": "争う",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:739",
+      "sourceHeadword": "臨む",
+      "storyHeadword": "臨む",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:740",
+      "sourceHeadword": "信じる",
+      "storyHeadword": "信じる",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:741",
+      "sourceHeadword": "通じる",
+      "storyHeadword": "通じる",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:742",
+      "sourceHeadword": "飽きる",
+      "storyHeadword": "飽きる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:743",
+      "sourceHeadword": "思いつく",
+      "storyHeadword": "思いつく",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:744",
+      "sourceHeadword": "思いやる",
+      "storyHeadword": "思いやる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:745",
+      "sourceHeadword": "熱中する",
+      "storyHeadword": "熱中する",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:746",
+      "sourceHeadword": "暮らす",
+      "storyHeadword": "暮らす",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:747",
+      "sourceHeadword": "巻く",
+      "storyHeadword": "巻く",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:748",
+      "sourceHeadword": "結ぶ",
+      "storyHeadword": "結ぶ",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:749",
+      "sourceHeadword": "済む",
+      "storyHeadword": "済む",
+      "occurrences": 6,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:750",
+      "sourceHeadword": "済ませる・済ます",
+      "storyHeadword": "済ませる・済ます",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:751",
+      "sourceHeadword": "出来る",
+      "storyHeadword": "出来る",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:752",
+      "sourceHeadword": "切れる",
+      "storyHeadword": "切れる",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:753",
+      "sourceHeadword": "切らす",
+      "storyHeadword": "切らす",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:754",
+      "sourceHeadword": "伝わる",
+      "storyHeadword": "伝わる",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:755",
+      "sourceHeadword": "伝える",
+      "storyHeadword": "伝える",
+      "occurrences": 6,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:756",
+      "sourceHeadword": "続く",
+      "storyHeadword": "続く",
+      "occurrences": 8,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:757",
+      "sourceHeadword": "続ける",
+      "storyHeadword": "続ける",
+      "occurrences": 6,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:758",
+      "sourceHeadword": "つながる",
+      "storyHeadword": "つながる",
+      "occurrences": 7,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:759",
+      "sourceHeadword": "つなぐ",
+      "storyHeadword": "つなぐ",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:760",
+      "sourceHeadword": "つなげる",
+      "storyHeadword": "つなげる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:761",
+      "sourceHeadword": "伸びる",
+      "storyHeadword": "伸びる",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:762",
+      "sourceHeadword": "伸ばす",
+      "storyHeadword": "伸ばす",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:763",
+      "sourceHeadword": "延びる",
+      "storyHeadword": "延びる",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:764",
+      "sourceHeadword": "延ばす",
+      "storyHeadword": "延ばす",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:765",
+      "sourceHeadword": "重なる",
+      "storyHeadword": "重なる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:766",
+      "sourceHeadword": "重ねる",
+      "storyHeadword": "重ねる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:767",
+      "sourceHeadword": "広がる",
+      "storyHeadword": "広がる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:768",
+      "sourceHeadword": "広げる",
+      "storyHeadword": "広げる",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:769",
+      "sourceHeadword": "載る",
+      "storyHeadword": "載る",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:770",
+      "sourceHeadword": "載せる",
+      "storyHeadword": "載せる",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:771",
+      "sourceHeadword": "そろう",
+      "storyHeadword": "そろう",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:772",
+      "sourceHeadword": "そろえる",
+      "storyHeadword": "そろえる",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:773",
+      "sourceHeadword": "まとまる",
+      "storyHeadword": "まとまる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:774",
+      "sourceHeadword": "まとめる",
+      "storyHeadword": "まとめる",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:775",
+      "sourceHeadword": "付く",
+      "storyHeadword": "付く",
+      "occurrences": 8,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:776",
+      "sourceHeadword": "付ける",
+      "storyHeadword": "付ける",
+      "occurrences": 18,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:777",
+      "sourceHeadword": "たまる",
+      "storyHeadword": "たまる",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:778",
+      "sourceHeadword": "ためる",
+      "storyHeadword": "ためる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:779",
+      "sourceHeadword": "交じる・混じる",
+      "storyHeadword": "交じる・混じる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:780",
+      "sourceHeadword": "交ざる・混ざる",
+      "storyHeadword": "交ざる・混ざる",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:781",
+      "sourceHeadword": "交ぜる・混ぜる",
+      "storyHeadword": "交ぜる・混ぜる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:782",
+      "sourceHeadword": "解ける・溶ける",
+      "storyHeadword": "解ける・溶ける",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:783",
+      "sourceHeadword": "解く・溶く",
+      "storyHeadword": "解く・溶く",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:784",
+      "sourceHeadword": "含む",
+      "storyHeadword": "含む",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:785",
+      "sourceHeadword": "含める",
+      "storyHeadword": "含める",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:786",
+      "sourceHeadword": "抜ける",
+      "storyHeadword": "抜ける",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:787",
+      "sourceHeadword": "抜く",
+      "storyHeadword": "抜く",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:788",
+      "sourceHeadword": "現れる",
+      "storyHeadword": "現れる",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:789",
+      "sourceHeadword": "現す",
+      "storyHeadword": "現す",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:790",
+      "sourceHeadword": "表れる",
+      "storyHeadword": "表れる",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:791",
+      "sourceHeadword": "表す",
+      "storyHeadword": "表す",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:792",
+      "sourceHeadword": "散る",
+      "storyHeadword": "散る",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:793",
+      "sourceHeadword": "散らす",
+      "storyHeadword": "散らす",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:794",
+      "sourceHeadword": "明ける",
+      "storyHeadword": "明ける",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:795",
+      "sourceHeadword": "差す",
+      "storyHeadword": "差す",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:796",
+      "sourceHeadword": "パートナ",
+      "storyHeadword": "パートナー",
+      "occurrences": 2,
+      "sourceCorrection": "Source パートナ is normalized to パートナー."
+    },
+    {
+      "id": "n3:797",
+      "sourceHeadword": "リーダー",
+      "storyHeadword": "リーダー",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:798",
+      "sourceHeadword": "ボランティア",
+      "storyHeadword": "ボランティア",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:799",
+      "sourceHeadword": "コミュニケーション",
+      "storyHeadword": "コミュニケーション",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:800",
+      "sourceHeadword": "ユーモア",
+      "storyHeadword": "ユーモア",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:801",
+      "sourceHeadword": "ショック",
+      "storyHeadword": "ショック",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:802",
+      "sourceHeadword": "ストレス",
+      "storyHeadword": "ストレス",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:803",
+      "sourceHeadword": "バランス",
+      "storyHeadword": "バランス",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:804",
+      "sourceHeadword": "レベル",
+      "storyHeadword": "レベル",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:805",
+      "sourceHeadword": "アップ",
+      "storyHeadword": "アップ",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:806",
+      "sourceHeadword": "ダウン",
+      "storyHeadword": "ダウン",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:807",
+      "sourceHeadword": "プラス",
+      "storyHeadword": "プラス",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:808",
+      "sourceHeadword": "マイナス",
+      "storyHeadword": "マイナス",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:809",
+      "sourceHeadword": "イメージ",
+      "storyHeadword": "イメージ",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:810",
+      "sourceHeadword": "コンテスト",
+      "storyHeadword": "コンテスト",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:811",
+      "sourceHeadword": "マスコミ",
+      "storyHeadword": "マスコミ",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:812",
+      "sourceHeadword": "プライバシー",
+      "storyHeadword": "プライバシー",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:813",
+      "sourceHeadword": "オフィス",
+      "storyHeadword": "オフィス",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:814",
+      "sourceHeadword": "ルール",
+      "storyHeadword": "ルール",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:815",
+      "sourceHeadword": "マナー",
+      "storyHeadword": "マナー",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:816",
+      "sourceHeadword": "ミス",
+      "storyHeadword": "ミス",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:817",
+      "sourceHeadword": "スケジュール",
+      "storyHeadword": "スケジュール",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:818",
+      "sourceHeadword": "タイトル",
+      "storyHeadword": "タイトル",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:819",
+      "sourceHeadword": "テーマ",
+      "storyHeadword": "テーマ",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:820",
+      "sourceHeadword": "ストーリー",
+      "storyHeadword": "ストーリー",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:821",
+      "sourceHeadword": "ヒット",
+      "storyHeadword": "ヒット",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:822",
+      "sourceHeadword": "ブランド",
+      "storyHeadword": "ブランド",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:823",
+      "sourceHeadword": "レンタル",
+      "storyHeadword": "レンタル",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:824",
+      "sourceHeadword": "リサイクル",
+      "storyHeadword": "リサイクル",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:825",
+      "sourceHeadword": "ラベル",
+      "storyHeadword": "ラベル",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:826",
+      "sourceHeadword": "タイプ",
+      "storyHeadword": "タイプ",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:827",
+      "sourceHeadword": "スタイル",
+      "storyHeadword": "スタイル",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:828",
+      "sourceHeadword": "セット",
+      "storyHeadword": "セット",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:829",
+      "sourceHeadword": "ウイルス",
+      "storyHeadword": "ウイルス",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:830",
+      "sourceHeadword": "ロボット",
+      "storyHeadword": "ロボット",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:831",
+      "sourceHeadword": "エネルギー",
+      "storyHeadword": "エネルギー",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:832",
+      "sourceHeadword": "デジタル",
+      "storyHeadword": "デジタル",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:833",
+      "sourceHeadword": "マイク",
+      "storyHeadword": "マイク",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:834",
+      "sourceHeadword": "ブレーキ",
+      "storyHeadword": "ブレーキ",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:835",
+      "sourceHeadword": "ペンキ",
+      "storyHeadword": "ペンキ",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:836",
+      "sourceHeadword": "炊ける",
+      "storyHeadword": "炊ける",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:837",
+      "sourceHeadword": "炊く",
+      "storyHeadword": "炊く",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:838",
+      "sourceHeadword": "煮える",
+      "storyHeadword": "煮える",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:839",
+      "sourceHeadword": "煮る",
+      "storyHeadword": "煮る",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:840",
+      "sourceHeadword": "炒める",
+      "storyHeadword": "炒める",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:841",
+      "sourceHeadword": "焼ける",
+      "storyHeadword": "焼ける",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:842",
+      "sourceHeadword": "焼く",
+      "storyHeadword": "焼く",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:843",
+      "sourceHeadword": "ゆでる",
+      "storyHeadword": "ゆでる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:844",
+      "sourceHeadword": "揚げる",
+      "storyHeadword": "揚げる",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:845",
+      "sourceHeadword": "蒸す",
+      "storyHeadword": "蒸す",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:846",
+      "sourceHeadword": "ぐっすり",
+      "storyHeadword": "ぐっすり",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:847",
+      "sourceHeadword": "きちんと",
+      "storyHeadword": "きちんと",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:848",
+      "sourceHeadword": "しっかり",
+      "storyHeadword": "しっかり",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:849",
+      "sourceHeadword": "はっきり",
+      "storyHeadword": "はっきり",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:850",
+      "sourceHeadword": "じっと",
+      "storyHeadword": "じっと",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:851",
+      "sourceHeadword": "そっと",
+      "storyHeadword": "そっと",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:852",
+      "sourceHeadword": "別々に",
+      "storyHeadword": "別々に",
+      "occurrences": 3,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:853",
+      "sourceHeadword": "それぞれ",
+      "storyHeadword": "それぞれ",
+      "occurrences": 6,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:854",
+      "sourceHeadword": "互いに",
+      "storyHeadword": "互いに",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:855",
+      "sourceHeadword": "直接",
+      "storyHeadword": "直接",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:856",
+      "sourceHeadword": "本当に",
+      "storyHeadword": "本当に",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:857",
+      "sourceHeadword": "必ず",
+      "storyHeadword": "必ず",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:858",
+      "sourceHeadword": "絶対に",
+      "storyHeadword": "絶対に",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:859",
+      "sourceHeadword": "特に",
+      "storyHeadword": "特に",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:860",
+      "sourceHeadword": "ただ",
+      "storyHeadword": "ただ",
+      "occurrences": 7,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:861",
+      "sourceHeadword": "少なくとも",
+      "storyHeadword": "少なくとも",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:862",
+      "sourceHeadword": "決して",
+      "storyHeadword": "決して",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:863",
+      "sourceHeadword": "少しも",
+      "storyHeadword": "少しも",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:864",
+      "sourceHeadword": "ちっとも",
+      "storyHeadword": "ちっとも",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:865",
+      "sourceHeadword": "全く",
+      "storyHeadword": "全く",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:866",
+      "sourceHeadword": "とても",
+      "storyHeadword": "とても",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:867",
+      "sourceHeadword": "どんなに",
+      "storyHeadword": "どんなに",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:868",
+      "sourceHeadword": "どうしても",
+      "storyHeadword": "どうしても",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:869",
+      "sourceHeadword": "まるで",
+      "storyHeadword": "まるで",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:870",
+      "sourceHeadword": "一体",
+      "storyHeadword": "一体",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:871",
+      "sourceHeadword": "別に",
+      "storyHeadword": "別に",
+      "occurrences": 6,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:872",
+      "sourceHeadword": "たった",
+      "storyHeadword": "たった",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:873",
+      "sourceHeadword": "ほんの",
+      "storyHeadword": "ほんの",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:874",
+      "sourceHeadword": "それで",
+      "storyHeadword": "それで",
+      "occurrences": 4,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:875",
+      "sourceHeadword": "そこで",
+      "storyHeadword": "そこで",
+      "occurrences": 5,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:876",
+      "sourceHeadword": "そのうえ",
+      "storyHeadword": "そのうえ",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:877",
+      "sourceHeadword": "また",
+      "storyHeadword": "また",
+      "occurrences": 8,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:878",
+      "sourceHeadword": "または",
+      "storyHeadword": "または",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:879",
+      "sourceHeadword": "それとも",
+      "storyHeadword": "それとも",
+      "occurrences": 2,
+      "sourceCorrection": null
+    },
+    {
+      "id": "n3:880",
+      "sourceHeadword": "つまり",
+      "storyHeadword": "つまり",
+      "occurrences": 2,
+      "sourceCorrection": null
+    }
+  ]
+}
