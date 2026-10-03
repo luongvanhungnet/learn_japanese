@@ -1,7 +1,8 @@
 // @vitest-environment jsdom
-import { act, cleanup, fireEvent, render, screen, within } from '@testing-library/react'
-import { afterEach, expect, test, vi } from 'vitest'
+import { act, cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react'
+import { afterEach, beforeEach, expect, test, vi } from 'vitest'
 import App from './App'
+beforeEach(() => { vi.spyOn(HTMLMediaElement.prototype, 'pause').mockImplementation(() => {}) })
 
 vi.mock('./data/n3.json', () => ({ default: [
   { id: 'n3:1', level: 'N3', order: 1, headword: '男性', reading: 'だんせい', hanViet: 'NAM TÍNH', meanings: ['man'] },
@@ -20,6 +21,328 @@ afterEach(() => {
   vi.restoreAllMocks()
   vi.useRealTimers()
   window.localStorage.clear()
+  window.history.replaceState(null, '', '/')
+})
+
+test('opens the novel reader and returns to the existing selected practice collection', async () => {
+  render(<App />)
+  fireEvent.click(screen.getByRole('button', { name: /N3 Grammar/ }))
+  fireEvent.click(screen.getByRole('button', { name: 'Read N3 novel' }))
+  await waitFor(() => expect(document.querySelector('.novel-title h1')?.textContent).toBe('異世界で日本語しか使えません！'), { timeout: 10000 })
+  fireEvent.click(within(document.querySelector('.novel-header')!).getByRole('button', { name: '← Practice' }))
+  expect(screen.getByRole('columnheader', { name: 'Formation' })).toBeTruthy()
+  expect(document.querySelectorAll('tbody tr')).toHaveLength(111)
+})
+
+test('opens a direct novel link and clears the reading route when returning to practice', async () => {
+  window.history.replaceState(null, '', '/#novel')
+  render(<App />)
+  await waitFor(() => expect(document.querySelector('.novel-title h1')?.textContent).toBe('異世界で日本語しか使えません！'), { timeout: 10000 })
+  fireEvent.click(within(document.querySelector('.novel-header')!).getByRole('button', { name: '← Practice' }))
+  expect(window.location.hash).toBe('')
+})
+
+test('selects N3 grammar with formation and meaning practice and translated examples', () => {
+  render(<App />)
+  fireEvent.click(screen.getByRole('button', { name: /N3 Grammar/ }))
+  expect(document.querySelectorAll('tbody tr')).toHaveLength(111)
+  expect(screen.getByRole('columnheader', { name: 'Formation' })).toBeTruthy()
+  expect(screen.queryByRole('columnheader', { name: 'Hán Việt' })).toBeNull()
+  const row = within(document.getElementById('row-n3-grammar:1')!)
+  fireEvent.click(row.getByText('Examples'))
+  expect(row.getByText(/While I am in Japan/)).toBeTruthy()
+  fireEvent.click(screen.getByRole('button', { name: 'Tiếng Việt' }))
+  expect(within(document.getElementById('row-n3-grammar:1')!).getByText(/Trong lúc ở Nhật/)).toBeTruthy()
+})
+
+test('grammar saves formation across languages and keeps meaning progress separate on reload', () => {
+  render(<App />)
+  fireEvent.click(screen.getByRole('button', { name: /N3 Grammar/ }))
+  fireEvent.click(screen.getByRole('button', { name: 'Enter Formation for pattern 1' }))
+  const formation = screen.getByRole('textbox', { name: 'Formation for pattern 1' })
+  fireEvent.change(formation, { target: { value: 'N-no' } })
+  fireEvent.submit(formation.closest('form')!)
+  fireEvent.click(screen.getByRole('button', { name: 'Enter Meaning for pattern 1' }))
+  const meaning = screen.getByRole('textbox', { name: 'Meaning for pattern 1' })
+  fireEvent.change(meaning, { target: { value: 'during' } })
+  fireEvent.submit(meaning.closest('form')!)
+  fireEvent.click(screen.getByRole('button', { name: 'Tiếng Việt' }))
+  expect(document.getElementById('practice-n3-grammar:1:formation')!.textContent).toBe('N-no✓')
+  expect(document.getElementById('practice-n3-grammar:1:meaning')!.textContent).not.toContain('✓')
+  fireEvent.click(screen.getByRole('button', { name: 'Nhập Ngữ nghĩa cho mẫu số 1' }))
+  const viMeaning = screen.getByRole('textbox', { name: 'Ngữ nghĩa cho mẫu số 1' })
+  fireEvent.change(viMeaning, { target: { value: 'trong luc' } })
+  fireEvent.submit(viMeaning.closest('form')!)
+  cleanup()
+  render(<App />)
+  fireEvent.click(screen.getByRole('button', { name: /Ngữ pháp N3/ }))
+  expect(document.getElementById('practice-n3-grammar:1:meaning')!.textContent).toBe('Trong khi, Trong lúc, Trong lúc đang✓')
+  fireEvent.click(screen.getByRole('button', { name: 'English' }))
+  expect(document.getElementById('practice-n3-grammar:1:meaning')!.textContent).toBe('while, during, while there is still time✓')
+  expect(document.getElementById('practice-n3-grammar:1:formation')!.textContent).toBe('N-no✓')
+})
+
+test('grammar assistance requires a subsequent unaided review answer to clear the mistake', () => {
+  render(<App />)
+  fireEvent.click(screen.getByRole('button', { name: /N3 Grammar/ }))
+  const open = () => {
+    const cell = within(document.getElementById('practice-n3-grammar:1:formation')!)
+    fireEvent.click(cell.getByRole('button', { name: 'Enter Formation for pattern 1' }))
+    return cell
+  }
+  let cell = open()
+  fireEvent.click(cell.getByRole('button', { name: /Hint\+/ }))
+  fireEvent.click(screen.getByRole('button', { name: /Review mistakes/ }))
+  expect(document.querySelectorAll('tbody tr')).toHaveLength(1)
+  cell = open()
+  fireEvent.click(cell.getByRole('button', { name: /Answer/ }))
+  let input = cell.getByRole('textbox')
+  fireEvent.change(input, { target: { value: 'Vru' } })
+  fireEvent.submit(input.closest('form')!)
+  expect(document.querySelectorAll('tbody tr')).toHaveLength(1)
+  cell = open()
+  input = cell.getByRole('textbox')
+  fireEvent.change(input, { target: { value: 'N-no' } })
+  fireEvent.submit(input.closest('form')!)
+  expect(screen.getByRole('heading', { name: 'No mistakes left to review' })).toBeTruthy()
+})
+
+test('grammar focus uses two practice columns, skips missing formation rules and saves display modes', () => {
+  window.scrollTo = vi.fn()
+  render(<App />)
+  fireEvent.click(screen.getByRole('button', { name: /N3 Grammar/ }))
+  fireEvent.click(screen.getByRole('button', { name: 'Focus' }))
+  expect(screen.getAllByRole('combobox')).toHaveLength(2)
+  expect(document.getElementById('practice-n3-grammar:10:formation')!.textContent).toBe('—')
+  const input = () => document.activeElement as HTMLInputElement
+  fireEvent.click(screen.getByRole('button', { name: 'Enter Formation for うちに' }))
+  fireEvent.keyDown(input(), { key: 'z', altKey: true })
+  expect(input().getAttribute('aria-label')).toBe('Meaning for うちに')
+  fireEvent.keyDown(input(), { key: 'x', altKey: true })
+  expect(input().getAttribute('aria-label')).toBe('Formation for うちに')
+  fireEvent.click(screen.getByRole('button', { name: 'Enter Formation for ついでに' }))
+  fireEvent.keyDown(input(), { key: 'c', altKey: true })
+  expect(input().getAttribute('aria-label')).toBe('Formation for くらい / ほど')
+  fireEvent.keyDown(input(), { key: 'v', altKey: true })
+  expect(input().getAttribute('aria-label')).toBe('Formation for ついでに')
+  fireEvent.change(screen.getByRole('combobox', { name: 'Formation display mode' }), { target: { value: '3' } })
+  expect(document.getElementById('practice-n3-grammar:1:formation')!.textContent).toContain('Vru, N-no, A(na), A(i)')
+  expect(JSON.parse(window.localStorage.getItem('mimikara-display-modes-v1')!).formation).toBe('3')
+})
+
+test('grammar overview counts available fields and jumps to the correct grammar row', async () => {
+  vi.useFakeTimers()
+  const scroll = vi.fn()
+  const original = HTMLElement.prototype.scrollIntoView
+  HTMLElement.prototype.scrollIntoView = scroll
+  try {
+    window.localStorage.setItem('mimikara-progress-v1', JSON.stringify({
+      'n3-grammar:10:meaning': { solved: true, unresolved: false, revealed: false, hints: 0, answer: 'at least' },
+    }))
+    render(<App />)
+    fireEvent.click(screen.getByRole('button', { name: /N3 Grammar/ }))
+    expect(document.querySelector('.progress-summary')!.textContent).toContain('/ 200')
+    fireEvent.click(screen.getByRole('button', { name: /Overview/ }))
+    const dialog = within(screen.getByRole('dialog', { name: 'N3 Grammar overview' }))
+    expect(dialog.getAllByRole('button')).toHaveLength(112)
+    expect(dialog.getByRole('button', { name: 'Go to pattern 10: ぐらい' }).className).toContain('tile-done')
+    fireEvent.click(dialog.getByRole('button', { name: 'Go to pattern 111: Vます + がち' }))
+    await act(async () => { vi.advanceTimersByTime(20) })
+    expect(scroll.mock.instances[0]).toBe(document.getElementById('row-n3-grammar:111'))
+  } finally {
+    HTMLElement.prototype.scrollIntoView = original
+  }
+})
+
+test('practices all 214 radicals and restores their separate progress after reload', () => {
+  render(<App />)
+  fireEvent.click(screen.getByRole('button', { name: /Kanji radicals/ }))
+  expect(document.querySelectorAll('tbody tr')).toHaveLength(214)
+  expect(document.getElementById('row-radicals:214')!.textContent).toContain('龠')
+  fireEvent.click(screen.getByRole('button', { name: 'Tiếng Việt' }))
+  fireEvent.click(screen.getByRole('button', { name: 'Nhập Ngữ nghĩa cho từ số 1' }))
+  const input = screen.getByRole('textbox', { name: 'Ngữ nghĩa cho từ số 1' })
+  fireEvent.change(input, { target: { value: 'một' } })
+  fireEvent.submit(input.closest('form')!)
+  expect(document.getElementById('practice-radicals:1:meaning')!.textContent).toBe('một✓')
+  cleanup()
+  render(<App />)
+  fireEvent.click(screen.getByRole('button', { name: /Bộ thủ Kanji/ }))
+  expect(document.getElementById('practice-radicals:1:meaning')!.textContent).toBe('một✓')
+  expect(document.getElementById('practice-radicals:1:hanViet')!.textContent).not.toContain('✓')
+})
+
+test('focus controls appear near the top and stay visible while moving through the header', () => {
+  window.scrollTo = vi.fn()
+  render(<App />)
+  fireEvent.click(screen.getByRole('button', { name: 'Focus' }))
+  const header = document.querySelector<HTMLElement>('.focus-controls')!
+  expect(header.classList.contains('is-visible')).toBe(false)
+  fireEvent.mouseMove(window, { clientY: 20 })
+  expect(header.classList.contains('is-visible')).toBe(true)
+  vi.spyOn(header, 'getBoundingClientRect').mockReturnValue({ bottom: 200 } as DOMRect)
+  fireEvent.mouseMove(window, { clientY: 180 })
+  expect(header.classList.contains('is-visible')).toBe(true)
+  fireEvent.mouseMove(window, { clientY: 300 })
+  expect(header.classList.contains('is-visible')).toBe(false)
+})
+
+test('the focus fullscreen button enters and exits browser fullscreen and tracks Escape', async () => {
+  window.scrollTo = vi.fn()
+  const request = vi.fn().mockResolvedValue(undefined)
+  const exit = vi.fn().mockResolvedValue(undefined)
+  let fullscreen: Element | null = null
+  Object.defineProperty(document.documentElement, 'requestFullscreen', { configurable: true, value: request })
+  Object.defineProperty(document, 'exitFullscreen', { configurable: true, value: exit })
+  Object.defineProperty(document, 'fullscreenElement', { configurable: true, get: () => fullscreen })
+  try {
+    render(<App />)
+    fireEvent.click(screen.getByRole('button', { name: 'Focus' }))
+    fireEvent.mouseMove(window, { clientY: 20 })
+    await act(async () => { fireEvent.click(screen.getByRole('button', { name: 'Full screen' })) })
+    expect(request).toHaveBeenCalledOnce()
+    fullscreen = document.documentElement
+    fireEvent(document, new Event('fullscreenchange'))
+    await act(async () => { fireEvent.click(screen.getByRole('button', { name: 'Exit full screen' })) })
+    expect(exit).toHaveBeenCalledOnce()
+    // Escape also changes the browser state independently of this button.
+    fullscreen = null
+    fireEvent(document, new Event('fullscreenchange'))
+    expect(screen.getByRole('button', { name: 'Full screen' })).toBeTruthy()
+    fireEvent.click(screen.getByRole('button', { name: 'Tiếng Việt' }))
+    expect(screen.getByRole('button', { name: 'Toàn màn hình' })).toBeTruthy()
+  } finally {
+    Reflect.deleteProperty(document.documentElement, 'requestFullscreen')
+    Reflect.deleteProperty(document, 'exitFullscreen')
+    Reflect.deleteProperty(document, 'fullscreenElement')
+  }
+})
+
+test.each(['Hint+', 'Answer'])('%s adds a mistake and an assisted review answer keeps it for an unaided retry', async (aid) => {
+  vi.useFakeTimers()
+  render(<App />)
+  fireEvent.click(screen.getByRole('button', { name: 'Enter Reading for word 1' }))
+  const cell = () => within(document.getElementById('practice-n3:1:reading')!)
+  fireEvent.click(cell().getByRole('button', { name: new RegExp(aid.replace('+', '\\+')) }))
+  fireEvent.click(screen.getByRole('button', { name: /Review mistakes/ }))
+  expect(screen.queryByRole('heading', { name: 'No mistakes left to review' })).toBeNull()
+  fireEvent.click(cell().getByRole('button', { name: 'Enter Reading for word 1' }))
+  fireEvent.click(cell().getByRole('button', { name: new RegExp(aid.replace('+', '\\+')) }))
+  await act(async () => { vi.advanceTimersByTime(5000) })
+  const input = cell().getByRole('textbox', { name: 'Reading for word 1' })
+  fireEvent.change(input, { target: { value: 'だんせい' } })
+  fireEvent.submit(input.closest('form')!)
+  expect(JSON.parse(window.localStorage.getItem('mimikara-progress-v1')!)['n3:1:reading'].unresolved).toBe(true)
+  fireEvent.click(cell().getByRole('button', { name: 'Enter Reading for word 1' }))
+  const retry = cell().getByRole('textbox', { name: 'Reading for word 1' })
+  fireEvent.change(retry, { target: { value: 'だんせい' } })
+  fireEvent.submit(retry.closest('form')!)
+  expect(screen.getByRole('heading', { name: 'No mistakes left to review' })).toBeTruthy()
+})
+
+test('focus mode shows all three practice columns and navigates with Alt+Z/X/C/V', () => {
+  window.scrollTo = vi.fn()
+  render(<App />)
+  fireEvent.click(screen.getByRole('button', { name: 'Focus' }))
+  const row = within(screen.getByRole('group', { name: 'Word 男性' }))
+  expect(row.getByRole('button', { name: 'Enter Reading for 男性' })).toBeTruthy()
+  expect(row.getByRole('button', { name: 'Enter Hán Việt for 男性' })).toBeTruthy()
+  fireEvent.click(row.getByRole('button', { name: 'Enter Meaning for 男性' }))
+  fireEvent.keyDown(document.activeElement!, { key: 'x', altKey: true })
+  expect(document.activeElement).toBe(row.getByRole('textbox', { name: 'Hán Việt for 男性' }))
+  fireEvent.keyDown(document.activeElement!, { key: 'z', altKey: true })
+  expect(document.activeElement).toBe(row.getByRole('textbox', { name: 'Meaning for 男性' }))
+  fireEvent.keyDown(document.activeElement!, { key: 'c', altKey: true })
+  expect(document.activeElement).toBe(screen.getByRole('textbox', { name: 'Meaning for 女性' }))
+  fireEvent.keyDown(document.activeElement!, { key: 'v', altKey: true })
+  expect(document.activeElement).toBe(row.getByRole('textbox', { name: 'Meaning for 男性' }))
+  fireEvent.keyDown(document.activeElement!, { key: 'z', altKey: true })
+  expect(document.activeElement).toBe(row.getByRole('textbox', { name: 'Meaning for 男性' }))
+})
+
+test('display modes keep correct cells green, hide their text, or reveal all answers without changing progress', () => {
+  window.scrollTo = vi.fn()
+  window.localStorage.setItem('mimikara-progress-v1', JSON.stringify({
+    'n3:1:meaning': { solved: true, unresolved: false, revealed: false, hints: 0, answer: 'man' },
+  }))
+  render(<App />)
+  fireEvent.click(screen.getByRole('button', { name: 'Focus' }))
+  const first = document.getElementById('practice-n3:1:meaning')!
+  expect(first.textContent).toBe('man✓')
+  const savedProgress = window.localStorage.getItem('mimikara-progress-v1')
+  fireEvent.change(screen.getByRole('combobox', { name: 'Meaning display mode' }), { target: { value: '2' } })
+  expect(first.textContent).toBe('')
+  expect(first.querySelector('.answer-correct')).toBeTruthy()
+  expect(first.querySelector('[title]')).toBeNull()
+  fireEvent.change(screen.getByRole('combobox', { name: 'Meaning display mode' }), { target: { value: '3' } })
+  expect(first.textContent).toBe('man✓')
+  expect(document.getElementById('practice-n3:2:meaning')!.textContent).toBe('woman')
+  expect(document.getElementById('practice-n3:2:meaning')!.querySelector('.answer-correct')).toBeNull()
+  expect(window.localStorage.getItem('mimikara-progress-v1')).toBe(savedProgress)
+  expect(document.getElementById('practice-n3:1:reading')!.textContent).toContain('Click to answer')
+  fireEvent.change(screen.getByRole('combobox', { name: 'Meaning display mode' }), { target: { value: '1' } })
+  expect(first.textContent).toBe('man✓')
+  expect(document.getElementById('practice-n3:2:meaning')!.textContent).toContain('Click to answer')
+  first.querySelector<HTMLButtonElement>('button')!.focus()
+  fireEvent.keyDown(document.activeElement!, { key: 'x', altKey: true })
+  expect(document.activeElement).toBe(screen.getByRole('textbox', { name: 'Hán Việt for 男性' }))
+})
+
+test.each([false, true])('correct meaning and Hán Việt submissions show source answers (focus: %s)', (focus) => {
+  window.scrollTo = vi.fn()
+  render(<App />)
+  if (focus) fireEvent.click(screen.getByRole('button', { name: 'Focus' }))
+  for (const [field, response, expected] of [['meaning', 'MAN', 'man'], ['hanViet', 'nam tính', 'NAM TÍNH']]) {
+    const cell = document.getElementById(`practice-n3:1:${field}`)!
+    fireEvent.click(within(cell).getByRole('button'))
+    const input = within(cell).getByRole('textbox')
+    fireEvent.change(input, { target: { value: response } })
+    fireEvent.submit(input.closest('form')!)
+    expect(cell.textContent).toBe(`${expected}✓`)
+    expect(cell.querySelector('.answer-correct')).toBeTruthy()
+  }
+})
+
+test('show all meanings displays the source answer instead of the saved response', () => {
+  window.scrollTo = vi.fn()
+  window.localStorage.setItem('mimikara-progress-v1', JSON.stringify({
+    'n3:1:meaning': { solved: true, unresolved: false, revealed: false, hints: 0, answer: 'MAN' },
+  }))
+  render(<App />)
+  fireEvent.click(screen.getByRole('button', { name: 'Focus' }))
+  const cell = document.getElementById('practice-n3:1:meaning')!
+  const savedProgress = window.localStorage.getItem('mimikara-progress-v1')
+  expect(cell.textContent).toBe('man✓')
+  fireEvent.change(screen.getByRole('combobox', { name: 'Meaning display mode' }), { target: { value: '3' } })
+  expect(cell.textContent).toBe('man✓')
+  expect(cell.querySelector('.answer-correct')).toBeTruthy()
+  expect(window.localStorage.getItem('mimikara-progress-v1')).toBe(savedProgress)
+  fireEvent.change(screen.getByRole('combobox', { name: 'Meaning display mode' }), { target: { value: '1' } })
+  expect(cell.textContent).toBe('man✓')
+})
+
+test('Hint+ restarts its five-second timer and clears only that cell’s hint count', async () => {
+  vi.useFakeTimers()
+  render(<App />)
+  const cell = within(document.getElementById('practice-n3:1:meaning')!)
+  fireEvent.click(cell.getByRole('button', { name: 'Enter Meaning for word 1' }))
+  const input = cell.getByRole('textbox')
+  fireEvent.change(input, { target: { value: 'wrong' } })
+  fireEvent.submit(input.closest('form')!)
+  fireEvent.click(cell.getByRole('button', { name: /Hint\+/ }))
+  expect(cell.getByText(/Hint:/).textContent).toBe('Hint: m')
+  await act(async () => { vi.advanceTimersByTime(3000) })
+  fireEvent.keyDown(input, { key: 'a', altKey: true })
+  expect(cell.getByText(/Hint:/).textContent).toBe('Hint: ma')
+  await act(async () => { vi.advanceTimersByTime(4999) })
+  expect(cell.getByText(/Hint:/).textContent).toBe('Hint: ma')
+  await act(async () => { vi.advanceTimersByTime(1) })
+  expect(cell.queryByText(/Hint:/)).toBeNull()
+  const saved = JSON.parse(window.localStorage.getItem('mimikara-progress-v1')!)
+  expect(saved['n3:1:meaning']).toMatchObject({ hints: 0, solved: false, unresolved: true })
+  expect(document.activeElement).toBe(input)
+  fireEvent.click(cell.getByRole('button', { name: /Hint\+/ }))
+  expect(cell.getByText(/Hint:/).textContent).toBe('Hint: m')
 })
 
 test('switches UI and accepted meanings to Vietnamese and remembers the language', () => {
@@ -35,7 +358,7 @@ test('switches UI and accepted meanings to Vietnamese and remembers the language
   expect(screen.getByRole('alert').textContent).toContain('Chưa đúng')
   fireEvent.change(input, { target: { value: 'dan ong' } })
   fireEvent.submit(input.closest('form')!)
-  expect(document.getElementById('practice-n3:1:meaning')!.textContent).toBe('dan ong✓')
+  expect(document.getElementById('practice-n3:1:meaning')!.textContent).toBe('đàn ông✓')
   cleanup()
   render(<App />)
   expect(screen.getByRole('columnheader', { name: 'Ngữ nghĩa' })).toBeTruthy()
@@ -124,7 +447,7 @@ test('scrolls the page in focus mode only after a correct answer', async () => {
   expect(window.scrollBy).toHaveBeenCalledWith({ top: 100, behavior: 'smooth' })
 })
 
-test('shows English meanings for saved Vietnamese answers and preserves accepted English answers and Hán Việt', () => {
+test('shows source English meanings and Hán Việt for saved correct answers', () => {
   window.localStorage.setItem('mimikara-progress-v1', JSON.stringify({
     'n3:1:meaning': { solved: true, unresolved: false, revealed: false, hints: 0, answer: 'đàn ông' },
     'n3:2:meaning': { solved: true, unresolved: false, revealed: false, hints: 0, answer: 'WOMAN' },
@@ -132,7 +455,7 @@ test('shows English meanings for saved Vietnamese answers and preserves accepted
   }))
   render(<App />)
   expect(document.getElementById('practice-n3:1:meaning')!.textContent).toBe('man✓')
-  expect(document.getElementById('practice-n3:2:meaning')!.textContent).toBe('WOMAN✓')
+  expect(document.getElementById('practice-n3:2:meaning')!.textContent).toBe('woman✓')
   expect(document.getElementById('practice-n3:1:hanViet')!.textContent).toBe('NAM TÍNH✓')
   expect(screen.getByRole('columnheader', { name: 'Hán Việt' })).toBeTruthy()
   fireEvent.click(screen.getByRole('button', { name: /Overview/ }))

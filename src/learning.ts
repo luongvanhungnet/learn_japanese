@@ -1,6 +1,6 @@
-export type Field = 'reading' | 'hanViet' | 'meaning'
+export type Field = 'reading' | 'hanViet' | 'meaning' | 'formation'
 export type Mode = 'study' | 'review'
-export type CellProgress = { solved: boolean; unresolved: boolean; revealed: boolean; hints: number; answer?: string }
+export type CellProgress = { solved: boolean; unresolved: boolean; revealed: boolean; hints: number; assisted?: boolean; answer?: string }
 export type Progress = Record<string, CellProgress>
 
 export const emptyCell = (): CellProgress => ({ solved: false, unresolved: false, revealed: false, hints: 0 })
@@ -12,15 +12,17 @@ export function submitAnswer(progress: Progress, key: string, correct: boolean, 
     [key]: {
       ...cell,
       solved: correct,
-      unresolved: correct && mode === 'review' ? false : cell.unresolved || !correct,
+      unresolved: correct && mode === 'review' ? Boolean(cell.assisted) : cell.unresolved || !correct,
       revealed: false,
+      hints: 0,
+      assisted: false,
       answer: correct ? answer ?? cell.answer : cell.answer,
     },
   }
 }
 
 export function revealAnswer(progress: Progress, key: string): Progress {
-  return { ...progress, [key]: { ...(progress[key] ?? emptyCell()), revealed: true } }
+  return { ...progress, [key]: { ...(progress[key] ?? emptyCell()), revealed: true, unresolved: true, assisted: true } }
 }
 
 const graphemes = (value: string) => Array.from(
@@ -45,7 +47,7 @@ export function hintPrefix(answer: string, count: number): string {
 export function nextHint(progress: Progress, key: string, answer: string): Progress {
   const cell = progress[key] ?? emptyCell()
   const limit = graphemes(answer).filter((part) => /[\p{L}\p{N}]/u.test(part)).length
-  return { ...progress, [key]: { ...cell, hints: Math.min(cell.hints + 1, limit) } }
+  return { ...progress, [key]: { ...cell, hints: Math.min(cell.hints + 1, limit), unresolved: true, assisted: true } }
 }
 
 export function clearReveal(progress: Progress, key: string): Progress {
@@ -60,10 +62,10 @@ export function parseProgress(raw: string | null): Progress {
     if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) return {}
     const result: Progress = {}
     for (const [key, value] of Object.entries(parsed)) {
-      if (!/^n[23]:\d+:(reading|hanViet|meaning(?::vi)?)$/.test(key) || !value || typeof value !== 'object') continue
+      if (!/^(?:(?:n[23]|radicals):\d+:(?:reading|hanViet|meaning(?::vi)?)|n3-grammar:\d+:(?:formation|meaning(?::vi)?))$/.test(key) || !value || typeof value !== 'object') continue
       const cell = value as Record<string, unknown>
       if (typeof cell.solved !== 'boolean' || typeof cell.unresolved !== 'boolean' || typeof cell.revealed !== 'boolean' || typeof cell.hints !== 'number') continue
-      result[key] = { solved: cell.solved, unresolved: cell.unresolved, revealed: cell.revealed, hints: Math.max(0, Math.floor(cell.hints)), answer: typeof cell.answer === 'string' ? cell.answer : undefined }
+      result[key] = { solved: cell.solved, unresolved: cell.unresolved, revealed: cell.revealed, hints: Math.max(0, Math.floor(cell.hints)), assisted: cell.assisted === true, answer: typeof cell.answer === 'string' ? cell.answer : undefined }
     }
     return result
   } catch {
@@ -78,10 +80,15 @@ const kanaFold = (value: string) => Array.from(value, (char) => {
 
 export function normalizeAnswer(value: string, field: string): string {
   const base = value.normalize('NFKC').normalize('NFC').toLocaleLowerCase('vi')
-  const folded = field === 'reading'
+  const folded = field === 'reading' || field === 'formation'
     ? kanaFold(base)
     : base.normalize('NFD').replace(/đ/g, 'd').replace(/\p{M}/gu, '')
-  return folded.replace(/[^\p{L}\p{N}ー]/gu, '')
+  const compact = folded.replace(/[^\p{L}\p{N}ー]/gu, '')
+  if (field === 'formation') {
+    const notation: Record<string, string> = { vru: 'vる', vte: 'vて', vta: 'vた', vnai: 'vない', nno: 'nの' }
+    return compact.replace(/vru|vte|vta|vnai|nno/g, (token) => notation[token])
+  }
+  return compact
 }
 
 export function isCorrect(field: string, attempt: string, accepted: string[]): boolean {

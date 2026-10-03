@@ -1,0 +1,3457 @@
+[
+  {
+    "id": "n3-grammar:1",
+    "order": 1,
+    "sourcePage": 4,
+    "pattern": "うちに",
+    "formations": [
+      "Vru",
+      "N-no",
+      "A(na)",
+      "A(i)"
+    ],
+    "meanings": {
+      "vi": [
+        "Trong khi",
+        "Trong lúc",
+        "Trong lúc đang"
+      ],
+      "en": [
+        "while",
+        "during",
+        "while there is still time"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "日本にいるうちに一度富士山に登ってみたい。",
+        "vi": "Trong lúc ở Nhật, tôi muốn thử một lần leo núi Phú Sĩ.",
+        "en": "While I am in Japan, I want to try climbing Mount Fuji once.",
+        "furigana": []
+      },
+      {
+        "japanese": "音楽を聞いているうちに、眠ってしまった。",
+        "vi": "Trong lúc đang nghe nhạc thì ngủ mất.",
+        "en": "I fell asleep while listening to music.",
+        "furigana": []
+      }
+    ],
+    "notes": {
+      "vi": "Mang tính tranh thủ: làm khi còn cơ hội.",
+      "en": "Do something while the opportunity remains."
+    }
+  },
+  {
+    "id": "n3-grammar:2",
+    "order": 2,
+    "sourcePage": 4,
+    "pattern": "間 / 間に",
+    "formations": [
+      "Vru",
+      "N-no"
+    ],
+    "meanings": {
+      "vi": [
+        "Trong suốt",
+        "Trong khi",
+        "Trong lúc"
+      ],
+      "en": [
+        "throughout",
+        "while",
+        "during"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "彼は会議の間ずっと眠りをしていた。",
+        "vi": "Anh ta ngủ gật suốt buổi họp.",
+        "en": "He was dozing throughout the meeting.",
+        "furigana": []
+      },
+      {
+        "japanese": "留守の間にどろぼうが入った。",
+        "vi": "Trong khi tôi vắng nhà, đã có kẻ trộm vào nhà.",
+        "en": "A burglar entered while I was away.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:3",
+    "order": 3,
+    "sourcePage": 4,
+    "pattern": "てからでないと / てからでなければ",
+    "formations": [
+      "V-Te"
+    ],
+    "meanings": {
+      "vi": [
+        "Nếu không làm V1, thì V2 khó mà thực hiện được"
+      ],
+      "en": [
+        "unless V1 is done first",
+        "not until"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "家族と相談してからでないと、買うかどうかまだ決められない。",
+        "vi": "Nếu không thảo luận với gia đình, thì tôi không thể quyết định được có mua hay không.",
+        "en": "I cannot decide whether to buy it until I have discussed it with my family.",
+        "furigana": []
+      }
+    ],
+    "notes": {
+      "vi": "Nếu không làm V1, thì V2 khó mà thực hiện được.",
+      "en": "V2 cannot be done unless V1 is done first."
+    }
+  },
+  {
+    "id": "n3-grammar:4",
+    "order": 4,
+    "sourcePage": 4,
+    "pattern": "Vるところ / Vているところ / Vたところ",
+    "formations": [
+      "Vる",
+      "Vている",
+      "Vた"
+    ],
+    "meanings": {
+      "vi": [
+        "Sắp sửa",
+        "Đang trong lúc làm V",
+        "Vừa mới làm V"
+      ],
+      "en": [
+        "about to",
+        "in the middle of doing",
+        "have just done"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "ロケットは間もなく飛び立つところです。緊張の瞬間です。",
+        "vi": "Tên lửa sắp sửa cất cánh. Đây là khoảnh khắc căng thẳng.",
+        "en": "The rocket is about to take off. It is a moment of suspense.",
+        "furigana": [],
+        "sourceJapanese": "ロケットは間もなく飛び立つところです。金賞の瞬間です。"
+      },
+      {
+        "japanese": "試験中、隣の人の答えを見ているところを先生に注意された。",
+        "vi": "Trong lúc đang nhìn đáp án của người bên cạnh khi thi, tôi bị thầy nhắc nhở.",
+        "en": "The teacher warned me while I was looking at the answers of the person next to me during the exam.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:5",
+    "order": 5,
+    "sourcePage": 5,
+    "pattern": "とおり（に / だ） / どおり（に / だ）",
+    "formations": [
+      "Vru",
+      "N-no とおり",
+      "N + どおり"
+    ],
+    "meanings": {
+      "vi": [
+        "Theo như",
+        "Đúng theo như"
+      ],
+      "en": [
+        "as",
+        "just as",
+        "in accordance with"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "人生は自分の思うとおりにはいかない。",
+        "vi": "Trên đời mọi chuyện không xảy ra theo như mình nghĩ.",
+        "en": "Life does not go just as we imagine.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:6",
+    "order": 6,
+    "sourcePage": 5,
+    "pattern": "によって / によっては",
+    "formations": [
+      "N +"
+    ],
+    "meanings": {
+      "vi": [
+        "Tùy vào",
+        "Tùy vào từng trường hợp mà"
+      ],
+      "en": [
+        "depending on",
+        "depending on the case"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "国によって習慣が違う。",
+        "vi": "Tùy vào từng quốc gia mà phong tục khác nhau.",
+        "en": "Customs differ depending on the country.",
+        "furigana": []
+      },
+      {
+        "japanese": "明日は、所によっては、雨が降るかもしれない。",
+        "vi": "Ngày mai tùy vào từng vùng, mà có vùng có thể sẽ mưa.",
+        "en": "Tomorrow it may rain in some areas.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:7",
+    "order": 7,
+    "sourcePage": 5,
+    "pattern": "たびに",
+    "formations": [
+      "Vru",
+      "N-no"
+    ],
+    "meanings": {
+      "vi": [
+        "Cứ mỗi khi lại"
+      ],
+      "en": [
+        "every time",
+        "whenever"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "山に行くたびに雨に降られる。",
+        "vi": "Cứ mỗi lần leo núi là trời lại mưa.",
+        "en": "Every time I go to the mountains, I get caught in the rain.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:8",
+    "order": 8,
+    "sourcePage": 5,
+    "pattern": "ば、～ほど",
+    "formations": [
+      "Thể điều kiện giả định trước ば / Thể thông thường trước ほど"
+    ],
+    "meanings": {
+      "vi": [
+        "Càng càng"
+      ],
+      "en": [
+        "the more the more"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "物が増えれば増えるほど整理が大変になる。",
+        "vi": "Đồ càng nhiều thì sắp xếp càng vất vả.",
+        "en": "The more things there are, the harder it becomes to organize them.",
+        "furigana": [
+          {
+            "text": "整理",
+            "reading": "せいり"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:9",
+    "order": 9,
+    "sourcePage": 6,
+    "pattern": "ついでに",
+    "formations": [
+      "N-no",
+      "Vru"
+    ],
+    "meanings": {
+      "vi": [
+        "Nhân tiện",
+        "Tiện thể"
+      ],
+      "en": [
+        "while you are at it",
+        "on the way",
+        "take the opportunity to"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "散歩のついでにこのはがきをポストに出してきて。",
+        "vi": "Nhân tiện đi dạo thì hãy bỏ bưu thiếp vào hòm thư.",
+        "en": "Please post this postcard while you are out for a walk.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:10",
+    "order": 10,
+    "sourcePage": 6,
+    "pattern": "ぐらい",
+    "formations": [],
+    "meanings": {
+      "vi": [
+        "Chí ít",
+        "Ít ra",
+        "Cỡ",
+        "Khoảng bằng"
+      ],
+      "en": [
+        "at least",
+        "about",
+        "approximately"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "日曜日ぐらい休ませてください。",
+        "vi": "Hãy cho tôi nghỉ chí ít ngày chủ nhật.",
+        "en": "Please let me have at least Sundays off.",
+        "furigana": []
+      },
+      {
+        "japanese": "うちの娘ぐらいの女の子が泣いていた。",
+        "vi": "Có một cô bé cỡ khoảng con gái tôi đang khóc.",
+        "en": "A girl about my daughter's age was crying.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:11",
+    "order": 11,
+    "sourcePage": 6,
+    "pattern": "くらい / ほど",
+    "formations": [
+      "Vru",
+      "N"
+    ],
+    "meanings": {
+      "vi": [
+        "Đến mức",
+        "Tới mức"
+      ],
+      "en": [
+        "to the extent that",
+        "so that"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "この店のパンはおいしい。毎日食べたいくらいだ。",
+        "vi": "Bánh mì của cửa hàng này ngon. Đến mức ngày nào tôi cũng muốn ăn.",
+        "en": "This shop's bread is delicious. It is so good that I want to eat it every day.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:12",
+    "order": 12,
+    "sourcePage": 6,
+    "pattern": "くらい～Nはない / ほど～Nはない",
+    "formations": [
+      "N +"
+    ],
+    "meanings": {
+      "vi": [
+        "Không có N nào bằng"
+      ],
+      "en": [
+        "nothing is as",
+        "there is nothing like"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "私は料理を作ることぐらい楽しいことはないと思っています。",
+        "vi": "Tôi nghĩ không có điều gì vui vẻ bằng việc nấu ăn.",
+        "en": "I think nothing is as enjoyable as cooking.",
+        "furigana": []
+      },
+      {
+        "japanese": "テストほどいやなものはない。",
+        "vi": "Không có điều gì chán ghét bằng thi cử.",
+        "en": "There is nothing as unpleasant as tests.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:13",
+    "order": 13,
+    "sourcePage": 7,
+    "pattern": "ぐらいなら / くらいなら",
+    "formations": [
+      "Vru"
+    ],
+    "meanings": {
+      "vi": [
+        "Nếu phải V thì thà"
+      ],
+      "en": [
+        "rather than",
+        "if I have to then I would rather"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "あいつに助けてもらうくらいなら、死んだほうがましだ。",
+        "vi": "Nếu phải nhờ hắn giúp thì thà còn chết còn hơn.",
+        "en": "I would rather die than ask him for help.",
+        "furigana": []
+      }
+    ],
+    "notes": {
+      "vi": "Vế sau thường là ほうがいい / ほうがましだ. Tiêu đề nguồn in nhầm ぐらいなな.",
+      "en": "The following clause commonly uses ほうがいい / ほうがましだ. The source heading misprints ぐらいなな."
+    }
+  },
+  {
+    "id": "n3-grammar:14",
+    "order": 14,
+    "sourcePage": 7,
+    "pattern": "に限る",
+    "formations": [
+      "N",
+      "Vru"
+    ],
+    "meanings": {
+      "vi": [
+        "Là nhất",
+        "Là tốt nhất"
+      ],
+      "en": [
+        "is best",
+        "there is nothing better than"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "やっぱり映画は映画館で見るに限る。",
+        "vi": "Quả nhiên là xem phim ở rạp chiếu phim là nhất.",
+        "en": "After all, watching movies in a cinema is best.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:15",
+    "order": 15,
+    "sourcePage": 7,
+    "pattern": "に対して",
+    "formations": [
+      "Vru-no",
+      "N"
+    ],
+    "meanings": {
+      "vi": [
+        "Đối với",
+        "Trái ngược với"
+      ],
+      "en": [
+        "towards",
+        "in contrast to"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "目上の人に対して、敬語を使います。",
+        "vi": "Dùng kính ngữ với người trên.",
+        "en": "Use polite language towards people senior to you.",
+        "furigana": []
+      },
+      {
+        "japanese": "昨日は大阪では大雨だったのに対して、東京はいい天気だった。",
+        "vi": "Hôm qua trái ngược với ở Osaka trời mưa lớn thì Tokyo thời tiết đẹp.",
+        "en": "Yesterday, while it rained heavily in Osaka, Tokyo had fine weather.",
+        "furigana": []
+      }
+    ],
+    "notes": {
+      "vi": "Nguồn không có dòng nghĩa riêng; nghĩa được bổ sung từ hai ví dụ.",
+      "en": "The source has no separate meaning heading; the meanings are supplied from its two examples."
+    }
+  },
+  {
+    "id": "n3-grammar:16",
+    "order": 16,
+    "sourcePage": 7,
+    "pattern": "反面",
+    "formations": [
+      "Vru"
+    ],
+    "meanings": {
+      "vi": [
+        "Mặt khác",
+        "Trái lại"
+      ],
+      "en": [
+        "on the other hand",
+        "whereas"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "都会の生活は面白いことが多い反面、ストレスも多い。",
+        "vi": "Cuộc sống của thành phố có nhiều điều thú vị, mặt khác thì cũng nhiều căng thẳng.",
+        "en": "City life has many interesting things, but on the other hand it also has much stress.",
+        "furigana": []
+      }
+    ],
+    "notes": {
+      "vi": "Nguồn không có dòng nghĩa riêng; nghĩa được bổ sung từ ví dụ.",
+      "en": "The source has no separate meaning heading; the meanings are supplied from its example."
+    }
+  },
+  {
+    "id": "n3-grammar:17",
+    "order": 17,
+    "sourcePage": 8,
+    "pattern": "一方（で）",
+    "formations": [
+      "Vru"
+    ],
+    "meanings": {
+      "vi": [
+        "Một mặt thì V, mặt khác thì"
+      ],
+      "en": [
+        "on the one hand on the other hand"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "会議では自分の意見を言う一方で、他の人の話もよく聞いてください。",
+        "vi": "Trong buổi họp, một mặt thì nói ý kiến của bản thân, mặt khác thì hãy nghe cả ý kiến của người khác nữa.",
+        "en": "At meetings, express your own opinions while also listening carefully to others.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:18",
+    "order": 18,
+    "sourcePage": 8,
+    "pattern": "というより",
+    "formations": [],
+    "meanings": {
+      "vi": [
+        "Nên nói là thì đúng hơn"
+      ],
+      "en": [
+        "rather than",
+        "more accurately"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "みちこは歩くのが速い。歩くというより走るという感じだ。",
+        "vi": "Bé Michiko đi rất nhanh. Có cảm giác là chạy hơn là đi.",
+        "en": "Michiko walks very fast. It feels more like running than walking.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:19",
+    "order": 19,
+    "sourcePage": 8,
+    "pattern": "かわりに",
+    "formations": [
+      "Vru"
+    ],
+    "meanings": {
+      "vi": [
+        "Thay vào đó",
+        "Bù lại"
+      ],
+      "en": [
+        "instead of",
+        "in return for"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "リーさんに英語を教えてもらっているかわりに、リーさんの仕事を手伝っている。",
+        "vi": "Bù lại cho việc bạn Ly dạy tiếng tiếng Anh thì tôi giúp việc cho bạn Ly.",
+        "en": "In return for Lee teaching me English, I help with Lee's work.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:20",
+    "order": 20,
+    "sourcePage": 8,
+    "pattern": "ためだ / ため（に）",
+    "formations": [
+      "Vru",
+      "N-no"
+    ],
+    "meanings": {
+      "vi": [
+        "Bởi vì",
+        "Vì"
+      ],
+      "en": [
+        "because",
+        "due to"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "報告書にミスが多かったのは、よく見直しをしなかったためだろう。",
+        "vi": "Bản báo cáo có nhiều lỗi có lẽ là bởi vì đã không xem và sửa kĩ.",
+        "en": "The report probably had many errors because it was not reviewed carefully.",
+        "furigana": []
+      }
+    ],
+    "notes": {
+      "vi": "Chỉ nguyên nhân.",
+      "en": "Indicates a cause."
+    }
+  },
+  {
+    "id": "n3-grammar:21",
+    "order": 21,
+    "sourcePage": 9,
+    "pattern": "によって / による",
+    "formations": [
+      "N + によって",
+      "N + による + N"
+    ],
+    "meanings": {
+      "vi": [
+        "Do",
+        "Vì"
+      ],
+      "en": [
+        "due to",
+        "because of",
+        "by means of"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "うちの工場では、材料不足によってたたみの生産はもうできなくなった。",
+        "vi": "Công trường của chúng tôi, do thiếu nguyên liệu nên không thể sản xuất được chiếu tatami.",
+        "en": "Our factory can no longer produce tatami mats because of a shortage of materials.",
+        "furigana": []
+      },
+      {
+        "japanese": "外国語を学ぶことによって、その国の人たちの考え方も知ることができる。",
+        "vi": "Nhờ vào việc học ngoại ngữ mà chúng ta có thể hiểu được cách suy nghĩ của con người đất nước đó.",
+        "en": "By learning a foreign language, we can understand how people in that country think.",
+        "furigana": []
+      }
+    ],
+    "notes": {
+      "vi": "Đằng sau là hậu quả; cũng diễn tả phương tiện như ví dụ học ngoại ngữ.",
+      "en": "The following clause is a consequence; also indicates a means, as in the language-learning example."
+    }
+  },
+  {
+    "id": "n3-grammar:22",
+    "order": 22,
+    "sourcePage": 9,
+    "pattern": "から / ことから",
+    "formations": [
+      "Vru + ことから",
+      "N + から"
+    ],
+    "meanings": {
+      "vi": [
+        "Vì"
+      ],
+      "en": [
+        "because",
+        "judging from"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "顔がよく似ていることから、二人は親子だとすぐにわかった。",
+        "vi": "Bởi vì khuôn mặt giống nhau nên tôi biết ngay hai người họ là bố con.",
+        "en": "From their similar faces, I immediately realized the two were parent and child.",
+        "furigana": [
+          {
+            "text": "親子",
+            "reading": "おやこ"
+          }
+        ]
+      }
+    ],
+    "notes": {
+      "vi": "Từ việc V dẫn đến kết quả, phán đoán B.",
+      "en": "An observation leads to a result or judgment."
+    }
+  },
+  {
+    "id": "n3-grammar:23",
+    "order": 23,
+    "sourcePage": 9,
+    "pattern": "おかげだ / おかげで",
+    "formations": [
+      "N-no",
+      "Vru"
+    ],
+    "meanings": {
+      "vi": [
+        "Nhờ vào"
+      ],
+      "en": [
+        "thanks to"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "いい会社に就職が決まったのは先生のおかげです。ありがとうございます。",
+        "vi": "Việc quyết định làm cho một công ty tốt là nhờ có thầy. Em cảm ơn thầy.",
+        "en": "It is thanks to my teacher that I got a job at a good company. Thank you.",
+        "furigana": [
+          {
+            "text": "就職",
+            "reading": "しゅうしょく"
+          }
+        ]
+      }
+    ],
+    "notes": {
+      "vi": "Đằng sau là kết quả tốt đẹp.",
+      "en": "The following clause is a favorable result."
+    }
+  },
+  {
+    "id": "n3-grammar:24",
+    "order": 24,
+    "sourcePage": 10,
+    "pattern": "せいで / せいだ",
+    "formations": [
+      "Vru",
+      "N-no",
+      "Ana-na"
+    ],
+    "meanings": {
+      "vi": [
+        "Do",
+        "Tại vì"
+      ],
+      "en": [
+        "because of",
+        "due to",
+        "owing to"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "最近、忙しかったせいで、かなり疲れている。",
+        "vi": "Do gần đây rất bận nên tôi khá mệt mỏi.",
+        "en": "I am quite tired because I have been busy recently.",
+        "furigana": []
+      }
+    ],
+    "notes": {
+      "vi": "Đằng sau là kết quả tiêu cực.",
+      "en": "The following clause is a negative result."
+    }
+  },
+  {
+    "id": "n3-grammar:25",
+    "order": 25,
+    "sourcePage": 10,
+    "pattern": "のだから / んだから",
+    "formations": [
+      "N/Na + na",
+      "A",
+      "V"
+    ],
+    "meanings": {
+      "vi": [
+        "Bởi vì",
+        "Vì thực sự là nên đương nhiên"
+      ],
+      "en": [
+        "since",
+        "because naturally"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "まだ子供なのだから、わからなくても仕方がないでしょう。",
+        "vi": "Vì cậu còn trẻ con, nên không hiểu chuyện cũng phải thôi.",
+        "en": "Since you are still a child, it is understandable that you do not know.",
+        "furigana": []
+      }
+    ],
+    "notes": {
+      "vi": "Vì thực sự là… nên đương nhiên…",
+      "en": "Since something is true, the consequence is natural."
+    }
+  },
+  {
+    "id": "n3-grammar:26",
+    "order": 26,
+    "sourcePage": 10,
+    "pattern": "（の）なら",
+    "formations": [
+      "Vru + (の)なら",
+      "N/Ana + なら"
+    ],
+    "meanings": {
+      "vi": [
+        "Nếu",
+        "Giả sử"
+      ],
+      "en": [
+        "if",
+        "supposing"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "真相を知っているのなら、私に教えてほしい。",
+        "vi": "Nếu biết sự thật, xin anh hãy cho tôi biết.",
+        "en": "If you know the truth, I want you to tell me.",
+        "furigana": [
+          {
+            "text": "真相",
+            "reading": "しんそう"
+          }
+        ]
+      }
+    ],
+    "notes": {
+      "vi": "Điều kiện giả định.",
+      "en": "A hypothetical condition."
+    }
+  },
+  {
+    "id": "n3-grammar:27",
+    "order": 27,
+    "sourcePage": 10,
+    "pattern": "ては / （の）では",
+    "formations": [
+      "A-kuては",
+      "N/Naでは",
+      "Vては"
+    ],
+    "meanings": {
+      "vi": [
+        "Nếu với điều kiện như thế này thì sẽ khó xử"
+      ],
+      "en": [
+        "if that is the case",
+        "under such conditions"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "この仕事に時給500円では人が見つかりません。",
+        "vi": "Nếu 500 yên một giờ cho công việc này thì sẽ không tìm được người làm.",
+        "en": "At 500 yen an hour for this job, we will not find anyone to do it.",
+        "furigana": [
+          {
+            "text": "時給",
+            "reading": "じきゅう"
+          }
+        ]
+      }
+    ],
+    "notes": {
+      "vi": "Với điều kiện như thế này thì sẽ khó xử, hoặc không làm được việc như vậy.",
+      "en": "Under such conditions, there will be difficulty or the action cannot be done."
+    }
+  },
+  {
+    "id": "n3-grammar:28",
+    "order": 28,
+    "sourcePage": 11,
+    "pattern": "さえ～ば / さえ～なら",
+    "formations": [],
+    "meanings": {
+      "vi": [
+        "Chỉ cần là đủ"
+      ],
+      "en": [
+        "as long as",
+        "if only"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "あなたさえそばにいてくだされば、ほかにはなにもいりません。",
+        "vi": "Chỉ cần có anh ở bên cạnh, ngoài ra em không cần gì cả.",
+        "en": "As long as you are by my side, I need nothing else.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:29",
+    "order": 29,
+    "sourcePage": 11,
+    "pattern": "N + さえ",
+    "formations": [
+      "N +"
+    ],
+    "meanings": {
+      "vi": [
+        "Ngay cả",
+        "Đến cả"
+      ],
+      "en": [
+        "even"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "冷蔵庫には卵さえ入っていない。",
+        "vi": "Trong tủ lạnh đến ngay cả quả trứng cũng không có.",
+        "en": "There is not even an egg in the refrigerator.",
+        "furigana": [
+          {
+            "text": "冷蔵庫",
+            "reading": "れいぞうこ"
+          },
+          {
+            "text": "卵",
+            "reading": "たまご"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:30",
+    "order": 30,
+    "sourcePage": 11,
+    "pattern": "たとえ～ても / たとえ～でも",
+    "formations": [],
+    "meanings": {
+      "vi": [
+        "Cho dù đi nữa thì"
+      ],
+      "en": [
+        "even if",
+        "no matter how"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "たとえ周りの人たちにどんなに反対されても、僕はプロの歌手になりたい。",
+        "vi": "Cho dù những người xung quanh có phản đối thế nào đi nữa thì tôi vẫn muốn trở thành một ca sĩ chuyên nghiệp.",
+        "en": "No matter how much people around me oppose it, I still want to become a professional singer.",
+        "furigana": []
+      }
+    ],
+    "notes": {
+      "vi": "Cho dù… đi nữa thì…",
+      "en": "Even if the stated condition occurs."
+    }
+  },
+  {
+    "id": "n3-grammar:31",
+    "order": 31,
+    "sourcePage": 11,
+    "pattern": "ということだ / とのことだ",
+    "formations": [
+      "Vru"
+    ],
+    "meanings": {
+      "vi": [
+        "Nghe nói"
+      ],
+      "en": [
+        "I hear that",
+        "it is said that"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "市のお知らせによれば、この道路は来週から工事が始まるということです。",
+        "vi": "Theo như thông báo của thành phố, thì nghe nói con đường này sẽ bắt đầu được thi công từ tuần sau.",
+        "en": "According to the city notice, construction on this road will begin next week.",
+        "furigana": [],
+        "sourceJapanese": "市のお知らせによれば、この道路は来週から工場が始まるということです。"
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:32",
+    "order": 32,
+    "sourcePage": 12,
+    "pattern": "と言われている",
+    "formations": [
+      "Vru"
+    ],
+    "meanings": {
+      "vi": [
+        "Được cho rằng",
+        "Người ta nói rằng"
+      ],
+      "en": [
+        "it is said that",
+        "people say that"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "この泉の水を飲めば若がえるといわれている。",
+        "vi": "Người ta nói rằng nếu uống nước ở con suối đó thì sẽ trẻ lại.",
+        "en": "It is said that drinking water from this spring makes you young again.",
+        "furigana": [
+          {
+            "text": "泉",
+            "reading": "いずみ"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:33",
+    "order": 33,
+    "sourcePage": 12,
+    "pattern": "とか",
+    "formations": [
+      "Vru"
+    ],
+    "meanings": {
+      "vi": [
+        "Nghe đâu thì phải"
+      ],
+      "en": [
+        "I hear that",
+        "apparently"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "隣の娘さんは来月結婚式を挙げるとか。",
+        "vi": "Nghe đâu con gái nhà hàng xóm tháng tới sẽ tổ chức đám cưới thì phải.",
+        "en": "I hear that the neighbor's daughter is getting married next month.",
+        "furigana": [
+          {
+            "text": "隣",
+            "reading": "となり"
+          },
+          {
+            "text": "結婚式",
+            "reading": "けっこんしき"
+          },
+          {
+            "text": "挙",
+            "reading": "あ"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:34",
+    "order": 34,
+    "sourcePage": 12,
+    "pattern": "って",
+    "formations": [
+      "Vru"
+    ],
+    "meanings": {
+      "vi": [
+        "Rằng"
+      ],
+      "en": [
+        "that",
+        "quoting"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "彼はすぐ来るって言っています。",
+        "vi": "Anh ta nói rằng sẽ đến ngay.",
+        "en": "He says he will come right away.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:35",
+    "order": 35,
+    "sourcePage": 12,
+    "pattern": "という",
+    "formations": [
+      "Vru"
+    ],
+    "meanings": {
+      "vi": [
+        "Nghe nói"
+      ],
+      "en": [
+        "it is said that",
+        "reportedly"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "この辺りは昔、広い野原だったという。",
+        "vi": "Nghe nói vùng này ngày xưa là một thảo nguyên rộng lớn.",
+        "en": "It is said that this area was once a vast grassland.",
+        "furigana": [
+          {
+            "text": "辺",
+            "reading": "あた"
+          },
+          {
+            "text": "野原",
+            "reading": "のはら"
+          }
+        ]
+      }
+    ],
+    "notes": {
+      "vi": "Nghe nói, văn cứng.",
+      "en": "Reported information in formal writing."
+    }
+  },
+  {
+    "id": "n3-grammar:36",
+    "order": 36,
+    "sourcePage": 13,
+    "pattern": "わけだ",
+    "formations": [
+      "Vru",
+      "A",
+      "N + na"
+    ],
+    "meanings": {
+      "vi": [
+        "Vậy là",
+        "Kết luận"
+      ],
+      "en": [
+        "that means",
+        "so",
+        "it follows that"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "ここから東京駅まで１時間半か。じゃ今から出れば９時に着くわけだ。",
+        "vi": "Từ đây đến ga Tokyo mất một tiếng rưỡi à. Vậy là nếu xuất phát từ bây giờ thì 9h sẽ đến nơi.",
+        "en": "It takes an hour and a half to Tokyo Station from here? Then if we leave now, we will arrive at nine.",
+        "furigana": [],
+        "sourceJapanese": "ここから東京駅まで１時半か。じゃ今から出れば９時に着くわけだ。"
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:37",
+    "order": 37,
+    "sourcePage": 13,
+    "pattern": "はずがない / わけがない",
+    "formations": [
+      "Vru"
+    ],
+    "meanings": {
+      "vi": [
+        "Chắc chắn không",
+        "Làm gì có chuyện"
+      ],
+      "en": [
+        "cannot possibly",
+        "there is no way"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "あの店が今日休みのはずはありません。電話で確認したんですから。",
+        "vi": "Cửa hàng đó ngày hôm nay chắc chắn không nghỉ. Vì tôi đã gọi điện xác nhận rồi.",
+        "en": "That shop cannot possibly be closed today. I confirmed by phone.",
+        "furigana": [
+          {
+            "text": "確認",
+            "reading": "かくにん"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:38",
+    "order": 38,
+    "sourcePage": 13,
+    "pattern": "とは限らない",
+    "formations": [
+      "Vru"
+    ],
+    "meanings": {
+      "vi": [
+        "Không nhất thiết",
+        "Chưa chắc đã"
+      ],
+      "en": [
+        "not necessarily"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "日本語を教えているのは日本人とは限らない。",
+        "vi": "Người dạy tiếng Nhật không nhất thiết phải là người Nhật.",
+        "en": "People who teach Japanese are not necessarily Japanese.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:39",
+    "order": 39,
+    "sourcePage": 13,
+    "pattern": "わけではない / というわけではない / のではない",
+    "formations": [],
+    "meanings": {
+      "vi": [
+        "Không phải là",
+        "Không hẳn là",
+        "Không có nghĩa là"
+      ],
+      "en": [
+        "it does not mean that",
+        "not necessarily",
+        "it is not that"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "このレストランはいつも客が一杯いたが、だからといって特別においしいわけではない。",
+        "vi": "Nhà hàng này lúc nào cũng đầy khách, nhưng điều đó không có nghĩa là đặc biệt ngon.",
+        "en": "This restaurant is always full of customers, but that does not mean it is especially delicious.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:40",
+    "order": 40,
+    "sourcePage": 14,
+    "pattern": "わけにはいかない",
+    "formations": [],
+    "meanings": {
+      "vi": [
+        "Không thể V"
+      ],
+      "en": [
+        "cannot do",
+        "cannot afford to"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "ちょっと熱があるが、今日は大事な会議があるので、仕事を休むわけにはいかない。",
+        "vi": "Tôi hơi bị sốt, nhưng vì hôm nay có một cuộc họp quan trọng, nên tôi không thể nghỉ làm.",
+        "en": "I have a slight fever, but I cannot take the day off because there is an important meeting today.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:41",
+    "order": 41,
+    "sourcePage": 14,
+    "pattern": "ないわけにはいかない",
+    "formations": [],
+    "meanings": {
+      "vi": [
+        "Không thể không V"
+      ],
+      "en": [
+        "cannot avoid doing",
+        "have to do"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "この町では自転車がないとやはり困る。買わないわけにはいかない。",
+        "vi": "Ở thành phố này đúng là không có xe đạp rất khổ. Không thể không mua.",
+        "en": "It is difficult to get by in this town without a bicycle. I have to buy one.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:42",
+    "order": 42,
+    "sourcePage": 14,
+    "pattern": "ないことはない",
+    "formations": [
+      "Vnai"
+    ],
+    "meanings": {
+      "vi": [
+        "Không phải là không"
+      ],
+      "en": [
+        "it is not impossible",
+        "not entirely impossible"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "これから駅まで歩けないことはないが、かなり時間がかかりますよ。",
+        "vi": "Từ đây đến nhà ga không phải là không thể đi bộ, nhưng khá tốn thời gian.",
+        "en": "It is possible to walk to the station from here, but it takes quite a while.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:43",
+    "order": 43,
+    "sourcePage": 14,
+    "pattern": "ことは～が",
+    "formations": [],
+    "meanings": {
+      "vi": [
+        "Có thì có thật đấy nhưng mà"
+      ],
+      "en": [
+        "it is true that but",
+        "I did but"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "読んだことは読んだが、全然分からない。",
+        "vi": "Tuy đọc thì có đọc thật đấy nhưng mà hoàn toàn không hiểu gì.",
+        "en": "I did read it, but I did not understand it at all.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:44",
+    "order": 44,
+    "sourcePage": 15,
+    "pattern": "てもらいたい / ていただきたい / てほしい",
+    "formations": [
+      "Vte"
+    ],
+    "meanings": {
+      "vi": [
+        "Muốn ai đó làm gì cho mình"
+      ],
+      "en": [
+        "want someone to do something for me"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "この書類、ちょっと見ていただきたいんですが。",
+        "vi": "Anh có thể xem tài liệu giúp tôi được không.",
+        "en": "I would like you to take a look at this document.",
+        "furigana": [
+          {
+            "text": "書類",
+            "reading": "しょるい"
+          }
+        ]
+      },
+      {
+        "japanese": "年を取った親にはもう無理をしてほしくない。",
+        "vi": "Tôi không muốn bố mẹ nhiều tuổi rồi còn làm việc quá sức.",
+        "en": "I do not want my elderly parents to overwork themselves.",
+        "furigana": []
+      }
+    ],
+    "notes": {
+      "vi": "Muốn ai đó làm gì cho mình.",
+      "en": "Want someone to do something for you."
+    }
+  },
+  {
+    "id": "n3-grammar:45",
+    "order": 45,
+    "sourcePage": 15,
+    "pattern": "させてもらいたい / させていただきたい / させてほしい",
+    "formations": [],
+    "meanings": {
+      "vi": [
+        "Cho phép tôi làm"
+      ],
+      "en": [
+        "please let me do",
+        "allow me to"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "私に行かせてほしいんです。",
+        "vi": "Hãy để cho tôi đi.",
+        "en": "Please let me go.",
+        "furigana": []
+      },
+      {
+        "japanese": "この件は僕に任せていただきたいです。",
+        "vi": "Cho phép tôi làm việc này.",
+        "en": "Please let me handle this matter.",
+        "furigana": [
+          {
+            "text": "任",
+            "reading": "まか"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:46",
+    "order": 46,
+    "sourcePage": 15,
+    "pattern": "といい / ばいい / たらいい",
+    "formations": [],
+    "meanings": {
+      "vi": [
+        "Ước gì",
+        "Mong là",
+        "Nên",
+        "Không nên"
+      ],
+      "en": [
+        "I hope",
+        "I wish",
+        "should",
+        "should not"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "生まれてくる子が男の子だったらいいのだが。",
+        "vi": "Mong sao đứa con sắp ra đời là một đứa con trai.",
+        "en": "I hope the baby to be born will be a boy.",
+        "furigana": []
+      },
+      {
+        "japanese": "若いうちに色々苦労したらいいと思う。あとできっと役に立つはず。",
+        "vi": "Tôi nghĩ lúc trẻ việc chịu nhiều khổ nhọc. Sau này thế nào cũng có ích.",
+        "en": "I think it is good to experience various hardships while young. They will surely be useful later.",
+        "furigana": [
+          {
+            "text": "苦労",
+            "reading": "くろう"
+          }
+        ]
+      }
+    ],
+    "notes": {
+      "vi": "Ước cho điều trong tương lai; cũng dùng để khuyên nên / không nên.",
+      "en": "Wishes for the future; also advice about what should or should not be done."
+    }
+  },
+  {
+    "id": "n3-grammar:47",
+    "order": 47,
+    "sourcePage": 16,
+    "pattern": "命令（しろ） / 禁止（な）",
+    "formations": [],
+    "meanings": {
+      "vi": [
+        "Hãy",
+        "Không được"
+      ],
+      "en": [
+        "do",
+        "do not",
+        "command",
+        "prohibition"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "引っ越しを手伝ってくれと友達に頼んだ。",
+        "vi": "Tôi đã nhờ bạn bè hãy giúp tôi chuyển nhà.",
+        "en": "I asked my friends to help me move.",
+        "furigana": [
+          {
+            "text": "越",
+            "reading": "こ"
+          },
+          {
+            "text": "友達",
+            "reading": "ともだち"
+          },
+          {
+            "text": "頼",
+            "reading": "たの"
+          }
+        ]
+      },
+      {
+        "japanese": "父は医者にお酒を飲むなと言われている。",
+        "vi": "Bố tôi đã được bác sĩ bảo là cấm uống rượu.",
+        "en": "My father has been told by the doctor not to drink alcohol.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:48",
+    "order": 48,
+    "sourcePage": 16,
+    "pattern": "こと",
+    "formations": [
+      "Vru"
+    ],
+    "meanings": {
+      "vi": [
+        "Phải",
+        "Không được"
+      ],
+      "en": [
+        "must",
+        "must not"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "休む時、必ず学校に連絡すること。",
+        "vi": "Khi nào nghỉ nhất định phải liên lạc với nhà trường.",
+        "en": "When absent, you must contact the school.",
+        "furigana": [
+          {
+            "text": "必",
+            "reading": "かなら"
+          },
+          {
+            "text": "連絡",
+            "reading": "れんらく"
+          }
+        ]
+      }
+    ],
+    "notes": {
+      "vi": "Mệnh lệnh trong văn cứng.",
+      "en": "Instructions in formal writing."
+    }
+  },
+  {
+    "id": "n3-grammar:49",
+    "order": 49,
+    "sourcePage": 16,
+    "pattern": "べきだ / べき / べきではない",
+    "formations": [],
+    "meanings": {
+      "vi": [
+        "Nên",
+        "Cần làm gì",
+        "Không nên làm gì"
+      ],
+      "en": [
+        "should",
+        "ought to",
+        "should not"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "これは大事なことですから、もう少し話し合ってから決めるべきだ。",
+        "vi": "Vì đây là việc quan trọng, chúng ta nên thảo luận rồi quyết định.",
+        "en": "This is important, so we should discuss it a little more before deciding.",
+        "furigana": []
+      },
+      {
+        "japanese": "せっかく入った会社なのだから、簡単に辞めるべきではない。",
+        "vi": "Vì đã mất công để vào công ty, đừng nên từ bỏ dễ dàng thế chứ.",
+        "en": "Since you worked hard to join the company, you should not quit so easily.",
+        "furigana": []
+      }
+    ],
+    "notes": {
+      "vi": "Lời khuyên.",
+      "en": "Advice."
+    }
+  },
+  {
+    "id": "n3-grammar:50",
+    "order": 50,
+    "sourcePage": 16,
+    "pattern": "たらどうか",
+    "formations": [
+      "Vta"
+    ],
+    "meanings": {
+      "vi": [
+        "Thử làm V xem sao"
+      ],
+      "en": [
+        "why not try",
+        "how about doing"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "体のことが心配なら、一度健康診断を受けたらどうでしょうか。",
+        "vi": "Nếu anh lo lắng cho tình trạng cơ thể, thì thử một lần đi khám sức khỏe xem sao.",
+        "en": "If you are worried about your health, why not have a medical checkup?",
+        "furigana": [
+          {
+            "text": "一度健康診断",
+            "reading": "いちどけんこうしんだん"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:51",
+    "order": 51,
+    "sourcePage": 17,
+    "pattern": "ことにする / ことにしている",
+    "formations": [],
+    "meanings": {
+      "vi": [
+        "Tôi quyết định"
+      ],
+      "en": [
+        "decide to",
+        "make it a rule to"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "冷蔵庫が壊れたので、新しいのを買うことにした。",
+        "vi": "Vì tủ lạnh bị hỏng, nên tôi quyết định mua cái mới.",
+        "en": "The refrigerator broke, so I decided to buy a new one.",
+        "furigana": [
+          {
+            "text": "冷蔵庫",
+            "reading": "れいぞうこ"
+          },
+          {
+            "text": "壊",
+            "reading": "こわ"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:52",
+    "order": 52,
+    "sourcePage": 17,
+    "pattern": "ようにする / ようにしている",
+    "formations": [],
+    "meanings": {
+      "vi": [
+        "Tôi cố gắng làm gì"
+      ],
+      "en": [
+        "try to",
+        "make an effort to"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "私はなるべく自分で料理を作って食べるようにしている。",
+        "vi": "Tôi cố gắng ăn đồ mình tự nấu càng nhiều càng tốt.",
+        "en": "I try to cook my own meals as much as possible.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:53",
+    "order": 53,
+    "sourcePage": 17,
+    "pattern": "（よ）うとする",
+    "formations": [],
+    "meanings": {
+      "vi": [
+        "Định làm gì"
+      ],
+      "en": [
+        "be about to",
+        "try to do"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "家を出ようとしたとき、突然大雨が降り出した。",
+        "vi": "Khi tôi đang định ra ngoài, thì trời đổ mưa lớn.",
+        "en": "Just as I was about to leave the house, it suddenly began raining heavily.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:54",
+    "order": 54,
+    "sourcePage": 17,
+    "pattern": "つもりだ",
+    "formations": [
+      "N-no",
+      "Ana-na",
+      "Vta"
+    ],
+    "meanings": {
+      "vi": [
+        "Cứ tưởng rằng",
+        "Cứ cho rằng"
+      ],
+      "en": [
+        "believe that",
+        "think that"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "私は今年７７歳ですが、まだまだ若いつもりです。",
+        "vi": "Tôi năm nay đã 77 tuổi, nhưng tôi vẫn nghĩ rằng mình vẫn còn trẻ lắm.",
+        "en": "I am seventy-seven this year, but I still think I am very young.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:55",
+    "order": 55,
+    "sourcePage": 18,
+    "pattern": "こそ",
+    "formations": [
+      "N + こそ"
+    ],
+    "meanings": {
+      "vi": [
+        "Chính"
+      ],
+      "en": [
+        "precisely",
+        "it is exactly"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "親だからこそ自分の子を厳しくしかるのだ。",
+        "vi": "Chính bởi vì là cha mẹ nên mới mắng nghiêm khắc đứa con của mình.",
+        "en": "It is precisely because we are parents that we scold our children strictly.",
+        "furigana": [
+          {
+            "text": "厳",
+            "reading": "きび"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:56",
+    "order": 56,
+    "sourcePage": 18,
+    "pattern": "でも",
+    "formations": [
+      "N + でも"
+    ],
+    "meanings": {
+      "vi": [
+        "Thậm chí",
+        "Ngay cả",
+        "Những thứ như là"
+      ],
+      "en": [
+        "even",
+        "something like"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "そんなことは子供でも知っている。",
+        "vi": "Chuyện như thế ngay cả đứa trẻ con cũng biết.",
+        "en": "Even children know that.",
+        "furigana": []
+      },
+      {
+        "japanese": "お茶でも飲みましょうか。",
+        "vi": "Chúng ta đi uống những thứ như trà có được không?",
+        "en": "Shall we have some tea or something?",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:57",
+    "order": 57,
+    "sourcePage": 18,
+    "pattern": "も",
+    "formations": [],
+    "meanings": {
+      "vi": [
+        "Hoàn toàn không",
+        "Đến ngay cả"
+      ],
+      "en": [
+        "not even",
+        "even"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "一日も休まないで学校に通った。",
+        "vi": "Đi học mà hoàn toàn không được nghỉ một ngày nào.",
+        "en": "I went to school without taking even a single day off.",
+        "furigana": []
+      },
+      {
+        "japanese": "こんなに高い山の上にも店がある。",
+        "vi": "Đến ngay cả trên đỉnh ngọn núi cao như thế mà cũng có cửa hàng.",
+        "en": "There is a shop even on top of such a high mountain.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:58",
+    "order": 58,
+    "sourcePage": 18,
+    "pattern": "まで",
+    "formations": [],
+    "meanings": {
+      "vi": [
+        "Tới cả cũng"
+      ],
+      "en": [
+        "even",
+        "as far as"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "会ったことがない人まで年賀状を出した。",
+        "vi": "Tôi gửi thiệp chúc tết tới cả những người tôi chưa bao giờ gặp.",
+        "en": "I sent New Year cards even to people I have never met.",
+        "furigana": [
+          {
+            "text": "年賀状",
+            "reading": "ねんがじょう"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:59",
+    "order": 59,
+    "sourcePage": 19,
+    "pattern": "など / なんか / なんて",
+    "formations": [],
+    "meanings": {
+      "vi": [
+        "Chẳng hạn",
+        "Những thứ như là"
+      ],
+      "en": [
+        "for example",
+        "things like"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "この服などはいかがですか。似合いますよ。",
+        "vi": "Chẳng hạn như bộ trang phục này thì thế nào. Hợp đó.",
+        "en": "How about these clothes, for example? They suit you.",
+        "furigana": [
+          {
+            "text": "似合",
+            "reading": "にあ"
+          }
+        ]
+      },
+      {
+        "japanese": "ダイエットなんかしたくない。",
+        "vi": "Tôi không muốn làm những thứ như giảm cân.",
+        "en": "I do not want to do things like dieting.",
+        "furigana": []
+      }
+    ],
+    "notes": {
+      "vi": "Chẳng hạn: đề xuất. Những thứ như là: coi nhẹ.",
+      "en": "Examples or suggestions; can also convey a dismissive attitude."
+    }
+  },
+  {
+    "id": "n3-grammar:60",
+    "order": 60,
+    "sourcePage": 19,
+    "pattern": "について",
+    "formations": [
+      "N + について"
+    ],
+    "meanings": {
+      "vi": [
+        "Về"
+      ],
+      "en": [
+        "about",
+        "concerning"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "すみませんが、入学手続きについて聞きたいのですが。",
+        "vi": "Xin lỗi, tôi muốn hỏi về thủ tục nhập học.",
+        "en": "Excuse me, I would like to ask about the enrollment procedure.",
+        "furigana": [
+          {
+            "text": "入学手続",
+            "reading": "にゅうがくてつづ"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:61",
+    "order": 61,
+    "sourcePage": 19,
+    "pattern": "にとって",
+    "formations": [
+      "N + にとって"
+    ],
+    "meanings": {
+      "vi": [
+        "Đối với",
+        "Nhìn từ lập trường của"
+      ],
+      "en": [
+        "for",
+        "from the standpoint of"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "若い女性にとって買い物は楽しいことです。",
+        "vi": "Đối với phụ nữ trẻ thì mua sắm là một thú vui.",
+        "en": "For young women, shopping is enjoyable.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:62",
+    "order": 62,
+    "sourcePage": 19,
+    "pattern": "として",
+    "formations": [
+      "N + として"
+    ],
+    "meanings": {
+      "vi": [
+        "Với tư cách",
+        "Với vai trò là"
+      ],
+      "en": [
+        "as",
+        "in the role of"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "私はコーヒーカップを花びんとして使っています。",
+        "vi": "Tôi sử dụng cốc cà phê như là một bình hoa.",
+        "en": "I use a coffee cup as a flower vase.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:63",
+    "order": 63,
+    "sourcePage": 20,
+    "pattern": "ことがある / こともある",
+    "formations": [
+      "Vru"
+    ],
+    "meanings": {
+      "vi": [
+        "Có lúc"
+      ],
+      "en": [
+        "sometimes",
+        "there are times when"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "妻は僕が話しかけても返事をしないことがある。",
+        "vi": "Vợ tôi có lúc tôi nói chuyện cũng không trả lời lại.",
+        "en": "Sometimes my wife does not answer even when I speak to her.",
+        "furigana": [
+          {
+            "text": "妻",
+            "reading": "つま"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:64",
+    "order": 64,
+    "sourcePage": 20,
+    "pattern": "ことはない",
+    "formations": [
+      "Vru"
+    ],
+    "meanings": {
+      "vi": [
+        "Không cần phải"
+      ],
+      "en": [
+        "there is no need to"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "面接の質問は簡単です。そんなに心配することはありませんよ。",
+        "vi": "Câu hỏi của phỏng vấn dễ nên không cần phải lo lắng như thế đâu.",
+        "en": "The interview questions are easy. There is no need to worry so much.",
+        "furigana": [
+          {
+            "text": "面接",
+            "reading": "めんせつ"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:65",
+    "order": 65,
+    "sourcePage": 20,
+    "pattern": "（かの）ようだ / のようだ",
+    "formations": [
+      "N",
+      "Vru"
+    ],
+    "meanings": {
+      "vi": [
+        "Giống như là",
+        "Cứ như là"
+      ],
+      "en": [
+        "as if",
+        "looks like"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "今日は暖かくて、まるで春が来たかのようだ。",
+        "vi": "Hôm nay thời tiết ấm áp cứ như là mùa xuân đã đến vậy.",
+        "en": "It is warm today, as if spring has arrived.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:66",
+    "order": 66,
+    "sourcePage": 20,
+    "pattern": "ように",
+    "formations": [
+      "N-no",
+      "Vru"
+    ],
+    "meanings": {
+      "vi": [
+        "Giống như",
+        "Như là",
+        "Chẳng hạn như"
+      ],
+      "en": [
+        "like",
+        "such as"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "人間のように、植物にも栄養が必要だ。",
+        "vi": "Giống như con người, đối với thực vật thì dinh dưỡng cũng cần thiết.",
+        "en": "Like humans, plants also need nutrients.",
+        "furigana": []
+      },
+      {
+        "japanese": "私はにんじんやピーマンのような濃い色の野菜が好きだ。",
+        "vi": "Tôi thích rau củ có màu đậm chẳng hạn như cà rốt, ớt...",
+        "en": "I like deeply colored vegetables such as carrots and green peppers.",
+        "furigana": [
+          {
+            "text": "濃",
+            "reading": "こ"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:67",
+    "order": 67,
+    "sourcePage": 21,
+    "pattern": "ように",
+    "formations": [
+      "N-no",
+      "Vru"
+    ],
+    "meanings": {
+      "vi": [
+        "Đúng như",
+        "Như những gì mà"
+      ],
+      "en": [
+        "just as",
+        "as stated"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "前にも話したように、来週は私は日本にいません。",
+        "vi": "Như những gì đã nói từ trước, tuần sau tôi không có ở Nhật Bản.",
+        "en": "As I said before, I will not be in Japan next week.",
+        "furigana": [],
+        "sourceJapanese": "前にも話したように、来週は私が日本にいません。"
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:68",
+    "order": 68,
+    "sourcePage": 21,
+    "pattern": "ように",
+    "formations": [
+      "N-no",
+      "Vru"
+    ],
+    "meanings": {
+      "vi": [
+        "Để V",
+        "Để không V"
+      ],
+      "en": [
+        "so that",
+        "in order to"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "よく眠れるようにワインを少し飲んだ。",
+        "vi": "Để có thể ngủ được thì tôi đã uống một chút rượu vang.",
+        "en": "I drank a little wine so that I could sleep well.",
+        "furigana": []
+      }
+    ],
+    "notes": {
+      "vi": "Sự kì vọng. Giữ nguyên ký hiệu N+no / Vru của nguồn.",
+      "en": "An intended or hoped-for result. The source notation N+no / Vru is retained."
+    }
+  },
+  {
+    "id": "n3-grammar:69",
+    "order": 69,
+    "sourcePage": 21,
+    "pattern": "よう（に）いう / 注意する / 頼む",
+    "formations": [
+      "Vru",
+      "Vnai"
+    ],
+    "meanings": {
+      "vi": [
+        "Bảo hãy V",
+        "Chú ý đừng V",
+        "Nhờ hãy V"
+      ],
+      "en": [
+        "tell someone to",
+        "warn someone not to",
+        "ask someone to"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "すぐ家に帰るように言われました。",
+        "vi": "Tôi đã được bảo là hãy trở về nhà ngay.",
+        "en": "I was told to return home immediately.",
+        "furigana": []
+      },
+      {
+        "japanese": "これからは遅刻しないように注意しておきます。",
+        "vi": "Tôi đã lưu ý anh ta là từ giờ trở đi đừng có đi trễ.",
+        "en": "I have warned him not to be late from now on.",
+        "furigana": []
+      }
+    ],
+    "notes": {
+      "vi": "Bản dịch Việt của ví dụ thứ hai dùng thì quá khứ, trong khi câu Nhật diễn tả ý định từ giờ trở đi.",
+      "en": "The Vietnamese translation of the second example uses the past tense, while the Japanese describes an intention from now on."
+    }
+  },
+  {
+    "id": "n3-grammar:70",
+    "order": 70,
+    "sourcePage": 21,
+    "pattern": "N（+ trợ từ）ばかり",
+    "formations": [
+      "N (+ trợ từ)"
+    ],
+    "meanings": {
+      "vi": [
+        "Chỉ toàn N"
+      ],
+      "en": [
+        "nothing but",
+        "only"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "このごろ、夜遅く変な電話ばかりかかってくる。",
+        "vi": "Gần đây, về khuya, tôi nhận được toàn là những cú điện thoại đáng ngờ.",
+        "en": "Recently, I have been getting nothing but strange phone calls late at night.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:71",
+    "order": 71,
+    "sourcePage": 22,
+    "pattern": "Vてばかりいる",
+    "formations": [
+      "Vて"
+    ],
+    "meanings": {
+      "vi": [
+        "V suốt ngày",
+        "V hoài"
+      ],
+      "en": [
+        "do nothing but",
+        "keep doing"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "彼は寝てばかりいる。",
+        "vi": "Anh ấy ngủ suốt ngày.",
+        "en": "He does nothing but sleep.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:72",
+    "order": 72,
+    "sourcePage": 22,
+    "pattern": "ばかりか / ばかりでなく",
+    "formations": [],
+    "meanings": {
+      "vi": [
+        "Không chỉ mà còn"
+      ],
+      "en": [
+        "not only but also"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "会社の同僚ばかりか家族までが私をバカにしている。",
+        "vi": "Không chỉ đồng nghiệp, mà cả gia đình cũng coi thường tôi.",
+        "en": "Not only my colleagues but even my family look down on me.",
+        "furigana": []
+      },
+      {
+        "japanese": "山田さんは英語ばかりでなく中国語も話せる。",
+        "vi": "Anh Yamada không những nói được tiếng Anh mà cả tiếng Trung Quốc.",
+        "en": "Yamada can speak not only English but also Chinese.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:73",
+    "order": 73,
+    "sourcePage": 22,
+    "pattern": "Vたばかりだ",
+    "formations": [
+      "Vた"
+    ],
+    "meanings": {
+      "vi": [
+        "Vừa mới làm V"
+      ],
+      "en": [
+        "have just done"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "さっき着いたばかりだ。",
+        "vi": "Tôi vừa mới tới nơi lúc nãy.",
+        "en": "I have only just arrived.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:74",
+    "order": 74,
+    "sourcePage": 22,
+    "pattern": "Vるばかりだ",
+    "formations": [
+      "Vる"
+    ],
+    "meanings": {
+      "vi": [
+        "Cứ V",
+        "Chỉ còn chờ V là xong"
+      ],
+      "en": [
+        "keep getting",
+        "all that remains is to"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "手術が終わってからも、父の病気は悪くなるばかりでした。",
+        "vi": "Cả sau khi phẫu thuật, bệnh tình của bố tôi vẫn cứ xấu đi.",
+        "en": "Even after the operation, my father's illness kept getting worse.",
+        "furigana": []
+      },
+      {
+        "japanese": "荷物もみんな用意して、すぐにも出かけるばかりです。",
+        "vi": "Tôi đã chuẩn bị xong hành lí, chỉ còn chờ lên đường.",
+        "en": "All the luggage is ready; all that remains is to set off.",
+        "furigana": []
+      }
+    ],
+    "notes": {
+      "vi": "Xu hướng: cứ V. Hoàn tất: chỉ còn chờ V là xong.",
+      "en": "A continuing trend, or all preparations are complete and only the action remains."
+    }
+  },
+  {
+    "id": "n3-grammar:75",
+    "order": 75,
+    "sourcePage": 23,
+    "pattern": "ばかりに",
+    "formations": [
+      "Vta ばかりに",
+      "A ばかりに"
+    ],
+    "meanings": {
+      "vi": [
+        "Chỉ vì",
+        "Chỉ tại"
+      ],
+      "en": [
+        "just because",
+        "simply because"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "働きがないばかりに、妻にバカにされている。",
+        "vi": "Chỉ tại không có việc làm mà tôi bị vợ coi thường.",
+        "en": "My wife looks down on me simply because I have no job.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:76",
+    "order": 76,
+    "sourcePage": 23,
+    "pattern": "も～ば～も",
+    "formations": [],
+    "meanings": {
+      "vi": [
+        "Cũng và cũng"
+      ],
+      "en": [
+        "both and",
+        "as well as"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "彼は心臓が悪いくせに酒も飲めば煙草も吸う。",
+        "vi": "Anh ấy bị bệnh tim nặng, vậy mà rượu cũng uống, thuốc cũng hút.",
+        "en": "Despite his heart condition, he both drinks alcohol and smokes.",
+        "furigana": [
+          {
+            "text": "心臓",
+            "reading": "しんぞう"
+          },
+          {
+            "text": "煙草",
+            "reading": "たばこ"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:77",
+    "order": 77,
+    "sourcePage": 23,
+    "pattern": "といった",
+    "formations": [
+      "N + といった"
+    ],
+    "meanings": {
+      "vi": [
+        "Ví dụ như",
+        "Những thứ như là"
+      ],
+      "en": [
+        "such as",
+        "things like"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "私はこれまで、主にタイや中国、マレーシアといったアジアの国を回って、写真を撮っていました。",
+        "vi": "Cho tới giờ tôi đã đi xung quanh các nước Châu Á như chủ yếu là Thái Lan, Trung Quốc, Malaysia để chụp ảnh.",
+        "en": "Until now, I have mainly traveled around Asian countries such as Thailand, China, and Malaysia to take photographs.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:78",
+    "order": 78,
+    "sourcePage": 23,
+    "pattern": "っけ？",
+    "formations": [
+      "Vた",
+      "N/Ana + だ",
+      "Ai + かった"
+    ],
+    "meanings": {
+      "vi": [
+        "Ấy nhỉ"
+      ],
+      "en": [
+        "what was it again",
+        "was it"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "次の祝日っていつだっけ？来週だっけ？",
+        "vi": "Ngày nghỉ kế tiếp là lúc nào ấy nhỉ? Có phải tuần sau không nhỉ?",
+        "en": "When is the next public holiday again? Is it next week?",
+        "furigana": []
+      }
+    ],
+    "notes": {
+      "vi": "Xác nhận lại thông tin.",
+      "en": "Checking information you are trying to recall."
+    }
+  },
+  {
+    "id": "n3-grammar:79",
+    "order": 79,
+    "sourcePage": 24,
+    "pattern": "がる",
+    "formations": [
+      "Vたい がる"
+    ],
+    "meanings": {
+      "vi": [
+        "Ai đó muốn làm gì"
+      ],
+      "en": [
+        "someone wants to",
+        "shows signs of wanting to"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "彼はいつも私の給料の額を知りたがっている。",
+        "vi": "Hắn ta lúc nào cũng muốn biết số tiền lương của tôi.",
+        "en": "He always wants to know how much I earn.",
+        "furigana": []
+      }
+    ],
+    "notes": {
+      "vi": "Chỉ dùng cho chủ ngữ ngôi 3.",
+      "en": "Used for a third-person subject."
+    }
+  },
+  {
+    "id": "n3-grammar:80",
+    "order": 80,
+    "sourcePage": 24,
+    "pattern": "てたまらない / てならない / てしょうがない",
+    "formations": [],
+    "meanings": {
+      "vi": [
+        "Rất đến nỗi không chịu được"
+      ],
+      "en": [
+        "unbearably",
+        "extremely",
+        "cannot help feeling"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "エアコンを使わないと暑くてたまらない。",
+        "vi": "Nếu không dùng điều hòa thì rất nóng, nóng không chịu được.",
+        "en": "Without air conditioning, it is unbearably hot.",
+        "furigana": []
+      },
+      {
+        "japanese": "遠くに住んでいる母のことを心配してならない。",
+        "vi": "Tôi rất lo lắng về người mẹ đang sống ở xa.",
+        "en": "I cannot help worrying about my mother who lives far away.",
+        "furigana": []
+      },
+      {
+        "japanese": "さびしくてしょうがない。",
+        "vi": "Cô đơn không chịu nổi.",
+        "en": "I am unbearably lonely.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:81",
+    "order": 81,
+    "sourcePage": 24,
+    "pattern": "最中に",
+    "formations": [
+      "Vている",
+      "N + の"
+    ],
+    "meanings": {
+      "vi": [
+        "Trong lúc đang",
+        "Đúng lúc đang"
+      ],
+      "en": [
+        "in the middle of",
+        "just when"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "会議の最中に停電になった。",
+        "vi": "Đúng lúc đang họp thì mất điện.",
+        "en": "The power went out in the middle of the meeting.",
+        "furigana": [
+          {
+            "text": "停電",
+            "reading": "ていでん"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:82",
+    "order": 82,
+    "sourcePage": 24,
+    "pattern": "たとたん",
+    "formations": [
+      "Vた"
+    ],
+    "meanings": {
+      "vi": [
+        "Vừa mới thì"
+      ],
+      "en": [
+        "just as",
+        "the moment"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "窓を開けたとたん、強い風が入ってきた。",
+        "vi": "Tôi vừa mới mở cửa sổ ra thì có một luồng gió mạnh tràn vào.",
+        "en": "The moment I opened the window, a strong gust of wind came in.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:83",
+    "order": 83,
+    "sourcePage": 25,
+    "pattern": "から～にかけて",
+    "formations": [
+      "N～N"
+    ],
+    "meanings": {
+      "vi": [
+        "Từ đến"
+      ],
+      "en": [
+        "from to",
+        "between and"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "このブドウは８月から９月にかけて収穫されます。",
+        "vi": "Nho này được thu hoạch từ tháng 8 đến tháng 9.",
+        "en": "These grapes are harvested from August to September.",
+        "furigana": [
+          {
+            "text": "収穫",
+            "reading": "しゅうかく"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:84",
+    "order": 84,
+    "sourcePage": 25,
+    "pattern": "（んだ）もの / もん",
+    "formations": [
+      "Vる"
+    ],
+    "meanings": {
+      "vi": [
+        "Ấy là tại vì"
+      ],
+      "en": [
+        "because",
+        "after all"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "今日の試験、できなかった。勉強しなかったんだもん、仕方がない。",
+        "vi": "Hôm nay thi không làm được bài. Ấy là vì không học, nên đành vậy thôi.",
+        "en": "I could not do today's test. I had not studied, so it could not be helped.",
+        "furigana": [],
+        "sourceJapanese": "今日の試験、できなかった。勉強しなかっただもん、仕方がない。"
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:85",
+    "order": 85,
+    "sourcePage": 25,
+    "pattern": "に決まっている",
+    "formations": [
+      "Vる",
+      "N/Ana + に決まっている"
+    ],
+    "meanings": {
+      "vi": [
+        "Nhất định",
+        "Chắc chắn"
+      ],
+      "en": [
+        "certainly",
+        "bound to"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "一人で外国へ旅行するなんて、親に反対されるに決まっている。",
+        "vi": "Tớ chắc chắn bố mẹ cậu sẽ phản đối việc cậu đi du lịch nước ngoài một mình.",
+        "en": "Your parents are bound to oppose you traveling abroad alone.",
+        "furigana": [],
+        "sourceJapanese": "一人で外国へ旅行するなんて、親に反対される決まっている。"
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:86",
+    "order": 86,
+    "sourcePage": 25,
+    "pattern": "に違いない",
+    "formations": [
+      "Vる",
+      "N/Ana + に違いない"
+    ],
+    "meanings": {
+      "vi": [
+        "Chắc chắn là",
+        "Nhất định"
+      ],
+      "en": [
+        "must be",
+        "certainly"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "私の傘がない。誰かが持っていったに違いない。",
+        "vi": "Không thấy ô của tôi đâu. Chắc chắn là ai đó đã cầm rồi.",
+        "en": "My umbrella is missing. Someone must have taken it.",
+        "furigana": [],
+        "sourceJapanese": "私の傘がない。誰かが持っていたに違いない。"
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:87",
+    "order": 87,
+    "sourcePage": 26,
+    "pattern": "おそれがある",
+    "formations": [
+      "Vru",
+      "N + の"
+    ],
+    "meanings": {
+      "vi": [
+        "E là",
+        "E rằng"
+      ],
+      "en": [
+        "there is a risk that",
+        "I fear that"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "大きい地震が起きたら、この建物が倒れるおそれがある。",
+        "vi": "Nếu động đất lớn xảy ra, e là tòa nhà này sẽ đổ mất.",
+        "en": "If a major earthquake occurs, there is a risk that this building will collapse.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:88",
+    "order": 88,
+    "sourcePage": 26,
+    "pattern": "にすぎない",
+    "formations": [
+      "Vる",
+      "N + にすぎない"
+    ],
+    "meanings": {
+      "vi": [
+        "Chỉ là",
+        "Đơn giản chỉ là"
+      ],
+      "en": [
+        "merely",
+        "no more than"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "彼はただ子供にすぎないから、一人で暮らすことができないよ。",
+        "vi": "Nó chỉ là một đứa trẻ, không thể sống một mình được.",
+        "en": "He is only a child, so he cannot live alone.",
+        "furigana": [],
+        "sourceJapanese": "彼はただ子供にすぎないから、一人暮らすことをできないよ。"
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:89",
+    "order": 89,
+    "sourcePage": 26,
+    "pattern": "ことか / ことに / ことだ",
+    "formations": [
+      "Vる"
+    ],
+    "meanings": {
+      "vi": [
+        "Thật là biết bao"
+      ],
+      "en": [
+        "how",
+        "so very"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "合格できたら、どんなにうれしいことか。",
+        "vi": "Nếu mà đỗ thì thật là vui biết mấy.",
+        "en": "How happy I would be if I passed!",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:90",
+    "order": 90,
+    "sourcePage": 26,
+    "pattern": "ものか / もんか",
+    "formations": [
+      "Vる"
+    ],
+    "meanings": {
+      "vi": [
+        "Không đời nào",
+        "Nhất định không"
+      ],
+      "en": [
+        "no way",
+        "definitely not"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "こんなにたくさんの仕事、明日までに終わるものか。",
+        "vi": "Nhiều việc như thế này thì có đến mai cũng nhất định không xong được.",
+        "en": "There is no way this much work will be finished by tomorrow.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:91",
+    "order": 91,
+    "sourcePage": 27,
+    "pattern": "としたら / とすれば",
+    "formations": [
+      "Vる"
+    ],
+    "meanings": {
+      "vi": [
+        "Giả sử"
+      ],
+      "en": [
+        "assuming that",
+        "if it were true"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "その話が本当だとしたら、うれしいです。",
+        "vi": "Giả sử chuyện đó có thật, thì tôi rất vui.",
+        "en": "If that story is true, I will be very happy.",
+        "furigana": []
+      }
+    ],
+    "notes": {
+      "vi": "Giả định khó xảy ra.",
+      "en": "A hypothetical assumption unlikely to occur."
+    }
+  },
+  {
+    "id": "n3-grammar:92",
+    "order": 92,
+    "sourcePage": 27,
+    "pattern": "を通じて / を通して",
+    "formations": [
+      "N +"
+    ],
+    "meanings": {
+      "vi": [
+        "Thông qua"
+      ],
+      "en": [
+        "through",
+        "by means of"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "子供たちはスポーツを通して、いろいろなことを学ぶことができる。",
+        "vi": "Thông qua việc chơi thể thao, trẻ em có thể học được rất nhiều điều.",
+        "en": "Children can learn many things through sports.",
+        "furigana": [
+          {
+            "text": "通じ",
+            "reading": "つうじ"
+          },
+          {
+            "text": "通し",
+            "reading": "とおし"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:93",
+    "order": 93,
+    "sourcePage": 27,
+    "pattern": "しかない / ほか（は）ない",
+    "formations": [],
+    "meanings": {
+      "vi": [
+        "Không còn cách nào khác",
+        "Đành phải"
+      ],
+      "en": [
+        "have no choice but to",
+        "can only"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "パソコンを直せないから、新しいのを買うしかない。",
+        "vi": "Không sửa được máy tính nên không còn cách nào khác phải mua cái mới.",
+        "en": "I cannot repair the computer, so I have no choice but to buy a new one.",
+        "furigana": []
+      },
+      {
+        "japanese": "気は進まないが、上司の命令なので、従うほかはない。",
+        "vi": "Tôi không muốn làm, nhưng vì là mệnh lệnh của cấp trên, nên đành phải tuân theo.",
+        "en": "I am reluctant, but since it is my boss's order, I have no choice but to obey.",
+        "furigana": [
+          {
+            "text": "命令",
+            "reading": "めいれい"
+          },
+          {
+            "text": "従",
+            "reading": "したが"
+          }
+        ],
+        "sourceJapanese": "気は進まないが、上司の命令ので、従うほかはない。"
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:94",
+    "order": 94,
+    "sourcePage": 27,
+    "pattern": "をこめて",
+    "formations": [
+      "N"
+    ],
+    "meanings": {
+      "vi": [
+        "Gửi gắm"
+      ],
+      "en": [
+        "putting into",
+        "with heartfelt"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "平和へのお願いをこめて、この歌を作りました。",
+        "vi": "Tôi đã viết bài hát này với tất cả ước nguyện về hòa bình gửi gắm trong đó.",
+        "en": "I wrote this song with all my hopes for peace in it.",
+        "furigana": [
+          {
+            "text": "平和",
+            "reading": "へいわ"
+          },
+          {
+            "text": "願",
+            "reading": "ねが"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:95",
+    "order": 95,
+    "sourcePage": 28,
+    "pattern": "Vたまま / Vますっぱなし",
+    "formations": [
+      "Vた",
+      "Vます"
+    ],
+    "meanings": {
+      "vi": [
+        "Để V nguyên"
+      ],
+      "en": [
+        "leave as is",
+        "leave doing"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "テレビをつけっぱなしで寝てしまった。",
+        "vi": "Tôi để tivi bật nguyên đó rồi đi ngủ mất.",
+        "en": "I fell asleep with the television left on.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:96",
+    "order": 96,
+    "sourcePage": 28,
+    "pattern": "N + きり / N + っきり",
+    "formations": [
+      "N +"
+    ],
+    "meanings": {
+      "vi": [
+        "Chỉ"
+      ],
+      "en": [
+        "only",
+        "just"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "２人っきりで話したいです。",
+        "vi": "Tôi muốn nói chuyện chỉ có 2 người, chúng ta.",
+        "en": "I want to talk with just the two of us.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:97",
+    "order": 97,
+    "sourcePage": 28,
+    "pattern": "Vたきり",
+    "formations": [
+      "Vた"
+    ],
+    "meanings": {
+      "vi": [
+        "Kể từ khi V thì không có sự thay đổi nữa"
+      ],
+      "en": [
+        "ever since",
+        "since then without change"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "ひろしは本屋へ行ったきり、まだ戻ってこない。",
+        "vi": "Hiroshi kể từ khi đi hiệu sách, vẫn chưa thấy quay trở về.",
+        "en": "Hiroshi went to the bookstore and still has not come back.",
+        "furigana": []
+      }
+    ],
+    "notes": {
+      "vi": "Kể từ khi V thì không có sự thay đổi nữa.",
+      "en": "A situation remains unchanged after the action."
+    }
+  },
+  {
+    "id": "n3-grammar:98",
+    "order": 98,
+    "sourcePage": 28,
+    "pattern": "ふりをする",
+    "formations": [
+      "Vる",
+      "Ana + な",
+      "N + の"
+    ],
+    "meanings": {
+      "vi": [
+        "Giả vờ",
+        "Tỏ ra"
+      ],
+      "en": [
+        "pretend to",
+        "act as if"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "彼は政治について知っているふりをするが、本当は知らないと思う。",
+        "vi": "Anh ta giả vờ như hiểu biết về chính trị lắm, nhưng tôi nghĩ thật sự anh ta chẳng biết gì.",
+        "en": "He pretends to know about politics, but I think he actually knows nothing.",
+        "furigana": [
+          {
+            "text": "政治",
+            "reading": "せいじ"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:99",
+    "order": 99,
+    "sourcePage": 29,
+    "pattern": "くせに",
+    "formations": [
+      "Vる",
+      "Ana + な",
+      "N + の"
+    ],
+    "meanings": {
+      "vi": [
+        "Mặc dù vậy mà"
+      ],
+      "en": [
+        "even though",
+        "despite"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "知っているくせに、教えてくれなかった。",
+        "vi": "Mặc dù biết vậy mà anh ta không nói với tôi.",
+        "en": "Although he knew, he did not tell me.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:100",
+    "order": 100,
+    "sourcePage": 29,
+    "pattern": "N1はもちろん、N2も",
+    "formations": [
+      "N1",
+      "N2"
+    ],
+    "meanings": {
+      "vi": [
+        "N1 là đương nhiên rồi, nhưng N2 cũng"
+      ],
+      "en": [
+        "not only N1 but also N2",
+        "N1 of course and N2 too"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "彼は英語はもちろん、フランス語も話せる。",
+        "vi": "Anh ấy, nói được tiếng anh là điều đương nhiên, nhưng anh ấy còn nói được tiếng Pháp.",
+        "en": "He can speak French as well as English, of course.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:101",
+    "order": 101,
+    "sourcePage": 29,
+    "pattern": "Vます + はじめる",
+    "formations": [
+      "Vます"
+    ],
+    "meanings": {
+      "vi": [
+        "Bắt đầu làm gì"
+      ],
+      "en": [
+        "begin to",
+        "start doing"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "日本語は二年前勉強しはじめた。",
+        "vi": "Tôi bắt đầu học tiếng Nhật 2 năm trước.",
+        "en": "I started studying Japanese two years ago.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:102",
+    "order": 102,
+    "sourcePage": 29,
+    "pattern": "Vてはじめて",
+    "formations": [
+      "Vて"
+    ],
+    "meanings": {
+      "vi": [
+        "Kể từ khi làm V thì mới nhận ra",
+        "Kể từ khi làm V thì mới hiểu ra"
+      ],
+      "en": [
+        "only after doing",
+        "not until"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "一人暮らしをして初めて、家族の大切さをわかってきた。",
+        "vi": "Kể từ khi sống một mình tôi mới hiểu được tầm quan trọng của gia đình.",
+        "en": "Only after living alone did I begin to understand the importance of family.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:103",
+    "order": 103,
+    "sourcePage": 29,
+    "pattern": "Vます + たて",
+    "formations": [
+      "Vます"
+    ],
+    "meanings": {
+      "vi": [
+        "Vừa mới là V xong"
+      ],
+      "en": [
+        "freshly done",
+        "just done"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "焼きたてのパンはおいしいですね。",
+        "vi": "Bánh mì mới nướng xong rất ngon nhỉ.",
+        "en": "Freshly baked bread is delicious, isn't it?",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:104",
+    "order": 104,
+    "sourcePage": 30,
+    "pattern": "Nをはじめ（として）",
+    "formations": [
+      "N"
+    ],
+    "meanings": {
+      "vi": [
+        "Trước tiên phải kể đến là"
+      ],
+      "en": [
+        "starting with",
+        "including especially"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "今年は富士山をはじめ、各地の有名な山に登りましょう。",
+        "vi": "Năm nay chúng ta hãy cùng leo các núi nổi tiếng ở các nơi, mà trước tiên là núi Phú Sĩ.",
+        "en": "This year, let us climb famous mountains in various places, starting with Mount Fuji.",
+        "furigana": [
+          {
+            "text": "各地",
+            "reading": "かくち"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:105",
+    "order": 105,
+    "sourcePage": 30,
+    "pattern": "Vます + かけ",
+    "formations": [
+      "Vます"
+    ],
+    "meanings": {
+      "vi": [
+        "Làm V còn dang dở, chưa xong"
+      ],
+      "en": [
+        "half done",
+        "unfinished"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "これは私の読みかけの本です。",
+        "vi": "Đây là cuốn sách tôi đang đọc dở.",
+        "en": "This is the book I am partway through reading.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:106",
+    "order": 106,
+    "sourcePage": 30,
+    "pattern": "Vます + 上がる / Vます + 上げる",
+    "formations": [
+      "Vます"
+    ],
+    "meanings": {
+      "vi": [
+        "Vừa xong",
+        "Vừa hoàn thành"
+      ],
+      "en": [
+        "finish doing",
+        "complete"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "やっとレポートを書き上げました？",
+        "vi": "Cuối cùng thì cũng đã viết xong báo cáo?",
+        "en": "Have you finally finished writing the report?",
+        "furigana": [],
+        "sourceJapanese": "やっとレポートを書き上がりました？"
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:107",
+    "order": 107,
+    "sourcePage": 30,
+    "pattern": "N + だらけ",
+    "formations": [
+      "N +"
+    ],
+    "meanings": {
+      "vi": [
+        "Đầy",
+        "Toàn những thứ gây khó chịu"
+      ],
+      "en": [
+        "covered with",
+        "full of"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "毎日サッカーをしているので、傷だらけになった。",
+        "vi": "Vì ngày nào cũng chơi bóng nên người đầy vết thương.",
+        "en": "I play soccer every day, so I am covered in injuries.",
+        "furigana": [
+          {
+            "text": "傷",
+            "reading": "きず"
+          }
+        ]
+      }
+    ],
+    "notes": {
+      "vi": "Những thứ gây khó chịu.",
+      "en": "Usually undesirable things."
+    }
+  },
+  {
+    "id": "n3-grammar:108",
+    "order": 108,
+    "sourcePage": 31,
+    "pattern": "Vます + きる / 切れる",
+    "formations": [
+      "Vます"
+    ],
+    "meanings": {
+      "vi": [
+        "Hoàn thành V một cách triệt để"
+      ],
+      "en": [
+        "do completely",
+        "finish entirely"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "ご飯の量が多くて、食べきれなかった。",
+        "vi": "Cơm nhiều quá tôi không ăn hết được.",
+        "en": "There was so much rice that I could not finish it all.",
+        "furigana": []
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:109",
+    "order": 109,
+    "sourcePage": 31,
+    "pattern": "Vます + 出す",
+    "formations": [
+      "Vます"
+    ],
+    "meanings": {
+      "vi": [
+        "Bắt đầu làm V một cách đột ngột"
+      ],
+      "en": [
+        "suddenly start doing",
+        "burst into"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "彼は私の顔を見ると、突然笑い出した。",
+        "vi": "Anh ấy nhìn thấy khuôn mặt của tôi thì đột nhiên bật cười.",
+        "en": "When he saw my face, he suddenly burst out laughing.",
+        "furigana": [
+          {
+            "text": "突然笑",
+            "reading": "とつぜんわら"
+          }
+        ]
+      }
+    ],
+    "notes": {
+      "vi": "Một cách đột ngột.",
+      "en": "A sudden start."
+    }
+  },
+  {
+    "id": "n3-grammar:110",
+    "order": 110,
+    "sourcePage": 31,
+    "pattern": "Vます + 通す",
+    "formations": [
+      "Vます"
+    ],
+    "meanings": {
+      "vi": [
+        "Suốt V",
+        "Làm V một mạch từ đầu đến cuối"
+      ],
+      "en": [
+        "do throughout",
+        "keep doing to the end"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "彼は何を聞かれても、黙り通した。",
+        "vi": "Anh ta dù bị nói cái gì, cũng chỉ im lặng suốt.",
+        "en": "No matter what he was asked, he remained silent throughout.",
+        "furigana": [
+          {
+            "text": "黙",
+            "reading": "だま"
+          },
+          {
+            "text": "通",
+            "reading": "とお"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "n3-grammar:111",
+    "order": 111,
+    "sourcePage": 31,
+    "pattern": "Vます + がち",
+    "formations": [
+      "Vます"
+    ],
+    "meanings": {
+      "vi": [
+        "Hay V",
+        "Thường có khuynh hướng làm V"
+      ],
+      "en": [
+        "tend to",
+        "often do"
+      ]
+    },
+    "examples": [
+      {
+        "japanese": "最近、忘れがちだ。",
+        "vi": "Dạo này tôi rất hay quên.",
+        "en": "I tend to forget things recently.",
+        "furigana": []
+      }
+    ]
+  }
+]

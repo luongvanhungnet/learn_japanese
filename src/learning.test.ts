@@ -1,5 +1,24 @@
 import { expect, test } from 'vitest'
-import { hintPrefix, isCorrect, nextHint, parseProgress, revealAnswer, submitAnswer } from './learning'
+import { clearReveal, hintPrefix, isCorrect, nextHint, parseProgress, revealAnswer, submitAnswer } from './learning'
+
+test('restores grammar formation and language-specific meaning progress', () => {
+  const cell = { solved: true, unresolved: false, revealed: false, hints: 0 }
+  const saved = { 'n3-grammar:1:formation': cell, 'n3-grammar:1:meaning:vi': cell, 'n3:1:reading': cell }
+  expect(Object.keys(parseProgress(JSON.stringify(saved)))).toEqual(Object.keys(saved))
+})
+
+test('formation grading accepts notation spacing but preserves Japanese voicing', () => {
+  expect(isCorrect('formation', ' N - no ', ['Vru', 'N-no'])).toBe(true)
+  expect(isCorrect('formation', 'Vだ', ['Vた'])).toBe(false)
+})
+
+test('formation accepts equivalent romanized and Japanese source notation', () => {
+  expect(isCorrect('formation', 'Vる', ['Vru'])).toBe(true)
+  expect(isCorrect('formation', 'Vて', ['V-Te'])).toBe(true)
+  expect(isCorrect('formation', 'Vた', ['Vta'])).toBe(true)
+  expect(isCorrect('formation', 'N + の', ['N-no'])).toBe(true)
+  expect(isCorrect('formation', 'Vない', ['Vnai'])).toBe(true)
+})
 
 test('accepts one of several Vietnamese meanings', () => {
   expect(isCorrect('meaning', 'rủ', ['mời', 'rủ'])).toBe(true)
@@ -19,15 +38,26 @@ test('keeps a mistake unresolved after a correct answer in normal mode', () => {
 
 test('clears a mistake only after a correct answer in review mode', () => {
   const wrong = submitAnswer({}, 'n3:1:reading', false, 'study')
-  const shown = revealAnswer(wrong, 'n3:1:reading')
-  expect(shown['n3:1:reading'].unresolved).toBe(true)
-  const fixed = submitAnswer(shown, 'n3:1:reading', true, 'review', 'だんせい')
+  const fixed = submitAnswer(wrong, 'n3:1:reading', true, 'review', 'だんせい')
   expect(fixed['n3:1:reading']).toMatchObject({ solved: true, unresolved: false, revealed: false })
 })
 
-test('revealing an answer never marks it solved or as a mistake', () => {
+test('revealing an answer adds a mistake without marking it solved', () => {
   const result = revealAnswer({}, 'n2:1:reading')
-  expect(result['n2:1:reading']).toMatchObject({ revealed: true, solved: false, unresolved: false })
+  expect(result['n2:1:reading']).toMatchObject({ revealed: true, solved: false, unresolved: true })
+})
+
+test.each(['hint', 'answer'])('an assisted review using %s stays a mistake until a later unaided correct attempt', (aid) => {
+  const key = 'n3:1:reading'
+  const helped = aid === 'hint' ? nextHint({}, key, 'だんせい') : revealAnswer({}, key)
+  expect(helped[key].unresolved).toBe(true)
+  // Expiring visible help and reloading must not erase assistance for this attempt.
+  const expired = clearReveal({ ...helped, [key]: { ...helped[key], hints: 0 } }, key)
+  const restored = parseProgress(JSON.stringify(expired))
+  const assistedCorrect = submitAnswer(restored, key, true, 'review', 'だんせい')
+  expect(assistedCorrect[key]).toMatchObject({ solved: true, unresolved: true, hints: 0 })
+  const unaidedCorrect = submitAnswer(assistedCorrect, key, true, 'review', 'だんせい')
+  expect(unaidedCorrect[key].unresolved).toBe(false)
 })
 
 test('Hint+ reveals one grapheme at a time without counting spaces', () => {

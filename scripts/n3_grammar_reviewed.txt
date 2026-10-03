@@ -1,0 +1,137 @@
+# Visually reviewed transcription of Ebook n3.pdf. Columns:
+# PDF page | pattern | accepted formations (; separated) | Vietnamese meanings (; separated) | English meanings (; separated) | Japanese example | Vietnamese translation | English translation | source furigana (optional, word=reading;...)
+# Lines beginning + append an example to the preceding entry.
+4|うちに|Vru;N-no;A(na);A(i)|Trong khi;Trong lúc;Trong lúc đang|while;during;while there is still time|日本にいるうちに一度富士山に登ってみたい。|Trong lúc ở Nhật, tôi muốn thử một lần leo núi Phú Sĩ.|While I am in Japan, I want to try climbing Mount Fuji once.
++|音楽を聞いているうちに、眠ってしまった。|Trong lúc đang nghe nhạc thì ngủ mất.|I fell asleep while listening to music.
+4|間 / 間に|Vru;N-no|Trong suốt;Trong khi;Trong lúc|throughout;while;during|彼は会議の間ずっと眠りをしていた。|Anh ta ngủ gật suốt buổi họp.|He was dozing throughout the meeting.
++|留守の間にどろぼうが入った。|Trong khi tôi vắng nhà, đã có kẻ trộm vào nhà.|A burglar entered while I was away.
+4|てからでないと / てからでなければ|V-Te|Nếu không làm V1, thì V2 khó mà thực hiện được|unless V1 is done first;not until|家族と相談してからでないと、買うかどうかまだ決められない。|Nếu không thảo luận với gia đình, thì tôi không thể quyết định được có mua hay không.|I cannot decide whether to buy it until I have discussed it with my family.
+4|Vるところ / Vているところ / Vたところ|Vる;Vている;Vた|Sắp sửa;Đang trong lúc làm V;Vừa mới làm V|about to;in the middle of doing;have just done|ロケットは間もなく飛び立つところです。金賞の瞬間です。|Tên lửa sắp sửa cất cánh. Đây là khoảnh khắc giành huy chương vàng.|The rocket is about to take off. It is a gold-medal moment.
++|試験中、隣の人の答えを見ているところを先生に注意された。|Trong lúc đang nhìn đáp án của người bên cạnh khi thi, tôi bị thầy nhắc nhở.|The teacher warned me while I was looking at the answers of the person next to me during the exam.
+5|とおり（に / だ） / どおり（に / だ）|Vru;N-no とおり;N + どおり|Theo như;Đúng theo như|as;just as;in accordance with|人生は自分の思うとおりにはいかない。|Trên đời mọi chuyện không xảy ra theo như mình nghĩ.|Life does not go just as we imagine.
+5|によって / によっては|N +|Tùy vào;Tùy vào từng trường hợp mà|depending on;depending on the case|国によって習慣が違う。|Tùy vào từng quốc gia mà phong tục khác nhau.|Customs differ depending on the country.
++|明日は、所によっては、雨が降るかもしれない。|Ngày mai tùy vào từng vùng, mà có vùng có thể sẽ mưa.|Tomorrow it may rain in some areas.
+5|たびに|Vru;N-no|Cứ mỗi khi lại|every time;whenever|山に行くたびに雨に降られる。|Cứ mỗi lần leo núi là trời lại mưa.|Every time I go to the mountains, I get caught in the rain.
+5|ば、～ほど|Thể điều kiện giả định trước ば / Thể thông thường trước ほど|Càng càng|the more the more|物が増えれば増えるほど整理が大変になる。|Đồ càng nhiều thì sắp xếp càng vất vả.|The more things there are, the harder it becomes to organize them.|整理=せいり
+6|ついでに|N-no;Vru|Nhân tiện;Tiện thể|while you are at it;on the way;take the opportunity to|散歩のついでにこのはがきをポストに出してきて。|Nhân tiện đi dạo thì hãy bỏ bưu thiếp vào hòm thư.|Please post this postcard while you are out for a walk.
+6|ぐらい||Chí ít;Ít ra;Cỡ;Khoảng bằng|at least;about;approximately|日曜日ぐらい休ませてください。|Hãy cho tôi nghỉ chí ít ngày chủ nhật.|Please let me have at least Sundays off.
++|うちの娘ぐらいの女の子が泣いていた。|Có một cô bé cỡ khoảng con gái tôi đang khóc.|A girl about my daughter's age was crying.
+6|くらい / ほど|Vru;N|Đến mức;Tới mức|to the extent that;so that|この店のパンはおいしい。毎日食べたいくらいだ。|Bánh mì của cửa hàng này ngon. Đến mức ngày nào tôi cũng muốn ăn.|This shop's bread is delicious. It is so good that I want to eat it every day.
+6|くらい～Nはない / ほど～Nはない|N +|Không có N nào bằng|nothing is as;there is nothing like|私は料理を作ることぐらい楽しいことはないと思っています。|Tôi nghĩ không có điều gì vui vẻ bằng việc nấu ăn.|I think nothing is as enjoyable as cooking.
++|テストほどいやなものはない。|Không có điều gì chán ghét bằng thi cử.|There is nothing as unpleasant as tests.
+7|ぐらいなら / くらいなら|Vru|Nếu phải V thì thà|rather than;if I have to then I would rather|あいつに助けてもらうくらいなら、死んだほうがましだ。|Nếu phải nhờ hắn giúp thì thà còn chết còn hơn.|I would rather die than ask him for help.
+7|に限る|N;Vru|Là nhất;Là tốt nhất|is best;there is nothing better than|やっぱり映画は映画館で見るに限る。|Quả nhiên là xem phim ở rạp chiếu phim là nhất.|After all, watching movies in a cinema is best.
+7|に対して|Vru-no;N|Đối với;Trái ngược với|towards;in contrast to|目上の人に対して、敬語を使います。|Dùng kính ngữ với người trên.|Use polite language towards people senior to you.
++|昨日は大阪では大雨だったのに対して、東京はいい天気だった。|Hôm qua trái ngược với ở Osaka trời mưa lớn thì Tokyo thời tiết đẹp.|Yesterday, while it rained heavily in Osaka, Tokyo had fine weather.
+7|反面|Vru|Mặt khác;Trái lại|on the other hand;whereas|都会の生活は面白いことが多い反面、ストレスも多い。|Cuộc sống của thành phố có nhiều điều thú vị, mặt khác thì cũng nhiều căng thẳng.|City life has many interesting things, but on the other hand it also has much stress.
+8|一方（で）|Vru|Một mặt thì V, mặt khác thì|on the one hand on the other hand|会議では自分の意見を言う一方で、他の人の話もよく聞いてください。|Trong buổi họp, một mặt thì nói ý kiến của bản thân, mặt khác thì hãy nghe cả ý kiến của người khác nữa.|At meetings, express your own opinions while also listening carefully to others.
+8|というより||Nên nói là thì đúng hơn|rather than;more accurately|みちこは歩くのが速い。歩くというより走るという感じだ。|Bé Michiko đi rất nhanh. Có cảm giác là chạy hơn là đi.|Michiko walks very fast. It feels more like running than walking.
+8|かわりに|Vru|Thay vào đó;Bù lại|instead of;in return for|リーさんに英語を教えてもらっているかわりに、リーさんの仕事を手伝っている。|Bù lại cho việc bạn Ly dạy tiếng tiếng Anh thì tôi giúp việc cho bạn Ly.|In return for Lee teaching me English, I help with Lee's work.
+8|ためだ / ため（に）|Vru;N-no|Bởi vì;Vì|because;due to|報告書にミスが多かったのは、よく見直しをしなかったためだろう。|Bản báo cáo có nhiều lỗi có lẽ là bởi vì đã không xem và sửa kĩ.|The report probably had many errors because it was not reviewed carefully.
+9|によって / による|N + によって;N + による + N|Do;Vì|due to;because of;by means of|うちの工場では、材料不足によってたたみの生産はもうできなくなった。|Công trường của chúng tôi, do thiếu nguyên liệu nên không thể sản xuất được chiếu tatami.|Our factory can no longer produce tatami mats because of a shortage of materials.
++|外国語を学ぶことによって、その国の人たちの考え方も知ることができる。|Nhờ vào việc học ngoại ngữ mà chúng ta có thể hiểu được cách suy nghĩ của con người đất nước đó.|By learning a foreign language, we can understand how people in that country think.
+9|から / ことから|Vru + ことから;N + から|Vì|because;judging from|顔がよく似ていることから、二人は親子だとすぐにわかった。|Bởi vì khuôn mặt giống nhau nên tôi biết ngay hai người họ là bố con.|From their similar faces, I immediately realized the two were parent and child.|親子=おやこ
+9|おかげだ / おかげで|N-no;Vru|Nhờ vào|thanks to|いい会社に就職が決まったのは先生のおかげです。ありがとうございます。|Việc quyết định làm cho một công ty tốt là nhờ có thầy. Em cảm ơn thầy.|It is thanks to my teacher that I got a job at a good company. Thank you.|就職=しゅうしょく
+10|せいで / せいだ|Vru;N-no;Ana-na|Do;Tại vì|because of;due to;owing to|最近、忙しかったせいで、かなり疲れている。|Do gần đây rất bận nên tôi khá mệt mỏi.|I am quite tired because I have been busy recently.
+10|のだから / んだから|N/Na + na;A;V|Bởi vì;Vì thực sự là nên đương nhiên|since;because naturally|まだ子供なのだから、わからなくても仕方がないでしょう。|Vì cậu còn trẻ con, nên không hiểu chuyện cũng phải thôi.|Since you are still a child, it is understandable that you do not know.
+10|（の）なら|Vru + (の)なら;N/Ana + なら|Nếu;Giả sử|if;supposing|真相を知っているのなら、私に教えてほしい。|Nếu biết sự thật, xin anh hãy cho tôi biết.|If you know the truth, I want you to tell me.|真相=しんそう
+10|ては / （の）では|A-kuては;N/Naでは;Vては|Nếu với điều kiện như thế này thì sẽ khó xử|if that is the case;under such conditions|この仕事に時給500円では人が見つかりません。|Nếu 500 yên một giờ cho công việc này thì sẽ không tìm được người làm.|At 500 yen an hour for this job, we will not find anyone to do it.|時給=じきゅう
+11|さえ～ば / さえ～なら||Chỉ cần là đủ|as long as;if only|あなたさえそばにいてくだされば、ほかにはなにもいりません。|Chỉ cần có anh ở bên cạnh, ngoài ra em không cần gì cả.|As long as you are by my side, I need nothing else.
+11|N + さえ|N +|Ngay cả;Đến cả|even|冷蔵庫には卵さえ入っていない。|Trong tủ lạnh đến ngay cả quả trứng cũng không có.|There is not even an egg in the refrigerator.|冷蔵庫=れいぞうこ;卵=たまご
+11|たとえ～ても / たとえ～でも||Cho dù đi nữa thì|even if;no matter how|たとえ周りの人たちにどんなに反対されても、僕はプロの歌手になりたい。|Cho dù những người xung quanh có phản đối thế nào đi nữa thì tôi vẫn muốn trở thành một ca sĩ chuyên nghiệp.|No matter how much people around me oppose it, I still want to become a professional singer.
+11|ということだ / とのことだ|Vru|Nghe nói|I hear that;it is said that|市のお知らせによれば、この道路は来週から工場が始まるということです。|Theo như thông báo của thành phố, thì nghe nói con đường này sẽ bắt đầu được thi công từ tuần sau.|According to the city notice, construction on this road will begin next week.
+12|と言われている|Vru|Được cho rằng;Người ta nói rằng|it is said that;people say that|この泉の水を飲めば若がえるといわれている。|Người ta nói rằng nếu uống nước ở con suối đó thì sẽ trẻ lại.|It is said that drinking water from this spring makes you young again.|泉=いずみ
+12|とか|Vru|Nghe đâu thì phải|I hear that;apparently|隣の娘さんは来月結婚式を挙げるとか。|Nghe đâu con gái nhà hàng xóm tháng tới sẽ tổ chức đám cưới thì phải.|I hear that the neighbor's daughter is getting married next month.|隣=となり;結婚式=けっこんしき;挙=あ
+12|って|Vru|Rằng|that;quoting|彼はすぐ来るって言っています。|Anh ta nói rằng sẽ đến ngay.|He says he will come right away.
+12|という|Vru|Nghe nói|it is said that;reportedly|この辺りは昔、広い野原だったという。|Nghe nói vùng này ngày xưa là một thảo nguyên rộng lớn.|It is said that this area was once a vast grassland.|辺=あた;野原=のはら
+13|わけだ|Vru;A;N + na|Vậy là;Kết luận|that means;so;it follows that|ここから東京駅まで１時半か。じゃ今から出れば９時に着くわけだ。|Từ đây đến ga Tokyo mất một tiếng rưỡi à. Vậy là nếu xuất phát từ bây giờ thì 9h sẽ đến nơi.|It takes an hour and a half to Tokyo Station from here? Then if we leave now, we will arrive at nine.
+13|はずがない / わけがない|Vru|Chắc chắn không;Làm gì có chuyện|cannot possibly;there is no way|あの店が今日休みのはずはありません。電話で確認したんですから。|Cửa hàng đó ngày hôm nay chắc chắn không nghỉ. Vì tôi đã gọi điện xác nhận rồi.|That shop cannot possibly be closed today. I confirmed by phone.|確認=かくにん
+13|とは限らない|Vru|Không nhất thiết;Chưa chắc đã|not necessarily|日本語を教えているのは日本人とは限らない。|Người dạy tiếng Nhật không nhất thiết phải là người Nhật.|People who teach Japanese are not necessarily Japanese.
+13|わけではない / というわけではない / のではない||Không phải là;Không hẳn là;Không có nghĩa là|it does not mean that;not necessarily;it is not that|このレストランはいつも客が一杯いたが、だからといって特別においしいわけではない。|Nhà hàng này lúc nào cũng đầy khách, nhưng điều đó không có nghĩa là đặc biệt ngon.|This restaurant is always full of customers, but that does not mean it is especially delicious.
+14|わけにはいかない||Không thể V|cannot do;cannot afford to|ちょっと熱があるが、今日は大事な会議があるので、仕事を休むわけにはいかない。|Tôi hơi bị sốt, nhưng vì hôm nay có một cuộc họp quan trọng, nên tôi không thể nghỉ làm.|I have a slight fever, but I cannot take the day off because there is an important meeting today.
+14|ないわけにはいかない||Không thể không V|cannot avoid doing;have to do|この町では自転車がないとやはり困る。買わないわけにはいかない。|Ở thành phố này đúng là không có xe đạp rất khổ. Không thể không mua.|It is difficult to get by in this town without a bicycle. I have to buy one.
+14|ないことはない|Vnai|Không phải là không|it is not impossible;not entirely impossible|これから駅まで歩けないことはないが、かなり時間がかかりますよ。|Từ đây đến nhà ga không phải là không thể đi bộ, nhưng khá tốn thời gian.|It is possible to walk to the station from here, but it takes quite a while.
+14|ことは～が||Có thì có thật đấy nhưng mà|it is true that but;I did but|読んだことは読んだが、全然分からない。|Tuy đọc thì có đọc thật đấy nhưng mà hoàn toàn không hiểu gì.|I did read it, but I did not understand it at all.
+15|てもらいたい / ていただきたい / てほしい|Vte|Muốn ai đó làm gì cho mình|want someone to do something for me|この書類、ちょっと見ていただきたいんですが。|Anh có thể xem tài liệu giúp tôi được không.|I would like you to take a look at this document.|書類=しょるい
++|年を取った親にはもう無理をしてほしくない。|Tôi không muốn bố mẹ nhiều tuổi rồi còn làm việc quá sức.|I do not want my elderly parents to overwork themselves.
+15|させてもらいたい / させていただきたい / させてほしい||Cho phép tôi làm|please let me do;allow me to|私に行かせてほしいんです。|Hãy để cho tôi đi.|Please let me go.
++|この件は僕に任せていただきたいです。|Cho phép tôi làm việc này.|Please let me handle this matter.|任=まか
+15|といい / ばいい / たらいい||Ước gì;Mong là;Nên;Không nên|I hope;I wish;should;should not|生まれてくる子が男の子だったらいいのだが。|Mong sao đứa con sắp ra đời là một đứa con trai.|I hope the baby to be born will be a boy.
++|若いうちに色々苦労したらいいと思う。あとできっと役に立つはず。|Tôi nghĩ lúc trẻ việc chịu nhiều khổ nhọc. Sau này thế nào cũng có ích.|I think it is good to experience various hardships while young. They will surely be useful later.|苦労=くろう
+16|命令（しろ） / 禁止（な）||Hãy;Không được|do;do not;command;prohibition|引っ越しを手伝ってくれと友達に頼んだ。|Tôi đã nhờ bạn bè hãy giúp tôi chuyển nhà.|I asked my friends to help me move.|越=こ;友達=ともだち;頼=たの
++|父は医者にお酒を飲むなと言われている。|Bố tôi đã được bác sĩ bảo là cấm uống rượu.|My father has been told by the doctor not to drink alcohol.
+16|こと|Vru|Phải;Không được|must;must not|休む時、必ず学校に連絡すること。|Khi nào nghỉ nhất định phải liên lạc với nhà trường.|When absent, you must contact the school.|必=かなら;連絡=れんらく
+16|べきだ / べき / べきではない||Nên;Cần làm gì;Không nên làm gì|should;ought to;should not|これは大事なことですから、もう少し話し合ってから決めるべきだ。|Vì đây là việc quan trọng, chúng ta nên thảo luận rồi quyết định.|This is important, so we should discuss it a little more before deciding.
++|せっかく入った会社なのだから、簡単に辞めるべきではない。|Vì đã mất công để vào công ty, đừng nên từ bỏ dễ dàng thế chứ.|Since you worked hard to join the company, you should not quit so easily.
+16|たらどうか|Vta|Thử làm V xem sao|why not try;how about doing|体のことが心配なら、一度健康診断を受けたらどうでしょうか。|Nếu anh lo lắng cho tình trạng cơ thể, thì thử một lần đi khám sức khỏe xem sao.|If you are worried about your health, why not have a medical checkup?|一度健康診断=いちどけんこうしんだん
+17|ことにする / ことにしている||Tôi quyết định|decide to;make it a rule to|冷蔵庫が壊れたので、新しいのを買うことにした。|Vì tủ lạnh bị hỏng, nên tôi quyết định mua cái mới.|The refrigerator broke, so I decided to buy a new one.|冷蔵庫=れいぞうこ;壊=こわ
+17|ようにする / ようにしている||Tôi cố gắng làm gì|try to;make an effort to|私はなるべく自分で料理を作って食べるようにしている。|Tôi cố gắng ăn đồ mình tự nấu càng nhiều càng tốt.|I try to cook my own meals as much as possible.
+17|（よ）うとする||Định làm gì|be about to;try to do|家を出ようとしたとき、突然大雨が降り出した。|Khi tôi đang định ra ngoài, thì trời đổ mưa lớn.|Just as I was about to leave the house, it suddenly began raining heavily.
+17|つもりだ|N-no;Ana-na;Vta|Cứ tưởng rằng;Cứ cho rằng|believe that;think that|私は今年７７歳ですが、まだまだ若いつもりです。|Tôi năm nay đã 77 tuổi, nhưng tôi vẫn nghĩ rằng mình vẫn còn trẻ lắm.|I am seventy-seven this year, but I still think I am very young.
+18|こそ|N + こそ|Chính|precisely;it is exactly|親だからこそ自分の子を厳しくしかるのだ。|Chính bởi vì là cha mẹ nên mới mắng nghiêm khắc đứa con của mình.|It is precisely because we are parents that we scold our children strictly.|厳=きび
+18|でも|N + でも|Thậm chí;Ngay cả;Những thứ như là|even;something like|そんなことは子供でも知っている。|Chuyện như thế ngay cả đứa trẻ con cũng biết.|Even children know that.
++|お茶でも飲みましょうか。|Chúng ta đi uống những thứ như trà có được không?|Shall we have some tea or something?
+18|も||Hoàn toàn không;Đến ngay cả|not even;even|一日も休まないで学校に通った。|Đi học mà hoàn toàn không được nghỉ một ngày nào.|I went to school without taking even a single day off.
++|こんなに高い山の上にも店がある。|Đến ngay cả trên đỉnh ngọn núi cao như thế mà cũng có cửa hàng.|There is a shop even on top of such a high mountain.
+18|まで||Tới cả cũng|even;as far as|会ったことがない人まで年賀状を出した。|Tôi gửi thiệp chúc tết tới cả những người tôi chưa bao giờ gặp.|I sent New Year cards even to people I have never met.|年賀状=ねんがじょう
+19|など / なんか / なんて||Chẳng hạn;Những thứ như là|for example;things like|この服などはいかがですか。似合いますよ。|Chẳng hạn như bộ trang phục này thì thế nào. Hợp đó.|How about these clothes, for example? They suit you.|似合=にあ
++|ダイエットなんかしたくない。|Tôi không muốn làm những thứ như giảm cân.|I do not want to do things like dieting.
+19|について|N + について|Về|about;concerning|すみませんが、入学手続きについて聞きたいのですが。|Xin lỗi, tôi muốn hỏi về thủ tục nhập học.|Excuse me, I would like to ask about the enrollment procedure.|入学手続=にゅうがくてつづ
+19|にとって|N + にとって|Đối với;Nhìn từ lập trường của|for;from the standpoint of|若い女性にとって買い物は楽しいことです。|Đối với phụ nữ trẻ thì mua sắm là một thú vui.|For young women, shopping is enjoyable.
+19|として|N + として|Với tư cách;Với vai trò là|as;in the role of|私はコーヒーカップを花びんとして使っています。|Tôi sử dụng cốc cà phê như là một bình hoa.|I use a coffee cup as a flower vase.
+20|ことがある / こともある|Vru|Có lúc|sometimes;there are times when|妻は僕が話しかけても返事をしないことがある。|Vợ tôi có lúc tôi nói chuyện cũng không trả lời lại.|Sometimes my wife does not answer even when I speak to her.|妻=つま
+20|ことはない|Vru|Không cần phải|there is no need to|面接の質問は簡単です。そんなに心配することはありませんよ。|Câu hỏi của phỏng vấn dễ nên không cần phải lo lắng như thế đâu.|The interview questions are easy. There is no need to worry so much.|面接=めんせつ
+20|（かの）ようだ / のようだ|N;Vru|Giống như là;Cứ như là|as if;looks like|今日は暖かくて、まるで春が来たかのようだ。|Hôm nay thời tiết ấm áp cứ như là mùa xuân đã đến vậy.|It is warm today, as if spring has arrived.
+20|ように|N-no;Vru|Giống như;Như là;Chẳng hạn như|like;such as|人間のように、植物にも栄養が必要だ。|Giống như con người, đối với thực vật thì dinh dưỡng cũng cần thiết.|Like humans, plants also need nutrients.
++|私はにんじんやピーマンのような濃い色の野菜が好きだ。|Tôi thích rau củ có màu đậm chẳng hạn như cà rốt, ớt...|I like deeply colored vegetables such as carrots and green peppers.|濃=こ
+21|ように|N-no;Vru|Đúng như;Như những gì mà|just as;as stated|前にも話したように、来週は私が日本にいません。|Như những gì đã nói từ trước, tuần sau tôi không có ở Nhật Bản.|As I said before, I will not be in Japan next week.
+21|ように|N-no;Vru|Để V;Để không V|so that;in order to|よく眠れるようにワインを少し飲んだ。|Để có thể ngủ được thì tôi đã uống một chút rượu vang.|I drank a little wine so that I could sleep well.
+21|よう（に）いう / 注意する / 頼む|Vru;Vnai|Bảo hãy V;Chú ý đừng V;Nhờ hãy V|tell someone to;warn someone not to;ask someone to|すぐ家に帰るように言われました。|Tôi đã được bảo là hãy trở về nhà ngay.|I was told to return home immediately.
++|これからは遅刻しないように注意しておきます。|Tôi đã lưu ý anh ta là từ giờ trở đi đừng có đi trễ.|I will warn him not to be late from now on.
+21|N（+ trợ từ）ばかり|N (+ trợ từ)|Chỉ toàn N|nothing but;only|このごろ、夜遅く変な電話ばかりかかってくる。|Gần đây, về khuya, tôi nhận được toàn là những cú điện thoại đáng ngờ.|Recently, I have been getting nothing but strange phone calls late at night.
+22|Vてばかりいる|Vて|V suốt ngày;V hoài|do nothing but;keep doing|彼は寝てばかりいる。|Anh ấy ngủ suốt ngày.|He does nothing but sleep.
+22|ばかりか / ばかりでなく||Không chỉ mà còn|not only but also|会社の同僚ばかりか家族までが私をバカにしている。|Không chỉ đồng nghiệp, mà cả gia đình cũng coi thường tôi.|Not only my colleagues but even my family look down on me.
++|山田さんは英語ばかりでなく中国語も話せる。|Anh Yamada không những nói được tiếng Anh mà cả tiếng Trung Quốc.|Yamada can speak not only English but also Chinese.
+22|Vたばかりだ|Vた|Vừa mới làm V|have just done|さっき着いたばかりだ。|Tôi vừa mới tới nơi lúc nãy.|I have only just arrived.
+22|Vるばかりだ|Vる|Cứ V;Chỉ còn chờ V là xong|keep getting;all that remains is to|手術が終わってからも、父の病気は悪くなるばかりでした。|Cả sau khi phẫu thuật, bệnh tình của bố tôi vẫn cứ xấu đi.|Even after the operation, my father's illness kept getting worse.
++|荷物もみんな用意して、すぐにも出かけるばかりです。|Tôi đã chuẩn bị xong hành lí, chỉ còn chờ lên đường.|All the luggage is ready; all that remains is to set off.
+23|ばかりに|Vta ばかりに;A ばかりに|Chỉ vì;Chỉ tại|just because;simply because|働きがないばかりに、妻にバカにされている。|Chỉ tại không có việc làm mà tôi bị vợ coi thường.|My wife looks down on me simply because I have no job.
+23|も～ば～も||Cũng và cũng|both and;as well as|彼は心臓が悪いくせに酒も飲めば煙草も吸う。|Anh ấy bị bệnh tim nặng, vậy mà rượu cũng uống, thuốc cũng hút.|Despite his heart condition, he both drinks alcohol and smokes.|心臓=しんぞう;煙草=たばこ
+23|といった|N + といった|Ví dụ như;Những thứ như là|such as;things like|私はこれまで、主にタイや中国、マレーシアといったアジアの国を回って、写真を撮っていました。|Cho tới giờ tôi đã đi xung quanh các nước Châu Á như chủ yếu là Thái Lan, Trung Quốc, Malaysia để chụp ảnh.|Until now, I have mainly traveled around Asian countries such as Thailand, China, and Malaysia to take photographs.
+23|っけ？|Vた;N/Ana + だ;Ai + かった|Ấy nhỉ|what was it again;was it|次の祝日っていつだっけ？来週だっけ？|Ngày nghỉ kế tiếp là lúc nào ấy nhỉ? Có phải tuần sau không nhỉ?|When is the next public holiday again? Is it next week?
+24|がる|Vたい がる|Ai đó muốn làm gì|someone wants to;shows signs of wanting to|彼はいつも私の給料の額を知りたがっている。|Hắn ta lúc nào cũng muốn biết số tiền lương của tôi.|He always wants to know how much I earn.
+24|てたまらない / てならない / てしょうがない||Rất đến nỗi không chịu được|unbearably;extremely;cannot help feeling|エアコンを使わないと暑くてたまらない。|Nếu không dùng điều hòa thì rất nóng, nóng không chịu được.|Without air conditioning, it is unbearably hot.
++|遠くに住んでいる母のことを心配してならない。|Tôi rất lo lắng về người mẹ đang sống ở xa.|I cannot help worrying about my mother who lives far away.
++|さびしくてしょうがない。|Cô đơn không chịu nổi.|I am unbearably lonely.
+24|最中に|Vている;N + の|Trong lúc đang;Đúng lúc đang|in the middle of;just when|会議の最中に停電になった。|Đúng lúc đang họp thì mất điện.|The power went out in the middle of the meeting.|停電=ていでん
+24|たとたん|Vた|Vừa mới thì|just as;the moment|窓を開けたとたん、強い風が入ってきた。|Tôi vừa mới mở cửa sổ ra thì có một luồng gió mạnh tràn vào.|The moment I opened the window, a strong gust of wind came in.
+25|から～にかけて|N～N|Từ đến|from to;between and|このブドウは８月から９月にかけて収穫されます。|Nho này được thu hoạch từ tháng 8 đến tháng 9.|These grapes are harvested from August to September.|収穫=しゅうかく
+25|（んだ）もの / もん|Vる|Ấy là tại vì|because;after all|今日の試験、できなかった。勉強しなかっただもん、仕方がない。|Hôm nay thi không làm được bài. Ấy là vì không học, nên đành vậy thôi.|I could not do today's test. I had not studied, so it could not be helped.
+25|に決まっている|Vる;N/Ana + に決まっている|Nhất định;Chắc chắn|certainly;bound to|一人で外国へ旅行するなんて、親に反対される決まっている。|Tớ chắc chắn bố mẹ cậu sẽ phản đối việc cậu đi du lịch nước ngoài một mình.|Your parents are bound to oppose you traveling abroad alone.
+25|に違いない|Vる;N/Ana + に違いない|Chắc chắn là;Nhất định|must be;certainly|私の傘がない。誰かが持っていたに違いない。|Không thấy ô của tôi đâu. Chắc chắn là ai đó đã cầm rồi.|My umbrella is missing. Someone must have taken it.
+26|おそれがある|Vru;N + の|E là;E rằng|there is a risk that;I fear that|大きい地震が起きたら、この建物が倒れるおそれがある。|Nếu động đất lớn xảy ra, e là tòa nhà này sẽ đổ mất.|If a major earthquake occurs, there is a risk that this building will collapse.
+26|にすぎない|Vる;N + にすぎない|Chỉ là;Đơn giản chỉ là|merely;no more than|彼はただ子供にすぎないから、一人暮らすことをできないよ。|Nó chỉ là một đứa trẻ, không thể sống một mình được.|He is only a child, so he cannot live alone.
+26|ことか / ことに / ことだ|Vる|Thật là biết bao|how;so very|合格できたら、どんなにうれしいことか。|Nếu mà đỗ thì thật là vui biết mấy.|How happy I would be if I passed!
+26|ものか / もんか|Vる|Không đời nào;Nhất định không|no way;definitely not|こんなにたくさんの仕事、明日までに終わるものか。|Nhiều việc như thế này thì có đến mai cũng nhất định không xong được.|There is no way this much work will be finished by tomorrow.
+27|としたら / とすれば|Vる|Giả sử|assuming that;if it were true|その話が本当だとしたら、うれしいです。|Giả sử chuyện đó có thật, thì tôi rất vui.|If that story is true, I will be very happy.
+27|を通じて / を通して|N +|Thông qua|through;by means of|子供たちはスポーツを通して、いろいろなことを学ぶことができる。|Thông qua việc chơi thể thao, trẻ em có thể học được rất nhiều điều.|Children can learn many things through sports.|通じ=つうじ;通し=とおし
+27|しかない / ほか（は）ない||Không còn cách nào khác;Đành phải|have no choice but to;can only|パソコンを直せないから、新しいのを買うしかない。|Không sửa được máy tính nên không còn cách nào khác phải mua cái mới.|I cannot repair the computer, so I have no choice but to buy a new one.
++|気は進まないが、上司の命令ので、従うほかはない。|Tôi không muốn làm, nhưng vì là mệnh lệnh của cấp trên, nên đành phải tuân theo.|I am reluctant, but since it is my boss's order, I have no choice but to obey.|命令=めいれい;従=したが
+27|をこめて|N|Gửi gắm|putting into;with heartfelt|平和へのお願いをこめて、この歌を作りました。|Tôi đã viết bài hát này với tất cả ước nguyện về hòa bình gửi gắm trong đó.|I wrote this song with all my hopes for peace in it.|平和=へいわ;願=ねが
+28|Vたまま / Vますっぱなし|Vた;Vます|Để V nguyên|leave as is;leave doing|テレビをつけっぱなしで寝てしまった。|Tôi để tivi bật nguyên đó rồi đi ngủ mất.|I fell asleep with the television left on.
+28|N + きり / N + っきり|N +|Chỉ|only;just|２人っきりで話したいです。|Tôi muốn nói chuyện chỉ có 2 người, chúng ta.|I want to talk with just the two of us.
+28|Vたきり|Vた|Kể từ khi V thì không có sự thay đổi nữa|ever since;since then without change|ひろしは本屋へ行ったきり、まだ戻ってこない。|Hiroshi kể từ khi đi hiệu sách, vẫn chưa thấy quay trở về.|Hiroshi went to the bookstore and still has not come back.
+28|ふりをする|Vる;Ana + な;N + の|Giả vờ;Tỏ ra|pretend to;act as if|彼は政治について知っているふりをするが、本当は知らないと思う。|Anh ta giả vờ như hiểu biết về chính trị lắm, nhưng tôi nghĩ thật sự anh ta chẳng biết gì.|He pretends to know about politics, but I think he actually knows nothing.|政治=せいじ
+29|くせに|Vる;Ana + な;N + の|Mặc dù vậy mà|even though;despite|知っているくせに、教えてくれなかった。|Mặc dù biết vậy mà anh ta không nói với tôi.|Although he knew, he did not tell me.
+29|N1はもちろん、N2も|N1;N2|N1 là đương nhiên rồi, nhưng N2 cũng|not only N1 but also N2;N1 of course and N2 too|彼は英語はもちろん、フランス語も話せる。|Anh ấy, nói được tiếng anh là điều đương nhiên, nhưng anh ấy còn nói được tiếng Pháp.|He can speak French as well as English, of course.
+29|Vます + はじめる|Vます|Bắt đầu làm gì|begin to;start doing|日本語は二年前勉強しはじめた。|Tôi bắt đầu học tiếng Nhật 2 năm trước.|I started studying Japanese two years ago.
+29|Vてはじめて|Vて|Kể từ khi làm V thì mới nhận ra;Kể từ khi làm V thì mới hiểu ra|only after doing;not until|一人暮らしをして初めて、家族の大切さをわかってきた。|Kể từ khi sống một mình tôi mới hiểu được tầm quan trọng của gia đình.|Only after living alone did I begin to understand the importance of family.
+29|Vます + たて|Vます|Vừa mới là V xong|freshly done;just done|焼きたてのパンはおいしいですね。|Bánh mì mới nướng xong rất ngon nhỉ.|Freshly baked bread is delicious, isn't it?
+30|Nをはじめ（として）|N|Trước tiên phải kể đến là|starting with;including especially|今年は富士山をはじめ、各地の有名な山に登りましょう。|Năm nay chúng ta hãy cùng leo các núi nổi tiếng ở các nơi, mà trước tiên là núi Phú Sĩ.|This year, let us climb famous mountains in various places, starting with Mount Fuji.|各地=かくち
+30|Vます + かけ|Vます|Làm V còn dang dở, chưa xong|half done;unfinished|これは私の読みかけの本です。|Đây là cuốn sách tôi đang đọc dở.|This is the book I am partway through reading.
+30|Vます + 上がる / Vます + 上げる|Vます|Vừa xong;Vừa hoàn thành|finish doing;complete|やっとレポートを書き上がりました？|Cuối cùng thì cũng đã viết xong báo cáo?|Have you finally finished writing the report?
+30|N + だらけ|N +|Đầy;Toàn những thứ gây khó chịu|covered with;full of|毎日サッカーをしているので、傷だらけになった。|Vì ngày nào cũng chơi bóng nên người đầy vết thương.|I play soccer every day, so I am covered in injuries.|傷=きず
+31|Vます + きる / 切れる|Vます|Hoàn thành V một cách triệt để|do completely;finish entirely|ご飯の量が多くて、食べきれなかった。|Cơm nhiều quá tôi không ăn hết được.|There was so much rice that I could not finish it all.
+31|Vます + 出す|Vます|Bắt đầu làm V một cách đột ngột|suddenly start doing;burst into|彼は私の顔を見ると、突然笑い出した。|Anh ấy nhìn thấy khuôn mặt của tôi thì đột nhiên bật cười.|When he saw my face, he suddenly burst out laughing.|突然笑=とつぜんわら
+31|Vます + 通す|Vます|Suốt V;Làm V một mạch từ đầu đến cuối|do throughout;keep doing to the end|彼は何を聞かれても、黙り通した。|Anh ta dù bị nói cái gì, cũng chỉ im lặng suốt.|No matter what he was asked, he remained silent throughout.|黙=だま;通=とお
+31|Vます + がち|Vます|Hay V;Thường có khuynh hướng làm V|tend to;often do|最近、忘れがちだ。|Dạo này tôi rất hay quên.|I tend to forget things recently.

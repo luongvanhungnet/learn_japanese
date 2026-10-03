@@ -8,6 +8,11 @@
 .brand strong { font-weight: 400; letter-spacing: .12em; color: #7c8789; }
 .brand-mark { display: inline-flex; width: 32px; height: 32px; align-items: center; justify-content: center; border-radius: 9px; background: #d8654a; color: #fff; font-family: "Yu Gothic", sans-serif; font-size: 19px; letter-spacing: 0; }
 .header-right { display: flex; align-items: center; gap: 22px; color: #899195; font-size: 12px; }
+@media (max-width: 600px) {
+  .app-shell .site-header { flex-wrap: wrap; height: auto; min-height: 60px; padding: 12px 16px; gap: 10px; }
+  .header-right { width: 100%; justify-content: space-between; flex-wrap: wrap; }
+  .novel-launch { white-space: nowrap; }
+}
 .local-badge { padding: 7px 11px; display: flex; align-items: center; gap: 7px; border: 1px solid #d8e6d8; border-radius: 30px; background: #f3f9f1; color: #428169; white-space: nowrap; font-weight: 700; }
 .local-badge i { width: 6px; height: 6px; border-radius: 50%; background: #60ac81; }
 .main-content { width: min(1450px, 92vw); margin: 0 auto; }
@@ -21,7 +26,10 @@
 .intro-decoration small { margin-top: 6px; color: #bda891; font-size: 11px; letter-spacing: .2em; }
 .workspace { overflow: hidden; border: 1px solid #e0dfd7; border-radius: 15px; background: #fff; box-shadow: 0 12px 42px rgba(44,47,39,.055); }
 .workspace-top { display: flex; align-items: center; justify-content: space-between; gap: 30px; padding: 20px 24px; }
-.level-group { display: flex; gap: 8px; }
+.level-group { display: flex; flex-wrap: wrap; gap: 8px; }
+.radical-details { display: block; margin-top: 5px; color: #73817b; font-family: inherit; font-size: 11px; font-weight: 500; line-height: 1.5; }
+.radical-details span { display: block; }
+.radical-note { margin: 0; padding: 8px 24px; border-top: 1px solid #e7e7e1; color: #61726b; font-size: 12px; line-height: 1.5; }
 .level-group button { min-width: 115px; display: flex; align-items: baseline; justify-content: center; gap: 8px; padding: 12px 16px; border: 1px solid #e7e7e1; border-radius: 9px; background: #faf9f6; color: #596469; font-size: 17px; font-weight: 800; }
 .level-group button small { color: #9aa1a3; font-size: 11px; font-weight: 600; }
 .level-group button.selected { background: #25383b; border-color: #25383b; color: white; box-shadow: 0 5px 15px rgba(37,56,59,.15); }
@@ -110,14 +118,20 @@
 .legend-dot.done { background: #b9dfc5; border-color: #a7d1b7; }
 .legend-dot.mistake { background: #f2c9b8; border-color: #edb6a6; }
 .focus-shell { min-height: 100vh; background: #f8f9f6; color: #243538; }
-.focus-controls { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 8px 20px; padding: 11px 18px; border-bottom: 1px solid #e3e9e3; background: rgba(250, 252, 249, .96); backdrop-filter: blur(10px); }
+.focus-controls { position: fixed; top: 0; left: 0; right: 0; z-index: 10; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 8px 20px; padding: 11px 18px; border-bottom: 1px solid #e3e9e3; background: rgba(250, 252, 249, .96); backdrop-filter: blur(10px); transform: translateY(-100%); opacity: 0; pointer-events: none; transition: transform .18s ease, opacity .18s ease; }
+.focus-controls.is-visible, .focus-controls:has(:focus-visible) { transform: translateY(0); opacity: 1; pointer-events: auto; }
+@media (prefers-reduced-motion: reduce) { .focus-controls { transition: none; } }
 .focus-controls button { border: 1px solid transparent; border-radius: 7px; padding: 8px 11px; background: transparent; color: #536663; font-size: 13px; font-weight: 700; }
 .focus-controls button:hover, .focus-controls button:focus-visible { background: #edf4ed; }
 .focus-controls .focus-exit { margin-right: auto; border-color: #dce5dc; background: #fff; }
+.focus-controls .fullscreen-toggle { order: 0; border-color: #dce5dc; background: #fff; }
+.focus-controls .display-controls { order: 1; flex-basis: 100%; justify-content: center; }
+.focus-controls .focus-shortcuts { order: 2; }
+.focus-controls .fullscreen-error { order: 3; flex-basis: 100%; margin: 0; color: #9c493c; text-align: center; font-size: 12px; }
 .focus-options { display: flex; gap: 3px; padding: 3px; border-radius: 9px; background: #edf1ec; }
 .focus-options button[aria-pressed="true"] { background: #274c43; color: #fff; box-shadow: 0 2px 6px #1f4a3c22; }
-.focus-list { width: min(900px, calc(100% - 28px)); margin: 20px auto 48px; background: #fff; border: 1px solid #e4eae3; border-radius: 11px; overflow: hidden; }
-.focus-row { display: grid; grid-template-columns: fit-content(45%) minmax(0, 1fr); align-items: center; gap: 22px; min-height: 63px; padding: 8px 16px; border-bottom: 1px solid #edf0eb; }
+.focus-list { width: min(1450px, calc(100% - 28px)); margin: 20px auto 48px; background: #fff; border: 1px solid #e4eae3; border-radius: 11px; overflow-x: auto; }
+.focus-row { display: grid; grid-template-columns: minmax(120px, .65fr) repeat(3, minmax(200px, 1fr)); min-width: 850px; align-items: center; gap: 22px; min-height: 63px; padding: 8px 16px; border-bottom: 1px solid #edf0eb; }
 .focus-row:last-child { border-bottom: 0; }
 .focus-row:nth-child(even) { background: #fbfcfa; }
 .focus-word { font-family: "Yu Gothic", "Meiryo", sans-serif; font-size: 19px; font-weight: 700; line-height: 1.35; overflow-wrap: anywhere; }
@@ -142,7 +156,7 @@
   .focus-controls button { padding: 7px 8px; font-size: 11px; }
   .focus-options { gap: 1px; }
   .focus-list { width: 100%; margin: 0; border-left: 0; border-right: 0; border-radius: 0; }
-  .focus-row { grid-template-columns: fit-content(43%) minmax(0, 1fr); gap: 10px; padding: 7px 9px; }
+  .focus-row { grid-template-columns: minmax(100px, .65fr) repeat(3, minmax(200px, 1fr)); gap: 10px; padding: 7px 9px; }
   .focus-word { font-size: 16px; }
   .site-header { height: 60px; }
   .brand { font-size: 12px; letter-spacing: .1em; }
@@ -171,3 +185,34 @@
   .overview-head-right > span { display: none; }
   .overview-tile span { display: none; }
 }
+
+.focus-head { font-size: 12px; font-weight: 700; color: #647773; background: #edf2ed; }
+.display-controls { display: flex; flex-wrap: wrap; gap: 12px; }
+.display-controls label { display: flex; flex-direction: column; gap: 4px; color: #647773; font-size: 11px; font-weight: 700; }
+.display-controls select { max-width: 210px; padding: 6px 8px; border: 1px solid #dce5dc; border-radius: 6px; background: #fff; color: #345048; font-size: 12px; }
+.focus-shortcuts { width: 100%; text-align: center; color: #71857c; font-size: 11px; }
+.focus-practice .answer-value:focus-visible { outline: 2px solid #d76d52; outline-offset: 2px; }
+.grammar-focus .focus-row { grid-template-columns: minmax(260px, 1.1fr) repeat(2, minmax(240px, 1fr)); min-width: 820px; }
+.grammar-table { min-width: 900px; }
+.grammar-table thead th:nth-child(3), .grammar-table thead th:nth-child(4) { width: auto; }
+.table-viewport:has(.grammar-table) { --word-width: 310px; }
+.grammar-note { margin: 0; padding: 10px 24px; border-top: 1px solid #e7e7e1; color: #61726b; font-size: 12px; line-height: 1.6; }
+.grammar-examples { margin-top: 8px; font-family: "Segoe UI", "Yu Gothic", sans-serif; font-size: calc(12px * var(--scale, 1)); font-weight: 400; line-height: 1.6; }
+.grammar-examples summary { width: fit-content; cursor: pointer; color: #397861; font-weight: 600; }
+.grammar-examples summary:focus-visible { outline: 2px solid #d76d52; outline-offset: 3px; }
+.grammar-examples > small { display: block; margin-top: 7px; color: #899694; }
+.grammar-example { padding: 8px 0; border-bottom: 1px solid #e7eee9; overflow-wrap: anywhere; }
+.grammar-example:last-child { border-bottom: 0; }
+.grammar-example p { margin: 4px 0; }
+.grammar-example p[lang="ja"] { color: #243538; font-size: 1.1em; }
+.grammar-example small, .grammar-example p:not([lang="ja"]) { color: #61726b; }
+@media (max-width: 600px) {
+  .workspace-top { flex-wrap: wrap; }
+  .progress-summary { width: 100%; }
+  .grammar-note { padding: 8px 12px; }
+  .table-viewport:has(.grammar-table) { --word-width: 220px; }
+  .grammar-focus .focus-row { grid-template-columns: minmax(220px, 1fr) repeat(2, minmax(220px, 1fr)); min-width: 700px; }
+  .focus-options { flex-wrap: wrap; }
+}
+.focus-practice .concealed-cell .revealed-value, .practice-form > .revealed-value { color: #536663; font-size: 13px; line-height: 1.4; overflow-wrap: anywhere; }
+.practice-form > .revealed-value { margin-bottom: 7px; }
