@@ -45,6 +45,8 @@ const vocabularyFields: Field[] = ['reading', 'hanViet', 'meaning']
 const grammarFields: Field[] = ['formation', 'meaning']
 const collectionFields = (level: Level) => level === 'N3-GRAMMAR' ? grammarFields : vocabularyFields
 const storageKey = 'mimikara-progress-v1'
+const positionStorageKey = 'mimikara-last-practice-v1'
+type PracticePosition = { level: Level; key: string; focused: boolean; mode: Mode }
 const storedKey = (key: string, language: Language) => language === 'vi' && key.endsWith(':meaning') ? `${key}:vi` : key
 
 function getAnswer(entry: VocabularyEntry, field: Field): string {
@@ -59,6 +61,23 @@ function getAccepted(entry: VocabularyEntry, field: Field): string[] {
   if (field === 'meaning') return entry.meanings
   if (field === 'reading' && entry.readings) return entry.readings
   return [getAnswer(entry, field)]
+}
+
+function readPracticePosition(): PracticePosition | null {
+  try {
+    const saved: Partial<PracticePosition> | null = JSON.parse(window.localStorage.getItem(positionStorageKey) ?? 'null')
+    if (!saved || !levels.includes(saved.level as Level) || typeof saved.key !== 'string' || typeof saved.focused !== 'boolean') return null
+    const level = saved.level as Level
+    const mode = saved.mode ?? 'study'
+    if (mode !== 'study' && mode !== 'review') return null
+    const key = saved.key
+    const separator = key.lastIndexOf(':')
+    const field = key.slice(separator + 1) as Field
+    const entry = collections[level].find((item) => item.id === key.slice(0, separator))
+    return entry && collectionFields(level).includes(field) && getAnswer(entry, field)
+      ? { level, key, focused: saved.focused, mode }
+      : null
+  } catch { return null }
 }
 
 type CellProps = {
@@ -100,14 +119,14 @@ const PracticeCell = memo(function PracticeCell({
   if (unavailable || hiddenInReview) {
     return <span className="cell-unavailable" aria-label={unavailable ? t(field === 'formation' ? 'noFormation' : 'noReading') : t('noReview')}>—</span>
   }
-  if (solved) {
+  if (solved && !(displayMode === '2' && editing)) {
     const savedAnswer = status?.answer
     const displayAnswer = field === 'meaning' || field === 'hanViet'
       ? getAccepted(entry, field).join(', ')
       : savedAnswer || answer
     const content = displayMode === '2' ? null : <>{displayAnswer}<span aria-hidden="true">✓</span></>
     const title = displayMode === '2' ? undefined : getAccepted(entry, field).join(' · ')
-    if (focus) return <button type="button" data-cell-focus className="answer-value answer-correct" title={title} aria-label={`${t('inputLabel', { field: labels[field], target: targetLabel })} · ${t('correct')}`}>{content}</button>
+    if (focus) return <button type="button" data-cell-focus data-cell-retry={displayMode === '2' ? true : undefined} className="answer-value answer-correct" title={title} onClick={displayMode === '2' ? () => setEditing(true) : undefined} aria-label={`${t('inputLabel', { field: labels[field], target: targetLabel })} · ${t('correct')}`}>{content}</button>
     return <div className="answer-value answer-correct" title={title}>{content}</div>
   }
   if (!editing) {
@@ -237,8 +256,8 @@ function Overview({ entries, level, progress, onClose, onJump }: OverviewProps) 
         {entries.map((entry) => {
           const statuses = fields.filter((field) => getAnswer(entry, field)).map((field) => progress[`${entry.id}:${field}`])
           const hasMistake = statuses.some((status) => status?.unresolved)
-          const complete = statuses.length > 0 && statuses.every((status) => status?.solved)
-          return <button key={entry.id} type="button" className={`overview-tile ${hasMistake ? 'tile-mistake' : complete ? 'tile-done' : ''}`} title={`${entry.order}. ${entry.headword}`} onClick={() => onJump(entry.order)} aria-label={t(level === 'N3-GRAMMAR' ? 'goToPattern' : 'goToWord', { order: entry.order, word: entry.headword })}><span>{entry.headword}</span></button>
+          const learned = statuses.some((status) => status?.solved)
+          return <button key={entry.id} type="button" className={`overview-tile ${learned ? 'tile-done' : hasMistake ? 'tile-mistake' : ''}`} title={`${entry.order}. ${entry.headword}`} onClick={() => onJump(entry.order)} aria-label={t(level === 'N3-GRAMMAR' ? 'goToPattern' : 'goToWord', { order: entry.order, word: entry.headword })}><span>{entry.headword}</span></button>
         })}
       </div>
       <div className="overview-legend"><span><i className="legend-dot" /> {t('notStudied')}</span><span><i className="legend-dot done" /> {t('correct')}</span><span><i className="legend-dot mistake" /> {t('needsReview')}</span></div>
@@ -257,6 +276,12 @@ function StudyApp() {
   const levelLabel = level === 'RADICALS' ? t('radicals') : grammar ? t('grammar') : level
   const [mode, setMode] = useState<Mode>('study')
   const [focused, setFocused] = useState(false)
+  const [savedPosition, setSavedPosition] = useState(readPracticePosition)
+  const [resumeRequest, setResumeRequest] = useState<PracticePosition | null>(null)
+  useEffect(() => {
+    if (!savedPosition) return
+    try { window.localStorage.setItem(positionStorageKey, JSON.stringify(savedPosition)) } catch { /* private browsing */ }
+  }, [savedPosition])
   const [displayModes, setDisplayModes] = useState<Record<Field, DisplayMode>>(() => {
     const defaults: Record<Field, DisplayMode> = { reading: '1', hanViet: '1', meaning: '1', formation: '1' }
     try {
@@ -295,6 +320,18 @@ function StudyApp() {
     return selected
   }, [allProgress, language])
 
+  const resumeLastBox = useCallback(() => {
+    if (!savedPosition) return
+    if (window.location.hash === '#novel') window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}`)
+    setReadingNovel(false)
+    setLevel(savedPosition.level)
+    setMode(savedPosition.mode === 'review' && progress[savedPosition.key]?.unresolved ? 'review' : 'study')
+    setFocused(savedPosition.focused)
+    setOverview(false)
+    setPreviewKey(null)
+    setResumeRequest({ ...savedPosition })
+  }, [savedPosition, progress])
+
   useEffect(() => {
     try { window.localStorage.setItem(storageKey, JSON.stringify(allProgress)) } catch { /* private browsing */ }
   }, [allProgress])
@@ -306,6 +343,22 @@ function StudyApp() {
     })
     return () => cancelAnimationFrame(frame)
   }, [overview, jumpTarget, level, mode])
+
+  useEffect(() => {
+    const resumeKey = resumeRequest?.key
+    if (!resumeKey) return
+    const cell = document.getElementById(`practice-${resumeKey}`)
+    if (!cell) return
+    selectedKeyRef.current = resumeKey
+    const input = cell.querySelector<HTMLInputElement>('input')
+    const editable = cell.querySelector<HTMLButtonElement>('button.concealed-cell, button[data-cell-retry]')
+    const control = cell.querySelector<HTMLButtonElement>('button[data-cell-focus]')
+    if (input) input.focus({ preventScroll: true })
+    else if (editable) editable.click()
+    else if (control) control.focus({ preventScroll: true })
+    else { cell.tabIndex = -1; cell.focus({ preventScroll: true }) }
+    cell.scrollIntoView({ block: 'center', inline: 'nearest', behavior: 'smooth' })
+  }, [resumeRequest])
 
   const entries = useMemo(() => language === 'en' ? collections[level] : collections[level].map((entry) => ({ ...entry, meanings: level === 'RADICALS' || level === 'N3-GRAMMAR' ? entry.meaningsVi ?? entry.meanings : (vietnameseMeanings[level] as Record<string, string[]>)[entry.id] ?? entry.meanings })), [level, language])
   const unresolved = useMemo(() => Object.entries(progress).filter(([key, value]) => key.startsWith(level.toLowerCase() + ':') && value.unresolved).length, [progress, level])
@@ -322,7 +375,7 @@ function StudyApp() {
         if (entry.order <= source.order) continue
         const cell = document.getElementById(`practice-${entry.id}:${field}`)
         const input = cell?.querySelector<HTMLInputElement>('input')
-        const button = cell?.querySelector<HTMLButtonElement>('button.concealed-cell')
+        const button = cell?.querySelector<HTMLButtonElement>('button.concealed-cell, button[data-cell-retry]')
         if (!input && !button) continue
         if (input) input.focus({ preventScroll: true })
         else button?.click()
@@ -382,15 +435,27 @@ function StudyApp() {
   useEffect(() => {
     const onFocus = (event: FocusEvent) => {
       const cell = (event.target as HTMLElement).closest<HTMLElement>('[data-practice-key]')
-      if (cell?.dataset.practiceKey) selectedKeyRef.current = cell.dataset.practiceKey
+      const key = cell?.dataset.practiceKey
+      if (!key) return
+      selectedKeyRef.current = key
+      setSavedPosition((previous) => previous?.key === key && previous.level === level && previous.focused === focused && previous.mode === mode
+        ? previous : { key, level, focused, mode })
     }
     const onShortcut = (event: KeyboardEvent) => {
-      if (!event.altKey || event.ctrlKey || event.metaKey || overview) return
+      if (!event.altKey || event.ctrlKey || event.metaKey) return
       const shortcut = event.key.toLowerCase()
+      if (shortcut === 'r' || event.code === 'KeyR') {
+        if (!savedPosition) return
+        event.preventDefault()
+        event.stopPropagation()
+        resumeLastBox()
+        return
+      }
+      if (overview) return
       const hint = shortcut === 'a' || event.code === 'KeyA'
       const answer = shortcut === 's' || event.code === 'KeyS'
-      const direction = ({ z: [0, 1], x: [0, -1], c: [1, 0], v: [-1, 0] } as Record<string, [number, number]>)[shortcut] ??
-        ({ KeyZ: [0, 1], KeyX: [0, -1], KeyC: [1, 0], KeyV: [-1, 0] } as Record<string, [number, number]>)[event.code]
+      const direction = ({ z: [0, -1], x: [0, 1], c: [-1, 0], v: [1, 0] } as Record<string, [number, number]>)[shortcut] ??
+        ({ KeyZ: [0, -1], KeyX: [0, 1], KeyC: [-1, 0], KeyV: [1, 0] } as Record<string, [number, number]>)[event.code]
       if (!hint && !answer && !(focused && direction)) return
 
       const active = (document.activeElement as HTMLElement | null)?.closest<HTMLElement>('[data-practice-key]')
@@ -460,7 +525,7 @@ function StudyApp() {
       document.removeEventListener('focusin', onFocus)
       document.removeEventListener('keydown', onShortcut, true)
     }
-  }, [entries, onHint, onPreview, overview, focused, fields])
+  }, [entries, onHint, onPreview, overview, focused, fields, level, mode, savedPosition, resumeLastBox])
   const jump = (order: number) => { setMode('study'); setOverview(false); setJumpTarget(order) }
 
   if (focused) {
@@ -468,6 +533,7 @@ function StudyApp() {
       <main className="focus-shell" style={{ '--scale': 1 } as React.CSSProperties} aria-label={t('focusMode')}>
         <FocusHeader><LanguageSwitch />
           <button type="button" className="focus-exit" onClick={() => setFocused(false)}>← {t('fullList')}</button>
+          <button type="button" disabled={!savedPosition} aria-label={t('resumeLastBox')} onClick={resumeLastBox}>{t('resumeLastBox')} <kbd aria-hidden="true">Alt+R</kbd></button>
           <div className="focus-options" role="group" aria-label={t('selectSet')}>
             {levels.map((item) => <button key={item} type="button" aria-pressed={level === item} onClick={() => { setLevel(item); setPreviewKey(null); selectedKeyRef.current = null }}>{item === 'RADICALS' ? t('radicals') : item === 'N3-GRAMMAR' ? t('grammar') : item}</button>)}
           </div>
@@ -480,7 +546,7 @@ function StudyApp() {
               </select>
             </label>)}
           </div>
-          <div className="focus-shortcuts">Alt+Z → · Alt+X ← · Alt+C ↓ · Alt+V ↑</div>
+          <div className="focus-shortcuts">Alt+Z ← · Alt+X → · Alt+C ↑ · Alt+V ↓ · Alt+R {t('resumeLastBox')}</div>
         </FocusHeader>
         <div className={`focus-list ${grammar ? 'grammar-focus' : ''}`} key={level}>
           <div className="focus-row focus-head"><span>{t(grammar ? 'grammarPattern' : 'vocabulary')}</span>{fields.map((field) => <span key={field}>{labels[field]}</span>)}</div>
@@ -522,6 +588,7 @@ function StudyApp() {
             <div className="progress-summary"><div><strong>{solvedCells.toLocaleString(locale)}</strong><span> / {totalCells.toLocaleString(locale)} {t('cellsCorrect')}</span><b>{completedPercent}%</b></div><div className="progress-track"><span style={{ width: `${completedPercent}%` }} /></div></div>
           </div>
           <div className="toolbar">
+            <button type="button" className="resume-button" disabled={!savedPosition} aria-label={t('resumeLastBox')} onClick={resumeLastBox}>{t('resumeLastBox')} <kbd aria-hidden="true">Alt+R</kbd></button>
             <div className="mode-group" role="group" aria-label={t('studyMode')}><button type="button" className={mode === 'study' ? 'active' : ''} onClick={() => setMode('study')}>{t(grammar ? 'grammarList' : 'wordList')}</button><button type="button" className={mode === 'review' ? 'active' : ''} onClick={() => setMode('review')}>{t('reviewMistakes')} <span>{unresolved}</span></button><button type="button" onClick={() => { setMode('study'); setOverview(false); setFocused(true); window.scrollTo({ top: 0 }) }}>{t('focus')}</button></div>
             <div className="zoom-controls"><span>{t('zoom')}</span><button type="button" aria-label={t('zoomOut')} onClick={() => setZoom((value) => Math.max(70, value - 10))}>−</button><input type="range" min="70" max="140" step="10" value={zoom} onChange={(event) => setZoom(Number(event.target.value))} aria-label={t('listZoom')} /><button type="button" aria-label={t('zoomIn')} onClick={() => setZoom((value) => Math.min(140, value + 10))}>+</button><output>{zoom}%</output><button type="button" className="overview-button" onClick={() => setOverview(true)}>▦ {t('overview')}</button></div>
           </div>

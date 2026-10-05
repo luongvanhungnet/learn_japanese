@@ -2,6 +2,7 @@ import { createContext, useContext } from 'react'
 
 export type Language = 'en' | 'vi'
 const english = {
+  resumeLastBox: 'Resume last box',
   grammar: 'N3 Grammar', grammarUnit: 'patterns', grammarPattern: 'Grammar pattern', formation: 'Formation',
   examples: 'Examples', sourcePage: 'PDF page {page}', noFormation: 'No formation rule in the source',
   formationPlaceholder: 'Enter a formation rule…', grammarNumber: 'pattern {order}',
@@ -44,6 +45,7 @@ const english = {
 }
 type Message = keyof typeof english
 const vietnamese: Record<Message, string> = {
+  resumeLastBox: 'Tiếp tục ô gần nhất',
   grammar: 'Ngữ pháp N3', grammarUnit: 'mẫu', grammarPattern: 'Mẫu ngữ pháp', formation: 'Cấu trúc',
   examples: 'Ví dụ', sourcePage: 'Trang PDF {page}', noFormation: 'Nguồn không ghi cấu trúc',
   formationPlaceholder: 'Nhập một cấu trúc…', grammarNumber: 'mẫu số {order}',

@@ -191,6 +191,8 @@
 .display-controls label { display: flex; flex-direction: column; gap: 4px; color: #647773; font-size: 11px; font-weight: 700; }
 .display-controls select { max-width: 210px; padding: 6px 8px; border: 1px solid #dce5dc; border-radius: 6px; background: #fff; color: #345048; font-size: 12px; }
 .focus-shortcuts { width: 100%; text-align: center; color: #71857c; font-size: 11px; }
+.resume-button { border: 1px solid #ccd9d4; border-radius: 7px; padding: 9px 12px; background: #eef5f1; color: #397861; font-size: 12px; font-weight: 700; }
+.resume-button:disabled, .focus-controls button:disabled { opacity: .45; cursor: default; }
 .focus-practice .answer-value:focus-visible { outline: 2px solid #d76d52; outline-offset: 2px; }
 .grammar-focus .focus-row { grid-template-columns: minmax(260px, 1.1fr) repeat(2, minmax(240px, 1fr)); min-width: 820px; }
 .grammar-table { min-width: 900px; }

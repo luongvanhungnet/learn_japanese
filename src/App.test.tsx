@@ -24,6 +24,91 @@ afterEach(() => {
   window.history.replaceState(null, '', '/')
 })
 
+test.each([false, true])('resumes the last practice box after reload in its saved collection (focus: %s)', (focused) => {
+  window.scrollTo = vi.fn()
+  const scroll = vi.fn()
+  const original = HTMLElement.prototype.scrollIntoView
+  HTMLElement.prototype.scrollIntoView = scroll
+  try {
+    render(<App />)
+    fireEvent.click(screen.getByRole('button', { name: /N2/ }))
+    if (focused) fireEvent.click(screen.getByRole('button', { name: 'Focus' }))
+    fireEvent.click(within(document.getElementById('practice-n2:1:meaning')!).getByRole('button'))
+    cleanup()
+    render(<App />)
+    fireEvent.click(screen.getByRole('button', { name: 'Resume last box' }))
+    expect(Boolean(document.querySelector('.focus-shell'))).toBe(focused)
+    const input = within(document.getElementById('practice-n2:1:meaning')!).getByRole('textbox')
+    expect(document.activeElement).toBe(input)
+    expect(scroll).toHaveBeenCalledWith({ block: 'center', inline: 'nearest', behavior: 'smooth' })
+  } finally {
+    HTMLElement.prototype.scrollIntoView = original
+  }
+})
+
+test('Alt+R resumes the box reached by automatic advance, including a hidden green answer', () => {
+  window.scrollTo = vi.fn()
+  const original = HTMLElement.prototype.scrollIntoView
+  HTMLElement.prototype.scrollIntoView = vi.fn()
+  try {
+    window.localStorage.setItem('mimikara-progress-v1', JSON.stringify({
+      'n3:2:meaning': { solved: true, unresolved: false, revealed: false, hints: 0, answer: 'woman' },
+    }))
+    render(<App />)
+    fireEvent.click(screen.getByRole('button', { name: 'Focus' }))
+    fireEvent.change(screen.getByRole('combobox', { name: 'Meaning display mode' }), { target: { value: '2' } })
+    fireEvent.click(screen.getByRole('button', { name: 'Enter Meaning for 男性' }))
+    const first = screen.getByRole('textbox', { name: 'Meaning for 男性' })
+    fireEvent.change(first, { target: { value: 'man' } })
+    fireEvent.submit(first.closest('form')!)
+    expect(document.activeElement).toBe(screen.getByRole('textbox', { name: 'Meaning for 女性' }))
+    const savedProgress = window.localStorage.getItem('mimikara-progress-v1')
+    cleanup()
+    render(<App />)
+    fireEvent.keyDown(document, { key: 'r', altKey: true })
+    const resumed = screen.getByRole('textbox', { name: 'Meaning for 女性' }) as HTMLInputElement
+    expect(document.activeElement).toBe(resumed)
+    expect(resumed.value).toBe('')
+    expect(window.localStorage.getItem('mimikara-progress-v1')).toBe(savedProgress)
+  } finally {
+    HTMLElement.prototype.scrollIntoView = original
+  }
+})
+
+test('resumes a saved review box even when its correct answer still needs unaided review', () => {
+  const original = HTMLElement.prototype.scrollIntoView
+  HTMLElement.prototype.scrollIntoView = vi.fn()
+  try {
+    window.localStorage.setItem('mimikara-progress-v1', JSON.stringify({
+      'n3:1:reading': { solved: true, unresolved: true, revealed: false, hints: 0, answer: 'だんせい' },
+    }))
+    render(<App />)
+    fireEvent.click(screen.getByRole('button', { name: /Review mistakes/ }))
+    fireEvent.click(screen.getByRole('button', { name: 'Enter Reading for word 1' }))
+    cleanup()
+    render(<App />)
+    fireEvent.click(screen.getByRole('button', { name: 'Resume last box' }))
+    expect(document.querySelectorAll('tbody tr')).toHaveLength(1)
+    expect(document.activeElement).toBe(screen.getByRole('textbox', { name: 'Reading for word 1' }))
+  } finally {
+    HTMLElement.prototype.scrollIntoView = original
+  }
+})
+
+test.each([
+  null,
+  '{broken',
+  JSON.stringify({ level: 'N2', key: 'n3:1:meaning', focused: true }),
+  JSON.stringify({ level: 'N3', key: 'n3:999:meaning', focused: true }),
+  JSON.stringify({ level: 'N3-GRAMMAR', key: 'n3-grammar:10:formation', focused: true }),
+])('ignores an absent or invalid saved practice position (%s)', (saved) => {
+  if (saved !== null) window.localStorage.setItem('mimikara-last-practice-v1', saved)
+  render(<App />)
+  expect((screen.getByRole('button', { name: 'Resume last box' }) as HTMLButtonElement).disabled).toBe(true)
+  fireEvent.keyDown(document, { key: 'r', altKey: true })
+  expect(screen.queryByRole('textbox')).toBeNull()
+})
+
 test('opens the novel reader and returns to the existing selected practice collection', async () => {
   render(<App />)
   fireEvent.click(screen.getByRole('button', { name: /N3 Grammar/ }))
@@ -116,14 +201,14 @@ test('grammar focus uses two practice columns, skips missing formation rules and
   expect(document.getElementById('practice-n3-grammar:10:formation')!.textContent).toBe('—')
   const input = () => document.activeElement as HTMLInputElement
   fireEvent.click(screen.getByRole('button', { name: 'Enter Formation for うちに' }))
-  fireEvent.keyDown(input(), { key: 'z', altKey: true })
-  expect(input().getAttribute('aria-label')).toBe('Meaning for うちに')
   fireEvent.keyDown(input(), { key: 'x', altKey: true })
+  expect(input().getAttribute('aria-label')).toBe('Meaning for うちに')
+  fireEvent.keyDown(input(), { key: 'z', altKey: true })
   expect(input().getAttribute('aria-label')).toBe('Formation for うちに')
   fireEvent.click(screen.getByRole('button', { name: 'Enter Formation for ついでに' }))
-  fireEvent.keyDown(input(), { key: 'c', altKey: true })
-  expect(input().getAttribute('aria-label')).toBe('Formation for くらい / ほど')
   fireEvent.keyDown(input(), { key: 'v', altKey: true })
+  expect(input().getAttribute('aria-label')).toBe('Formation for くらい / ほど')
+  fireEvent.keyDown(input(), { key: 'c', altKey: true })
   expect(input().getAttribute('aria-label')).toBe('Formation for ついでに')
   fireEvent.change(screen.getByRole('combobox', { name: 'Formation display mode' }), { target: { value: '3' } })
   expect(document.getElementById('practice-n3-grammar:1:formation')!.textContent).toContain('Vru, N-no, A(na), A(i)')
@@ -240,23 +325,27 @@ test.each(['Hint+', 'Answer'])('%s adds a mistake and an assisted review answer 
   expect(screen.getByRole('heading', { name: 'No mistakes left to review' })).toBeTruthy()
 })
 
-test('focus mode shows all three practice columns and navigates with Alt+Z/X/C/V', () => {
+test.each(['key', 'code'])('focus mode navigates left/right/up/down with Alt+Z/X/C/V (%s)', (eventProperty) => {
   window.scrollTo = vi.fn()
   render(<App />)
   fireEvent.click(screen.getByRole('button', { name: 'Focus' }))
+  const move = (key: string) => fireEvent.keyDown(document.activeElement!, {
+    altKey: true,
+    ...(eventProperty === 'key' ? { key } : { key: 'Unidentified', code: `Key${key.toUpperCase()}` }),
+  })
   const row = within(screen.getByRole('group', { name: 'Word 男性' }))
   expect(row.getByRole('button', { name: 'Enter Reading for 男性' })).toBeTruthy()
   expect(row.getByRole('button', { name: 'Enter Hán Việt for 男性' })).toBeTruthy()
   fireEvent.click(row.getByRole('button', { name: 'Enter Meaning for 男性' }))
-  fireEvent.keyDown(document.activeElement!, { key: 'x', altKey: true })
+  move('z')
   expect(document.activeElement).toBe(row.getByRole('textbox', { name: 'Hán Việt for 男性' }))
-  fireEvent.keyDown(document.activeElement!, { key: 'z', altKey: true })
+  move('x')
   expect(document.activeElement).toBe(row.getByRole('textbox', { name: 'Meaning for 男性' }))
-  fireEvent.keyDown(document.activeElement!, { key: 'c', altKey: true })
+  move('v')
   expect(document.activeElement).toBe(screen.getByRole('textbox', { name: 'Meaning for 女性' }))
-  fireEvent.keyDown(document.activeElement!, { key: 'v', altKey: true })
+  move('c')
   expect(document.activeElement).toBe(row.getByRole('textbox', { name: 'Meaning for 男性' }))
-  fireEvent.keyDown(document.activeElement!, { key: 'z', altKey: true })
+  move('x')
   expect(document.activeElement).toBe(row.getByRole('textbox', { name: 'Meaning for 男性' }))
 })
 
@@ -284,8 +373,59 @@ test('display modes keep correct cells green, hide their text, or reveal all ans
   expect(first.textContent).toBe('man✓')
   expect(document.getElementById('practice-n3:2:meaning')!.textContent).toContain('Click to answer')
   first.querySelector<HTMLButtonElement>('button')!.focus()
-  fireEvent.keyDown(document.activeElement!, { key: 'x', altKey: true })
+  fireEvent.keyDown(document.activeElement!, { key: 'z', altKey: true })
   expect(document.activeElement).toBe(screen.getByRole('textbox', { name: 'Hán Việt for 男性' }))
+})
+
+test('hidden correct answers can be reopened with an empty input and submitted again', () => {
+  window.scrollTo = vi.fn()
+  window.localStorage.setItem('mimikara-progress-v1', JSON.stringify({
+    'n3:1:meaning': { solved: true, unresolved: false, revealed: false, hints: 0, answer: 'man' },
+  }))
+  render(<App />)
+  fireEvent.click(screen.getByRole('button', { name: 'Focus' }))
+  fireEvent.change(screen.getByRole('combobox', { name: 'Meaning display mode' }), { target: { value: '2' } })
+  const cell = within(document.getElementById('practice-n3:1:meaning')!)
+  const savedProgress = window.localStorage.getItem('mimikara-progress-v1')
+  fireEvent.click(cell.getByRole('button'))
+  const input = cell.getByRole('textbox', { name: 'Meaning for 男性' }) as HTMLInputElement
+  expect(document.activeElement).toBe(input)
+  expect(input.value).toBe('')
+  expect(window.localStorage.getItem('mimikara-progress-v1')).toBe(savedProgress)
+  fireEvent.change(input, { target: { value: 'MAN' } })
+  fireEvent.submit(input.closest('form')!)
+  expect(cell.queryByRole('textbox')).toBeNull()
+  expect(cell.getByRole('button').textContent).toBe('')
+  expect(cell.getByRole('button').classList.contains('answer-correct')).toBe(true)
+  expect(JSON.parse(window.localStorage.getItem('mimikara-progress-v1')!)['n3:1:meaning']).toMatchObject({ solved: true, answer: 'MAN' })
+})
+
+test.each([
+  ['reading', 'Reading', 'だんせい', 'じょせい'],
+  ['hanViet', 'Hán Việt', 'NAM TÍNH', 'NỮ TÍNH'],
+  ['meaning', 'Meaning', 'man', 'woman'],
+])('hide correct answers advances into the green %s box below without changing its progress', (field, label, firstAnswer, nextAnswer) => {
+  window.scrollTo = vi.fn()
+  const nextStatus = { solved: true, unresolved: false, revealed: false, hints: 0, answer: nextAnswer }
+  window.localStorage.setItem('mimikara-progress-v1', JSON.stringify({ [`n3:2:${field}`]: nextStatus }))
+  render(<App />)
+  fireEvent.click(screen.getByRole('button', { name: 'Focus' }))
+  fireEvent.change(screen.getByRole('combobox', { name: `${label} display mode` }), { target: { value: '2' } })
+  const firstCell = within(document.getElementById(`practice-n3:1:${field}`)!)
+  const nextCell = within(document.getElementById(`practice-n3:2:${field}`)!)
+  expect(nextCell.getByRole('button').classList.contains('answer-correct')).toBe(true)
+  fireEvent.click(firstCell.getByRole('button'))
+  const firstInput = firstCell.getByRole('textbox')
+  fireEvent.change(firstInput, { target: { value: firstAnswer } })
+  fireEvent.submit(firstInput.closest('form')!)
+  const nextInput = nextCell.getByRole('textbox') as HTMLInputElement
+  expect(document.activeElement).toBe(nextInput)
+  expect(nextInput.value).toBe('')
+  expect(JSON.parse(window.localStorage.getItem('mimikara-progress-v1')!)[`n3:2:${field}`]).toMatchObject(nextStatus)
+  fireEvent.change(nextInput, { target: { value: nextAnswer } })
+  fireEvent.submit(nextInput.closest('form')!)
+  expect(nextCell.queryByRole('textbox')).toBeNull()
+  expect(nextCell.getByRole('button').classList.contains('answer-correct')).toBe(true)
 })
 
 test.each([false, true])('correct meaning and Hán Việt submissions show source answers (focus: %s)', (focus) => {
@@ -445,6 +585,35 @@ test('scrolls the page in focus mode only after a correct answer', async () => {
   await act(async () => { vi.advanceTimersByTime(20) })
   expect(document.activeElement).toBe(screen.getByRole('textbox', { name: 'Meaning for 女性' }))
   expect(window.scrollBy).toHaveBeenCalledWith({ top: 100, behavior: 'smooth' })
+})
+
+test('the vocabulary map shows learned words green even when previous review flags remain', () => {
+  window.localStorage.setItem('mimikara-progress-v1', JSON.stringify({
+    'n3:1:reading': { solved: true, unresolved: true, revealed: false, hints: 0, answer: 'だんせい' },
+    'n3:1:hanViet': { solved: true, unresolved: false, revealed: false, hints: 0, answer: 'NAM TÍNH' },
+    'n3:1:meaning': { solved: true, unresolved: true, revealed: false, hints: 0, answer: 'man' },
+  }))
+  render(<App />)
+  const savedProgress = window.localStorage.getItem('mimikara-progress-v1')
+  fireEvent.click(screen.getByRole('button', { name: /Overview/ }))
+  const learned = screen.getByRole('button', { name: 'Go to word 1: 男性' })
+  expect(learned.classList.contains('tile-done')).toBe(true)
+  expect(learned.classList.contains('tile-mistake')).toBe(false)
+  expect(screen.getByRole('button', { name: 'Go to word 2: 女性' }).className).toBe('overview-tile ')
+  expect(window.localStorage.getItem('mimikara-progress-v1')).toBe(savedProgress)
+})
+
+test.each(['reading', 'hanViet', 'meaning'])('the vocabulary map turns a word green after only its %s answer is correct', (field) => {
+  window.localStorage.setItem('mimikara-progress-v1', JSON.stringify({
+    [`n3:1:${field}`]: { solved: true, unresolved: true, revealed: false, hints: 0 },
+    'n3:2:reading': { solved: false, unresolved: true, revealed: false, hints: 0 },
+  }))
+  render(<App />)
+  fireEvent.click(screen.getByRole('button', { name: /Overview/ }))
+  const learned = screen.getByRole('button', { name: 'Go to word 1: 男性' })
+  expect(learned.classList.contains('tile-done')).toBe(true)
+  expect(learned.classList.contains('tile-mistake')).toBe(false)
+  expect(screen.getByRole('button', { name: 'Go to word 2: 女性' }).classList.contains('tile-mistake')).toBe(true)
 })
 
 test('shows source English meanings and Hán Việt for saved correct answers', () => {
