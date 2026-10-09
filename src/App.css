@@ -41,7 +41,7 @@
 .progress-track { height: 5px; overflow: hidden; border-radius: 8px; background: #e7eee9; }
 .progress-track span { display: block; height: 100%; border-radius: inherit; background: #51977e; transition: width .25s; }
 .toolbar { min-height: 60px; display: flex; align-items: center; justify-content: space-between; gap: 12px 25px; flex-wrap: wrap; padding: 10px 24px; border-top: 1px solid #f0f0eb; border-bottom: 1px solid #e9e9e3; background: #fcfcfa; }
-.mode-group { display: flex; gap: 6px; }
+.mode-group { display: flex; flex-wrap: wrap; gap: 6px; }
 .mode-group button { display: inline-flex; align-items: center; gap: 8px; border: 0; border-radius: 7px; padding: 10px 14px; color: #718083; background: transparent; font-size: 13px; font-weight: 700; white-space: nowrap; }
 .mode-group button.active { color: #c9543f; background: #faeee9; }
 .mode-group span { display: inline-flex; min-width: 20px; height: 20px; align-items: center; justify-content: center; padding: 0 5px; border-radius: 20px; background: #eaccc2; color: #ab4c3b; font-size: 10px; }
@@ -191,6 +191,8 @@
 .display-controls label { display: flex; flex-direction: column; gap: 4px; color: #647773; font-size: 11px; font-weight: 700; }
 .display-controls select { max-width: 210px; padding: 6px 8px; border: 1px solid #dce5dc; border-radius: 6px; background: #fff; color: #345048; font-size: 12px; }
 .focus-shortcuts { width: 100%; text-align: center; color: #71857c; font-size: 11px; }
+.resume-button { border: 1px solid #ccd9d4; border-radius: 7px; padding: 9px 12px; background: #eef5f1; color: #397861; font-size: 12px; font-weight: 700; }
+.resume-button:disabled, .focus-controls button:disabled { opacity: .45; cursor: default; }
 .focus-practice .answer-value:focus-visible { outline: 2px solid #d76d52; outline-offset: 2px; }
 .grammar-focus .focus-row { grid-template-columns: minmax(260px, 1.1fr) repeat(2, minmax(240px, 1fr)); min-width: 820px; }
 .grammar-table { min-width: 900px; }

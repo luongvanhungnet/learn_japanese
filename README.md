@@ -26,14 +26,34 @@ npm run preview
 - **Hint+** (Alt+A) hiện dần đáp án từ trái sang phải. Mỗi lần nhấn đặt lại bộ đếm 5 giây cho riêng ô đó; sau 5 giây không nhấn thêm, gợi ý biến mất và số chữ đã gợi ý về 0. Trạng thái đúng/sai không bị xóa. **Đáp án** (Alt+S) hiện ngay trên ô đang nhập trong 1 giây rồi tự ẩn; con trỏ vẫn ở ô đó và việc xem không tính là làm đúng. Phím tắt dùng được cả khi chưa mở ô.
 - Nhập sai, dùng **Hint+** hoặc xem **Đáp án** đều đưa từ vào **Khắc phục lỗi**. Nếu dùng gợi ý hoặc đáp án trong một lần ôn, trả lời đúng vẫn giữ từ trong danh sách, kể cả sau khi gợi ý tự ẩn hoặc tải lại trang. Phải trả lời đúng ô đó trong một lần ôn tiếp theo không dùng trợ giúp để xóa lỗi.
 - Thanh **Thu phóng** đổi kích thước bảng. **Tổng quan** hiển thị toàn bộ từ trên một bản đồ vừa màn hình; chọn một ô để quay lại hàng đó.
-- **Tập trung** hiển thị 4 cột: từ vựng, cách đọc, Hán Việt và ngữ nghĩa. **Alt+Z** sang phải, **Alt+X** sang trái, **Alt+C** xuống và **Alt+V** lên; bỏ qua ô không có dữ liệu và dừng ở mép bảng. Ô đã đúng vẫn có thể nhận con trỏ. Dùng **Danh sách đầy đủ** để quay lại bảng.
+- **Tập trung** hiển thị 4 cột: từ vựng, cách đọc, Hán Việt và ngữ nghĩa. **Alt+Z** sang trái, **Alt+X** sang phải, **Alt+C** lên và **Alt+V** xuống; bỏ qua ô không có dữ liệu và dừng ở mép bảng. Ô đã đúng vẫn có thể nhận con trỏ. Dùng **Danh sách đầy đủ** để quay lại bảng.
 - Thanh điều khiển trong **Tập trung** tự ẩn; đưa chuột vào vùng 64 px trên cùng để hiện và giữ thanh mở khi thao tác bên trong. Thanh nổi không đẩy các ô học xuống. Nút **Toàn màn hình** mở toàn màn hình của trình duyệt; nhấn lại hoặc dùng **Esc** để thoát. Điều khiển vẫn truy cập được bằng phím Tab.
 - Mỗi cột luyện tập trong chế độ tập trung có lựa chọn hiển thị riêng, được lưu trên máy: **1** giữ đáp án đã đúng trong ô xanh; **2** giữ ô xanh nhưng ẩn chữ; **3** hiện tất cả đáp án ở cả ô đã đúng và chưa đúng, đồng thời giữ nguyên màu và tiến độ. Ô chưa đúng ở chế độ 3 vẫn có thể mở để nhập và chấm đáp án.
 - Tiến độ được lưu bằng `localStorage` trong trình duyệt đang dùng. Xóa dữ liệu trang web của trình duyệt sẽ xóa tiến độ.
+- Vị trí ô đang học được lưu tự động, gồm bộ học, cột và chế độ danh sách/ôn lỗi/tập trung. Sau khi mở lại trang, nhấn **Tiếp tục ô gần nhất** hoặc **Alt+R** để cuộn đến ô đó và tiếp tục nhập. Vị trí được lưu khi con trỏ chuyển ô; nội dung đang gõ chưa gửi không được lưu.
 
 Chọn **English** hoặc **Tiếng Việt** ở đầu trang (cũng có trong chế độ tập trung) để đổi giao diện và ngôn ngữ của nghĩa. Lựa chọn được lưu cho lần mở tiếp theo; mặc định là tiếng Anh. Cột Hán Việt giữ nguyên. Ô cách đọc nhận hiragana hoặc katakana tương đương. Ô nghĩa nhận một trong các nghĩa của ngôn ngữ đang chọn, bỏ qua hoa thường, khoảng trắng và dấu câu; nghĩa tiếng Việt và Hán Việt nhận cả có dấu hoặc không dấu. Từ không có kanji hiện “—” ở ô Hán Việt.
 
 Tiến độ phần nghĩa, gợi ý và lỗi cần ôn được lưu riêng cho tiếng Anh và tiếng Việt; tiến độ cách đọc và Hán Việt dùng chung. Tiến độ đã có của bản tiếng Anh vẫn được giữ.
+
+### Flashcard
+
+Mở **Flashcard** từ thanh chế độ học hoặc thanh điều khiển **Tập trung**. Mỗi thẻ hiển thị một **câu tiếng Nhật đầy đủ**; nhấn **Spacebar** hoặc **Show answer / Hiện đáp án** để lật và xem bản dịch Anh/Việt. Thẻ từ vựng và bộ thủ có thêm cách đọc kana và romaji. Ví dụ: 「私は昼ご飯を食べました。」 — *Watashi wa hirugohan o tabemashita.* — “I ate lunch.”
+
+Sau khi lật, chọn mức độ bằng nút hoặc phím tắt:
+
+| Phím | Mức độ | Ôn lại sau |
+| --- | --- | --- |
+| A | Instant | 1 phút |
+| S | Hard | 5 phút |
+| D | Medium | 1 ngày |
+| F | Ez | 3 ngày |
+
+Thẻ đến hạn được ưu tiên trước thẻ mới. Thẻ chưa đến hạn không xuất hiện; khi ôn hết, trang hiển thị thời gian ôn tiếp theo và tự đưa thẻ trở lại khi đến hạn. Lịch lưu riêng ở `mimikara-flashcards-v1`, dùng chung khi đổi Anh/Việt. Bộ thẻ gần nhất được lưu tại `mimikara-flashcard-deck-v1`; mở lại `/#flashcard` để tiếp tục. Phím tắt không kích hoạt khi đang nhập, giữ phím, dùng Ctrl/Alt/Meta hoặc bộ gõ đang ghép ký tự.
+
+Bộ câu hiện có gồm **881 thẻ N3** (đủ **880 từ vựng N3** và ví dụ 食べる), **40 thẻ N2**, **20 thẻ bộ thủ thông dụng**, và **134 câu ví dụ của toàn bộ 111 mẫu ngữ pháp N3**. Mỗi từ N3 có một câu đầy đủ, cách đọc kana, romaji và bản dịch Anh/Việt; N2 và bộ thủ vẫn là bộ chọn lọc. ID thẻ cũ được giữ nguyên nên lịch ôn đã lưu tiếp tục hoạt động.
+
+Dữ liệu câu nằm trong `scripts/flashcard-sentences/`; chạy `npm run flashcards:build` để kiểm tra đủ từ, tạo romaji từ cách đọc đã biên soạn và cập nhật `src/data/flashcards.json`. Một số lỗi chính tả/cách đọc trong nguồn từ vựng được sửa riêng cho flashcard qua `corrections.json`, kèm ghi chú phân biệt nghĩa khi cần. Ngữ pháp sử dụng trực tiếp ví dụ trong dữ liệu hiện có. Các bài luyện theo ô và lịch ôn flashcard lưu tiến độ riêng.
 
 ## Dữ liệu
 

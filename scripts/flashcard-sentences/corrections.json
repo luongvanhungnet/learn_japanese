@@ -1,0 +1,31 @@
+{
+  "n3:65": { "targetReading": "めいわく" },
+  "n3:343": { "targetReading": "ほんやく" },
+  "n3:358": {
+    "notes": { "en": "自身 means ‘oneself’; 自信 means ‘confidence’.", "vi": "自身 nghĩa là ‘bản thân’; 自信 nghĩa là ‘sự tự tin’." }
+  },
+  "n3:445": {
+    "target": "だます", "targetReading": "だます",
+    "notes": { "en": "だます means ‘deceive’; 黙る（だまる）means ‘be silent’.", "vi": "だます nghĩa là ‘lừa gạt’; 黙る（だまる）nghĩa là ‘im lặng’." }
+  },
+  "n3:580": {
+    "target": "適当な", "targetReading": "てきとうな",
+    "notes": { "en": "適当な（てきとうな）means ‘suitable’ or ‘appropriate’.", "vi": "適当な（てきとうな）nghĩa là ‘phù hợp’ hoặc ‘thích hợp’." }
+  },
+  "n3:598": { "targetReading": "だいぶ" },
+  "n3:627": { "targetReading": "もしかすると・もしかしたら・もしかして" },
+  "n3:657": {
+    "target": "表面", "targetReading": "ひょうめん",
+    "notes": { "en": "表面（ひょうめん）means ‘surface’.", "vi": "表面（ひょうめん）nghĩa là ‘bề mặt’." }
+  },
+  "n3:682": {
+    "notes": { "en": "協調 means ‘cooperation’ or ‘harmony’; 強調 means ‘emphasis’.", "vi": "協調 nghĩa là ‘hợp tác’ hoặc ‘hòa hợp’; 強調 nghĩa là ‘nhấn mạnh’." }
+  },
+  "n3:739": {
+    "notes": { "en": "臨む means ‘face’ or ‘attend’; 望む means ‘wish’ or ‘hope’.", "vi": "臨む nghĩa là ‘đối diện’ hoặc ‘tham dự’; 望む nghĩa là ‘mong muốn’ hoặc ‘hy vọng’." }
+  },
+  "n3:794": {
+    "notes": { "en": "明ける means ‘to dawn’; 空ける means ‘to empty’ or ‘vacate’.", "vi": "明ける nghĩa là ‘trời sáng’; 空ける nghĩa là ‘làm trống’ hoặc ‘dọn khỏi’." }
+  },
+  "n3:796": { "target": "パートナー", "targetReading": "パートナー" }
+}

@@ -2,6 +2,21 @@ import { createContext, useContext } from 'react'
 
 export type Language = 'en' | 'vi'
 const english = {
+  flashcard: 'Flashcard', flashcardLoading: 'Opening flashcards…', flashcardBack: 'Back to study',
+  flashcardFlip: 'Show answer',
+  flashcardHide: 'Hide answer', flashcardDaily: 'SENTENCES IN CONTEXT',
+  flashcardInstructions: 'Recall the meaning of the whole sentence. Flip it, then choose when to review it again.',
+  flashcardDecks: 'Select flashcard deck', flashcardCount: '{count} sentence cards',
+  flashcardDue: 'Due', flashcardNew: 'New', flashcardScheduled: 'Scheduled',
+  flashcardReviewed: '{count} reviewed this session', flashcardSentence: 'JAPANESE SENTENCE',
+  flashcardRecall: 'What does this sentence mean?', flashcardRateHint: 'Flip the card before choosing a rating.',
+  flashcardInstant: 'Instant', flashcardHard: 'Hard', flashcardMedium: 'Medium', flashcardEz: 'Ez',
+  flashcardMinute: '1 min', flashcardFiveMinutes: '5 min', flashcardDay: '1 day', flashcardThreeDays: '3 days',
+  flashcardAllDone: 'All caught up', flashcardAllDoneHint: 'Your scheduled cards will return when they are due. You can study another deck now.',
+  flashcardNextReview: 'Next review: {time}', flashcardReviewSaved: '{rating} · review again in {interval}',
+  flashcardScope: 'All 880 N3 words · selected N2 and radicals · all grammar examples',
+  flashcardStorageError: 'This browser could not save your review schedule. Keep this page open to retain this session.',
+  resumeLastBox: 'Resume last box',
   grammar: 'N3 Grammar', grammarUnit: 'patterns', grammarPattern: 'Grammar pattern', formation: 'Formation',
   examples: 'Examples', sourcePage: 'PDF page {page}', noFormation: 'No formation rule in the source',
   formationPlaceholder: 'Enter a formation rule…', grammarNumber: 'pattern {order}',
@@ -44,6 +59,21 @@ const english = {
 }
 type Message = keyof typeof english
 const vietnamese: Record<Message, string> = {
+  flashcard: 'Flashcard', flashcardLoading: 'Đang mở thẻ học…', flashcardBack: 'Quay lại học',
+  flashcardFlip: 'Hiện đáp án',
+  flashcardHide: 'Ẩn đáp án', flashcardDaily: 'HỌC QUA CÂU',
+  flashcardInstructions: 'Nhớ nghĩa của cả câu. Lật thẻ rồi chọn thời gian ôn lại.',
+  flashcardDecks: 'Chọn bộ thẻ học', flashcardCount: '{count} thẻ câu',
+  flashcardDue: 'Đến hạn', flashcardNew: 'Thẻ mới', flashcardScheduled: 'Đã lên lịch',
+  flashcardReviewed: 'Đã ôn {count} lần trong phiên', flashcardSentence: 'CÂU TIẾNG NHẬT',
+  flashcardRecall: 'Câu này có nghĩa là gì?', flashcardRateHint: 'Lật thẻ trước khi chọn mức độ.',
+  flashcardInstant: 'Instant', flashcardHard: 'Hard', flashcardMedium: 'Medium', flashcardEz: 'Ez',
+  flashcardMinute: '1 phút', flashcardFiveMinutes: '5 phút', flashcardDay: '1 ngày', flashcardThreeDays: '3 ngày',
+  flashcardAllDone: 'Đã ôn hết thẻ đến hạn', flashcardAllDoneHint: 'Thẻ đã lên lịch sẽ xuất hiện khi đến hạn. Bạn có thể học bộ khác ngay bây giờ.',
+  flashcardNextReview: 'Lần ôn tiếp theo: {time}', flashcardReviewSaved: '{rating} · ôn lại sau {interval}',
+  flashcardScope: 'Đủ 880 từ N3 · N2 và bộ thủ chọn lọc · toàn bộ ví dụ ngữ pháp',
+  flashcardStorageError: 'Trình duyệt không lưu được lịch ôn. Giữ trang mở để tiếp tục phiên học này.',
+  resumeLastBox: 'Tiếp tục ô gần nhất',
   grammar: 'Ngữ pháp N3', grammarUnit: 'mẫu', grammarPattern: 'Mẫu ngữ pháp', formation: 'Cấu trúc',
   examples: 'Ví dụ', sourcePage: 'Trang PDF {page}', noFormation: 'Nguồn không ghi cấu trúc',
   formationPlaceholder: 'Nhập một cấu trúc…', grammarNumber: 'mẫu số {order}',
