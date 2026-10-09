@@ -36,6 +36,25 @@ Chọn **English** hoặc **Tiếng Việt** ở đầu trang (cũng có trong c
 
 Tiến độ phần nghĩa, gợi ý và lỗi cần ôn được lưu riêng cho tiếng Anh và tiếng Việt; tiến độ cách đọc và Hán Việt dùng chung. Tiến độ đã có của bản tiếng Anh vẫn được giữ.
 
+### Flashcard
+
+Mở **Flashcard** từ thanh chế độ học hoặc thanh điều khiển **Tập trung**. Mỗi thẻ hiển thị một **câu tiếng Nhật đầy đủ**; nhấn **Spacebar** hoặc **Show answer / Hiện đáp án** để lật và xem bản dịch Anh/Việt. Thẻ từ vựng và bộ thủ có thêm cách đọc kana và romaji. Ví dụ: 「私は昼ご飯を食べました。」 — *Watashi wa hirugohan o tabemashita.* — “I ate lunch.”
+
+Sau khi lật, chọn mức độ bằng nút hoặc phím tắt:
+
+| Phím | Mức độ | Ôn lại sau |
+| --- | --- | --- |
+| A | Instant | 1 phút |
+| S | Hard | 5 phút |
+| D | Medium | 1 ngày |
+| F | Ez | 3 ngày |
+
+Thẻ đến hạn được ưu tiên trước thẻ mới. Thẻ chưa đến hạn không xuất hiện; khi ôn hết, trang hiển thị thời gian ôn tiếp theo và tự đưa thẻ trở lại khi đến hạn. Lịch lưu riêng ở `mimikara-flashcards-v1`, dùng chung khi đổi Anh/Việt. Bộ thẻ gần nhất được lưu tại `mimikara-flashcard-deck-v1`; mở lại `/#flashcard` để tiếp tục. Phím tắt không kích hoạt khi đang nhập, giữ phím, dùng Ctrl/Alt/Meta hoặc bộ gõ đang ghép ký tự.
+
+Bộ câu hiện có gồm **881 thẻ N3** (đủ **880 từ vựng N3** và ví dụ 食べる), **40 thẻ N2**, **20 thẻ bộ thủ thông dụng**, và **134 câu ví dụ của toàn bộ 111 mẫu ngữ pháp N3**. Mỗi từ N3 có một câu đầy đủ, cách đọc kana, romaji và bản dịch Anh/Việt; N2 và bộ thủ vẫn là bộ chọn lọc. ID thẻ cũ được giữ nguyên nên lịch ôn đã lưu tiếp tục hoạt động.
+
+Dữ liệu câu nằm trong `scripts/flashcard-sentences/`; chạy `npm run flashcards:build` để kiểm tra đủ từ, tạo romaji từ cách đọc đã biên soạn và cập nhật `src/data/flashcards.json`. Một số lỗi chính tả/cách đọc trong nguồn từ vựng được sửa riêng cho flashcard qua `corrections.json`, kèm ghi chú phân biệt nghĩa khi cần. Ngữ pháp sử dụng trực tiếp ví dụ trong dữ liệu hiện có. Các bài luyện theo ô và lịch ôn flashcard lưu tiến độ riêng.
+
 ## Dữ liệu
 
 ### Tiểu thuyết N3

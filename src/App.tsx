@@ -13,6 +13,7 @@ import { hintPrefix, isCorrect, nextHint, parseProgress, revealAnswer, submitAns
 import type { CellProgress, Field, Mode, Progress } from './learning'
 import './App.css'
 const NovelReader = lazy(() => import('./NovelReader').then((module) => ({ default: module.NovelReader })))
+const FlashcardMode = lazy(() => import('./FlashcardMode').then((module) => ({ default: module.FlashcardMode })))
 
 type Level = 'N3' | 'N2' | 'RADICALS' | 'N3-GRAMMAR'
 type DisplayMode = '1' | '2' | '3'
@@ -268,6 +269,19 @@ function Overview({ entries, level, progress, onClose, onJump }: OverviewProps) 
 function StudyApp() {
   const { t, labels, locale, language } = useLanguage()
   const [readingNovel, setReadingNovel] = useState(() => window.location.hash === '#novel')
+  const [readingFlashcards, setReadingFlashcards] = useState(() => window.location.hash === '#flashcard')
+  const [flashcardInitialDeck, setFlashcardInitialDeck] = useState<Level>()
+  const openFlashcards = () => {
+    window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}#flashcard`)
+    setFocused(false)
+    setOverview(false)
+    setFlashcardInitialDeck(level)
+    setReadingFlashcards(true)
+  }
+  const closeFlashcards = () => {
+    window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}`)
+    setReadingFlashcards(false)
+  }
   const openNovel = () => { window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}#novel`); setReadingNovel(true) }
   const closeNovel = () => { window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}`); setReadingNovel(false) }
   const [level, setLevel] = useState<Level>('N3')
@@ -322,8 +336,9 @@ function StudyApp() {
 
   const resumeLastBox = useCallback(() => {
     if (!savedPosition) return
-    if (window.location.hash === '#novel') window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}`)
+    if (window.location.hash === '#novel' || window.location.hash === '#flashcard') window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}`)
     setReadingNovel(false)
+    setReadingFlashcards(false)
     setLevel(savedPosition.level)
     setMode(savedPosition.mode === 'review' && progress[savedPosition.key]?.unresolved ? 'review' : 'study')
     setFocused(savedPosition.focused)
@@ -442,6 +457,7 @@ function StudyApp() {
         ? previous : { key, level, focused, mode })
     }
     const onShortcut = (event: KeyboardEvent) => {
+      if (readingFlashcards) return
       if (!event.altKey || event.ctrlKey || event.metaKey) return
       const shortcut = event.key.toLowerCase()
       if (shortcut === 'r' || event.code === 'KeyR') {
@@ -525,7 +541,7 @@ function StudyApp() {
       document.removeEventListener('focusin', onFocus)
       document.removeEventListener('keydown', onShortcut, true)
     }
-  }, [entries, onHint, onPreview, overview, focused, fields, level, mode, savedPosition, resumeLastBox])
+  }, [entries, onHint, onPreview, overview, focused, fields, level, mode, savedPosition, resumeLastBox, readingFlashcards])
   const jump = (order: number) => { setMode('study'); setOverview(false); setJumpTarget(order) }
 
   if (focused) {
@@ -533,6 +549,7 @@ function StudyApp() {
       <main className="focus-shell" style={{ '--scale': 1 } as React.CSSProperties} aria-label={t('focusMode')}>
         <FocusHeader><LanguageSwitch />
           <button type="button" className="focus-exit" onClick={() => setFocused(false)}>← {t('fullList')}</button>
+          <button type="button" onClick={openFlashcards}>{t('flashcard')}</button>
           <button type="button" disabled={!savedPosition} aria-label={t('resumeLastBox')} onClick={resumeLastBox}>{t('resumeLastBox')} <kbd aria-hidden="true">Alt+R</kbd></button>
           <div className="focus-options" role="group" aria-label={t('selectSet')}>
             {levels.map((item) => <button key={item} type="button" aria-pressed={level === item} onClick={() => { setLevel(item); setPreviewKey(null); selectedKeyRef.current = null }}>{item === 'RADICALS' ? t('radicals') : item === 'N3-GRAMMAR' ? t('grammar') : item}</button>)}
@@ -563,6 +580,7 @@ function StudyApp() {
     )
   }
 
+  if (readingFlashcards) return <Suspense fallback={<p role="status">{t('flashcardLoading')}</p>}><FlashcardMode initialDeck={flashcardInitialDeck} onClose={closeFlashcards} /></Suspense>
   if (readingNovel) return <Suspense fallback={<p role="status">{language === 'vi' ? 'Đang mở tiểu thuyết…' : 'Opening the novel…'}</p>}><NovelReader onClose={closeNovel} /></Suspense>
   return (
     <div className="app-shell">
@@ -589,7 +607,7 @@ function StudyApp() {
           </div>
           <div className="toolbar">
             <button type="button" className="resume-button" disabled={!savedPosition} aria-label={t('resumeLastBox')} onClick={resumeLastBox}>{t('resumeLastBox')} <kbd aria-hidden="true">Alt+R</kbd></button>
-            <div className="mode-group" role="group" aria-label={t('studyMode')}><button type="button" className={mode === 'study' ? 'active' : ''} onClick={() => setMode('study')}>{t(grammar ? 'grammarList' : 'wordList')}</button><button type="button" className={mode === 'review' ? 'active' : ''} onClick={() => setMode('review')}>{t('reviewMistakes')} <span>{unresolved}</span></button><button type="button" onClick={() => { setMode('study'); setOverview(false); setFocused(true); window.scrollTo({ top: 0 }) }}>{t('focus')}</button></div>
+            <div className="mode-group" role="group" aria-label={t('studyMode')}><button type="button" onClick={openFlashcards}>{t('flashcard')}</button><button type="button" className={mode === 'study' ? 'active' : ''} onClick={() => setMode('study')}>{t(grammar ? 'grammarList' : 'wordList')}</button><button type="button" className={mode === 'review' ? 'active' : ''} onClick={() => setMode('review')}>{t('reviewMistakes')} <span>{unresolved}</span></button><button type="button" onClick={() => { setMode('study'); setOverview(false); setFocused(true); window.scrollTo({ top: 0 }) }}>{t('focus')}</button></div>
             <div className="zoom-controls"><span>{t('zoom')}</span><button type="button" aria-label={t('zoomOut')} onClick={() => setZoom((value) => Math.max(70, value - 10))}>−</button><input type="range" min="70" max="140" step="10" value={zoom} onChange={(event) => setZoom(Number(event.target.value))} aria-label={t('listZoom')} /><button type="button" aria-label={t('zoomIn')} onClick={() => setZoom((value) => Math.min(140, value + 10))}>+</button><output>{zoom}%</output><button type="button" className="overview-button" onClick={() => setOverview(true)}>▦ {t('overview')}</button></div>
           </div>
           <div className="table-caption"><span>{mode === 'study' ? t(level === 'RADICALS' ? 'showingRadicals' : grammar ? 'showingGrammar' : 'showingAll', { count: entries.length.toLocaleString(locale), level: levelLabel }) : t(grammar ? 'showingGrammarReview' : 'showingReview', { count: visible.length.toLocaleString(locale) })}</span><span>{t('hintExplanation')}</span></div>

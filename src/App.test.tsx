@@ -24,6 +24,23 @@ afterEach(() => {
   window.history.replaceState(null, '', '/')
 })
 
+test('opens flashcard mode from the study toolbar and returns to the list', async () => {
+  render(<App />)
+  fireEvent.click(screen.getByRole('button', { name: 'Flashcard' }))
+  expect(await screen.findByRole('heading', { name: 'Flashcard' })).toBeTruthy()
+  expect(window.location.hash).toBe('#flashcard')
+  fireEvent.click(screen.getByRole('button', { name: 'Back to study' }))
+  expect(screen.getByRole('button', { name: 'Word list' })).toBeTruthy()
+  expect(window.location.hash).toBe('')
+})
+
+test('reopening the flashcard route restores its saved deck', async () => {
+  window.localStorage.setItem('mimikara-flashcard-deck-v1', 'N2')
+  window.history.replaceState(null, '', '/#flashcard')
+  render(<App />)
+  expect(await screen.findByText('留学は私の人生を大きく変えました。')).toBeTruthy()
+})
+
 test.each([false, true])('resumes the last practice box after reload in its saved collection (focus: %s)', (focused) => {
   window.scrollTo = vi.fn()
   const scroll = vi.fn()

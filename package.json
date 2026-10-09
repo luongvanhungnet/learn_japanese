@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "flashcards:build": "node scripts/build_flashcards.mjs",
     "novel:audio": "node scripts/prepare_novel_audio.mjs && python scripts/build_novel_audio.py",
     "novel:build": "python scripts/build_novel.py && node scripts/audit_novel.mjs",
     "novel:audit": "node scripts/audit_novel.mjs",
