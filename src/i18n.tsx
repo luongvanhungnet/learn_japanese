@@ -2,13 +2,15 @@ import { useEffect, useState } from 'react'
 import type { ReactNode } from 'react'
 import { LanguageContext, messagesByLanguage, useLanguage } from './translations'
 import type { Language } from './translations'
+import { readStudyValue } from './accountData'
+import { useStudyPersistence } from './useStudyPersistence'
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const [language, setLanguage] = useState<Language>(() => {
-    try { return window.localStorage.getItem('mimikara-language') === 'vi' ? 'vi' : 'en' } catch { return 'en' }
+    try { return readStudyValue('mimikara-language') === 'vi' ? 'vi' : 'en' } catch { return 'en' }
   })
+  useStudyPersistence('mimikara-language', language)
   useEffect(() => {
-    try { window.localStorage.setItem('mimikara-language', language) } catch { /* private browsing */ }
     const messages = messagesByLanguage[language]
     document.documentElement.lang = language
     document.title = messages.title

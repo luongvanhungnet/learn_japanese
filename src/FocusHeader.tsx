@@ -28,7 +28,8 @@ export function FocusHeader({ children }: { children: ReactNode }) {
   useEffect(() => {
     const move = (event: MouseEvent) => {
       const bottom = visible ? headerRef.current?.getBoundingClientRect().bottom ?? 0 : 0
-      setVisible(event.clientY >= 0 && event.clientY <= Math.max(64, bottom))
+      const inside = event.target instanceof Node && headerRef.current?.contains(event.target)
+      setVisible(Boolean(inside) || event.clientY >= 0 && event.clientY <= Math.max(64, bottom))
     }
     const leave = (event: MouseEvent) => { if (!event.relatedTarget) setVisible(false) }
     window.addEventListener('mousemove', move)

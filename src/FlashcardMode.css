@@ -10,6 +10,7 @@
   z-index: 10;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 16px;
   min-height: 74px;
   padding: 12px max(5vw, 24px);
@@ -750,8 +751,17 @@
 
 @media (max-width: 480px) {
   .flashcard-header {
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 8px;
+  }
+
+  .flashcard-header > .auth-controls {
+    flex-basis: 100%;
+    justify-content: flex-end;
+  }
+
+  .flashcard-shell:has(.auth-controls) .flashcard-stage {
+    height: calc(100dvh - 280px);
   }
 
   .flashcard-header > .brand {

@@ -11,6 +11,9 @@ import { NovelAudioPlayer } from './NovelAudioPlayer'
 import type { NovelAudioHandle } from './NovelAudioPlayer'
 import type { Annotation } from './novel'
 import { LanguageSwitch } from './i18n'
+import { AccountMenu } from './AccountMenu'
+import { readStudyValue } from './accountData'
+import { useStudyPersistence } from './useStudyPersistence'
 import { useLanguage } from './translations'
 import './NovelReader.css'
 
@@ -41,7 +44,7 @@ export function NovelReader({ onClose }: { onClose: () => void }) {
   const { language } = useLanguage()
   const vi = language === 'vi'
   const [chapterId, setChapterId] = useState(() => {
-    try { const stored = Number(localStorage.getItem(bookmarkKey)); return novel.chapters.some((chapter) => chapter.id === stored) ? stored : 1 } catch { return 1 }
+    try { const stored = Number(readStudyValue(bookmarkKey)); return novel.chapters.some((chapter) => chapter.id === stored) ? stored : 1 } catch { return 1 }
   })
   const [fontSize, setFontSize] = useState(20)
   const [highlight, setHighlight] = useState(true)
@@ -99,7 +102,7 @@ export function NovelReader({ onClose }: { onClose: () => void }) {
       if (bounds && (bounds.top < controlsBottom + 20 || bounds.bottom > window.innerHeight - 80)) element?.scrollIntoView?.({ block: 'center', behavior: 'smooth' })
     }
   }, [activeSentence, followAudio])
-  useEffect(() => { try { localStorage.setItem(bookmarkKey, String(chapterId)) } catch { /* private browsing */ } }, [chapterId])
+  useStudyPersistence(bookmarkKey, String(chapterId))
   useEffect(() => {
     const escape = (event: KeyboardEvent) => { if (event.key === 'Escape') { setLookup(null); setPinned(false) } }
     window.addEventListener('keydown', escape)
@@ -124,7 +127,7 @@ export function NovelReader({ onClose }: { onClose: () => void }) {
   }
   const selectedGrammar = lookup?.grammarId ? patterns.get(lookup.grammarId) : undefined
   return <div className="novel-shell" ref={shellRef}>
-    <header className="novel-header"><button className="reader-back" onClick={onClose}>← {vi ? 'Luyện tập' : 'Practice'}</button><span>MIMIKARA · STORY</span><LanguageSwitch /></header>
+    <header className="novel-header"><button className="reader-back" onClick={onClose}>← {vi ? 'Luyện tập' : 'Practice'}</button><span>MIMIKARA · STORY</span><LanguageSwitch /><AccountMenu /></header>
     <main className="novel-main">
       <div className="novel-title"><span className="eyebrow">N3 READING · 20 CHAPTERS · 880 WORDS</span><h1 lang="ja">{novel.title}</h1><p>{novel.subtitle}</p>
         <p className="reader-instructions">{vi ? 'Di chuột hoặc nhấp vào từ để tra từ vựng và ngữ pháp. Nhấn nút ▶ ở đầu câu để nghe từ câu đó; Escape để đóng thẻ.' : 'Hover or click words to look up vocabulary and grammar. Use ▶ at the start of a sentence to listen from there; Escape closes the card.'}</p></div>
