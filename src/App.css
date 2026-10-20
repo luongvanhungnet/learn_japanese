@@ -3,11 +3,15 @@
 .language-switch button { padding: 6px 9px; border: 0; border-radius: 5px; background: transparent; color: #596469; font-size: 12px; font-weight: 700; white-space: nowrap; }
 .language-switch button[aria-pressed="true"] { background: #274c43; color: #fff; }
 .app-shell { min-height: 100vh; background: radial-gradient(circle at 88% 9%, #f0e9db 0, transparent 25%), #f6f4ee; }
-.site-header { height: 74px; display: flex; justify-content: space-between; align-items: center; gap: 24px; padding: 0 max(5vw, 24px); border-bottom: 1px solid #deddd5; background: rgba(250,249,245,.88); }
+.site-header { min-height: 74px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px 24px; padding: 12px max(5vw, 24px); border-bottom: 1px solid #deddd5; background: rgba(250,249,245,.88); }
 .brand { display: inline-flex; align-items: center; gap: 11px; color: #253238; font-size: 14px; font-weight: 800; letter-spacing: .18em; white-space: nowrap; }
 .brand strong { font-weight: 400; letter-spacing: .12em; color: #7c8789; }
 .brand-mark { display: inline-flex; width: 32px; height: 32px; align-items: center; justify-content: center; border-radius: 9px; background: #d8654a; color: #fff; font-family: "Yu Gothic", sans-serif; font-size: 19px; letter-spacing: 0; }
-.header-right { display: flex; align-items: center; gap: 22px; color: #899195; font-size: 12px; }
+.header-right { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 10px 16px; color: #899195; font-size: 12px; }
+.account-loading { min-height: 100vh; display: grid; place-items: center; color: #274c43; background: #f6f4ee; font-size: 16px; }
+.account-sync { display: inline-flex; align-items: center; flex-wrap: wrap; gap: 6px; max-width: 270px; color: #397861; font-size: 11px; line-height: 1.4; }
+.account-sync-error { color: #a74938; }
+.account-sync button { border: 1px solid currentColor; border-radius: 5px; padding: 3px 5px; background: transparent; color: inherit; font: inherit; cursor: pointer; }
 @media (max-width: 600px) {
   .app-shell .site-header { flex-wrap: wrap; height: auto; min-height: 60px; padding: 12px 16px; gap: 10px; }
   .header-right { width: 100%; justify-content: space-between; flex-wrap: wrap; }
@@ -119,7 +123,7 @@
 .legend-dot.mistake { background: #f2c9b8; border-color: #edb6a6; }
 .focus-shell { min-height: 100vh; background: #f8f9f6; color: #243538; }
 .focus-controls { position: fixed; top: 0; left: 0; right: 0; z-index: 10; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 8px 20px; padding: 11px 18px; border-bottom: 1px solid #e3e9e3; background: rgba(250, 252, 249, .96); backdrop-filter: blur(10px); transform: translateY(-100%); opacity: 0; pointer-events: none; transition: transform .18s ease, opacity .18s ease; }
-.focus-controls.is-visible, .focus-controls:has(:focus-visible) { transform: translateY(0); opacity: 1; pointer-events: auto; }
+.focus-controls.is-visible, .focus-controls:has(:focus-visible), .focus-controls:has(details[open]) { transform: translateY(0); opacity: 1; pointer-events: auto; }
 @media (prefers-reduced-motion: reduce) { .focus-controls { transition: none; } }
 .focus-controls button { border: 1px solid transparent; border-radius: 7px; padding: 8px 11px; background: transparent; color: #536663; font-size: 13px; font-weight: 700; }
 .focus-controls button:hover, .focus-controls button:focus-visible { background: #edf4ed; }

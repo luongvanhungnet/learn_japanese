@@ -11,6 +11,9 @@ node_modules
 dist
 dist-ssr
 *.local
+/.env.local
+/.postgres-data.local/
+/.postgres-server.local.log
 
 # Editor directories and files
 .vscode/*
@@ -24,3 +27,5 @@ dist-ssr
 *.sw?
 *.env
 /.novel-audio-cache/
+/tmp/exam-source/
+/scripts/exam-source/__pycache__/

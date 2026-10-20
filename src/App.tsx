@@ -7,6 +7,10 @@ import radicalsData from './data/radicals.json'
 import vietnameseMeanings from './data/vi.json'
 import { LanguageProvider, LanguageSwitch } from './i18n'
 import { FocusHeader } from './FocusHeader'
+import { AccountMenu } from './AccountMenu'
+import { useAuth } from './auth/AuthProvider'
+import { readStudyValue, writeStudyValue } from './accountData'
+import { useStudyPersistence } from './useStudyPersistence'
 import { useLanguage } from './translations'
 import type { Language } from './translations'
 import { hintPrefix, isCorrect, nextHint, parseProgress, revealAnswer, submitAnswer } from './learning'
@@ -14,6 +18,7 @@ import type { CellProgress, Field, Mode, Progress } from './learning'
 import './App.css'
 const NovelReader = lazy(() => import('./NovelReader').then((module) => ({ default: module.NovelReader })))
 const FlashcardMode = lazy(() => import('./FlashcardMode').then((module) => ({ default: module.FlashcardMode })))
+const ExamMode = lazy(() => import('./ExamMode').then((module) => ({ default: module.ExamMode })))
 
 type Level = 'N3' | 'N2' | 'RADICALS' | 'N3-GRAMMAR'
 type DisplayMode = '1' | '2' | '3'
@@ -66,7 +71,7 @@ function getAccepted(entry: VocabularyEntry, field: Field): string[] {
 
 function readPracticePosition(): PracticePosition | null {
   try {
-    const saved: Partial<PracticePosition> | null = JSON.parse(window.localStorage.getItem(positionStorageKey) ?? 'null')
+    const saved: Partial<PracticePosition> | null = JSON.parse(readStudyValue(positionStorageKey) ?? 'null')
     if (!saved || !levels.includes(saved.level as Level) || typeof saved.key !== 'string' || typeof saved.focused !== 'boolean') return null
     const level = saved.level as Level
     const mode = saved.mode ?? 'study'
@@ -268,10 +273,24 @@ function Overview({ entries, level, progress, onClose, onJump }: OverviewProps) 
 
 function StudyApp() {
   const { t, labels, locale, language } = useLanguage()
+  const auth = useAuth()
+  const accountBusy = Boolean(auth?.loading || auth?.initializing)
   const [readingNovel, setReadingNovel] = useState(() => window.location.hash === '#novel')
   const [readingFlashcards, setReadingFlashcards] = useState(() => window.location.hash === '#flashcard')
+  const [takingExam, setTakingExam] = useState(() => window.location.hash === '#exam')
+  const openExam = () => {
+    window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}#exam`)
+    setFocused(false)
+    setOverview(false)
+    setTakingExam(true)
+  }
+  const closeExam = () => {
+    window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}`)
+    setTakingExam(false)
+  }
   const [flashcardInitialDeck, setFlashcardInitialDeck] = useState<Level>()
   const openFlashcards = () => {
+    try { writeStudyValue('mimikara-flashcard-deck-v1', level) } catch { /* account sync reports storage failures */ }
     window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}#flashcard`)
     setFocused(false)
     setOverview(false)
@@ -292,21 +311,16 @@ function StudyApp() {
   const [focused, setFocused] = useState(false)
   const [savedPosition, setSavedPosition] = useState(readPracticePosition)
   const [resumeRequest, setResumeRequest] = useState<PracticePosition | null>(null)
-  useEffect(() => {
-    if (!savedPosition) return
-    try { window.localStorage.setItem(positionStorageKey, JSON.stringify(savedPosition)) } catch { /* private browsing */ }
-  }, [savedPosition])
+  useStudyPersistence(positionStorageKey, useMemo(() => savedPosition ? JSON.stringify(savedPosition) : undefined, [savedPosition]))
   const [displayModes, setDisplayModes] = useState<Record<Field, DisplayMode>>(() => {
     const defaults: Record<Field, DisplayMode> = { reading: '1', hanViet: '1', meaning: '1', formation: '1' }
     try {
-      const saved = JSON.parse(window.localStorage.getItem('mimikara-display-modes-v1') ?? '{}')
+      const saved = JSON.parse(readStudyValue('mimikara-display-modes-v1') ?? '{}')
       for (const field of [...vocabularyFields, 'formation'] as Field[]) if (['1', '2', '3'].includes(saved?.[field])) defaults[field] = saved[field]
     } catch { /* invalid or unavailable storage */ }
     return defaults
   })
-  useEffect(() => {
-    try { window.localStorage.setItem('mimikara-display-modes-v1', JSON.stringify(displayModes)) } catch { /* private browsing */ }
-  }, [displayModes])
+  useStudyPersistence('mimikara-display-modes-v1', useMemo(() => JSON.stringify(displayModes), [displayModes]))
   const [zoom, setZoom] = useState(100)
   const [overview, setOverview] = useState(false)
   const [jumpTarget, setJumpTarget] = useState<number | null>(null)
@@ -318,7 +332,7 @@ function StudyApp() {
   const previewTimerRef = useRef<number | null>(null)
   const [allProgress, setProgress] = useState<Progress>(() => {
     try {
-      const saved = parseProgress(window.localStorage.getItem(storageKey))
+      const saved = parseProgress(readStudyValue(storageKey))
       return Object.fromEntries(Object.entries(saved).map(([key, cell]) => [key, { ...cell, hints: 0 }]))
     } catch { return {} }
   })
@@ -336,9 +350,10 @@ function StudyApp() {
 
   const resumeLastBox = useCallback(() => {
     if (!savedPosition) return
-    if (window.location.hash === '#novel' || window.location.hash === '#flashcard') window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}`)
+    if (window.location.hash === '#novel' || window.location.hash === '#flashcard' || window.location.hash === '#exam') window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}`)
     setReadingNovel(false)
     setReadingFlashcards(false)
+    setTakingExam(false)
     setLevel(savedPosition.level)
     setMode(savedPosition.mode === 'review' && progress[savedPosition.key]?.unresolved ? 'review' : 'study')
     setFocused(savedPosition.focused)
@@ -347,9 +362,7 @@ function StudyApp() {
     setResumeRequest({ ...savedPosition })
   }, [savedPosition, progress])
 
-  useEffect(() => {
-    try { window.localStorage.setItem(storageKey, JSON.stringify(allProgress)) } catch { /* private browsing */ }
-  }, [allProgress])
+  useStudyPersistence(storageKey, useMemo(() => JSON.stringify(allProgress), [allProgress]))
   useEffect(() => {
     if (overview || jumpTarget === null) return
     const frame = requestAnimationFrame(() => {
@@ -457,7 +470,8 @@ function StudyApp() {
         ? previous : { key, level, focused, mode })
     }
     const onShortcut = (event: KeyboardEvent) => {
-      if (readingFlashcards) return
+      if (accountBusy || (event.target instanceof Element && event.target.closest('[role="dialog"][aria-modal="true"], .auth-controls'))) return
+      if (readingFlashcards || takingExam) return
       if (!event.altKey || event.ctrlKey || event.metaKey) return
       const shortcut = event.key.toLowerCase()
       if (shortcut === 'r' || event.code === 'KeyR') {
@@ -541,15 +555,16 @@ function StudyApp() {
       document.removeEventListener('focusin', onFocus)
       document.removeEventListener('keydown', onShortcut, true)
     }
-  }, [entries, onHint, onPreview, overview, focused, fields, level, mode, savedPosition, resumeLastBox, readingFlashcards])
+  }, [entries, onHint, onPreview, overview, focused, fields, level, mode, savedPosition, resumeLastBox, readingFlashcards, takingExam, accountBusy])
   const jump = (order: number) => { setMode('study'); setOverview(false); setJumpTarget(order) }
 
   if (focused) {
     return (
       <main className="focus-shell" style={{ '--scale': 1 } as React.CSSProperties} aria-label={t('focusMode')}>
-        <FocusHeader><LanguageSwitch />
+        <FocusHeader><LanguageSwitch /><AccountMenu />
           <button type="button" className="focus-exit" onClick={() => setFocused(false)}>← {t('fullList')}</button>
           <button type="button" onClick={openFlashcards}>{t('flashcard')}</button>
+          <button type="button" onClick={openExam}>{t('exam')}</button>
           <button type="button" disabled={!savedPosition} aria-label={t('resumeLastBox')} onClick={resumeLastBox}>{t('resumeLastBox')} <kbd aria-hidden="true">Alt+R</kbd></button>
           <div className="focus-options" role="group" aria-label={t('selectSet')}>
             {levels.map((item) => <button key={item} type="button" aria-pressed={level === item} onClick={() => { setLevel(item); setPreviewKey(null); selectedKeyRef.current = null }}>{item === 'RADICALS' ? t('radicals') : item === 'N3-GRAMMAR' ? t('grammar') : item}</button>)}
@@ -580,13 +595,14 @@ function StudyApp() {
     )
   }
 
+  if (takingExam) return <Suspense fallback={<p role="status">{t('examLoading')}</p>}><ExamMode onClose={closeExam} /></Suspense>
   if (readingFlashcards) return <Suspense fallback={<p role="status">{t('flashcardLoading')}</p>}><FlashcardMode initialDeck={flashcardInitialDeck} onClose={closeFlashcards} /></Suspense>
   if (readingNovel) return <Suspense fallback={<p role="status">{language === 'vi' ? 'Đang mở tiểu thuyết…' : 'Opening the novel…'}</p>}><NovelReader onClose={closeNovel} /></Suspense>
   return (
     <div className="app-shell">
       <header className="site-header">
         <div className="brand"><span className="brand-mark">み</span><span>MIMIKARA <strong>STUDY</strong></span></div>
-        <div className="header-right"><button className="novel-launch" onClick={openNovel}>{language === 'vi' ? 'Đọc tiểu thuyết N3' : 'Read N3 novel'}</button><LanguageSwitch /><span className="header-note">{t(grammar ? 'grammarHeader' : 'headerNote')}</span><span className="local-badge"><i /> {t('savedDevice')}</span></div>
+        <div className="header-right"><button className="novel-launch" onClick={openNovel}>{language === 'vi' ? 'Đọc tiểu thuyết N3' : 'Read N3 novel'}</button><LanguageSwitch /><AccountMenu /><span className="header-note">{t(grammar ? 'grammarHeader' : 'headerNote')}</span>{!auth?.user && <span className="local-badge"><i /> {t('savedDevice')}</span>}</div>
       </header>
       <main className="main-content">
         <section className="intro">
@@ -607,7 +623,7 @@ function StudyApp() {
           </div>
           <div className="toolbar">
             <button type="button" className="resume-button" disabled={!savedPosition} aria-label={t('resumeLastBox')} onClick={resumeLastBox}>{t('resumeLastBox')} <kbd aria-hidden="true">Alt+R</kbd></button>
-            <div className="mode-group" role="group" aria-label={t('studyMode')}><button type="button" onClick={openFlashcards}>{t('flashcard')}</button><button type="button" className={mode === 'study' ? 'active' : ''} onClick={() => setMode('study')}>{t(grammar ? 'grammarList' : 'wordList')}</button><button type="button" className={mode === 'review' ? 'active' : ''} onClick={() => setMode('review')}>{t('reviewMistakes')} <span>{unresolved}</span></button><button type="button" onClick={() => { setMode('study'); setOverview(false); setFocused(true); window.scrollTo({ top: 0 }) }}>{t('focus')}</button></div>
+            <div className="mode-group" role="group" aria-label={t('studyMode')}><button type="button" onClick={openFlashcards}>{t('flashcard')}</button><button type="button" onClick={openExam}>{t('exam')}</button><button type="button" className={mode === 'study' ? 'active' : ''} onClick={() => setMode('study')}>{t(grammar ? 'grammarList' : 'wordList')}</button><button type="button" className={mode === 'review' ? 'active' : ''} onClick={() => setMode('review')}>{t('reviewMistakes')} <span>{unresolved}</span></button><button type="button" onClick={() => { setMode('study'); setOverview(false); setFocused(true); window.scrollTo({ top: 0 }) }}>{t('focus')}</button></div>
             <div className="zoom-controls"><span>{t('zoom')}</span><button type="button" aria-label={t('zoomOut')} onClick={() => setZoom((value) => Math.max(70, value - 10))}>−</button><input type="range" min="70" max="140" step="10" value={zoom} onChange={(event) => setZoom(Number(event.target.value))} aria-label={t('listZoom')} /><button type="button" aria-label={t('zoomIn')} onClick={() => setZoom((value) => Math.min(140, value + 10))}>+</button><output>{zoom}%</output><button type="button" className="overview-button" onClick={() => setOverview(true)}>▦ {t('overview')}</button></div>
           </div>
           <div className="table-caption"><span>{mode === 'study' ? t(level === 'RADICALS' ? 'showingRadicals' : grammar ? 'showingGrammar' : 'showingAll', { count: entries.length.toLocaleString(locale), level: levelLabel }) : t(grammar ? 'showingGrammarReview' : 'showingReview', { count: visible.length.toLocaleString(locale) })}</span><span>{t('hintExplanation')}</span></div>
@@ -621,7 +637,7 @@ function StudyApp() {
             </div>
           )}
         </section>
-        <footer className="page-footer"><span>{grammar ? t('grammarSource') : level === 'RADICALS' ? <>Kanji radicals · <a href="https://kanjialive.com/214-traditional-kanji-radicals/">Kanji alive</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</> : <>Mimikara Study · N3 / N2 · {t('englishMeanings')} <a href="https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project">JMdict</a> (<a href="/JMdict-LICENSE.txt">CC BY-SA 4.0</a>)</>}</span><span>{t('savedProgress')}</span></footer>
+        <footer className="page-footer"><span>{grammar ? t('grammarSource') : level === 'RADICALS' ? <>Kanji radicals · <a href="https://kanjialive.com/214-traditional-kanji-radicals/">Kanji alive</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</> : <>Mimikara Study · N3 / N2 · {t('englishMeanings')} <a href="https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project">JMdict</a> (<a href="/JMdict-LICENSE.txt">CC BY-SA 4.0</a>)</>}</span><span>{t(auth?.user ? 'accountAutoSave' : 'savedProgress')}</span></footer>
       </main>
       {overview && <Overview entries={entries} level={level} progress={progress} onClose={() => setOverview(false)} onJump={jump} />}
     </div>

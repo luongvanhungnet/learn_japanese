@@ -1,6 +1,6 @@
 # Mimikara Study
 
-Trang học tiếng Nhật chạy hoàn toàn trên máy cá nhân. Ứng dụng gồm 880 từ N3, 111 mẫu ngữ pháp N3, 1.160 từ N2 và 214 bộ thủ Kanji, mỗi lần xem một bộ.
+Trang học tiếng Nhật gồm 880 từ N3, 111 mẫu ngữ pháp N3, 1.160 từ N2 và 214 bộ thủ Kanji. Có thể học với tiến độ khách lưu trên máy hoặc tạo tài khoản để lưu và đồng bộ dữ liệu qua PostgreSQL.
 
 ## Chạy cục bộ
 
@@ -8,13 +8,30 @@ Cần Node.js 20.19+ hoặc 22.12+.
 
 ```powershell
 npm install
+npm run db:local
+npm run db:migrate
 npm run dev
 ```
 
-Mở địa chỉ Vite in ra trong terminal (thường là `http://localhost:5173`). Không cần máy chủ dữ liệu, tài khoản hay API khi học.
+Mở địa chỉ Vite in ra trong terminal (thường là `http://localhost:5173`). `npm run dev` chạy Vite và API ở cổng 3001; Vite chuyển tiếp `/api` đến máy chủ. `db:local` dùng các công cụ PostgreSQL (`initdb`, `pg_ctl`) trên PATH, tạo cụm dữ liệu riêng trong `.postgres-data.local/`, lắng nghe tại `127.0.0.1:5433` và tạo cơ sở dữ liệu `mimikara_study`. Nó không thay đổi dịch vụ PostgreSQL hiện có. Có thể đặt `PG_BIN` để chỉ đến thư mục `bin` của PostgreSQL.
+
+Nếu đã có PostgreSQL, sao chép `.env.example` thành **`.env.local`**, thay `DATABASE_URL` và `SESSION_SECRET`, rồi chạy `npm run db:migrate`. Không cần `db:local` khi dùng cơ sở dữ liệu riêng. Migration tạo bảng và có thể chạy lại; không xóa dữ liệu.
+
+### Tài khoản và dữ liệu
+
+Nút **Log in / Đăng nhập** và **Sign up / Đăng ký** có trong các chế độ học, flashcard và đọc truyện. Đăng ký bằng tên, email và mật khẩu 8–128 ký tự. Lựa chọn sao chép tiến độ khách trên máy được hiển thị khi đăng ký; dữ liệu khách vẫn được giữ. Đăng nhập chỉ nạp dữ liệu của tài khoản đó. Đăng xuất trở về tiến độ khách, không để dữ liệu của tài khoản khác xuất hiện.
+
+Tài khoản lưu tiến độ luyện tập (bao gồm lỗi cần ôn và nghĩa Anh/Việt), lịch flashcard, vị trí ô gần nhất, lựa chọn hiển thị, bộ flashcard, ngôn ngữ và chương truyện. Dữ liệu nạp trước khi mở màn hình học. Thay đổi được lưu vào bộ đệm riêng của tài khoản và gửi theo đợt; nếu gửi thất bại, trang hiện trạng thái lỗi và nút thử lại. Các thay đổi chờ gửi được giữ để thử lại khi có mạng, quay lại trang hoặc đăng nhập lại. Đăng xuất chờ lưu thành công để giữ tiến độ.
+
+API dùng PostgreSQL với các bảng `users`, `sessions`, `user_data`; dữ liệu học lưu bằng JSONB theo ID tài khoản. Mật khẩu được băm bằng scrypt và salt ngẫu nhiên. Phiên đăng nhập dùng cookie HttpOnly/SameSite, được lưu trên máy chủ dưới dạng HMAC, hết hạn sau 7 ngày và bị thu hồi khi đăng xuất. Các API ghi kiểm tra origin, giới hạn thử đăng nhập/đăng ký và kiểm tra tài khoản trước khi đồng bộ.
+
+**`.env.local` chỉ dùng để cấu hình bí mật phía máy chủ**, được Git bỏ qua. `db:local` sinh mật khẩu PostgreSQL và `SESSION_SECRET` ngẫu nhiên; không đưa chúng vào mã nguồn. Không đặt tiền tố `VITE_` cho `DATABASE_URL`, `SESSION_SECRET` hay mật khẩu. `.env.example` chỉ chứa giá trị mẫu. `APP_ORIGIN` là danh sách origin giao diện được phép (phân cách bằng dấu phẩy); thêm origin thực tế khi đổi cổng hoặc tên miền. Với PostgreSQL từ xa cần TLS, dùng `DATABASE_SSL=true`; có thể đặt `DATABASE_SSL_CA_FILE` nếu cần CA riêng.
+
+Sau khi build, `npm start` chạy API và phục vụ `dist/` tại `http://127.0.0.1:3001`. Khi triển khai, đặt `NODE_ENV=production`, dùng HTTPS và cấu hình `APP_ORIGIN` đúng tên miền để cookie Secure hoạt động. Chưa có dịch vụ gửi email xác minh hay khôi phục mật khẩu.
 
 ```powershell
 npm test       # kiểm tra chấm đáp án, tiến độ và độ đầy đủ của ba bộ học
+npm run test:db # kiểm tra tài khoản và tiến độ với PostgreSQL thật; tự dọn 2 tài khoản thử
 npm run build  # tạo bản production trong dist/
 npm run preview
 ```
@@ -29,7 +46,7 @@ npm run preview
 - **Tập trung** hiển thị 4 cột: từ vựng, cách đọc, Hán Việt và ngữ nghĩa. **Alt+Z** sang trái, **Alt+X** sang phải, **Alt+C** lên và **Alt+V** xuống; bỏ qua ô không có dữ liệu và dừng ở mép bảng. Ô đã đúng vẫn có thể nhận con trỏ. Dùng **Danh sách đầy đủ** để quay lại bảng.
 - Thanh điều khiển trong **Tập trung** tự ẩn; đưa chuột vào vùng 64 px trên cùng để hiện và giữ thanh mở khi thao tác bên trong. Thanh nổi không đẩy các ô học xuống. Nút **Toàn màn hình** mở toàn màn hình của trình duyệt; nhấn lại hoặc dùng **Esc** để thoát. Điều khiển vẫn truy cập được bằng phím Tab.
 - Mỗi cột luyện tập trong chế độ tập trung có lựa chọn hiển thị riêng, được lưu trên máy: **1** giữ đáp án đã đúng trong ô xanh; **2** giữ ô xanh nhưng ẩn chữ; **3** hiện tất cả đáp án ở cả ô đã đúng và chưa đúng, đồng thời giữ nguyên màu và tiến độ. Ô chưa đúng ở chế độ 3 vẫn có thể mở để nhập và chấm đáp án.
-- Tiến độ được lưu bằng `localStorage` trong trình duyệt đang dùng. Xóa dữ liệu trang web của trình duyệt sẽ xóa tiến độ.
+- Tiến độ khách được lưu bằng `localStorage` trong trình duyệt đang dùng. Khi đăng nhập, tiến độ được lưu riêng cho tài khoản và đồng bộ với PostgreSQL; xóa dữ liệu trình duyệt không xóa phần đã đồng bộ.
 - Vị trí ô đang học được lưu tự động, gồm bộ học, cột và chế độ danh sách/ôn lỗi/tập trung. Sau khi mở lại trang, nhấn **Tiếp tục ô gần nhất** hoặc **Alt+R** để cuộn đến ô đó và tiếp tục nhập. Vị trí được lưu khi con trỏ chuyển ô; nội dung đang gõ chưa gửi không được lưu.
 
 Chọn **English** hoặc **Tiếng Việt** ở đầu trang (cũng có trong chế độ tập trung) để đổi giao diện và ngôn ngữ của nghĩa. Lựa chọn được lưu cho lần mở tiếp theo; mặc định là tiếng Anh. Cột Hán Việt giữ nguyên. Ô cách đọc nhận hiragana hoặc katakana tương đương. Ô nghĩa nhận một trong các nghĩa của ngôn ngữ đang chọn, bỏ qua hoa thường, khoảng trắng và dấu câu; nghĩa tiếng Việt và Hán Việt nhận cả có dấu hoặc không dấu. Từ không có kanji hiện “—” ở ô Hán Việt.
@@ -56,6 +73,18 @@ Bộ câu hiện có gồm **881 thẻ N3** (đủ **880 từ vựng N3** và v�
 Dữ liệu câu nằm trong `scripts/flashcard-sentences/`; chạy `npm run flashcards:build` để kiểm tra đủ từ, tạo romaji từ cách đọc đã biên soạn và cập nhật `src/data/flashcards.json`. Một số lỗi chính tả/cách đọc trong nguồn từ vựng được sửa riêng cho flashcard qua `corrections.json`, kèm ghi chú phân biệt nghĩa khi cần. Ngữ pháp sử dụng trực tiếp ví dụ trong dữ liệu hiện có. Các bài luyện theo ô và lịch ôn flashcard lưu tiến độ riêng.
 
 ## Dữ liệu
+
+### Thi thử N3
+
+Nút **Exam / Thi thử** trong danh sách và chế độ tập trung mở `/#exam`. Có đủ sáu đề phần viết tháng 7 và tháng 12 năm 2022, 2023, 2024 từ tài liệu người dùng cung cấp. Trang gốc được giữ dưới dạng ảnh rõ nét, gồm chữ Nhật, furigana, bài đọc và bảng biểu; có chuyển trang, phóng to và phiếu chọn đáp án 1–4. Chọn số câu để mở trang chứa câu đó.
+
+Nhấn **Start exam / Bắt đầu thi** để bắt đầu một đồng hồ 100 phút chung cho phần viết; gợi ý dành 30 phút cho từ vựng và 70 phút cho ngữ pháp/đọc hiểu. Đồng hồ chạy theo hạn kết thúc tuyệt đối, tiếp tục khi rời trang, đóng tab hoặc tải lại. Câu trả lời được lưu ngay; khi hết giờ, bài được nộp tự động. Có thể nộp sớm sau khi xác nhận, rồi xem số câu đúng, phần trăm, thống kê theo phần và đối chiếu từng câu với đáp án. Câu bỏ trống tính là sai. Sau khi nộp không thể sửa đáp án; làm lại tạo một lượt mới. Giữ tối đa 30 lượt gần nhất.
+
+Tài liệu gồm các đề được cộng đồng biên soạn/phục dựng, không kèm đáp án hoặc âm thanh nghe. Theo lựa chọn của người dùng, đáp án luyện tập được giải từ câu hỏi và rà soát độc lập; điểm là tỷ lệ câu đúng với trọng số bằng nhau, **không phải điểm JLPT quy đổi 180 điểm hoặc kết luận đỗ/trượt chính thức**. Không đưa phần nghe vào bài thi này. Có 437 câu phần viết, trong đó 435 câu được chấm. Hai câu từ vựng 20 và 26 của tháng 7/2024 có lỗi trong nguồn nên vẫn hiển thị nhưng không tính điểm; kết quả ghi rõ lý do, không tự sửa trang gốc.
+
+Lượt thi lưu riêng tại `mimikara-exams-v1`, gồm hạn giờ, lựa chọn và trạng thái nộp. Khách dùng bộ nhớ trình duyệt; người đăng nhập lưu riêng theo tài khoản và đồng bộ PostgreSQL. Migration `002_exam_history.sql` mở rộng danh sách dữ liệu được phép mà giữ nguyên tiến độ đã có; chạy `npm run db:migrate` khi cập nhật một cơ sở dữ liệu khác.
+
+`src/data/exams.json` là danh mục câu hỏi/trang và đáp án đã rà soát; `public/exams/pages/` chứa 118 trang phần viết. Nguồn, ánh xạ câu, ghi chú rà soát và checksum nằm trong `scripts/exam-source/`; xem README tại đó để kiểm tra hoặc tái tạo từ đúng PDF gốc. Nội dung Exam được tải khi mở chế độ này, không tải tất cả ảnh khi mở ứng dụng.
 
 ### Tiểu thuyết N3
 

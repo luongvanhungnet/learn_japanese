@@ -2,7 +2,9 @@ import { createContext, useContext } from 'react'
 
 export type Language = 'en' | 'vi'
 const english = {
+  accountSaved: 'Saved to your account', accountSaving: 'Saving…', accountSaveError: 'Changes are kept on this device; account sync failed.', accountRetry: 'Retry save', accountAutoSave: 'Your study progress syncs to your account.',
   flashcard: 'Flashcard', flashcardLoading: 'Opening flashcards…', flashcardBack: 'Back to study',
+  exam: 'Exam', examLoading: 'Opening exam papers…',
   flashcardFlip: 'Show answer',
   flashcardHide: 'Hide answer', flashcardDaily: 'SENTENCES IN CONTEXT',
   flashcardInstructions: 'Recall the meaning of the whole sentence. Flip it, then choose when to review it again.',
@@ -59,7 +61,9 @@ const english = {
 }
 type Message = keyof typeof english
 const vietnamese: Record<Message, string> = {
+  accountSaved: 'Đã lưu vào tài khoản', accountSaving: 'Đang lưu…', accountSaveError: 'Thay đổi vẫn lưu trên máy; đồng bộ tài khoản chưa thành công.', accountRetry: 'Lưu lại', accountAutoSave: 'Tiến độ học được đồng bộ vào tài khoản.',
   flashcard: 'Flashcard', flashcardLoading: 'Đang mở thẻ học…', flashcardBack: 'Quay lại học',
+  exam: 'Thi thử', examLoading: 'Đang mở đề thi…',
   flashcardFlip: 'Hiện đáp án',
   flashcardHide: 'Ẩn đáp án', flashcardDaily: 'HỌC QUA CÂU',
   flashcardInstructions: 'Nhớ nghĩa của cả câu. Lật thẻ rồi chọn thời gian ôn lại.',

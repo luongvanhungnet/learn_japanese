@@ -1,6 +1,10 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { LanguageSwitch } from './i18n'
 import { useLanguage } from './translations'
+import { AccountMenu } from './AccountMenu'
+import { useAuth } from './auth/AuthProvider'
+import { readStudyValue } from './accountData'
+import { useStudyPersistence } from './useStudyPersistence'
 import { flashcardStorageKey, getNextFlashcardDueAt, parseFlashcardProgress, rateFlashcard, selectDueFlashcard } from './flashcards'
 import type { FlashcardDeck, FlashcardRating } from './flashcards'
 import { flashcardDecks, sentenceFlashcards } from './flashcardDecks'
@@ -11,7 +15,7 @@ const deckStorageKey = 'mimikara-flashcard-deck-v1'
 function readInitialDeck(initialDeck?: FlashcardDeck): FlashcardDeck {
   if (initialDeck) return initialDeck
   try {
-    const saved = window.localStorage.getItem(deckStorageKey) as FlashcardDeck
+    const saved = readStudyValue(deckStorageKey) as FlashcardDeck
     if (flashcardDecks.includes(saved)) return saved
   } catch { /* private browsing */ }
   return 'N3'
@@ -19,6 +23,8 @@ function readInitialDeck(initialDeck?: FlashcardDeck): FlashcardDeck {
 
 export function FlashcardMode({ initialDeck, onClose }: { initialDeck?: FlashcardDeck; onClose: () => void }) {
   const { t, language, locale } = useLanguage()
+  const auth = useAuth()
+  const accountBusy = Boolean(auth?.loading || auth?.initializing)
   const [deck, setDeck] = useState(() => readInitialDeck(initialDeck))
   const [flipped, setFlipped] = useState(false)
   const [sessionReviews, setSessionReviews] = useState(0)
@@ -26,7 +32,7 @@ export function FlashcardMode({ initialDeck, onClose }: { initialDeck?: Flashcar
   const [storageError, setStorageError] = useState(false)
   const [now, setNow] = useState(Date.now)
   const [progress, setProgress] = useState(() => {
-    try { return parseFlashcardProgress(window.localStorage.getItem(flashcardStorageKey)) } catch { return {} }
+    try { return parseFlashcardProgress(readStudyValue(flashcardStorageKey)) } catch { return {} }
   })
   const cards = useMemo(() => sentenceFlashcards.filter((item) => item.deck === deck), [deck])
   // Keep the sentence being studied in place when an older review becomes due.
@@ -51,18 +57,9 @@ export function FlashcardMode({ initialDeck, onClose }: { initialDeck?: Flashcar
     setFlipped(false)
     setLastRating(null)
   }, [deck, progress])
-  useEffect(() => {
-    try {
-      window.localStorage.setItem(flashcardStorageKey, JSON.stringify(progress))
-    } catch {
-      // Report a real failure from the external storage system to the learner.
-      // oxlint-disable-next-line react/set-state-in-effect
-      setStorageError(true)
-    }
-  }, [progress])
-  useEffect(() => {
-    try { window.localStorage.setItem(deckStorageKey, deck) } catch { /* schedule storage reports failures */ }
-  }, [deck])
+  const reportStorageError = useCallback(() => setStorageError(true), [])
+  useStudyPersistence(flashcardStorageKey, useMemo(() => JSON.stringify(progress), [progress]), reportStorageError)
+  useStudyPersistence(deckStorageKey, deck)
   useEffect(() => {
     if (nextDue === null) return
     const timer = window.setTimeout(() => setNow(Date.now()), Math.min(2_147_483_647, Math.max(0, nextDue - Date.now())))
@@ -91,6 +88,7 @@ export function FlashcardMode({ initialDeck, onClose }: { initialDeck?: Flashcar
   }, [card, cards, progress, flipped])
   useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
+      if (accountBusy || (event.target instanceof Element && event.target.closest('[role="dialog"][aria-modal="true"], .auth-controls'))) return
       if (event.defaultPrevented || event.isComposing || event.altKey || event.ctrlKey || event.metaKey) return
       if (event.target instanceof HTMLElement && (event.target.isContentEditable || event.target.closest('input, textarea, select, [contenteditable="true"], [contenteditable=""], [contenteditable="plaintext-only"]'))) return
       const key = event.key.toLowerCase()
@@ -109,12 +107,13 @@ export function FlashcardMode({ initialDeck, onClose }: { initialDeck?: Flashcar
     }
     document.addEventListener('keydown', onKeyDown)
     return () => document.removeEventListener('keydown', onKeyDown)
-  }, [card, flipped, rate])
+  }, [card, flipped, rate, accountBusy])
   return <main className="flashcard-shell">
     <header className="flashcard-header">
       <div className="brand"><span className="brand-mark">み</span><span>MIMIKARA <strong>STUDY</strong></span></div>
       <button className="flashcard-back" type="button" onClick={onClose}>{t('flashcardBack')}</button>
       <LanguageSwitch />
+      <AccountMenu />
     </header>
     <section className="flashcard-workspace">
       <div className="flashcard-heading">
@@ -160,7 +159,7 @@ export function FlashcardMode({ initialDeck, onClose }: { initialDeck?: Flashcar
       <p className="flashcard-shortcuts"><kbd>Space</kbd> {t('flashcardFlip')} · <kbd>A</kbd> {t('flashcardInstant')} · <kbd>S</kbd> {t('flashcardHard')} · <kbd>D</kbd> {t('flashcardMedium')} · <kbd>F</kbd> {t('flashcardEz')}<br />{t('flashcardRateHint')}</p>
       <p className="flashcard-feedback" role="status">{lastReview && t('flashcardReviewSaved', { rating: lastReview.label, interval: lastReview.interval })}</p>
       {storageError && <p className="flashcard-feedback" role="alert">{t('flashcardStorageError')}</p>}
-      <footer className="flashcard-footer"><span>{t('flashcardScope')}</span><span>{t('savedProgress')}</span></footer>
+      <footer className="flashcard-footer"><span>{t('flashcardScope')}</span><span>{t(auth?.user ? 'accountAutoSave' : 'savedProgress')}</span></footer>
     </section>
   </main>
 }
