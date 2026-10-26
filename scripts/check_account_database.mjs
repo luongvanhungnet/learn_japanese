@@ -42,6 +42,8 @@ try {
     'mimikara-progress-v1': JSON.stringify({ 'n3:1:reading': { solved: true, unresolved: false, revealed: false, hints: 0, answer: 'だんせい' } }),
     'mimikara-flashcards-v1': JSON.stringify({ 'flashcard:n3:taberu': { dueAt: Date.now() + 86400000, reviewedAt: Date.now(), rating: 'medium', reviews: 1 } }),
     'mimikara-language': 'vi',
+    'mimikara-word-flashcards-v1': JSON.stringify({ 'n3:1': { dueAt: Date.now() + 18_000_000, reviewedAt: Date.now(), rating: 'hours', reviews: 1 } }),
+    'mimikara-word-flashcard-deck-v1': 'N3',
     'mimikara-exams-v1': JSON.stringify({ version: 1, attempts: { 'database-check': {
       id: 'database-check', paperId: 'n3-2022-07', startedAt: 1700000000000,
       deadline: 1700006000000, answers: { 'vocabulary-1': 1 },
@@ -53,6 +55,8 @@ try {
   check(loaded.data.values['mimikara-progress-v1'] === values['mimikara-progress-v1'], 'Practice progress did not round-trip')
   check(loaded.data.values['mimikara-flashcards-v1'] === values['mimikara-flashcards-v1'], 'Flashcard schedule did not round-trip')
   check(loaded.data.values['mimikara-exams-v1'] === values['mimikara-exams-v1'], 'Exam attempts did not round-trip')
+  check(loaded.data.values['mimikara-word-flashcards-v1'] === values['mimikara-word-flashcards-v1'], 'Vocabulary review schedule did not round-trip')
+  check(loaded.data.values['mimikara-word-flashcard-deck-v1'] === 'N3', 'Vocabulary deck did not round-trip')
   const second = await request('auth/signup', { method: 'POST', body: { name: 'Database Check B', email: `check-b-${suffix}@example.invalid`, password } })
   check(second.status === 201, 'Second account creation failed')
   created.push(second.data.user.id)

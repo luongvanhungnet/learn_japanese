@@ -53,9 +53,22 @@ Chọn **English** hoặc **Tiếng Việt** ở đầu trang (cũng có trong c
 
 Tiến độ phần nghĩa, gợi ý và lỗi cần ôn được lưu riêng cho tiếng Anh và tiếng Việt; tiến độ cách đọc và Hán Việt dùng chung. Tiến độ đã có của bản tiếng Anh vẫn được giữ.
 
-### Flashcard
+### Flashcard từ vựng
 
-Mở **Flashcard** từ thanh chế độ học hoặc thanh điều khiển **Tập trung**. Mỗi thẻ hiển thị một **câu tiếng Nhật đầy đủ**; nhấn **Spacebar** hoặc **Show answer / Hiện đáp án** để lật và xem bản dịch Anh/Việt. Thẻ từ vựng và bộ thủ có thêm cách đọc kana và romaji. Ví dụ: 「私は昼ご飯を食べました。」 — *Watashi wa hirugohan o tabemashita.* — “I ate lunch.”
+Nếu đang dùng cơ sở dữ liệu cũ, chạy `npm run db:migrate` để thêm hai khóa lưu lịch từ vựng; migration không thay đổi tiến độ đã có.
+
+Mở **Flashcard từ vựng / Vocabulary flashcards** để học đủ 880 từ N3 và 214 bộ thủ Kanji. Thẻ chữ lớn nằm giữa màn hình; nút **Toàn màn hình** mở chế độ toàn màn hình của trình duyệt (Esc để thoát). Dùng phím hoặc nút bấm:
+
+- **↑**: hiện nghĩa Anh/Việt, hiragana/katakana và Hán Việt.
+- **↓**: hẹn ôn lại sau **7 ngày** và chuyển thẻ.
+- **←**: hẹn ôn lại sau **5 phút** và chuyển thẻ.
+- **→**: hẹn ôn lại sau **5 giờ** và chuyển thẻ.
+
+Có thể hẹn ôn ngay cả khi chưa mở đáp án. Thẻ đến hạn được ưu tiên trước thẻ mới; thẻ chưa đến hạn được ẩn. Khi học hết, màn hình hiện lịch ôn tiếp theo và tự hiển thị lại thẻ khi đến hạn. Lịch từ vựng và bộ thẻ gần nhất lưu riêng tại `mimikara-word-flashcards-v1` và `mimikara-word-flashcard-deck-v1`, đồng bộ với tài khoản nếu đăng nhập. Mở `/#word-flashcard` để tiếp tục. Không thay đổi lịch ôn của flashcard câu.
+
+### Flashcard câu
+
+Mở **Flashcard câu / Sentence flashcards** từ thanh chế độ học hoặc thanh điều khiển **Tập trung**. Mỗi thẻ hiển thị một **câu tiếng Nhật đầy đủ**; nhấn **Spacebar** hoặc **Show answer / Hiện đáp án** để lật và xem bản dịch Anh/Việt. Thẻ từ vựng và bộ thủ có thêm cách đọc kana và romaji. Ví dụ: 「私は昼ご飯を食べました。」 — *Watashi wa hirugohan o tabemashita.* — “I ate lunch.”
 
 Sau khi lật, chọn mức độ bằng nút hoặc phím tắt:
 

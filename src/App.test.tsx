@@ -26,11 +26,24 @@ afterEach(() => {
 
 test('opens flashcard mode from the study toolbar and returns to the list', async () => {
   render(<App />)
-  fireEvent.click(screen.getByRole('button', { name: 'Flashcard' }))
-  expect(await screen.findByRole('heading', { name: 'Flashcard' })).toBeTruthy()
+  fireEvent.click(screen.getByRole('button', { name: 'Sentence flashcards' }))
+  expect(await screen.findByRole('heading', { name: 'Sentence flashcards' })).toBeTruthy()
   expect(window.location.hash).toBe('#flashcard')
   fireEvent.click(screen.getByRole('button', { name: 'Back to study' }))
   expect(screen.getByRole('button', { name: 'Word list' })).toBeTruthy()
+  expect(window.location.hash).toBe('')
+})
+
+test('opens vocabulary cards separately and restores their route', async () => {
+  render(<App />)
+  fireEvent.click(screen.getByRole('button', { name: 'Vocabulary flashcards' }))
+  expect(await screen.findByRole('heading', { name: 'Vocabulary flashcards' })).toBeTruthy()
+  expect(window.location.hash).toBe('#word-flashcard')
+  expect(screen.getByText('男性')).toBeTruthy()
+  cleanup()
+  render(<App />)
+  expect(await screen.findByRole('heading', { name: 'Vocabulary flashcards' })).toBeTruthy()
+  fireEvent.click(screen.getByRole('button', { name: /Back to study/ }))
   expect(window.location.hash).toBe('')
 })
 
