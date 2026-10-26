@@ -153,10 +153,9 @@ test('pins both hydration and queued writes to their expected authenticated acco
   expect(fetch).toHaveBeenLastCalledWith('/api/user-data', expect.objectContaining({ method: 'PATCH', headers: expect.objectContaining({ 'X-Study-Account': 'alice' }) }))
 })
 
-test('explicitly imports missing guest cells and reviews while preserving remote conflicts and preferences', async () => {
+test.each(['mimikara-flashcards-v1', 'mimikara-word-flashcards-v1'] as const)('imports missing guest reviews for %s while preserving remote conflicts and preferences', async (flashcards) => {
   vi.useFakeTimers()
   const progress = 'mimikara-progress-v1'
-  const flashcards = 'mimikara-flashcards-v1'
   const guestCell = { solved: true, unresolved: false, hints: 0 }
   const remoteCell = { solved: false, unresolved: true, hints: 1 }
   const guestReview = { dueAt: 100, reviewedAt: 20, rating: 'ez', reviews: 2 }

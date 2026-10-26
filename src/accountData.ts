@@ -60,7 +60,7 @@ function mergeValue(key: StudyKey, remote: string | null | undefined, incoming: 
       return JSON.stringify({ version: 1, attempts })
     } catch { return incomingWins ? incoming : remote }
   }
-  if (key !== 'mimikara-progress-v1' && key !== 'mimikara-flashcards-v1') return incomingWins ? incoming : remote
+  if (key !== 'mimikara-progress-v1' && key !== 'mimikara-flashcards-v1' && key !== 'mimikara-word-flashcards-v1') return incomingWins ? incoming : remote
   try {
     const base: unknown = JSON.parse(remote)
     const addition: unknown = JSON.parse(incoming)
