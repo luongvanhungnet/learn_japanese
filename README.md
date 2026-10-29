@@ -187,3 +187,19 @@ npm run novel:audio
 The build-only generator uses Microsoft Edge's online TTS via [edge-tts](https://github.com/rany2/edge-tts), with Japanese voice `ja-JP-KeitaNeural`. Generation sends the original story text to that speech service and requires internet access. It caches source hashes, MP3 audio, and word-boundary metadata in the ignored `.novel-audio-cache/` directory, with at most four simultaneous requests. FFmpeg provided by `imageio-ffmpeg` measures decoded audio and encodes the bundled MP3s. It does not add dependencies to the frontend.
 
 `scripts/prepare_novel_audio.mjs` uses the reader's sentence splitter, including grammar annotations and Japanese closing quotes. `scripts/build_novel_audio.py` aligns actual speech word timings to all 1,949 source sentences, rejects missing or unmatched prose, and produces `src/data/novel-audio.json` plus `public/novel-audio/`. The test suite verifies every sentence against the manuscript and checks timeline ordering and audio assets. Regenerate the recordings whenever the novel changes.
+
+### Ôn thi thần tốc
+
+Mở **Ôn thi thần tốc** từ thanh chế độ học hoặc truy cập `/#speed-exam`.
+Bộ 30 câu N3 do Codex biên soạn nằm trong `src/speedExamData.ts`, không lấy từ đề thi chính thức:
+
+| Phần | Số câu | Các dạng |
+| --- | ---: | --- |
+| Từ vựng | 5 | Cách đọc kanji, cách viết, từ trong ngữ cảnh, diễn đạt đồng nghĩa, cách dùng từ |
+| Ngữ pháp | 5 | Chọn cấu trúc (2), sắp xếp câu ★ (1), ngữ pháp đoạn văn (2) |
+| Đọc hiểu | 10 | Đoạn ngắn (4), đoạn vừa (3), tra cứu thông tin (3) |
+| Nghe | 10 | Hiểu nhiệm vụ (3), hiểu điểm chính (3), diễn đạt theo tình huống (2), phản hồi nhanh (2) |
+
+Mọi câu có 4 lựa chọn trong chế độ luyện tập, kể cả các dạng nghe vốn có số lựa chọn khác trong đề chuẩn. Bấm/chạm đáp án hoặc nhấn ← A, ↑ B, ↓ C, → D. Đáp án đúng hiện xanh lá trong 2 giây rồi sang câu mới; đáp án sai hiện đỏ trong 2 giây rồi mở lại cùng câu. Khóa mọi lựa chọn trong thời gian phản hồi. Sau câu cuối hiển thị số lần chọn sai và nút luyện lại. Lượt luyện hiện chỉ giữ trong bộ nhớ của trang.
+
+Phần nghe dùng Web Speech API (`ja-JP`, ưu tiên giọng Nhật có sẵn), có nút nghe lại/dừng và thông báo lỗi. Thiết bị cần trình duyệt hỗ trợ tổng hợp giọng nói tiếng Nhật; chất lượng giọng và nhu cầu mạng tùy trình duyệt/hệ điều hành. Không hiện bản chép lời khi làm câu nghe. Đổi câu hoặc rời chế độ sẽ dừng giọng đọc và dọn bộ đếm thời gian.
