@@ -1,0 +1,602 @@
+[
+  {
+    "id": "n3-vocabulary-context-001",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "財布を忘れたが、友達がお金を（　）くれたので助かった。",
+    "choices": [
+      "貸して",
+      "借りて",
+      "預かって",
+      "払われて"
+    ],
+    "answer": 0,
+    "explanation": "貸す là cho mượn; người bạn cho người nói vay tiền.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-context-002",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "この店は駅から近くて、買い物に（　）だ。",
+    "choices": [
+      "丁寧",
+      "便利",
+      "丈夫",
+      "真剣"
+    ],
+    "answer": 1,
+    "explanation": "便利: tiện lợi, phù hợp với vị trí gần ga.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-context-003",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "大事な会議なので、遅れないように（　）をかけた。",
+    "choices": [
+      "切符",
+      "手袋",
+      "目覚まし時計",
+      "住所"
+    ],
+    "answer": 2,
+    "explanation": "目覚まし時計をかける: đặt báo thức.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-context-004",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "風が強くて、洗濯物が庭に（　）しまった。",
+    "choices": [
+      "通って",
+      "沈んで",
+      "曲がって",
+      "飛んで"
+    ],
+    "answer": 3,
+    "explanation": "飛ぶ: bay; gió làm đồ phơi bay xuống vườn.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-context-005",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "工事中なので、この道は車が（　）できません。",
+    "choices": [
+      "通行",
+      "通訳",
+      "出張",
+      "交換"
+    ],
+    "answer": 0,
+    "explanation": "通行する: lưu thông qua đường.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-context-006",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "急な階段なので、足元に（　）してください。",
+    "choices": [
+      "注文",
+      "注意",
+      "遠慮",
+      "賛成"
+    ],
+    "answer": 1,
+    "explanation": "足元に注意する: chú ý chỗ đặt chân.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-context-007",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "先生の話を忘れないように、ノートに（　）した。",
+    "choices": [
+      "キャンセル",
+      "スタート",
+      "メモ",
+      "チェックイン"
+    ],
+    "answer": 2,
+    "explanation": "メモする: ghi chú để khỏi quên.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-context-008",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "約束の時間に遅れそうなので、相手に電話で（　）した。",
+    "choices": [
+      "運動",
+      "生産",
+      "輸入",
+      "連絡"
+    ],
+    "answer": 3,
+    "explanation": "連絡する: liên lạc báo sẽ đến muộn.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-context-009",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "このスープは味が（　）ので、塩を少し足そう。",
+    "choices": [
+      "薄い",
+      "狭い",
+      "浅い",
+      "軽い"
+    ],
+    "answer": 0,
+    "explanation": "味が薄い: vị nhạt; cần thêm muối.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-context-010",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "体温を（　）みたら、三十八度あった。",
+    "choices": [
+      "数えて",
+      "測って",
+      "量られて",
+      "比べられて"
+    ],
+    "answer": 1,
+    "explanation": "体温を測る: đo thân nhiệt.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-context-011",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "就職の面接では、（　）な言葉を使うようにしている。",
+    "choices": [
+      "派手",
+      "乱暴",
+      "丁寧",
+      "不便"
+    ],
+    "answer": 2,
+    "explanation": "丁寧な言葉: lời nói lịch sự trong phỏng vấn.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-context-012",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "隣の部屋の音が気になって、勉強に（　）できない。",
+    "choices": [
+      "出発",
+      "延期",
+      "拡大",
+      "集中"
+    ],
+    "answer": 3,
+    "explanation": "集中する: tập trung.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-context-013",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "重い物を載せても壊れない、（　）な棚がほしい。",
+    "choices": [
+      "丈夫",
+      "退屈",
+      "苦手",
+      "新鮮"
+    ],
+    "answer": 0,
+    "explanation": "丈夫: chắc chắn, bền.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-context-014",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "この食品は冷蔵庫に入れて（　）してください。",
+    "choices": [
+      "参加",
+      "保存",
+      "応援",
+      "反対"
+    ],
+    "answer": 1,
+    "explanation": "保存する: bảo quản thực phẩm.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-context-015",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "一人で悩まないで、誰かに（　）したらどうですか。",
+    "choices": [
+      "配達",
+      "競争",
+      "相談",
+      "案内"
+    ],
+    "answer": 2,
+    "explanation": "相談する: trao đổi, nhờ tư vấn.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-context-016",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "もう少し（　）声で話してください。後ろまで聞こえません。",
+    "choices": [
+      "低いだけの",
+      "細かい",
+      "厚い",
+      "大きな"
+    ],
+    "answer": 3,
+    "explanation": "大きな声: giọng đủ to để người phía sau nghe thấy.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-context-017",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "このボタンを（　）と、画面が明るくなります。",
+    "choices": [
+      "押す",
+      "引き返す",
+      "閉める",
+      "畳む"
+    ],
+    "answer": 0,
+    "explanation": "ボタンを押す: nhấn nút.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-context-018",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "風邪をひかないように、十分な睡眠を（　）ことが大切だ。",
+    "choices": [
+      "引く",
+      "取る",
+      "折る",
+      "外す"
+    ],
+    "answer": 1,
+    "explanation": "睡眠を取る: ngủ đủ giấc.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-context-019",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "引っ越し先が決まったら、新しい（　）を教えてください。",
+    "choices": [
+      "出身",
+      "気温",
+      "住所",
+      "性格"
+    ],
+    "answer": 2,
+    "explanation": "住所: địa chỉ nơi ở mới.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-context-020",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "忙しい中、来ていただいて（　）ございます。",
+    "choices": [
+      "おめでとう",
+      "おはよう",
+      "さようなら",
+      "ありがとう"
+    ],
+    "answer": 3,
+    "explanation": "ありがとう: cảm ơn vì đã đến dù bận.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-context-021",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "商品に傷があったので、別の物と（　）してもらった。",
+    "choices": [
+      "交換",
+      "応用",
+      "卒業",
+      "貿易"
+    ],
+    "answer": 0,
+    "explanation": "交換する: đổi món hàng có lỗi.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-context-022",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "遊んだ後は、おもちゃを箱に（　）ください。",
+    "choices": [
+      "育てて",
+      "片づけて",
+      "捕まえて",
+      "沸かして"
+    ],
+    "answer": 1,
+    "explanation": "片づける: cất gọn đồ chơi.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-context-023",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "分からない漢字があったら、辞書で（　）ください。",
+    "choices": [
+      "申し込んで",
+      "間に合って",
+      "調べて",
+      "受け取って"
+    ],
+    "answer": 2,
+    "explanation": "辞書で調べる: tra từ điển.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-context-024",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "来客があるので、部屋を（　）しておこう。",
+    "choices": [
+      "失敗",
+      "利用",
+      "卒業",
+      "掃除"
+    ],
+    "answer": 3,
+    "explanation": "掃除する: dọn phòng trước khi đón khách.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-context-025",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "道路が（　）いて、バスがなかなか進まない。",
+    "choices": [
+      "混んで",
+      "空いて",
+      "乾いて",
+      "咲いて"
+    ],
+    "answer": 0,
+    "explanation": "道路が混む: đường đông, xe đi chậm.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-context-026",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "毎日走るようになって、体力が（　）。",
+    "choices": [
+      "ほどけた",
+      "ついた",
+      "消えた",
+      "割れた"
+    ],
+    "answer": 1,
+    "explanation": "体力がつく: có thêm sức bền.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-context-027",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "料理の材料を買う前に、冷蔵庫の中を（　）しよう。",
+    "choices": [
+      "発表",
+      "予約",
+      "確認",
+      "招待"
+    ],
+    "answer": 2,
+    "explanation": "確認する: kiểm tra thực phẩm còn sẵn.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-context-028",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "説明書を読んだが、使い方が（　）分からない。",
+    "choices": [
+      "必ず",
+      "わざと",
+      "ぜひ",
+      "さっぱり"
+    ],
+    "answer": 3,
+    "explanation": "さっぱり〜ない: hoàn toàn không hiểu.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-context-029",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "田中さんは（　）来る人なのに、今日は遅い。",
+    "choices": [
+      "いつも早く",
+      "二度と",
+      "全然",
+      "決して"
+    ],
+    "answer": 0,
+    "explanation": "いつも早く来る: thường tới sớm; đối lập với hôm nay tới muộn.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-context-030",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "予定より（　）早く着いたので、近くでお茶を飲んだ。",
+    "choices": [
+      "まったくも",
+      "かなり",
+      "決して",
+      "いったんも"
+    ],
+    "answer": 1,
+    "explanation": "かなり: khá nhiều, đến sớm đáng kể.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-context-031",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "この仕事は今日中に（　）終わらせなければならない。",
+    "choices": [
+      "たぶん",
+      "もしかすると",
+      "必ず",
+      "めったに"
+    ],
+    "answer": 2,
+    "explanation": "必ず: nhất định; nhấn mạnh thời hạn bắt buộc.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-context-032",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "練習を続けた（　）、前より速く泳げるようになった。",
+    "choices": [
+      "途中",
+      "代わり",
+      "目的",
+      "結果"
+    ],
+    "answer": 3,
+    "explanation": "〜た結果: kết quả của việc kiên trì luyện tập.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-context-033",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "駅まで歩くと遠いが、自転車なら（　）だ。",
+    "choices": [
+      "十分",
+      "十円",
+      "十人",
+      "十枚"
+    ],
+    "answer": 0,
+    "explanation": "十分 ở đây đọc じゅっぷん (10 phút), diễn tả thời gian đi xe đạp đến ga.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-context-034",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "夏休みの旅行は、まだ日程が（　）いない。",
+    "choices": [
+      "曲がって",
+      "決まって",
+      "壊れて",
+      "落ち込んで"
+    ],
+    "answer": 1,
+    "explanation": "日程が決まる: lịch trình được chốt.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-context-035",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "荷物が多すぎて、一度には（　）。",
+    "choices": [
+      "眠れない",
+      "乾かない",
+      "運べない",
+      "咲かない"
+    ],
+    "answer": 2,
+    "explanation": "運べない: không thể mang hết cùng một lần.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-context-036",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "話し合いの前に、資料を全員に（　）おいた。",
+    "choices": [
+      "拾って",
+      "断って",
+      "叱って",
+      "配って"
+    ],
+    "answer": 3,
+    "explanation": "資料を配る: phát tài liệu cho mọi người.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-context-037",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "この薬は一日三回、食後に（　）ください。",
+    "choices": [
+      "飲んで",
+      "食べられて",
+      "吸われて",
+      "注いで"
+    ],
+    "answer": 0,
+    "explanation": "薬を飲む: uống thuốc.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-context-038",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "予約を取り消したいので、ホテルに（　）した。",
+    "choices": [
+      "散歩",
+      "電話",
+      "結婚",
+      "成長"
+    ],
+    "answer": 1,
+    "explanation": "電話する: gọi điện cho khách sạn.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-context-039",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "途中であきらめず、（　）までやってみよう。",
+    "choices": [
+      "最初",
+      "表面",
+      "最後",
+      "左右"
+    ],
+    "answer": 2,
+    "explanation": "最後まで: làm thử đến cùng.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-context-040",
+    "section": "vocabulary",
+    "kind": "Từ trong ngữ cảnh",
+    "prompt": "雪道は滑りやすいので、（　）運転してください。",
+    "choices": [
+      "ぐっすり",
+      "はっきりと発音して",
+      "急に曲がって",
+      "ゆっくり"
+    ],
+    "answer": 3,
+    "explanation": "ゆっくり運転する: lái chậm trên đường tuyết trơn.",
+    "batch": 3
+  }
+]

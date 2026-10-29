@@ -1,0 +1,602 @@
+[
+  {
+    "id": "n3-grammar-form-001",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "毎朝走る（　）、体が丈夫になった。",
+    "choices": [
+      "ようになってから",
+      "ようになるまでに",
+      "ようになればこそ",
+      "ようになるところを"
+    ],
+    "answer": 0,
+    "explanation": "〜ようになってから: kể từ khi bắt đầu thói quen chạy, sức khỏe tốt hơn.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-002",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "明日は試験だから、今夜は勉強する（　）。",
+    "choices": [
+      "ところだった",
+      "つもりだ",
+      "ことがあった",
+      "ようだった"
+    ],
+    "answer": 1,
+    "explanation": "つもりだ diễn tả dự định tối nay.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-003",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "この機械は、ボタンを押す（　）動きます。",
+    "choices": [
+      "ばかりに",
+      "うちに",
+      "だけで",
+      "ほどに"
+    ],
+    "answer": 2,
+    "explanation": "〜だけで: chỉ cần nhấn nút là hoạt động.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-004",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "子どもが寝ている（　）、洗濯を済ませよう。",
+    "choices": [
+      "たびに",
+      "ために",
+      "かわりに",
+      "間に"
+    ],
+    "answer": 3,
+    "explanation": "〜間に: tranh thủ trong lúc trẻ đang ngủ.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-005",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "日本語が上手に（　）、毎日練習しています。",
+    "choices": [
+      "なるように",
+      "なるための",
+      "なったので",
+      "なったのに"
+    ],
+    "answer": 0,
+    "explanation": "〜ように diễn tả mục tiêu đạt trạng thái; ngữ cảnh đang luyện để giỏi hơn.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-006",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "効果には個人差があるので、この薬を飲んでも、すぐによくなる（　）。",
+    "choices": [
+      "しかない",
+      "とは限らない",
+      "に違いない",
+      "ばかりだ"
+    ],
+    "answer": 1,
+    "explanation": "〜とは限らない: không phải cứ uống là lập tức khỏe.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-007",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "駅に着いた（　）、電車が出てしまった。",
+    "choices": [
+      "たびに",
+      "ついでに",
+      "とたんに",
+      "かわりに"
+    ],
+    "answer": 2,
+    "explanation": "〜たとたんに: ngay khi vừa đến thì tàu rời ga.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-008",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "昨日買った（　）の靴なのに、もう汚してしまった。",
+    "choices": [
+      "うち",
+      "ほど",
+      "ため",
+      "ばかり"
+    ],
+    "answer": 3,
+    "explanation": "〜たばかり: vừa mới mua.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-009",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "忙しくても、朝ご飯は食べる（　）している。",
+    "choices": [
+      "ように",
+      "ためを",
+      "ことが",
+      "ところへ"
+    ],
+    "answer": 0,
+    "explanation": "〜ようにしている: cố gắng duy trì thói quen.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-010",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "山の天気は変わり（　）から、雨具を持っていこう。",
+    "choices": [
+      "たい",
+      "やすい",
+      "すぎないで",
+      "ながら"
+    ],
+    "answer": 1,
+    "explanation": "動詞ます形＋やすい: dễ thay đổi.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-011",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "今は海外に住んでいますが、日本に住んでいた（　）、桜の季節に京都へ行ったことがあります。",
+    "choices": [
+      "ばかり",
+      "とおりに",
+      "ころ",
+      "ための"
+    ],
+    "answer": 2,
+    "explanation": "〜ころ: thời gian từng sống ở Nhật.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-012",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "明日の会議は、予定（　）九時から始めます。",
+    "choices": [
+      "とおりの",
+      "らしくて",
+      "みたいを",
+      "どおり"
+    ],
+    "answer": 3,
+    "explanation": "名詞＋どおり: đúng theo lịch dự kiến.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-013",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "先生に作文を直して（　）。私はお礼を言った。",
+    "choices": [
+      "いただいた",
+      "さしあげた",
+      "くださった",
+      "いらっしゃった"
+    ],
+    "answer": 0,
+    "explanation": "人に〜ていただく: khiêm nhường nhận sự giúp đỡ từ thầy; に loại くださった.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-014",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "健康の（　）、毎日歩いています。",
+    "choices": [
+      "せいで",
+      "ために",
+      "ところで",
+      "うちで"
+    ],
+    "answer": 1,
+    "explanation": "〜のために: mục đích tốt cho sức khỏe.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-015",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "雨が降り（　）なので、傘を持って出よう。",
+    "choices": [
+      "よう",
+      "らしく",
+      "そう",
+      "みたい"
+    ],
+    "answer": 2,
+    "explanation": "降りそう: dấu hiệu trời sắp mưa; nối với なので.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-016",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "この仕事は、一人（　）できません。二人でやりましょう。",
+    "choices": [
+      "までに",
+      "にとって",
+      "によると",
+      "では"
+    ],
+    "answer": 3,
+    "explanation": "一人ではできない: một mình thì không làm nổi.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-017",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "この道をまっすぐ行く（　）、右に銀行があります。",
+    "choices": [
+      "と",
+      "のに",
+      "ために",
+      "うえでの"
+    ],
+    "answer": 0,
+    "explanation": "〜と diễn tả kết quả chỉ đường.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-018",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "熱があるなら、今日は休んだ（　）がいい。",
+    "choices": [
+      "だけ",
+      "ほう",
+      "まで",
+      "ばかり"
+    ],
+    "answer": 1,
+    "explanation": "〜たほうがいい: lời khuyên nên nghỉ.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-019",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "図書館で借りた本は、来週の月曜（　）返してください。",
+    "choices": [
+      "までずっと",
+      "からには",
+      "までに",
+      "のうち"
+    ],
+    "answer": 2,
+    "explanation": "までに: hạn chót phải trả.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-020",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "子どものころ、よく祖父に川へ連れていって（　）。",
+    "choices": [
+      "くれた",
+      "あげた",
+      "やった",
+      "もらった"
+    ],
+    "answer": 3,
+    "explanation": "祖父に〜てもらう: được ông dẫn đi; に đánh dấu người giúp.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-021",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "電車が遅れた（　）、会議に間に合わなかった。",
+    "choices": [
+      "せいで",
+      "おかげで",
+      "ように",
+      "ための"
+    ],
+    "answer": 0,
+    "explanation": "せいで diễn tả nguyên nhân dẫn tới kết quả xấu.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-022",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "手伝ってくれた（　）、予定より早く終わった。",
+    "choices": [
+      "せいで",
+      "おかげで",
+      "かわりの",
+      "ような"
+    ],
+    "answer": 1,
+    "explanation": "おかげで: nhờ sự giúp đỡ mà có kết quả tốt.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-023",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "宿題をして（　）から、遊びに行きなさい。",
+    "choices": [
+      "おいた",
+      "みた",
+      "しまって",
+      "ある"
+    ],
+    "answer": 2,
+    "explanation": "〜てしまってから: làm xong hết rồi mới đi chơi.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-024",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "この漢字はどう（　）か、教えてください。",
+    "choices": [
+      "読みますの",
+      "読んだで",
+      "読みを",
+      "読むの"
+    ],
+    "answer": 3,
+    "explanation": "どう読むのか: mệnh đề nghi vấn gián tiếp.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-025",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "財布を家に忘れた（　）に、店に着いてから気づいた。",
+    "choices": [
+      "こと",
+      "もの",
+      "ところ",
+      "はず"
+    ],
+    "answer": 0,
+    "explanation": "〜たことに気づく: nhận ra sự việc đã quên ví.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-026",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "新しい仕事は、想像していた（　）難しくなかった。",
+    "choices": [
+      "しか",
+      "ほど",
+      "だけに",
+      "までに"
+    ],
+    "answer": 1,
+    "explanation": "〜ほど〜ない: không khó đến mức đã tưởng.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-027",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "この店は安い（　）、おいしいので人気がある。",
+    "choices": [
+      "かわりに",
+      "せいで",
+      "うえに",
+      "ところが"
+    ],
+    "answer": 2,
+    "explanation": "〜うえに: thêm một ưu điểm, vừa rẻ lại ngon.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-028",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "本を読み（　）、音楽を聞いています。",
+    "choices": [
+      "つつの",
+      "たらに",
+      "てもに",
+      "ながら"
+    ],
+    "answer": 3,
+    "explanation": "ます形＋ながら: hai hành động đồng thời.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-029",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "宿題を忘れない（　）、手帳に書いておいた。",
+    "choices": [
+      "ように",
+      "ためで",
+      "ことに",
+      "ところに"
+    ],
+    "answer": 0,
+    "explanation": "〜ないように: làm để không quên.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-030",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "この店は日曜日も営業している（　）です。以前、日曜に利用しました。",
+    "choices": [
+      "つもり",
+      "はず",
+      "ところ",
+      "ため"
+    ],
+    "answer": 1,
+    "explanation": "はず: dự đoán có căn cứ từ trải nghiệm trước.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-031",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "窓を開けた（　）で、出かけてしまった。",
+    "choices": [
+      "ばかり",
+      "ところ",
+      "まま",
+      "うち"
+    ],
+    "answer": 2,
+    "explanation": "〜たままで: vẫn để nguyên trạng thái cửa mở.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-032",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "これから出かけようと（　）時に、電話が鳴った。",
+    "choices": [
+      "するの",
+      "してある",
+      "させるの",
+      "した"
+    ],
+    "answer": 3,
+    "explanation": "〜ようとした時: đúng lúc định đi ra ngoài.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-033",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "先生の説明に（　）、答えを書いてください。",
+    "choices": [
+      "したがって",
+      "ついての",
+      "よっての",
+      "対しての"
+    ],
+    "answer": 0,
+    "explanation": "〜にしたがって: làm theo hướng dẫn.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-034",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "駅へ行く（　）、郵便局にも寄ってきた。",
+    "choices": [
+      "ばかりに",
+      "ついでに",
+      "せいで",
+      "ほどに"
+    ],
+    "answer": 1,
+    "explanation": "〜ついでに: nhân tiện cùng chuyến đi.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-035",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "一度始めた（　）、最後まで続けたい。",
+    "choices": [
+      "たびに",
+      "最中に",
+      "からには",
+      "うちに"
+    ],
+    "answer": 2,
+    "explanation": "〜からには: một khi đã bắt đầu thì quyết làm tới cùng.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-036",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "この町は十年前（　）、人口が増えた。",
+    "choices": [
+      "についての",
+      "にとっての",
+      "によるとで",
+      "に比べて"
+    ],
+    "answer": 3,
+    "explanation": "〜に比べて: so với mười năm trước.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-037",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "旅行の写真を見る（　）、楽しかった日々を思い出す。",
+    "choices": [
+      "たびに",
+      "最中に",
+      "までに",
+      "ために"
+    ],
+    "answer": 0,
+    "explanation": "〜たびに: mỗi lần xem ảnh lại nhớ.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-038",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "来週から、この部屋では靴を脱ぐ（　）なりました。",
+    "choices": [
+      "ようを",
+      "ことに",
+      "ところが",
+      "つもりが"
+    ],
+    "answer": 1,
+    "explanation": "〜ことになった: quy định được quyết định từ tuần sau.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-039",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "説明を聞いたのに、やり方がまだ（　）。",
+    "choices": [
+      "分かるためだ",
+      "分かってよかった",
+      "分からない",
+      "分かるように"
+    ],
+    "answer": 2,
+    "explanation": "のに nối điều trái kỳ vọng: đã nghe giải thích mà vẫn không hiểu.",
+    "batch": 5
+  },
+  {
+    "id": "n3-grammar-form-040",
+    "section": "grammar",
+    "kind": "Chọn cấu trúc ngữ pháp",
+    "prompt": "仕事が終わり（　）、電話してください。",
+    "choices": [
+      "ばかり",
+      "きりに",
+      "うち",
+      "次第"
+    ],
+    "answer": 3,
+    "explanation": "ます形＋次第: ngay sau khi xong việc.",
+    "batch": 5
+  }
+]

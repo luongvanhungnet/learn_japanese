@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { speedQuestions } from './speedExamData'
 import { allSpeedTypes, selectSpeedQuestions, speedGroups, speedSections } from './speedExamSelection'
 import type { SpeedSort } from './speedExamSelection'
 import { LanguageSwitch } from './i18n'
@@ -100,14 +101,14 @@ export function SpeedExamMode({ onClose }: { onClose: () => void }) {
 
   return <main className="speed-exam">
     <header><button type="button" onClick={onClose}>{language === 'vi' ? '← Về học tập' : '← Back to study'}</button><LanguageSwitch /></header>
-    <div className="speed-intro"><span className="eyebrow">JLPT N3 · 30 CÂU</span><h1>Ôn thi thần tốc</h1>
-      <p>Bộ câu hỏi luyện tập do Codex biên soạn: 5 từ vựng · 5 ngữ pháp · 10 đọc hiểu · 10 nghe.</p>
+    <div className="speed-intro"><span className="eyebrow">JLPT N3 · {speedQuestions.length} CÂU</span><h1>Ôn thi thần tốc</h1>
+      <p>Bộ câu hỏi luyện tập do Codex biên soạn: {speedGroups.map(group => `${group.types.reduce((sum, type) => sum + type.count, 0)} ${group.label.toLocaleLowerCase('vi')}`).join(' · ')}.</p>
       <p>Chạm hoặc bấm đáp án. Phím tắt: ← A · ↑ B · ↓ C · → D. Đúng: xanh lá, chuyển câu sau 2 giây. Sai: đỏ trong 2 giây, sau đó chọn lại.</p>
       <small>Phần nghe dùng giọng tiếng Nhật của trình duyệt. Các dạng được chuyển về 4 lựa chọn cho chế độ luyện tập này.</small>
     </div>
     <div className="speed-toolbar">
       <details className="speed-filter">
-        <summary>Filter · Lọc câu hỏi ({questions.length}/30)</summary>
+        <summary>Filter · Lọc câu hỏi ({questions.length}/{speedQuestions.length})</summary>
         <div className="speed-filter-actions"><button type="button" onClick={() => changeTypes(allSpeedTypes)}>Chọn tất cả</button><button type="button" onClick={() => changeTypes([])}>Bỏ chọn tất cả</button></div>
         <div className="speed-filter-groups">
           {speedGroups.map(group => {
@@ -139,6 +140,6 @@ export function SpeedExamMode({ onClose }: { onClose: () => void }) {
       <div className="speed-feedback" role="status" aria-live="polite">
         {selected === null ? 'Chọn một đáp án để tiếp tục.' : selected === question.answer ? `✓ Chính xác! ${question.explanation} Chuyển câu sau 2 giây…` : '✗ Chưa đúng. Hãy chọn lại sau 2 giây.'}
       </div>
-    </section> : !questions.length ? <section className="speed-card"><h2>Chưa chọn dạng câu hỏi</h2><p>Hãy chọn ít nhất một phần hoặc dạng câu hỏi trong menu Filter để bắt đầu.</p><button type="button" onClick={() => changeTypes(allSpeedTypes)}>Chọn tất cả 30 câu</button></section> : <section className="speed-card"><h2>Hoàn thành {questions.length} câu!</h2><p>Bạn đã trả lời đúng tất cả các câu sau khi luyện tập. Số lần chọn sai: {mistakes}.</p><button type="button" onClick={() => { reset(); setSeed(Math.floor(Math.random() * 0x100000000)) }}>Luyện lại</button></section>}
+    </section> : !questions.length ? <section className="speed-card"><h2>Chưa chọn dạng câu hỏi</h2><p>Hãy chọn ít nhất một phần hoặc dạng câu hỏi trong menu Filter để bắt đầu.</p><button type="button" onClick={() => changeTypes(allSpeedTypes)}>Chọn tất cả {speedQuestions.length} câu</button></section> : <section className="speed-card"><h2>Hoàn thành {questions.length} câu!</h2><p>Bạn đã trả lời đúng tất cả các câu sau khi luyện tập. Số lần chọn sai: {mistakes}.</p><button type="button" onClick={() => { reset(); setSeed(Math.floor(Math.random() * 0x100000000)) }}>Luyện lại</button></section>}
   </main>
 }

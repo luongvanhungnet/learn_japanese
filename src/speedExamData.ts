@@ -1,45 +1,27 @@
-export type SpeedQuestion = {
-  id: string
-  section: 'vocabulary' | 'grammar' | 'reading' | 'listening'
-  kind: string
-  prompt: string
-  passage?: string
-  audioText?: string
-  choices: [string, string, string, string]
-  answer: number
-  explanation: string
-}
+import vocabularyReading from './data/speed-exam/vocabulary/reading.json'
+import vocabularyWriting from './data/speed-exam/vocabulary/writing.json'
+import vocabularyContext from './data/speed-exam/vocabulary/context.json'
+import vocabularyParaphrase from './data/speed-exam/vocabulary/paraphrase.json'
+import vocabularyUsage from './data/speed-exam/vocabulary/usage.json'
+import grammarForm from './data/speed-exam/grammar/form.json'
+import grammarOrdering from './data/speed-exam/grammar/ordering.json'
+import grammarText from './data/speed-exam/grammar/text.json'
+import readingShort from './data/speed-exam/reading/short.json'
+import readingMedium from './data/speed-exam/reading/medium.json'
+import readingInformation from './data/speed-exam/reading/information.json'
+import listeningTask from './data/speed-exam/listening/task.json'
+import listeningPoint from './data/speed-exam/listening/point.json'
+import listeningExpression from './data/speed-exam/listening/expression.json'
+import listeningResponse from './data/speed-exam/listening/response.json'
+import type { SpeedQuestion } from './speedExamTypes'
 
-// Original Codex-authored N3 practice. Each section covers the N3 task families.
-export const speedQuestions: SpeedQuestion[] = [
-  { id: 'v1', section: 'vocabulary', kind: 'Cách đọc kanji', prompt: '「約束」の読み方はどれですか。', choices: ['やくそく', 'やっそく', 'やくぞく', 'よくそく'], answer: 0, explanation: '約束（やくそく）: lời hứa, cuộc hẹn.' },
-  { id: 'v2', section: 'vocabulary', kind: 'Chọn cách viết', prompt: '毎日、漢字を「ふくしゅう」します。正しい漢字はどれですか。', choices: ['復習', '予習', '復集', '複週'], answer: 0, explanation: '復習 là ôn tập; 予習 là chuẩn bị bài trước.' },
-  { id: 'v3', section: 'vocabulary', kind: 'Từ trong ngữ cảnh', prompt: '電車が遅れたので、会議に（　）しまった。', choices: ['出発して', '遅刻して', '運転して', '予約して'], answer: 1, explanation: '会議に遅刻する: đến họp muộn.' },
-  { id: 'v4', section: 'vocabulary', kind: 'Đồng nghĩa / diễn đạt lại', prompt: '「この問題はやさしいです。」と同じ意味の文はどれですか。', choices: ['この問題は難しいです。', 'この問題は長いです。', 'この問題は簡単です。', 'この問題は大切です。'], answer: 2, explanation: 'やさしい mang nghĩa 簡単 (dễ) trong câu này.' },
-  { id: 'v5', section: 'vocabulary', kind: 'Cách dùng từ', prompt: '「遠慮」の使い方として正しい文はどれですか。', choices: ['駅まで遠慮で行きます。', 'この料理は遠慮が甘いです。', '毎朝、窓を遠慮します。', 'おなかがいっぱいなので、おかわりは遠慮します。'], answer: 3, explanation: '遠慮する: nhã nhặn từ chối hoặc kiềm chế vì ý tứ.' },
-  { id: 'g1', section: 'grammar', kind: 'Chọn cấu trúc ngữ pháp', prompt: '雨が降っている（　）、試合は予定どおり行われます。', choices: ['ために', 'のに', 'ように', 'ところに'], answer: 1, explanation: 'のに diễn tả sự trái ngược: dù trời mưa, trận đấu vẫn diễn ra.' },
-  { id: 'g2', section: 'grammar', kind: 'Chọn cấu trúc ngữ pháp', prompt: '日本に来てから、納豆が食べられる（　）。', choices: ['ことがあります', 'ところです', 'ようになりました', 'ためです'], answer: 2, explanation: '〜ようになる diễn tả sự thay đổi khả năng hoặc thói quen.' },
-  { id: 'g3', section: 'grammar', kind: 'Sắp xếp câu ★', prompt: 'この本は ＿＿ ＿＿ ★ ＿＿ です。\n並べる言葉：①にも　②やすい　③初心者　④わかり\n★に入るものはどれですか。', choices: ['① にも', '② やすい', '③ 初心者', '④ わかり'], answer: 3, explanation: '初心者 → にも → わかり → やすい: ngay cả người mới bắt đầu cũng dễ hiểu.' },
-  { id: 'g4', section: 'grammar', kind: 'Ngữ pháp trong đoạn văn', passage: '私は毎朝、駅までバスで行っていました。しかし、最近は運動不足です。（　）、健康のために歩くことにしました。', prompt: '（　）に入る最もよいものはどれですか。', choices: ['そこで', 'それでも', 'ところが', 'それなのに'], answer: 0, explanation: 'そこで nối tình huống với hành động giải quyết: vì vậy tôi quyết định đi bộ.' },
-  { id: 'g5', section: 'grammar', kind: 'Ngữ pháp trong đoạn văn', passage: '来週、友達が家に来ます。料理は前の日に作って（　）つもりです。当日は時間がないからです。', prompt: '（　）に入る最もよいものはどれですか。', choices: ['しまう', 'いる', 'みる', 'おく'], answer: 3, explanation: '〜ておく: làm sẵn để chuẩn bị cho việc sau đó.' },
-  { id: 'r1', section: 'reading', kind: 'Đoạn ngắn · thông tin', passage: '図書館のお知らせ：今週の土曜日は建物の点検のため休館します。返す本は入口の返却箱に入れてください。ただし、CDは日曜日以降に窓口へ持ってきてください。', prompt: '土曜日にCDを返したい人は、どうしますか。', choices: ['返却箱に入れる', '日曜日以降に窓口へ持っていく', '入口の前に置く', '土曜日に窓口へ行く'], answer: 1, explanation: 'Thông báo yêu cầu trả CD tại quầy từ Chủ nhật trở đi.' },
-  { id: 'r2', section: 'reading', kind: 'Đoạn ngắn · lý do', passage: '田中さんへ。明日の映画ですが、仕事が六時までになりました。七時の回には間に合わないので、八時の回にしませんか。駅には七時半に着きます。山田', prompt: '山田さんはなぜ映画の時間を変えたいですか。', choices: ['電車が止まっているから', '七時の回が満席だから', '仕事で七時の回に間に合わないから', '田中さんが遅れるから'], answer: 2, explanation: 'Yamada làm đến 6 giờ nên không kịp suất chiếu 7 giờ.' },
-  { id: 'r3', section: 'reading', kind: 'Đoạn ngắn · chỉ định từ', passage: '私は買い物に行く前に、冷蔵庫の写真を撮ります。店でその写真を見ると、何が足りないかすぐにわかります。これを始めてから、同じ物を二つ買うことが減りました。', prompt: '「これ」は何を指しますか。', choices: ['冷蔵庫を新しくすること', '毎日同じ店に行くこと', '食べ物を二つずつ買うこと', '買い物前に冷蔵庫の写真を撮ること'], answer: 3, explanation: 'これ chỉ việc chụp ảnh tủ lạnh trước khi đi mua sắm.' },
-  { id: 'r4', section: 'reading', kind: 'Đoạn ngắn · ý chính', passage: '新しい言葉は一度にたくさん覚えようとしても、すぐ忘れてしまいます。私は毎日五つだけ覚え、次の日にもう一度確認します。少なくても続けることが大切だと思います。', prompt: '筆者が最も伝えたいことは何ですか。', choices: ['少しずつでも毎日続けることが大切だ', '一日に百の言葉を覚えるべきだ', '次の日には新しい言葉だけ勉強する', '言葉を覚える必要はない'], answer: 0, explanation: 'Tác giả nhấn mạnh việc học đều đặn, dù mỗi ngày chỉ một ít.' },
-  { id: 'r5', section: 'reading', kind: 'Đoạn vừa · chi tiết', passage: '私の会社では、先月から毎週水曜日を「会議をしない日」にしました。以前は短い会議が一日に何度もあり、作業が進みませんでした。今は水曜日に集中して仕事ができます。ただ、急ぎの相談まで次の日に待つ必要はありません。十分以内で終わる相談なら、いつでもしてよいことになっています。', prompt: '水曜日でもしてよいことは何ですか。', choices: ['一時間の定例会議', '十分以内の急ぎの相談', 'すべての会議', '次の週の長い打ち合わせ'], answer: 1, explanation: 'Vẫn được trao đổi việc gấp nếu kết thúc trong vòng 10 phút.' },
-  { id: 'r6', section: 'reading', kind: 'Đoạn vừa · suy luận', passage: '町のパン屋は夜八時に閉まります。以前は閉店前にパンが多く残っていました。そこで、夕方六時から残ったパンを安く売るようにしました。すると、仕事帰りの人が買うようになり、捨てるパンが減りました。店長は「売り上げだけでなく、食べ物を大切にできるのがうれしい」と話しています。', prompt: 'この店長は何を喜んでいますか。', choices: ['閉店時間が早くなったことだけ', '朝の客が増えたことだけ', 'パンを無駄にする量が減ったこと', 'パンを作らなくてよくなったこと'], answer: 2, explanation: '店長 vui vì giảm lãng phí thực phẩm, ngoài lợi ích bán hàng.' },
-  { id: 'r7', section: 'reading', kind: 'Đoạn vừa · diễn biến', passage: '私は旅行中、道に迷うのが嫌で、いつも地図ばかり見ていました。ある日、携帯の電池が切れてしまい、近くの人に道を聞きました。その人は道だけでなく、おいしい店も教えてくれました。それからは地図に頼りすぎず、人と話すことも旅の楽しみにしています。', prompt: 'この経験の後、筆者はどう変わりましたか。', choices: ['旅行をやめた', '地図以外は信じなくなった', '携帯を持たなくなった', '旅行先で人と話すことも楽しむようになった'], answer: 3, explanation: 'Sau trải nghiệm đó, tác giả thích giao tiếp với người địa phương hơn.' },
-  { id: 'r8', section: 'reading', kind: 'Tra cứu thông tin · lịch', passage: '市民センター講座\n料理：火曜 10時〜12時／1,000円\n写真：水曜 19時〜20時／800円\n会話：土曜 10時〜11時／500円\n書道：土曜 14時〜16時／800円\n申し込みは各講座の前日まで。', prompt: '土曜の午前中に参加でき、600円以下の講座はどれですか。', choices: ['会話', '料理', '写真', '書道'], answer: 0, explanation: 'Lớp hội thoại diễn ra sáng thứ Bảy và có phí 500 yên.' },
-  { id: 'r9', section: 'reading', kind: 'Tra cứu thông tin · điều kiện', passage: '自転車レンタル\n一般：1時間300円、1日1,200円\n学生：学生証を見せると1日800円（時間料金の割引なし）\n貸出：9時〜17時。返却は18時まで。予約は前日の17時までに電話。', prompt: '学生が学生証を見せて一日借りる場合、いくらですか。', choices: ['300円', '800円', '1,200円', '無料'], answer: 1, explanation: 'Giá thuê cả ngày cho sinh viên có thẻ là 800 yên.' },
-  { id: 'r10', section: 'reading', kind: 'Tra cứu thông tin · kết hợp điều kiện', passage: '宅配便の再配達\n①午前：9〜12時　②午後：14〜16時　③夕方：16〜18時　④夜間：19〜21時\n当日の再配達は15時まで受付。15時を過ぎると翌日以降。インターネットまたは電話で申し込めます。', prompt: '今日14時に申し込みます。18時半まで外出する人が、今日受け取れる時間帯はどれですか。', choices: ['午前', '午後', '夜間', '夕方'], answer: 2, explanation: 'Đăng ký trước 15 giờ được nhận trong ngày; sau khi về lúc 18:30 chỉ phù hợp khung 19–21 giờ.' },
-  { id: 'l1', section: 'listening', kind: 'Hiểu nhiệm vụ', audioText: '女：会議の準備をお願いします。椅子はもう並べました。男：では、資料を配りましょうか。女：資料は私が配りますから、先に窓を閉めてください。男：はい。質問。男の人はまず何をしますか。', prompt: '男の人はまず何をしますか。', choices: ['椅子を並べる', '資料を配る', '会議を始める', '窓を閉める'], answer: 3, explanation: 'Người nữ yêu cầu trước tiên đóng cửa sổ.' },
-  { id: 'l2', section: 'listening', kind: 'Hiểu nhiệm vụ', audioText: '男：明日は九時に駅に集まりましょう。女：お弁当は持っていきますか。男：昼は店で食べます。でも、山には店がないので、飲み物は持ってきてください。質問。女の人は何を持っていきますか。', prompt: '女の人は何を持っていきますか。', choices: ['飲み物', 'お弁当', '椅子', '地図'], answer: 0, explanation: 'Yêu cầu mang đồ uống vì trên núi không có cửa hàng.' },
-  { id: 'l3', section: 'listening', kind: 'Hiểu nhiệm vụ', audioText: '女：この書類、今日中に部長に渡してください。男：部長は今、外出中ですね。机に置いておきますか。女：大切な書類なので、戻ったら直接渡してください。質問。男の人は書類をどうしますか。', prompt: '男の人は書類をどうしますか。', choices: ['机に置く', '部長が戻ったら直接渡す', '郵便で送る', '明日受付に置く'], answer: 1, explanation: 'Phải đợi trưởng phòng quay lại rồi giao trực tiếp.' },
-  { id: 'l4', section: 'listening', kind: 'Hiểu điểm chính', audioText: '男：新しいアパートはどうですか。女：駅から少し遠いですが、静かで、家賃も安いんです。男：引っ越してよかったですね。女：ええ。特に、夜よく眠れるようになったのがうれしいです。質問。女の人が一番喜んでいることは何ですか。', prompt: '女の人が一番喜んでいることは何ですか。', choices: ['駅が近いこと', '部屋が広いこと', '夜よく眠れること', '家具が新しいこと'], answer: 2, explanation: '特に nhấn mạnh điều vui nhất: ban đêm ngủ ngon hơn.' },
-  { id: 'l5', section: 'listening', kind: 'Hiểu điểm chính', audioText: '女：週末の旅行、電車で行きますか。男：バスのほうが千円安いけど、三時間かかりますね。女：電車なら一時間半です。朝ゆっくりしたいので、電車にしましょう。質問。女の人はなぜ電車を選びましたか。', prompt: '女の人はなぜ電車を選びましたか。', choices: ['バスより安いから', '座席が広いから', '乗り換えがないから', '短い時間で着くから'], answer: 3, explanation: 'Tàu chỉ mất 1,5 giờ nên có thể thong thả hơn vào buổi sáng.' },
-  { id: 'l6', section: 'listening', kind: 'Hiểu điểm chính', audioText: '店内放送です。本日は雨のため、屋上のイベントを中止します。一階の料理教室は予定どおり行います。参加する方は一時までに一階受付へお越しください。質問。料理教室に参加する人はどこへ行きますか。', prompt: '料理教室に参加する人はどこへ行きますか。', choices: ['一階の受付', '屋上', '二階の教室', '店の外'], answer: 0, explanation: 'Thông báo yêu cầu đến quầy tiếp tân tầng 1 trước 1 giờ.' },
-  { id: 'l7', section: 'listening', kind: 'Diễn đạt theo tình huống', audioText: 'あなたは電車の中にいます。前に立っているお年寄りに席を譲りたいです。何と言いますか。', prompt: '状況に合う言い方を選んでください。', choices: ['ここに座ってもいいですか。', 'どうぞ、こちらにお座りください。', '席を取っておいてください。', '立っていてください。'], answer: 1, explanation: 'どうぞ、こちらにお座りください là lời mời người khác ngồi lịch sự.' },
-  { id: 'l8', section: 'listening', kind: 'Diễn đạt theo tình huống', audioText: 'あなたは友達から借りた本に、水をこぼしてしまいました。友達に何と言いますか。', prompt: '状況に合う言い方を選んでください。', choices: ['本を貸してくれてありがとう。', '本を借りてもいいですか。', 'ごめん、本をぬらしてしまった。', '本を読んでおいてね。'], answer: 2, explanation: 'Cần xin lỗi và nói rõ mình đã làm ướt sách.' },
-  { id: 'l9', section: 'listening', kind: 'Phản hồi nhanh', audioText: '田中さん、この荷物、運ぶのを手伝っていただけませんか。', prompt: '最も自然な返事を選んでください。', choices: ['荷物を買いました。', '昨日運びましたか。', 'お先に失礼しました。', 'はい、どこへ運びましょうか。'], answer: 3, explanation: 'Đáp lại lời nhờ giúp: Vâng, tôi mang đến đâu ạ?' },
-  { id: 'l10', section: 'listening', kind: 'Phản hồi nhanh', audioText: 'すみません、この近くに郵便局はありませんか。', prompt: '最も自然な返事を選んでください。', choices: ['ええ、あの銀行の隣にありますよ。', '切手は昨日使いました。', '手紙を書いてください。', '郵便局は三人です。'], answer: 0, explanation: 'Câu hỏi xin chỉ vị trí bưu điện; đáp án chỉ nơi ở cạnh ngân hàng.' },
-]
+export type { SpeedQuestion } from './speedExamTypes'
+
+// Original Codex-authored N3 practice, edited in 12 batches of 50.
+// Files are grouped by task family; data integrity is checked by speedExamData.test.ts.
+export const speedQuestions = [
+  ...vocabularyReading, ...vocabularyWriting, ...vocabularyContext, ...vocabularyParaphrase, ...vocabularyUsage,
+  ...grammarForm, ...grammarOrdering, ...grammarText,
+  ...readingShort, ...readingMedium, ...readingInformation,
+  ...listeningTask, ...listeningPoint, ...listeningExpression, ...listeningResponse,
+] as SpeedQuestion[]

@@ -5,6 +5,12 @@ import { LanguageProvider } from './i18n'
 import { SpeedExamMode } from './SpeedExamMode'
 import { speedQuestions } from './speedExamData'
 
+// A compact bank keeps keyboard/timer tests independent of the production bank size.
+vi.mock('./speedExamData', async () => {
+  const { default: questions } = await import('./test/fixtures/speedExam.json')
+  return { speedQuestions: questions }
+})
+
 afterEach(() => { cleanup(); vi.useRealTimers(); vi.unstubAllGlobals() })
 const mount = () => render(<LanguageProvider><SpeedExamMode onClose={() => {}} /></LanguageProvider>)
 const advance = () => act(() => { vi.advanceTimersByTime(2000) })

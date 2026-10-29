@@ -1,0 +1,602 @@
+[
+  {
+    "id": "n3-vocabulary-usage-001",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「遠慮」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "おなかがいっぱいなので、おかわりは遠慮します。",
+      "駅まで遠慮で歩きます。",
+      "この机は遠慮が重いです。",
+      "毎朝、窓を遠慮します。"
+    ],
+    "answer": 0,
+    "explanation": "遠慮する: kiềm chế, ý tứ từ chối.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-002",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「予約」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "雨が降ったので、傘を予約してさした。",
+      "来週の診察を電話で予約した。",
+      "眠いので目を予約した。",
+      "川の水が予約している。"
+    ],
+    "answer": 1,
+    "explanation": "予約する: đặt trước dịch vụ hay chỗ.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-003",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「延期」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "作文を英語に延期した。",
+      "靴をきれいに延期した。",
+      "台風のため、試合を来週に延期した。",
+      "窓を開けて空気を延期した。"
+    ],
+    "answer": 2,
+    "explanation": "延期する: hoãn sang thời điểm sau.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-004",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「交換」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "疲れたので、ベッドで交換した。",
+      "毎朝歯を交換して磨く。",
+      "この映画は交換がおもしろい。",
+      "サイズが合わない服を大きい物と交換した。"
+    ],
+    "answer": 3,
+    "explanation": "交換する: đổi vật này lấy vật khác.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-005",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「責任」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "自分の失敗には自分で責任を持つべきだ。",
+      "電車に責任を乗って通う。",
+      "この料理は責任に甘い。",
+      "寒いので責任を着た。"
+    ],
+    "answer": 0,
+    "explanation": "責任を持つ: chịu trách nhiệm.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-006",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「確認」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "夕食を確認して食べたら甘かった。",
+      "出発前に集合時間をもう一度確認した。",
+      "熱があるので病院を確認して休んだ。",
+      "ドアを確認へ閉めた。"
+    ],
+    "answer": 1,
+    "explanation": "確認する: kiểm tra cho chắc thông tin.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-007",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「応援」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "洗濯物を応援して乾かした。",
+      "駅まで応援に乗った。",
+      "決勝戦で友達のチームを応援した。",
+      "この道は応援で狭い。"
+    ],
+    "answer": 2,
+    "explanation": "応援する: cổ vũ, hỗ trợ tinh thần.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-008",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「感謝」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "忘れ物を感謝に入れました。",
+      "夕方に太陽が感謝しました。",
+      "急いで電車を感謝しました。",
+      "手伝ってくれた人たちに感謝しています。"
+    ],
+    "answer": 3,
+    "explanation": "人に感謝する: biết ơn ai.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-009",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「影響」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "睡眠不足は体に悪い影響を与える。",
+      "影響を三枚コピーしてください。",
+      "パンに影響を塗って食べた。",
+      "駅で影響に乗り換えた。"
+    ],
+    "answer": 0,
+    "explanation": "影響を与える: gây ảnh hưởng.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-010",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「利用」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "空が利用して雨になった。",
+      "通学にはバスを利用しています。",
+      "悲しくて利用を泣いた。",
+      "猫が窓に利用を鳴いた。"
+    ],
+    "answer": 1,
+    "explanation": "利用する: sử dụng phương tiện, dịch vụ.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-011",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「節約」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "住所をノートに節約する。",
+      "転んだので病院を節約する。",
+      "電気をこまめに消して、電気代を節約する。",
+      "魚を節約に焼くとおいしい。"
+    ],
+    "answer": 2,
+    "explanation": "節約する: tiết kiệm tiền, điện hoặc tài nguyên.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-012",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「集中」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "会議の日を来週に集中して、日程表を書き直した。",
+      "机の引き出しに集中を入れて、鍵をかけた。",
+      "集中を一枚コピーして、全員に配った。",
+      "静かな部屋なら勉強に集中できる。"
+    ],
+    "answer": 3,
+    "explanation": "〜に集中する: tập trung vào việc gì.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-013",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「慣れる」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "新しい職場の生活にやっと慣れてきた。",
+      "宿題を慣れて提出した。",
+      "雨が慣れたので傘を買った。",
+      "机に名前を慣れた。"
+    ],
+    "answer": 0,
+    "explanation": "〜に慣れる: quen với môi trường hoặc việc gì.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-014",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「間に合う」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "お茶を間に合って飲んだ。",
+      "走ったので、最終電車に間に合った。",
+      "この道具は重さが間に合う。",
+      "犬を間に合って散歩した。"
+    ],
+    "answer": 1,
+    "explanation": "〜に間に合う: kịp thời hạn hay chuyến xe.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-015",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「預ける」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "空を見て天気を預ける。",
+      "お湯を預けると熱くなる。",
+      "旅行中は猫を友達の家に預ける。",
+      "彼の名前を頭から預けた。"
+    ],
+    "answer": 2,
+    "explanation": "預ける: gửi nhờ giữ người, vật, thú nuôi.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-016",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「断る」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "先生の説明をノートに断って、家で復習した。",
+      "次の角を右に断ると、駅が見えます。",
+      "医者に体温を断ってもらった。",
+      "都合が悪かったので、食事の誘いを断った。"
+    ],
+    "answer": 3,
+    "explanation": "誘いを断る: từ chối lời mời.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-017",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「比べる」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "二つの商品を比べて、軽いほうを買った。",
+      "駅の出口を比べて外へ出た。",
+      "風邪を比べて熱が出た。",
+      "ペンを比べて字を書いた。"
+    ],
+    "answer": 0,
+    "explanation": "比べる: so sánh hai hay nhiều đối tượng.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-018",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「増える」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "窓を増えて外を見た。",
+      "新しい駅ができて、この町の人口が増えた。",
+      "ご飯を増えて食べた。",
+      "昨日は本を三冊増えた。"
+    ],
+    "answer": 1,
+    "explanation": "増える là nội động từ: 人口が増える.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-019",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「減らす」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "明かりが自然に減らした。",
+      "花が減らして咲いた。",
+      "健康のために甘い飲み物を飲む量を減らした。",
+      "駅を減らして到着した。"
+    ],
+    "answer": 2,
+    "explanation": "減らす là ngoại động từ: giảm lượng gì.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-020",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「届く」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "私は友達に手紙を届いた。",
+      "道が右へ届いた。",
+      "スープを届いて飲んだ。",
+      "注文した本が今朝、家に届いた。"
+    ],
+    "answer": 3,
+    "explanation": "届く là nội động từ: hàng đến nơi.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-021",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「伸びる」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "春になって、庭の草がよく伸びる。",
+      "私はひもを伸びた。",
+      "宿題を伸びて提出した。",
+      "電車を伸びて駅に行った。"
+    ],
+    "answer": 0,
+    "explanation": "伸びる: mọc dài ra; chủ thể là cỏ.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-022",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「似合う」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "昨日の宿題に似合いました。",
+      "その青いシャツはあなたによく似合います。",
+      "駅から家まで似合います。",
+      "薬を飲んだら熱が似合いました。"
+    ],
+    "answer": 1,
+    "explanation": "〜が人に似合う: đồ hợp với người.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-023",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「落ち着く」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "興奮している子どもを落ち着いた。",
+      "会議の時間を三時に落ち着いておいた。",
+      "温かいお茶を飲んだら、少し気持ちが落ち着いた。",
+      "落ち着くを一枚書いて提出した。"
+    ],
+    "answer": 2,
+    "explanation": "気持ちが落ち着く: tâm trạng dịu lại, bình tĩnh.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-024",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「片づける」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "約束の時間を片づけて遅れた。",
+      "空が片づけて晴れた。",
+      "駅で電車を片づけて待った。",
+      "食事の後、テーブルの上を片づけた。"
+    ],
+    "answer": 3,
+    "explanation": "片づける: dọn dẹp, sắp gọn.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-025",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「支える」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "家族の励ましが、つらい時の私を支えてくれた。",
+      "ジュースを支えて飲んだ。",
+      "バスを支えて乗り換えた。",
+      "住所を支えて忘れた。"
+    ],
+    "answer": 0,
+    "explanation": "支える: nâng đỡ vật chất hoặc tinh thần.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-026",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「任せる」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "雨に任せて傘が壊れたです。",
+      "会場の飾り付けは美術部の友達に任せた。",
+      "道を任せて駅へ曲がった。",
+      "このパンは任せるに甘い。"
+    ],
+    "answer": 1,
+    "explanation": "人に仕事を任せる: giao việc cho ai.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-027",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「確かめる」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "窓が閉まっていることに確かめた。",
+      "分からない漢字が辞書を確かめた。",
+      "ドアの鍵を閉めたかどうか確かめた。",
+      "電車の出発時刻で確かめてください。"
+    ],
+    "answer": 2,
+    "explanation": "確かめる: kiểm tra xem có đúng, có xảy ra chưa.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-028",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「取り消す」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "黒板を取り消して字を書いた。",
+      "部屋を取り消して広くした。",
+      "靴を取り消して走った。",
+      "旅行に行けなくなったので、ホテルの予約を取り消した。"
+    ],
+    "answer": 3,
+    "explanation": "予約を取り消す: hủy đặt chỗ.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-029",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「見送る」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "空港まで留学する友達を見送りに行った。",
+      "辞書で漢字を見送って調べた。",
+      "魚を見送って焼いた。",
+      "電池を見送って新しくした。"
+    ],
+    "answer": 0,
+    "explanation": "見送る: tiễn người lên đường.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-030",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「思い出す」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "昔の旅行に思い出した。",
+      "この歌を聞くと、子どものころを思い出す。",
+      "この写真を見ると、子どものころが思い出す。",
+      "故郷のことを思い出したいので、写真に思い出した。"
+    ],
+    "answer": 1,
+    "explanation": "思い出す: nhớ lại chuyện trong quá khứ.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-031",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「挑戦」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "駅の改札を挑戦して通った。",
+      "夕食を挑戦に並べた。",
+      "初めて十キロのマラソンに挑戦した。",
+      "このかばんは挑戦が軽い。"
+    ],
+    "answer": 2,
+    "explanation": "〜に挑戦する: thử sức với thử thách.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-032",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「相談」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "足のサイズが店員を相談した。",
+      "相談を三ページ読んで、本棚に戻した。",
+      "道を右に相談すると、病院があります。",
+      "進路について先生に相談した。"
+    ],
+    "answer": 3,
+    "explanation": "〜について人に相談する: xin tư vấn về việc gì.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-033",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「予防」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "風邪の予防のため、帰宅したら手を洗う。",
+      "明日の予定を予防に書く。",
+      "電車が遅れたので駅を予防した。",
+      "料理を予防して皿に盛った。"
+    ],
+    "answer": 0,
+    "explanation": "予防: phòng bệnh hoặc ngăn việc xấu xảy ra.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-034",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「変更」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "服を変更に着た。",
+      "参加者が増えたので、会議室を変更した。",
+      "駅まで変更で歩いた。",
+      "雨が変更を降った。"
+    ],
+    "answer": 1,
+    "explanation": "変更する: thay đổi kế hoạch hay địa điểm.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-035",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「説明」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "おなかが説明したので食べた。",
+      "窓を説明して外に出た。",
+      "店員が機械の操作方法を説明してくれた。",
+      "電車の切符を説明に入れた。"
+    ],
+    "answer": 2,
+    "explanation": "説明する: giải thích nội dung, cách làm.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-036",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「伝える」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "雨を伝えて傘を買った。",
+      "足を伝えて速く走った。",
+      "熱が伝えるので寝た。",
+      "先生からの連絡を、休んだ友達に伝えた。"
+    ],
+    "answer": 3,
+    "explanation": "情報を人に伝える: truyền đạt thông tin cho ai.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-037",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「誘う」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "週末の映画に友達を誘った。",
+      "水を誘って沸かした。",
+      "傘を誘って雨を止めた。",
+      "道を誘って右に曲がった。"
+    ],
+    "answer": 0,
+    "explanation": "人を〜に誘う: rủ ai tham gia.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-038",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「雇う」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "新しい漢字を十個雇って、ノートに書いた。",
+      "店が忙しくなったので、新しい店員を雇った。",
+      "雨が雇ったので、試合は中止になった。",
+      "このかばんは雇うが安いので買った。"
+    ],
+    "answer": 1,
+    "explanation": "雇う: thuê người làm công việc.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-039",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「訪ねる」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "機械の使い方を辞書で訪ねた。",
+      "電気を訪ねて明るくした。",
+      "夏休みに、田舎に住む祖母を訪ねた。",
+      "夕食を訪ねて食べた。"
+    ],
+    "answer": 2,
+    "explanation": "訪ねる: đến thăm; khác với 尋ねる (hỏi).",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-usage-040",
+    "section": "vocabulary",
+    "kind": "Cách dùng từ",
+    "prompt": "「受け取る」の使い方として最も適切な文を選んでください。",
+    "choices": [
+      "注文した商品が私を受け取った。",
+      "荷物に受け取ると、箱を開けた。",
+      "受け取るを一枚書いて、先生に提出した。",
+      "配達員から荷物を受け取った。"
+    ],
+    "answer": 3,
+    "explanation": "人から物を受け取る: nhận đồ từ ai.",
+    "batch": 4
+  }
+]

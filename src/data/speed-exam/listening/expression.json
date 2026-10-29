@@ -1,0 +1,642 @@
+[
+  {
+    "id": "n3-listening-expression-001",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "どうぞ、こちらにお座りください。",
+      "ここに座ってもいいですか。",
+      "席を取っておいてくれませんか。",
+      "もう少し立っていてください。"
+    ],
+    "answer": 0,
+    "explanation": "Nhường chỗ cho người già bằng lời mời ngồi lịch sự.",
+    "batch": 11,
+    "audioText": "あなたは電車で座っています。前に立っているお年寄りに席を譲りたいです。何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-002",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "本を貸してくれてありがとう。",
+      "ごめん、本をぬらしてしまった。",
+      "その本を貸してくれない。",
+      "本はまだ読まなくていいよ。"
+    ],
+    "answer": 1,
+    "explanation": "Làm ướt sách mượn thì cần xin lỗi và nêu lỗi.",
+    "batch": 11,
+    "audioText": "友達から借りた本に水をこぼしました。友達に謝りたいです。何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-003",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "もう一度言ってあげましょうか。",
+      "先に言っておきました。",
+      "すみません、もう一度言っていただけますか。",
+      "よく分かりました。"
+    ],
+    "answer": 2,
+    "explanation": "Nhờ đối phương nhắc lại dùng 言っていただけますか.",
+    "batch": 11,
+    "audioText": "先生の説明がよく聞こえませんでした。もう一度説明してほしいです。先生に何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-004",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "会議を始めていただけませんか。",
+      "会議はもう終わりました。",
+      "先に会議へお帰りください。",
+      "会議中ですので、少しお待ちいただけますか。"
+    ],
+    "answer": 3,
+    "explanation": "Khách gọi khi trưởng phòng họp, xin khách chờ một chút.",
+    "batch": 11,
+    "audioText": "電話で部長への連絡を受けました。部長は今会議中です。相手に少し待ってもらいたいです。何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-005",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "お先に失礼します。",
+      "行ってらっしゃいませ。",
+      "お帰りなさい。",
+      "どうぞ、お先に。"
+    ],
+    "answer": 0,
+    "explanation": "Rời cơ quan trước người khác dùng お先に失礼します.",
+    "batch": 11,
+    "audioText": "あなたは仕事が終わり、ほかの人より先に会社を出ます。まだ働いている人に何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-006",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "手伝ってくれなくても困らなかったよ。",
+      "手伝ってくれて、本当に助かったよ。",
+      "次は手伝わないでね。",
+      "まだ何もしてくれなかったね。"
+    ],
+    "answer": 1,
+    "explanation": "Cảm ơn sự giúp đỡ bằng 助かった: nhờ bạn mà đỡ nhiều.",
+    "batch": 11,
+    "audioText": "引っ越しを友達が一日手伝ってくれました。感謝を伝えたいです。何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-007",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "ぜひ今日うかがいます。",
+      "今日は何時でも空いています。",
+      "申し訳ありませんが、今日は都合がつきません。",
+      "こちらから招待します。"
+    ],
+    "answer": 2,
+    "explanation": "Từ chối lời mời lịch sự, nói hôm nay không sắp xếp được.",
+    "batch": 11,
+    "audioText": "先輩から今日の夕食に誘われましたが、約束があって行けません。丁寧に断るには何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-008",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "郵便局までご案内します。",
+      "昨日、郵便局へ行きました。",
+      "この手紙を出しておきました。",
+      "この近くに郵便局はありますか。"
+    ],
+    "answer": 3,
+    "explanation": "Hỏi vị trí bằng 近くに〜はありますか.",
+    "batch": 11,
+    "audioText": "知らない町で手紙を出したいです。通りかかった人に郵便局の場所を聞きます。何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-009",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "この料理には卵が入っていますか。",
+      "卵を多めに入れてください。",
+      "卵だけ持ち帰ってください。",
+      "卵を食べたことがあります。"
+    ],
+    "answer": 0,
+    "explanation": "Có dị ứng cần hỏi món có trứng hay không.",
+    "batch": 11,
+    "audioText": "あなたは卵のアレルギーがあります。レストランで料理に卵が使われているか確認したいです。店員に何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-010",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "明日の午後は予約しないでください。",
+      "予約を明日の午後に変更できますか。",
+      "昨日の予約を確認しておきました。",
+      "明日の午後からお店を開けます。"
+    ],
+    "answer": 1,
+    "explanation": "Xin đổi lịch đặt chỗ sang chiều mai bằng 変更できますか.",
+    "batch": 11,
+    "audioText": "今日の美容院の予約に行けなくなりました。明日の午後に変えたいです。電話で何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-011",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "具合が悪くなってよかったですね。",
+      "元気に見えるから休まないでください。",
+      "具合が悪そうですが、大丈夫ですか。",
+      "私の病気を見てください。"
+    ],
+    "answer": 2,
+    "explanation": "Thấy đồng nghiệp mệt thì hỏi thăm sức khỏe.",
+    "batch": 11,
+    "audioText": "同僚の顔色が悪く、つらそうです。心配して声をかけます。何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-012",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "これを落としてください。",
+      "これをもらっておきますね。",
+      "落とすことにしました。",
+      "これ、落とされましたよ。"
+    ],
+    "answer": 3,
+    "explanation": "Báo người vừa đánh rơi đồ, không nhận làm của mình.",
+    "batch": 11,
+    "audioText": "前を歩いている人が手袋を落としました。拾って渡します。何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-013",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "すみません、少し静かにしていただけますか。",
+      "もっと大きな声でお願いします。",
+      "私も電話をかけてあげます。",
+      "静かにしなくてもいいですよ。"
+    ],
+    "answer": 0,
+    "explanation": "Lịch sự đề nghị nói nhỏ bằng 静かにしていただけますか.",
+    "batch": 11,
+    "audioText": "図書館で隣の人が大きな声で電話しています。静かにしてほしいと丁寧に頼みます。何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-014",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "この席はもう使っています。",
+      "この席、空いていますか。",
+      "この席に座っていてください。",
+      "この席を片づけておきました。"
+    ],
+    "answer": 1,
+    "explanation": "Muốn ngồi cần hỏi chỗ có trống không.",
+    "batch": 11,
+    "audioText": "食堂で、誰も座っていないように見える席を使いたいです。隣の人に確認します。何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-015",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "この資料を拝見してもよろしいですか。",
+      "資料をコピーしていただけませんか。",
+      "こちらの資料をご覧ください。",
+      "この資料はまだ完成していません。"
+    ],
+    "answer": 2,
+    "explanation": "Mời khách xem tài liệu dùng kính ngữ ご覧ください.",
+    "batch": 11,
+    "audioText": "会社のお客様に資料を見てもらいたいです。資料を渡しながら何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-016",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "これは注文したとおりでよかったです。",
+      "同じ物をもう一つ注文します。",
+      "注文はまだしません。",
+      "すみません、注文した物と違うようですが。"
+    ],
+    "answer": 3,
+    "explanation": "Thông báo nhầm món một cách mềm bằng 違うようですが.",
+    "batch": 11,
+    "audioText": "レストランで、頼んだ魚ではなく肉料理が来ました。店員に確認します。何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-017",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "合格おめでとう。よく頑張ったね。",
+      "試験に落ちて残念だったね。",
+      "試験は受けなかったんだね。",
+      "合格しないように気をつけてね。"
+    ],
+    "answer": 0,
+    "explanation": "Bạn đỗ kỳ thi thì chúc mừng và ghi nhận nỗ lực.",
+    "batch": 11,
+    "audioText": "友達が難しい試験に合格しました。お祝いの言葉をかけます。何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-018",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "今回は準備が足りなかったね。もうやめよう。",
+      "大丈夫、次はきっとうまくいくよ。",
+      "発表は予定どおり終わったね。",
+      "失敗した所はもう見直さなくていいよ。"
+    ],
+    "answer": 1,
+    "explanation": "Động viên khi thất bại bằng lời khích lệ lần sau.",
+    "batch": 11,
+    "audioText": "友達が発表で失敗して落ち込んでいます。元気づけたいです。何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-019",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "説明が足りなくても、私には関係ありません。",
+      "説明してくれて助かりました。",
+      "説明が足りなくて、すみませんでした。",
+      "もう説明はしないでください。"
+    ],
+    "answer": 2,
+    "explanation": "Xin lỗi về thiếu sót giải thích của bản thân.",
+    "batch": 11,
+    "audioText": "あなたの説明不足で、同僚が作業をやり直すことになりました。謝ります。何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-020",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "窓を開けていただきました。",
+      "窓を閉めておいてください。",
+      "窓は絶対に開きません。",
+      "窓を開けてもよろしいですか。"
+    ],
+    "answer": 3,
+    "explanation": "Xin phép mình mở cửa dùng 〜てもよろしいですか.",
+    "batch": 11,
+    "audioText": "会議室が暑いので、窓を開けたいです。近くの人に許可を求めます。何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-021",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "この書類の書き方を教えていただけませんか。",
+      "この書類はもう全部書けました。",
+      "書類を教えて差し上げました。",
+      "書類を書かないでいただけますか。"
+    ],
+    "answer": 0,
+    "explanation": "Nhờ chỉ cách điền biểu mẫu một cách lịch sự.",
+    "batch": 11,
+    "audioText": "役所で書類の書き方が分かりません。窓口の人に教えてほしいです。何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-022",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "もう着いているので、先に入ります。",
+      "道が混んでいて、十分ほど遅れそうです。すみません。",
+      "十分早く着きそうです。",
+      "待ち合わせは明日にしましょう。"
+    ],
+    "answer": 1,
+    "explanation": "Báo nguyên nhân và thời gian dự kiến trễ, kèm xin lỗi.",
+    "batch": 11,
+    "audioText": "待ち合わせに遅れそうです。道が混んでいて、十分ほど遅れます。友達に電話で何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-023",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "これは食べないで捨ててください。",
+      "私にお菓子を持ってきてください。",
+      "お口に合うか分かりませんが、どうぞ。",
+      "まだ何も買っていません。"
+    ],
+    "answer": 2,
+    "explanation": "Trao quà bánh lịch sự, khiêm nhường về món quà.",
+    "batch": 11,
+    "audioText": "初めて先輩の家を訪ね、お菓子を渡します。何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-024",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "荷物を持っていただけませんか。",
+      "私の荷物を運んでください。",
+      "荷物を持たなくてもよかったです。",
+      "お荷物、お持ちしましょうか。"
+    ],
+    "answer": 3,
+    "explanation": "Đề nghị mình xách giúp: お持ちしましょうか.",
+    "batch": 11,
+    "audioText": "階段で先輩が重そうな荷物を持っています。運ぶのを手伝いたいです。何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-025",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "もう少し大きいサイズはありますか。",
+      "このサイズを小さくしてください。",
+      "色は同じなので買いません。",
+      "一番小さい物だけ見せてください。"
+    ],
+    "answer": 0,
+    "explanation": "Đôi giày chật, hỏi có cỡ lớn hơn không.",
+    "batch": 11,
+    "audioText": "店で靴を試しましたが、少しきついです。同じ靴の大きいサイズを試したいです。何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-026",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "銀行には絶対に寄らないでください。",
+      "帰り道に銀行にも寄ってもいいですか。",
+      "銀行に行ってくださってありがとう。",
+      "銀行から帰ってこなくてもいいです。"
+    ],
+    "answer": 1,
+    "explanation": "Xin phép cả nhóm ghé ngân hàng trên đường về.",
+    "batch": 11,
+    "audioText": "同僚と車で会社に戻っています。途中で銀行に寄りたいので、同僚に確認します。何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-027",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "意見は全く同じなので話しません。",
+      "何も考えていないのに賛成します。",
+      "私の考えは少し違うのですが、説明してもいいですか。",
+      "あなたは意見を言わないでください。"
+    ],
+    "answer": 2,
+    "explanation": "Bày tỏ khác ý một cách lịch sự và xin trình bày.",
+    "batch": 11,
+    "audioText": "会議で、自分は別の意見を持っています。相手を尊重しながら発言したいです。何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-028",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "名前は確認しないでください。",
+      "私の名前を決めてください。",
+      "お名前はもう忘れないので結構です。",
+      "確認のため、もう一度お名前をお願いできますか。"
+    ],
+    "answer": 3,
+    "explanation": "Không nghe rõ tên, nhờ nhắc lại để xác nhận.",
+    "batch": 11,
+    "audioText": "電話の相手の名前が聞き取れませんでした。失礼にならないように聞き直します。何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-029",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "おかげさまで、無事に終わりました。",
+      "まだ始めていないので終わりました。",
+      "手伝ってくれたのに終わっていませんでした。",
+      "終わらせないでいただけますか。"
+    ],
+    "answer": 0,
+    "explanation": "Nhờ giúp mà xong tốt, dùng おかげさまで.",
+    "batch": 11,
+    "audioText": "先輩に手伝ってもらった仕事が無事に終わりました。報告と感謝を伝えます。何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-030",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "昼ご飯を食べてしまいましたね。",
+      "よかったら、一緒に昼ご飯を食べませんか。",
+      "一緒に食べないでください。",
+      "昼ご飯を持って帰りました。"
+    ],
+    "answer": 1,
+    "explanation": "Lời rủ thân thiện dùng よかったら〜ませんか.",
+    "batch": 11,
+    "audioText": "新しく入った同僚が一人でいます。昼食に誘いたいです。何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-031",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "今日はいつもどおり出勤します。",
+      "明日は代わりに休んでください。",
+      "今日は体調が悪いので、休ませていただけませんか。",
+      "昨日はお休みをいただきました。"
+    ],
+    "answer": 2,
+    "explanation": "Xin phép nghỉ do không khỏe dùng 休ませていただけませんか.",
+    "batch": 12,
+    "audioText": "朝、熱があって出勤できそうにありません。上司に電話で休みをお願いします。何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-032",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "早く返してくれてありがとう。",
+      "借りていないから返さないよ。",
+      "もう返したから貸さないでね。",
+      "返すのが遅くなって、ごめんね。"
+    ],
+    "answer": 3,
+    "explanation": "Trả muộn đồ mình mượn thì xin lỗi vì trả trễ.",
+    "batch": 12,
+    "audioText": "友達から借りた傘を、約束の日より遅く返すことになりました。渡す時に何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-033",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "この機械は使わないでください。今、点検中です。",
+      "点検中なので自由に使ってください。",
+      "機械をもう一台買ってください。",
+      "使ってくれてありがとうございました。"
+    ],
+    "answer": 0,
+    "explanation": "Cảnh báo đang kiểm tra và yêu cầu không dùng máy.",
+    "batch": 12,
+    "audioText": "職場の機械を点検しています。知らずに使おうとしている同僚を止めます。何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-034",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "担当者を呼んでいただけませんか。私は帰ります。",
+      "こちらでお待ちいただけますか。担当者を呼んでまいります。",
+      "ここでは待たないで、すぐ帰ってください。",
+      "担当者は呼ばないことにしています。"
+    ],
+    "answer": 1,
+    "explanation": "Mời khách chờ và dùng khiêm nhường 呼んでまいります về hành động mình.",
+    "batch": 12,
+    "audioText": "会社にお客様が来ました。担当者を呼ぶ間、待ってもらいます。何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-035",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "この店を何時に開けてあげますか。",
+      "何時まで働かなくてもいいですか。",
+      "この店は、何時まで開いていますか。",
+      "この店は今開けないでください。"
+    ],
+    "answer": 2,
+    "explanation": "Hỏi giờ đóng cửa bằng 何時まで開いていますか.",
+    "batch": 12,
+    "audioText": "夕方にもう一度店へ来たいです。閉店時間を店員に聞きます。何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-036",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "後ろの人には見せないでください。",
+      "皆さん、もっと後ろを隠してください。",
+      "前を空けなくて助かりました。",
+      "後ろの方にも見えるように、少し前を空けてください。"
+    ],
+    "answer": 3,
+    "explanation": "Đề nghị nhường khoảng trống để người sau nhìn thấy.",
+    "batch": 12,
+    "audioText": "展示の前が混んでいて、後ろの人が見えません。係として前の人に協力をお願いします。何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-037",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "写真を撮っていただけませんか。",
+      "写真を撮って差し上げました。",
+      "写真を消してもよろしいですか。",
+      "写真を撮らないことにしました。"
+    ],
+    "answer": 0,
+    "explanation": "Muốn người khác chụp giúp dùng 撮っていただけませんか.",
+    "batch": 12,
+    "audioText": "旅行先で友達と二人の写真を撮りたいです。近くの人に撮影を頼みます。何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-038",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "この店では会話はできません。",
+      "この辺りで、静かに話せる店をご存じですか。",
+      "静かな店に行ったことがあります。",
+      "この店は予約してあります。"
+    ],
+    "answer": 1,
+    "explanation": "Hỏi người địa phương biết quán yên tĩnh không dùng ご存じですか.",
+    "batch": 12,
+    "audioText": "地元の人に、静かに打ち合わせできる店を教えてほしいです。何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-039",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "ご相談に乗ってくださり、ありがとうございました。",
+      "今日は先生の授業を休みます。",
+      "今、少しお時間よろしいでしょうか。",
+      "こちらから連絡するまでお待ちください。"
+    ],
+    "answer": 2,
+    "explanation": "Trước khi xin tư vấn cần hỏi thầy có chút thời gian không.",
+    "batch": 12,
+    "audioText": "先生に相談したいことがあります。研究室で話しかける時、最初に何と言いますか。"
+  },
+  {
+    "id": "n3-listening-expression-040",
+    "section": "listening",
+    "kind": "Diễn đạt theo tình huống",
+    "prompt": "状況に合う言い方を選んでください。",
+    "choices": [
+      "危ないので線の外へ進んでください。",
+      "電車に近づいて見てください。",
+      "線の上に荷物を置いてください。",
+      "危ないですから、黄色い線の内側へお下がりください。"
+    ],
+    "answer": 3,
+    "explanation": "Yêu cầu lùi vào phía trong vạch vàng vì an toàn.",
+    "batch": 12,
+    "audioText": "駅のホームで、子どもが線の外に立っています。安全な場所へ下がるように声をかけます。何と言いますか。"
+  }
+]
