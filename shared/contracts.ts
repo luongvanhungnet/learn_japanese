@@ -11,6 +11,7 @@ export const STUDY_KEYS = [
   'mimikara-language',
   'mimikara-novel-chapter-v1',
   'mimikara-exams-v1',
+  'mimikara-game-v1',
 ] as const
 
 export type StudyKey = typeof STUDY_KEYS[number]
@@ -52,6 +53,7 @@ export const StudyValuesSchema = PlainObjectSchema.pipe(z.object({
   'mimikara-language': StoredValueSchema,
   'mimikara-novel-chapter-v1': StoredValueSchema,
   'mimikara-exams-v1': StoredValueSchema,
+  'mimikara-game-v1': StoredValueSchema,
 }).strict()).refine(values => utf8Bytes(JSON.stringify(values)) <= MAX_USER_DATA_BYTES, 'Study data is too large')
 export const UserDataInputSchema = z.object({ values: StudyValuesSchema }).strict()
 export const UserDataResponseSchema = UserDataInputSchema

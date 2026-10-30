@@ -6,6 +6,8 @@ import grammarData from './data/n3-grammar.json'
 import radicalsData from './data/radicals.json'
 import vietnameseMeanings from './data/vi.json'
 import { LanguageProvider, LanguageSwitch } from './i18n'
+import { VocabularySearch } from './VocabularySearch'
+import type { SearchEntry } from './vocabularySearch'
 import { FocusHeader } from './FocusHeader'
 import { AccountMenu } from './AccountMenu'
 import { useAuth } from './auth/AuthProvider'
@@ -19,6 +21,7 @@ import './App.css'
 const NovelReader = lazy(() => import('./NovelReader').then((module) => ({ default: module.NovelReader })))
 const FlashcardMode = lazy(() => import('./FlashcardMode').then((module) => ({ default: module.FlashcardMode })))
 const VocabularyFlashcardMode = lazy(() => import('./VocabularyFlashcardMode').then(module => ({ default: module.VocabularyFlashcardMode })))
+const GameMode = lazy(() => import('./GameMode').then(module => ({ default: module.GameMode })))
 const ExamMode = lazy(() => import('./ExamMode').then((module) => ({ default: module.ExamMode })))
 
 type Level = 'N3' | 'N2' | 'RADICALS' | 'N3-GRAMMAR'
@@ -289,6 +292,15 @@ function StudyApp() {
     window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}`)
     setWordFlashcards(false)
   }
+  const [playingGame, setPlayingGame] = useState(() => window.location.hash === '#game')
+  const openGame = () => {
+    window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}#game`)
+    setFocused(false); setOverview(false); setPlayingGame(true)
+  }
+  const closeGame = () => {
+    window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}`)
+    setPlayingGame(false)
+  }
   const [takingExam, setTakingExam] = useState(() => window.location.hash === '#exam')
   const openExam = () => {
     window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}#exam`)
@@ -362,11 +374,12 @@ function StudyApp() {
 
   const resumeLastBox = useCallback(() => {
     if (!savedPosition) return
-    if (window.location.hash === '#novel' || window.location.hash === '#flashcard' || window.location.hash === '#word-flashcard' || window.location.hash === '#exam') window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}`)
+    if (window.location.hash === '#game' || window.location.hash === '#novel' || window.location.hash === '#flashcard' || window.location.hash === '#word-flashcard' || window.location.hash === '#exam') window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}`)
     setReadingNovel(false)
     setReadingFlashcards(false)
     setWordFlashcards(false)
     setTakingExam(false)
+    setPlayingGame(false)
     setLevel(savedPosition.level)
     setMode(savedPosition.mode === 'review' && progress[savedPosition.key]?.unresolved ? 'review' : 'study')
     setFocused(savedPosition.focused)
@@ -484,7 +497,7 @@ function StudyApp() {
     }
     const onShortcut = (event: KeyboardEvent) => {
       if (accountBusy || (event.target instanceof Element && event.target.closest('[role="dialog"][aria-modal="true"], .auth-controls'))) return
-      if (readingFlashcards || wordFlashcards || takingExam) return
+      if (playingGame || readingFlashcards || wordFlashcards || takingExam) return
       if (!event.altKey || event.ctrlKey || event.metaKey) return
       const shortcut = event.key.toLowerCase()
       if (shortcut === 'r' || event.code === 'KeyR') {
@@ -568,16 +581,22 @@ function StudyApp() {
       document.removeEventListener('focusin', onFocus)
       document.removeEventListener('keydown', onShortcut, true)
     }
-  }, [entries, onHint, onPreview, overview, focused, fields, level, mode, savedPosition, resumeLastBox, readingFlashcards, wordFlashcards, takingExam, accountBusy])
+  }, [entries, onHint, onPreview, overview, focused, fields, level, mode, savedPosition, resumeLastBox, readingFlashcards, wordFlashcards, takingExam, playingGame, accountBusy])
+  const openSearchEntry = (entry: SearchEntry) => {
+    setLevel(entry.source as Level)
+    setMode('study'); setFocused(false); setOverview(false); setPreviewKey(null)
+    selectedKeyRef.current = null
+    setJumpTarget(entry.order ?? null)
+  }
   const jump = (order: number) => { setMode('study'); setOverview(false); setJumpTarget(order) }
 
   if (focused) {
     return (
       <main className="focus-shell" style={{ '--scale': 1 } as React.CSSProperties} aria-label={t('focusMode')}>
-        <FocusHeader><LanguageSwitch /><AccountMenu />
+        <FocusHeader><VocabularySearch onSelect={openSearchEntry} /><LanguageSwitch /><AccountMenu />
           <button type="button" className="focus-exit" onClick={() => setFocused(false)}>← {t('fullList')}</button>
           <button type="button" onClick={openWordFlashcards}>{t('wordFlashcard')}</button><button type="button" onClick={openFlashcards}>{t('flashcard')}</button>
-          <button type="button" onClick={openExam}>{t('exam')}</button>
+          <button type="button" onClick={openGame}>{language === 'vi' ? 'Chơi & học' : 'Play & learn'}</button><button type="button" onClick={openExam}>{t('exam')}</button>
           <button type="button" disabled={!savedPosition} aria-label={t('resumeLastBox')} onClick={resumeLastBox}>{t('resumeLastBox')} <kbd aria-hidden="true">Alt+R</kbd></button>
           <div className="focus-options" role="group" aria-label={t('selectSet')}>
             {levels.map((item) => <button key={item} type="button" aria-pressed={level === item} onClick={() => { setLevel(item); setPreviewKey(null); selectedKeyRef.current = null }}>{item === 'RADICALS' ? t('radicals') : item === 'N3-GRAMMAR' ? t('grammar') : item}</button>)}
@@ -608,6 +627,7 @@ function StudyApp() {
     )
   }
 
+  if (playingGame) return <Suspense fallback={<p role="status">{language === 'vi' ? 'Đang mở trò chơi…' : 'Loading game…'}</p>}><GameMode onClose={closeGame} /></Suspense>
   if (wordFlashcards) return <Suspense fallback={<p role="status">{t('flashcardLoading')}</p>}><VocabularyFlashcardMode initialDeck={level === 'RADICALS' ? 'RADICALS' : undefined} onClose={closeWordFlashcards} /></Suspense>
   if (takingExam) return <Suspense fallback={<p role="status">{t('examLoading')}</p>}><ExamMode onClose={closeExam} /></Suspense>
   if (readingFlashcards) return <Suspense fallback={<p role="status">{t('flashcardLoading')}</p>}><FlashcardMode initialDeck={flashcardInitialDeck} onClose={closeFlashcards} /></Suspense>
@@ -616,6 +636,7 @@ function StudyApp() {
     <div className="app-shell">
       <header className="site-header">
         <div className="brand"><span className="brand-mark">み</span><span>MIMIKARA <strong>STUDY</strong></span></div>
+        <VocabularySearch onSelect={openSearchEntry} />
         <div className="header-right"><button className="novel-launch" onClick={openNovel}>{language === 'vi' ? 'Đọc tiểu thuyết N3' : 'Read N3 novel'}</button><LanguageSwitch /><AccountMenu /><span className="header-note">{t(grammar ? 'grammarHeader' : 'headerNote')}</span>{!auth?.user && <span className="local-badge"><i /> {t('savedDevice')}</span>}</div>
       </header>
       <main className="main-content">
@@ -637,7 +658,7 @@ function StudyApp() {
           </div>
           <div className="toolbar">
             <button type="button" className="resume-button" disabled={!savedPosition} aria-label={t('resumeLastBox')} onClick={resumeLastBox}>{t('resumeLastBox')} <kbd aria-hidden="true">Alt+R</kbd></button>
-            <div className="mode-group" role="group" aria-label={t('studyMode')}><button type="button" onClick={openWordFlashcards}>{t('wordFlashcard')}</button><button type="button" onClick={openFlashcards}>{t('flashcard')}</button><button type="button" onClick={openExam}>{t('exam')}</button><button type="button" className={mode === 'study' ? 'active' : ''} onClick={() => setMode('study')}>{t(grammar ? 'grammarList' : 'wordList')}</button><button type="button" className={mode === 'review' ? 'active' : ''} onClick={() => setMode('review')}>{t('reviewMistakes')} <span>{unresolved}</span></button><button type="button" onClick={() => { setMode('study'); setOverview(false); setFocused(true); window.scrollTo({ top: 0 }) }}>{t('focus')}</button></div>
+            <div className="mode-group" role="group" aria-label={t('studyMode')}><button type="button" onClick={openWordFlashcards}>{t('wordFlashcard')}</button><button type="button" onClick={openFlashcards}>{t('flashcard')}</button><button type="button" onClick={openGame}>{language === 'vi' ? 'Chơi & học' : 'Play & learn'}</button><button type="button" onClick={openExam}>{t('exam')}</button><button type="button" className={mode === 'study' ? 'active' : ''} onClick={() => setMode('study')}>{t(grammar ? 'grammarList' : 'wordList')}</button><button type="button" className={mode === 'review' ? 'active' : ''} onClick={() => setMode('review')}>{t('reviewMistakes')} <span>{unresolved}</span></button><button type="button" onClick={() => { setMode('study'); setOverview(false); setFocused(true); window.scrollTo({ top: 0 }) }}>{t('focus')}</button></div>
             <div className="zoom-controls"><span>{t('zoom')}</span><button type="button" aria-label={t('zoomOut')} onClick={() => setZoom((value) => Math.max(70, value - 10))}>−</button><input type="range" min="70" max="140" step="10" value={zoom} onChange={(event) => setZoom(Number(event.target.value))} aria-label={t('listZoom')} /><button type="button" aria-label={t('zoomIn')} onClick={() => setZoom((value) => Math.min(140, value + 10))}>+</button><output>{zoom}%</output><button type="button" className="overview-button" onClick={() => setOverview(true)}>▦ {t('overview')}</button></div>
           </div>
           <div className="table-caption"><span>{mode === 'study' ? t(level === 'RADICALS' ? 'showingRadicals' : grammar ? 'showingGrammar' : 'showingAll', { count: entries.length.toLocaleString(locale), level: levelLabel }) : t(grammar ? 'showingGrammarReview' : 'showingReview', { count: visible.length.toLocaleString(locale) })}</span><span>{t('hintExplanation')}</span></div>

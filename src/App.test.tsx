@@ -736,3 +736,24 @@ test('Alt+S opens the current practice cell directly', () => {
   expect(first.getByRole('status').textContent).toContain('man')
   expect(document.activeElement).toBe(first.getByRole('textbox', { name: 'Meaning for 男性' }))
 })
+
+test('opens the game from the study toolbar and returns to study', async () => {
+  render(<App />)
+  fireEvent.click(screen.getByRole('button', { name: 'Play & learn' }))
+  expect(await screen.findByRole('button', { name: /Start playing/ })).toBeTruthy()
+  expect(window.location.hash).toBe('#game')
+  fireEvent.click(screen.getByRole('button', { name: /Back to study/ }))
+  expect(screen.getByRole('button', { name: 'Word list' })).toBeTruthy()
+  expect(window.location.hash).toBe('')
+})
+
+test('header searches across levels and opens the selected vocabulary row', async () => {
+  render(<App />)
+  const input = screen.getByRole('searchbox', { name: 'Search all vocabulary' })
+  fireEvent.change(input, { target: { value: 'だんせい' } })
+  const result = await screen.findByRole('button', { name: /男性.*N2/ })
+  fireEvent.click(result)
+  expect(screen.getByRole('button', { name: /^N2/ }).className).toContain('selected')
+  expect(document.getElementById('row-n2:1')).toBeTruthy()
+  expect(screen.queryByRole('region', { name: 'Vocabulary search results' })).toBeNull()
+})

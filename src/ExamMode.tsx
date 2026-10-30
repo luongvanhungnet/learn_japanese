@@ -1,3 +1,4 @@
+import { VocabularySearch } from './VocabularySearch'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { LanguageSwitch } from './i18n'
 import { useLanguage } from './translations'
@@ -163,7 +164,7 @@ export function ExamMode({ onClose }: { onClose: () => void }) {
       <button className="exam-button exam-back" type="button" onClick={onClose}>{text.back}</button>
       <LanguageSwitch />
       <AccountMenu />
-    </header>
+    <VocabularySearch /></header>
     <section className={`exam-workspace${attempt ? ' exam-workspace-wide' : ''}`}>
       <div className="exam-heading">
         <span className="eyebrow">{text.eyebrow}</span>

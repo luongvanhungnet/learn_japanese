@@ -1,0 +1,17 @@
+.vocabulary-search { position: relative; width: min(310px, 100%); flex: 1 1 240px; min-width: 180px; color: #263e35; text-align: left; font-size: 14px; letter-spacing: normal; }
+.vocabulary-search-field { display: flex; align-items: center; gap: 8px; padding: 0 10px; border: 1px solid #cfd8cc; border-radius: 9px; background: #fffefa; }
+.vocabulary-search-field:focus-within { border-color: #3f765f; box-shadow: 0 0 0 2px #3f765f1c; }
+.vocabulary-search-field > span { font-size: 24px; color: #647769; }
+.vocabulary-search .vocabulary-search-field input { width: 100%; min-width: 0; padding: 11px 0; font: inherit; color: #263e35; background: transparent; border: 0; outline: none; }
+.vocabulary-search input::-webkit-search-cancel-button { display: none; }
+.vocabulary-search .vocabulary-search-clear { border: 0; padding: 4px 7px; background: transparent; color: #526657; font-size: 20px; cursor: pointer; }
+.vocabulary-search-popover { position: absolute; z-index: 120; top: calc(100% + 8px); right: 0; width: min(440px, calc(100vw - 32px)); background: #fffefa; border: 1px solid #d5ddcf; border-radius: 12px; box-shadow: 0 14px 44px #20352a2b; overflow: hidden; }
+.vocabulary-search-caption, .vocabulary-search-empty { padding: 14px; margin: 0; font-size: 12px; line-height: 1.6; color: #607060; background: #f2f5ee; }
+.vocabulary-search-results { max-height: min(60vh, 460px); overflow-y: auto; overscroll-behavior: contain; }
+.vocabulary-search .vocabulary-search-result { display: flex; flex-direction: column; align-items: stretch; gap: 5px; width: 100%; border: 0; border-bottom: 1px solid #e5e9df; border-radius: 0; padding: 14px 16px; margin: 0; background: #fffefa; color: #2b4036; text-align: left; white-space: normal; font: inherit; line-height: 1.5; }
+.vocabulary-search button.vocabulary-search-result { cursor: pointer; }
+.vocabulary-search button.vocabulary-search-result:hover, .vocabulary-search button.vocabulary-search-result:focus-visible { background: #edf3e8; outline: 2px solid #548066; outline-offset: -2px; }
+.vocabulary-search-word { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.vocabulary-search-word b { font-size: 21px; }.vocabulary-search-word small { background: #e9eee2; border-radius: 5px; padding: 2px 7px; font-size: 10px; flex-shrink: 0; }
+.vocabulary-search-hanviet { font-size: 11px; color: #8c654e; }.vocabulary-search-meaning { font-size: 13px; }.vocabulary-search-jump { font-size: 11px; color: #4e795c; }
+@media(max-width: 600px) { .site-header > .vocabulary-search { order: 3; flex-basis: 100%; width: 100%; }.vocabulary-search-popover { right: auto; left: 0; width: min(440px, calc(100vw - 36px)); } }

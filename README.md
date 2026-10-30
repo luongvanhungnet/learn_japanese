@@ -187,3 +187,36 @@ npm run novel:audio
 The build-only generator uses Microsoft Edge's online TTS via [edge-tts](https://github.com/rany2/edge-tts), with Japanese voice `ja-JP-KeitaNeural`. Generation sends the original story text to that speech service and requires internet access. It caches source hashes, MP3 audio, and word-boundary metadata in the ignored `.novel-audio-cache/` directory, with at most four simultaneous requests. FFmpeg provided by `imageio-ffmpeg` measures decoded audio and encodes the bundled MP3s. It does not add dependencies to the frontend.
 
 `scripts/prepare_novel_audio.mjs` uses the reader's sentence splitter, including grammar annotations and Japanese closing quotes. `scripts/build_novel_audio.py` aligns actual speech word timings to all 1,949 source sentences, rejects missing or unmatched prose, and produces `src/data/novel-audio.json` plus `public/novel-audio/`. The test suite verifies every sentence against the manuscript and checks timeline ordering and audio assets. Regenerate the recordings whenever the novel changes.
+
+### Play & learn (`#game`)
+
+Open **Play & learn / Chơi & học** from the study toolbar (also available in focus mode).
+Choose a ramen shop, directions, or job interview scene and equip 3–5 cards. Each
+run lasts at most 60 seconds, including answer feedback. Warm up allows 10 seconds
+per question; Mastery cycles through meaning, optional listening, kana input and
+context, reducing the response window from 10 to 2 seconds as the combo grows.
+Questions avoid immediate repeats and shuffle answer positions and distractors.
+
+Japanese listening uses browser speech synthesis and is opt-in. Test the voice
+before a run; unsupported browsers can play without listening. Kana answers accept
+normalized Hiragana or Katakana. Correct answers earn 12 EXP and 3 gold; the first
+successful run in a scene unlocks its two additional cards. Incorrect answers and
+timeouts reset the combo and appear in the post-game review. Finish early to
+collect rewards for answers already completed.
+
+Word Duel currently compares a personal best for the same language, scene,
+difficulty, audio setting and deck. It does **not** match online opponents.
+Rewards and records use the account-scoped `mimikara-game-v1` study key, or local
+browser storage for guests. Apply migration `004_game_progress.sql` with
+`npm run db:migrate` before using account sync against an existing database.
+
+### Header vocabulary search
+
+The header search looks across N3, N2, radicals, N3 grammar, the story lexicon and
+game vocabulary. Search by Japanese, kana (including half-width Katakana),
+Sino-Vietnamese, or English/Vietnamese meanings; Vietnamese accents are optional.
+Exact matches appear first. Results show reading, meaning and collection, with up
+to 30 matches displayed at a time. On the study screen, select a list entry to
+switch to its collection and scroll to the word. Use Arrow Down or Enter to focus
+the first matching list entry, Tab to browse, and Escape to dismiss results.
+The search index loads when the field is first opened.
