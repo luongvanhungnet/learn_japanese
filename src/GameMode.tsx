@@ -1,3 +1,4 @@
+import { GameGarden } from './GameGarden'
 import { VocabularySearch } from './VocabularySearch'
 import { useEffect, useRef, useState } from 'react'
 import { LanguageSwitch } from './i18n'
@@ -110,6 +111,7 @@ export function GameMode({ onClose }: { onClose: () => void }) {
     <div className="game-content">
       <div className="game-wallet"><span>✦ {progress.xp} EXP</span><span>◉ {progress.coins} {text('vàng', 'gold')}</span><span>Lv. {1 + Math.floor(progress.xp / 200)}</span></div>
       {saveError && <p role="alert">{text('Chưa lưu được tiến độ. Hãy kiểm tra dung lượng trình duyệt.', 'Progress could not be saved. Check browser storage.')}</p>}
+      {phase !== 'play' && <GameGarden progress={progress} onChange={setProgress} />}
       {phase === 'prepare' && <>
         <span className="game-eyebrow">{text('HỌC MỘT CHÚT. TIẾN MỘT BƯỚC.', 'SMALL SESSIONS. REAL PROGRESS.')}</span>
         <h1>{text('Một phút ở Nhật.', 'One minute in Japan.')}<br /><em>{text('Bạn đã sẵn sàng?', 'Ready to play?')}</em></h1>

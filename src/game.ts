@@ -1,3 +1,5 @@
+import { parseGarden } from './garden'
+import type { Garden } from './garden'
 export type Scene = 'ramen' | 'directions' | 'interview'
 export type Skill = 'meaning' | 'listening' | 'kana' | 'context'
 export type GameCard = { id: string; scene: Scene; word: string; kana: string; vi: string; en: string; context: string; response: string; explanation: string }
@@ -61,18 +63,18 @@ export function questionSeconds(difficulty: 'gentle' | 'challenge', combo: numbe
   return difficulty === 'gentle' ? 10 : Math.max(2, 10 - Math.floor(combo / 2))
 }
 export const normalizeKana = (value: string) => value.normalize('NFKC').trim().replace(/[ァ-ヶ]/g, c => String.fromCharCode(c.charCodeAt(0) - 0x60))
-export type GameProgress = { xp: number; coins: number; unlocked: string[]; records: Record<string, number> }
+export type GameProgress = { xp: number; coins: number; unlocked: string[]; records: Record<string, number>; garden: Garden }
 export function parseGameProgress(raw: string | null): GameProgress {
-  const empty: GameProgress = { xp: 0, coins: 0, unlocked: [], records: {} }
+  const empty: GameProgress = { xp: 0, coins: 0, unlocked: [], records: {}, garden: parseGarden(null) }
   try {
     const value = JSON.parse(raw ?? 'null')
     if (!value || !Number.isSafeInteger(value.xp) || value.xp < 0 || !Number.isSafeInteger(value.coins) || value.coins < 0) return empty
-    return { xp: value.xp, coins: value.coins, unlocked: Array.isArray(value.unlocked) ? value.unlocked.filter((id: unknown) => typeof id === 'string' && gameCards.some(c => c.id === id)) : [], records: Object.fromEntries(Object.entries(value.records ?? {}).filter(([, v]) => Number.isSafeInteger(v) && Number(v) >= 0)) as Record<string, number> }
+    return { xp: value.xp, coins: value.coins, garden: parseGarden(value.garden), unlocked: Array.isArray(value.unlocked) ? value.unlocked.filter((id: unknown) => typeof id === 'string' && gameCards.some(c => c.id === id)) : [], records: Object.fromEntries(Object.entries(value.records ?? {}).filter(([, v]) => Number.isSafeInteger(v) && Number(v) >= 0)) as Record<string, number> }
   } catch { return empty }
 }
 export function availableCards(scene: Scene, progress: GameProgress) { return gameCards.filter(c => c.scene === scene).filter((c, i) => i < 4 || progress.unlocked.includes(c.id)) }
 export function earnRewards(progress: GameProgress, scene: Scene, correct: number, score: number, recordKey: string) {
   const unlocked = correct > 0 ? gameCards.filter(c => c.scene === scene && !availableCards(scene, progress).some(a => a.id === c.id)).slice(0, 2) : []
-  const xp = correct * 12, coins = correct * 3
-  return { xp, coins, unlocked, progress: { xp: progress.xp + xp, coins: progress.coins + coins, unlocked: [...new Set([...progress.unlocked, ...unlocked.map(c => c.id)])], records: { ...progress.records, [recordKey]: Math.max(progress.records[recordKey] ?? 0, score) } } }
+  const xp = correct * 12, coins = correct * (3 + progress.garden.baseLevel - 1)
+  return { xp, coins, unlocked, progress: { ...progress, xp: progress.xp + xp, coins: progress.coins + coins, unlocked: [...new Set([...progress.unlocked, ...unlocked.map(c => c.id)])], records: { ...progress.records, [recordKey]: Math.max(progress.records[recordKey] ?? 0, score) } } }
 }

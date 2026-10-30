@@ -241,3 +241,22 @@ Menu **Filter · Lọc câu hỏi** nhóm câu theo Từ vựng, Ngữ pháp, Đ
 Mỗi câu có mã ổn định, bốn lựa chọn, đáp án và giải thích tiếng Việt; câu đọc có bài đọc, câu nghe có `audioText`. Thuộc tính `batch` chia 600 câu thành 12 đợt × 50 để rà soát. Tổng số trên màn hình, Filter và nút chọn tất cả đều lấy từ dữ liệu. Chạy `npm run speed-exam:audit` để kiểm tra mã/câu trùng, cấu trúc lựa chọn, đáp án ★, số lượng theo đợt và nguồn đọc/nghe gần trùng. Xem quy ước biên soạn và ghi chú rà soát trong `src/data/speed-exam/README.md`.
 
 Trong **Ôn thi thần tốc**, bấm **Câu x / tổng** để mở ô nhập vị trí, nhập số rồi bấm **Chuyển** (hoặc Enter). Vị trí tính theo bộ lọc và thứ tự hiện tại; chỉ nhận số nguyên từ 1 đến tổng số câu đang chọn. Chuyển câu sẽ dừng âm thanh và hủy chuyển tự động đang chờ, giữ số lần sai. Bấm **Hủy** hoặc Escape để đóng ô nhập.
+
+### Căn cứ và vườn cây trong game
+
+Vào **Chơi & học** để quản lý căn cứ và vườn cây. Khởi đầu với căn cứ cấp 1,
+2 ô đất và số vàng hiện có; kiếm vàng bằng cách trả lời đúng rồi kết thúc lượt chơi.
+Dùng vàng mua hạt, trồng vào ô trống, đợi cây chín rồi bấm **Thu hoạch** để tự động
+bán nông sản. Cây vẫn lớn khi đóng web và không bị hỏng khi chín.
+
+| Cây | Cấp căn cứ | Giá hạt | Thời gian | Giá bán cơ bản |
+| --- | --- | --- | --- | --- |
+| Dâu tây · いちご | 1 | 3 vàng | 1 phút | 8 vàng |
+| Quýt · みかん | 2 | 8 vàng | 3 phút | 20 vàng |
+| Đào · もも | 3 | 15 vàng | 5 phút | 36 vàng |
+
+Nâng cấp căn cứ lên cấp 2/3/4 tốn lần lượt 40/100/220 vàng. Mỗi cấp thêm một ô đất
+(tối đa 5 ô), thêm 1 vàng cho mỗi câu trả lời đúng và 2 vàng mỗi lần thu hoạch.
+Thưởng câu đúng ở cấp 1–4 là 3/4/5/6 vàng. Vườn cây dùng thời gian trên thiết bị và
+lưu trong `mimikara-game-v1` cùng tiến độ game; dữ liệu cũ tự bổ sung căn cứ cấp 1,
+giữ nguyên EXP, vàng, thẻ và kỷ lục. Không cần migration database mới.
