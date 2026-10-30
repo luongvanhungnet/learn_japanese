@@ -1,0 +1,882 @@
+[
+  {
+    "id": "n3-grammar-ordering-001",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "この薬は ＿＿ ＿＿ ★ ＿＿。\n並べる言葉：説明書を ／ 飲む ／ 読んでください ／ 前に\n★に入る言葉を選んでください。",
+    "choices": [
+      "説明書を",
+      "飲む",
+      "読んでください",
+      "前に"
+    ],
+    "answer": 0,
+    "explanation": "Thuốc này: 飲む前に説明書を読んでください — trước khi uống hãy đọc hướng dẫn.",
+    "batch": 5,
+    "orderedFragments": [
+      "飲む",
+      "前に",
+      "説明書を",
+      "読んでください"
+    ],
+    "starIndex": 2
+  },
+  {
+    "id": "n3-grammar-ordering-002",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "電車が ＿＿ ★ ＿＿ ＿＿。\n並べる言葉：約束の時間に ／ 遅れた ／ 間に合わなかった ／ せいで\n★に入る言葉を選んでください。",
+    "choices": [
+      "約束の時間に",
+      "せいで",
+      "遅れた",
+      "間に合わなかった"
+    ],
+    "answer": 1,
+    "explanation": "遅れたせいで約束の時間に間に合わなかった: tàu trễ khiến lỡ giờ hẹn.",
+    "batch": 5,
+    "orderedFragments": [
+      "遅れた",
+      "せいで",
+      "約束の時間に",
+      "間に合わなかった"
+    ],
+    "starIndex": 1
+  },
+  {
+    "id": "n3-grammar-ordering-003",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "彼女は ＿＿ ＿＿ ★ ＿＿。\n並べる言葉：だけでなく ／ 日本語が ／ 中国語も話せる ／ 話せる\n★に入る言葉を選んでください。",
+    "choices": [
+      "日本語が",
+      "中国語も話せる",
+      "だけでなく",
+      "話せる"
+    ],
+    "answer": 2,
+    "explanation": "日本語が話せるだけでなく中国語も話せる: không chỉ tiếng Nhật mà cả tiếng Trung.",
+    "batch": 5,
+    "orderedFragments": [
+      "日本語が",
+      "話せる",
+      "だけでなく",
+      "中国語も話せる"
+    ],
+    "starIndex": 2
+  },
+  {
+    "id": "n3-grammar-ordering-004",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "子どもが ＿＿ ★ ＿＿ ＿＿。\n並べる言葉：夕食の準備を ／ 寝ている ／ してしまおう ／ 間に\n★に入る言葉を選んでください。",
+    "choices": [
+      "夕食の準備を",
+      "寝ている",
+      "してしまおう",
+      "間に"
+    ],
+    "answer": 3,
+    "explanation": "寝ている間に夕食の準備をしてしまおう: tranh thủ chuẩn bị bữa tối khi trẻ ngủ.",
+    "batch": 5,
+    "orderedFragments": [
+      "寝ている",
+      "間に",
+      "夕食の準備を",
+      "してしまおう"
+    ],
+    "starIndex": 1
+  },
+  {
+    "id": "n3-grammar-ordering-005",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "この道具は ＿＿ ＿＿ ★ ＿＿。\n並べる言葉：うえに ／ 使い方が ／ 値段も安い ／ 簡単な\n★に入る言葉を選んでください。",
+    "choices": [
+      "うえに",
+      "使い方が",
+      "値段も安い",
+      "簡単な"
+    ],
+    "answer": 0,
+    "explanation": "使い方が簡単なうえに値段も安い: vừa dễ dùng lại rẻ.",
+    "batch": 5,
+    "orderedFragments": [
+      "使い方が",
+      "簡単な",
+      "うえに",
+      "値段も安い"
+    ],
+    "starIndex": 2
+  },
+  {
+    "id": "n3-grammar-ordering-006",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "日本に ＿＿ ★ ＿＿ ＿＿。\n並べる言葉：いろいろな町を ／ 住んでいる ／ 訪ねたい ／ うちに\n★に入る言葉を選んでください。",
+    "choices": [
+      "いろいろな町を",
+      "うちに",
+      "住んでいる",
+      "訪ねたい"
+    ],
+    "answer": 1,
+    "explanation": "住んでいるうちにいろいろな町を訪ねたい: muốn thăm nhiều nơi khi còn sống ở Nhật.",
+    "batch": 5,
+    "orderedFragments": [
+      "住んでいる",
+      "うちに",
+      "いろいろな町を",
+      "訪ねたい"
+    ],
+    "starIndex": 1
+  },
+  {
+    "id": "n3-grammar-ordering-007",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "雨が ＿＿ ＿＿ ★ ＿＿。\n並べる言葉：洗濯物を ／ 降りそう ／ 取り込んだ ／ なので\n★に入る言葉を選んでください。",
+    "choices": [
+      "降りそう",
+      "取り込んだ",
+      "洗濯物を",
+      "なので"
+    ],
+    "answer": 2,
+    "explanation": "降りそうなので洗濯物を取り込んだ: thấy sắp mưa nên lấy đồ phơi vào.",
+    "batch": 5,
+    "orderedFragments": [
+      "降りそう",
+      "なので",
+      "洗濯物を",
+      "取り込んだ"
+    ],
+    "starIndex": 2
+  },
+  {
+    "id": "n3-grammar-ordering-008",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "買い物に ＿＿ ★ ＿＿ ＿＿。\n並べる言葉：銀行にも ／ 行く ／ 寄ってきます ／ ついでに\n★に入る言葉を選んでください。",
+    "choices": [
+      "銀行にも",
+      "行く",
+      "寄ってきます",
+      "ついでに"
+    ],
+    "answer": 3,
+    "explanation": "行くついでに銀行にも寄ってきます: nhân tiện đi mua sắm thì ghé ngân hàng.",
+    "batch": 5,
+    "orderedFragments": [
+      "行く",
+      "ついでに",
+      "銀行にも",
+      "寄ってきます"
+    ],
+    "starIndex": 1
+  },
+  {
+    "id": "n3-grammar-ordering-009",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "先生に ＿＿ ＿＿ ★ ＿＿。\n並べる言葉：いただいて ／ 作文を ／ とても勉強になった ／ 直して\n★に入る言葉を選んでください。",
+    "choices": [
+      "いただいて",
+      "作文を",
+      "とても勉強になった",
+      "直して"
+    ],
+    "answer": 0,
+    "explanation": "作文を直していただいてとても勉強になった: được thầy sửa bài nên học được nhiều.",
+    "batch": 5,
+    "orderedFragments": [
+      "作文を",
+      "直して",
+      "いただいて",
+      "とても勉強になった"
+    ],
+    "starIndex": 2
+  },
+  {
+    "id": "n3-grammar-ordering-010",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "この本は ＿＿ ＿＿ ★ ＿＿。\n並べる言葉：分かり ／ 初心者 ／ やすい ／ にも\n★に入る言葉を選んでください。",
+    "choices": [
+      "初心者",
+      "分かり",
+      "やすい",
+      "にも"
+    ],
+    "answer": 1,
+    "explanation": "初心者にも分かりやすい: dễ hiểu ngay cả với người mới.",
+    "batch": 5,
+    "orderedFragments": [
+      "初心者",
+      "にも",
+      "分かり",
+      "やすい"
+    ],
+    "starIndex": 2
+  },
+  {
+    "id": "n3-grammar-ordering-011",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "明日までに ＿＿ ★ ＿＿ ＿＿。\n並べる言葉：書類が ／ 提出しなければ ／ まだできていない ／ ならない\n★に入る言葉を選んでください。",
+    "choices": [
+      "書類が",
+      "提出しなければ",
+      "ならない",
+      "まだできていない"
+    ],
+    "answer": 2,
+    "explanation": "提出しなければならない書類がまだできていない: giấy tờ phải nộp chưa xong.",
+    "batch": 6,
+    "orderedFragments": [
+      "提出しなければ",
+      "ならない",
+      "書類が",
+      "まだできていない"
+    ],
+    "starIndex": 1
+  },
+  {
+    "id": "n3-grammar-ordering-012",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "昔の友達に ＿＿ ★ ＿＿ ＿＿。\n並べる言葉：学生時代のことを ／ 会う ／ 思い出す ／ たびに\n★に入る言葉を選んでください。",
+    "choices": [
+      "学生時代のことを",
+      "会う",
+      "思い出す",
+      "たびに"
+    ],
+    "answer": 3,
+    "explanation": "会うたびに学生時代のことを思い出す: mỗi lần gặp lại nhớ thời đi học.",
+    "batch": 6,
+    "orderedFragments": [
+      "会う",
+      "たびに",
+      "学生時代のことを",
+      "思い出す"
+    ],
+    "starIndex": 1
+  },
+  {
+    "id": "n3-grammar-ordering-013",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "旅行に ＿＿ ＿＿ ★ ＿＿。\n並べる言葉：したので ／ 行く ／ 切符を買った ／ ことに\n★に入る言葉を選んでください。",
+    "choices": [
+      "したので",
+      "行く",
+      "切符を買った",
+      "ことに"
+    ],
+    "answer": 0,
+    "explanation": "行くことにしたので切符を買った: quyết định đi du lịch nên mua vé.",
+    "batch": 6,
+    "orderedFragments": [
+      "行く",
+      "ことに",
+      "したので",
+      "切符を買った"
+    ],
+    "starIndex": 2
+  },
+  {
+    "id": "n3-grammar-ordering-014",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "出かける ＿＿ ＿＿ ★ ＿＿。\n並べる言葉：閉まっているか ／ 前に ／ 確かめてください ／ 窓が\n★に入る言葉を選んでください。",
+    "choices": [
+      "前に",
+      "閉まっているか",
+      "確かめてください",
+      "窓が"
+    ],
+    "answer": 1,
+    "explanation": "前に窓が閉まっているか確かめてください: kiểm tra cửa sổ trước khi đi.",
+    "batch": 6,
+    "orderedFragments": [
+      "前に",
+      "窓が",
+      "閉まっているか",
+      "確かめてください"
+    ],
+    "starIndex": 2
+  },
+  {
+    "id": "n3-grammar-ordering-015",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "この仕事は ＿＿ ★ ＿＿ ＿＿。\n並べる言葉：難しく ／ 思っていた ／ なかった ／ ほど\n★に入る言葉を選んでください。",
+    "choices": [
+      "難しく",
+      "思っていた",
+      "ほど",
+      "なかった"
+    ],
+    "answer": 2,
+    "explanation": "思っていたほど難しくなかった: không khó như đã nghĩ.",
+    "batch": 6,
+    "orderedFragments": [
+      "思っていた",
+      "ほど",
+      "難しく",
+      "なかった"
+    ],
+    "starIndex": 1
+  },
+  {
+    "id": "n3-grammar-ordering-016",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "父は ＿＿ ＿＿ ★ ＿＿。\n並べる言葉：ながら ／ 新聞を ／ 朝ご飯を食べる ／ 読み\n★に入る言葉を選んでください。",
+    "choices": [
+      "新聞を",
+      "朝ご飯を食べる",
+      "読み",
+      "ながら"
+    ],
+    "answer": 3,
+    "explanation": "新聞を読みながら朝ご飯を食べる: vừa đọc báo vừa ăn sáng.",
+    "batch": 6,
+    "orderedFragments": [
+      "新聞を",
+      "読み",
+      "ながら",
+      "朝ご飯を食べる"
+    ],
+    "starIndex": 2
+  },
+  {
+    "id": "n3-grammar-ordering-017",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "駅まで ＿＿ ＿＿ ★ ＿＿。\n並べる言葉：には ／ 歩いて ／ 三十分かかる ／ 行く\n★に入る言葉を選んでください。",
+    "choices": [
+      "には",
+      "歩いて",
+      "三十分かかる",
+      "行く"
+    ],
+    "answer": 0,
+    "explanation": "歩いて行くには三十分かかる: đi bộ đến ga mất ba mươi phút.",
+    "batch": 6,
+    "orderedFragments": [
+      "歩いて",
+      "行く",
+      "には",
+      "三十分かかる"
+    ],
+    "starIndex": 2
+  },
+  {
+    "id": "n3-grammar-ordering-018",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "このバスは ＿＿ ★ ＿＿ ＿＿。\n並べる言葉：駅へ ／ 市役所を ／ 向かいます ／ 通って\n★に入る言葉を選んでください。",
+    "choices": [
+      "駅へ",
+      "通って",
+      "市役所を",
+      "向かいます"
+    ],
+    "answer": 1,
+    "explanation": "市役所を通って駅へ向かいます: qua tòa thị chính rồi hướng đến ga.",
+    "batch": 6,
+    "orderedFragments": [
+      "市役所を",
+      "通って",
+      "駅へ",
+      "向かいます"
+    ],
+    "starIndex": 1
+  },
+  {
+    "id": "n3-grammar-ordering-019",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "風邪を ＿＿ ★ ＿＿ ＿＿。\n並べる言葉：暖かい服を ／ ひかない ／ 着てください ／ ように\n★に入る言葉を選んでください。",
+    "choices": [
+      "暖かい服を",
+      "ひかない",
+      "ように",
+      "着てください"
+    ],
+    "answer": 2,
+    "explanation": "ひかないように暖かい服を着てください: mặc ấm để tránh cảm.",
+    "batch": 6,
+    "orderedFragments": [
+      "ひかない",
+      "ように",
+      "暖かい服を",
+      "着てください"
+    ],
+    "starIndex": 1
+  },
+  {
+    "id": "n3-grammar-ordering-020",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "料理が ＿＿ ★ ＿＿ ＿＿。\n並べる言葉：みんなで ／ 冷めない ／ 食べましょう ／ うちに\n★に入る言葉を選んでください。",
+    "choices": [
+      "みんなで",
+      "冷めない",
+      "食べましょう",
+      "うちに"
+    ],
+    "answer": 3,
+    "explanation": "冷めないうちにみんなで食べましょう: cùng ăn trước khi nguội.",
+    "batch": 6,
+    "orderedFragments": [
+      "冷めない",
+      "うちに",
+      "みんなで",
+      "食べましょう"
+    ],
+    "starIndex": 1
+  },
+  {
+    "id": "n3-grammar-ordering-021",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "新しい言葉を ＿＿ ＿＿ ★ ＿＿。\n並べる言葉：何度も ／ 忘れない ／ 使うことが大切だ ／ ためには\n★に入る言葉を選んでください。",
+    "choices": [
+      "何度も",
+      "忘れない",
+      "使うことが大切だ",
+      "ためには"
+    ],
+    "answer": 0,
+    "explanation": "忘れないためには何度も使うことが大切だ: muốn không quên phải dùng nhiều lần.",
+    "batch": 6,
+    "orderedFragments": [
+      "忘れない",
+      "ためには",
+      "何度も",
+      "使うことが大切だ"
+    ],
+    "starIndex": 2
+  },
+  {
+    "id": "n3-grammar-ordering-022",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "友達が ＿＿ ＿＿ ★ ＿＿。\n並べる言葉：おかげで ／ 手伝って ／ 早く終わった ／ くれた\n★に入る言葉を選んでください。",
+    "choices": [
+      "手伝って",
+      "おかげで",
+      "早く終わった",
+      "くれた"
+    ],
+    "answer": 1,
+    "explanation": "手伝ってくれたおかげで早く終わった: nhờ bạn giúp nên xong sớm.",
+    "batch": 6,
+    "orderedFragments": [
+      "手伝って",
+      "くれた",
+      "おかげで",
+      "早く終わった"
+    ],
+    "starIndex": 2
+  },
+  {
+    "id": "n3-grammar-ordering-023",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "部屋に ＿＿ ★ ＿＿ ＿＿。\n並べる言葉：電話が ／ 入った ／ 鳴り出した ／ とたん\n★に入る言葉を選んでください。",
+    "choices": [
+      "電話が",
+      "入った",
+      "とたん",
+      "鳴り出した"
+    ],
+    "answer": 2,
+    "explanation": "入ったとたん電話が鳴り出した: vừa vào phòng thì điện thoại reo.",
+    "batch": 6,
+    "orderedFragments": [
+      "入った",
+      "とたん",
+      "電話が",
+      "鳴り出した"
+    ],
+    "starIndex": 1
+  },
+  {
+    "id": "n3-grammar-ordering-024",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "この町の人口は ＿＿ ★ ＿＿ ＿＿。\n並べる言葉：二割も ／ 去年 ／ 増えた ／ に比べて\n★に入る言葉を選んでください。",
+    "choices": [
+      "二割も",
+      "去年",
+      "増えた",
+      "に比べて"
+    ],
+    "answer": 3,
+    "explanation": "去年に比べて二割も増えた: dân số tăng đến 20% so với năm trước.",
+    "batch": 6,
+    "orderedFragments": [
+      "去年",
+      "に比べて",
+      "二割も",
+      "増えた"
+    ],
+    "starIndex": 1
+  },
+  {
+    "id": "n3-grammar-ordering-025",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "私は、友達から ＿＿ ★ ＿＿ ＿＿。\n並べる言葉：返すのを ／ 借りた ／ 忘れた ／ 本を\n★に入る言葉を選んでください。",
+    "choices": [
+      "借りた",
+      "本を",
+      "返すのを",
+      "忘れた"
+    ],
+    "answer": 1,
+    "explanation": "借りた → 本を → 返すのを → 忘れた: tôi quên trả quyển sách đã mượn bạn.",
+    "batch": 6,
+    "orderedFragments": [
+      "借りた",
+      "本を",
+      "返すのを",
+      "忘れた"
+    ],
+    "starIndex": 1
+  },
+  {
+    "id": "n3-grammar-ordering-026",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "あの店は ＿＿ ★ ＿＿ ＿＿。\n並べる言葉：サービスが ／ 安い ／ いい ／ わりに\n★に入る言葉を選んでください。",
+    "choices": [
+      "サービスが",
+      "わりに",
+      "安い",
+      "いい"
+    ],
+    "answer": 1,
+    "explanation": "安いわりにサービスがいい: dịch vụ tốt so với mức giá rẻ.",
+    "batch": 6,
+    "orderedFragments": [
+      "安い",
+      "わりに",
+      "サービスが",
+      "いい"
+    ],
+    "starIndex": 1
+  },
+  {
+    "id": "n3-grammar-ordering-027",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "私が ＿＿ ★ ＿＿ ＿＿。\n並べる言葉：彼は ／ 知っている ／ まだ独身だ ／ 限りでは\n★に入る言葉を選んでください。",
+    "choices": [
+      "彼は",
+      "知っている",
+      "限りでは",
+      "まだ独身だ"
+    ],
+    "answer": 2,
+    "explanation": "知っている限りでは彼はまだ独身だ: theo những gì tôi biết anh ấy còn độc thân.",
+    "batch": 6,
+    "orderedFragments": [
+      "知っている",
+      "限りでは",
+      "彼は",
+      "まだ独身だ"
+    ],
+    "starIndex": 1
+  },
+  {
+    "id": "n3-grammar-ordering-028",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "熱が ＿＿ ＿＿ ★ ＿＿。\n並べる言葉：無理を ／ ある ／ しないでください ／ なら\n★に入る言葉を選んでください。",
+    "choices": [
+      "ある",
+      "しないでください",
+      "なら",
+      "無理を"
+    ],
+    "answer": 3,
+    "explanation": "あるなら無理をしないでください: nếu sốt thì đừng cố sức.",
+    "batch": 6,
+    "orderedFragments": [
+      "ある",
+      "なら",
+      "無理を",
+      "しないでください"
+    ],
+    "starIndex": 2
+  },
+  {
+    "id": "n3-grammar-ordering-029",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "会議の ＿＿ ★ ＿＿ ＿＿。\n並べる言葉：部長に ／ 予定 ／ 確認した ／ について\n★に入る言葉を選んでください。",
+    "choices": [
+      "について",
+      "部長に",
+      "予定",
+      "確認した"
+    ],
+    "answer": 0,
+    "explanation": "予定について部長に確認した: hỏi trưởng phòng xác nhận lịch họp.",
+    "batch": 6,
+    "orderedFragments": [
+      "予定",
+      "について",
+      "部長に",
+      "確認した"
+    ],
+    "starIndex": 1
+  },
+  {
+    "id": "n3-grammar-ordering-030",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "この文章は ＿＿ ＿＿ ★ ＿＿。\n並べる言葉：子どもには ／ 漢字が ／ 読みにくい ／ 多すぎて\n★に入る言葉を選んでください。",
+    "choices": [
+      "漢字が",
+      "子どもには",
+      "読みにくい",
+      "多すぎて"
+    ],
+    "answer": 1,
+    "explanation": "漢字が多すぎて子どもには読みにくい: quá nhiều kanji nên trẻ khó đọc.",
+    "batch": 6,
+    "orderedFragments": [
+      "漢字が",
+      "多すぎて",
+      "子どもには",
+      "読みにくい"
+    ],
+    "starIndex": 2
+  },
+  {
+    "id": "n3-grammar-ordering-031",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "お金が ＿＿ ＿＿ ★ ＿＿。\n並べる言葉：幸せだとは ／ あれば ／ 限らない ／ あるほど\n★に入る言葉を選んでください。",
+    "choices": [
+      "あれば",
+      "限らない",
+      "幸せだとは",
+      "あるほど"
+    ],
+    "answer": 2,
+    "explanation": "あればあるほど幸せだとは限らない: không phải càng nhiều tiền càng hạnh phúc.",
+    "batch": 6,
+    "orderedFragments": [
+      "あれば",
+      "あるほど",
+      "幸せだとは",
+      "限らない"
+    ],
+    "starIndex": 2
+  },
+  {
+    "id": "n3-grammar-ordering-032",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "鍵を ＿＿ ★ ＿＿ ＿＿。\n並べる言葉：なのに ／ かけた ／ ドアが開いている ／ はず\n★に入る言葉を選んでください。",
+    "choices": [
+      "なのに",
+      "かけた",
+      "ドアが開いている",
+      "はず"
+    ],
+    "answer": 3,
+    "explanation": "かけたはずなのにドアが開いている: nhớ là đã khóa mà cửa vẫn mở.",
+    "batch": 6,
+    "orderedFragments": [
+      "かけた",
+      "はず",
+      "なのに",
+      "ドアが開いている"
+    ],
+    "starIndex": 1
+  },
+  {
+    "id": "n3-grammar-ordering-033",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "この図書館では ＿＿ ＿＿ ★ ＿＿。\n並べる言葉：いけない ／ 食べ物を ／ ことになっている ／ 持ち込んでは\n★に入る言葉を選んでください。",
+    "choices": [
+      "いけない",
+      "食べ物を",
+      "ことになっている",
+      "持ち込んでは"
+    ],
+    "answer": 0,
+    "explanation": "食べ物を持ち込んではいけないことになっている: quy định không mang đồ ăn vào.",
+    "batch": 6,
+    "orderedFragments": [
+      "食べ物を",
+      "持ち込んでは",
+      "いけない",
+      "ことになっている"
+    ],
+    "starIndex": 2
+  },
+  {
+    "id": "n3-grammar-ordering-034",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "昨日は ＿＿ ＿＿ ★ ＿＿。\n並べる言葉：ため ／ 疲れて ／ 早く寝た ／ いた\n★に入る言葉を選んでください。",
+    "choices": [
+      "疲れて",
+      "ため",
+      "早く寝た",
+      "いた"
+    ],
+    "answer": 1,
+    "explanation": "疲れていたため早く寝た: vì mệt nên đi ngủ sớm.",
+    "batch": 6,
+    "orderedFragments": [
+      "疲れて",
+      "いた",
+      "ため",
+      "早く寝た"
+    ],
+    "starIndex": 2
+  },
+  {
+    "id": "n3-grammar-ordering-035",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "電車の中で ＿＿ ＿＿ ★ ＿＿。\n並べる言葉：ように ／ 大きな声で ／ してください ／ 話さない\n★に入る言葉を選んでください。",
+    "choices": [
+      "大きな声で",
+      "してください",
+      "ように",
+      "話さない"
+    ],
+    "answer": 2,
+    "explanation": "大きな声で話さないようにしてください: hãy tránh nói to trên tàu.",
+    "batch": 6,
+    "orderedFragments": [
+      "大きな声で",
+      "話さない",
+      "ように",
+      "してください"
+    ],
+    "starIndex": 2
+  },
+  {
+    "id": "n3-grammar-ordering-036",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "仕事を ＿＿ ★ ＿＿ ＿＿。\n並べる言葉：まだ ／ 辞める ／ 決めていない ／ かどうか\n★に入る言葉を選んでください。",
+    "choices": [
+      "まだ",
+      "辞める",
+      "決めていない",
+      "かどうか"
+    ],
+    "answer": 3,
+    "explanation": "辞めるかどうかまだ決めていない: chưa quyết có nghỉ việc không.",
+    "batch": 6,
+    "orderedFragments": [
+      "辞める",
+      "かどうか",
+      "まだ",
+      "決めていない"
+    ],
+    "starIndex": 1
+  },
+  {
+    "id": "n3-grammar-ordering-037",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "荷物は ＿＿ ＿＿ ★ ＿＿。\n並べる言葉：から ／ 私が ／ 先に行ってください ／ 運びます\n★に入る言葉を選んでください。",
+    "choices": [
+      "から",
+      "私が",
+      "先に行ってください",
+      "運びます"
+    ],
+    "answer": 0,
+    "explanation": "私が運びますから先に行ってください: tôi mang hành lý nên bạn cứ đi trước.",
+    "batch": 6,
+    "orderedFragments": [
+      "私が",
+      "運びます",
+      "から",
+      "先に行ってください"
+    ],
+    "starIndex": 2
+  },
+  {
+    "id": "n3-grammar-ordering-038",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "あの人が ＿＿ ★ ＿＿ ＿＿。\n並べる言葉：ここで ／ 来る ／ 待ちましょう ／ まで\n★に入る言葉を選んでください。",
+    "choices": [
+      "ここで",
+      "まで",
+      "来る",
+      "待ちましょう"
+    ],
+    "answer": 1,
+    "explanation": "来るまでここで待ちましょう: đợi ở đây đến khi người ấy tới.",
+    "batch": 6,
+    "orderedFragments": [
+      "来る",
+      "まで",
+      "ここで",
+      "待ちましょう"
+    ],
+    "starIndex": 1
+  },
+  {
+    "id": "n3-grammar-ordering-039",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "この写真を ＿＿ ★ ＿＿ ＿＿。\n並べる言葉：いつも ／ 見る ／ 故郷を思い出す ／ と\n★に入る言葉を選んでください。",
+    "choices": [
+      "いつも",
+      "見る",
+      "と",
+      "故郷を思い出す"
+    ],
+    "answer": 2,
+    "explanation": "見るといつも故郷を思い出す: nhìn ảnh là nhớ quê.",
+    "batch": 6,
+    "orderedFragments": [
+      "見る",
+      "と",
+      "いつも",
+      "故郷を思い出す"
+    ],
+    "starIndex": 1
+  },
+  {
+    "id": "n3-grammar-ordering-040",
+    "section": "grammar",
+    "kind": "Sắp xếp câu ★",
+    "prompt": "明日の会議で ＿＿ ＿＿ ★ ＿＿。\n並べる言葉：か ／ 何を ／ 考えておいてください ／ 話す\n★に入る言葉を選んでください。",
+    "choices": [
+      "何を",
+      "考えておいてください",
+      "話す",
+      "か"
+    ],
+    "answer": 3,
+    "explanation": "何を話すか考えておいてください: hãy nghĩ trước xem mai họp sẽ nói gì.",
+    "batch": 6,
+    "orderedFragments": [
+      "何を",
+      "話す",
+      "か",
+      "考えておいてください"
+    ],
+    "starIndex": 2
+  }
+]

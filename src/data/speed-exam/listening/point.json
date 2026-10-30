@@ -1,0 +1,642 @@
+[
+  {
+    "id": "n3-listening-point-001",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "女の人が新しい家で一番喜んでいることは何ですか。",
+    "choices": [
+      "静かでよく眠れること",
+      "駅が近いこと",
+      "台所が広いこと",
+      "友達と住めること"
+    ],
+    "answer": 0,
+    "explanation": "特に nhấn mạnh giấc ngủ tốt nhờ yên tĩnh.",
+    "batch": 10,
+    "audioText": "男：新しいアパートはどうですか。女：駅からは遠いけど、静かで家賃も安いんです。特に夜、車の音がしなくて、よく眠れるのがうれしいです。男：それはよかったですね。質問。女の人が新しい家で一番喜んでいることは何ですか。"
+  },
+  {
+    "id": "n3-listening-point-002",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "男の人が電車を選ぶ理由は何ですか。",
+    "choices": [
+      "運賃が一番安いから",
+      "移動中に仕事ができるから",
+      "乗り換えがないから",
+      "車より必ず速いから"
+    ],
+    "answer": 1,
+    "explanation": "Thích tàu vì có thể xem tài liệu khi đi, không phải do giá hay tốc độ.",
+    "batch": 10,
+    "audioText": "女：出張は車で行きますか。男：時間はあまり変わらないけど、電車にするよ。運賃は少し高いけど、座っている間に資料を読めるからね。女：移動の時間も使えるんですね。質問。男の人が電車を選ぶ理由は何ですか。"
+  },
+  {
+    "id": "n3-listening-point-003",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "料理教室の開始時間が変わった理由は何ですか。",
+    "choices": [
+      "材料が足りないから",
+      "部屋が使えないから",
+      "講師の到着が遅れるから",
+      "参加者が少ないから"
+    ],
+    "answer": 2,
+    "explanation": "Giảng viên bị chậm chuyến tàu nên giờ bắt đầu lùi.",
+    "batch": 10,
+    "audioText": "本日の料理教室に参加される皆様にお知らせします。講師の利用する電車が遅れているため、開始を三十分遅らせます。材料や会場に変更はありません。受付を済ませてお待ちください。質問。料理教室の開始時間が変わった理由は何ですか。"
+  },
+  {
+    "id": "n3-listening-point-004",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "女の人はなぜ同じ店で靴を買いますか。",
+    "choices": [
+      "どの商品も半額だから",
+      "店が家の隣だから",
+      "全ての靴が同じ形だから",
+      "足に合う物を相談しながら選べるから"
+    ],
+    "answer": 3,
+    "explanation": "Lý do là nhân viên hiểu bàn chân, tư vấn vừa chân.",
+    "batch": 10,
+    "audioText": "男：いつもあの店で靴を買うんですね。女：ええ。安いわけではないし、少し遠いんですが、私の足の形を覚えていて、合う物を一緒に探してくれるんです。質問。女の人はなぜ同じ店で靴を買いますか。"
+  },
+  {
+    "id": "n3-listening-point-005",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "男の人はなぜ朝の運動を続けられていますか。",
+    "choices": [
+      "友達と約束しているから",
+      "毎回賞品がもらえるから",
+      "仕事として頼まれているから",
+      "一人で自由にできるから"
+    ],
+    "answer": 0,
+    "explanation": "Hẹn bạn mỗi sáng tạo động lực không bỏ tập.",
+    "batch": 10,
+    "audioText": "女：毎朝走るのは大変じゃないですか。男：一人の時はすぐやめたんですが、今は友達と駅前で待ち合わせています。待っている人がいると思うと、起きられるんです。質問。男の人はなぜ朝の運動を続けられていますか。"
+  },
+  {
+    "id": "n3-listening-point-006",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "今日、中止になったものはどれですか。",
+    "choices": [
+      "一階の料理教室",
+      "屋上の音楽会",
+      "二階の展示",
+      "店内の販売"
+    ],
+    "answer": 1,
+    "explanation": "Mưa hủy buổi hòa nhạc ngoài trời trên mái, các hoạt động trong nhà giữ nguyên.",
+    "batch": 10,
+    "audioText": "お客様にお知らせします。雨のため、屋上で予定していた音楽会は中止します。一階の料理教室と二階の展示は、予定どおり行います。売り場も通常どおり営業しております。質問。今日、中止になったものはどれですか。"
+  },
+  {
+    "id": "n3-listening-point-007",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "女の人が仕事を変えたい一番の理由は何ですか。",
+    "choices": [
+      "給料が全く出ないから",
+      "仕事の内容が嫌いだから",
+      "通勤に時間がかかりすぎるから",
+      "同僚と会いたくないから"
+    ],
+    "answer": 2,
+    "explanation": "Công việc, đồng nghiệp ổn; đi lại hai giờ khiến muốn đổi.",
+    "batch": 10,
+    "audioText": "男：転職を考えているんですか。女：はい。仕事は好きですし、同僚もいい人ばかりなんです。でも、片道二時間かかるので、家族と過ごす時間がほとんどなくて。近くで働きたいんです。質問。女の人が仕事を変えたい一番の理由は何ですか。"
+  },
+  {
+    "id": "n3-listening-point-008",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "男の人がこの本を勧めるのはなぜですか。",
+    "choices": [
+      "専門用語だけで短く書いてあるから",
+      "ページ数が最も少ないから",
+      "作者に会える券が付いているから",
+      "難しい内容を身近な例で説明しているから"
+    ],
+    "answer": 3,
+    "explanation": "Cuốn sách giải thích điều khó bằng ví dụ đời thường.",
+    "batch": 10,
+    "audioText": "女：この本、初心者には難しそうですね。男：題名はそう見えるけど、買い物や料理の話を例にしているから分かりやすいよ。言葉の説明も丁寧で、初めて読む人にこそ勧めたい。質問。男の人がこの本を勧めるのはなぜですか。"
+  },
+  {
+    "id": "n3-listening-point-009",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "女の人は何を最も大切にして旅行先を選びましたか。",
+    "choices": [
+      "移動で疲れずに休めること",
+      "有名な観光地を全て回れること",
+      "できるだけ遠いこと",
+      "大きな買い物ができること"
+    ],
+    "answer": 0,
+    "explanation": "Muốn nghỉ ngơi thay vì mệt vì di chuyển nên chọn suối nước nóng gần.",
+    "batch": 10,
+    "audioText": "男：休みは海外ですか。女：今回は近くの温泉です。見たい所をたくさん回るより、移動で疲れず、ゆっくりしたいんです。宿も一か所にして、何もしない時間を楽しみます。質問。女の人は何を最も大切にして旅行先を選びましたか。"
+  },
+  {
+    "id": "n3-listening-point-010",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "この案内で、参加者に特に伝えたいことは何ですか。",
+    "choices": [
+      "参加費が必要になったこと",
+      "当日は車で来ないでほしいこと",
+      "会場が変わったこと",
+      "開始が遅れること"
+    ],
+    "answer": 1,
+    "explanation": "Buổi lễ vẫn như kế hoạch, nhưng bãi xe không dùng được nên cần phương tiện công cộng.",
+    "batch": 10,
+    "audioText": "日曜の講演会は、予定どおり市民ホールで十時から行います。参加費も変わりません。ただし、駐車場が工事中のため使えません。電車やバスでお越しくださいますようお願いします。質問。この案内で、参加者に特に伝えたいことは何ですか。"
+  },
+  {
+    "id": "n3-listening-point-011",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "男の人はなぜ料理を習い始めましたか。",
+    "choices": [
+      "料理人として店を開くから",
+      "毎日外食したいから",
+      "家族に温かい夕食を作りたいから",
+      "高い道具を買ったから"
+    ],
+    "answer": 2,
+    "explanation": "Vợ về muộn nên muốn nấu bữa tối ấm cho gia đình.",
+    "batch": 10,
+    "audioText": "女：料理教室に通い始めたそうですね。男：ええ。妻の仕事が忙しくなって、帰りが遅いんです。家に帰った時に温かい物があるといいなと思って。まず簡単なおかずから覚えています。質問。男の人はなぜ料理を習い始めましたか。"
+  },
+  {
+    "id": "n3-listening-point-012",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "女の人がこのアプリで便利だと思っている機能は何ですか。",
+    "choices": [
+      "友達の住所を公開する機能",
+      "料理を注文する機能",
+      "電車の切符を買う機能",
+      "使ったお金を自動で分類する機能"
+    ],
+    "answer": 3,
+    "explanation": "Đặc biệt tiện vì tự phân loại khoản chi, đỡ cộng tính cuối tháng.",
+    "batch": 10,
+    "audioText": "男：そのアプリ、何に使うんですか。女：家計の管理です。入力すると、食費や交通費に自動で分けてくれるのが便利で。以前は月末に全部計算していましたが、今はすぐ確認できます。質問。女の人がこのアプリで便利だと思っている機能は何ですか。"
+  },
+  {
+    "id": "n3-listening-point-013",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "男の人が会議で困っているのは何ですか。",
+    "choices": [
+      "結論が出ないまま終わること",
+      "資料が毎回足りないこと",
+      "部屋が暗すぎること",
+      "開始時間が早すぎること"
+    ],
+    "answer": 0,
+    "explanation": "Vấn đề là nói nhiều mà không chốt được gì, không chỉ dài.",
+    "batch": 10,
+    "audioText": "女：会議が長いですね。男：長さだけならまだいいんですが、話が広がって、何を決めたのか分からないまま終わるのが困ります。最後に決定事項を確認する時間がほしいです。質問。男の人が会議で困っているのは何ですか。"
+  },
+  {
+    "id": "n3-listening-point-014",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "女の人はなぜ古いかばんを使い続けますか。",
+    "choices": [
+      "新しい物が売っていないから",
+      "使うほど手になじむから",
+      "友達が返してくれないから",
+      "修理できないから"
+    ],
+    "answer": 1,
+    "explanation": "Chiếc túi cũ càng dùng càng quen tay, nên vẫn dùng và sửa.",
+    "batch": 10,
+    "audioText": "男：そのかばん、長く使っていますね。女：十年くらいです。傷はありますが、持ち手が手になじんで、ほかの物より使いやすいんです。先週も修理してもらいました。質問。女の人はなぜ古いかばんを使い続けますか。"
+  },
+  {
+    "id": "n3-listening-point-015",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "この放送で、電車について何と説明していますか。",
+    "choices": [
+      "全ての電車が通常運転に戻った",
+      "急行だけが動いている",
+      "普通電車だけが運転を再開した",
+      "今日は全便運休する"
+    ],
+    "answer": 2,
+    "explanation": "Hiện tàu thường chạy lại, tàu nhanh còn dừng.",
+    "batch": 10,
+    "audioText": "運転状況をお知らせします。点検が終わり、普通電車は運転を再開しました。急行電車は引き続き運転を見合わせています。お急ぎの方も、普通電車をご利用ください。質問。この放送で、電車について何と説明していますか。"
+  },
+  {
+    "id": "n3-listening-point-016",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "男の人はなぜ勉強場所を変えましたか。",
+    "choices": [
+      "図書館には友達が必ずいるから",
+      "家に机が全くないから",
+      "学校が閉校したから",
+      "家ではほかのことが気になってしまうから"
+    ],
+    "answer": 3,
+    "explanation": "Ở nhà bị cuốn vào TV, dọn dẹp; thư viện giúp tập trung.",
+    "batch": 10,
+    "audioText": "女：最近は図書館で勉強するんですね。男：家にも机はあるんですが、テレビを見たり掃除を始めたりしてしまうんです。図書館なら、することが勉強だけになるので。質問。男の人はなぜ勉強場所を変えましたか。"
+  },
+  {
+    "id": "n3-listening-point-017",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "女の人はなぜ店に電話しましたか。",
+    "choices": [
+      "受け取り時間を遅くしたいから",
+      "注文した物を全部変えたいから",
+      "注文を取り消したいから",
+      "値段を下げてほしいから"
+    ],
+    "answer": 0,
+    "explanation": "Nội dung gọi để nhận bánh muộn 18 giờ, không đổi/hủy bánh.",
+    "batch": 10,
+    "audioText": "女：今日五時にケーキを受け取る予約をした森です。仕事が長引いて、六時になりそうですが大丈夫ですか。男：はい。ケーキの内容はそのままでよろしいですね。女：ええ、お願いします。質問。女の人はなぜ店に電話しましたか。"
+  },
+  {
+    "id": "n3-listening-point-018",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "男の人が地域の活動に参加してよかったと思うのはなぜですか。",
+    "choices": [
+      "無料の食事が毎日もらえるから",
+      "近所であいさつする人が増えたから",
+      "掃除を全くしなくてよくなったから",
+      "遠い町へ引っ越せたから"
+    ],
+    "answer": 1,
+    "explanation": "Cảm thấy bớt cô đơn khi có thêm hàng xóm để chào hỏi.",
+    "batch": 10,
+    "audioText": "女：公園の掃除、どうでしたか。男：暑くて大変でしたけど、近所の人と話せたのがよかったです。前は知らない人ばかりでしたが、今は道であいさつできて、少し安心します。質問。男の人が地域の活動に参加してよかったと思うのはなぜですか。"
+  },
+  {
+    "id": "n3-listening-point-019",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "女の人はなぜ紙の地図も持ちますか。",
+    "choices": [
+      "携帯電話を持っていないため",
+      "地図を売る仕事のため",
+      "携帯電話が使えない時に備えるため",
+      "写真を貼るため"
+    ],
+    "answer": 2,
+    "explanation": "Mang bản đồ giấy để dự phòng khi điện thoại mất sóng hoặc hết pin.",
+    "batch": 10,
+    "audioText": "男：地図ならスマホで見られますよ。女：ええ、普段はそうしています。でも、山では電波が弱かったり、電池がなくなったりするでしょう。困らないように紙も持っておくんです。質問。女の人はなぜ紙の地図も持ちますか。"
+  },
+  {
+    "id": "n3-listening-point-020",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "男の人が発表で工夫したことは何ですか。",
+    "choices": [
+      "専門用語だけを使った",
+      "資料を全て読んだ",
+      "質問を禁止した",
+      "最初に全体の結論を話した"
+    ],
+    "answer": 3,
+    "explanation": "Kết luận trước giúp người nghe biết hướng của phần giải thích.",
+    "batch": 10,
+    "audioText": "女：今日の発表、分かりやすかったです。男：ありがとうございます。前回は説明が長すぎたので、今回は最初に結論を伝えました。その後、理由を三つに分けて話すようにしたんです。質問。男の人が発表で工夫したことは何ですか。"
+  },
+  {
+    "id": "n3-listening-point-021",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "女の人は何をきっかけに写真を撮り始めましたか。",
+    "choices": [
+      "子どもの成長を残したくなったこと",
+      "仕事でカメラを売ることになったこと",
+      "旅行をやめたこと",
+      "写真の賞を取ったこと"
+    ],
+    "answer": 0,
+    "explanation": "Muốn lưu lại sự lớn lên từng ngày của con là lý do bắt đầu.",
+    "batch": 11,
+    "audioText": "男：写真が趣味なんですね。女：子どもが生まれてからです。毎日少しずつ顔が変わるので、残しておきたくて。そのうち、花や町の写真も撮るようになりました。質問。女の人は何をきっかけに写真を撮り始めましたか。"
+  },
+  {
+    "id": "n3-listening-point-022",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "この放送では、忘れ物を見つけた人に何を求めていますか。",
+    "choices": [
+      "その場で中身を調べること",
+      "スタッフに渡すこと",
+      "外へ持ち出すこと",
+      "持ち主の住所を放送すること"
+    ],
+    "answer": 1,
+    "explanation": "Nhặt được đồ thì giao nhân viên, không tự mở ra.",
+    "batch": 11,
+    "audioText": "お客様にお願いします。会場内で持ち主の分からない物を見つけた場合は、開けたり持ち帰ったりせず、近くのスタッフにお渡しください。忘れ物は受付でまとめてお預かりします。質問。この放送では、忘れ物を見つけた人に何を求めていますか。"
+  },
+  {
+    "id": "n3-listening-point-023",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "男の人はなぜ新しいパソコンを買いませんでしたか。",
+    "choices": [
+      "店に全く商品がなかったから",
+      "使い方を忘れたから",
+      "修理すればまだ使えると分かったから",
+      "会社で禁止されたから"
+    ],
+    "answer": 2,
+    "explanation": "Kiểm tra thấy chỉ cần thay bộ phận, nên sửa dùng tiếp.",
+    "batch": 11,
+    "audioText": "女：パソコンを買い換えたんですか。男：いいえ。店で見てもらったら、一つの部品を換えるだけで直ると言われたんです。必要な作業もできるので、しばらく使い続けます。質問。男の人はなぜ新しいパソコンを買いませんでしたか。"
+  },
+  {
+    "id": "n3-listening-point-024",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "女の人が朝に本を読む理由は何ですか。",
+    "choices": [
+      "夜は本が借りられないから",
+      "朝しか電気が使えないから",
+      "家族に本を読ませたいから",
+      "短時間でも集中しやすいから"
+    ],
+    "answer": 3,
+    "explanation": "Buổi sáng đầu óc tỉnh, 15 phút vẫn tập trung hơn ban đêm mệt.",
+    "batch": 11,
+    "audioText": "男：早起きして何をするんですか。女：十五分だけ本を読みます。夜は疲れて同じ所を何度も読むんですが、朝は短い時間でも内容が入ってくるんです。質問。女の人が朝に本を読む理由は何ですか。"
+  },
+  {
+    "id": "n3-listening-point-025",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "男の人はなぜ旅行の日をずらしましたか。",
+    "choices": [
+      "混雑を避けたいから",
+      "目的地が変わったから",
+      "休みがなくなったから",
+      "切符を失くしたから"
+    ],
+    "answer": 0,
+    "explanation": "Muốn tránh kỳ nghỉ đông khách, chuyển một tuần sau.",
+    "batch": 11,
+    "audioText": "女：連休に旅行する予定でしたよね。男：一週間後にしました。休みは取れるんですが、どこも混んでいると疲れるので。宿も少し安くなりますが、一番は静かに過ごしたいからです。質問。男の人はなぜ旅行の日をずらしましたか。"
+  },
+  {
+    "id": "n3-listening-point-026",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "女の人はなぜ説明会に直接行きますか。",
+    "choices": [
+      "オンラインが有料だから",
+      "その場で質問したいから",
+      "資料が読めないから",
+      "会場でしか申込書をもらえないから"
+    ],
+    "answer": 1,
+    "explanation": "Tài liệu đọc ở nhà được, nhưng muốn hỏi về trường hợp riêng nên đến trực tiếp.",
+    "batch": 11,
+    "audioText": "男：説明会はオンラインでも見られますよ。女：知っています。資料も家で読めますが、私の場合に当てはまるか、その場で質問したくて。だから会場へ行こうと思っています。質問。女の人はなぜ説明会に直接行きますか。"
+  },
+  {
+    "id": "n3-listening-point-027",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "この案内で、参加者が今すぐ確認すべきことは何ですか。",
+    "choices": [
+      "会場の駐車料金だけ",
+      "来年の開催日",
+      "申込内容の名前と人数",
+      "講師の経歴だけ"
+    ],
+    "answer": 2,
+    "explanation": "Email yêu cầu kiểm tra tên, số người và báo lỗi trước ngày mai.",
+    "batch": 11,
+    "audioText": "講座にお申し込みいただいた皆様へ。本日、確認メールをお送りしました。お名前と参加人数をご確認ください。違いがある場合は明日までにご連絡ください。会場案内は来週送ります。質問。この案内で、参加者が今すぐ確認すべきことは何ですか。"
+  },
+  {
+    "id": "n3-listening-point-028",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "男の人が散歩で道を変えるのはなぜですか。",
+    "choices": [
+      "同じ道が通行止めだから",
+      "家までの道を忘れたから",
+      "早く着くことだけが目的だから",
+      "身近な町の新しい面を見つけたいから"
+    ],
+    "answer": 3,
+    "explanation": "Muốn khám phá cửa hàng, nhà mới trong khu quen thuộc.",
+    "batch": 11,
+    "audioText": "女：散歩のたびに違う道を歩くんですね。男：はい。遠くへは行けませんが、一本違う道に入るだけで、知らない店や古い家を見つけます。それが楽しみなんです。質問。男の人が散歩で道を変えるのはなぜですか。"
+  },
+  {
+    "id": "n3-listening-point-029",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "女の人が勉強会で大切だと言っていることは何ですか。",
+    "choices": [
+      "分からない点を言葉にして質問すること",
+      "全部分かったふりをすること",
+      "答えだけを写すこと",
+      "一人で黙って帰ること"
+    ],
+    "answer": 0,
+    "explanation": "Biến chỗ chưa hiểu thành câu hỏi giúp cả mình và nhóm.",
+    "batch": 11,
+    "audioText": "男：勉強会に行っても、分からないことばかりで。女：それでいいと思うよ。どこが分からないかを説明して聞くと、自分の理解も整理できるし、ほかの人の役にも立つから。質問。女の人が勉強会で大切だと言っていることは何ですか。"
+  },
+  {
+    "id": "n3-listening-point-030",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "男の人はなぜ週に一度、弁当を作りますか。",
+    "choices": [
+      "毎日料理をするのが禁止だから",
+      "無理のない回数から続けたいから",
+      "金曜以外は昼食を食べないから",
+      "一度作れば一週間保存できるから"
+    ],
+    "answer": 1,
+    "explanation": "Bắt đầu ít để duy trì, tăng từ từ khi quen.",
+    "batch": 11,
+    "audioText": "女：毎日お弁当ですか。男：今は金曜だけです。急に毎日やろうとして、前に続かなかったので。まず週一回なら負担が少ないし、慣れたら増やそうと思っています。質問。男の人はなぜ週に一度、弁当を作りますか。"
+  },
+  {
+    "id": "n3-listening-point-031",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "この店が袋を有料にした目的は何ですか。",
+    "choices": [
+      "袋の大きさを全て同じにするため",
+      "商品の値段を全て上げるため",
+      "持参する袋を使う人を増やすため",
+      "買い物を禁止するため"
+    ],
+    "answer": 2,
+    "explanation": "Thông báo nêu mục đích giảm rác và tăng dùng túi mang theo.",
+    "batch": 11,
+    "audioText": "来月からレジ袋を一枚五円にします。ごみを減らすため、ご自分の袋をご利用いただくことを目的としています。袋が必要な方には引き続き販売しますので、会計時にお申し出ください。質問。この店が袋を有料にした目的は何ですか。"
+  },
+  {
+    "id": "n3-listening-point-032",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "女の人が引っ越し先で重視した条件は何ですか。",
+    "choices": [
+      "駅に一番近いこと",
+      "最上階であること",
+      "部屋の数が最も多いこと",
+      "歩いて買い物に行けること"
+    ],
+    "answer": 3,
+    "explanation": "Không lái xe nên cần siêu thị gần, thay vì ga hay tầng cao.",
+    "batch": 11,
+    "audioText": "男：新しい家は駅から少し遠いんですね。女：ええ。でも私は車を運転しないので、毎日の買い物が歩いてできることを優先しました。すぐ近くにスーパーがあるんです。質問。女の人が引っ越し先で重視した条件は何ですか。"
+  },
+  {
+    "id": "n3-listening-point-033",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "男の人が仕事の手順を書いているのはなぜですか。",
+    "choices": [
+      "ほかの人も同じ作業をできるようにするため",
+      "自分だけが読めるようにするため",
+      "作業を全部やめるため",
+      "会社の住所を変えるため"
+    ],
+    "answer": 0,
+    "explanation": "Để người khác làm được khi anh vắng, viết cả các bước nhỏ.",
+    "batch": 11,
+    "audioText": "女：細かい所までメモしていますね。男：私が休んでも、誰でも作業できるようにしているんです。自分には当たり前の手順でも、初めての人には分からないことがありますから。質問。男の人が仕事の手順を書いているのはなぜですか。"
+  },
+  {
+    "id": "n3-listening-point-034",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "女の人が映画館を選ぶ時、一番気にしていることは何ですか。",
+    "choices": [
+      "建物が一番新しいこと",
+      "音が聞きやすいこと",
+      "食べ物が最も安いこと",
+      "座席数が最も多いこと"
+    ],
+    "answer": 1,
+    "explanation": "Người nữ ưu tiên âm thanh rõ hơn vẻ mới hay tiện mua sắm.",
+    "batch": 11,
+    "audioText": "男：駅前の新しい映画館に行きますか。女：私は少し古いけど、川の近くの所が好きです。音がはっきり聞こえるので。映画を見る時は、それが一番大切なんです。質問。女の人が映画館を選ぶ時、一番気にしていることは何ですか。"
+  },
+  {
+    "id": "n3-listening-point-035",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "この放送で、屋外の参加者に求めている行動は何ですか。",
+    "choices": [
+      "木の下で待ち続けること",
+      "急いで屋上へ行くこと",
+      "建物の中に移動すること",
+      "川に近づくこと"
+    ],
+    "answer": 2,
+    "explanation": "Sấm sét gần, yêu cầu người ngoài trời vào trong nhà và không trú cây.",
+    "batch": 11,
+    "audioText": "雷が近づいています。屋外のイベントは一時中断します。木の下には集まらず、スタッフの案内に従って建物の中へ移動してください。再開するかどうかは後ほどお知らせします。質問。この放送で、屋外の参加者に求めている行動は何ですか。"
+  },
+  {
+    "id": "n3-listening-point-036",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "男の人が祖父に教わったことは何ですか。",
+    "choices": [
+      "毎日必ず同じ量の水をやること",
+      "雨の日だけ水を増やすこと",
+      "葉を全て取ること",
+      "野菜の状態を見て水の量を変えること"
+    ],
+    "answer": 3,
+    "explanation": "Không theo lịch cứng; nhìn đất và lá để quyết định nước.",
+    "batch": 11,
+    "audioText": "女：家庭菜園、上手ですね。男：祖父が、決まった時間だから水をやるのではなく、土や葉を見なさいと教えてくれました。今は乾き具合を確かめてから量を変えています。質問。男の人が祖父に教わったことは何ですか。"
+  },
+  {
+    "id": "n3-listening-point-037",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "女の人はなぜ本を図書館で借りることが多いですか。",
+    "choices": [
+      "買わない種類にも気軽に挑戦できるから",
+      "本を置く場所が全くないから",
+      "図書館には一種類しかないから",
+      "借りた本は返さなくていいから"
+    ],
+    "answer": 0,
+    "explanation": "Mượn miễn phí giúp thử thể loại ngoài thói quen mua sách.",
+    "batch": 11,
+    "audioText": "男：本をよく借りるんですね。女：はい。買う時は失敗したくなくて、同じ種類ばかり選ぶんです。でも借りるなら、普段読まない分野も試しやすいので、楽しみが広がりました。質問。女の人はなぜ本を図書館で借りることが多いですか。"
+  },
+  {
+    "id": "n3-listening-point-038",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "男の人が商品レビューで最も参考にするのは何ですか。",
+    "choices": [
+      "星の数だけ",
+      "自分と似た使い方をした人の説明",
+      "一番短い感想だけ",
+      "商品の箱の色"
+    ],
+    "answer": 1,
+    "explanation": "Số sao cao không đủ; cần xem người dùng giống hoàn cảnh mình.",
+    "batch": 11,
+    "audioText": "女：評価の星が多い物を買うんですか。男：星だけでは決めません。通勤で使うとか、私と似た目的の人が、どこを便利だと感じたかを読みます。そのほうが参考になるので。質問。男の人が商品レビューで最も参考にするのは何ですか。"
+  },
+  {
+    "id": "n3-listening-point-039",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "女の人が休みの日に携帯を見ない時間を作るのはなぜですか。",
+    "choices": [
+      "携帯が壊れているから",
+      "連絡先を全部消したから",
+      "目の前のことに集中したいから",
+      "電気代を全てなくしたいから"
+    ],
+    "answer": 2,
+    "explanation": "Muốn dành chú ý cho đọc sách, gia đình thay vì liên tục xem thông báo.",
+    "batch": 11,
+    "audioText": "男：日曜の午後は連絡がつきにくいですね。女：二時間だけ携帯を別の部屋に置いています。通知が気にならないと、本や家族との話に集中できるんです。急ぎなら家の電話にお願いします。質問。女の人が休みの日に携帯を見ない時間を作るのはなぜですか。"
+  },
+  {
+    "id": "n3-listening-point-040",
+    "section": "listening",
+    "kind": "Hiểu điểm chính",
+    "prompt": "このイベントの新しい受付方法は何ですか。",
+    "choices": [
+      "全員が紙の券を郵送する",
+      "予約なしで自由に入る",
+      "身分証のコピーを事前に買う",
+      "入口で名前を確認する"
+    ],
+    "answer": 3,
+    "explanation": "Máy quét lỗi nên dùng danh sách tên tại cửa; không cần in lại vé.",
+    "batch": 11,
+    "audioText": "本日のイベントについてお知らせします。機械の不具合で、電子チケットの読み取りができません。入口でお名前を確認してご案内します。チケットを印刷し直す必要はありません。質問。このイベントの新しい受付方法は何ですか。"
+  }
+]

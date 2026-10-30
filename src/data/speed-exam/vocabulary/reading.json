@@ -1,0 +1,602 @@
+[
+  {
+    "id": "n3-vocabulary-reading-001",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「経験」の読み方を選んでください。",
+    "choices": [
+      "けいけん",
+      "けけん",
+      "けいげん",
+      "きょうけん"
+    ],
+    "answer": 0,
+    "explanation": "経験（けいけん）: kinh nghiệm.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-002",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「確認」の読み方を選んでください。",
+    "choices": [
+      "かっにん",
+      "かくにん",
+      "かくじん",
+      "かこにん"
+    ],
+    "answer": 1,
+    "explanation": "確認（かくにん）: xác nhận, kiểm tra lại.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-003",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「準備」の読み方を選んでください。",
+    "choices": [
+      "じゅび",
+      "しゅんび",
+      "じゅんび",
+      "じゅんぴ"
+    ],
+    "answer": 2,
+    "explanation": "準備（じゅんび）: chuẩn bị.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-004",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「連絡」の読み方を選んでください。",
+    "choices": [
+      "れいらく",
+      "れんろく",
+      "れんがく",
+      "れんらく"
+    ],
+    "answer": 3,
+    "explanation": "連絡（れんらく）: liên lạc.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-005",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「招待」の読み方を選んでください。",
+    "choices": [
+      "しょうたい",
+      "しょたい",
+      "しょうだい",
+      "そうたい"
+    ],
+    "answer": 0,
+    "explanation": "招待（しょうたい）: mời tham dự.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-006",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「失敗」の読み方を選んでください。",
+    "choices": [
+      "しつばい",
+      "しっぱい",
+      "しぱい",
+      "しっばい"
+    ],
+    "answer": 1,
+    "explanation": "失敗（しっぱい）: thất bại, mắc lỗi.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-007",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「努力」の読み方を選んでください。",
+    "choices": [
+      "どうりょく",
+      "どりょう",
+      "どりょく",
+      "とりょく"
+    ],
+    "answer": 2,
+    "explanation": "努力（どりょく）: nỗ lực.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-008",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「責任」の読み方を選んでください。",
+    "choices": [
+      "せっにん",
+      "せいにん",
+      "せきじん",
+      "せきにん"
+    ],
+    "answer": 3,
+    "explanation": "責任（せきにん）: trách nhiệm.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-009",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「判断」の読み方を選んでください。",
+    "choices": [
+      "はんだん",
+      "はんたん",
+      "ばんだん",
+      "はだん"
+    ],
+    "answer": 0,
+    "explanation": "判断（はんだん）: phán đoán.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-010",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「関係」の読み方を選んでください。",
+    "choices": [
+      "かんけ",
+      "かんけい",
+      "がんけい",
+      "かいけい"
+    ],
+    "answer": 1,
+    "explanation": "関係（かんけい）: quan hệ, liên quan.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-011",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「故障」の読み方を選んでください。",
+    "choices": [
+      "こじょう",
+      "こうしょう",
+      "こしょう",
+      "ごしょう"
+    ],
+    "answer": 2,
+    "explanation": "故障（こしょう）: hỏng hóc máy móc.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-012",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「修理」の読み方を選んでください。",
+    "choices": [
+      "しゅり",
+      "しゅうりょ",
+      "じゅうり",
+      "しゅうり"
+    ],
+    "answer": 3,
+    "explanation": "修理（しゅうり）: sửa chữa.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-013",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「景色」の読み方を選んでください。",
+    "choices": [
+      "けしき",
+      "けいしき",
+      "けしょく",
+      "げしき"
+    ],
+    "answer": 0,
+    "explanation": "景色（けしき）: phong cảnh.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-014",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「表情」の読み方を選んでください。",
+    "choices": [
+      "ひょじょう",
+      "ひょうじょう",
+      "ひょうしょう",
+      "びょうじょう"
+    ],
+    "answer": 1,
+    "explanation": "表情（ひょうじょう）: nét mặt.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-015",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「習慣」の読み方を選んでください。",
+    "choices": [
+      "しゅかん",
+      "じゅうかん",
+      "しゅうかん",
+      "しゅうがん"
+    ],
+    "answer": 2,
+    "explanation": "習慣（しゅうかん）: thói quen.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-016",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「相談」の読み方を選んでください。",
+    "choices": [
+      "そだん",
+      "そうたん",
+      "しょうだん",
+      "そうだん"
+    ],
+    "answer": 3,
+    "explanation": "相談（そうだん）: bàn bạc, xin ý kiến.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-017",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「説明」の読み方を選んでください。",
+    "choices": [
+      "せつめい",
+      "せっめい",
+      "せつまい",
+      "せつめ"
+    ],
+    "answer": 0,
+    "explanation": "説明（せつめい）: giải thích.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-018",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「伝統」の読み方を選んでください。",
+    "choices": [
+      "てんとう",
+      "でんとう",
+      "でんどう",
+      "でとう"
+    ],
+    "answer": 1,
+    "explanation": "伝統（でんとう）: truyền thống.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-019",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「希望」の読み方を選んでください。",
+    "choices": [
+      "きぼ",
+      "きほう",
+      "きぼう",
+      "ぎぼう"
+    ],
+    "answer": 2,
+    "explanation": "希望（きぼう）: hy vọng, nguyện vọng.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-020",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「到着」の読み方を選んでください。",
+    "choices": [
+      "とちゃく",
+      "とうじゃく",
+      "どうちゃく",
+      "とうちゃく"
+    ],
+    "answer": 3,
+    "explanation": "到着（とうちゃく）: đến nơi.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-021",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「出席」の読み方を選んでください。",
+    "choices": [
+      "しゅっせき",
+      "しゅつせき",
+      "しゅっぜき",
+      "しゅせき"
+    ],
+    "answer": 0,
+    "explanation": "出席（しゅっせき）: tham dự, có mặt.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-022",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「欠席」の読み方を選んでください。",
+    "choices": [
+      "けつせき",
+      "けっせき",
+      "けっぜき",
+      "けせき"
+    ],
+    "answer": 1,
+    "explanation": "欠席（けっせき）: vắng mặt.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-023",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「安全」の読み方を選んでください。",
+    "choices": [
+      "あんせん",
+      "あぜん",
+      "あんぜん",
+      "あんねん"
+    ],
+    "answer": 2,
+    "explanation": "安全（あんぜん）: an toàn.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-024",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「危険」の読み方を選んでください。",
+    "choices": [
+      "きげん",
+      "ぎけん",
+      "きっけん",
+      "きけん"
+    ],
+    "answer": 3,
+    "explanation": "危険（きけん）: nguy hiểm.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-025",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「原因」の読み方を選んでください。",
+    "choices": [
+      "げんいん",
+      "げいいん",
+      "げんにん",
+      "けんいん"
+    ],
+    "answer": 0,
+    "explanation": "原因（げんいん）: nguyên nhân.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-026",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「結果」の読み方を選んでください。",
+    "choices": [
+      "けつか",
+      "けっか",
+      "けか",
+      "げっか"
+    ],
+    "answer": 1,
+    "explanation": "結果（けっか）: kết quả.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-027",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「貿易」の読み方を選んでください。",
+    "choices": [
+      "ぼえき",
+      "ぼうやく",
+      "ぼうえき",
+      "ほうえき"
+    ],
+    "answer": 2,
+    "explanation": "貿易（ぼうえき）: ngoại thương.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-028",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「輸入」の読み方を選んでください。",
+    "choices": [
+      "ゆうにゅう",
+      "ゆにゅ",
+      "しゅにゅう",
+      "ゆにゅう"
+    ],
+    "answer": 3,
+    "explanation": "輸入（ゆにゅう）: nhập khẩu.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-029",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「輸出」の読み方を選んでください。",
+    "choices": [
+      "ゆしゅつ",
+      "ゆうしゅつ",
+      "ゆしゅう",
+      "しゅしゅつ"
+    ],
+    "answer": 0,
+    "explanation": "輸出（ゆしゅつ）: xuất khẩu.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-030",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「費用」の読み方を選んでください。",
+    "choices": [
+      "ひょう",
+      "ひよう",
+      "びよう",
+      "ひゆう"
+    ],
+    "answer": 1,
+    "explanation": "費用（ひよう）: chi phí.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-031",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「利益」の読み方を選んでください。",
+    "choices": [
+      "りやく",
+      "りいき",
+      "りえき",
+      "りえっき"
+    ],
+    "answer": 2,
+    "explanation": "利益（りえき）: lợi nhuận, lợi ích.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-032",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「条件」の読み方を選んでください。",
+    "choices": [
+      "じょけん",
+      "しょうけん",
+      "じょうげん",
+      "じょうけん"
+    ],
+    "answer": 3,
+    "explanation": "条件（じょうけん）: điều kiện.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-033",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「影響」の読み方を選んでください。",
+    "choices": [
+      "えいきょう",
+      "えきょう",
+      "えいぎょう",
+      "えいこう"
+    ],
+    "answer": 0,
+    "explanation": "影響（えいきょう）: ảnh hưởng.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-034",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「成長」の読み方を選んでください。",
+    "choices": [
+      "せちょう",
+      "せいちょう",
+      "せいじょう",
+      "せいしょう"
+    ],
+    "answer": 1,
+    "explanation": "成長（せいちょう）: trưởng thành, tăng trưởng.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-035",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「競争」の読み方を選んでください。",
+    "choices": [
+      "きょそう",
+      "きょうぞう",
+      "きょうそう",
+      "きょうしょう"
+    ],
+    "answer": 2,
+    "explanation": "競争（きょうそう）: cạnh tranh.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-036",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「協力」の読み方を選んでください。",
+    "choices": [
+      "きょりょく",
+      "きょうりょう",
+      "ぎょうりょく",
+      "きょうりょく"
+    ],
+    "answer": 3,
+    "explanation": "協力（きょうりょく）: hợp tác.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-037",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「温度」の読み方を選んでください。",
+    "choices": [
+      "おんど",
+      "おんと",
+      "うんど",
+      "おんどう"
+    ],
+    "answer": 0,
+    "explanation": "温度（おんど）: nhiệt độ.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-038",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「湿度」の読み方を選んでください。",
+    "choices": [
+      "しっど",
+      "しつど",
+      "しつと",
+      "しつどう"
+    ],
+    "answer": 1,
+    "explanation": "湿度（しつど）: độ ẩm.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-039",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「両替」の読み方を選んでください。",
+    "choices": [
+      "りょうかえ",
+      "りょがえ",
+      "りょうがえ",
+      "りょうがい"
+    ],
+    "answer": 2,
+    "explanation": "両替（りょうがえ）: đổi tiền.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-reading-040",
+    "section": "vocabulary",
+    "kind": "Cách đọc kanji",
+    "prompt": "「駐車」の読み方を選んでください。",
+    "choices": [
+      "ちゅしゃ",
+      "じゅうしゃ",
+      "ちゅうじゃ",
+      "ちゅうしゃ"
+    ],
+    "answer": 3,
+    "explanation": "駐車（ちゅうしゃ）: đỗ xe.",
+    "batch": 1
+  }
+]

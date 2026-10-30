@@ -1,5 +1,5 @@
 // @vitest-environment jsdom
-import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react'
+import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react'
 import { afterEach, expect, test, vi } from 'vitest'
 import { LanguageProvider } from './i18n'
 import { VocabularySearch } from './VocabularySearch'
@@ -10,6 +10,7 @@ test('shows results for accentless meanings, supports keyboard selection and clo
   const input = screen.getByRole('searchbox', { name: 'Search all vocabulary' })
   fireEvent.focus(input)
   fireEvent.change(input, { target: { value: 'dan ong' } })
+  await act(async () => { await vi.dynamicImportSettled() })
   const result = await screen.findByRole('button', { name: /男性/ })
   fireEvent.keyDown(input, { key: 'ArrowDown' })
   expect(document.activeElement).toBe(result)
@@ -24,6 +25,7 @@ test('shows results for accentless meanings, supports keyboard selection and clo
 test('shows an empty state and clears the query', async () => {
   render(<LanguageProvider><VocabularySearch /></LanguageProvider>)
   fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'zzzznomatchzzzz' } })
+  await act(async () => { await vi.dynamicImportSettled() })
   expect(await screen.findByText('No matching vocabulary.')).toBeTruthy()
   fireEvent.click(screen.getByRole('button', { name: 'Clear search' }))
   await waitFor(() => expect(screen.getByRole('searchbox').getAttribute('value')).toBe(''))

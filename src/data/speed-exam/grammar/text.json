@@ -1,0 +1,642 @@
+[
+  {
+    "id": "n3-grammar-text-001",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "ように",
+      "ためを",
+      "ことが",
+      "ところを"
+    ],
+    "answer": 0,
+    "explanation": "ようにしている: cố duy trì thói quen ăn sáng.",
+    "batch": 6,
+    "passage": "以前は朝ご飯を食べませんでした。しかし、午前中に疲れてしまうので、今は必ず食べる（　）しています。"
+  },
+  {
+    "id": "n3-grammar-text-002",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "ようを",
+      "ことに",
+      "つもりが",
+      "ところを"
+    ],
+    "answer": 1,
+    "explanation": "ことにした: quyết định sẽ hỏi nhân viên thư viện.",
+    "batch": 6,
+    "passage": "図書館で借りた本をなくしてしまいました。探しても見つからないので、図書館の人に相談する（　）しました。"
+  },
+  {
+    "id": "n3-grammar-text-003",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "ことにしました",
+      "つもりでした",
+      "ようになりました",
+      "ところでした"
+    ],
+    "answer": 2,
+    "explanation": "ようになる diễn tả khả năng đã thay đổi.",
+    "batch": 6,
+    "passage": "私は子どものころ泳げませんでした。でも、毎週練習を続けたので、今では一キロも泳げる（　）。"
+  },
+  {
+    "id": "n3-grammar-text-004",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "ありますか",
+      "しまいましたか",
+      "みられました",
+      "おきます"
+    ],
+    "answer": 3,
+    "explanation": "〜ておく: chuẩn bị sẵn hành lý trước ngày đi.",
+    "batch": 6,
+    "passage": "旅行の荷物は前の日に準備して（　）。当日の朝は早く出発するからです。"
+  },
+  {
+    "id": "n3-grammar-text-005",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "ただし",
+      "つまり",
+      "だから",
+      "それで"
+    ],
+    "answer": 0,
+    "explanation": "ただし bổ sung ngoại lệ đối với quy định nghỉ thứ Hai.",
+    "batch": 6,
+    "passage": "この美術館は月曜日が休みです。（　）、月曜日が祝日の場合は開館し、翌日が休みになります。"
+  },
+  {
+    "id": "n3-grammar-text-006",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "せいで",
+      "うえに",
+      "かわりに",
+      "ところが"
+    ],
+    "answer": 1,
+    "explanation": "うえに: cộng thêm ưu điểm mở cửa muộn bên cạnh giá rẻ.",
+    "batch": 6,
+    "passage": "近所に新しいスーパーができました。品物が安い（　）、夜遅くまで開いているので助かります。"
+  },
+  {
+    "id": "n3-grammar-text-007",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "それなのに",
+      "なぜなら",
+      "そこで",
+      "例えば"
+    ],
+    "answer": 2,
+    "explanation": "そこで nối tình huống với phương án giải quyết.",
+    "batch": 6,
+    "passage": "駅前の店に行きましたが、すでに閉まっていました。（　）、少し遠い別の店に行くことにしました。"
+  },
+  {
+    "id": "n3-grammar-text-008",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "だから",
+      "つまり",
+      "そのため",
+      "しかし"
+    ],
+    "answer": 3,
+    "explanation": "しかし nối nhận xét dễ thao tác với hạn chế trái kỳ vọng.",
+    "batch": 6,
+    "passage": "このアプリは操作が簡単です。（　）、説明書を読まなくても使えるとは限りません。"
+  },
+  {
+    "id": "n3-grammar-text-009",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "おかげ",
+      "せい",
+      "つもり",
+      "最中"
+    ],
+    "answer": 0,
+    "explanation": "おかげ: nhờ thói quen vận động mà có sức khỏe tốt.",
+    "batch": 6,
+    "passage": "祖母は毎日散歩をしています。雨の日も、家の中を歩くそうです。健康でいられるのは、この習慣の（　）かもしれません。"
+  },
+  {
+    "id": "n3-grammar-text-010",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "おかげ",
+      "ため",
+      "とおり",
+      "ついで"
+    ],
+    "answer": 1,
+    "explanation": "そのため: vì tuyết lớn nên tàu ngừng chạy.",
+    "batch": 6,
+    "passage": "昨日は大雪でした。その（　）、電車が止まり、会社へ行けませんでした。"
+  },
+  {
+    "id": "n3-grammar-text-011",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "はずがありません",
+      "ことはありません",
+      "しかありません",
+      "わけがありません"
+    ],
+    "answer": 2,
+    "explanation": "〜しかない: không còn cách nào ngoài viết lại.",
+    "batch": 6,
+    "passage": "レポートを書いていたら、パソコンが急に動かなくなりました。保存していなかったので、最初から書き直す（　）。"
+  },
+  {
+    "id": "n3-grammar-text-012",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "違ったばかりの",
+      "別のための",
+      "反対な",
+      "同じ"
+    ],
+    "answer": 3,
+    "explanation": "昔と同じ味: hương vị vẫn như xưa nên thấy hoài niệm.",
+    "batch": 6,
+    "passage": "学生のころ、この店によく来ました。今日久しぶりに食べてみると、昔と（　）味でした。なつかしくなりました。"
+  },
+  {
+    "id": "n3-grammar-text-013",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "ところが",
+      "そのため",
+      "例えば",
+      "つまり"
+    ],
+    "answer": 0,
+    "explanation": "ところが: kết quả ngoài dự tính — hôm nay bánh hết.",
+    "batch": 6,
+    "passage": "仕事の帰りに、いつも駅前のパン屋に寄ります。焼きたてのパンを買うのが楽しみです。（　）、今日は売り切れていました。"
+  },
+  {
+    "id": "n3-grammar-text-014",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "それに反して",
+      "それに伴って",
+      "それとは別に必ず",
+      "それにもかかわらず"
+    ],
+    "answer": 1,
+    "explanation": "〜に伴って: cùng với việc ít người trẻ, nhà trống tăng lên.",
+    "batch": 6,
+    "passage": "この村には若い人が少なくなりました。（　）、空いている家が増えています。"
+  },
+  {
+    "id": "n3-grammar-text-015",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "出ておきました",
+      "出してありました",
+      "出てきました",
+      "出すことにしました"
+    ],
+    "answer": 2,
+    "explanation": "涙が出てくる: nước mắt tự trào ra khi xúc động.",
+    "batch": 6,
+    "passage": "友達に「この映画は泣けるよ」と聞きました。実際に見てみると、本当に涙が（　）。"
+  },
+  {
+    "id": "n3-grammar-text-016",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "晴れるための",
+      "晴れたようの",
+      "晴れさせておくの",
+      "晴れている"
+    ],
+    "answer": 3,
+    "explanation": "晴れている場合も: dù trời đang nắng vẫn cần kiểm tra.",
+    "batch": 6,
+    "passage": "来週の遠足は、雨が降ったら中止です。朝七時に学校のサイトを見てから出発してください。（　）場合も、必ず確認してください。"
+  },
+  {
+    "id": "n3-grammar-text-017",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "続ければ",
+      "続けたのに",
+      "続けるところを",
+      "続けるための"
+    ],
+    "answer": 0,
+    "explanation": "〜ば: nếu duy trì một năm, tổng số vượt một nghìn.",
+    "batch": 6,
+    "passage": "私は毎日、新しい単語を五つ覚えています。少ないように見えますが、一年（　）千以上になります。"
+  },
+  {
+    "id": "n3-grammar-text-018",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "ためには",
+      "だけに",
+      "ように",
+      "ついでに"
+    ],
+    "answer": 1,
+    "explanation": "〜だけに: chính vì trân trọng nên càng tiếc.",
+    "batch": 6,
+    "passage": "友達からもらったカップを割ってしまいました。大切にしていた（　）、とても残念です。"
+  },
+  {
+    "id": "n3-grammar-text-019",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "ようになりました",
+      "ことになりましたか",
+      "ようにしてください",
+      "つもりだったそうです"
+    ],
+    "answer": 2,
+    "explanation": "〜ようにしてください: lời hướng dẫn bảo vệ đầu.",
+    "batch": 6,
+    "passage": "地震の時は、慌てて外へ出ないでください。まず、机の下などに入って、頭を守る（　）。"
+  },
+  {
+    "id": "n3-grammar-text-020",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "ところがあります",
+      "ことにしました",
+      "つもりです",
+      "ことがありません"
+    ],
+    "answer": 3,
+    "explanation": "〜たことがない: chưa từng; phù hợp lần đầu tháng tới.",
+    "batch": 6,
+    "passage": "私は今まで一人で旅行した（　）。来月、初めて一人旅をするので、楽しみですが少し不安です。"
+  },
+  {
+    "id": "n3-grammar-text-021",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "だけでなく",
+      "しかなく",
+      "だけだったらこそ",
+      "ばかりだったのに"
+    ],
+    "answer": 0,
+    "explanation": "〜だけでなく: không chỉ nghe giải thích mà còn thực hành.",
+    "batch": 7,
+    "passage": "このコースでは、野菜の育て方を学びます。説明を聞く（　）、実際に畑で作業もします。"
+  },
+  {
+    "id": "n3-grammar-text-022",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "おきました",
+      "しまいました",
+      "ありました",
+      "みせました"
+    ],
+    "answer": 1,
+    "explanation": "〜てしまう: kết quả đáng tiếc ngoài ý muốn.",
+    "batch": 7,
+    "passage": "昨日、家に帰る途中で雨が降り始めました。傘を持っていなかったので、服がぬれて（　）。"
+  },
+  {
+    "id": "n3-grammar-text-023",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "決めておきました",
+      "決まっています",
+      "決めていません",
+      "決めてしまいました"
+    ],
+    "answer": 2,
+    "explanation": "まだ決めていない: vẫn chưa lựa chọn giữa hai cửa hàng.",
+    "batch": 7,
+    "passage": "新しい店は駅から近いですが、少し高いです。前の店は遠いですが安いです。どちらがよいか、まだ（　）。"
+  },
+  {
+    "id": "n3-grammar-text-024",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "いけます",
+      "よろしいです",
+      "あります",
+      "なりません"
+    ],
+    "answer": 3,
+    "explanation": "〜なければならない: phải tự nấu bữa tối.",
+    "batch": 7,
+    "passage": "母は「帰りが遅くなる」と言っていました。夕食は自分で作らなければ（　）。"
+  },
+  {
+    "id": "n3-grammar-text-025",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "しないまま",
+      "したところで",
+      "するために",
+      "したばかりで"
+    ],
+    "answer": 0,
+    "explanation": "〜ないまま: ngày hết mà vẫn chưa dọn.",
+    "batch": 7,
+    "passage": "日曜日に掃除をする予定でした。ところが、友達が遊びに来たので、掃除を（　）一日が終わってしまいました。"
+  },
+  {
+    "id": "n3-grammar-text-026",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "あろう",
+      "おこう",
+      "いよう",
+      "こように"
+    ],
+    "answer": 1,
+    "explanation": "考えておこう: định chuẩn bị trước nội dung nói.",
+    "batch": 7,
+    "passage": "来週、海外からお客様が来ます。私は英語があまり得意ではありません。何を話すか、今から考えて（　）と思います。"
+  },
+  {
+    "id": "n3-grammar-text-027",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "ことがありますか",
+      "はずがありませんでした",
+      "ようになりました",
+      "ところだったはずです"
+    ],
+    "answer": 2,
+    "explanation": "ようになった: đã đạt khả năng đi không cần bản đồ.",
+    "batch": 7,
+    "passage": "この町に引っ越して三か月になります。最初は道が分かりませんでしたが、最近は地図を見ないで歩ける（　）。"
+  },
+  {
+    "id": "n3-grammar-text-028",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "ようになりません",
+      "ところでしたか",
+      "ものがありました",
+      "ことになりました"
+    ],
+    "answer": 3,
+    "explanation": "ことになった: tập thể quyết định bàn tiếp ngày mai.",
+    "batch": 7,
+    "passage": "今日の会議では、来月のイベントの予算を話し合いました。時間が足りなかったので、続きは明日話し合う（　）。"
+  },
+  {
+    "id": "n3-grammar-text-029",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "今度",
+      "さっき",
+      "去年",
+      "昨日だけ"
+    ],
+    "answer": 0,
+    "explanation": "今度は: rút kinh nghiệm cho lần tiếp theo.",
+    "batch": 7,
+    "passage": "花を育て始めましたが、水をやりすぎて枯らしてしまいました。（　）は、土の状態を見ながら水をやろうと思います。"
+  },
+  {
+    "id": "n3-grammar-text-030",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "いた",
+      "いく",
+      "あった",
+      "しまった"
+    ],
+    "answer": 1,
+    "explanation": "持っていく: mang túi từ nơi mình ở đến chợ.",
+    "batch": 7,
+    "passage": "近所の公園で朝市が開かれます。野菜だけでなく、手作りのパンも売られます。買い物袋を持って（　）と便利です。"
+  },
+  {
+    "id": "n3-grammar-text-031",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "伝わる",
+      "伝わった",
+      "伝える",
+      "伝えられたの"
+    ],
+    "answer": 2,
+    "explanation": "人に規則を伝える: cần truyền đạt quy định cho người mới.",
+    "batch": 7,
+    "passage": "この工場では、作業中に手袋を着けることになっています。危険を避けるためです。新人にも、この規則を（　）必要があります。"
+  },
+  {
+    "id": "n3-grammar-text-032",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "ことになりません",
+      "ところですか",
+      "はずがないです",
+      "ようにしています"
+    ],
+    "answer": 3,
+    "explanation": "ようにしている: luôn cố mang đồ mưa theo như một thói quen.",
+    "batch": 7,
+    "passage": "私は山歩きが好きです。天気が変わりやすいので、晴れていても、雨具を持っていく（　）。"
+  },
+  {
+    "id": "n3-grammar-text-033",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "それでも",
+      "それゆえに",
+      "そのせいで",
+      "それどころかで"
+    ],
+    "answer": 0,
+    "explanation": "それでも: dù là sách chuyên gia nhưng người mới vẫn đọc được.",
+    "batch": 7,
+    "passage": "この本は専門家が書いたものです。（　）、難しい言葉には説明があるので、初心者でも読めます。"
+  },
+  {
+    "id": "n3-grammar-text-034",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "よければ",
+      "よかった",
+      "いいための",
+      "よくする"
+    ],
+    "answer": 1,
+    "explanation": "運がよかった: cảm thấy hôm nay may mắn, dùng quá khứ.",
+    "batch": 7,
+    "passage": "駅のホームに着いた時、ちょうど電車が来ました。走らなくても間に合いました。今日は運が（　）と思いました。"
+  },
+  {
+    "id": "n3-grammar-text-035",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "安心させましたか",
+      "安心しておきました",
+      "安心しました",
+      "安心させてありました"
+    ],
+    "answer": 2,
+    "explanation": "安心する: bản thân thấy yên tâm khi nghe tiền còn đủ.",
+    "batch": 7,
+    "passage": "財布を拾ったので交番に届けました。後で持ち主からお礼の電話がありました。お金が全部入っていたと聞いて、私も（　）。"
+  },
+  {
+    "id": "n3-grammar-text-036",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "たびだった",
+      "うちだった",
+      "ところだったの",
+      "時に"
+    ],
+    "answer": 3,
+    "explanation": "注文する時に: thông báo ngay lúc gọi món.",
+    "batch": 7,
+    "passage": "この店では、コーヒーを注文すると小さいケーキが付きます。ケーキが要らない場合は、注文する（　）店員に伝えてください。"
+  },
+  {
+    "id": "n3-grammar-text-037",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "こと",
+      "ものだった",
+      "つもりの",
+      "ところへ"
+    ],
+    "answer": 0,
+    "explanation": "動詞＋こと danh từ hóa: việc thỉnh thoảng nghỉ cũng quan trọng.",
+    "batch": 7,
+    "passage": "今年は去年より暑い日が多いです。水を十分に飲むだけでなく、時々休憩する（　）も大切です。"
+  },
+  {
+    "id": "n3-grammar-text-038",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "くれる",
+      "もらう",
+      "あげる",
+      "やる"
+    ],
+    "answer": 1,
+    "explanation": "家族に見てもらう: nhờ người nhà kiểm tra giúp.",
+    "batch": 7,
+    "passage": "部屋を出る前に電気を消したかどうか、思い出せません。家に電話して、家族に見て（　）ことにしました。"
+  },
+  {
+    "id": "n3-grammar-text-039",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "済ませませんでした",
+      "済ませていません",
+      "済みました",
+      "済まなかったです"
+    ],
+    "answer": 2,
+    "explanation": "二時間で済む: chỉ mất hai giờ là xong nhờ có bạn giúp.",
+    "batch": 7,
+    "passage": "引っ越しの日は友達が三人来てくれました。一人では一日かかったでしょうが、みんながいたので、二時間で（　）。"
+  },
+  {
+    "id": "n3-grammar-text-040",
+    "section": "grammar",
+    "kind": "Ngữ pháp trong đoạn văn",
+    "prompt": "（　）に入る最も適切な表現を選んでください。",
+    "choices": [
+      "あきらめる",
+      "やめてしまう",
+      "避けておく",
+      "あきらめない"
+    ],
+    "answer": 3,
+    "explanation": "〜ないことが大切: điều quan trọng là không bỏ cuộc khi thất bại.",
+    "batch": 7,
+    "passage": "私は、苦手なことも少しずつ練習すれば上手になると思います。大切なのは、失敗してもすぐに（　）ことです。"
+  }
+]

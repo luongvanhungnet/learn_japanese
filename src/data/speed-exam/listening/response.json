@@ -1,0 +1,642 @@
+[
+  {
+    "id": "n3-listening-response-001",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "はい、どこへ運びましょうか。",
+      "荷物は昨日届きました。",
+      "もう夕食は済ませました。",
+      "次の会議は三階です。"
+    ],
+    "answer": 0,
+    "explanation": "Nhận lời giúp mang hành lý và hỏi chuyển đi đâu.",
+    "batch": 12,
+    "audioText": "この荷物を運ぶのを手伝っていただけませんか。"
+  },
+  {
+    "id": "n3-listening-response-002",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "切手は一枚百円でした。",
+      "ええ、あの銀行の隣にありますよ。",
+      "手紙は昨日出しました。",
+      "今日は銀行を利用しません。"
+    ],
+    "answer": 1,
+    "explanation": "Câu hỏi vị trí bưu điện cần trả lời vị trí.",
+    "batch": 12,
+    "audioText": "すみません、この近くに郵便局はありませんか。"
+  },
+  {
+    "id": "n3-listening-response-003",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "私の名前を書いてください。",
+      "この店は六時までです。",
+      "はい、どうぞお使いください。",
+      "昨日は雨でしたね。"
+    ],
+    "answer": 2,
+    "explanation": "Xin dùng bút thì cho phép bằng どうぞお使いください.",
+    "batch": 12,
+    "audioText": "このペン、ちょっとお借りしてもいいですか。"
+  },
+  {
+    "id": "n3-listening-response-004",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "では、初めてごあいさつします。",
+      "次の電車は急行です。",
+      "これから昼ご飯を作ります。",
+      "こちらこそ、ありがとうございました。"
+    ],
+    "answer": 3,
+    "explanation": "Đáp lời cảm ơn sau dịp hợp tác bằng こちらこそ.",
+    "batch": 12,
+    "audioText": "昨日はお世話になりました。"
+  },
+  {
+    "id": "n3-listening-response-005",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "お大事になさってください。",
+      "試験に合格してよかったですね。",
+      "どうぞ、温かいうちに召し上がってください。",
+      "こちらの商品は半額です。"
+    ],
+    "answer": 0,
+    "explanation": "Nghe người khác bị sốt nghỉ học thì chúc mau khỏe.",
+    "batch": 12,
+    "audioText": "熱があるので、今日は授業を休みます。"
+  },
+  {
+    "id": "n3-listening-response-006",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "早く着いたので、先に始めました。",
+      "大丈夫です。気をつけて来てください。",
+      "荷物はもう送りました。",
+      "次の試験も頑張ってください。"
+    ],
+    "answer": 1,
+    "explanation": "Người báo tới trễ thì nhận thông tin và nhắc đi cẩn thận.",
+    "batch": 12,
+    "audioText": "すみません、電車が遅れていて、十分ほど遅れます。"
+  },
+  {
+    "id": "n3-listening-response-007",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "窓を閉めたので、もう寒くありません。",
+      "明日の会議は二階です。",
+      "ええ、私もそう思います。",
+      "駅からここまで歩きました。"
+    ],
+    "answer": 2,
+    "explanation": "Câu xin ý kiến về tính dễ dùng thì đồng ý bằng 私もそう思います.",
+    "batch": 12,
+    "audioText": "このアプリ、前より使いやすくなったと思いませんか。"
+  },
+  {
+    "id": "n3-listening-response-008",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "では、携帯電話をもう一台注文します。",
+      "その映画は先週見ました。",
+      "上映時間を教えてください。",
+      "すみません、すぐ消します。"
+    ],
+    "answer": 3,
+    "explanation": "Được nhờ tắt điện thoại thì nhận lỗi và tắt.",
+    "batch": 12,
+    "audioText": "上映中は携帯電話の電源を切っていただけますか。"
+  },
+  {
+    "id": "n3-listening-response-009",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "いいですね。何時にしましょうか。",
+      "私は昨日その本を借りました。",
+      "映画館の工事は終わりました。",
+      "きのうは日曜でしたね。"
+    ],
+    "answer": 0,
+    "explanation": "Lời mời xem phim thì nhận lời và hỏi giờ.",
+    "batch": 12,
+    "audioText": "今度の日曜、一緒に映画を見ませんか。"
+  },
+  {
+    "id": "n3-listening-response-010",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "それでは、次のお客様をお呼びします。",
+      "申し訳ありません。すぐ確認いたします。",
+      "ご予約は来週の三時です。",
+      "冷蔵庫はあちらの売り場です。"
+    ],
+    "answer": 1,
+    "explanation": "Khách phàn nàn món nguội thì xin lỗi và kiểm tra.",
+    "batch": 12,
+    "audioText": "注文したスープが冷たいようですが。"
+  },
+  {
+    "id": "n3-listening-response-011",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "はい、毎朝パンを食べています。",
+      "いいえ、昨日は大阪に行きました。",
+      "ええ、三年ほど住んでいました。",
+      "三年後に初めて日本へ行く予定でしたが、計画をやめました。"
+    ],
+    "answer": 2,
+    "explanation": "Hỏi từng sống ở Nhật chưa, trả lời kinh nghiệm quá khứ.",
+    "batch": 12,
+    "audioText": "日本に住んだことがありますか。"
+  },
+  {
+    "id": "n3-listening-response-012",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "昨日の作業は二人でしました。",
+      "作業の場所は二階です。",
+      "担当者の名前は山本です。",
+      "あと五分くらいで終わります。"
+    ],
+    "answer": 3,
+    "explanation": "Hỏi bao lâu xong thì đưa thời gian còn lại.",
+    "batch": 12,
+    "audioText": "その作業、どのくらいで終わりそうですか。"
+  },
+  {
+    "id": "n3-listening-response-013",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "はい、先ほどメールで送りました。",
+      "会場は駅の隣にあります。",
+      "資料の表紙は青です。",
+      "昼ご飯はもう食べました。"
+    ],
+    "answer": 0,
+    "explanation": "Hỏi đã gửi tài liệu chưa thì báo vừa gửi qua email.",
+    "batch": 12,
+    "audioText": "会議の資料はもう送っていただけましたか。"
+  },
+  {
+    "id": "n3-listening-response-014",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "今日は料理教室に初めて来ました。",
+      "ありがとうございます。でも、もう十分いただきました。",
+      "お皿は棚の上にあります。",
+      "昨日、新しい店ができました。"
+    ],
+    "answer": 1,
+    "explanation": "Từ chối thêm món lịch sự vì đã ăn đủ.",
+    "batch": 12,
+    "audioText": "もう少しお料理はいかがですか。"
+  },
+  {
+    "id": "n3-listening-response-015",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "明日の会場は駅前のビルです。",
+      "昨日は先生に会いました。",
+      "午後なら空いています。",
+      "この時計は少し遅れています。"
+    ],
+    "answer": 2,
+    "explanation": "Hỏi lịch ngày mai thì nêu lúc rảnh.",
+    "batch": 12,
+    "audioText": "明日、少しお時間をいただけませんか。"
+  },
+  {
+    "id": "n3-listening-response-016",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "では、明日から本を借ります。",
+      "本屋は八時に閉まります。",
+      "その本の作者に会ったことがあります。",
+      "いえいえ、気にしないでください。"
+    ],
+    "answer": 3,
+    "explanation": "Đáp lời xin lỗi trả muộn bằng đừng bận tâm.",
+    "batch": 12,
+    "audioText": "本を返すのが遅くなって、ごめんなさい。"
+  },
+  {
+    "id": "n3-listening-response-017",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "おかげさまで、無事に済みました。",
+      "会場は三階の教室です。",
+      "受験料は昨日払いました。",
+      "来年は別の学校を受けます。"
+    ],
+    "answer": 0,
+    "explanation": "Hỏi kỳ thi thế nào thì báo đã xong tốt.",
+    "batch": 12,
+    "audioText": "昨日の試験はどうでしたか。"
+  },
+  {
+    "id": "n3-listening-response-018",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "昨日、窓ガラスを掃除しました。",
+      "はい、どうぞ。少し寒いですね。",
+      "この机は来月交換します。",
+      "先週もこの部屋で会議がありました。"
+    ],
+    "answer": 1,
+    "explanation": "Xin đóng cửa sổ được chấp thuận và đồng tình là lạnh.",
+    "batch": 12,
+    "audioText": "少し寒いので、窓を閉めてもいいですか。"
+  },
+  {
+    "id": "n3-listening-response-019",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "お茶の店は駅前にあります。",
+      "このカップは二千円でした。",
+      "ありがとうございます。いただきます。",
+      "明日は料理を習います。"
+    ],
+    "answer": 2,
+    "explanation": "Được mời dùng trà thì cảm ơn và nói いただきます.",
+    "batch": 12,
+    "audioText": "お茶が入りました。どうぞ。"
+  },
+  {
+    "id": "n3-listening-response-020",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "田中さんとは昨日初めて会いました。",
+      "明日は私が出張します。",
+      "こちらの机は来週片づけます。",
+      "はい、今、担当の者に代わります。"
+    ],
+    "answer": 3,
+    "explanation": "Người gọi muốn gặp Tanaka thì chuyển máy.",
+    "batch": 12,
+    "audioText": "田中さんはいらっしゃいますか。"
+  },
+  {
+    "id": "n3-listening-response-021",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "毎週水曜日です。",
+      "朝九時から開いています。",
+      "駅から歩いて五分です。",
+      "一人二千円です。"
+    ],
+    "answer": 0,
+    "explanation": "定休日 hỏi ngày nghỉ định kỳ, không hỏi giờ, vị trí hay giá.",
+    "batch": 12,
+    "audioText": "こちらのお店の定休日はいつですか。"
+  },
+  {
+    "id": "n3-listening-response-022",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "会議室は先週予約しました。",
+      "すみません、もう少し待っていただけますか。",
+      "この資料は十ページあります。",
+      "昨日は別の担当者が来ました。"
+    ],
+    "answer": 1,
+    "explanation": "Bị hỏi tài liệu đã xong chưa, có thể xin thêm thời gian.",
+    "batch": 12,
+    "audioText": "お願いした資料はもうできましたか。"
+  },
+  {
+    "id": "n3-listening-response-023",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "この靴は今年の新商品です。",
+      "隣の店はもう閉まりました。",
+      "すみません。別のサイズをお持ちします。",
+      "靴売り場は三階に変わりました。"
+    ],
+    "answer": 2,
+    "explanation": "Khách nói giày chật thì đề nghị mang cỡ khác.",
+    "batch": 12,
+    "audioText": "この靴、ちょっときついんですが。"
+  },
+  {
+    "id": "n3-listening-response-024",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "明日の天気予報は、もう見ましたか。",
+      "昨日は自転車を修理しました。",
+      "こちらの道路は市が管理しています。",
+      "そうですね。早めに出ましょう。"
+    ],
+    "answer": 3,
+    "explanation": "Đường có thể đông nên đồng ý xuất phát sớm.",
+    "batch": 12,
+    "audioText": "明日は道が混みそうですね。"
+  },
+  {
+    "id": "n3-listening-response-025",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "はい、こちらにお名前をお願いします。",
+      "鈴木さんには来週お会いします。",
+      "こちらの時計は修理中です。",
+      "三時の電車は急行です。"
+    ],
+    "answer": 0,
+    "explanation": "Người đến có đặt trước thì đề nghị ghi tên để kiểm tra.",
+    "batch": 12,
+    "audioText": "三時に予約した鈴木ですが。"
+  },
+  {
+    "id": "n3-listening-response-026",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "昨日の荷物はもう届きました。",
+      "それは助かります。お願いします。",
+      "この箱は店で買いました。",
+      "荷物の重さは五キロでした。"
+    ],
+    "answer": 1,
+    "explanation": "Được đề nghị giúp mang đồ nặng thì nhận lời, cảm ơn.",
+    "batch": 12,
+    "audioText": "重そうですね。半分持ちましょうか。"
+  },
+  {
+    "id": "n3-listening-response-027",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "駅は午前五時から開きます。",
+      "昨日は駅前で買い物をしました。",
+      "はい、次の角を右に曲がってください。",
+      "次の電車は十両です。"
+    ],
+    "answer": 2,
+    "explanation": "Người hỏi hướng đi, đáp bằng chỉ đường cụ thể.",
+    "batch": 12,
+    "audioText": "この道を行けば駅に着きますか。"
+  },
+  {
+    "id": "n3-listening-response-028",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "その本は図書館の物です。",
+      "先週、駅前で借りました。",
+      "同じ作者の本を三冊持っています。",
+      "一週間ほどでお返しします。"
+    ],
+    "answer": 3,
+    "explanation": "Hỏi khi nào trả thì nói hạn một tuần.",
+    "batch": 12,
+    "audioText": "この本、いつごろ返してもらえますか。"
+  },
+  {
+    "id": "n3-listening-response-029",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "いいえ、まだ決めていません。",
+      "会場の椅子は先週届きました。",
+      "この勉強会は今年で三回目です。",
+      "資料は机の上に置きました。"
+    ],
+    "answer": 0,
+    "explanation": "Hỏi đã chốt tham gia chưa, đáp vẫn chưa quyết.",
+    "batch": 12,
+    "audioText": "来週の勉強会に参加するか、もう決めましたか。"
+  },
+  {
+    "id": "n3-listening-response-030",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "この自転車は兄からもらいました。",
+      "すみません。すぐ戻します。",
+      "昨日は自転車で通勤しました。",
+      "店の自転車は来週届きます。"
+    ],
+    "answer": 1,
+    "explanation": "Bị nhắc để xe đúng chỗ thì xin lỗi và chuyển lại.",
+    "batch": 12,
+    "audioText": "ここに自転車を置かないでいただけますか。"
+  },
+  {
+    "id": "n3-listening-response-031",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "講演会の会場は市民ホールです。",
+      "明日の講師は大学の先生です。",
+      "ええ、とても分かりやすかったです。",
+      "参加費は昨日払いました。"
+    ],
+    "answer": 2,
+    "explanation": "Hỏi ấn tượng bài giảng thì nhận xét dễ hiểu.",
+    "batch": 12,
+    "audioText": "今日の講演はいかがでしたか。"
+  },
+  {
+    "id": "n3-listening-response-032",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "今日は昨日より電車が混んでいました。",
+      "次の会議は来週です。",
+      "会社の入口はあちらです。",
+      "ありがとうございます。そうさせていただきます。"
+    ],
+    "answer": 3,
+    "explanation": "Cấp trên cho về nghỉ thì cảm ơn và nhận sự cho phép.",
+    "batch": 12,
+    "audioText": "今日は顔色が悪いから、先に帰って休んだらどうですか。"
+  },
+  {
+    "id": "n3-listening-response-033",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "それなら、受付で聞いてみましょう。",
+      "鍵の形は変わっていますね。",
+      "会場の掃除はもう終わりました。",
+      "この鍵は先月買いました。"
+    ],
+    "answer": 0,
+    "explanation": "Người mất chìa khóa thì đề xuất hỏi ở tiếp tân.",
+    "batch": 12,
+    "audioText": "会場で鍵をなくしてしまったんです。"
+  },
+  {
+    "id": "n3-listening-response-034",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "メールのアドレスは変わっていません。",
+      "分かりました。昼までに送ります。",
+      "昨日は郵便で送りました。",
+      "資料の表紙には写真があります。"
+    ],
+    "answer": 1,
+    "explanation": "Được yêu cầu gửi trước trưa thì nhận đúng hạn.",
+    "batch": 12,
+    "audioText": "この資料、今日の昼までにメールしてもらえますか。"
+  },
+  {
+    "id": "n3-listening-response-035",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "次の電車は五番線です。",
+      "電話番号は手帳に書いてあります。",
+      "はい、電車を降りたら電話します。",
+      "この駅は去年できました。"
+    ],
+    "answer": 2,
+    "explanation": "Được nhờ gọi khi tới ga thì xác nhận sẽ gọi lúc xuống tàu.",
+    "batch": 12,
+    "audioText": "駅に着いたら連絡してくださいね。"
+  },
+  {
+    "id": "n3-listening-response-036",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "その本は三百ページありますね。",
+      "図書館は月曜が休みです。",
+      "昨日は家で映画を見ました。",
+      "そうなんですか。私も読んでみます。"
+    ],
+    "answer": 3,
+    "explanation": "Nghe giới thiệu sách hay thì thể hiện muốn đọc thử.",
+    "batch": 12,
+    "audioText": "この本、難しそうだけど、とてもおもしろかったですよ。"
+  },
+  {
+    "id": "n3-listening-response-037",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "では、こちらにお掛けになってお待ちください。",
+      "この店の椅子は外国で作られています。",
+      "予約の電話番号は変わりました。",
+      "外の看板は昨日取り替えました。"
+    ],
+    "answer": 0,
+    "explanation": "Khách đến sớm thì mời ngồi chờ lịch sự.",
+    "batch": 12,
+    "audioText": "予約の時間より少し早く着いてしまったのですが。"
+  },
+  {
+    "id": "n3-listening-response-038",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "この表は先月も使いました。",
+      "承知しました。すぐに直します。",
+      "数字の読み方を練習しています。",
+      "会議は来週の金曜日です。"
+    ],
+    "answer": 1,
+    "explanation": "Bị yêu cầu sửa số liệu thì nhận và sửa ngay.",
+    "batch": 12,
+    "audioText": "この表の数字が違うので、確認して直してください。"
+  },
+  {
+    "id": "n3-listening-response-039",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "コピー用紙は昨日注文しました。",
+      "この会社には十人います。",
+      "はい、ここに印刷する分を入れてください。",
+      "昼休みは十二時からです。"
+    ],
+    "answer": 2,
+    "explanation": "Nhờ hướng dẫn máy photocopy thì chỉ chỗ đặt bản cần in.",
+    "batch": 12,
+    "audioText": "すみません、このコピー機の使い方を教えていただけますか。"
+  },
+  {
+    "id": "n3-listening-response-040",
+    "section": "listening",
+    "kind": "Phản hồi nhanh",
+    "prompt": "最も自然な返事を選んでください。",
+    "choices": [
+      "この荷物は先週買いました。",
+      "同じかばんを店で見ました。",
+      "荷物の送り先は大阪です。",
+      "ご親切にありがとうございます。助かりました。"
+    ],
+    "answer": 3,
+    "explanation": "Người đã mang hành lý tới nơi thì cảm ơn sự giúp đỡ.",
+    "batch": 12,
+    "audioText": "お荷物、こちらまでお持ちしました。"
+  }
+]
