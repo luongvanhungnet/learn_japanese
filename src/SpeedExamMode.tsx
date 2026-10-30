@@ -18,6 +18,10 @@ export function SpeedExamMode({ onClose }: { onClose: () => void }) {
   const [seed, setSeed] = useState(1)
   const questions = useMemo(() => selectSpeedQuestions(types, sort, seed), [types, sort, seed])
   const [index, setIndex] = useState(0)
+  const [jumpOpen, setJumpOpen] = useState(false)
+  const [jumpValue, setJumpValue] = useState('')
+  const [jumpError, setJumpError] = useState('')
+  const jumpButton = useRef<HTMLButtonElement>(null)
   const [selected, setSelected] = useState<number | null>(null)
   const [mistakes, setMistakes] = useState(0)
   const [audioError, setAudioError] = useState('')
@@ -36,9 +40,28 @@ export function SpeedExamMode({ onClose }: { onClose: () => void }) {
     lock.current = false
     stopAudio()
     setIndex(0)
+    setJumpOpen(false)
+    setJumpError('')
     setSelected(null)
     setMistakes(0)
     setAudioError('')
+  }
+  const jumpToQuestion = () => {
+    const value = jumpValue.trim()
+    const number = Number(value)
+    if (!/^\d+$/.test(value) || !Number.isSafeInteger(number) || number < 1 || number > questions.length) {
+      setJumpError(`Nhập số nguyên từ 1 đến ${questions.length}.`)
+      return
+    }
+    clearTimeout(timer.current)
+    lock.current = false
+    stopAudio()
+    setAudioError('')
+    setSelected(null)
+    setIndex(number - 1)
+    setJumpOpen(false)
+    setJumpError('')
+    jumpButton.current?.focus()
   }
   const changeTypes = (next: string[]) => { reset(); setTypes(next) }
 
@@ -55,6 +78,7 @@ export function SpeedExamMode({ onClose }: { onClose: () => void }) {
     if (!correct) setMistakes(value => value + 1)
     timer.current = setTimeout(() => {
       if (correct) {
+        setJumpOpen(false)
         stopAudio()
         setAudioError('')
         setIndex(value => value + 1)
@@ -69,13 +93,13 @@ export function SpeedExamMode({ onClose }: { onClose: () => void }) {
       const target = event.target
       if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || event.repeat || target instanceof HTMLElement && (target.isContentEditable || /^(INPUT|TEXTAREA|SELECT|SUMMARY)$/.test(target.tagName))) return
       const choice = keys.indexOf(event.key)
-      if (choice < 0 || finished) return
+      if (choice < 0 || finished || jumpOpen) return
       event.preventDefault()
       choose(choice)
     }
     window.addEventListener('keydown', keydown)
     return () => window.removeEventListener('keydown', keydown)
-  }, [choose, finished])
+  }, [choose, finished, jumpOpen])
 
   const play = () => {
     if (!question?.audioText) return
@@ -129,7 +153,13 @@ export function SpeedExamMode({ onClose }: { onClose: () => void }) {
     <p className="speed-selection-note">Đang chọn {questions.length} câu. Đổi bộ lọc hoặc thứ tự sẽ bắt đầu lượt mới. Luyện lại sẽ xáo trộn lại nếu chọn ngẫu nhiên.</p>
     <progress aria-label="Tiến độ" value={index} max={questions.length || 1} />
     {question ? <section className="speed-card" aria-labelledby="speed-question" key={question.id}>
-      <div className="speed-meta"><span>Câu {index + 1} / {questions.length}</span><span>{speedSections[question.section]} · {question.kind}</span></div>
+      <div className="speed-meta"><button ref={jumpButton} className="speed-question-number" type="button" aria-expanded={jumpOpen} aria-controls="speed-jump-form" title="Chuyển tới câu hỏi" onClick={() => { setJumpValue(String(index + 1)); setJumpError(''); setJumpOpen(value => !value) }}>Câu {index + 1} / {questions.length}</button><span>{speedSections[question.section]} · {question.kind}</span></div>
+      {jumpOpen && <form id="speed-jump-form" className="speed-jump" noValidate onSubmit={event => { event.preventDefault(); jumpToQuestion() }} onKeyDown={event => { if (event.key === 'Escape') { event.preventDefault(); setJumpOpen(false); jumpButton.current?.focus() } }}>
+        <label>Chuyển tới câu<input autoFocus type="number" inputMode="numeric" min={1} max={questions.length} step={1} value={jumpValue} aria-invalid={Boolean(jumpError)} aria-describedby={jumpError ? 'speed-jump-error' : 'speed-jump-hint'} onChange={event => { setJumpValue(event.target.value); setJumpError('') }} /></label>
+        <button type="submit">Chuyển</button><button type="button" onClick={() => { setJumpOpen(false); jumpButton.current?.focus() }}>Hủy</button>
+        <small id="speed-jump-hint">Từ 1 đến {questions.length}, theo bộ lọc và thứ tự hiện tại.</small>
+        {jumpError && <p id="speed-jump-error" role="alert">{jumpError}</p>}
+      </form>}
       {question.passage && <div className="speed-passage" lang="ja">{question.passage}</div>}
       {question.audioText && <div className="speed-audio"><button type="button" onClick={play}>▶ {speaking ? 'Nghe lại' : 'Nghe câu hỏi'}</button><button type="button" disabled={!speaking} onClick={stopAudio}>Dừng</button><span role="status">{speaking ? 'Đang phát tiếng Nhật…' : ''}</span>{audioError && <p role="alert">{audioError}</p>}</div>}
       <h2 id="speed-question" lang="ja">{question.prompt}</h2>
@@ -141,6 +171,6 @@ export function SpeedExamMode({ onClose }: { onClose: () => void }) {
       <div className="speed-feedback" role="status" aria-live="polite">
         {selected === null ? 'Chọn một đáp án để tiếp tục.' : selected === question.answer ? `✓ Chính xác! ${question.explanation} Chuyển câu sau 2 giây…` : '✗ Chưa đúng. Hãy chọn lại sau 2 giây.'}
       </div>
-    </section> : !questions.length ? <section className="speed-card"><h2>Chưa chọn dạng câu hỏi</h2><p>Hãy chọn ít nhất một phần hoặc dạng câu hỏi trong menu Filter để bắt đầu.</p><button type="button" onClick={() => changeTypes(allSpeedTypes)}>Chọn tất cả {speedQuestions.length} câu</button></section> : <section className="speed-card"><h2>Hoàn thành {questions.length} câu!</h2><p>Bạn đã trả lời đúng tất cả các câu sau khi luyện tập. Số lần chọn sai: {mistakes}.</p><button type="button" onClick={() => { reset(); setSeed(Math.floor(Math.random() * 0x100000000)) }}>Luyện lại</button></section>}
+    </section> : !questions.length ? <section className="speed-card"><h2>Chưa chọn dạng câu hỏi</h2><p>Hãy chọn ít nhất một phần hoặc dạng câu hỏi trong menu Filter để bắt đầu.</p><button type="button" onClick={() => changeTypes(allSpeedTypes)}>Chọn tất cả {speedQuestions.length} câu</button></section> : <section className="speed-card"><h2>Hoàn thành {questions.length} câu!</h2><p>Bạn đã đến cuối bộ câu hỏi. Có thể luyện lại để ôn các câu đã bỏ qua. Số lần chọn sai: {mistakes}.</p><button type="button" onClick={() => { reset(); setSeed(Math.floor(Math.random() * 0x100000000)) }}>Luyện lại</button></section>}
   </main>
 }
