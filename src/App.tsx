@@ -597,7 +597,7 @@ function StudyApp() {
           <div className="focus-row focus-head"><span>{t(grammar ? 'grammarPattern' : 'vocabulary')}</span>{fields.map((field) => <span key={field}>{labels[field]}</span>)}</div>
           {entries.map((entry) => (
             <div className="focus-row" key={`${entry.id}-${language}`} role="group" aria-label={t(grammar ? 'patternLabel' : 'wordLabel', { word: entry.headword })}>
-              <div className="focus-word"><span lang="ja">{entry.headword}</span><RadicalDetails entry={entry} /><GrammarExamples entry={entry} /></div>
+              <div className="focus-word"><span className="focus-word-order">{entry.order}.</span>{' '}<span lang="ja">{entry.headword}</span><RadicalDetails entry={entry} /><GrammarExamples entry={entry} /></div>
               {fields.map((field) => <div key={field} className={`focus-practice practice-${field}`} id={`practice-${entry.id}:${field}`} data-practice-key={`${entry.id}:${field}`}>
                 <PracticeCell entry={entry} field={field} status={progress[`${entry.id}:${field}`]} mode="study" focus displayMode={displayModes[field]} preview={previewKey === `${entry.id}:${field}`} onSubmit={onSubmit} onHint={onHint} onPreview={onPreview} />
               </div>)}
