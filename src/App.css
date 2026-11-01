@@ -139,6 +139,7 @@
 .focus-row:last-child { border-bottom: 0; }
 .focus-row:nth-child(even) { background: #fbfcfa; }
 .focus-word { font-family: "Yu Gothic", "Meiryo", sans-serif; font-size: 19px; font-weight: 700; line-height: 1.35; overflow-wrap: anywhere; }
+.focus-word-order { color: #667477; font-family: system-ui, sans-serif; font-size: 0.6em; font-weight: 400; white-space: nowrap; }
 .focus-practice { min-width: 0; }
 .focus-practice .concealed-cell, .focus-practice .answer-value { min-height: 41px; }
 .focus-practice .practice-form { width: 100%; }
