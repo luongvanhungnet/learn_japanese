@@ -187,3 +187,76 @@ npm run novel:audio
 The build-only generator uses Microsoft Edge's online TTS via [edge-tts](https://github.com/rany2/edge-tts), with Japanese voice `ja-JP-KeitaNeural`. Generation sends the original story text to that speech service and requires internet access. It caches source hashes, MP3 audio, and word-boundary metadata in the ignored `.novel-audio-cache/` directory, with at most four simultaneous requests. FFmpeg provided by `imageio-ffmpeg` measures decoded audio and encodes the bundled MP3s. It does not add dependencies to the frontend.
 
 `scripts/prepare_novel_audio.mjs` uses the reader's sentence splitter, including grammar annotations and Japanese closing quotes. `scripts/build_novel_audio.py` aligns actual speech word timings to all 1,949 source sentences, rejects missing or unmatched prose, and produces `src/data/novel-audio.json` plus `public/novel-audio/`. The test suite verifies every sentence against the manuscript and checks timeline ordering and audio assets. Regenerate the recordings whenever the novel changes.
+
+### Play & learn (`#game`)
+
+Open **Play & learn / Chơi & học** from the study toolbar (also available in focus mode).
+Choose a ramen shop, directions, or job interview scene and equip 3–5 cards. Each
+run lasts at most 60 seconds, including answer feedback. Warm up allows 10 seconds
+per question; Mastery cycles through meaning, optional listening, kana input and
+context, reducing the response window from 10 to 2 seconds as the combo grows.
+Questions avoid immediate repeats and shuffle answer positions and distractors.
+
+Japanese listening uses browser speech synthesis and is opt-in. Test the voice
+before a run; unsupported browsers can play without listening. Kana answers accept
+normalized Hiragana or Katakana. Correct answers earn 12 EXP and 3 gold; the first
+successful run in a scene unlocks its two additional cards. Incorrect answers and
+timeouts reset the combo and appear in the post-game review. Finish early to
+collect rewards for answers already completed.
+
+Word Duel currently compares a personal best for the same language, scene,
+difficulty, audio setting and deck. It does **not** match online opponents.
+Rewards and records use the account-scoped `mimikara-game-v1` study key, or local
+browser storage for guests. Apply migration `004_game_progress.sql` with
+`npm run db:migrate` before using account sync against an existing database.
+
+### Header vocabulary search
+
+The header search looks across N3, N2, radicals, N3 grammar, the story lexicon and
+game vocabulary. Search by Japanese, kana (including half-width Katakana),
+Sino-Vietnamese, or English/Vietnamese meanings; Vietnamese accents are optional.
+Exact matches appear first. Results show reading, meaning and collection, with up
+to 30 matches displayed at a time. On the study screen, select a list entry to
+switch to its collection and scroll to the word. Use Arrow Down or Enter to focus
+the first matching list entry, Tab to browse, and Escape to dismiss results.
+The search index loads when the field is first opened.
+### Ôn thi thần tốc
+
+Mở **Ôn thi thần tốc** từ thanh chế độ học hoặc truy cập `/#speed-exam`.
+Ngân hàng 600 câu N3 do Codex tự biên soạn được tập hợp tại `src/speedExamData.ts`. Dữ liệu nằm trong 15 tệp JSON theo phần/dạng ở `src/data/speed-exam/`, mỗi dạng 40 câu; không lấy từ đề thi chính thức:
+
+| Phần | Số câu | Các dạng |
+| --- | ---: | --- |
+| Từ vựng | 200 | Cách đọc kanji, cách viết, từ trong ngữ cảnh, diễn đạt đồng nghĩa, cách dùng từ (40 câu/dạng) |
+| Ngữ pháp | 120 | Chọn cấu trúc, sắp xếp câu ★, ngữ pháp đoạn văn (40 câu/dạng) |
+| Đọc hiểu | 120 | Đoạn ngắn, đoạn vừa, tra cứu thông tin (20 bài × 2 câu/dạng) |
+| Nghe hiểu | 160 | Hiểu nhiệm vụ, hiểu điểm chính, diễn đạt theo tình huống, phản hồi nhanh (40 câu/dạng) |
+
+Mọi câu có 4 lựa chọn trong chế độ luyện tập, kể cả các dạng nghe vốn có số lựa chọn khác trong đề chuẩn. Bấm/chạm đáp án hoặc nhấn ← A, ↑ B, ↓ C, → D. Đáp án đúng hiện xanh lá trong 2 giây rồi sang câu mới; đáp án sai hiện đỏ trong 2 giây rồi mở lại cùng câu. Khóa mọi lựa chọn trong thời gian phản hồi. Sau câu cuối hiển thị số lần chọn sai và nút luyện lại. Lượt luyện hiện chỉ giữ trong bộ nhớ của trang.
+
+Phần nghe dùng Web Speech API (`ja-JP`, ưu tiên giọng Nhật có sẵn), có nút nghe lại/dừng và thông báo lỗi. Thiết bị cần trình duyệt hỗ trợ tổng hợp giọng nói tiếng Nhật; chất lượng giọng và nhu cầu mạng tùy trình duyệt/hệ điều hành. Không hiện bản chép lời khi làm câu nghe. Đổi câu hoặc rời chế độ sẽ dừng giọng đọc và dọn bộ đếm thời gian.
+
+Menu **Filter · Lọc câu hỏi** nhóm câu theo Từ vựng, Ngữ pháp, Đọc hiểu và Nghe hiểu. Có thể chọn toàn bộ một phần, chọn từng dạng hoặc kết hợp nhiều dạng thuộc nhiều phần; số câu hiển thị ngay cạnh từng lựa chọn. Các kỹ năng đọc chi tiết được gom vào ba dạng chính: đoạn ngắn, đoạn vừa, tra cứu thông tin. Menu **Sort · Sắp xếp** hỗ trợ thứ tự gốc, đảo ngược, nhóm theo phần/dạng và ngẫu nhiên. Thứ tự ngẫu nhiên giữ ổn định suốt lượt làm bài; bấm luyện lại để xáo trộn lượt mới. Đổi lọc hoặc sắp xếp sẽ dừng âm thanh, hủy phản hồi đang chờ và bắt đầu lại tiến độ/số lần sai cho bộ câu mới. Nếu bỏ hết lựa chọn, giao diện hướng dẫn chọn câu thay vì báo hoàn thành.
+
+Mỗi câu có mã ổn định, bốn lựa chọn, đáp án và giải thích tiếng Việt; câu đọc có bài đọc, câu nghe có `audioText`. Thuộc tính `batch` chia 600 câu thành 12 đợt × 50 để rà soát. Tổng số trên màn hình, Filter và nút chọn tất cả đều lấy từ dữ liệu. Chạy `npm run speed-exam:audit` để kiểm tra mã/câu trùng, cấu trúc lựa chọn, đáp án ★, số lượng theo đợt và nguồn đọc/nghe gần trùng. Xem quy ước biên soạn và ghi chú rà soát trong `src/data/speed-exam/README.md`.
+
+Trong **Ôn thi thần tốc**, bấm **Câu x / tổng** để mở ô nhập vị trí, nhập số rồi bấm **Chuyển** (hoặc Enter). Vị trí tính theo bộ lọc và thứ tự hiện tại; chỉ nhận số nguyên từ 1 đến tổng số câu đang chọn. Chuyển câu sẽ dừng âm thanh và hủy chuyển tự động đang chờ, giữ số lần sai. Bấm **Hủy** hoặc Escape để đóng ô nhập.
+
+### Căn cứ và vườn cây trong game
+
+Vào **Chơi & học** để quản lý căn cứ và vườn cây. Khởi đầu với căn cứ cấp 1,
+2 ô đất và số vàng hiện có; kiếm vàng bằng cách trả lời đúng rồi kết thúc lượt chơi.
+Dùng vàng mua hạt, trồng vào ô trống, đợi cây chín rồi bấm **Thu hoạch** để tự động
+bán nông sản. Cây vẫn lớn khi đóng web và không bị hỏng khi chín.
+
+| Cây | Cấp căn cứ | Giá hạt | Thời gian | Giá bán cơ bản |
+| --- | --- | --- | --- | --- |
+| Dâu tây · いちご | 1 | 3 vàng | 1 phút | 8 vàng |
+| Quýt · みかん | 2 | 8 vàng | 3 phút | 20 vàng |
+| Đào · もも | 3 | 15 vàng | 5 phút | 36 vàng |
+
+Nâng cấp căn cứ lên cấp 2/3/4 tốn lần lượt 40/100/220 vàng. Mỗi cấp thêm một ô đất
+(tối đa 5 ô), thêm 1 vàng cho mỗi câu trả lời đúng và 2 vàng mỗi lần thu hoạch.
+Thưởng câu đúng ở cấp 1–4 là 3/4/5/6 vàng. Vườn cây dùng thời gian trên thiết bị và
+lưu trong `mimikara-game-v1` cùng tiến độ game; dữ liệu cũ tự bổ sung căn cứ cấp 1,
+giữ nguyên EXP, vàng, thẻ và kỷ lục. Không cần migration database mới.

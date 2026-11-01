@@ -1,3 +1,4 @@
+import { VocabularySearch } from './VocabularySearch'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { LanguageSwitch } from './i18n'
 import { useLanguage } from './translations'
@@ -106,7 +107,7 @@ export function VocabularyFlashcardMode({ initialDeck, onClose }: { initialDeck?
       <h1>{t('wordFlashcard')}</h1>
       <button type="button" onClick={() => void toggleFullscreen()}>{t(fullscreen ? 'exitFullscreen' : 'fullscreen')}</button>
       <LanguageSwitch /><AccountMenu />
-    </header>
+    <VocabularySearch /></header>
     <div className="word-flashcards-tools">
       <div role="group" aria-label={t('flashcardDecks')}>
         {(['N3', 'RADICALS'] as const).map(item => <button type="button" key={item} aria-pressed={deck === item} onClick={() => chooseDeck(item)}>{item === 'N3' ? 'N3' : t('radicals')}</button>)}

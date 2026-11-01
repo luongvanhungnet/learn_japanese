@@ -1,0 +1,642 @@
+[
+  {
+    "id": "n3-listening-task-001",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "男の人はまず何をしますか。",
+    "choices": [
+      "窓を閉める",
+      "椅子を並べる",
+      "資料を配る",
+      "会議を始める"
+    ],
+    "answer": 0,
+    "explanation": "Người nữ nói tài liệu và ghế đã xong, yêu cầu đóng cửa sổ trước.",
+    "batch": 9,
+    "audioText": "女：会議の準備、ありがとうございます。椅子も資料も大丈夫ですね。男：ほかに何かありますか。女：少し寒いので、先に窓を閉めてください。それから、お茶をお願いします。質問。男の人はまず何をしますか。"
+  },
+  {
+    "id": "n3-listening-task-002",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "女の人は何を持っていきますか。",
+    "choices": [
+      "昼のお弁当",
+      "飲み物",
+      "大きな地図",
+      "料理の道具"
+    ],
+    "answer": 1,
+    "explanation": "Bữa trưa ở nhà hàng; đồ uống trên núi phải tự mang.",
+    "batch": 9,
+    "audioText": "男：明日の山歩き、昼は途中の店で食べます。女：では、お弁当はいりませんね。男：ええ。でも、山の上には店がないので、飲み物は自分で用意してください。地図は私が持っていきます。質問。女の人は何を持っていきますか。"
+  },
+  {
+    "id": "n3-listening-task-003",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "男の人は書類をどうしますか。",
+    "choices": [
+      "机に置いて帰る",
+      "郵便で送る",
+      "部長が戻ったら直接渡す",
+      "受付に預ける"
+    ],
+    "answer": 2,
+    "explanation": "Tài liệu quan trọng nên đợi trưởng phòng rồi giao trực tiếp.",
+    "batch": 9,
+    "audioText": "女：この書類を部長に渡してください。男：今は外出中ですね。机に置きますか。女：個人情報が入っているので、置かずに、部長が戻ったら直接お願いします。男：分かりました。戻るまで私が持っています。質問。男の人は書類をどうしますか。"
+  },
+  {
+    "id": "n3-listening-task-004",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "女の人は次に何を買いますか。",
+    "choices": [
+      "卵",
+      "パン",
+      "りんご",
+      "牛乳"
+    ],
+    "answer": 3,
+    "explanation": "Mẹ đã mua trứng và bánh mì, ở nhà còn táo; chỉ cần mua sữa.",
+    "batch": 9,
+    "audioText": "女：買い物に行くけど、卵とパンがいるんだよね。男：その二つはお母さんが買ってきたよ。女：じゃあ、牛乳は。男：もうないね。りんごは冷蔵庫にあるから、牛乳だけお願い。質問。女の人は次に何を買いますか。"
+  },
+  {
+    "id": "n3-listening-task-005",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "男の人はどこで待ちますか。",
+    "choices": [
+      "駅の南口",
+      "駅の北口",
+      "図書館の入口",
+      "バス停"
+    ],
+    "answer": 0,
+    "explanation": "Bắc khẩu đang thi công nên đổi sang nam khẩu.",
+    "batch": 9,
+    "audioText": "女：明日は駅の北口で会いましょう。男：北口は工事中らしいですよ。女：そうですか。では、反対側の南口にしましょう。図書館へはそこから一緒に歩きます。男：九時ですね。質問。男の人はどこで待ちますか。"
+  },
+  {
+    "id": "n3-listening-task-006",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "女の人は申込書をいつ出しますか。",
+    "choices": [
+      "今日中",
+      "金曜日まで",
+      "来週月曜",
+      "日曜の夜"
+    ],
+    "answer": 1,
+    "explanation": "Hạn thứ Sáu không thay đổi dù chủ nhiệm vắng.",
+    "batch": 9,
+    "audioText": "女：申込書、今日出さないといけませんか。男：金曜日までで大丈夫です。女：先生は明日から出張ですよね。男：ええ。でも事務所で受け付けます。期限は変わりません。質問。女の人は申込書をいつ出しますか。"
+  },
+  {
+    "id": "n3-listening-task-007",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "男の人は図書館で何をしますか。",
+    "choices": [
+      "雑誌を買う",
+      "本を予約し直す",
+      "予約した本を受け取る",
+      "CDを返す"
+    ],
+    "answer": 2,
+    "explanation": "Chị đã trả CD, em nhờ anh nhận sách đặt trước.",
+    "batch": 9,
+    "audioText": "女：図書館へ行くなら、予約した本を受け取ってきてくれない。男：いいよ。CDも返すんだっけ。女：CDは昨日返した。私の図書館カードを持って、本だけお願い。男：分かった。質問。男の人は図書館で何をしますか。"
+  },
+  {
+    "id": "n3-listening-task-008",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "女の人は何時の電車に乗りますか。",
+    "choices": [
+      "八時",
+      "八時四十分",
+      "九時",
+      "八時二十分"
+    ],
+    "answer": 3,
+    "explanation": "Tàu tám giờ đã hết chỗ; chọn 8:20 vì phải đến trước 10 giờ.",
+    "batch": 9,
+    "audioText": "女：九時の電車だと十時までに着きますか。男：十時十分になります。八時の便は満席ですが、八時二十分なら空いています。女：じゃあ、それを一枚お願いします。質問。女の人は何時の電車に乗りますか。"
+  },
+  {
+    "id": "n3-listening-task-009",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "男の人は料理をする前に何をしますか。",
+    "choices": [
+      "野菜を洗う",
+      "肉を焼く",
+      "皿を片づける",
+      "ご飯を炊く"
+    ],
+    "answer": 0,
+    "explanation": "Cơm đã nấu, yêu cầu đầu tiên là rửa rau.",
+    "batch": 9,
+    "audioText": "男：夕食を手伝うよ。肉を焼こうか。女：ありがとう。ご飯はもう炊いてあるから、まず野菜を洗って。私が切るから、その後で肉を焼いてくれる。男：了解。質問。男の人は料理をする前に何をしますか。"
+  },
+  {
+    "id": "n3-listening-task-010",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "女の人は荷物をどこへ運びますか。",
+    "choices": [
+      "一階の受付",
+      "二階の会議室",
+      "三階の事務室",
+      "外の車"
+    ],
+    "answer": 1,
+    "explanation": "Địa điểm họp thay đổi xuống phòng tầng hai.",
+    "batch": 9,
+    "audioText": "男：この箱を会議室までお願いできますか。女：三階でしたよね。男：今日は機械の点検で三階が使えないので、二階になりました。一階の受付には置かないでください。女：分かりました。質問。女の人は荷物をどこへ運びますか。"
+  },
+  {
+    "id": "n3-listening-task-011",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "男の人は店に何を持っていきますか。",
+    "choices": [
+      "時計の写真だけ",
+      "レシートだけ",
+      "壊れた時計と保証書",
+      "新しい電池だけ"
+    ],
+    "answer": 2,
+    "explanation": "Bảo hành còn hiệu lực nên phải mang cả đồng hồ và giấy bảo hành.",
+    "batch": 10,
+    "audioText": "男：時計が動かなくなったんですが。女：保証期間内ですか。男：買って半年です。女：それなら時計と保証書を持ってきてください。電池だけの問題かどうか、店で調べます。質問。男の人は店に何を持っていきますか。"
+  },
+  {
+    "id": "n3-listening-task-012",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "女の人はまず誰に連絡しますか。",
+    "choices": [
+      "隣の部屋の人",
+      "電力会社",
+      "家族",
+      "管理会社"
+    ],
+    "answer": 3,
+    "explanation": "Nước rò từ trần, trước tiên liên hệ công ty quản lý.",
+    "batch": 10,
+    "audioText": "女：天井から水が落ちてきたの。上の部屋に行ったほうがいいかな。男：自分で話す前に、管理会社へ電話したほうがいいよ。状況を見てもらえるから。女：そうする。番号を調べるね。質問。女の人はまず誰に連絡しますか。"
+  },
+  {
+    "id": "n3-listening-task-013",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "男の人は明日の朝、何をしますか。",
+    "choices": [
+      "駅で先生を迎える",
+      "会場を予約する",
+      "昼食を注文する",
+      "資料を印刷する"
+    ],
+    "answer": 0,
+    "explanation": "Hội trường, tài liệu và đồ ăn đã có người lo; nam đón thầy ở ga.",
+    "batch": 10,
+    "audioText": "女：会場の予約は終わりました。資料は私が印刷します。男：昼食は。女：事務の方が注文しました。あなたは明日の九時に、駅で先生を迎えてください。男：はい、車で行きます。質問。男の人は明日の朝、何をしますか。"
+  },
+  {
+    "id": "n3-listening-task-014",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "女の人は予約をどう変えますか。",
+    "choices": [
+      "時間を六時から七時にする",
+      "人数を四人から三人にする",
+      "日を土曜から日曜にする",
+      "人数を三人から四人にする"
+    ],
+    "answer": 1,
+    "explanation": "Một người không đến được nên giảm số từ 4 còn 3, giữ giờ và ngày.",
+    "batch": 10,
+    "audioText": "女：土曜六時から四人で予約した中村です。一人来られなくなりました。男：三名様への変更ですね。お時間は六時のままでよろしいですか。女：はい、時間と日は変えません。質問。女の人は予約をどう変えますか。"
+  },
+  {
+    "id": "n3-listening-task-015",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "男の人はレポートをどう提出しますか。",
+    "choices": [
+      "紙で窓口に出す",
+      "写真をスマホで送る",
+      "PDFにしてメールで送る",
+      "郵便で送る"
+    ],
+    "answer": 2,
+    "explanation": "Do văn phòng nghỉ nên nộp PDF qua email.",
+    "batch": 10,
+    "audioText": "男：レポートは印刷して事務所に出すんですよね。女：今週は事務所が閉まっているので、PDFをメールで送ってください。写真では受け付けません。男：締め切りは明日のままですね。女：はい。質問。男の人はレポートをどう提出しますか。"
+  },
+  {
+    "id": "n3-listening-task-016",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "女の人は次にどこへ行きますか。",
+    "choices": [
+      "一番窓口",
+      "三番窓口",
+      "銀行",
+      "二番窓口"
+    ],
+    "answer": 3,
+    "explanation": "Chỉ cần bổ sung xác nhận tại quầy 2; không nộp tiền nữa.",
+    "batch": 10,
+    "audioText": "女：申請書を書きました。次は一番窓口ですか。男：本人確認は二番です。料金はもう払いましたか。女：はい。男：では、銀行へ行く必要はありません。二番で確認を受けてください。質問。女の人は次にどこへ行きますか。"
+  },
+  {
+    "id": "n3-listening-task-017",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "男の人は何を片づけますか。",
+    "choices": [
+      "机の上の本",
+      "床の箱",
+      "窓際の花",
+      "台所の皿"
+    ],
+    "answer": 0,
+    "explanation": "Nữ sẽ dọn hộp, hoa giữ nguyên; nam cất sách.",
+    "batch": 10,
+    "audioText": "女：お客さんが来る前に片づけよう。男：床の箱を運ぶよ。女：それは私がやるから、机の本を棚に戻して。花はそのままでいいよ。男：分かった。本からやるね。質問。男の人は何を片づけますか。"
+  },
+  {
+    "id": "n3-listening-task-018",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "女の人は雨の場合、どこに集合しますか。",
+    "choices": [
+      "公園の門",
+      "体育館の入口",
+      "教室",
+      "駅前"
+    ],
+    "answer": 1,
+    "explanation": "Nắng tập trung cổng công viên, mưa ở cửa nhà thể dục.",
+    "batch": 10,
+    "audioText": "女：明日の掃除活動、集合場所は公園の門ですよね。男：晴れならそうです。雨でも活動はしますが、その場合は体育館の入口へ来てください。女：家を出る前に天気を確認します。質問。女の人は雨の場合、どこに集合しますか。"
+  },
+  {
+    "id": "n3-listening-task-019",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "男の人はどの商品を選びますか。",
+    "choices": [
+      "一番大きいかばん",
+      "革の重いかばん",
+      "軽くて防水のかばん",
+      "防水ではない安いかばん"
+    ],
+    "answer": 2,
+    "explanation": "Đi xe đạp nên ưu tiên nhẹ và chống nước dù hơi đắt.",
+    "batch": 10,
+    "audioText": "男：通勤用のかばんを探しています。自転車なので、軽くて雨に強い物がいいです。女：こちらは防水で軽いですが、少し高いです。男：大きさは十分ですね。これにします。質問。男の人はどの商品を選びますか。"
+  },
+  {
+    "id": "n3-listening-task-020",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "女の人は何を家から持ってきますか。",
+    "choices": [
+      "包丁",
+      "材料",
+      "皿",
+      "エプロン"
+    ],
+    "answer": 3,
+    "explanation": "Dụng cụ và nguyên liệu lớp có sẵn, chỉ mang tạp dề.",
+    "batch": 10,
+    "audioText": "女：料理教室には包丁を持っていきますか。男：道具と材料は全部用意されています。女：では、何が必要ですか。男：エプロンだけ、ご自分のを持ってきてください。質問。女の人は何を家から持ってきますか。"
+  },
+  {
+    "id": "n3-listening-task-021",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "男の人は薬をいつ飲みますか。",
+    "choices": [
+      "毎食後",
+      "毎食前",
+      "朝だけ食前",
+      "寝る前だけ"
+    ],
+    "answer": 0,
+    "explanation": "Dược sĩ chỉ uống sau ba bữa, không uống lúc đói.",
+    "batch": 10,
+    "audioText": "男：この薬は朝だけですか。女：朝、昼、夜の三回です。胃に負担がかかるので、食事を済ませてから飲んでください。男：分かりました。食前ではないんですね。質問。男の人は薬をいつ飲みますか。"
+  },
+  {
+    "id": "n3-listening-task-022",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "女の人は欠席の連絡をどの方法でしますか。",
+    "choices": [
+      "友達に口頭で頼むだけ",
+      "先生にメールする",
+      "教室の机にメモを置く",
+      "何も連絡しない"
+    ],
+    "answer": 1,
+    "explanation": "Thầy yêu cầu người vắng tự email trước giờ học.",
+    "batch": 10,
+    "audioText": "女：明日の授業を休むので、先生に伝えてくれない。男：先生は、欠席する本人が授業前にメールするように言っていたよ。女：そうなんだ。じゃあ、今から理由を書いて送るね。質問。女の人は欠席の連絡をどの方法でしますか。"
+  },
+  {
+    "id": "n3-listening-task-023",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "男の人は何を先に確認しますか。",
+    "choices": [
+      "電車の切符",
+      "店の営業時間",
+      "ホテルの空室",
+      "天気予報"
+    ],
+    "answer": 2,
+    "explanation": "Đợt nghỉ đông người, trước hết kiểm tra phòng rồi mua vé.",
+    "batch": 10,
+    "audioText": "男：旅行の切符、もう買おうか。女：その連休は混むから、泊まれる所があるか先に調べよう。男：そうだね。宿が取れたら、電車を予約しよう。質問。男の人は何を先に確認しますか。"
+  },
+  {
+    "id": "n3-listening-task-024",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "女の人は写真をどう送りますか。",
+    "choices": [
+      "元のまま何度も送る",
+      "紙に印刷して郵送する",
+      "写真を削除する",
+      "大きさを小さくしてメールで送る"
+    ],
+    "answer": 3,
+    "explanation": "Email không nhận được ảnh lớn nên giảm dung lượng rồi gửi lại.",
+    "batch": 10,
+    "audioText": "女：写真を送ったけど届いた。男：容量が大きすぎるみたい。小さくして、もう一度メールしてくれる。女：分かった。印刷する必要はないよね。男：うん、データでお願い。質問。女の人は写真をどう送りますか。"
+  },
+  {
+    "id": "n3-listening-task-025",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "男の人は洗濯物をどうしますか。",
+    "choices": [
+      "部屋の中に干す",
+      "外に出したままにする",
+      "全部捨てる",
+      "隣の家に持っていく"
+    ],
+    "answer": 0,
+    "explanation": "Sắp mưa, sấy không dùng được nên phơi trong phòng.",
+    "batch": 10,
+    "audioText": "女：午後から雨だって。男：洗濯物、外に干しても大丈夫かな。女：今日は乾燥機も故障しているから、部屋に干しておいて。男：そうする。質問。男の人は洗濯物をどうしますか。"
+  },
+  {
+    "id": "n3-listening-task-026",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "女の人は店員に何を頼みますか。",
+    "choices": [
+      "別の色を探してもらう",
+      "別のサイズを探してもらう",
+      "靴を修理してもらう",
+      "返品だけする"
+    ],
+    "answer": 1,
+    "explanation": "Màu vừa ý nhưng chật nên nhờ tìm cỡ lớn hơn.",
+    "batch": 10,
+    "audioText": "女：この靴、色は好きなんですが、少しきついです。男：一つ大きいサイズをお持ちしましょうか。女：お願いします。同じ色で試したいです。質問。女の人は店員に何を頼みますか。"
+  },
+  {
+    "id": "n3-listening-task-027",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "男の人は今日、何を終わらせますか。",
+    "choices": [
+      "表紙のデザイン",
+      "資料の印刷",
+      "資料の数字の確認",
+      "会場の掃除"
+    ],
+    "answer": 2,
+    "explanation": "Bìa có người khác lo, in ngày mai; hôm nay kiểm tra số liệu.",
+    "batch": 10,
+    "audioText": "女：資料は明日印刷します。今日中に数字だけ確認してください。男：表紙も直しますか。女：それはデザイン担当がやっています。内容の数値をお願いします。質問。男の人は今日、何を終わらせますか。"
+  },
+  {
+    "id": "n3-listening-task-028",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "女の人は駅から何で行きますか。",
+    "choices": [
+      "徒歩",
+      "タクシー",
+      "自転車",
+      "バス"
+    ],
+    "answer": 3,
+    "explanation": "Mưa và nhiều hành lý, chọn xe buýt ngay trước ga.",
+    "batch": 10,
+    "audioText": "女：駅から歩いて二十分でしたね。荷物が多いし、雨ですね。男：バスなら五分です。タクシー乗り場は混んでいますが、バスはすぐ来ます。女：じゃあ、バスにします。質問。女の人は駅から何で行きますか。"
+  },
+  {
+    "id": "n3-listening-task-029",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "男の人は犬をいつ散歩させますか。",
+    "choices": [
+      "夕方、涼しくなってから",
+      "昼の一番暑い時",
+      "朝ご飯の前だけ",
+      "夜中の十二時"
+    ],
+    "answer": 0,
+    "explanation": "Mặt đường nóng nên chờ chiều dịu mới dắt chó đi.",
+    "batch": 10,
+    "audioText": "男：犬の散歩、今から行こうか。女：まだ道路が熱いよ。今日は朝に一度行ったから、次は夕方、涼しくなってからでいい。男：分かった。質問。男の人は犬をいつ散歩させますか。"
+  },
+  {
+    "id": "n3-listening-task-030",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "女の人は会費をどう払いますか。",
+    "choices": [
+      "今日、銀行で振り込む",
+      "当日、受付で現金で払う",
+      "カードでネット決済する",
+      "先生に郵送する"
+    ],
+    "answer": 1,
+    "explanation": "Không chuyển khoản; nộp tiền mặt tại tiếp tân vào ngày diễn ra.",
+    "batch": 10,
+    "audioText": "女：会費は今日振り込みますか。男：今回は当日、受付で集めます。カードは使えないので現金を用意してください。女：分かりました。質問。女の人は会費をどう払いますか。"
+  },
+  {
+    "id": "n3-listening-task-031",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "男の人は鍵をどこに置きますか。",
+    "choices": [
+      "郵便受けの中",
+      "台所の引き出し",
+      "玄関の棚の上",
+      "机の下"
+    ],
+    "answer": 2,
+    "explanation": "Không để hòm thư vì bất an; để kệ cạnh cửa.",
+    "batch": 10,
+    "audioText": "男：帰りが遅くなるから、鍵を郵便受けに入れておこうか。女：それは心配だから、家を出る前に玄関の棚に置いて。私は自分の鍵を持っていく。質問。男の人は鍵をどこに置きますか。"
+  },
+  {
+    "id": "n3-listening-task-032",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "女の人は申込書のどこを直しますか。",
+    "choices": [
+      "名前",
+      "住所",
+      "希望日",
+      "電話番号"
+    ],
+    "answer": 3,
+    "explanation": "Địa chỉ đúng là mới, chỉ sai số điện thoại cuối.",
+    "batch": 10,
+    "audioText": "男：申込書を確認します。住所は最近変わりましたか。女：はい、そこに書いたのが新しい住所です。あ、電話番号の最後が違います。直してもいいですか。男：どうぞ。質問。女の人は申込書のどこを直しますか。"
+  },
+  {
+    "id": "n3-listening-task-033",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "男の人は何を借りますか。",
+    "choices": [
+      "プロジェクター",
+      "パソコン",
+      "マイク",
+      "カメラ"
+    ],
+    "answer": 0,
+    "explanation": "Có máy tính, phòng nhỏ không cần micro; chỉ mượn máy chiếu.",
+    "batch": 10,
+    "audioText": "男：発表にパソコンを持っていきます。女：画面を映す機械は会場にないので、事務所で借りてください。マイクは小さい部屋だから不要です。男：プロジェクターですね。質問。男の人は何を借りますか。"
+  },
+  {
+    "id": "n3-listening-task-034",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "女の人はどこに自転車を止めますか。",
+    "choices": [
+      "入口の前",
+      "建物の裏",
+      "歩道の上",
+      "車の駐車場"
+    ],
+    "answer": 1,
+    "explanation": "Lối vào cần cho xe đẩy, bãi xe đạp ở sau tòa nhà.",
+    "batch": 10,
+    "audioText": "女：自転車は入口の前でいいですか。男：そこは荷物を運ぶので空けてください。建物の裏に自転車置き場があります。女：そちらに回ります。質問。女の人はどこに自転車を止めますか。"
+  },
+  {
+    "id": "n3-listening-task-035",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "男の人は洗った皿をどうしますか。",
+    "choices": [
+      "ぬれたまま重ねる",
+      "すぐ箱に詰める",
+      "乾かしてから棚にしまう",
+      "外に置く"
+    ],
+    "answer": 2,
+    "explanation": "Yêu cầu làm khô bát rồi mới cất vào tủ.",
+    "batch": 10,
+    "audioText": "男：皿を洗いました。すぐ棚に入れますか。女：ぬれたまま重ねないで、ここで乾かしてからしまってください。男：分かりました。質問。男の人は洗った皿をどうしますか。"
+  },
+  {
+    "id": "n3-listening-task-036",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "女の人は明日の会議にどう参加しますか。",
+    "choices": [
+      "会社に行って参加する",
+      "全く参加しない",
+      "資料だけ郵送する",
+      "オンラインで参加する"
+    ],
+    "answer": 3,
+    "explanation": "Đang công tác, không về kịp nên họp trực tuyến.",
+    "batch": 10,
+    "audioText": "女：明日は出張先から戻るのが夕方になります。会議は午後ですよね。男：ええ。オンラインでも参加できますよ。女：では、そうします。接続先を送ってください。質問。女の人は明日の会議にどう参加しますか。"
+  },
+  {
+    "id": "n3-listening-task-037",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "男の人は次に何を止めますか。",
+    "choices": [
+      "エアコン",
+      "冷蔵庫",
+      "廊下の照明",
+      "パソコン"
+    ],
+    "answer": 0,
+    "explanation": "Máy tính đã tắt; đèn hành lang để lại cho người khác, chỉ tắt điều hòa.",
+    "batch": 10,
+    "audioText": "女：最後に部屋を出るなら、エアコンを切ってね。男：パソコンはもう切った。廊下の電気も消す。女：そこはまだ人が使うから、そのままにして。質問。男の人は次に何を止めますか。"
+  },
+  {
+    "id": "n3-listening-task-038",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "女の人はいつ美容院に行きますか。",
+    "choices": [
+      "水曜の午前",
+      "木曜の午後",
+      "木曜の午前",
+      "金曜の夜"
+    ],
+    "answer": 1,
+    "explanation": "Thứ Tư nghỉ, sáng thứ Năm kín nên chốt chiều thứ Năm.",
+    "batch": 10,
+    "audioText": "女：水曜の朝、空いていますか。男：水曜は定休日です。木曜は午前がいっぱいですが、午後なら空いています。女：では、木曜の午後でお願いします。質問。女の人はいつ美容院に行きますか。"
+  },
+  {
+    "id": "n3-listening-task-039",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "男の人は忘れ物をどう探しますか。",
+    "choices": [
+      "もう一度家だけ探す",
+      "店で新しい物を買う",
+      "駅の窓口に問い合わせる",
+      "バス会社だけに電話する"
+    ],
+    "answer": 2,
+    "explanation": "Nhớ để túi trên tàu nên hỏi quầy đồ thất lạc ở ga.",
+    "batch": 10,
+    "audioText": "男：かばんがない。家にはなかったんだ。女：最後に見たのは。男：電車の席に置いたと思う。女：じゃあ、駅の忘れ物窓口に聞いてみよう。質問。男の人は忘れ物をどう探しますか。"
+  },
+  {
+    "id": "n3-listening-task-040",
+    "section": "listening",
+    "kind": "Hiểu nhiệm vụ",
+    "prompt": "女の人は発表前に何を直しますか。",
+    "choices": [
+      "最初の写真",
+      "発表の順番",
+      "会場の席",
+      "最後のページの文字の大きさ"
+    ],
+    "answer": 3,
+    "explanation": "Trang cuối chữ nhỏ; hình đầu rõ và thứ tự giữ nguyên.",
+    "batch": 10,
+    "audioText": "男：最初の写真はよく見えます。でも、最後のページの文字が小さいですね。女：大きくします。発表の順番も変えますか。男：順番はそのままで大丈夫です。質問。女の人は発表前に何を直しますか。"
+  }
+]

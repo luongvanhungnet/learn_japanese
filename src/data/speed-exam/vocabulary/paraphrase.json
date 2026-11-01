@@ -1,0 +1,602 @@
+[
+  {
+    "id": "n3-vocabulary-paraphrase-001",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「この道具は役に立ちます。」と同じ意味はどれですか。",
+    "choices": [
+      "この道具は便利です。",
+      "この道具は危険です。",
+      "この道具は古いです。",
+      "この道具は高価です。"
+    ],
+    "answer": 0,
+    "explanation": "役に立つ: hữu ích, tiện dùng.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-002",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「彼はめったに怒りません。」に近い意味はどれですか。",
+    "choices": [
+      "彼はいつも怒っています。",
+      "彼が怒ることはほとんどありません。",
+      "彼はすぐ怒ります。",
+      "彼は毎日一度怒ります。"
+    ],
+    "answer": 1,
+    "explanation": "めったに〜ない: hiếm khi.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-003",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「予定を延期しました。」と同じ意味はどれですか。",
+    "choices": [
+      "予定を全部取り消しました。",
+      "予定の日を早くしました。",
+      "予定の日を後にしました。",
+      "予定どおりに行いました。"
+    ],
+    "answer": 2,
+    "explanation": "延期: dời sang thời điểm sau, khác với hủy.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-004",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「ようやく仕事が終わった。」に近い意味はどれですか。",
+    "choices": [
+      "始める前に終わった。",
+      "すぐに仕事が終わった。",
+      "まだ終わっていない。",
+      "時間がかかったが、やっと終わった。"
+    ],
+    "answer": 3,
+    "explanation": "ようやく: cuối cùng cũng, sau nỗ lực hoặc chờ đợi.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-005",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「この問題は複雑です。」に近い意味はどれですか。",
+    "choices": [
+      "この問題は簡単には理解できません。",
+      "この問題はすぐ分かります。",
+      "この問題は短いです。",
+      "この問題は必要ありません。"
+    ],
+    "answer": 0,
+    "explanation": "複雑: phức tạp, không dễ hiểu.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-006",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「彼は必死に走った。」に近い意味はどれですか。",
+    "choices": [
+      "彼は少しだけ走った。",
+      "彼は力いっぱい走った。",
+      "彼は楽しそうに歩いた。",
+      "彼は走るのをやめた。"
+    ],
+    "answer": 1,
+    "explanation": "必死に: hết sức, dốc toàn lực.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-007",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「これは無料です。」と同じ意味はどれですか。",
+    "choices": [
+      "これは安くなっています。",
+      "これは予約が必要です。",
+      "これはお金を払わなくてもいいです。",
+      "これはお金が返ってきます。"
+    ],
+    "answer": 2,
+    "explanation": "無料: không mất tiền.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-008",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「電車は間もなく到着します。」に近い意味はどれですか。",
+    "choices": [
+      "電車はさっき着きました。",
+      "電車は長い時間来ません。",
+      "電車は今日は来ません。",
+      "電車はもうすぐ着きます。"
+    ],
+    "answer": 3,
+    "explanation": "間もなく: chẳng bao lâu nữa, sắp.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-009",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「彼女は落ち着いて答えた。」に近い意味はどれですか。",
+    "choices": [
+      "彼女は慌てずに答えた。",
+      "彼女は怒って答えた。",
+      "彼女は泣きながら答えた。",
+      "彼女は答えられなかった。"
+    ],
+    "answer": 0,
+    "explanation": "落ち着く: bình tĩnh.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-010",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「この店は年中開いています。」と同じ意味はどれですか。",
+    "choices": [
+      "この店は夏だけ開いています。",
+      "この店は一年を通して開いています。",
+      "この店は昼だけ開いています。",
+      "この店は今年初めて開きます。"
+    ],
+    "answer": 1,
+    "explanation": "年中: suốt cả năm.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-011",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「資料を至急送ってください。」に近い意味はどれですか。",
+    "choices": [
+      "資料は来月送ってください。",
+      "資料をゆっくり作ってください。",
+      "資料をできるだけ早く送ってください。",
+      "資料を送り直さないでください。"
+    ],
+    "answer": 2,
+    "explanation": "至急: khẩn cấp, càng sớm càng tốt.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-012",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「彼は正直な人です。」に近い意味はどれですか。",
+    "choices": [
+      "彼は話が長い人です。",
+      "彼はいつも元気な人です。",
+      "彼は秘密を必ず話す人です。",
+      "彼はうそをつかない人です。"
+    ],
+    "answer": 3,
+    "explanation": "正直: thành thật, không nói dối.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-013",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「空いている席に座った。」の意味はどれですか。",
+    "choices": [
+      "誰も座っていない席に座った。",
+      "窓の近くの席に座った。",
+      "一番高い席に座った。",
+      "予約された席に座った。"
+    ],
+    "answer": 0,
+    "explanation": "席が空いている: chỗ chưa có người ngồi.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-014",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「この靴はぴったりです。」に近い意味はどれですか。",
+    "choices": [
+      "この靴は大きすぎます。",
+      "この靴は足の大きさに合っています。",
+      "この靴は色が明るいです。",
+      "この靴は重すぎます。"
+    ],
+    "answer": 1,
+    "explanation": "ぴったり: vừa khít, đúng cỡ.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-015",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「その説明は具体的です。」に近い意味はどれですか。",
+    "choices": [
+      "その説明には何も内容がありません。",
+      "その説明は必ず短いです。",
+      "その説明にははっきりした例や内容があります。",
+      "その説明は聞こえません。"
+    ],
+    "answer": 2,
+    "explanation": "具体的: cụ thể, rõ về ví dụ hay nội dung.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-016",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「参加を断りました。」と同じ意味はどれですか。",
+    "choices": [
+      "参加したいと頼みました。",
+      "参加の人数を増やしました。",
+      "参加してから帰りました。",
+      "参加しないと伝えました。"
+    ],
+    "answer": 3,
+    "explanation": "断る: từ chối.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-017",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「荷物を受け取りました。」に近い意味はどれですか。",
+    "choices": [
+      "届いた荷物をもらいました。",
+      "荷物を送りました。",
+      "荷物を捨てました。",
+      "荷物を注文しました。"
+    ],
+    "answer": 0,
+    "explanation": "受け取る: nhận.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-018",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「その映画は退屈でした。」に近い意味はどれですか。",
+    "choices": [
+      "その映画は怖すぎました。",
+      "その映画はおもしろくありませんでした。",
+      "その映画は感動的でした。",
+      "その映画は長くありませんでした。"
+    ],
+    "answer": 1,
+    "explanation": "退屈: buồn chán; không đồng nghĩa đơn thuần với dài.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-019",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「偶然、駅で先生に会った。」に近い意味はどれですか。",
+    "choices": [
+      "先生との約束どおり駅に行った。",
+      "毎日駅で先生に会っている。",
+      "会う約束はなかったが、駅で先生に会った。",
+      "先生に会うために駅で待った。"
+    ],
+    "answer": 2,
+    "explanation": "偶然: tình cờ, không hẹn trước.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-020",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「田中さんは留守です。」と同じ意味はどれですか。",
+    "choices": [
+      "田中さんは家で寝ています。",
+      "田中さんは電話中です。",
+      "田中さんは引っ越しました。",
+      "田中さんは家にいません。"
+    ],
+    "answer": 3,
+    "explanation": "留守: vắng nhà; không khẳng định đã chuyển nhà.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-021",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「彼の意見に賛成した。」と同じ意味はどれですか。",
+    "choices": [
+      "彼の意見がよいと思うと伝えた。",
+      "彼の意見に反対した。",
+      "彼の意見を聞かなかった。",
+      "彼に別の人を紹介した。"
+    ],
+    "answer": 0,
+    "explanation": "賛成: đồng ý.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-022",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「宿題を済ませた。」に近い意味はどれですか。",
+    "choices": [
+      "宿題を持ち帰った。",
+      "宿題を全部終えた。",
+      "宿題を忘れた。",
+      "宿題を増やした。"
+    ],
+    "answer": 1,
+    "explanation": "済ませる: hoàn tất việc cần làm.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-023",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「まじめに取り組んでいる。」に近い意味はどれですか。",
+    "choices": [
+      "何もせずに見ている。",
+      "仕事を全部人に任せている。",
+      "ふざけずに一生懸命やっている。",
+      "遊びながら適当にやっている。"
+    ],
+    "answer": 2,
+    "explanation": "まじめに取り組む: làm nghiêm túc, chăm chỉ.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-024",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「費用を節約した。」に近い意味はどれですか。",
+    "choices": [
+      "使うお金を増やした。",
+      "お金を全部借りた。",
+      "払ったお金を失くした。",
+      "使うお金を少なくした。"
+    ],
+    "answer": 3,
+    "explanation": "節約: tiết kiệm chi tiêu hoặc tài nguyên.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-025",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「彼はかなり疲れている。」に近い意味はどれですか。",
+    "choices": [
+      "彼はだいぶ疲れている。",
+      "彼は少しも疲れていない。",
+      "彼は疲れたふりをしている。",
+      "彼は疲れる前に休んだ。"
+    ],
+    "answer": 0,
+    "explanation": "かなり và だいぶ đều biểu thị mức độ đáng kể.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-026",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「説明を省略します。」と同じ意味はどれですか。",
+    "choices": [
+      "説明をもっと詳しくします。",
+      "説明の全部または一部をしないことにします。",
+      "説明を全部訳します。",
+      "説明を繰り返します。"
+    ],
+    "answer": 1,
+    "explanation": "省略: lược bỏ toàn bộ hoặc một phần.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-027",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「予定を確かめた。」に近い意味はどれですか。",
+    "choices": [
+      "予定を取り消した。",
+      "予定を秘密にした。",
+      "予定がどうなっているか確認した。",
+      "予定を後に延ばした。"
+    ],
+    "answer": 2,
+    "explanation": "確かめる: kiểm tra cho chắc chắn.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-028",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「彼女はだまっていた。」に近い意味はどれですか。",
+    "choices": [
+      "彼女はうそをついていた。",
+      "彼女は人をだましていた。",
+      "彼女は笑い続けていた。",
+      "彼女は何も話さなかった。"
+    ],
+    "answer": 3,
+    "explanation": "黙る: im lặng, khác với 騙す (lừa).",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-029",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「会場は満員だった。」と同じ意味はどれですか。",
+    "choices": [
+      "会場には人がいっぱいだった。",
+      "会場には誰もいなかった。",
+      "会場は閉まっていた。",
+      "会場の人は全員帰った。"
+    ],
+    "answer": 0,
+    "explanation": "満員: đầy người.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-030",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「家賃に水道代を含みます。」と同じ意味はどれですか。",
+    "choices": [
+      "水道代は家賃とは別に必要です。",
+      "家賃の中に水道代も入っています。",
+      "家賃を水道代から引きます。",
+      "水道は使えません。"
+    ],
+    "answer": 1,
+    "explanation": "含む: bao gồm.",
+    "batch": 3
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-031",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「彼に仕事を任せた。」に近い意味はどれですか。",
+    "choices": [
+      "彼の仕事を断った。",
+      "彼の仕事を全部自分でやった。",
+      "彼に仕事をやってもらうことにした。",
+      "彼に仕事をしないように言った。"
+    ],
+    "answer": 2,
+    "explanation": "任せる: giao phó việc cho người khác.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-032",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「この服は目立ちます。」に近い意味はどれですか。",
+    "choices": [
+      "この服は誰にも見えません。",
+      "この服は必ず安いです。",
+      "この服は洗えません。",
+      "この服は人の注意を引きます。"
+    ],
+    "answer": 3,
+    "explanation": "目立つ: nổi bật, thu hút chú ý.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-033",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「事情を話してください。」の意味はどれですか。",
+    "choices": [
+      "どうしてそうなったか、状況を説明してください。",
+      "住所だけ書いてください。",
+      "好きな物を選んでください。",
+      "黙っていてください。"
+    ],
+    "answer": 0,
+    "explanation": "事情: tình hình và nguyên do của sự việc.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-034",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「念のため確認した。」に近い意味はどれですか。",
+    "choices": [
+      "間違いを見つけないために隠した。",
+      "間違いがないように、もう一度確かめた。",
+      "確認する必要がないと決めた。",
+      "確認せずに提出した。"
+    ],
+    "answer": 1,
+    "explanation": "念のため: để chắc chắn, đề phòng sơ suất.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-035",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「昼食は各自で用意してください。」と同じ意味はどれですか。",
+    "choices": [
+      "昼食は先生が全員分準備します。",
+      "昼食は何も持ってこないでください。",
+      "昼食は一人一人が自分で準備してください。",
+      "昼食は全員同じ店で予約してください。"
+    ],
+    "answer": 2,
+    "explanation": "各自: mỗi người tự làm phần mình.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-036",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「彼は急に立ち上がった。」に近い意味はどれですか。",
+    "choices": [
+      "彼はゆっくり横になった。",
+      "彼はずっと立っていた。",
+      "彼は座ったまま動かなかった。",
+      "彼は突然、座っていた所から立った。"
+    ],
+    "answer": 3,
+    "explanation": "急に: đột nhiên; 立ち上がる: đứng dậy.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-037",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「失敗を繰り返した。」と同じ意味はどれですか。",
+    "choices": [
+      "何度も失敗した。",
+      "一度も失敗しなかった。",
+      "失敗する前にやめた。",
+      "人の失敗だけ見た。"
+    ],
+    "answer": 0,
+    "explanation": "繰り返す: lặp đi lặp lại.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-038",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「しばらく待ってください。」に近い意味はどれですか。",
+    "choices": [
+      "ずっと待ち続けてください。",
+      "少しの間、待ってください。",
+      "待たずに帰ってください。",
+      "明日必ず来てください。"
+    ],
+    "answer": 1,
+    "explanation": "しばらく: trong một khoảng thời gian, không phải mãi mãi.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-039",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「彼は自信がある。」に近い意味はどれですか。",
+    "choices": [
+      "彼は自分には絶対できないと思っている。",
+      "彼は他人を全く信じない。",
+      "彼は自分ならできると思っている。",
+      "彼は何も知らない。"
+    ],
+    "answer": 2,
+    "explanation": "自信: tin tưởng vào khả năng của bản thân.",
+    "batch": 4
+  },
+  {
+    "id": "n3-vocabulary-paraphrase-040",
+    "section": "vocabulary",
+    "kind": "Đồng nghĩa / diễn đạt lại",
+    "prompt": "「この商品は品切れです。」と同じ意味はどれですか。",
+    "choices": [
+      "この商品はこれから安くなります。",
+      "この商品は壊れています。",
+      "この商品は予約できませんと決まっています。",
+      "この商品は売れてしまって、今はありません。"
+    ],
+    "answer": 3,
+    "explanation": "品切れ: hết hàng hiện tại; không khẳng định cấm đặt trước.",
+    "batch": 4
+  }
+]

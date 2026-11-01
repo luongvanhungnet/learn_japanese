@@ -1,3 +1,4 @@
+import { VocabularySearch } from './VocabularySearch'
 import { memo, useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react'
 import novel from './data/novel.json'
 import vocabulary from './data/n3.json'
@@ -127,7 +128,7 @@ export function NovelReader({ onClose }: { onClose: () => void }) {
   }
   const selectedGrammar = lookup?.grammarId ? patterns.get(lookup.grammarId) : undefined
   return <div className="novel-shell" ref={shellRef}>
-    <header className="novel-header"><button className="reader-back" onClick={onClose}>← {vi ? 'Luyện tập' : 'Practice'}</button><span>MIMIKARA · STORY</span><LanguageSwitch /><AccountMenu /></header>
+    <header className="novel-header"><button className="reader-back" onClick={onClose}>← {vi ? 'Luyện tập' : 'Practice'}</button><span>MIMIKARA · STORY</span><LanguageSwitch /><AccountMenu /><VocabularySearch /></header>
     <main className="novel-main">
       <div className="novel-title"><span className="eyebrow">N3 READING · 20 CHAPTERS · 880 WORDS</span><h1 lang="ja">{novel.title}</h1><p>{novel.subtitle}</p>
         <p className="reader-instructions">{vi ? 'Di chuột hoặc nhấp vào từ để tra từ vựng và ngữ pháp. Nhấn nút ▶ ở đầu câu để nghe từ câu đó; Escape để đóng thẻ.' : 'Hover or click words to look up vocabulary and grammar. Use ▶ at the start of a sentence to listen from there; Escape closes the card.'}</p></div>

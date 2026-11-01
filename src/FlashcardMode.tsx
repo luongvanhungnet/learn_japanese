@@ -1,3 +1,4 @@
+import { VocabularySearch } from './VocabularySearch'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { LanguageSwitch } from './i18n'
 import { useLanguage } from './translations'
@@ -114,7 +115,7 @@ export function FlashcardMode({ initialDeck, onClose }: { initialDeck?: Flashcar
       <button className="flashcard-back" type="button" onClick={onClose}>{t('flashcardBack')}</button>
       <LanguageSwitch />
       <AccountMenu />
-    </header>
+    <VocabularySearch /></header>
     <section className="flashcard-workspace">
       <div className="flashcard-heading">
         <span className="eyebrow">{t('flashcardDaily')}</span>
