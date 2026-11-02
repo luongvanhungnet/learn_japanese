@@ -1,10 +1,8 @@
-import { VocabularySearch } from './VocabularySearch'
+import { SharedHeader } from './SharedHeader'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { speedQuestions } from './speedExamData'
 import { allSpeedTypes, selectSpeedQuestions, speedGroups, speedSections } from './speedExamSelection'
 import type { SpeedSort } from './speedExamSelection'
-import { LanguageSwitch } from './i18n'
-import { useLanguage } from './translations'
 import './SpeedExamMode.css'
 
 const keys = ['ArrowLeft', 'ArrowUp', 'ArrowDown', 'ArrowRight']
@@ -12,7 +10,6 @@ const arrows = ['←', '↑', '↓', '→']
 
 
 export function SpeedExamMode({ onClose }: { onClose: () => void }) {
-  const { language } = useLanguage()
   const [types, setTypes] = useState(allSpeedTypes)
   const [sort, setSort] = useState<SpeedSort>('original')
   const [seed, setSeed] = useState(1)
@@ -125,11 +122,15 @@ export function SpeedExamMode({ onClose }: { onClose: () => void }) {
   }
 
   return <main className="speed-exam">
-    <header><button type="button" onClick={onClose}>{language === 'vi' ? '← Về học tập' : '← Back to study'}</button><LanguageSwitch /><VocabularySearch /></header>
-    <div className="speed-intro"><span className="eyebrow">JLPT N3 · {speedQuestions.length} CÂU</span><h1>Ôn thi thần tốc</h1>
-      <p>Bộ câu hỏi luyện tập do Codex biên soạn: {speedGroups.map(group => `${group.types.reduce((sum, type) => sum + type.count, 0)} ${group.label.toLocaleLowerCase('vi')}`).join(' · ')}.</p>
+    <SharedHeader onBack={onClose} />
+    <details className="speed-help">
+      <summary aria-label="Hướng dẫn" title="Hướng dẫn">?</summary>
+      <div className="speed-help-content"><h2>Hướng dẫn</h2><p>Đổi bộ lọc hoặc thứ tự sẽ bắt đầu lượt mới. Luyện lại sẽ xáo trộn lại nếu chọn ngẫu nhiên.</p>      <p>Bộ câu hỏi luyện tập do Codex biên soạn: {speedGroups.map(group => `${group.types.reduce((sum, type) => sum + type.count, 0)} ${group.label.toLocaleLowerCase('vi')}`).join(' · ')}.</p>
       <p>Chạm hoặc bấm đáp án. Phím tắt: ← A · ↑ B · ↓ C · → D. Đúng: xanh lá, chuyển câu sau 2 giây. Sai: đỏ trong 2 giây, sau đó chọn lại.</p>
-      <small>Phần nghe dùng giọng tiếng Nhật của trình duyệt. Các dạng được chuyển về 4 lựa chọn cho chế độ luyện tập này.</small>
+      <small>Phần nghe dùng giọng tiếng Nhật của trình duyệt. Các dạng được chuyển về 4 lựa chọn cho chế độ luyện tập này.</small></div>
+    </details>
+    <div className="speed-intro"><span className="eyebrow">JLPT N3 · {speedQuestions.length} CÂU</span><h1>Ôn thi thần tốc</h1>
+
     </div>
     <div className="speed-toolbar">
       <details className="speed-filter">
@@ -150,7 +151,7 @@ export function SpeedExamMode({ onClose }: { onClose: () => void }) {
         <option value="original">Thứ tự gốc</option><option value="reverse">Thứ tự đảo ngược</option><option value="type">Theo phần và dạng câu hỏi</option><option value="random">Ngẫu nhiên</option>
       </select></label>
     </div>
-    <p className="speed-selection-note">Đang chọn {questions.length} câu. Đổi bộ lọc hoặc thứ tự sẽ bắt đầu lượt mới. Luyện lại sẽ xáo trộn lại nếu chọn ngẫu nhiên.</p>
+    <p className="speed-selection-note">Đang chọn {questions.length} câu.</p>
     <progress aria-label="Tiến độ" value={index} max={questions.length || 1} />
     {question ? <section className="speed-card" aria-labelledby="speed-question" key={question.id}>
       <div className="speed-meta"><button ref={jumpButton} className="speed-question-number" type="button" aria-expanded={jumpOpen} aria-controls="speed-jump-form" title="Chuyển tới câu hỏi" onClick={() => { setJumpValue(String(index + 1)); setJumpError(''); setJumpOpen(value => !value) }}>Câu {index + 1} / {questions.length}</button><span>{speedSections[question.section]} · {question.kind}</span></div>

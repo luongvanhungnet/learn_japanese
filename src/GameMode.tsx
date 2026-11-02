@@ -1,7 +1,6 @@
+import { SharedHeader } from './SharedHeader'
 import { GameGarden } from './GameGarden'
-import { VocabularySearch } from './VocabularySearch'
 import { useEffect, useRef, useState } from 'react'
-import { LanguageSwitch } from './i18n'
 import { useLanguage } from './translations'
 import { readStudyValue } from './accountData'
 import { useStudyPersistence } from './useStudyPersistence'
@@ -107,7 +106,7 @@ export function GameMode({ onClose }: { onClose: () => void }) {
   }
   const goBack = () => { stopAudio(); onClose() }
   return <main className="game-shell">
-    <header className="game-header"><button onClick={goBack}>← {text('Về trang học', 'Back to study')}</button><b>遊ぶ <span>PLAY LAB</span></b>{phase !== 'play' && <LanguageSwitch />}<VocabularySearch /></header>
+    <SharedHeader onBack={goBack} />
     <div className="game-content">
       <div className="game-wallet"><span>✦ {progress.xp} EXP</span><span>◉ {progress.coins} {text('vàng', 'gold')}</span><span>Lv. {1 + Math.floor(progress.xp / 200)}</span></div>
       {saveError && <p role="alert">{text('Chưa lưu được tiến độ. Hãy kiểm tra dung lượng trình duyệt.', 'Progress could not be saved. Check browser storage.')}</p>}

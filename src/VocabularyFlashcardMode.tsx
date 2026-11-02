@@ -1,8 +1,6 @@
-import { VocabularySearch } from './VocabularySearch'
+import { SharedHeader } from './SharedHeader'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { LanguageSwitch } from './i18n'
 import { useLanguage } from './translations'
-import { AccountMenu } from './AccountMenu'
 import { useAuth } from './auth/AuthProvider'
 import { readStudyValue } from './accountData'
 import { useStudyPersistence } from './useStudyPersistence'
@@ -29,8 +27,6 @@ export function VocabularyFlashcardMode({ initialDeck, onClose }: { initialDeck?
   const card = cards.find(item => item.id === activeId) ?? cards.find(item => item.id === selectWord(cards, progress, now))
   const [revealed, setRevealed] = useState(false)
   const [storageError, setStorageError] = useState(false)
-  const [fullscreen, setFullscreen] = useState(false)
-  const [fullscreenError, setFullscreenError] = useState(false)
   const [lastReview, setLastReview] = useState<WordRating | null>(null)
   const reportError = useCallback(() => setStorageError(true), [])
   useStudyPersistence(wordProgressKey, useMemo(() => JSON.stringify(progress), [progress]), reportError)
@@ -85,36 +81,15 @@ export function VocabularyFlashcardMode({ initialDeck, onClose }: { initialDeck?
     document.addEventListener('keydown', handleKey)
     return () => document.removeEventListener('keydown', handleKey)
   }, [busy, card, rate])
-  useEffect(() => {
-    const element = root.current
-    const change = () => setFullscreen(document.fullscreenElement === element)
-    document.addEventListener('fullscreenchange', change)
-    return () => {
-      document.removeEventListener('fullscreenchange', change)
-      if (element && document.fullscreenElement === element) void document.exitFullscreen().catch(() => {})
-    }
-  }, [])
-  const toggleFullscreen = async () => {
-    try {
-      setFullscreenError(false)
-      if (document.fullscreenElement) await document.exitFullscreen()
-      else await root.current?.requestFullscreen()
-    } catch { setFullscreenError(true) }
-  }
   return <main className="word-flashcards" ref={root}>
-    <header className="word-flashcards-header">
-      <button type="button" onClick={onClose}>← {t('flashcardBack')}</button>
-      <h1>{t('wordFlashcard')}</h1>
-      <button type="button" onClick={() => void toggleFullscreen()}>{t(fullscreen ? 'exitFullscreen' : 'fullscreen')}</button>
-      <LanguageSwitch /><AccountMenu />
-    <VocabularySearch /></header>
+    <SharedHeader onBack={onClose} />
+    <h1>{t('wordFlashcard')}</h1>
     <div className="word-flashcards-tools">
       <div role="group" aria-label={t('flashcardDecks')}>
         {(['N3', 'RADICALS'] as const).map(item => <button type="button" key={item} aria-pressed={deck === item} onClick={() => chooseDeck(item)}>{item === 'N3' ? 'N3' : t('radicals')}</button>)}
       </div>
       <span>{dueCount} / {cards.length} {vi ? 'thẻ cần học' : 'cards to study'}</span>
     </div>
-    {fullscreenError && <p role="alert">{t('fullscreenError')}</p>}
     <section className="word-flashcards-stage" aria-label={t('wordFlashcard')}>
       {card ? <article className="word-flashcards-card" key={card.id} aria-label={card.headword}>
         <span className="word-flashcards-tag">{deck === 'N3' ? 'N3' : t('radicals')} · {card.order} / {cards.length}</span>

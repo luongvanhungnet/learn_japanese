@@ -8,3 +8,10 @@
 .speed-jump input:focus-visible { outline: 2px solid #136c49; outline-offset: 2px; }
 .speed-jump small, .speed-jump p { flex-basis: 100%; margin: 0; line-height: 1.5; }
 .speed-jump p { color: #ad2525; }
+.speed-help { position: fixed; top: 18px; right: 20px; z-index: 90; }
+.speed-help > summary { display: grid; place-items: center; width: 44px; height: 44px; border: 1px solid #b5cbbb; border-radius: 50%; background: #fff; color: #193529; font-size: 24px; font-weight: 700; cursor: pointer; list-style: none; box-shadow: 0 3px 16px #19352912; }
+.speed-help > summary::-webkit-details-marker { display: none; }
+.speed-help > summary:focus-visible { outline: 3px solid #136c49; outline-offset: 3px; }
+.speed-help-content { position: absolute; right: 0; top: 54px; width: min(440px, calc(100vw - 40px)); max-height: calc(100dvh - 100px); overflow-y: auto; box-sizing: border-box; padding: 20px; border: 1px solid #b5cbbb; border-radius: 16px; background: #fff; box-shadow: 0 12px 40px #19352926; line-height: 1.7; }
+.speed-help-content h2 { margin-top: 0; }
+.speed-intro { padding-right: 48px; }

@@ -1,3 +1,4 @@
+import { SharedHeader } from './SharedHeader'
 import { lazy, memo, Suspense, useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import type { FormEvent } from 'react'
 import n2Data from './data/n2.json'
@@ -5,11 +6,8 @@ import n3Data from './data/n3.json'
 import grammarData from './data/n3-grammar.json'
 import radicalsData from './data/radicals.json'
 import vietnameseMeanings from './data/vi.json'
-import { LanguageProvider, LanguageSwitch } from './i18n'
-import { VocabularySearch } from './VocabularySearch'
+import { LanguageProvider } from './i18n'
 import type { SearchEntry } from './vocabularySearch'
-import { FocusHeader } from './FocusHeader'
-import { AccountMenu } from './AccountMenu'
 import { useAuth } from './auth/AuthProvider'
 import { readStudyValue, writeStudyValue } from './accountData'
 import { useStudyPersistence } from './useStudyPersistence'
@@ -290,7 +288,7 @@ function StudyApp() {
     setWordFlashcards(true)
   }
   const closeWordFlashcards = () => {
-    window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}`)
+    window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}#study`)
     setWordFlashcards(false)
   }
   const [playingGame, setPlayingGame] = useState(() => window.location.hash === '#game')
@@ -299,10 +297,10 @@ function StudyApp() {
     setFocused(false); setOverview(false); setPlayingGame(true)
   }
   const closeGame = () => {
-    window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}`)
+    window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}#study`)
     setPlayingGame(false)
   }
-  const [speedExam, setSpeedExam] = useState(() => window.location.hash === '#speed-exam')
+  const [speedExam, setSpeedExam] = useState(() => !window.location.hash || window.location.hash === '#speed-exam')
   const openSpeedExam = () => {
     window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}#speed-exam`)
     setFocused(false)
@@ -310,8 +308,9 @@ function StudyApp() {
     setSpeedExam(true)
   }
   const closeSpeedExam = () => {
-    window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}`)
+    window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}#study`)
     setSpeedExam(false)
+    window.history.replaceState(null, '', '#study')
   }
   const [takingExam, setTakingExam] = useState(() => window.location.hash === '#exam')
   const openExam = () => {
@@ -321,9 +320,22 @@ function StudyApp() {
     setTakingExam(true)
   }
   const closeExam = () => {
-    window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}`)
+    window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}#study`)
     setTakingExam(false)
   }
+  useEffect(() => {
+    const navigate = (event: Event) => {
+      const route = (event as CustomEvent<string>).detail
+      setFocused(false); setOverview(false)
+      setSpeedExam(route === 'speed-exam'); setPlayingGame(route === 'game')
+      setReadingNovel(route === 'novel'); setReadingFlashcards(route === 'flashcard')
+      setWordFlashcards(route === 'word-flashcard'); setTakingExam(route === 'exam')
+      window.history.replaceState(null, '', `#${route}`)
+      window.scrollTo({ top: 0 })
+    }
+    window.addEventListener('study-navigate', navigate)
+    return () => window.removeEventListener('study-navigate', navigate)
+  }, [])
   const [flashcardInitialDeck, setFlashcardInitialDeck] = useState<Level>()
   const openFlashcards = () => {
     try { writeStudyValue('mimikara-flashcard-deck-v1', level) } catch { /* account sync reports storage failures */ }
@@ -334,11 +346,10 @@ function StudyApp() {
     setReadingFlashcards(true)
   }
   const closeFlashcards = () => {
-    window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}`)
+    window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}#study`)
     setReadingFlashcards(false)
   }
-  const openNovel = () => { window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}#novel`); setReadingNovel(true) }
-  const closeNovel = () => { window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}`); setReadingNovel(false) }
+  const closeNovel = () => { window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}#study`); setReadingNovel(false) }
   const [level, setLevel] = useState<Level>('N3')
   const grammar = level === 'N3-GRAMMAR'
   const fields = collectionFields(level)
@@ -386,7 +397,7 @@ function StudyApp() {
 
   const resumeLastBox = useCallback(() => {
     if (!savedPosition) return
-    if (window.location.hash === '#speed-exam' || window.location.hash === '#game' || window.location.hash === '#novel' || window.location.hash === '#flashcard' || window.location.hash === '#word-flashcard' || window.location.hash === '#exam') window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}`)
+    if (window.location.hash === '#speed-exam' || window.location.hash === '#game' || window.location.hash === '#novel' || window.location.hash === '#flashcard' || window.location.hash === '#word-flashcard' || window.location.hash === '#exam') window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}#study`)
     setReadingNovel(false)
     setReadingFlashcards(false)
     setWordFlashcards(false)
@@ -606,10 +617,8 @@ function StudyApp() {
   if (focused) {
     return (
       <main className="focus-shell" style={{ '--scale': 1 } as React.CSSProperties} aria-label={t('focusMode')}>
-        <FocusHeader><VocabularySearch onSelect={openSearchEntry} /><LanguageSwitch /><AccountMenu />
+        <SharedHeader onSearchSelect={openSearchEntry}>
           <button type="button" className="focus-exit" onClick={() => setFocused(false)}>← {t('fullList')}</button>
-          <button type="button" onClick={openWordFlashcards}>{t('wordFlashcard')}</button><button type="button" onClick={openFlashcards}>{t('flashcard')}</button>
-          <button type="button" onClick={openGame}>{language === 'vi' ? 'Chơi & học' : 'Play & learn'}</button><button type="button" onClick={openExam}>{t('exam')}</button><button type="button" onClick={openSpeedExam}>Ôn thi thần tốc</button>
           <button type="button" disabled={!savedPosition} aria-label={t('resumeLastBox')} onClick={resumeLastBox}>{t('resumeLastBox')} <kbd aria-hidden="true">Alt+R</kbd></button>
           <div className="focus-options" role="group" aria-label={t('selectSet')}>
             {levels.map((item) => <button key={item} type="button" aria-pressed={level === item} onClick={() => { setLevel(item); setPreviewKey(null); selectedKeyRef.current = null }}>{item === 'RADICALS' ? t('radicals') : item === 'N3-GRAMMAR' ? t('grammar') : item}</button>)}
@@ -624,7 +633,7 @@ function StudyApp() {
             </label>)}
           </div>
           <div className="focus-shortcuts">Alt+Z ← · Alt+X → · Alt+C ↑ · Alt+V ↓ · Alt+R {t('resumeLastBox')}</div>
-        </FocusHeader>
+        </SharedHeader>
         <div className={`focus-list ${grammar ? 'grammar-focus' : ''}`} key={level}>
           <div className="focus-row focus-head"><span>{t(grammar ? 'grammarPattern' : 'vocabulary')}</span>{fields.map((field) => <span key={field}>{labels[field]}</span>)}</div>
           {entries.map((entry) => (
@@ -648,11 +657,7 @@ function StudyApp() {
   if (readingNovel) return <Suspense fallback={<p role="status">{language === 'vi' ? 'Đang mở tiểu thuyết…' : 'Opening the novel…'}</p>}><NovelReader onClose={closeNovel} /></Suspense>
   return (
     <div className="app-shell">
-      <header className="site-header">
-        <div className="brand"><span className="brand-mark">み</span><span>MIMIKARA <strong>STUDY</strong></span></div>
-        <VocabularySearch onSelect={openSearchEntry} />
-        <div className="header-right"><button className="novel-launch" onClick={openNovel}>{language === 'vi' ? 'Đọc tiểu thuyết N3' : 'Read N3 novel'}</button><LanguageSwitch /><AccountMenu /><span className="header-note">{t(grammar ? 'grammarHeader' : 'headerNote')}</span>{!auth?.user && <span className="local-badge"><i /> {t('savedDevice')}</span>}</div>
-      </header>
+      <SharedHeader onSearchSelect={openSearchEntry} />
       <main className="main-content">
         <section className="intro">
           <div>

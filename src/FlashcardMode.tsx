@@ -1,8 +1,6 @@
-import { VocabularySearch } from './VocabularySearch'
+import { SharedHeader } from './SharedHeader'
 import { useCallback, useEffect, useMemo, useState } from 'react'
-import { LanguageSwitch } from './i18n'
 import { useLanguage } from './translations'
-import { AccountMenu } from './AccountMenu'
 import { useAuth } from './auth/AuthProvider'
 import { readStudyValue } from './accountData'
 import { useStudyPersistence } from './useStudyPersistence'
@@ -110,12 +108,7 @@ export function FlashcardMode({ initialDeck, onClose }: { initialDeck?: Flashcar
     return () => document.removeEventListener('keydown', onKeyDown)
   }, [card, flipped, rate, accountBusy])
   return <main className="flashcard-shell">
-    <header className="flashcard-header">
-      <div className="brand"><span className="brand-mark">み</span><span>MIMIKARA <strong>STUDY</strong></span></div>
-      <button className="flashcard-back" type="button" onClick={onClose}>{t('flashcardBack')}</button>
-      <LanguageSwitch />
-      <AccountMenu />
-    <VocabularySearch /></header>
+    <SharedHeader onBack={onClose} />
     <section className="flashcard-workspace">
       <div className="flashcard-heading">
         <span className="eyebrow">{t('flashcardDaily')}</span>

@@ -29,7 +29,7 @@ export function FocusHeader({ children }: { children: ReactNode }) {
     const move = (event: MouseEvent) => {
       const bottom = visible ? headerRef.current?.getBoundingClientRect().bottom ?? 0 : 0
       const inside = event.target instanceof Node && headerRef.current?.contains(event.target)
-      setVisible(Boolean(inside) || event.clientY >= 0 && event.clientY <= Math.max(64, bottom))
+      setVisible(Boolean(inside) || event.clientY >= 0 && event.clientY <= Math.max(12, bottom))
     }
     const leave = (event: MouseEvent) => { if (!event.relatedTarget) setVisible(false) }
     window.addEventListener('mousemove', move)
@@ -40,11 +40,11 @@ export function FocusHeader({ children }: { children: ReactNode }) {
     }
   }, [visible])
 
-  return <div ref={headerRef} className={`focus-controls${visible ? ' is-visible' : ''}`}>
+  return <><button type="button" className="header-reveal" aria-label="Menu" aria-expanded={visible} onClick={() => setVisible(value => !value)}>☰</button><div ref={headerRef} className={`focus-controls${visible ? ' is-visible' : ''}`}>
     {children}
     <button type="button" className="fullscreen-toggle" aria-pressed={fullscreen} onClick={toggleFullscreen}>
       <span aria-hidden="true">{fullscreen ? '⤡' : '⛶'}</span> {t(fullscreen ? 'exitFullscreen' : 'fullscreen')}
     </button>
     {fullscreenError && <p className="fullscreen-error" role="alert">{t('fullscreenError')}</p>}
-  </div>
+  </div></>
 }
