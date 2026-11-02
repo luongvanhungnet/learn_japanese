@@ -1,0 +1,602 @@
+[
+  {
+    "id": "n3-vocabulary-writing-001",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "次の角を「まがって」ください。",
+    "choices": [
+      "曲がって",
+      "回がって",
+      "折がって",
+      "交がって"
+    ],
+    "answer": 0,
+    "explanation": "曲がる: rẽ; đúng chữ 曲.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-writing-002",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "試験の結果を「しらせる」手紙が届いた。",
+    "choices": [
+      "智らせる",
+      "知らせる",
+      "識らせる",
+      "知せる"
+    ],
+    "answer": 1,
+    "explanation": "知らせる: thông báo; okurigana là らせる.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-writing-003",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "姉は空港で「はたらいて」いる。",
+    "choices": [
+      "動いて",
+      "労いて",
+      "働いて",
+      "勤いて"
+    ],
+    "answer": 2,
+    "explanation": "働く（はたらく）: làm việc.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-writing-004",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "この町の人口は少しずつ「ふえて」いる。",
+    "choices": [
+      "殖えてる",
+      "憎えて",
+      "曽えて",
+      "増えて"
+    ],
+    "answer": 3,
+    "explanation": "増える: tăng lên; dùng 増 cho dân số.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-writing-005",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "風邪が「なおった」ので学校へ行く。",
+    "choices": [
+      "治った",
+      "直った",
+      "冶った",
+      "値った"
+    ],
+    "answer": 0,
+    "explanation": "治る dùng cho bệnh khỏi; 直る dùng cho đồ vật được sửa.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-writing-006",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "壊れた時計がやっと「なおった」。",
+    "choices": [
+      "治った",
+      "直った",
+      "植った",
+      "置った"
+    ],
+    "answer": 1,
+    "explanation": "直る dùng cho máy móc hoạt động lại.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-writing-007",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "食器を棚に「もどして」おいてください。",
+    "choices": [
+      "返して",
+      "帰して",
+      "戻して",
+      "復して"
+    ],
+    "answer": 2,
+    "explanation": "戻す（もどす）: đưa về vị trí cũ.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-writing-008",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "荷物が重いので二人で「はこんだ」。",
+    "choices": [
+      "連んだ",
+      "動んだ",
+      "送んだ",
+      "運んだ"
+    ],
+    "answer": 3,
+    "explanation": "運ぶ（はこぶ）: vận chuyển.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-writing-009",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "暗くなる前に家へ「かえった」。",
+    "choices": [
+      "帰った",
+      "返った",
+      "還ったる",
+      "回った"
+    ],
+    "answer": 0,
+    "explanation": "帰る: về nhà; 回る đọc まわる.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-writing-010",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "夕方になると気温が「さがる」。",
+    "choices": [
+      "低がる",
+      "下がる",
+      "降がる",
+      "減がる"
+    ],
+    "answer": 1,
+    "explanation": "下がる（さがる）: giảm xuống.",
+    "batch": 1
+  },
+  {
+    "id": "n3-vocabulary-writing-011",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "先輩の助言がとても「やくにたった」。",
+    "choices": [
+      "約に立った",
+      "訳に建った",
+      "役に立った",
+      "益に立った"
+    ],
+    "answer": 2,
+    "explanation": "役に立つ: có ích.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-writing-012",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "大切な資料を「なくして」しまった。",
+    "choices": [
+      "亡して",
+      "無して",
+      "落くして",
+      "失くして"
+    ],
+    "answer": 3,
+    "explanation": "失くす（なくす）: làm mất.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-writing-013",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "知らない番号から電話が「かかって」きた。",
+    "choices": [
+      "掛かって",
+      "架かってる",
+      "係かって",
+      "関かって"
+    ],
+    "answer": 0,
+    "explanation": "電話が掛かる: có cuộc gọi tới.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-writing-014",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "会議の日時を「へんこう」した。",
+    "choices": [
+      "変校",
+      "変更",
+      "返更",
+      "変便"
+    ],
+    "answer": 1,
+    "explanation": "変更（へんこう）: thay đổi.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-writing-015",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "旅行の「けいかく」を立てる。",
+    "choices": [
+      "計書",
+      "形画",
+      "計画",
+      "経画"
+    ],
+    "answer": 2,
+    "explanation": "計画（けいかく）: kế hoạch.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-writing-016",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "書類の内容を「かくにん」してください。",
+    "choices": [
+      "確任",
+      "確忍",
+      "格認",
+      "確認"
+    ],
+    "answer": 3,
+    "explanation": "確認（かくにん）: xác nhận.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-writing-017",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "この機械の使い方を「せつめい」する。",
+    "choices": [
+      "説明",
+      "説名",
+      "設明",
+      "税明"
+    ],
+    "answer": 0,
+    "explanation": "説明（せつめい）: giải thích.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-writing-018",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "会費の「しはらい」は来週までです。",
+    "choices": [
+      "枝払い",
+      "支払い",
+      "仕払い",
+      "支払らい"
+    ],
+    "answer": 1,
+    "explanation": "支払い（しはらい）: thanh toán.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-writing-019",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "図書館では「しずかに」話してください。",
+    "choices": [
+      "清かに",
+      "靖かに",
+      "静かに",
+      "静に"
+    ],
+    "answer": 2,
+    "explanation": "静か（しずか）: yên tĩnh; cần か.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-writing-020",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "電車の「じこ」で到着が遅れた。",
+    "choices": [
+      "事項",
+      "自己",
+      "時故",
+      "事故"
+    ],
+    "answer": 3,
+    "explanation": "事故: tai nạn; 自己 cũng đọc じこ nhưng không hợp ngữ cảnh.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-writing-021",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "人の「いけん」を最後まで聞く。",
+    "choices": [
+      "意見",
+      "異見書",
+      "以見",
+      "意検"
+    ],
+    "answer": 0,
+    "explanation": "意見（いけん）: ý kiến.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-writing-022",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "上司に休みの「きょか」をもらった。",
+    "choices": [
+      "許課",
+      "許可",
+      "巨可",
+      "居可"
+    ],
+    "answer": 1,
+    "explanation": "許可（きょか）: cho phép.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-writing-023",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "荷物を駅のロッカーに「あずけた」。",
+    "choices": [
+      "頼けた",
+      "頂けた",
+      "預けた",
+      "授けた"
+    ],
+    "answer": 2,
+    "explanation": "預ける（あずける）: gửi nhờ giữ.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-writing-024",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "犬が逃げないように門を「しめる」。",
+    "choices": [
+      "占める",
+      "絞める",
+      "締め切る",
+      "閉める"
+    ],
+    "answer": 3,
+    "explanation": "閉める là đóng cửa; 占める cùng âm nhưng nghĩa chiếm.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-writing-025",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "新聞で新しい「ぎじゅつ」を知った。",
+    "choices": [
+      "技術",
+      "枝術",
+      "技述",
+      "義術"
+    ],
+    "answer": 0,
+    "explanation": "技術（ぎじゅつ）: kỹ thuật.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-writing-026",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "水道の「こしょう」で水が出ない。",
+    "choices": [
+      "古傷",
+      "故障",
+      "故章",
+      "胡椒"
+    ],
+    "answer": 1,
+    "explanation": "故障: hỏng hóc; 胡椒 đọc こしょう nhưng là hạt tiêu.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-writing-027",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "雨で運動会が「ちゅうし」になった。",
+    "choices": [
+      "中上",
+      "注止",
+      "中止",
+      "中指"
+    ],
+    "answer": 2,
+    "explanation": "中止: hủy, ngừng; 中指 là ngón giữa.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-writing-028",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "「きせつ」が変わると服も変わる。",
+    "choices": [
+      "期節",
+      "気設",
+      "季説",
+      "季節"
+    ],
+    "answer": 3,
+    "explanation": "季節（きせつ）: mùa.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-writing-029",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "父は「けんこう」に気をつけている。",
+    "choices": [
+      "健康",
+      "健校",
+      "建康",
+      "検康"
+    ],
+    "answer": 0,
+    "explanation": "健康（けんこう）: sức khỏe.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-writing-030",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "来月から新しい「せいかつ」が始まる。",
+    "choices": [
+      "生括",
+      "生活",
+      "正活",
+      "世活"
+    ],
+    "answer": 1,
+    "explanation": "生活（せいかつ）: cuộc sống.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-writing-031",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "お金を「ちょきん」して自転車を買う。",
+    "choices": [
+      "著金",
+      "貯銀",
+      "貯金",
+      "置金"
+    ],
+    "answer": 2,
+    "explanation": "貯金（ちょきん）: tiết kiệm tiền.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-writing-032",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "店員に商品の「ねだん」を聞いた。",
+    "choices": [
+      "直段",
+      "値談",
+      "根段",
+      "値段"
+    ],
+    "answer": 3,
+    "explanation": "値段（ねだん）: giá cả.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-writing-033",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "工場で車の部品を「せいさん」する。",
+    "choices": [
+      "生産",
+      "生算",
+      "製算",
+      "正産"
+    ],
+    "answer": 0,
+    "explanation": "生産（せいさん）: sản xuất.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-writing-034",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "この国は米を「ゆしゅつ」している。",
+    "choices": [
+      "輸入",
+      "輸出",
+      "輪出",
+      "輸発"
+    ],
+    "answer": 1,
+    "explanation": "輸出（ゆしゅつ）: xuất khẩu.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-writing-035",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "大会に「さんか」することにした。",
+    "choices": [
+      "参家",
+      "産加",
+      "参加",
+      "三課"
+    ],
+    "answer": 2,
+    "explanation": "参加（さんか）: tham gia.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-writing-036",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "入院した友達を「みまい」に行く。",
+    "choices": [
+      "見参い",
+      "見待い",
+      "見廻い",
+      "見舞い"
+    ],
+    "answer": 3,
+    "explanation": "見舞い（みまい）: thăm người ốm.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-writing-037",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "昨日の「つづき」を読もう。",
+    "choices": [
+      "続き",
+      "読き",
+      "績き",
+      "継つき"
+    ],
+    "answer": 0,
+    "explanation": "続き（つづき）: phần tiếp theo.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-writing-038",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "誕生日の友達を「いわった」。",
+    "choices": [
+      "呪った",
+      "祝った",
+      "説った",
+      "喜わった"
+    ],
+    "answer": 1,
+    "explanation": "祝う（いわう）: chúc mừng.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-writing-039",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "明日の予定を手帳に「きろく」した。",
+    "choices": [
+      "記緑",
+      "紀録",
+      "記録",
+      "記路"
+    ],
+    "answer": 2,
+    "explanation": "記録（きろく）: ghi chép.",
+    "batch": 2
+  },
+  {
+    "id": "n3-vocabulary-writing-040",
+    "section": "vocabulary",
+    "kind": "Chọn cách viết",
+    "prompt": "駅の前で財布を「ひろった」。",
+    "choices": [
+      "捨った",
+      "広った",
+      "採ろった",
+      "拾った"
+    ],
+    "answer": 3,
+    "explanation": "拾う（ひろう）: nhặt lên.",
+    "batch": 2
+  }
+]

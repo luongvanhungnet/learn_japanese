@@ -18,7 +18,8 @@
     "build": "tsc -b && vite build",
     "test": "vitest run",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "speed-exam:audit": "node scripts/audit_speed_exam.mjs"
   },
   "dependencies": {
     "dotenv": "^18.0.7",

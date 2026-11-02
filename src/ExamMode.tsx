@@ -1,7 +1,6 @@
+import { SharedHeader } from './SharedHeader'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { LanguageSwitch } from './i18n'
 import { useLanguage } from './translations'
-import { AccountMenu } from './AccountMenu'
 import { readStudyValue } from './accountData'
 import { useStudyPersistence } from './useStudyPersistence'
 import { answerExam, examStorageKey, expireExam, parseExamHistory, remainingExamSeconds, saveExamAttempt, scoreExam, startExam, submitExam } from './exam'
@@ -158,12 +157,7 @@ export function ExamMode({ onClose }: { onClose: () => void }) {
   }
 
   return <main className="exam-shell">
-    <header className="exam-header">
-      <div className="brand"><span className="brand-mark">み</span><span>MIMIKARA <strong>STUDY</strong></span></div>
-      <button className="exam-button exam-back" type="button" onClick={onClose}>{text.back}</button>
-      <LanguageSwitch />
-      <AccountMenu />
-    </header>
+    <SharedHeader onBack={onClose} />
     <section className={`exam-workspace${attempt ? ' exam-workspace-wide' : ''}`}>
       <div className="exam-heading">
         <span className="eyebrow">{text.eyebrow}</span>
