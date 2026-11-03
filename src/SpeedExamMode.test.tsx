@@ -33,24 +33,58 @@ test('has 30 original questions, four choices and all N3 task families', () => {
   }
 })
 
-test('wrong answer resets at 2s; correct answer advances only at 2s; rapid inputs are locked', () => {
+test('wrong answers allow immediate retry by click and keyboard; correct answers advance at 2s', () => {
   vi.useFakeTimers()
   mount()
   fireEvent.click(screen.getByRole('button', { name: /B ↑/ }))
   expect(screen.getByRole('button', { name: /B ↑/ }).className).toBe('incorrect')
-  fireEvent.keyDown(window, { key: 'ArrowLeft' })
-  act(() => { vi.advanceTimersByTime(1999) })
-  expect(screen.getByText('Câu 1 / 30')).toBeTruthy()
-  expect(screen.getByRole('button', { name: /B ↑/ }).hasAttribute('disabled')).toBe(true)
-  act(() => { vi.advanceTimersByTime(1) })
-  expect(screen.getByRole('button', { name: /B ↑/ }).className).toBe('')
-  expect(screen.getByRole('button', { name: /B ↑/ }).hasAttribute('disabled')).toBe(false)
+  expect(screen.getByRole('button', { name: /A ←/ }).hasAttribute('disabled')).toBe(false)
+  fireEvent.click(screen.getByRole('button', { name: /C ↓/ }))
+  expect(screen.getByRole('button', { name: /C ↓/ }).className).toBe('incorrect')
   fireEvent.keyDown(window, { key: 'ArrowLeft' })
   expect(screen.getByRole('button', { name: /A ←/ }).className).toBe('correct')
+  expect(screen.getByRole('button', { name: /B ↑/ }).hasAttribute('disabled')).toBe(true)
   act(() => { vi.advanceTimersByTime(1999) })
   expect(screen.getByText('Câu 1 / 30')).toBeTruthy()
   act(() => { vi.advanceTimersByTime(1) })
   expect(screen.getByText('Câu 2 / 30')).toBeTruthy()
+})
+
+for (const key of ['x', 'Enter', ' ', 'ArrowLeft', 'Shift']) {
+  test(`a correct answer can advance immediately with ${JSON.stringify(key)} without answering the next question`, () => {
+    vi.useFakeTimers()
+    mount()
+    fireEvent.keyDown(window, { key: 'ArrowLeft' })
+    act(() => { vi.advanceTimersByTime(500) })
+    fireEvent.keyDown(window, { key, repeat: true })
+    expect(screen.getByText('Câu 1 / 30')).toBeTruthy()
+    fireEvent.keyDown(window, { key })
+    expect(screen.getByText('Câu 2 / 30')).toBeTruthy()
+    expect(document.querySelector('.correct, .incorrect')).toBeNull()
+    advance()
+    expect(screen.getByText('Câu 2 / 30')).toBeTruthy()
+  })
+}
+
+test('previous and next buttons navigate, cancel timers, reset feedback and allow returning from completion', () => {
+  vi.useFakeTimers()
+  mount()
+  expect(screen.getByRole('button', { name: 'Câu hỏi trước' }).hasAttribute('disabled')).toBe(true)
+  fireEvent.keyDown(window, { key: 'ArrowLeft' })
+  fireEvent.click(screen.getByRole('button', { name: 'Câu hỏi tiếp theo' }))
+  expect(screen.getByText('Câu 2 / 30')).toBeTruthy()
+  advance()
+  expect(screen.getByText('Câu 2 / 30')).toBeTruthy()
+  fireEvent.click(screen.getByRole('button', { name: 'Câu hỏi trước' }))
+  expect(screen.getByText('Câu 1 / 30')).toBeTruthy()
+  expect(document.querySelector('.correct, .incorrect')).toBeNull()
+  for (let i = 0; i < speedQuestions.length; i++) {
+    fireEvent.click(screen.getByRole('button', { name: 'Câu hỏi tiếp theo' }))
+  }
+  expect(screen.getByRole('heading', { name: 'Hoàn thành 30 câu!' })).toBeTruthy()
+  expect(screen.getByRole('button', { name: 'Câu hỏi tiếp theo' }).hasAttribute('disabled')).toBe(true)
+  fireEvent.click(screen.getByRole('button', { name: 'Câu hỏi trước' }))
+  expect(screen.getByText('Câu 30 / 30')).toBeTruthy()
 })
 
 test('all arrows select ABCD; completes the full set and can restart', () => {

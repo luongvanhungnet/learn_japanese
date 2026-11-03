@@ -15,3 +15,7 @@
 .speed-help-content { position: absolute; right: 0; top: 54px; width: min(440px, calc(100vw - 40px)); max-height: calc(100dvh - 100px); overflow-y: auto; box-sizing: border-box; padding: 20px; border: 1px solid #b5cbbb; border-radius: 16px; background: #fff; box-shadow: 0 12px 40px #19352926; line-height: 1.7; }
 .speed-help-content h2 { margin-top: 0; }
 .speed-intro { padding-right: 48px; }
+
+.speed-navigation { display: flex; justify-content: space-between; gap: 16px; margin-top: 16px; }
+.speed-navigation button { min-width: 56px; font-size: 24px; }
+.speed-navigation button:disabled { opacity: .45; cursor: default; }

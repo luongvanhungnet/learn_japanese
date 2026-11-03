@@ -43,6 +43,19 @@ export function SpeedExamMode({ onClose }: { onClose: () => void }) {
     setMistakes(0)
     setAudioError('')
   }
+  const goToQuestion = useCallback((nextIndex: number) => {
+    clearTimeout(timer.current)
+    lock.current = false
+    stopAudio()
+    setAudioError('')
+    setSelected(null)
+    setIndex(nextIndex)
+    setJumpOpen(false)
+    setJumpError('')
+  }, [stopAudio])
+  const nextQuestion = useCallback(() => {
+    goToQuestion(Math.min(index + 1, questions.length))
+  }, [goToQuestion, index, questions.length])
   const jumpToQuestion = () => {
     const value = jumpValue.trim()
     const number = Number(value)
@@ -50,14 +63,7 @@ export function SpeedExamMode({ onClose }: { onClose: () => void }) {
       setJumpError(`Nhập số nguyên từ 1 đến ${questions.length}.`)
       return
     }
-    clearTimeout(timer.current)
-    lock.current = false
-    stopAudio()
-    setAudioError('')
-    setSelected(null)
-    setIndex(number - 1)
-    setJumpOpen(false)
-    setJumpError('')
+    goToQuestion(number - 1)
     jumpButton.current?.focus()
   }
   const changeTypes = (next: string[]) => { reset(); setTypes(next) }
@@ -69,26 +75,26 @@ export function SpeedExamMode({ onClose }: { onClose: () => void }) {
 
   const choose = useCallback((choice: number) => {
     if (lock.current || !question) return
-    lock.current = true
     setSelected(choice)
-    const correct = choice === question.answer
-    if (!correct) setMistakes(value => value + 1)
-    timer.current = setTimeout(() => {
-      if (correct) {
-        setJumpOpen(false)
-        stopAudio()
-        setAudioError('')
-        setIndex(value => value + 1)
-      }
-      setSelected(null)
-      lock.current = false
-    }, 2000)
-  }, [question, stopAudio])
+    if (choice !== question.answer) {
+      setMistakes(value => value + 1)
+      return
+    }
+    lock.current = true
+    timer.current = setTimeout(nextQuestion, 2000)
+  }, [question, nextQuestion])
 
   useEffect(() => {
     const keydown = (event: KeyboardEvent) => {
       const target = event.target
-      if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || event.repeat || target instanceof HTMLElement && (target.isContentEditable || /^(INPUT|TEXTAREA|SELECT|SUMMARY)$/.test(target.tagName))) return
+      if (event.repeat || event.isComposing || target instanceof HTMLElement && (target.isContentEditable || /^(INPUT|TEXTAREA|SELECT|SUMMARY)$/.test(target.tagName))) return
+      if (finished || jumpOpen) return
+      if (lock.current) {
+        event.preventDefault()
+        nextQuestion()
+        return
+      }
+      if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return
       const choice = keys.indexOf(event.key)
       if (choice < 0 || finished || jumpOpen) return
       event.preventDefault()
@@ -96,7 +102,7 @@ export function SpeedExamMode({ onClose }: { onClose: () => void }) {
     }
     window.addEventListener('keydown', keydown)
     return () => window.removeEventListener('keydown', keydown)
-  }, [choose, finished, jumpOpen])
+  }, [choose, finished, jumpOpen, nextQuestion])
 
   const play = () => {
     if (!question?.audioText) return
@@ -126,7 +132,7 @@ export function SpeedExamMode({ onClose }: { onClose: () => void }) {
     <details className="speed-help">
       <summary aria-label="Hướng dẫn" title="Hướng dẫn">?</summary>
       <div className="speed-help-content"><h2>Hướng dẫn</h2><p>Đổi bộ lọc hoặc thứ tự sẽ bắt đầu lượt mới. Luyện lại sẽ xáo trộn lại nếu chọn ngẫu nhiên.</p>      <p>Bộ câu hỏi luyện tập do Codex biên soạn: {speedGroups.map(group => `${group.types.reduce((sum, type) => sum + type.count, 0)} ${group.label.toLocaleLowerCase('vi')}`).join(' · ')}.</p>
-      <p>Chạm hoặc bấm đáp án. Phím tắt: ← A · ↑ B · ↓ C · → D. Đúng: xanh lá, chuyển câu sau 2 giây. Sai: đỏ trong 2 giây, sau đó chọn lại.</p>
+      <p>Chạm hoặc bấm đáp án. Phím tắt: ← A · ↑ B · ↓ C · → D. Đúng: xanh lá, chuyển câu sau 2 giây hoặc nhấn phím bất kỳ để chuyển ngay. Sai: đỏ, có thể chọn lại ngay. Dùng hai nút ← và → bên dưới để quay lại câu trước hoặc sang câu tiếp theo.</p>
       <small>Phần nghe dùng giọng tiếng Nhật của trình duyệt. Các dạng được chuyển về 4 lựa chọn cho chế độ luyện tập này.</small></div>
     </details>
     <div className="speed-intro"><span className="eyebrow">JLPT N3 · {speedQuestions.length} CÂU</span><h1>Ôn thi thần tốc</h1>
@@ -165,13 +171,17 @@ export function SpeedExamMode({ onClose }: { onClose: () => void }) {
       {question.audioText && <div className="speed-audio"><button type="button" onClick={play}>▶ {speaking ? 'Nghe lại' : 'Nghe câu hỏi'}</button><button type="button" disabled={!speaking} onClick={stopAudio}>Dừng</button><span role="status">{speaking ? 'Đang phát tiếng Nhật…' : ''}</span>{audioError && <p role="alert">{audioError}</p>}</div>}
       <h2 id="speed-question" lang="ja">{question.prompt}</h2>
       <div className="speed-choices" role="group" aria-label="Chọn đáp án">
-        {question.choices.map((choice, option) => <button type="button" key={`${question.id}-${option}`} disabled={selected !== null} className={selected === option ? option === question.answer ? 'correct' : 'incorrect' : ''} onClick={() => choose(option)}>
+        {question.choices.map((choice, option) => <button type="button" key={`${question.id}-${option}`} disabled={selected === question.answer} className={selected === option ? option === question.answer ? 'correct' : 'incorrect' : ''} onClick={() => choose(option)}>
           <b>{'ABCD'[option]} <small>{arrows[option]}</small></b><span lang="ja">{choice}</span>
         </button>)}
       </div>
       <div className="speed-feedback" role="status" aria-live="polite">
-        {selected === null ? 'Chọn một đáp án để tiếp tục.' : selected === question.answer ? `✓ Chính xác! ${question.explanation} Chuyển câu sau 2 giây…` : '✗ Chưa đúng. Hãy chọn lại sau 2 giây.'}
+        {selected === null ? 'Chọn một đáp án để tiếp tục.' : selected === question.answer ? `✓ Chính xác! ${question.explanation} Chuyển câu sau 2 giây hoặc nhấn phím bất kỳ để chuyển ngay…` : '✗ Chưa đúng. Hãy chọn lại ngay.'}
       </div>
     </section> : !questions.length ? <section className="speed-card"><h2>Chưa chọn dạng câu hỏi</h2><p>Hãy chọn ít nhất một phần hoặc dạng câu hỏi trong menu Filter để bắt đầu.</p><button type="button" onClick={() => changeTypes(allSpeedTypes)}>Chọn tất cả {speedQuestions.length} câu</button></section> : <section className="speed-card"><h2>Hoàn thành {questions.length} câu!</h2><p>Bạn đã đến cuối bộ câu hỏi. Có thể luyện lại để ôn các câu đã bỏ qua. Số lần chọn sai: {mistakes}.</p><button type="button" onClick={() => { reset(); setSeed(Math.floor(Math.random() * 0x100000000)) }}>Luyện lại</button></section>}
+    {questions.length > 0 && <nav className="speed-navigation" aria-label="Điều hướng câu hỏi">
+      <button type="button" aria-label="Câu hỏi trước" title="Câu hỏi trước" disabled={index === 0} onClick={() => goToQuestion(index - 1)}>←</button>
+      <button type="button" aria-label="Câu hỏi tiếp theo" title="Câu hỏi tiếp theo" disabled={finished} onClick={nextQuestion}>→</button>
+    </nav>}
   </main>
 }
